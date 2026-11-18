@@ -8,7 +8,6 @@ Panel artwork for a collection of Serge-format synthesizer modules, with drill t
 | Single modules | `Module` | 4U, 175 mm high, 1"–8" wide (Loudest Warning format) | 85 |
 | M-Class | `M-Class` | 8" × 7" | 28 |
 | Full panels | `Full Panel` | 17" × 7" | 13 |
-| Other | `Other` | Grau/Zone 4.25" × 7" panels and larger Haible / Blacet modules | 10 |
 
 ## Previews
 
@@ -17,7 +16,6 @@ Every panel, drawn at the same height so the widths compare truthfully:
 - [Module_overview.png](Module_overview.png)
 - [M-Class_overview.png](M-Class_overview.png)
 - [Full_Panel_overview.png](Full_Panel_overview.png)
-- [Other_overview.png](Other_overview.png)
 
 ## Folders
 
@@ -26,6 +24,8 @@ Images/                 one preview PNG per panel           Images/<category>/<n
 SVG/                    the panel artwork (Inkscape SVG)     SVG/<category>/<name>.svg
 Front Panel Express/    the .fpd files                       Front Panel Express/<category>/<name>.fpd
   Build Kit/            the script that makes the .fpd files, plus the print artwork it uses
+
+
 ```
 
 Each SVG has three layers:
@@ -79,9 +79,6 @@ Single modules follow the Loudest Warning 4U spec:
 - 175 mm high.
 - Widths of 25.0 / 50.5 / 75.5 / 101.0 mm for 1–4".
 - 3.2 mm mounting holes, 3 mm from the top and bottom edges, NMW − 1" apart and centred.
-
-Grau/Zone panels are 107.95 × 177.8 mm, with 3.2 mm mounting holes 6.35 mm from the sides and 3.175 mm from the top
-and bottom.
 
 ### Before you order
 
