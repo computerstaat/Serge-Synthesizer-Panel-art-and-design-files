@@ -1,0 +1,11 @@
+# Python / macOS clutter
+__pycache__/
+*.pyc
+.DS_Store
+
+# Front Panel Designer build log
+build_log.txt
+
+# The Other folder in the root of the repo (only that one; Images/Other, SVG/Other etc. are still tracked)
+/Other/
+/other/
