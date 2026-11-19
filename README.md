@@ -12,7 +12,9 @@ Panel artwork for a collection of Serge-format synthesizer modules, with drill t
 |---|---|---|---|
 | Single modules | `Module` | 4U, 175 mm high, 1"–8" wide (Loudest Warning format) | 85 |
 | M-Class | `M-Class` | 8" × 7" | 28 |
-| Full panels | `Full Panel` | 17" × 7" | 13 |
+| Full panels | `Full Panel` | 17" × 7" | 14 |
+| Quarter panels | `Quarter Panel` | 4.25" × 7" | 8 |
+| Other | `Other` | larger single modules (Haible and others) | 5 |
 
 ## Previews
 
@@ -21,6 +23,8 @@ Every panel, drawn at the same height so the widths compare truthfully:
 - [Module_overview.png](Module_overview.png)
 - [M-Class_overview.png](M-Class_overview.png)
 - [Full_Panel_overview.png](Full_Panel_overview.png)
+- [Quarter_Panel_overview.png](Quarter_Panel_overview.png)
+- [Other_overview.png](Other_overview.png)
 
 ## Folders
 
@@ -28,6 +32,7 @@ Every panel, drawn at the same height so the widths compare truthfully:
 Images/                 one preview PNG per panel            Images/<category>/<name>.png
 Vector Graphics/        the panel artwork (Inkscape SVG)      Vector Graphics/<category>/<name>.svg
 Front Panel Express/    Front Panel Designer files            Front Panel Express/<category>/<name>.fpd
+Drill Templates/        1:1 printable drill templates (PDF)   Drill Templates/Quarter Panel/<name>.pdf
 Modern Panel/           earlier modern-style panel drawings (Inkscape SVG)
 Paperface/              classic Serge paperface artwork (Illustrator, InDesign and PDF)
 ```
@@ -54,11 +59,17 @@ Drill holes (mm):
 
 The print is the Linework layer as a 600 dpi image, covering the whole plate.
 
+The drill templates print at actual size: every hole at its real diameter with centre cross-hairs, the panel artwork
+faintly underneath, and a 50 mm scale bar to check the print came out at 100 %.
+
 Single modules follow the Loudest Warning 4U spec:
 
 - 175 mm high.
 - Widths of 25.0 / 50.5 / 75.5 / 101.0 mm for 1–4".
 - 3.2 mm mounting holes, 3 mm from the top and bottom edges, NMW − 1" apart and centred.
+
+Quarter panels are 107.95 × 177.8 mm, with 3.2 mm mounting holes 6.35 mm from the sides and 3.175 mm from the top
+and bottom.
 
 ### Before you order
 
