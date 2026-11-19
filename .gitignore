@@ -13,6 +13,6 @@ fpd_client.py
 panels.json
 build_log.txt
 
-# The Other folder in the root of the repo (only that one; Images/Other, SVG/Other etc. are still tracked)
+# The Other panels live in the Other folder in the repo root and stay out of the repo
 /Other/
 /other/

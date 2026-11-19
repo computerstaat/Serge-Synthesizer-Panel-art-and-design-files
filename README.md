@@ -14,7 +14,6 @@ Panel artwork for a collection of Serge-format synthesizer modules, with drill t
 | M-Class | `M-Class` | 8" × 7" | 28 |
 | Full panels | `Full Panel` | 17" × 7" | 14 |
 | Quarter panels | `Quarter Panel` | 4.25" × 7" | 8 |
-| Other | `Other` | larger single modules (Haible and others) | 5 |
 
 ## Previews
 
@@ -24,7 +23,6 @@ Every panel, drawn at the same height so the widths compare truthfully:
 - [M-Class_overview.png](M-Class_overview.png)
 - [Full_Panel_overview.png](Full_Panel_overview.png)
 - [Quarter_Panel_overview.png](Quarter_Panel_overview.png)
-- [Other_overview.png](Other_overview.png)
 
 ## Folders
 
@@ -32,8 +30,7 @@ Every panel, drawn at the same height so the widths compare truthfully:
 Images/                 one preview PNG per panel            Images/<category>/<name>.png
 Vector Graphics/        the panel artwork (Inkscape SVG)      Vector Graphics/<category>/<name>.svg
 Front Panel Express/    Front Panel Designer files            Front Panel Express/<category>/<name>.fpd
-Drill Templates/        1:1 printable drill templates (PDF)   Drill Templates/Quarter Panel/<name>.pdf
-Modern Panel/           earlier modern-style panel drawings (Inkscape SVG)
+Drill Templates/        1:1 printable drill templates (PDF)   Drill Templates/<category>/<name>.pdf
 Paperface/              classic Serge paperface artwork (Illustrator, InDesign and PDF)
 ```
 
