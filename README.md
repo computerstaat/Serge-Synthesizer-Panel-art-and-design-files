@@ -31,7 +31,6 @@ Images/                 one preview PNG per panel            Images/<category>/<
 Vector Graphics/        the panel artwork (Inkscape SVG)      Vector Graphics/<category>/<name>.svg
 Front Panel Express/    Front Panel Designer files            Front Panel Express/<category>/<name>.fpd
 Drill Templates/        1:1 printable drill templates (PDF)   Drill Templates/Quarter Panel/<name>.pdf
-Modern Panel/           earlier modern-style panel drawings (Inkscape SVG)
 Paperface/              classic Serge paperface artwork (Illustrator, InDesign and PDF)
 ```
 
