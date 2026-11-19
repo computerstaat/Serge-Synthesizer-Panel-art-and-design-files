@@ -1,7 +1,12 @@
 # Serge-style Panel Artwork
 
 Panel artwork for a collection of Serge-format synthesizer modules, with drill templates and Front Panel Designer
-(`.fpd`) files ready to order from Front Panel Express.
+(`.fpd`) files for Front Panel Express.
+
+> **For educational purposes only.** This repository is shared so people can study and learn from Serge-style panel
+> design. It is not a product, it is not affiliated with or endorsed by any of the original designers or
+> manufacturers, and it comes with no warranty of any kind. The module designs, names and trademarks belong to their
+> owners. Check everything yourself before you use any of it.
 
 | Category | Folder name | Size | Panels |
 |---|---|---|---|
@@ -20,30 +25,34 @@ Every panel, drawn at the same height so the widths compare truthfully:
 ## Folders
 
 ```
-Images/                 one preview PNG per panel           Images/<category>/<name>.png
-SVG/                    the panel artwork (Inkscape SVG)     SVG/<category>/<name>.svg
-Front Panel Express/    the .fpd files                       Front Panel Express/<category>/<name>.fpd
-  Build Kit/            the script that makes the .fpd files, plus the print artwork it uses
-
-
+Images/                 one preview PNG per panel            Images/<category>/<name>.png
+SVG/                    the panel artwork (Inkscape SVG)      SVG/<category>/<name>.svg
+Front Panel Express/    Front Panel Designer files            Front Panel Express/<category>/<name>.fpd
+Modern Panel/           earlier modern-style panel drawings (Inkscape SVG)
+Paperface/              classic Serge paperface artwork (Illustrator, InDesign and PDF)
 ```
+
 Each SVG has three layers:
 
 - **Linework**: the print: outlines, lines and labels.
 - **Jacks/Knobs**: pictures of the parts, for previewing only.
 - **XXX**: drill marks.
 
-  | Part | Hole |
-  |---|---|
-  | Knob | 7 |
-  | Banana jack | double-D, 8.33 across the round sides, 6.35 across the flats, flats left and right (Cinch 108-09xx) |
-  | Toggle | 6.35 |
-  | 1/4" jack | 9.5 |
-  | LED | 4.25 |
-  | Push button | 7 |
-  | Mounting | 3.2 |
+## Panel specs
 
-- **Print:** the Linework layer as a 600 dpi PNG, placed over the whole plate.
+Drill holes (mm):
+
+| Part | Hole |
+|---|---|
+| Knob | 7 |
+| Banana jack | double-D, 8.33 across the round sides, 6.35 across the flats, flats left and right (Cinch 108-09xx) |
+| Toggle | 6.35 |
+| 1/4" jack | 9.5 |
+| LED | 4.25 |
+| Push button | 7 |
+| Mounting | 3.2 |
+
+The print is the Linework layer as a 600 dpi image, covering the whole plate.
 
 Single modules follow the Loudest Warning 4U spec:
 
@@ -61,4 +70,4 @@ Single modules follow the Loudest Warning 4U spec:
 
 The module designs belong to their original designers: Serge Tcherepnin (Serge Modular), Ken Stone (CGS),
 Jürgen Haible, John Blacet and others. This repository contains panel artwork drawn in a Serge style for
-building these modules.
+studying these modules.
