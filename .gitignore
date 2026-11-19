@@ -3,7 +3,14 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# Front Panel Designer build log
+# Everything used to build the Front Panel Express files stays out of the repo
+Front Panel Express/Build Kit/
+fpd/Build Kit/
+FPD_Kit/
+*.command
+fpd_build.py
+fpd_client.py
+panels.json
 build_log.txt
 
 # The Other folder in the root of the repo (only that one; Images/Other, SVG/Other etc. are still tracked)
