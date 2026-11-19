@@ -14,7 +14,6 @@ Panel artwork for a collection of Serge-format synthesizer modules, with drill t
 | M-Class | `M-Class` | 8" × 7" | 28 |
 | Full panels | `Full Panel` | 17" × 7" | 14 |
 | Quarter panels | `Quarter Panel` | 4.25" × 7" | 8 |
-| Other | `Other` | larger single modules (Haible and others) | 5 |
 
 ## Previews
 
@@ -24,7 +23,6 @@ Every panel, drawn at the same height so the widths compare truthfully:
 - [M-Class_overview.png](M-Class_overview.png)
 - [Full_Panel_overview.png](Full_Panel_overview.png)
 - [Quarter_Panel_overview.png](Quarter_Panel_overview.png)
-- [Other_overview.png](Other_overview.png)
 
 ## Folders
 
