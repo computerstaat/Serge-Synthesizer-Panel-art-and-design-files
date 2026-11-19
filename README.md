@@ -30,7 +30,7 @@ Every panel, drawn at the same height so the widths compare truthfully:
 Images/                 one preview PNG per panel            Images/<category>/<name>.png
 Vector Graphics/        the panel artwork (Inkscape SVG)      Vector Graphics/<category>/<name>.svg
 Front Panel Express/    Front Panel Designer files            Front Panel Express/<category>/<name>.fpd
-Drill Templates/        1:1 printable drill templates (PDF)   Drill Templates/Quarter Panel/<name>.pdf
+Drill Templates/        1:1 printable drill templates (PDF)   Drill Templates/<category>/<name>.pdf
 Paperface/              classic Serge paperface artwork (Illustrator, InDesign and PDF)
 ```
 
