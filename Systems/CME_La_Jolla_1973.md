@@ -15,6 +15,16 @@ Era: **Paperface** (1970s line art). Six 17" panels.
 
 The single modules are in `../Paperface/Images/Module/`.
 
+## Where it went
+
+This is the system Ken Stone later owned and documented as his "1973 classic Serge". Warren Burt assembled it for
+CME; it was then taken to Australia for the Clifton Hill Community Music Centre, later belonged to Rainer Linz (who
+used it in Stelarc performances), and came to Ken Stone in a simple wooden frame with loose panels. Ken Stone's
+panel line-up matches the six panels above.
+
+Unlike most Serges it was built with 3.5 mm jacks, chosen at CME by Roger Reynolds because he thought banana
+plugs too flimsy. The artwork here keeps the repo's banana jacks.
+
 Notes:
 - The Dual Mixer on these panels is the 4" version; the 3" Dual Mixer is a separate drawing.
 - Jacks are drawn as black banana jacks throughout; the originals used silver for audio.

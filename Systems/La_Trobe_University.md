@@ -4,6 +4,11 @@ The paperface system at La Trobe University, Melbourne, specified by Warren Burt
 
 Era: **Paperface**.
 
+Photos: the system laid out flat with its panels marked LA-1 to LA-4, and later photos of it mounted in a
+wooden frame (four rows of three panels) in a studio. The same 12 panels appear in both: the three
+Programmer-style panels across the top, the panel with a white insert in the second row, and the row of
+twelve 1" Glide strips in the middle.
+
 Status: **not built yet.** Photos confirm these paperface modules in the system: Noise Source (1": WHITE / PINK / S/H SOURCE pairs), Glide (1" strips, twelve in a row), Bi-Directional Quad-Switch (2"), Sequencer (with a LINK SEQ TO PROGRAMMER switch), Mixer (3 columns), Phaser, Analog Shift Register, Ring and Gate. Most labels in the photos are too small to read, so the panel-by-panel line-up still needs mapping.
 
 The Reverb and Adapter modules seen on the La Bestia reproduction are not part of the original system and are left out.
