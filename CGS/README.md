@@ -28,6 +28,19 @@ PNG in `Images`, SVG in `Vector Graphics`, 1:1 drill templates in `Drill Templat
 Front Panel Designer files into `Front Panel Express`.
 
 
-## Panels
+## The Human Comparator panels
 
-Your full CGS system panels (12 images) are kept as reference photos in `Other/Reference Photos/CGS Panels`, which is not tracked.
+Four full panels from The Human Comparator (Stockholm) artwork, built from these modules. The Images, Vector Graphics and Drill Templates folders hold each panel and each module.
+
+| Panel | Modules |
+|---|---|
+| HumanComparator_Panel_1 | Extended ADSR ×2, Dual VCA, Modulo Magic, Wave Multiplier (1"), Infinite Melody, CV Cluster, Slope Detector ×2, Dual Processor |
+| HumanComparator_Panel_2 | New Compact Oscillator ×2, Wave Multipliers, Mixer, VC Filter, Dual VCA, Dual Universal Slope Generator, VC Divider, Utility LFO |
+| HumanComparator_Panel_3 | Digital Noise, Gated Comparator, Pulse Divider, Logic, 8 Stage Programmer Sequencer |
+| HumanComparator_Panel_4 | Extended Function VCO, Compact VCO, Sub-Oscillator, Dual VCA (2"), Wave Multiplier (2"), VC Slope ×2, ASR |
+
+Modules that differ from the versions already here carry `_HumanComparator` in the name: Extended ADSR, Dual Processor, Wave Multipliers, Mixer, VC Filter, DUSG, Digital Noise, Sub-Oscillator, Dual VCA and ASR. New modules: New_Compact_Oscillator, Wave_Multiplier (1"), Wave_Multiplier_2in, Logic, 8_Stage_Programmer_Sequencer and VC_Slope.
+
+## Catgirl Synth panels
+
+In progress. The source artwork is in `Other/Reference Photos/CGS Panels` (not tracked).
