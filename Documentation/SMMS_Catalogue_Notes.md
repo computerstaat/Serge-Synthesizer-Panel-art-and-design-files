@@ -15,9 +15,9 @@ From the price lists in each catalogue (July 1980 in the 1979 catalogue, July 19
 |---|---|---|---|---|
 | NTO | New Timbral Oscillator | 3" | 3" | yes |
 | PCO | Precision VCO | 2" | 2" | yes |
-| QCA | Quad VCA | 4" | — | no |
+| QCA | Quad VCA | 4" | — | yes (Quad_VCA) |
 | FAD / XFAD | Dual VC Cross-Fader / VC Cross-Fader | 2" | 1" | X Fader |
-| UPAP | Universal Equal-Power Audio Processor | 4" | — | no |
+| UPAP | Universal Equal-Power Audio Processor | 4" | — | yes (rounded layout) |
 | UAP | Universal Audio Processor | — | 2" | yes |
 | 2VCA | Dual VCA | — | 1" | yes |
 | DCSM | Dual Channel Stereo Mixer | — | 2" | yes |
@@ -26,30 +26,30 @@ From the price lists in each catalogue (July 1980 in the 1979 catalogue, July 19
 | VCF2 | Variable Bandwidth VC Filter | 2" | 2" | yes |
 | VCFX | Extended Range VCF | 2" | 2" | yes |
 | QVM | Voltage Controlled Stereo Mixer | 4" | 4" | yes |
-| SMX | Multi-Channel Stereo Mixer (panner) | 8" | — | no |
-| PAN | Dual Stereo Panner Channel | 2" | 2" | no |
-| QMX | Multi-Channel Quadraphonic Mixer | 6" | 6" | no |
-| QPC | Quad Panner Channel | 2" | 2" | no |
+| SMX | Multi-Channel Stereo Mixer (panner) | 8" | — | Dual_Stereo_Panner + Stereo_Output_Mixer |
+| PAN | Dual Stereo Panner Channel | 2" | 2" | yes |
+| QMX | Multi-Channel Quadraphonic Mixer | 6" | 6" | yes |
+| QPC | Quad Panner Channel | 2" | 2" | yes (Quad_Channel) |
 | MIX | Dual Three-Input Audio Mixer | 3" | 3" | no (3" version) |
 | MIX2 | Dual Three-Input Audio Mixer | 2" | 2" | yes (Audio Mixer) |
 | MXP | Four-Input Stereo Mixer/Panner | 4" | 4" | no |
 | MAX | Matrix Mixer | 6" | 6" | yes |
 | PRNV | Preamp Detector | — | listed | yes |
-| ENV / ENV2 | Envelope Detector / Dual Envelope Detector | — | listed | no |
+| ENV / ENV2 | Envelope Detector / Dual Envelope Detector | — | listed | yes |
 | EQ | Resonant Equalizer | 2" | 2" | yes |
-| PHA | VC Phaser | 2" | 2" | no (our Phaser is 1") |
+| PHA | VC Phaser | 2" | 2" | yes (VC_Phaser) |
 | 2PHA | Dual VC Phaser | 2" | 2" | yes |
-| FRS / FRSX | Frequency Shifter / with External Carrier | — | listed | FRS yes |
+| FRS / FRSX | Frequency Shifter / with External Carrier | — | listed | both |
 | TWS | Triple VC Waveshaper | 2" | 2" | yes |
 | MOD / RING | Ring Modulator / VC Gate | 2" | 1" | yes (1") |
 | VCM | VC Wave Multipliers | 2" | 2" | yes |
 | WAD | Wilson Analog Delay | — | 3" | yes |
 | PEF / REF | Pitch and Envelope Follower | 7" | 7" | no |
 | TKB | Touch Activated Keyboard Sequencer | 16" | 16" | yes |
-| SQP4–SQP8 | 4- to 8-Stage Sequencer Programmer | — | 5"–9" | 4 and 6 stage |
+| SQP4–SQP8 | 4- to 8-Stage Sequencer Programmer | — | 5"–9" | all |
 | SEQ8 | 8-Stage Sequencer | — | 4" | yes |
 | SEQ | Ten-Stage Pulse Sequencer | 2" | — | no |
-| QSEQ / QUAN / QTKB | Quantizers | — | 1" / 2" / 2" | QUAN, QTKB |
+| QSEQ / QUAN / QTKB | Quantizers | — | 1" / 2" / 2" | all |
 | DSG / USG | Dual Universal Slope Generator | 3" | 3" | yes |
 | QUO | VC Quadrature Oscillator | — | 2" | yes |
 | SSG | Smooth and Stepped Function Generator | 3" | 3" | yes |
@@ -60,7 +60,7 @@ From the price lists in each catalogue (July 1980 in the 1979 catalogue, July 19
 | NVC | N-Voice Controller | — | 4" | no |
 | NOI | Noise Source | 2" | 2" | yes |
 | RVG | Random Voltage Generator | 2" | 2" | yes |
-| 2RVG | Dual Random Voltage Generator | 2" | 2" | no |
+| 2RVG | Dual Random Voltage Generator | 2" | 2" | yes |
 | RS | Random Source | — | 2" | yes |
 | ROU | Triple Bi-Directional Router | 2" | — | yes |
 | ASR / 2ASR | Analog Shift Register / Dual | 2" | 2" | yes |
@@ -73,7 +73,7 @@ From the price lists in each catalogue (July 1980 in the 1979 catalogue, July 19
 
 ## Catalogued but not drawn yet
 
-Quad VCA, the 4" UPAP, Multi-Channel Stereo Mixer and its Dual Stereo Panner channel, Multi-Channel Quadraphonic Mixer and its Quad Panner channel, the 3" Dual Audio Mixer, Four-Input Stereo Mixer/Panner, Envelope Detector and Dual Envelope Detector, the 2" VC Phaser, Pitch and Envelope Follower, Ten-Stage Pulse Sequencer, 5-, 7- and 8-stage Sequencer Programmers, the 1" Quantizer for SQPs, N-Voice Controller and Dual Random Voltage Generator.
+The 3" Dual Audio Mixer, Four-Input Stereo Mixer/Panner, Pitch and Envelope Follower, Ten-Stage Pulse Sequencer and N-Voice Controller.
 
 These are SMMS modules. Under the era rule they go into `SMMS/` from the catalogue drawings, and into `Modern/` only once a photo shows an aluminium version.
 
