@@ -78,7 +78,7 @@ Against the STS module list on the Egres site's "150 DPI graphics" page (archive
 | PRO | Control Voltage Processor | 1" | CV_Pro (also on the Red CV1 shop panel) |
 | PRC | Dual Processor | 2" | Dual_Processor |
 | BUFF | Scaling Buffer | 1" | Scaling_Buffers |
-| ADP | Four Adapters | 1" | **missing** |
+| ADP | Four Adapters | 1" | Adapter (one 1" adapter per module, from a photo of an SMMS panel) |
 
 SMMS modules drawn from the Introduction book's rounded-box drawings: Quad_VCA (QCA) and
 Universal_Equal_Power_Audio_Processor (UPAP).
