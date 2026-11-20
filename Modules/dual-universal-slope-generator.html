@@ -1,60 +1,73 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Dual Universal Slope Generator - Serge module build page</title><style>
-:root{--ink:#1d1d1b;--muted:#6b6b66;--line:#d9d6cf;--bg:#faf8f3;--card:#fff;--accent:#b3261e}
-*{box-sizing:border-box}body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--bg)}
-main{max-width:1040px;margin:0 auto;padding:32px 20px 64px}a{color:var(--accent)}
-h1{font-size:2rem;margin:0 0 4px}h2{font-size:1.25rem;margin:36px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
-.aka,.meta{color:var(--muted);margin:0}.summary{font-size:1.1rem;margin:14px 0 0}
+<title>Dual Universal Slope Generator | Serge module build page</title><style>
+:root{--ink:#1d1d1b;--muted:#6b6b66;--line:#e2ded5;--bg:#f6f4ee;--card:#fff;--accent:#b3261e;--ok:#2f7d32;--wait:#9a6a00;--no:#8a8a85}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--accent)}
+header.top{position:sticky;top:0;z-index:5;background:var(--ink);color:#fff}
+header.top .in{max-width:1120px;margin:0 auto;padding:10px 20px;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+header.top a{color:#fff;text-decoration:none;font-size:.9rem;opacity:.85}header.top a:hover{opacity:1}
+header.top .brand{font-weight:700;opacity:1;margin-right:auto}
+main{max-width:1120px;margin:0 auto;padding:28px 20px 64px}
+.hero{display:grid;grid-template-columns:minmax(220px,300px) 1fr;gap:36px;align-items:start}
+.hero .art{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:center}
+.hero .art img{max-width:100%;max-height:640px}
+h1{font-size:2.3rem;line-height:1.15;margin:0 0 6px}.aka{color:var(--muted);margin:0 0 14px}
+.summary{font-size:1.15rem;margin:0 0 18px}
+.facts{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;font-size:.95rem;margin:0 0 18px}
+.facts dt{color:var(--muted)}.facts dd{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:.88rem;text-decoration:none;color:var(--ink)}
+section{margin-top:44px}h2{font-size:1.35rem;margin:0 0 14px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
 .panels{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
-.panel{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px;width:230px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;width:220px}
 .panel img{display:block;height:300px;max-width:100%;margin:0 auto 10px;object-fit:contain}
-.panel h3{font-size:.95rem;margin:0 0 6px}.panel ul{margin:6px 0 0;padding-left:18px;font-size:.88rem}
-.files{font-size:.85rem}table{border-collapse:collapse;width:100%;background:var(--card)}
-th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.85rem;color:var(--muted)}
-.note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:6px;padding:10px 12px;font-size:.92rem}
-.back{font-size:.9rem}footer{margin-top:48px;color:var(--muted);font-size:.85rem}
-</style></head><body><main>
-<p class="back"><a href="index.html">&larr; All modules</a></p>
+.panel h3{font-size:.95rem;margin:0 0 6px}.files{font-size:.85rem}
+table{border-collapse:collapse;width:100%;background:var(--card);border:1px solid var(--line)}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.82rem;color:var(--muted);background:#faf9f5}
+.builds{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:18px}
+.build{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.build h3{margin:0 0 2px;font-size:1.08rem}.build .maker{color:var(--muted);font-size:.9rem;margin:0 0 12px}
+.build dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 14px;margin:0 0 12px;font-size:.93rem}.build dt{color:var(--muted)}.build dd{margin:0}
+.boards{margin:0 0 12px;padding-left:18px;font-size:.92rem}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:4px;padding:1px 6px;margin-right:6px;color:#fff}
+.pill.available{background:var(--ok)}.pill.listed{background:var(--wait)}.pill.none{background:var(--no)}
+.note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:8px;padding:10px 12px;font-size:.9rem;margin:8px 0 0}
+.licence{font-size:.85rem;color:var(--muted);margin-top:14px}
+h3.hw{font-size:1rem;margin:18px 0 8px}
+footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
+.idx td img{height:110px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}}
+</style></head><body>
+<header class="top"><div class="in"><a class="brand" href="index.html">Serge module build pages</a><a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a><a href="#build">Build options</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></header>
+<main>
+<div class="hero"><div class="art"><img src="../Modern/Images/Module/Dual_Universal_Slope_Generator.png" alt="Dual Universal Slope Generator panel"></div><div>
 <h1>Dual Universal Slope Generator</h1>
-<p class="aka">Also: DUSG, DSG, CGS114</p>
-<p class="meta">Serge Tcherepnin; CGS114 version by Ken Stone &middot; Modulation / envelopes / oscillators</p>
+<p class="aka">DUSG · DSG · CGS114</p>
 <p class="summary">Two identical slope generators, each of which can be a slew limiter, envelope, LFO, audio oscillator or pulse divider.</p>
-<h2>Panels in this repo</h2><div class="panels">
+<dl class="facts"><dt>Design</dt><dd>Serge Tcherepnin; CGS114 version by Ken Stone</dd><dt>Function</dt><dd>Modulation / envelopes / oscillators</dd><dt>Panel widths</dt><dd>3&quot;</dd><dt>Build options</dt><dd>1</dd></dl>
+<div class="chips"><a class="chip" href="#build-0">Ken Stone (CGS)</a></div></div></div>
+<section id="panels"><h2>Panels in this repo</h2><div class="panels">
 <div class="panel">
 <a href="../Modern/Images/Module/Dual_Universal_Slope_Generator.png"><img src="../Modern/Images/Module/Dual_Universal_Slope_Generator.png" alt="STS / modern (3&quot;)"></a>
-<h3>STS / modern (3&quot;)</h3>
-<div class="files"><a href="../Modern/Images/Module/Dual_Universal_Slope_Generator.png">PNG</a> &middot; <a href="../Modern/Vector%20Graphics/Module/Dual_Universal_Slope_Generator.svg">SVG</a> &middot; <a href="../Modern/Drill%20Templates/Module/Dual_Universal_Slope_Generator.pdf">Drill template (PDF, 1:1)</a></div>
-<ul><li>14 &times; Banana jacks</li><li>2 &times; LEDs</li><li>4 &times; Mounting holes</li><li>6 &times; Potentiometers / knobs</li><li>2 &times; Toggle switches</li></ul>
-</div>
+<h3>STS / modern (3&quot;)</h3><div class="files"><a href="../Modern/Images/Module/Dual_Universal_Slope_Generator.png">PNG</a> · <a href="../Modern/Vector%20Graphics/Module/Dual_Universal_Slope_Generator.svg">SVG</a> · <a href="../Modern/Drill%20Templates/Module/Dual_Universal_Slope_Generator.pdf">Drill template (1:1 PDF)</a></div></div>
 <div class="panel">
 <a href="../CGS/Images/Dual_Universal_Slope_Generator_HumanComparator.png"><img src="../CGS/Images/Dual_Universal_Slope_Generator_HumanComparator.png" alt="The Human Comparator (3&quot;)"></a>
-<h3>The Human Comparator (3&quot;)</h3>
-<div class="files"><a href="../CGS/Images/Dual_Universal_Slope_Generator_HumanComparator.png">PNG</a> &middot; <a href="../CGS/Vector%20Graphics/Dual_Universal_Slope_Generator_HumanComparator.svg">SVG</a> &middot; <a href="../CGS/Drill%20Templates/Dual_Universal_Slope_Generator_HumanComparator.pdf">Drill template (PDF, 1:1)</a></div>
-<ul><li>12 &times; Banana jacks</li><li>2 &times; LEDs</li><li>4 &times; Mounting holes</li><li>6 &times; Potentiometers / knobs</li><li>2 &times; Toggle switches</li></ul>
-</div>
-</div>
-<h2>How it works</h2>
-<p>Each half produces a voltage that rises and falls at rates set by the RISE and FALL knobs. What it does depends only on what is patched into it.</p>
-<p>Slew: a voltage at IN is followed by the output, but no faster than the RISE and FALL times allow. With a stepped voltage at IN this gives portamento; with the knobs fully up the output simply copies the input.</p>
-<p>Envelope: a pulse at TRIG IN starts a rise from 0 to about +5 V followed by the fall. A new trigger during the envelope is ignored, and an END pulse comes out when the cycle finishes.</p>
-<p>Oscillator: patch END back to TRIG IN (or set the cycle switch where fitted) and the slope runs continuously, from slow LFO up to audio. With RISE and FALL equal it makes a triangle; making one much shorter turns it into a sawtooth.</p>
-<p>Pitch and control: 1V/OCT halves the rise and fall times for each added volt, so the slope tracks a keyboard. VC IN, through its attenuator, varies the times too, and the switch chooses whether VC acts on RISE, FALL or BOTH.</p>
-<p>Divider: feed a pulse train into TRIG IN with a cycle a little longer than the pulse spacing, and the generator skips pulses, producing sub-harmonics.</p>
-<h2>Controls and jacks</h2><table><tr><th>Name</th><th>Type</th><th>What it does</th></tr>
-<tr><td>IN</td><td>input</td><td>Signal to be slewed.</td></tr>
-<tr><td>TRIG IN</td><td>input</td><td>Starts a rise / fall cycle.</td></tr>
-<tr><td>END</td><td>output</td><td>Pulse at the end of each cycle (LED shows activity).</td></tr>
-<tr><td>OUTPUT</td><td>output</td><td>The slope voltage.</td></tr>
-<tr><td>RISE, FALL</td><td>knobs</td><td>Rise and fall times.</td></tr>
-<tr><td>1V/OCT</td><td>input</td><td>Exponential control of both times.</td></tr>
-<tr><td>VC IN</td><td>input + knob</td><td>Control of the times, with attenuator.</td></tr>
-<tr><td>RISE / BOTH / FALL</td><td>switch</td><td>Which time VC IN controls.</td></tr>
-</table>
-<h2>Build it</h2><table><tr><th>Part</th><th>Source</th></tr>
-<tr><td>PCB</td><td><a href="https://www.elby-designs.com/contents/en-au/d6.html">Elby Designs</a>: CGS114 Slope PCB (search the Ken Stone range)<br><small>Sells the PCBs for Ken Stone&#x27;s CGS designs.</small></td></tr>
-<tr><td>Schematic</td><td><a href="https://open4umodular.github.io/synthpanel/modules/cgs114_dusg.html">Ken Stone CGS114: panel wiring, kit parts and test procedure</a></td></tr>
-<tr><td>BOM / parts list</td><td><a href="https://open4umodular.github.io/synthpanel/modules/cgs114_dusg.html">Ken Stone CGS114: kit parts list</a></td></tr>
-<tr><td>Panel</td><td>Print or order the panel from the files above; the drill template is 1:1.</td></tr></table>
+<h3>The Human Comparator (3&quot;)</h3><div class="files"><a href="../CGS/Images/Dual_Universal_Slope_Generator_HumanComparator.png">PNG</a> · <a href="../CGS/Vector%20Graphics/Dual_Universal_Slope_Generator_HumanComparator.svg">SVG</a> · <a href="../CGS/Drill%20Templates/Dual_Universal_Slope_Generator_HumanComparator.pdf">Drill template (1:1 PDF)</a></div></div>
+</div></section>
+<section id="how"><h2>How it works</h2><p>Each half produces a voltage that rises and falls at rates set by the RISE and FALL knobs. What it does depends only on what is patched into it.</p><p>Slew: a voltage at IN is followed by the output, but no faster than the RISE and FALL times allow. With a stepped voltage at IN this gives portamento; with the knobs fully up the output simply copies the input.</p><p>Envelope: a pulse at TRIG IN starts a rise from 0 to about +5 V followed by the fall. A new trigger during the envelope is ignored, and an END pulse comes out when the cycle finishes.</p><p>Oscillator: patch END back to TRIG IN (or set the cycle switch where fitted) and the slope runs continuously, from slow LFO up to audio. With RISE and FALL equal it makes a triangle; making one much shorter turns it into a sawtooth.</p><p>Pitch and control: 1V/OCT halves the rise and fall times for each added volt, so the slope tracks a keyboard. VC IN, through its attenuator, varies the times too, and the switch chooses whether VC acts on RISE, FALL or BOTH.</p><p>Divider: feed a pulse train into TRIG IN with a cycle a little longer than the pulse spacing, and the generator skips pulses, producing sub-harmonics.</p></section>
+<section id="controls"><h2>Controls and jacks</h2><table><tr><th>Name</th><th>Type</th><th>What it does</th></tr><tr><td>IN</td><td>input</td><td>Signal to be slewed.</td></tr><tr><td>TRIG IN</td><td>input</td><td>Starts a rise / fall cycle.</td></tr><tr><td>END</td><td>output</td><td>Pulse at the end of each cycle (LED shows activity).</td></tr><tr><td>OUTPUT</td><td>output</td><td>The slope voltage.</td></tr><tr><td>RISE, FALL</td><td>knobs</td><td>Rise and fall times.</td></tr><tr><td>1V/OCT</td><td>input</td><td>Exponential control of both times.</td></tr><tr><td>VC IN</td><td>input + knob</td><td>Control of the times, with attenuator.</td></tr><tr><td>RISE / BOTH / FALL</td><td>switch</td><td>Which time VC IN controls.</td></tr></table>
+</section>
+<section id="build"><h2>Build options</h2><div class="builds">
+<div class="build" id="build-0"><h3><a href="https://open4umodular.github.io/synthpanel/modules/cgs114_dusg.html">CGS114 (Ken Stone design)</a></h3><p class="maker"><a href="https://open4umodular.github.io/synthpanel/modules/index.html">Ken Stone (CGS)</a></p><dl>
+<dt>Offered as</dt><dd>PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone&#x27;s page</dd>
+<dt>PCB</dt><dd><a href="https://www.elby-designs.com/contents/en-au/d6.html">Elby Designs</a>: CGS114 Slope PCB (search the Ken Stone range)</dd>
+<dt>Schematic</dt><dd><span class="pill available">available</span><a href="https://open4umodular.github.io/synthpanel/modules/cgs114_dusg.html">Ken Stone CGS114: panel wiring, kit parts and test procedure</a></dd><dt>BOM</dt><dd><span class="pill available">available</span><a href="https://open4umodular.github.io/synthpanel/modules/cgs114_dusg.html">Ken Stone CGS114: kit parts list</a></dd></dl>
 <p class="note">Ken Stone&#x27;s page follows the original Serge kit instructions, including how to test each function once the panel is wired.</p>
-<h2>Original documentation</h2><ul><li><a href="../Documentation/SMMS_Catalogue_1980.pdf">SMMS catalogue 1980</a></li><li><a href="../Documentation/Serge_Modular_Music_Systems_STS_Catalog.pdf">STS catalogue</a></li></ul>
-<footer>Schematics, parts lists and PCBs belong to their designers and sellers; this page links to them. Panel artwork is from this repo. Generated by Modules/_source/make_pages.py.</footer></main></body></html>
+</div>
+</div><p class="licence">Ken Stone&#x27;s Serge-derived designs may be built for personal use only; Serge Tcherepnin keeps all rights to his circuits. Schematics, parts lists and PCBs belong to their designers and sellers, so these pages link to them rather than copying them.</p></section>
+<section id="hardware"><h2>Panel hardware</h2><p>Front-panel parts for each panel in this repo, counted from the panel files. Board parts (resistors, ICs, trimmers) are in each build option's own BOM.</p>
+<h3 class="hw">STS / modern (3&quot;)</h3><table><tr><th>Part</th><th>Qty</th><th>Note</th></tr><tr><td>Banana jack, black</td><td>4</td><td>4 mm</td></tr><tr><td>Banana jack, blue</td><td>6</td><td>4 mm</td></tr><tr><td>Banana jack, red</td><td>4</td><td>4 mm</td></tr><tr><td>LED</td><td>2</td><td></td></tr><tr><td>Mounting screw</td><td>4</td><td>panel to rails</td></tr><tr><td>Potentiometer + knob</td><td>6</td><td>value from the board BOM</td></tr><tr><td>Toggle switch</td><td>2</td><td>type from the board BOM</td></tr></table>
+<h3 class="hw">The Human Comparator (3&quot;)</h3><table><tr><th>Part</th><th>Qty</th><th>Note</th></tr><tr><td>Banana jack, black</td><td>4</td><td>4 mm</td></tr><tr><td>Banana jack, blue</td><td>4</td><td>4 mm</td></tr><tr><td>Banana jack, red</td><td>4</td><td>4 mm</td></tr><tr><td>LED</td><td>2</td><td></td></tr><tr><td>Mounting screw</td><td>4</td><td>panel to rails</td></tr><tr><td>Potentiometer + knob</td><td>6</td><td>value from the board BOM</td></tr><tr><td>Toggle switch</td><td>2</td><td>type from the board BOM</td></tr></table>
+</section>
+<section id="docs"><h2>Original documentation</h2><ul><li><a href="../Documentation/SMMS_Catalogue_1980.pdf">SMMS catalogue 1980</a></li><li><a href="../Documentation/Serge_Modular_Music_Systems_STS_Catalog.pdf">STS catalogue</a></li></ul></section>
+<footer>Panel artwork is from this repo, drawn after the original Serge panels. Schematics, BOMs and PCBs belong to their designers and sellers and are linked, not copied. Generated by Modules/_source/make_pages.py.</footer></main></body></html>

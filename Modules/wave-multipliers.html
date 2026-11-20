@@ -1,48 +1,69 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Wave Multipliers - Serge module build page</title><style>
-:root{--ink:#1d1d1b;--muted:#6b6b66;--line:#d9d6cf;--bg:#faf8f3;--card:#fff;--accent:#b3261e}
-*{box-sizing:border-box}body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--bg)}
-main{max-width:1040px;margin:0 auto;padding:32px 20px 64px}a{color:var(--accent)}
-h1{font-size:2rem;margin:0 0 4px}h2{font-size:1.25rem;margin:36px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
-.aka,.meta{color:var(--muted);margin:0}.summary{font-size:1.1rem;margin:14px 0 0}
+<title>Wave Multipliers | Serge module build page</title><style>
+:root{--ink:#1d1d1b;--muted:#6b6b66;--line:#e2ded5;--bg:#f6f4ee;--card:#fff;--accent:#b3261e;--ok:#2f7d32;--wait:#9a6a00;--no:#8a8a85}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--accent)}
+header.top{position:sticky;top:0;z-index:5;background:var(--ink);color:#fff}
+header.top .in{max-width:1120px;margin:0 auto;padding:10px 20px;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+header.top a{color:#fff;text-decoration:none;font-size:.9rem;opacity:.85}header.top a:hover{opacity:1}
+header.top .brand{font-weight:700;opacity:1;margin-right:auto}
+main{max-width:1120px;margin:0 auto;padding:28px 20px 64px}
+.hero{display:grid;grid-template-columns:minmax(220px,300px) 1fr;gap:36px;align-items:start}
+.hero .art{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:center}
+.hero .art img{max-width:100%;max-height:640px}
+h1{font-size:2.3rem;line-height:1.15;margin:0 0 6px}.aka{color:var(--muted);margin:0 0 14px}
+.summary{font-size:1.15rem;margin:0 0 18px}
+.facts{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;font-size:.95rem;margin:0 0 18px}
+.facts dt{color:var(--muted)}.facts dd{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:.88rem;text-decoration:none;color:var(--ink)}
+section{margin-top:44px}h2{font-size:1.35rem;margin:0 0 14px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
 .panels{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
-.panel{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px;width:230px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;width:220px}
 .panel img{display:block;height:300px;max-width:100%;margin:0 auto 10px;object-fit:contain}
-.panel h3{font-size:.95rem;margin:0 0 6px}.panel ul{margin:6px 0 0;padding-left:18px;font-size:.88rem}
-.files{font-size:.85rem}table{border-collapse:collapse;width:100%;background:var(--card)}
-th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.85rem;color:var(--muted)}
-.note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:6px;padding:10px 12px;font-size:.92rem}
-.back{font-size:.9rem}footer{margin-top:48px;color:var(--muted);font-size:.85rem}
-</style></head><body><main>
-<p class="back"><a href="index.html">&larr; All modules</a></p>
+.panel h3{font-size:.95rem;margin:0 0 6px}.files{font-size:.85rem}
+table{border-collapse:collapse;width:100%;background:var(--card);border:1px solid var(--line)}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.82rem;color:var(--muted);background:#faf9f5}
+.builds{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:18px}
+.build{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.build h3{margin:0 0 2px;font-size:1.08rem}.build .maker{color:var(--muted);font-size:.9rem;margin:0 0 12px}
+.build dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 14px;margin:0 0 12px;font-size:.93rem}.build dt{color:var(--muted)}.build dd{margin:0}
+.boards{margin:0 0 12px;padding-left:18px;font-size:.92rem}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:4px;padding:1px 6px;margin-right:6px;color:#fff}
+.pill.available{background:var(--ok)}.pill.listed{background:var(--wait)}.pill.none{background:var(--no)}
+.note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:8px;padding:10px 12px;font-size:.9rem;margin:8px 0 0}
+.licence{font-size:.85rem;color:var(--muted);margin-top:14px}
+h3.hw{font-size:1rem;margin:18px 0 8px}
+footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
+.idx td img{height:110px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}}
+</style></head><body>
+<header class="top"><div class="in"><a class="brand" href="index.html">Serge module build pages</a><a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a><a href="#build">Build options</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></header>
+<main>
+<div class="hero"><div class="art"><img src="../Modern/Images/Module/Wave_Multipliers.png" alt="Wave Multipliers panel"></div><div>
 <h1>Wave Multipliers</h1>
-<p class="aka">Also: VCM, CGS113</p>
-<p class="meta">Serge Tcherepnin; CGS113 version by Ken Stone &middot; Timbre / waveshaping</p>
+<p class="aka">VCM · CGS113</p>
 <p class="summary">Three separate voltage-controlled waveshapers that add harmonics to a signal instead of filtering them away.</p>
-<h2>Panels in this repo</h2><div class="panels">
+<dl class="facts"><dt>Design</dt><dd>Serge Tcherepnin; CGS113 version by Ken Stone</dd><dt>Function</dt><dd>Timbre / waveshaping</dd><dt>Panel widths</dt><dd>2&quot;</dd><dt>Build options</dt><dd>1</dd></dl>
+<div class="chips"><a class="chip" href="#build-0">Ken Stone (CGS)</a></div></div></div>
+<section id="panels"><h2>Panels in this repo</h2><div class="panels">
 <div class="panel">
 <a href="../Modern/Images/Module/Wave_Multipliers.png"><img src="../Modern/Images/Module/Wave_Multipliers.png" alt="STS / modern (2&quot;)"></a>
-<h3>STS / modern (2&quot;)</h3>
-<div class="files"><a href="../Modern/Images/Module/Wave_Multipliers.png">PNG</a> &middot; <a href="../Modern/Vector%20Graphics/Module/Wave_Multipliers.svg">SVG</a> &middot; <a href="../Modern/Drill%20Templates/Module/Wave_Multipliers.pdf">Drill template (PDF, 1:1)</a></div>
-<ul><li>12 &times; Banana jacks</li><li>4 &times; Mounting holes</li><li>3 &times; Potentiometers / knobs</li><li>1 &times; Toggle switches</li></ul>
-</div>
-</div>
-<h2>How it works</h2>
-<p>A filter changes timbre by removing frequencies. The Wave Multipliers do the opposite: they bend the waveform so that new, harmonically related overtones appear. Each of the three sections works in a different way, and each has its own control voltage and knob. In a VCO-VCF-VCA patch the usual place for it is between the oscillator and the filter.</p>
-<p>Top section: a switch picks the mode. In HI it squares up the signal with rounded, saturated peaks, like an overdriven tube amplifier but voltage controlled. In LO it is a plain linear VCA, handy for amplitude modulation or for gating a signal into the other sections.</p>
-<p>Middle section: fed with a sine wave, turning it up sweeps through the odd harmonics, up to about the 13th. It sounds like overblowing a pipe closed at one end, so it suits reed and wind sounds. A second input lets two signals be mixed before processing, which gives sum-and-difference-like effects richer than a ring modulator.</p>
-<p>Bottom section: chained full-wave rectifiers, each of which doubles the frequency of a sine or triangle. Sweeping the control moves smoothly through the even harmonics (2nd, 4th, 8th) without the drop in level a plain rectifier gives. It has two inputs and two outputs; the second output is a squared-up version of the first and behaves like a more complex pulse-width modulation.</p>
-<h2>Controls and jacks</h2><table><tr><th>Name</th><th>Type</th><th>What it does</th></tr>
-<tr><td>VC (each section)</td><td>input + knob</td><td>Control voltage and manual amount for that section.</td></tr>
-<tr><td>LO / HI</td><td>switch</td><td>Top section: linear VCA (LO) or soft squaring (HI).</td></tr>
-<tr><td>IN 1, IN 2</td><td>inputs</td><td>Middle and bottom sections: two inputs mixed before processing.</td></tr>
-<tr><td>OUT, OUT 1, OUT 2</td><td>outputs</td><td>Processed signals; OUT 2 of the bottom section is the squared version.</td></tr>
-</table>
+<h3>STS / modern (2&quot;)</h3><div class="files"><a href="../Modern/Images/Module/Wave_Multipliers.png">PNG</a> · <a href="../Modern/Vector%20Graphics/Module/Wave_Multipliers.svg">SVG</a> · <a href="../Modern/Drill%20Templates/Module/Wave_Multipliers.pdf">Drill template (1:1 PDF)</a></div></div>
+</div></section>
+<section id="how"><h2>How it works</h2><p>A filter changes timbre by removing frequencies. The Wave Multipliers do the opposite: they bend the waveform so that new, harmonically related overtones appear. Each of the three sections works in a different way, and each has its own control voltage and knob. In a VCO-VCF-VCA patch the usual place for it is between the oscillator and the filter.</p><p>Top section: a switch picks the mode. In HI it squares up the signal with rounded, saturated peaks, like an overdriven tube amplifier but voltage controlled. In LO it is a plain linear VCA, handy for amplitude modulation or for gating a signal into the other sections.</p><p>Middle section: fed with a sine wave, turning it up sweeps through the odd harmonics, up to about the 13th. It sounds like overblowing a pipe closed at one end, so it suits reed and wind sounds. A second input lets two signals be mixed before processing, which gives sum-and-difference-like effects richer than a ring modulator.</p><p>Bottom section: chained full-wave rectifiers, each of which doubles the frequency of a sine or triangle. Sweeping the control moves smoothly through the even harmonics (2nd, 4th, 8th) without the drop in level a plain rectifier gives. It has two inputs and two outputs; the second output is a squared-up version of the first and behaves like a more complex pulse-width modulation.</p></section>
+<section id="controls"><h2>Controls and jacks</h2><table><tr><th>Name</th><th>Type</th><th>What it does</th></tr><tr><td>VC (each section)</td><td>input + knob</td><td>Control voltage and manual amount for that section.</td></tr><tr><td>LO / HI</td><td>switch</td><td>Top section: linear VCA (LO) or soft squaring (HI).</td></tr><tr><td>IN 1, IN 2</td><td>inputs</td><td>Middle and bottom sections: two inputs mixed before processing.</td></tr><tr><td>OUT, OUT 1, OUT 2</td><td>outputs</td><td>Processed signals; OUT 2 of the bottom section is the squared version.</td></tr></table>
 <p class="note">The Wave Multipliers, Wave Multiplier (1&quot;) and Wave Multiplier 2in panels in the CGS folder come from The Human Comparator artwork and are different circuits.</p>
-<h2>Build it</h2><table><tr><th>Part</th><th>Source</th></tr>
-<tr><td>PCB</td><td><a href="https://www.elby-designs.com/contents/en-au/d6.html">Elby Designs</a>: CGS113 Wave Multipliers PCB (search the Ken Stone range)<br><small>Sells the PCBs for Ken Stone&#x27;s CGS designs.</small></td></tr>
-<tr><td>Schematic</td><td><a href="https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html">Ken Stone CGS113: schematic and construction</a></td></tr>
-<tr><td>BOM / parts list</td><td><a href="https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html">Ken Stone CGS113: parts list</a></td></tr>
-<tr><td>Panel</td><td>Print or order the panel from the files above; the drill template is 1:1.</td></tr></table>
-<h2>Original documentation</h2><ul><li><a href="../Documentation/SMMS_Catalogue_1980.pdf">SMMS catalogue 1980 (Wave Multipliers, VCM)</a></li></ul>
-<footer>Schematics, parts lists and PCBs belong to their designers and sellers; this page links to them. Panel artwork is from this repo. Generated by Modules/_source/make_pages.py.</footer></main></body></html>
+</section>
+<section id="build"><h2>Build options</h2><div class="builds">
+<div class="build" id="build-0"><h3><a href="https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html">CGS113 (Ken Stone design)</a></h3><p class="maker"><a href="https://open4umodular.github.io/synthpanel/modules/index.html">Ken Stone (CGS)</a></p><dl>
+<dt>Offered as</dt><dd>PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone&#x27;s page</dd>
+<dt>PCB</dt><dd><a href="https://www.elby-designs.com/contents/en-au/d6.html">Elby Designs</a>: CGS113 Wave Multipliers PCB (search the Ken Stone range)</dd>
+<dt>Schematic</dt><dd><span class="pill available">available</span><a href="https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html">Ken Stone CGS113: schematic and construction</a></dd><dt>BOM</dt><dd><span class="pill available">available</span><a href="https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html">Ken Stone CGS113: parts list</a></dd></dl>
+</div>
+</div><p class="licence">Ken Stone&#x27;s Serge-derived designs may be built for personal use only; Serge Tcherepnin keeps all rights to his circuits. Schematics, parts lists and PCBs belong to their designers and sellers, so these pages link to them rather than copying them.</p></section>
+<section id="hardware"><h2>Panel hardware</h2><p>Front-panel parts for each panel in this repo, counted from the panel files. Board parts (resistors, ICs, trimmers) are in each build option's own BOM.</p>
+<h3 class="hw">STS / modern (2&quot;)</h3><table><tr><th>Part</th><th>Qty</th><th>Note</th></tr><tr><td>Banana jack, black</td><td>7</td><td>4 mm</td></tr><tr><td>Banana jack, blue</td><td>5</td><td>4 mm</td></tr><tr><td>Mounting screw</td><td>4</td><td>panel to rails</td></tr><tr><td>Potentiometer + knob</td><td>3</td><td>value from the board BOM</td></tr><tr><td>Toggle switch</td><td>1</td><td>type from the board BOM</td></tr></table>
+</section>
+<section id="docs"><h2>Original documentation</h2><ul><li><a href="../Documentation/SMMS_Catalogue_1980.pdf">SMMS catalogue 1980 (Wave Multipliers, VCM)</a></li></ul></section>
+<footer>Panel artwork is from this repo, drawn after the original Serge panels. Schematics, BOMs and PCBs belong to their designers and sellers and are linked, not copied. Generated by Modules/_source/make_pages.py.</footer></main></body></html>

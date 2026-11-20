@@ -3,8 +3,9 @@
 
     python3 Modules/_source/make_pages.py
 
-Each module gets Modules/<slug>.html; Modules/index.html lists them all. The hardware lists are exported from the
-panel builder (one JSON per panel: every jack, knob, switch, LED and button with its position)."""
+Each module gets Modules/<slug>.html; Modules/index.html lists them all. A module can have several build options
+(a CGS board, a Low-Gain board, a Prism board ...), each with its own boards, schematic, BOM and fit notes.
+The hardware lists are exported from the panel builder: every jack (with its colour), knob, switch, LED and button."""
 import collections
 import html
 import json
@@ -16,21 +17,46 @@ OUT = os.path.dirname(HERE)
 ROOT = os.path.dirname(OUT)
 DATA = json.load(open(os.path.join(HERE, "modules.json")))
 MAKERS = DATA["makers"]
+e = html.escape
 
 CSS = """
-:root{--ink:#1d1d1b;--muted:#6b6b66;--line:#d9d6cf;--bg:#faf8f3;--card:#fff;--accent:#b3261e}
-*{box-sizing:border-box}body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--bg)}
-main{max-width:1040px;margin:0 auto;padding:32px 20px 64px}a{color:var(--accent)}
-h1{font-size:2rem;margin:0 0 4px}h2{font-size:1.25rem;margin:36px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
-.aka,.meta{color:var(--muted);margin:0}.summary{font-size:1.1rem;margin:14px 0 0}
+:root{--ink:#1d1d1b;--muted:#6b6b66;--line:#e2ded5;--bg:#f6f4ee;--card:#fff;--accent:#b3261e;--ok:#2f7d32;--wait:#9a6a00;--no:#8a8a85}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--accent)}
+header.top{position:sticky;top:0;z-index:5;background:var(--ink);color:#fff}
+header.top .in{max-width:1120px;margin:0 auto;padding:10px 20px;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+header.top a{color:#fff;text-decoration:none;font-size:.9rem;opacity:.85}header.top a:hover{opacity:1}
+header.top .brand{font-weight:700;opacity:1;margin-right:auto}
+main{max-width:1120px;margin:0 auto;padding:28px 20px 64px}
+.hero{display:grid;grid-template-columns:minmax(220px,300px) 1fr;gap:36px;align-items:start}
+.hero .art{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:center}
+.hero .art img{max-width:100%;max-height:640px}
+h1{font-size:2.3rem;line-height:1.15;margin:0 0 6px}.aka{color:var(--muted);margin:0 0 14px}
+.summary{font-size:1.15rem;margin:0 0 18px}
+.facts{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;font-size:.95rem;margin:0 0 18px}
+.facts dt{color:var(--muted)}.facts dd{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:.88rem;text-decoration:none;color:var(--ink)}
+section{margin-top:44px}h2{font-size:1.35rem;margin:0 0 14px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
 .panels{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
-.panel{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px;width:230px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;width:220px}
 .panel img{display:block;height:300px;max-width:100%;margin:0 auto 10px;object-fit:contain}
-.panel h3{font-size:.95rem;margin:0 0 6px}.panel ul{margin:6px 0 0;padding-left:18px;font-size:.88rem}
-.files{font-size:.85rem}table{border-collapse:collapse;width:100%;background:var(--card)}
-th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.85rem;color:var(--muted)}
-.note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:6px;padding:10px 12px;font-size:.92rem}
-.back{font-size:.9rem}footer{margin-top:48px;color:var(--muted);font-size:.85rem}
+.panel h3{font-size:.95rem;margin:0 0 6px}.files{font-size:.85rem}
+table{border-collapse:collapse;width:100%;background:var(--card);border:1px solid var(--line)}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.82rem;color:var(--muted);background:#faf9f5}
+.builds{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:18px}
+.build{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.build h3{margin:0 0 2px;font-size:1.08rem}.build .maker{color:var(--muted);font-size:.9rem;margin:0 0 12px}
+.build dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 14px;margin:0 0 12px;font-size:.93rem}.build dt{color:var(--muted)}.build dd{margin:0}
+.boards{margin:0 0 12px;padding-left:18px;font-size:.92rem}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:4px;padding:1px 6px;margin-right:6px;color:#fff}
+.pill.available{background:var(--ok)}.pill.listed{background:var(--wait)}.pill.none{background:var(--no)}
+.note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:8px;padding:10px 12px;font-size:.9rem;margin:8px 0 0}
+.licence{font-size:.85rem;color:var(--muted);margin-top:14px}
+h3.hw{font-size:1rem;margin:18px 0 8px}
+footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
+.idx td img{height:110px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}}
 """
 
 
@@ -48,6 +74,7 @@ def panel_files(v):
 
 
 def hardware(key):
+    """Front-panel parts for one panel: list of (part, qty, note)."""
     p = os.path.join(HERE, "hardware", (key or "") + ".json")
     if not key or not os.path.exists(p):
         return None
@@ -55,92 +82,131 @@ def hardware(key):
     for it in json.load(open(p))["items"]:
         k = it[0]
         if k == "jack":
-            c[{"banana": "Banana jacks", "quarter": '1/4" jacks', "button": "Push buttons"}.get(it[3], it[3])] += 1
+            if it[3] == "banana":
+                c[("Banana jack, %s" % (it[4] if len(it) > 4 else "colour not recorded"), "4 mm")] += 1
+            elif it[3] == "quarter":
+                c[('1/4" jack', "")] += 1
+            elif it[3] == "button":
+                c[("Push button", "")] += 1
         elif k == "knob":
-            c["Potentiometers / knobs"] += 1
+            c[("Potentiometer + knob", "value from the board BOM")] += 1
         elif k == "toggle":
-            c["Toggle switches"] += 1
+            c[("Toggle switch", "type from the board BOM")] += 1
         elif k == "dot":
-            c["LEDs"] += 1
+            c[("LED", "")] += 1
         elif k == "mount":
-            c["Mounting holes"] += 1
-    return c
+            c[("Mounting screw", "panel to rails")] += 1
+    return [(part, n, note) for (part, note), n in sorted(c.items())]
 
 
 def link(title, url):
-    return '<a href="%s">%s</a>' % (html.escape(url), html.escape(title))
+    return '<a href="%s">%s</a>' % (e(url), e(title))
+
+
+def status(s):
+    st = s.get("status", "none")
+    lab = {"available": "available", "listed": "listed, not linked yet", "none": "not published"}[st]
+    t = link(s["title"], s["url"]) if s.get("url") else e(s.get("title", ""))
+    return '<span class="pill %s">%s</span>%s' % (st, lab, t)
+
+
+def top_bar():
+    return ('<header class="top"><div class="in"><a class="brand" href="index.html">Serge module build pages</a>'
+            '<a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a>'
+            '<a href="#build">Build options</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></header>')
 
 
 def page(m):
-    e = html.escape
+    v0 = next((v for v in m["variants"] if "png" in panel_files(v)), m["variants"][0])
+    f0 = panel_files(v0)
     out = ['<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">',
-           "<title>%s - Serge module build page</title><style>%s</style></head><body><main>" % (e(m["name"]), CSS),
-           '<p class="back"><a href="index.html">&larr; All modules</a></p>',
-           "<h1>%s</h1>" % e(m["name"])]
+           "<title>%s | Serge module build page</title><style>%s</style></head><body>" % (e(m["name"]), CSS), top_bar(), "<main>"]
+    out.append('<div class="hero"><div class="art">%s</div><div>' % (
+        '<img src="%s" alt="%s panel">' % (rel(f0["png"]), e(m["name"])) if "png" in f0 else ""))
+    out.append("<h1>%s</h1>" % e(m["name"]))
     if m.get("aka"):
-        out.append('<p class="aka">Also: %s</p>' % e(", ".join(m["aka"])))
-    out.append('<p class="meta">%s &middot; %s</p>' % (e(m["designer"]), e(m["function"])))
+        out.append('<p class="aka">%s</p>' % e(" · ".join(m["aka"])))
     out.append('<p class="summary">%s</p>' % e(m["summary"]))
+    widths = sorted({v["width"] for v in m["variants"] if v.get("width")})
+    out.append('<dl class="facts"><dt>Design</dt><dd>%s</dd><dt>Function</dt><dd>%s</dd><dt>Panel widths</dt><dd>%s</dd>'
+               '<dt>Build options</dt><dd>%d</dd></dl>' % (e(m["designer"]), e(m["function"]),
+                                                           e(", ".join('%d"' % w for w in widths)) or "-", len(m["builds"])))
+    out.append('<div class="chips">%s</div></div></div>' % "".join(
+        '<a class="chip" href="#build-%d">%s</a>' % (i, e(MAKERS[b["maker"]]["name"])) for i, b in enumerate(m["builds"])))
 
-    out.append("<h2>Panels in this repo</h2><div class=\"panels\">")
+    out.append('<section id="panels"><h2>Panels in this repo</h2><div class="panels">')
+    names = {"png": "PNG", "svg": "SVG", "drill": "Drill template (1:1 PDF)"}
     for v in m["variants"]:
         f = panel_files(v)
         out.append('<div class="panel">')
         if "png" in f:
             out.append('<a href="%s"><img src="%s" alt="%s"></a>' % (rel(f["png"]), rel(f["png"]), e(v["label"])))
-        out.append("<h3>%s</h3>" % e(v["label"]))
-        names = {"png": "PNG", "svg": "SVG", "drill": "Drill template (PDF, 1:1)"}
-        out.append('<div class="files">%s</div>' % " &middot; ".join(link(names[k], rel(p)) for k, p in f.items()))
+        out.append('<h3>%s</h3><div class="files">%s</div></div>' % (
+            e(v["label"]), " · ".join(link(names[k], rel(p)) for k, p in f.items())))
+    out.append("</div></section>")
+
+    out.append('<section id="how"><h2>How it works</h2>%s</section>' % "".join("<p>%s</p>" % e(p) for p in m["how_it_works"]))
+    out.append('<section id="controls"><h2>Controls and jacks</h2><table><tr><th>Name</th><th>Type</th><th>What it does</th></tr>%s</table>' % "".join(
+        "<tr><td>%s</td><td>%s</td><td>%s</td></tr>" % tuple(e(x) for x in row) for row in m["controls"]))
+    out += ['<p class="note">%s</p>' % e(r) for r in m.get("related", [])]
+    out.append("</section>")
+
+    out.append('<section id="build"><h2>Build options</h2><div class="builds">')
+    for i, b in enumerate(m["builds"]):
+        mk = MAKERS[b["maker"]]
+        out.append('<div class="build" id="build-%d"><h3>%s</h3><p class="maker">%s</p><dl>' % (
+            i, link(b["name"], b["url"]), link(mk["name"], mk["url"])))
+        out.append("<dt>Offered as</dt><dd>%s</dd>" % e(b["offer"]))
+        if b.get("format"):
+            out.append("<dt>Format</dt><dd>%s</dd>" % e(b["format"]))
+        if b.get("pcb"):
+            pm = MAKERS[b["pcb"]["maker"]]
+            out.append("<dt>PCB</dt><dd>%s: %s</dd>" % (link(pm["name"], pm["url"]), e(b["pcb"]["item"])))
+        out.append("<dt>Schematic</dt><dd>%s</dd><dt>BOM</dt><dd>%s</dd></dl>" % (status(b["schematic"]), status(b["bom"])))
+        if b.get("boards"):
+            out.append('<ul class="boards">%s</ul>' % "".join("<li><b>%s</b>: %s</li>" % (e(n), e(d)) for n, d in b["boards"]))
+        out += ['<p class="note">%s</p>' % e(n) for n in b.get("notes", [])]
+        out.append("</div>")
+    out.append('</div><p class="licence">%s</p></section>' % e(DATA.get("licence_note", "")))
+
+    out.append('<section id="hardware"><h2>Panel hardware</h2><p>Front-panel parts for each panel in this repo, counted '
+               "from the panel files. Board parts (resistors, ICs, trimmers) are in each build option's own BOM.</p>")
+    for v in m["variants"]:
         hw = hardware(v.get("hw"))
         if hw:
-            out.append("<ul>%s</ul>" % "".join("<li>%d &times; %s</li>" % (n, e(k)) for k, n in sorted(hw.items())))
-        out.append("</div>")
-    out.append("</div>")
+            out.append('<h3 class="hw">%s</h3><table><tr><th>Part</th><th>Qty</th><th>Note</th></tr>%s</table>' % (
+                e(v["label"]), "".join("<tr><td>%s</td><td>%d</td><td>%s</td></tr>" % (e(p), n, e(t)) for p, n, t in hw)))
+    out.append("</section>")
 
-    out.append("<h2>How it works</h2>")
-    out += ["<p>%s</p>" % e(p) for p in m["how_it_works"]]
-    out.append("<h2>Controls and jacks</h2><table><tr><th>Name</th><th>Type</th><th>What it does</th></tr>")
-    out += ["<tr><td>%s</td><td>%s</td><td>%s</td></tr>" % tuple(e(x) for x in row) for row in m["controls"]]
-    out.append("</table>")
-    for r in m.get("related", []):
-        out.append('<p class="note">%s</p>' % e(r))
-
-    b = m["build"]
-    out.append("<h2>Build it</h2><table><tr><th>Part</th><th>Source</th></tr>")
-    for p in b["pcb"]:
-        mk = MAKERS[p["maker"]]
-        out.append("<tr><td>PCB</td><td>%s: %s<br><small>%s</small></td></tr>" % (link(mk["name"], mk["url"]), e(p["item"]), e(mk["note"])))
-    for s in b["schematic"]:
-        out.append("<tr><td>Schematic</td><td>%s</td></tr>" % link(s["title"], s["url"]))
-    for s in b["bom"]:
-        out.append("<tr><td>BOM / parts list</td><td>%s</td></tr>" % link(s["title"], s["url"]))
-    out.append("<tr><td>Panel</td><td>Print or order the panel from the files above; the drill template is 1:1.</td></tr></table>")
-    for n in b.get("notes", []):
-        out.append('<p class="note">%s</p>' % e(n))
     if m.get("docs"):
-        out.append("<h2>Original documentation</h2><ul>%s</ul>" % "".join(
+        out.append('<section id="docs"><h2>Original documentation</h2><ul>%s</ul></section>' % "".join(
             "<li>%s</li>" % link(d["title"], rel(d["path"])) for d in m["docs"]))
-    out.append("<footer>Schematics, parts lists and PCBs belong to their designers and sellers; this page links to them. "
-               "Panel artwork is from this repo. Generated by Modules/_source/make_pages.py.</footer></main></body></html>")
+    out.append("<footer>Panel artwork is from this repo, drawn after the original Serge panels. Schematics, BOMs and PCBs "
+               "belong to their designers and sellers and are linked, not copied. Generated by Modules/_source/make_pages.py."
+               "</footer></main></body></html>")
     return "\n".join(out)
 
 
 def index():
-    e = html.escape
     rows = []
     for m in DATA["modules"]:
         v = next((v for v in m["variants"] if "png" in panel_files(v)), None)
-        img = '<img src="%s" style="height:90px">' % rel(panel_files(v)["png"]) if v else ""
-        rows.append('<tr><td>%s</td><td><a href="%s.html">%s</a><br><small>%s</small></td><td>%s</td><td>%d</td></tr>' % (
-            img, m["slug"], e(m["name"]), e(", ".join(m.get("aka", []))), e(m["function"]), len(m["variants"])))
-    mk = "".join("<li>%s: %s</li>" % (link(x["name"], x["url"]), e(x["note"])) for x in MAKERS.values())
+        img = '<img src="%s" alt="">' % rel(panel_files(v)["png"]) if v else ""
+        makers = ", ".join(sorted({MAKERS[b["maker"]]["name"] for b in m["builds"]}))
+        rows.append('<tr><td>%s</td><td><a href="%s.html"><b>%s</b></a><br><small>%s</small><br>%s</td><td>%s</td><td>%s</td></tr>' % (
+            img, m["slug"], e(m["name"]), e(" · ".join(m.get("aka", []))), e(m["summary"]), e(m["function"]), e(makers)))
+    mk = "".join("<tr><td>%s</td><td>%s</td></tr>" % (link(x["name"], x["url"]), e(x["note"])) for x in MAKERS.values())
     return ('<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            "<title>Serge modules: build pages</title><style>%s</style></head><body><main>"
-            "<h1>Serge modules: build pages</h1><p class=\"summary\">For each module: the panels in this repo, how it works, "
-            "and where to get the PCB, schematic and parts list.</p>"
-            "<h2>Modules</h2><table><tr><th></th><th>Module</th><th>Function</th><th>Panels</th></tr>%s</table>"
-            "<h2>Where to get parts</h2><ul>%s</ul>"
-            "<footer>Generated by Modules/_source/make_pages.py from modules.json.</footer></main></body></html>") % (CSS, "".join(rows), mk)
+            '<title>Serge module build pages</title><style>%s</style></head><body>'
+            '<header class="top"><div class="in"><a class="brand" href="index.html">Serge module build pages</a>'
+            '<a href="#modules">Modules</a><a href="#sources">Where to get parts</a></div></header><main>'
+            '<h1>Serge module build pages</h1><p class="summary">For each module: the panels in this repo, how it works, '
+            'the front-panel hardware, and every known way to build it, with its PCB, schematic and parts list.</p>'
+            '<section id="modules"><h2>Modules</h2><table class="idx"><tr><th></th><th>Module</th><th>Function</th><th>Build options</th></tr>%s</table></section>'
+            '<section id="sources"><h2>Where to get parts</h2><table><tr><th>Source</th><th>What they offer</th></tr>%s</table>'
+            '<p class="licence">%s</p></section>'
+            '<footer>Generated by Modules/_source/make_pages.py from modules.json.</footer></main></body></html>') % (
+        CSS, "".join(rows), mk, e(DATA.get("licence_note", "")))
 
 
 if __name__ == "__main__":
