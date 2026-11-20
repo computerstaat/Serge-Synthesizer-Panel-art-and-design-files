@@ -35,14 +35,14 @@ Against the STS module list on the Egres site's "150 DPI graphics" page (archive
 | RING | Ring Modulator | 1" | Ring_Modulator |
 | FRS | Frequency Shifter | 3" | Frequency_Shifter |
 | FRSX | Frequency Shifter (external carrier) | 3" | **missing** |
-| PHA | Phase Shifter | 2" | **missing** (our 1" Phaser is not this module) |
+| PHA | Phase Shifter | 2" | VC_Phaser (from the 1980 catalogue drawing; our older 1" Phaser is a different module) |
 | 2PHA | Dual Phase Shifter | 2" | Dual_Phaser |
 | TWS | Triple Waveshaper | 2" | Triple_Waveshaper |
 | VCM | Wave Multipliers | 2" | Wave_Multipliers |
 | WAD | Wilson Analog Delay | 3" | Wilson_Analog_Delay |
 | PRNV | Preamp Detector | 1" | Preamp_Detector |
-| ENV | Envelope Detector | 1" | **missing** |
-| ENV2 | Dual Envelope Detector | 1" | **missing** |
+| ENV | Envelope Detector | 1" | Envelope_Detector (1980 catalogue drawing; the STS version adds a sensitivity pot, not drawn yet) |
+| ENV2 | Dual Envelope Detector | 1" | Dual_Envelope_Detector (1980 catalogue drawing) |
 | ASR | Analog Shift Register | 1" | ASR |
 | COM | Dual Comparator | 1" | Dual_Comp |
 | NCOM | Divide by N Comparator | 1" | Divide_N_Comp |
@@ -58,16 +58,16 @@ Against the STS module list on the Egres site's "150 DPI graphics" page (archive
 | NOI | Noise Source | 2" | Noise_Source |
 | RS | Random Source | 2" | Random_Source |
 | RVG | Random Voltage Generator | 2" | Random_Voltage_Generator |
-| 2RVG | Dual Random Voltage Generator | 2" | **missing** |
+| 2RVG | Dual Random Voltage Generator | 2" | Dual_Random_Voltage_Generator (1980 catalogue drawing) |
 | QUO | Quadrature Oscillator | 2" | Quadrature_Oscillator |
 | QUAN | Quantizer | 2" | Quantizer |
 | QSEQ | Quantizer for SQPs | 1" | **missing** |
 | QTKB | Quantizer for TKB | 2" | Quantizer_TKB |
 | SQP4 | 4-Stage Sequencer Programmer | 5" | 4_Stage_Sequencing_Programmer |
-| SQP5 | 5-Stage Sequencer Programmer | 6" | **missing** |
+| SQP5 | 5-Stage Sequencer Programmer | 6" | 5_Stage_Sequencing_Programmer |
 | SQP6 | 6-Stage Sequencer Programmer | 7" | 6_Stage_Sequencing_Programmer |
-| SQP7 | 7-Stage Sequencer Programmer | 8" | **missing** |
-| SQP8 | 8-Stage Sequencer Programmer | 9" | **missing** |
+| SQP7 | 7-Stage Sequencer Programmer | 8" | 7_Stage_Sequencing_Programmer |
+| SQP8 | 8-Stage Sequencer Programmer | 9" | 8_Stage_Sequencing_Programmer |
 | SEQ8 | Sequencer (8 × 2) | 4" | Sequencer |
 | TKB | Touch Keyboard Sequencer | 16" | Touch_Activated_Keyboard_Sequencer (full panel) |
 | TEV | Touch Envelope Voltage Source | 16" | **missing** |
