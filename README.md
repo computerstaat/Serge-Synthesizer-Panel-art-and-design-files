@@ -12,7 +12,7 @@ Panel artwork for a collection of Serge-format synthesizer modules, with drill t
 |---|---|---|---|
 | Single modules | `Module` | 4U, 175 mm high, 1"–8" wide (Loudest Warning format) | 92 |
 | M-Class | `M-Class` | 8" × 7" | 28 |
-| Full panels | `Full Panel` | 17" × 7" | 19 |
+| Full panels | `Full Panel` | 17" × 7" | 25 |
 | Quarter panels | `Quarter Panel` | 4.25" × 7" | 8 |
 
 ## Previews
@@ -38,6 +38,7 @@ Modern/                 the later Serge style (rounded boxes, "serge" at the bot
 Paperface/              the 1970s paperface line-art panels: Images, Vector Graphics and Drill Templates
 Serge Modular Music/    the white printed "SERGE MODULAR MUSIC SYSTEMS" panels (in progress, see its README)
 Documentation/          original Serge manuals, catalog and user's guide
+Systems/                one file per real Serge system (CME 1973, Cal Arts Black Serge, ...) pointing to its panels
 ```
 
 Each SVG has three layers:
