@@ -6,9 +6,7 @@
   <path d="M 0.6015,0.5000 L 0.9500,1.0000 L 0.6015,1.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 1.0500,0.5000 L 1.9000,0.5000 L 1.9000,1.3000 L 1.0500,1.3000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <text x="1.0000" y="1.4500" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0900" font-weight="normal" text-anchor="middle" fill="#000000">+</text>
-  <path d="M 0.1000,1.7347 A 0.4800,0.4800 0 0 1 0.9500,1.8330" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
-  <path d="M 0.1000,1.7700 L 0.1000,2.3000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
-  <path d="M 0.9500,1.8300 L 0.9500,2.3000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.1000,2.3000 L 0.1000,1.7347 A 0.4800,0.4800 0 0 1 0.9500,1.8330 L 0.9500,2.3000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 0.1000,2.3000 L 0.9500,2.3000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 0.1000,2.3300 L 0.9500,2.3300 L 0.9500,2.4500 L 0.1000,2.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <text x="0.1700" y="2.4250" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="start" fill="#000000">5</text>
@@ -21,9 +19,7 @@
   <path d="M 0.6015,2.5000 L 0.9500,3.0000 L 0.6015,3.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 1.0500,2.5000 L 1.9000,2.5000 L 1.9000,3.3000 L 1.0500,3.3000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <text x="1.0000" y="3.4500" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0900" font-weight="normal" text-anchor="middle" fill="#000000">+</text>
-  <path d="M 0.1000,3.7347 A 0.4800,0.4800 0 0 1 0.9500,3.8330" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
-  <path d="M 0.1000,3.7700 L 0.1000,4.3000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
-  <path d="M 0.9500,3.8300 L 0.9500,4.3000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.1000,4.3000 L 0.1000,3.7347 A 0.4800,0.4800 0 0 1 0.9500,3.8330 L 0.9500,4.3000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 0.1000,4.3000 L 0.9500,4.3000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 0.1000,4.3300 L 0.9500,4.3300 L 0.9500,4.4500 L 0.1000,4.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <text x="0.1700" y="4.4250" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="start" fill="#000000">5</text>
@@ -36,9 +32,7 @@
   <path d="M 0.6015,4.5000 L 0.9500,5.0000 L 0.6015,5.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 1.0500,4.5000 L 1.9000,4.5000 L 1.9000,5.3000 L 1.0500,5.3000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <text x="1.0000" y="5.4500" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0900" font-weight="normal" text-anchor="middle" fill="#000000">+</text>
-  <path d="M 0.1000,5.7347 A 0.4800,0.4800 0 0 1 0.9500,5.8330" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
-  <path d="M 0.1000,5.7700 L 0.1000,6.3000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
-  <path d="M 0.9500,5.8300 L 0.9500,6.3000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.1000,6.3000 L 0.1000,5.7347 A 0.4800,0.4800 0 0 1 0.9500,5.8330 L 0.9500,6.3000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 0.1000,6.3000 L 0.9500,6.3000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 0.1000,6.3300 L 0.9500,6.3300 L 0.9500,6.4500 L 0.1000,6.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <text x="0.1700" y="6.4250" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="start" fill="#000000">5</text>
