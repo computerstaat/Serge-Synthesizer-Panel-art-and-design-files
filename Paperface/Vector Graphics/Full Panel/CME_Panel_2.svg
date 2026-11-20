@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="17in" height="7in" viewBox="0 0 17 7">
+  <rect x="0" y="0" width="17" height="7" fill="#ffffff"/>
+  <rect x="0.004" y="0.004" width="16.992" height="6.992" fill="none" stroke="#b3b3b3" stroke-width="0.008"/>
+  <g transform="translate(0.0000,0)">
+  <path d="M 0.1000,0.5500 L 1.9000,0.5500 L 1.9000,2.4500 L 0.1000,2.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.5000,1.0000 L 1.5000,1.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.4235,1.5000 L 1.1000,1.9750 L 1.4235,2.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.5765,1.5000 L 1.9000,1.9750 L 1.5765,2.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.5000,2.0000 L 1.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.1000,2.5500 L 1.9000,2.5500 L 1.9000,4.4500 L 0.1000,4.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.5000,3.0000 L 1.5000,3.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.4235,3.5000 L 1.1000,3.9750 L 1.4235,4.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.5765,3.5000 L 1.9000,3.9750 L 1.5765,4.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.5000,4.0000 L 1.5000,4.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.1000,4.5500 L 1.9000,4.5500 L 1.9000,6.4500 L 0.1000,6.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.5000,5.0000 L 1.5000,5.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.4235,5.5000 L 1.1000,5.9750 L 1.4235,6.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.5765,5.5000 L 1.9000,5.9750 L 1.5765,6.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.5000,6.0000 L 1.5000,6.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <circle cx="0.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <text x="1.0000" y="6.7000" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.1050" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0300">MULTS</text>
+</g>
+  <g transform="translate(2.0000,0)">
+  <path d="M 0.0800,0.5000 L 0.9200,0.5000 L 0.9200,2.4200 L 0.0800,2.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="0.5000" y="1.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">1</text>
+  <path d="M 0.5000,1.0000 L 0.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.0800,0.5000 L 1.9200,0.5000 L 1.9200,2.4200 L 1.0800,2.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="1.5000" y="1.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">2</text>
+  <path d="M 1.5000,1.0000 L 1.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.0800,0.5000 L 2.9200,0.5000 L 2.9200,2.4200 L 2.0800,2.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="2.5000" y="1.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">3</text>
+  <path d="M 2.5000,1.0000 L 2.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 3.0800,0.5000 L 3.9200,0.5000 L 3.9200,2.4200 L 3.0800,2.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="3.5000" y="1.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">4</text>
+  <path d="M 3.5000,1.0000 L 3.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 4.0800,0.5000 L 4.9200,0.5000 L 4.9200,2.4200 L 4.0800,2.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="4.5000" y="1.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">5</text>
+  <path d="M 4.5000,1.0000 L 4.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 5.0800,0.5000 L 5.9200,0.5000 L 5.9200,2.4200 L 5.0800,2.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="5.5000" y="1.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">6</text>
+  <path d="M 5.5000,1.0000 L 5.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 6.0800,0.5000 L 6.9200,0.5000 L 6.9200,2.4200 L 6.0800,2.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="6.5000" y="1.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">7</text>
+  <path d="M 6.5000,1.0000 L 6.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 7.0800,0.5000 L 7.9200,0.5000 L 7.9200,2.4200 L 7.0800,2.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="7.5000" y="1.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">8</text>
+  <path d="M 7.5000,1.0000 L 7.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 8.0800,0.5000 L 8.9200,0.5000 L 8.9200,2.4200 L 8.0800,2.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="8.5000" y="1.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">9</text>
+  <path d="M 8.5000,1.0000 L 8.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 9.0800,0.5000 L 9.9200,0.5000 L 9.9200,2.4200 L 9.0800,2.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="9.5000" y="1.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">10</text>
+  <path d="M 9.5000,1.0000 L 9.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.1000,2.5000 L 0.5000,3.0000 L 0.9000,2.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="0.5000" y="2.6400" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0550" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">MULTI</text>
+  <path d="M 1.1000,2.5000 L 1.5000,3.0000 L 1.9000,2.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="1.5000" y="2.6400" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0550" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">RESET</text>
+  <path d="M 8.1000,2.5000 L 8.5000,3.0000 L 8.9000,2.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="8.5000" y="2.6400" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0550" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">HOLD</text>
+  <path d="M 9.1000,2.5000 L 9.5000,3.0000 L 9.9000,2.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="9.5000" y="2.6400" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0550" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">CLOCK</text>
+  <path d="M 2.4235,2.5000 L 2.1000,2.9750 L 2.4235,3.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.5765,2.5000 L 2.9000,2.9750 L 2.5765,3.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 5.4235,2.5000 L 5.1000,2.9750 L 5.4235,3.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 5.5765,2.5000 L 5.9000,2.9750 L 5.5765,3.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.0800,2.5000 L 7.9200,2.5000 L 7.9200,3.4500 L 2.0800,3.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.0800,3.5000 L 0.9200,3.5000 L 0.9200,5.4200 L 0.0800,5.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="0.5000" y="4.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">1</text>
+  <path d="M 0.5000,4.0000 L 0.5000,5.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.0800,3.5000 L 1.9200,3.5000 L 1.9200,5.4200 L 1.0800,5.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="1.5000" y="4.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">2</text>
+  <path d="M 1.5000,4.0000 L 1.5000,5.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.0800,3.5000 L 2.9200,3.5000 L 2.9200,5.4200 L 2.0800,5.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="2.5000" y="4.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">3</text>
+  <path d="M 2.5000,4.0000 L 2.5000,5.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 3.0800,3.5000 L 3.9200,3.5000 L 3.9200,5.4200 L 3.0800,5.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="3.5000" y="4.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">4</text>
+  <path d="M 3.5000,4.0000 L 3.5000,5.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 4.0800,3.5000 L 4.9200,3.5000 L 4.9200,5.4200 L 4.0800,5.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="4.5000" y="4.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">5</text>
+  <path d="M 4.5000,4.0000 L 4.5000,5.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 5.0800,3.5000 L 5.9200,3.5000 L 5.9200,5.4200 L 5.0800,5.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="5.5000" y="4.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">6</text>
+  <path d="M 5.5000,4.0000 L 5.5000,5.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 6.0800,3.5000 L 6.9200,3.5000 L 6.9200,5.4200 L 6.0800,5.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="6.5000" y="4.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">7</text>
+  <path d="M 6.5000,4.0000 L 6.5000,5.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 7.0800,3.5000 L 7.9200,3.5000 L 7.9200,5.4200 L 7.0800,5.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="7.5000" y="4.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">8</text>
+  <path d="M 7.5000,4.0000 L 7.5000,5.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 8.0800,3.5000 L 8.9200,3.5000 L 8.9200,5.4200 L 8.0800,5.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="8.5000" y="4.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">9</text>
+  <path d="M 8.5000,4.0000 L 8.5000,5.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 9.0800,3.5000 L 9.9200,3.5000 L 9.9200,5.4200 L 9.0800,5.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="9.5000" y="4.4200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">10</text>
+  <path d="M 9.5000,4.0000 L 9.5000,5.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.1000,5.5000 L 0.5000,6.0000 L 0.9000,5.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="0.5000" y="5.6400" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0550" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">MULTI</text>
+  <path d="M 1.1000,5.5000 L 1.5000,6.0000 L 1.9000,5.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="1.5000" y="5.6400" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0550" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">RESET</text>
+  <path d="M 8.1000,5.5000 L 8.5000,6.0000 L 8.9000,5.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="8.5000" y="5.6400" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0550" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">HOLD</text>
+  <path d="M 9.1000,5.5000 L 9.5000,6.0000 L 9.9000,5.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="9.5000" y="5.6400" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0550" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">CLOCK</text>
+  <path d="M 2.4235,5.5000 L 2.1000,5.9750 L 2.4235,6.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.5765,5.5000 L 2.9000,5.9750 L 2.5765,6.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 5.4235,5.5000 L 5.1000,5.9750 L 5.4235,6.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 5.5765,5.5000 L 5.9000,5.9750 L 5.5765,6.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.0800,5.5000 L 7.9200,5.5000 L 7.9200,6.4500 L 2.0800,6.4500 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="5.0000" y="6.7500" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0750" font-weight="bold" text-anchor="middle" fill="#000000">CENTER FOR MUSIC EXPERIMENT — LA JOLLA, CALIFORNIA — 1973</text>
+  <circle cx="0.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="3.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="3.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="4.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="4.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="5.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="5.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="6.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="6.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="7.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="7.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="8.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="8.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="9.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="9.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="8.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="9.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="5.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="3.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="4.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="6.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="7.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="3.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="3.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="4.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="4.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="5.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="5.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="6.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="6.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="7.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="7.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="8.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="8.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="9.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="9.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="8.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="9.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="5.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="3.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="4.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="6.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="7.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <text x="5.0000" y="0.3300" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.1050" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0300">DUAL SEQUENCER</text>
+</g>
+  <line x1="2.0000" y1="0" x2="2.0000" y2="7" stroke="#b3b3b3" stroke-width="0.008"/>
+  <g transform="translate(12.0000,0)">
+  <path d="M 0.1000,0.5000 L 1.0000,0.5000 L 1.0000,1.5000 L 0.1000,1.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="0.4200" y="0.6700" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">END</text>
+  <path d="M 0.6700,0.6600 L 0.7033,0.6600 L 0.7033,0.6200 L 0.7367,0.6200 L 0.7367,0.6600 L 0.7700,0.6600" fill="none" stroke="#000000" stroke-width="0.0192" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.0000,0.5000 L 2.9000,0.5000 L 2.9000,1.5000 L 2.0000,1.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.4500,0.6800 L 2.4833,0.6800 L 2.4833,0.6400 L 2.5167,0.6400 L 2.5167,0.6800 L 2.5500,0.6800" fill="none" stroke="#000000" stroke-width="0.0192" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.1200,1.5000 L 0.5000,2.0000 L 0.9800,1.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="0.5000" y="1.6600" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">START</text>
+  <path d="M 2.0000,2.0000 A 0.4700,0.4700 0 0 1 2.9000,1.7532" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.1200,2.5000 L 0.5000,3.0000 L 0.9800,2.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="0.5000" y="2.6600" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">CYCLE</text>
+  <path d="M 1.0200,2.5000 L 1.5000,3.0000 L 1.9800,2.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="1.5000" y="2.6600" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">HOLD</text>
+  <path d="M 2.0000,2.5000 L 2.9000,2.5000 L 2.9000,3.5000 L 2.0000,3.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="2.4500" y="2.6600" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">WINDOW</text>
+  <text x="2.4500" y="2.7500" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">SIZE</text>
+  <path d="M 2.0000,4.5000 L 2.9000,4.5000 L 2.9000,5.5000 L 2.0000,5.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="2.4500" y="4.6600" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">DURATION</text>
+  <path d="M 0.0700,6.3300 L 0.0700,5.8000 L 0.5000,5.5500 L 0.9300,5.8000 L 0.9300,6.3300 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.0700,6.3300 L 1.0700,5.8000 L 1.5000,5.5500 L 1.9300,5.8000 L 1.9300,6.3300 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.5000,5.0000 L 2.5000,6.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.1000,6.3600 L 2.9000,6.3600 L 2.9000,6.5200 L 0.1000,6.5200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.0000,6.3600 L 1.0000,6.5200" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.0000,6.3600 L 2.0000,6.5200" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="0.5000" y="6.4750" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">RISE</text>
+  <text x="1.5000" y="6.4750" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">FALL</text>
+  <text x="2.2000" y="6.4800" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">−</text>
+  <text x="2.8000" y="6.4800" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">+</text>
+  <circle cx="0.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <text x="1.5000" y="6.7400" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.1050" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0300">ENVELOPE GENERATOR</text>
+</g>
+  <line x1="12.0000" y1="0" x2="12.0000" y2="7" stroke="#b3b3b3" stroke-width="0.008"/>
+  <g transform="translate(15.0000,0)">
+  <path d="M 0.0800,0.4800 L 1.0000,0.4800 L 1.0000,2.5000 L 0.0800,2.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.0000,0.4800 L 1.9200,0.4800 L 1.9200,2.5000 L 1.0000,2.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.5000,1.0000 L 0.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.4550,2.5000 L 0.0800,3.0000 L 0.4550,3.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.6250,2.5000 L 1.0000,3.0000 L 0.6250,3.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.4550,3.5000 L 0.0800,4.0000 L 0.4550,4.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.6250,3.5000 L 1.0000,4.0000 L 0.6250,4.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.4550,4.5000 L 0.0800,5.0000 L 0.4550,5.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.6250,4.5000 L 1.0000,5.0000 L 0.6250,5.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.4550,5.5000 L 0.0800,6.0000 L 0.4550,6.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.6250,5.5000 L 1.0000,6.0000 L 0.6250,6.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.5000,1.0000 L 1.5000,2.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.3750,2.5000 L 1.0000,3.0000 L 1.3750,3.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.5450,2.5000 L 1.9200,3.0000 L 1.5450,3.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.3750,3.5000 L 1.0000,4.0000 L 1.3750,4.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.5450,3.5000 L 1.9200,4.0000 L 1.5450,4.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.3750,4.5000 L 1.0000,5.0000 L 1.3750,5.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.5450,4.5000 L 1.9200,5.0000 L 1.5450,5.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.3750,5.5000 L 1.0000,6.0000 L 1.3750,6.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.5450,5.5000 L 1.9200,6.0000 L 1.5450,6.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="0.5000" y="6.7000" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.1050" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0300">PEAK</text>
+  <text x="1.5000" y="6.7000" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.1050" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0300">TROUGH</text>
+  <circle cx="0.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="4.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="5.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="6.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  
+</g>
+  <line x1="15.0000" y1="0" x2="15.0000" y2="7" stroke="#b3b3b3" stroke-width="0.008"/>
+  
+</svg>
