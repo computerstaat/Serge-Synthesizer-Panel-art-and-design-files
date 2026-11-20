@@ -74,7 +74,7 @@ Against the STS module list on the Egres site's "150 DPI graphics" page (archive
 | ACPR | Active Processor | 1" | Active_Processor |
 | C/M | Control Module | 1" | C_M |
 | CVI | Control Voltage Interface | 3" | **missing** |
-| CMX | Control Voltage Mixer | 1" | **missing** |
+| CMX | Control Voltage Mixer | 1" | CV_Mixer (also on the Control Generator M-Class panel) |
 | PRO | Control Voltage Processor | 1" | CV_Pro (also on the Red CV1 shop panel) |
 | PRC | Dual Processor | 2" | Dual_Processor |
 | BUFF | Scaling Buffer | 1" | Scaling_Buffers |
