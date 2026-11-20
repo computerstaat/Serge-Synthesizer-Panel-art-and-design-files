@@ -44,7 +44,7 @@ From the price lists in each catalogue (July 1980 in the 1979 catalogue, July 19
 | MOD / RING | Ring Modulator / VC Gate | 2" | 1" | yes (1") |
 | VCM | VC Wave Multipliers | 2" | 2" | yes |
 | WAD | Wilson Analog Delay | — | 3" | yes |
-| PEF / REF | Pitch and Envelope Follower | 7" | 7" | no |
+| PEF / REF | Pitch and Envelope Follower | 7" | 7" | yes (Pitch_and_Envelope_Follower) |
 | TKB | Touch Activated Keyboard Sequencer | 16" | 16" | yes |
 | SQP4–SQP8 | 4- to 8-Stage Sequencer Programmer | — | 5"–9" | all |
 | SEQ8 | 8-Stage Sequencer | — | 4" | yes |
@@ -73,7 +73,7 @@ From the price lists in each catalogue (July 1980 in the 1979 catalogue, July 19
 
 ## Catalogued but not drawn yet
 
-The 3" Dual Audio Mixer, Four-Input Stereo Mixer/Panner, Pitch and Envelope Follower, Ten-Stage Pulse Sequencer and N-Voice Controller.
+The 3" Dual Audio Mixer, Four-Input Stereo Mixer/Panner, Ten-Stage Pulse Sequencer and N-Voice Controller.
 
 These are SMMS modules. Under the era rule they go into `SMMS/` from the catalogue drawings, and into `Modern/` only once a photo shows an aluminium version.
 
