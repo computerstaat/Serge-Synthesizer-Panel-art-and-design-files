@@ -52,6 +52,6 @@ Modules that differ from the versions already here carry `_HumanComparator` in t
 | Catgirl_Panel_VCOs_DUSG_Smooth_VCA_VCF_Stereo_Mixer | Precision VCO ×2, Dual Universal Slope Generator, Smooth / Stepped Function, Dual VCA, Variable Q VCF, VC Stereo Mixer (all `_Catgirl` versions) |
 | Catgirl_Panel_VCOs_Wave_Multipliers_DTG_VCF_Audio_Mixer | Precision VCO ×2, Wave Multipliers, Smooth / Stepped Function, Dual Transient Generator, Variable Q VCF, Audio Mixer, Dual VCA, Adapters (`_Catgirl` versions) |
 | Catgirl_Panel_Paperface_Oscillators_Comparator_Filter_KEG_Gate | paperface-style panel: Oscillator ×4, (Triple) Comparator, Filter, Keyboard Envelope Generator, Gate, built from the Paperface modules (16" wide, black line art like the Paperface set) |
-| Catgirl_Panel_Paperface_Send_Receive_BPF_Phaser_Mixer_Ring_Reverb_Outputs | the user's DIY paperface-style panel: Send & Receive, Band Pass Filters, Phaser, Audio Mixer, Ring, Reverb, Outputs (new `_Paperface` modules; Phaser and Ring are the Paperface ones) |
+| Catgirl_Panel_Paperface_Send_Receive_BPF_Phaser_Mixer_Ring_Reverb_Outputs | a DIY paperface-style panel (from a photo): Send & Receive, Band Pass Filters, Phaser, Audio Mixer, Ring, Reverb, Outputs (new `_Paperface` modules; Phaser and Ring are the Paperface ones) |
 
 The two paperface-style panels are black line art like the Paperface set (no drawn jacks or knobs, 16" wide, no Front Panel Express files). The source artwork is in `Other/Reference Photos/CGS Panels` (not tracked).
