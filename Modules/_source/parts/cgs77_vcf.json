@@ -1,0 +1,221 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs77_vcf.html",
+"board": "CGS77",
+"parts": [
+{
+"type": "Capacitor",
+"value": "5pF (omit for TL071)",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "47pF",
+"qty": 5
+},
+{
+"type": "Capacitor",
+"value": "100pF",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "220pF (Styrene)",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "10n",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "100n (monoblock)",
+"qty": 3
+},
+{
+"type": "Capacitor",
+"value": "100n MKT or better",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "10uF 25V",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "330R",
+"qty": 7
+},
+{
+"type": "Resistor",
+"value": "470R",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "1k",
+"qty": 5
+},
+{
+"type": "Resistor",
+"value": "2k2",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "3k3",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "4k7",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "15k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "18k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "22k",
+"qty": 5
+},
+{
+"type": "Resistor",
+"value": "33k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "47k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "68k",
+"qty": 8
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 11
+},
+{
+"type": "Resistor",
+"value": "330k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "470k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "1M",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "3M3",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "11M",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "22M",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "RG1-4 see text",
+"qty": 4
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "22k (25k) trimmer",
+"qty": 1
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "50k log pot",
+"qty": 1
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "100k lin pot",
+"qty": 3
+},
+{
+"type": "Semiconductor",
+"value": "LED",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "2N3904",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "2N3906",
+"qty": 4
+},
+{
+"type": "Semiconductor",
+"value": "J201",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LM748 or TL071",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "CA3080 or LM3080",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LM3900",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "TL074",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "0.156 4 pin connector",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "cgs77 PCB",
+"qty": 1
+}
+]
+}

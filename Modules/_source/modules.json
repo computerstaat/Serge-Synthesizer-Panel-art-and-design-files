@@ -163,6 +163,10 @@
      "notes": [
       "The CGS102 converts and sums control voltages only; it needs CGS108 gain cells for the audio path, and those need a host board.",
       "Ken Stone does not publish the CGS108 gain cell schematic: the circuit is proprietary. His page gives the PCB overlay and parts only."
+     ],
+     "parts": [
+      "cgs102_epp",
+      "cgs108_vca"
      ]
     }
    ],
@@ -301,6 +305,46 @@
      "notes": [
       "Ken Stone uses standard quad op-amps in place of the original RC4136 (LM3403 or TL074), and a 741 or TL071 in the mixers.",
       "The CGS90 board carries the phaser and both mixers, so the 4\" Phaser with Mixers panel uses every jack on the board; the 2\" Phaser panel leaves the mixers unused."
+     ],
+     "parts": "cgs90_phaser"
+    },
+    {
+     "maker": "prism",
+     "name": "Prism Circuits VC Phaser",
+     "url": "https://prismcircuits.net/products/serge-modular-vc-phaser",
+     "offer": "PCB for a 4U paperface panel",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-vc-phaser"
+     },
+     "notes": [
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE090 Phaser + Dual Audio Mixers",
+     "url": "https://www.low-gain.com/shop/p/lge090",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge090"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge090"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
      ]
     }
    ]
@@ -382,7 +426,28 @@
       "url": "https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html",
       "title": "Ken Stone CGS113: parts list"
      },
-     "notes": []
+     "notes": [],
+     "parts": "cgs113_vcm"
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE113 Wave Multipliers (VCM)",
+     "url": "https://www.low-gain.com/shop/p/low-gain-lge113-wave-multipliers-vcm-4u-serge-compatible",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/low-gain-lge113-wave-multipliers-vcm-4u-serge-compatible"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/low-gain-lge113-wave-multipliers-vcm-4u-serge-compatible"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
     }
    ]
   },
@@ -497,7 +562,2193 @@
      },
      "notes": [
       "Ken Stone's page follows the original Serge kit instructions, including how to test each function once the panel is wired."
+     ],
+     "parts": "cgs114_dusg"
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE114 Extended Dual Rise/Fall (DUSG)",
+     "url": "https://www.low-gain.com/shop/p/lge114",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge114"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge114"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
      ]
+    }
+   ]
+  },
+  {
+   "slug": "oscillator-1973",
+   "name": "Oscillator (1973)",
+   "aka": [
+    "Paperface Oscillator"
+   ],
+   "designer": "Serge Tcherepnin, 1973",
+   "function": "Oscillator",
+   "summary": "The original paperface VCO: a sine-to-saw waveshaper under voltage control, two frequency inputs, hard sync and AC / DC outputs.",
+   "how_it_works": [
+    "A single voltage-controlled oscillator. Its waveshaper morphs the output smoothly from sine to sawtooth, set by the WAVE SHAPE knob and its voltage control.",
+    "Two frequency control inputs, each with its own level knob, set the pitch: use one for a keyboard or sequencer and the other for frequency modulation.",
+    "A sync input hard-syncs the oscillator to another. The outputs come both AC coupled (for audio) and DC coupled (for use as a control voltage)."
+   ],
+   "controls": [
+    [
+     "Waveshape output and WAVE SHAPE",
+     "output + knob / VC",
+     "Sine to sawtooth under manual and voltage control."
+    ],
+    [
+     "Saw / pulse outputs",
+     "outputs",
+     "Further waveforms (see panel)."
+    ],
+    [
+     "Two VC inputs with knobs",
+     "inputs",
+     "Frequency control and FM."
+    ],
+    [
+     "SYNC",
+     "input",
+     "Hard sync."
+    ],
+    [
+     "Frequency",
+     "knob",
+     "Manual pitch."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Oscillator",
+     "hw": "pf_Oscillator",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits 1973 Oscillator",
+     "url": "https://prismcircuits.net/products/serge-modular-oscillator",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version)",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-oscillator"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/1973-oscillator",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "filter-1973",
+   "name": "VC Filter (1973)",
+   "aka": [
+    "Paperface Filter",
+    "1973 VCF",
+    "CGS77"
+   ],
+   "designer": "Serge Tcherepnin, 1973; CGS77 by Ken Stone",
+   "function": "Filter",
+   "summary": "A two-pole state-variable resonant filter with simultaneous low-pass, band-pass and high-pass outputs.",
+   "how_it_works": [
+    "A state-variable filter: one circuit produces low-pass, band-pass and high-pass versions of the input at the same time, each on its own output. All three share one cutoff frequency and one resonance (Q).",
+    "The cutoff is set by a knob and by voltage control; Q sets how strongly the filter rings at the cutoff. The original uses CA3080 transconductance amplifiers for the voltage-controlled stages.",
+    "Prism's calibration starts with a sawtooth into the audio input and the cutoff fully down, listening at the low-pass output."
+   ],
+   "controls": [
+    [
+     "HIGH, BAND, LOW",
+     "outputs",
+     "High-pass, band-pass and low-pass at once."
+    ],
+    [
+     "Q",
+     "knob",
+     "Resonance."
+    ],
+    [
+     "VC",
+     "input + knob",
+     "Cutoff frequency control."
+    ],
+    [
+     "Inputs",
+     "inputs",
+     "Audio in (see panel)."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Filter",
+     "hw": "pf_Filter",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits 1973 VCF",
+     "url": "https://prismcircuits.net/products/serge-modular-1973-vcf",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version); the two CA3080s are bought separately",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-1973-vcf"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/1973-vcf-lw",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS77 Serge 1973 VCF",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs77_vcf.html",
+     "parts": "cgs77_vcf",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS77 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS77 Serge 1973 VCF schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs77_vcf.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS77 Serge 1973 VCF parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs77_vcf.html"
+     },
+     "notes": []
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "triple-comparator",
+   "name": "Triple Comparator",
+   "aka": [
+    "Comparator",
+    "CGS96"
+   ],
+   "designer": "Serge Tcherepnin; CGS96 by Ken Stone",
+   "function": "Logic / waveshaping",
+   "summary": "Three comparators for squaring signals, variable-width pulses, level detection and amplitude-based logic.",
+   "how_it_works": [
+    "Each section compares two voltages and switches its output high or low according to which is larger. Fed with a waveform and a reference, it produces a square or pulse wave whose width moves as the reference moves.",
+    "The reference can be a fixed voltage, a slowly changing control voltage, or another audio signal, so the comparators also serve as level detectors and for logic decisions based on amplitude."
+   ],
+   "controls": [
+    [
+     "+ and - inputs",
+     "inputs",
+     "The two voltages compared in each section."
+    ],
+    [
+     "Reference / offset",
+     "knob",
+     "Manual reference level."
+    ],
+    [
+     "OUT",
+     "output",
+     "High or low result of the comparison."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Comparator",
+     "hw": "pf_Comparator",
+     "width": 2
+    },
+    {
+     "label": "Cal Arts / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Triple_Comparator",
+     "hw": "lw_triplecomp",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Triple Comparator",
+     "url": "https://prismcircuits.net/products/serge-modular-triple-comparator",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version)",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-triple-comparator"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/triple-comparator-lw",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS96 Serge Triple Comparator",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html",
+     "parts": "cgs96_comp",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS96 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS96 Serge Triple Comparator schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS96 Serge Triple Comparator parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html"
+     },
+     "notes": []
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "triple-wave-shaper",
+   "name": "Triple Wave Shaper",
+   "aka": [
+    "TWS",
+    "CGS85"
+   ],
+   "designer": "Serge Tcherepnin; CGS85 by Ken Stone",
+   "function": "Timbre / waveshaping",
+   "summary": "Three non-linear waveshapers that turn a sawtooth into a sine and, chained, fold waves into richer shapes.",
+   "how_it_works": [
+    "Each section bends the input waveform through a non-linear curve. With the right level a sawtooth or triangle comes out close to a sine wave; driven harder, the peaks fold back.",
+    "The three sections are independent, but patched in series each one adds another fold, building up brighter and more complex timbres. They work on oscillators and on external signals from a preamp."
+   ],
+   "controls": [
+    [
+     "Inputs and outputs (three sections)",
+     "inputs / outputs",
+     "One waveshaper each."
+    ],
+    [
+     "Level knobs",
+     "knobs",
+     "Drive into each shaper."
+    ],
+    [
+     "VC inputs",
+     "inputs",
+     "Voltage control of the drive (see panel)."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Triple_Wave_Shaper",
+     "hw": "pf_Triple_Wave_Shaper",
+     "width": 2
+    },
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Triple_Waveshaper",
+     "hw": "lw_triple",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Triple Waveshaper",
+     "url": "https://prismcircuits.net/products/serge-modular-triple-wave-shaper",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version)",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-triple-wave-shaper"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/triple-waveshaper-lw",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS85 Triple Wave Shaper",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html",
+     "parts": "cgs85_tws",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS85 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS85 Triple Wave Shaper schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS85 Triple Wave Shaper parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html"
+     },
+     "notes": []
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE085 Triple Waveshaper",
+     "url": "https://www.low-gain.com/shop/p/lge085",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge085"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge085"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "ring-modulator",
+   "name": "Ring Modulator",
+   "aka": [
+    "Ring",
+    "CGS79"
+   ],
+   "designer": "Serge Tcherepnin; CGS79 by Ken Stone",
+   "function": "Modulation",
+   "summary": "An AC or DC coupled ring modulator with voltage control that moves between full ring modulation and amplitude modulation.",
+   "how_it_works": [
+    "Two signals, X and Y, are multiplied. With both as audio the output holds their sum and difference frequencies: the metallic, bell-like ring-mod sound. With one as a slow control voltage it becomes a VCA.",
+    "Two VC inputs move the module smoothly between full ring modulation and plain amplitude modulation. DC coupling lets it process control voltages as well as audio."
+   ],
+   "controls": [
+    [
+     "X, Y",
+     "inputs",
+     "The two signals multiplied."
+    ],
+    [
+     "VC X, VC Y",
+     "inputs",
+     "Voltage control of each side."
+    ],
+    [
+     "VC knob",
+     "knob",
+     "Manual amount."
+    ],
+    [
+     "OUT",
+     "output",
+     "Product of X and Y."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Ring",
+     "hw": "pf_Ring",
+     "width": 1
+    },
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Ring_Modulator",
+     "hw": "lw_ring",
+     "width": 1
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Ring Modulator",
+     "url": "https://prismcircuits.net/products/serge-modular-ring-modulator",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version); the CA3080 is bought separately",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-ring-modulator"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/gate-ringmod-lw",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS79 Serge Ring Modulator",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html",
+     "parts": "cgs79_ring",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS79 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS79 Serge Ring Modulator schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS79 Serge Ring Modulator parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html"
+     },
+     "notes": []
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE006 R6 Ring / Gate",
+     "url": "https://www.low-gain.com/shop/p/lge006",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge006"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge006"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "gate-1973",
+   "name": "Gate (1973)",
+   "aka": [
+    "Paperface Gate",
+    "VCA"
+   ],
+   "designer": "Serge Tcherepnin, 1973",
+   "function": "Amplitude",
+   "summary": "An AC or DC coupled VCA with linear or log response.",
+   "how_it_works": [
+    "A voltage-controlled amplifier: the control voltage sets how much of the input reaches the output. The LIN and LOG inputs choose a linear or a logarithmic (exponential) response.",
+    "The AC input is for audio; the DC input passes control voltages too, so the Gate can shape CVs into new forms as well as gate sounds. GAIN sets the base level."
+   ],
+   "controls": [
+    [
+     "AC, DC",
+     "inputs",
+     "Audio (AC) and DC-coupled signal inputs."
+    ],
+    [
+     "LIN, LOG",
+     "inputs",
+     "Control voltage with linear or log response."
+    ],
+    [
+     "GAIN",
+     "knob",
+     "Manual level."
+    ],
+    [
+     "OUT",
+     "output",
+     "Gated signal."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Gate",
+     "hw": "pf_Gate",
+     "width": 1
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Gate",
+     "url": "https://prismcircuits.net/products/serge-modular-gate-vca",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version); the CA3080 is bought separately",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-gate-vca"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/gate-ringmod-lw",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "negative-slew",
+   "name": "Negative Slew",
+   "aka": [
+    "CGS82"
+   ],
+   "designer": "Serge Tcherepnin; CGS82 by Ken Stone",
+   "function": "Modulation / slew",
+   "summary": "Two sections that slew falling voltages, and with a little patching become voltage-controlled sawtooth oscillators.",
+   "how_it_works": [
+    "Each section lets a rising input pass straight through but slows the fall, at a rate set by the knob and its voltage control: a lag on negative-going steps.",
+    "Patch the section's pulse output back into its input and it regenerates, running as a voltage-controlled sawtooth oscillator, from slow LFO up to audio."
+   ],
+   "controls": [
+    [
+     "IN, OUT",
+     "jacks",
+     "Signal to slew and slewed output."
+    ],
+    [
+     "VC",
+     "input + knob",
+     "Slew rate control."
+    ],
+    [
+     "Pulse output",
+     "output",
+     "Pulse used to make the section cycle."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Negative_Slew",
+     "hw": "pf_Negative_Slew",
+     "width": 3
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Negative Slew",
+     "url": "https://prismcircuits.net/products/serge-modular-negative-slew",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version)",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-negative-slew"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/negative-slew-lw",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS82 Negative Slew",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html",
+     "parts": "cgs82_negative_slew",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS82 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS82 Negative Slew schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS82 Negative Slew parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html"
+     },
+     "notes": []
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE082 Dual Negative Slopes + Hills & Valleys",
+     "url": "https://www.low-gain.com/shop/p/lge082",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge082"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge082"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "positive-slew",
+   "name": "Positive Slew",
+   "aka": [
+    "CGS83"
+   ],
+   "designer": "Serge Tcherepnin; CGS83 by Ken Stone",
+   "function": "Modulation / slew",
+   "summary": "Two sections that slew rising voltages, or run as upward-ramp LFOs when their pulse is fed back.",
+   "how_it_works": [
+    "Each of the two identical sections controls the rate at which its output can rise, leaving falls untouched.",
+    "Feed the lower pulse output into START and the section runs as an upward-sloping ramp LFO or utility oscillator, good for fixed-pitch sequencing, effects and noises. It does not track 1V/oct."
+   ],
+   "controls": [
+    [
+     "IN, OUT",
+     "jacks",
+     "Signal and slewed output."
+    ],
+    [
+     "START, SUSTAIN",
+     "inputs",
+     "Trigger and hold."
+    ],
+    [
+     "VC",
+     "input + knob",
+     "Slew rate."
+    ],
+    [
+     "Pulse outputs",
+     "outputs",
+     "Gate and end pulses."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Positive_Slew",
+     "hw": "pf_Positive_Slew",
+     "width": 3
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Positive Slew",
+     "url": "https://prismcircuits.net/products/serge-modular-positive-slew",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version)",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-positive-slew"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/positive-slew-lw",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS83 Positive Slew",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs83_positive_slew.html",
+     "parts": "cgs83_positive_slew",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS83 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS83 Positive Slew schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs83_positive_slew.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS83 Positive Slew parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs83_positive_slew.html"
+     },
+     "notes": []
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE083 Dual Positive Slopes",
+     "url": "https://www.low-gain.com/shop/p/lge083",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge083"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge083"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "smooth-stepped-generator",
+   "name": "Smooth & Stepped Generator",
+   "aka": [
+    "SSG",
+    "Smooth Function / Stepped Function VC Generator",
+    "CGS92"
+   ],
+   "designer": "Serge Tcherepnin; CGS92 by Ken Stone",
+   "function": "Modulation / sample & hold",
+   "summary": "A Smooth (slew) section and a Stepped (track-and-hold) section that couple together for random voltages, portamento and oscillators.",
+   "how_it_works": [
+    "The Smooth section slews any voltage in both directions under voltage control: lag, portamento, or a low-frequency filter. Patch its CYCLE jack to its input and it oscillates as a voltage-controlled triangle oscillator.",
+    "The Stepped section samples its input and holds the value, moving in steps at a rate set by its own control.",
+    "The COUPLER links the two halves. Coupled to each other they make smooth or stepped random voltages, staircase waves and many other patterns, which is why the SSG is one of the most patched Serge modules."
+   ],
+   "controls": [
+    [
+     "SMOOTH IN / OUT",
+     "jacks",
+     "Slew section."
+    ],
+    [
+     "STEPPED IN / OUT",
+     "jacks",
+     "Sample / hold section."
+    ],
+    [
+     "CYCLE, HOLD, SAMPLE",
+     "inputs",
+     "Oscillate, hold, and sample triggers."
+    ],
+    [
+     "VC",
+     "inputs + knobs",
+     "Rate of each section."
+    ],
+    [
+     "COUPLER",
+     "output",
+     "Comparator output linking the sections."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Smooth_Stepped_Function_VC_Generator",
+     "hw": "pf_Smooth_Stepped_Function_VC_Generator",
+     "width": 3
+    },
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Smooth_Stepped_Generator",
+     "hw": "lw_smooth",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Smooth & Stepped Generator",
+     "url": "https://prismcircuits.net/products/serge-modular-smooth-stepped-generator",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version)",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-smooth-stepped-generator"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/smooth-stepped-generator",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS92 Serge Smooth and Stepped Generator",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs92_ssg.html",
+     "parts": "cgs92_ssg",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS92 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS92 Serge Smooth and Stepped Generator schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs92_ssg.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS92 Serge Smooth and Stepped Generator parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs92_ssg.html"
+     },
+     "notes": []
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE092 Smooth / Stepped Generator",
+     "url": "https://www.low-gain.com/shop/p/low-gain-lge092-smooth-stepped-generator-ssg-4u-serge-compatible",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/low-gain-lge092-smooth-stepped-generator-ssg-4u-serge-compatible"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/low-gain-lge092-smooth-stepped-generator-ssg-4u-serge-compatible"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    },
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "peak-trough",
+   "name": "Peak & Trough",
+   "aka": [
+    "Hills & Valleys",
+    "CGS84"
+   ],
+   "designer": "Serge Tcherepnin; CGS84 by Ken Stone",
+   "function": "Logic / analog logic",
+   "summary": "Analog logic: the Peak side passes the highest of its inputs (analog OR), the Trough side the lowest (analog AND).",
+   "how_it_works": [
+    "Each side takes several voltages at once. PEAK outputs whichever input is highest at each moment; TROUGH outputs whichever is lowest.",
+    "With gates these act as OR and AND; with audio or slow voltages they combine shapes in ways a mixer cannot, such as clipping one waveform with another or picking the louder of two envelopes."
+   ],
+   "controls": [
+    [
+     "Inputs",
+     "inputs",
+     "Buffered inputs for each side."
+    ],
+    [
+     "PEAK",
+     "output",
+     "Highest input (OR)."
+    ],
+    [
+     "TROUGH",
+     "output",
+     "Lowest input (AND)."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Peak_Trough",
+     "hw": "pf_Peak_Trough",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Peak & Trough",
+     "url": "https://prismcircuits.net/products/serge-modular-peak-trough",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version)",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-peak-trough"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/peak-trough",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS84 Dual Peak and Trough",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html",
+     "parts": "cgs84_peakandtrough",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS84 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS84 Dual Peak and Trough schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS84 Dual Peak and Trough parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html"
+     },
+     "notes": []
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE084 Peak & Trough (Hills & Valleys)",
+     "url": "https://www.low-gain.com/shop/p/lge084",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge084"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge084"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "envelope-generator-1973",
+   "name": "Envelope Generator (1973)",
+   "aka": [
+    "CGS76",
+    "R7 '73 EG"
+   ],
+   "designer": "Serge Tcherepnin, 1973; CGS76 by Ken Stone",
+   "function": "Envelopes",
+   "summary": "A rise-and-fall envelope that always completes its cycle, with a CYCLE input for looping.",
+   "how_it_works": [
+    "A trigger at START runs the envelope through its rise and fall. Once started it will not reset until the cycle is finished, which allows unusual rhythmic and divided patterns.",
+    "A high gate at CYCLE makes the envelope repeat, turning it into an LFO. Timing knobs and voltage control set the stages."
+   ],
+   "controls": [
+    [
+     "START",
+     "input",
+     "Trigger."
+    ],
+    [
+     "CYCLE",
+     "input",
+     "High gate makes it repeat."
+    ],
+    [
+     "Time knobs",
+     "knobs",
+     "Envelope stages."
+    ],
+    [
+     "DURATION / VC",
+     "input",
+     "Voltage control of timing (see panel)."
+    ],
+    [
+     "OUT",
+     "output",
+     "Envelope."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Envelope_Generator",
+     "hw": "pf_Envelope_Generator",
+     "width": 3
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Envelope Generator",
+     "url": "https://prismcircuits.net/products/serge-modular-envelope-generator",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version)",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-envelope-generator"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/envelope-generator-lw",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS76 Serge 1973 Envelope Generator",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs76_env.html",
+     "parts": "cgs76_env",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS75 PCB (the parts list names this board)"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS76 Serge 1973 Envelope Generator schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs76_env.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS76 Serge 1973 Envelope Generator parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs76_env.html"
+     },
+     "notes": []
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE076 R7 '73 Envelope Generator",
+     "url": "https://www.low-gain.com/shop/p/lge076",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge076"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge076"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "analog-shift-register",
+   "name": "Analog Shift Register",
+   "aka": [
+    "ASR",
+    "CGS34"
+   ],
+   "designer": "Serge Tcherepnin; CGS34 by Ken Stone",
+   "function": "Sample & hold",
+   "summary": "A three-stage bucket-brigade sample-and-hold: each clock pulse passes every held voltage on to the next output.",
+   "how_it_works": [
+    "On each clock pulse the first stage samples the input, and each stage hands its held voltage to the next. The outputs give the current value and the two before it, so a single melody turns into a three-part canon.",
+    "A built-in gate-to-trigger converter gives its own pulse output for clocking other modules. Some resistor pairs need matching for accuracy."
+   ],
+   "controls": [
+    [
+     "SAMPLE IN",
+     "input",
+     "Voltage to be sampled."
+    ],
+    [
+     "PULSE / clock",
+     "input",
+     "Shifts the register."
+    ],
+    [
+     "OUTPUTS 1-3",
+     "outputs",
+     "Current and earlier samples."
+    ],
+    [
+     "PULSE OUT",
+     "output",
+     "Trigger from the clock."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Analog_Shift_Register",
+     "hw": "pf_Analog_Shift_Register",
+     "width": 2
+    },
+    {
+     "label": "SMMS dual",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Dual_Analog_Shift_Register",
+     "hw": "lw_dualasr",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Analog Shift Register",
+     "url": "https://prismcircuits.net/products/serge-modular-analog-shift-register",
+     "offer": "PCB for a 4U paperface panel",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-analog-shift-register"
+     },
+     "notes": [
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS34 Analog Shift Register",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs34_asr.html",
+     "parts": "cgs34_asr",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS34 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS34 Analog Shift Register schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs34_asr.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS34 Analog Shift Register parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs34_asr.html"
+     },
+     "notes": []
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "bi-directional-router",
+   "name": "Triple Bi-Directional Router",
+   "aka": [
+    "Router",
+    "CGS88"
+   ],
+   "designer": "Serge Tcherepnin; CGS88 by Ken Stone",
+   "function": "Switching / routing",
+   "summary": "Three switches that send one input to either of two outputs, or pick one of two inputs, under pulse or voltage control.",
+   "how_it_works": [
+    "Each section is an electronic switch that works in both directions: A1 can be routed to A2 or B, or either can be routed back to one jack. A pulse or a control voltage above a threshold flips it.",
+    "Use it to alternate notes between two voices, swap modulation sources on a beat, or build simple sequential patches. Prism's calibration sets the internal rails to +7 V and -7 V with the trimmers."
+   ],
+   "controls": [
+    [
+     "A1, A2, B",
+     "jacks",
+     "The switched connections in each section."
+    ],
+    [
+     "Control",
+     "input",
+     "Pulse or voltage that flips the switch."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Triple_Bi-Directional_Router",
+     "hw": "pf_Triple_Bi-Directional_Router",
+     "width": 2
+    },
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Triple_Bi-Directional_Router",
+     "hw": "lw_router",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Bi-Directional Router",
+     "url": "https://prismcircuits.net/products/serge-modular-bi-directional-router",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version)",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-bi-directional-router"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/bi-directional-router",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS88 Serge Triple Bi-Directional Router",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs88_bds.html",
+     "parts": "cgs88_bds",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS88 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS88 Serge Triple Bi-Directional Router schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs88_bds.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS88 Serge Triple Bi-Directional Router parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs88_bds.html"
+     },
+     "notes": []
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE024 Bi-Directional Router (Switch)",
+     "url": "https://www.low-gain.com/shop/p/low-gain-lge024-quad-bi-directional-router-4u-serge-compatible",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/low-gain-lge024-quad-bi-directional-router-4u-serge-compatible"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/low-gain-lge024-quad-bi-directional-router-4u-serge-compatible"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "noise-source",
+   "name": "Noise Source",
+   "aka": [
+    "Noise / Random",
+    "CGS97"
+   ],
+   "designer": "Serge Tcherepnin; CGS97 by Ken Stone",
+   "function": "Noise / random",
+   "summary": "White and pink noise plus a sample-and-hold source for random voltages, triggered by pulses or a push button.",
+   "how_it_works": [
+    "A noise transistor produces white noise; a filter shapes it into pink noise. Both appear on their own outputs.",
+    "The S/H source feeds a sample-and-hold so that each trigger, from a pulse or the panel button, gives a new equally probable random voltage."
+   ],
+   "controls": [
+    [
+     "WHITE, PINK",
+     "outputs",
+     "Noise."
+    ],
+    [
+     "S/H SOURCE",
+     "output",
+     "Source for random voltages."
+    ],
+    [
+     "Trigger / button",
+     "input / button",
+     "Takes a new random value."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Noise_Source",
+     "hw": "pf_Noise_Source",
+     "width": 1
+    },
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Noise_Source",
+     "hw": "lw_noise",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Noise / Random",
+     "url": "https://prismcircuits.net/products/serge-modular-noise-source",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version); the CA3130 is bought separately",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-noise-source"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/noise-source-lw",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS97 Serge Noise",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs97_noise.html",
+     "parts": "cgs97_noise",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS97 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS97 Serge Noise schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs97_noise.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS97 Serge Noise parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs97_noise.html"
+     },
+     "notes": []
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "dual-processor",
+   "name": "Dual Processor",
+   "aka": [
+    "Processor"
+   ],
+   "designer": "Serge Tcherepnin",
+   "function": "CV processing / mixing",
+   "summary": "Two circuits that add, scale and invert control voltages, each with three inputs and a manual offset.",
+   "how_it_works": [
+    "Each half sums three input voltages. Each input has a level control that also sets polarity, so a voltage can be added, reduced or inverted.",
+    "A manual offset adds a fixed voltage to the result. Use it to combine envelopes and LFOs, transpose a sequence, or turn a 0-5 V signal into a bipolar one."
+   ],
+   "controls": [
+    [
+     "IN 1-3",
+     "inputs",
+     "Voltages to combine."
+    ],
+    [
+     "Level knobs",
+     "knobs",
+     "Amount and polarity of each input."
+    ],
+    [
+     "Offset (-5 / +5)",
+     "knob",
+     "Manual voltage added to the sum."
+    ],
+    [
+     "OUTPUT",
+     "output",
+     "The processed voltage."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Dual_Processor",
+     "hw": "pf_Dual_Processor",
+     "width": 3
+    },
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Dual_Processor",
+     "hw": "lw_dualproc",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Dual Processor",
+     "url": "https://prismcircuits.net/products/serge-modular-dual-processor",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version)",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-dual-processor"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/dual-processor-lw",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE012 Dual Processor V2",
+     "url": "https://www.low-gain.com/shop/p/lge012v2",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge012v2"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge012v2"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "dual-mixer",
+   "name": "Dual Mixer",
+   "aka": [
+    "Mixer"
+   ],
+   "designer": "Serge Tcherepnin",
+   "function": "Mixing",
+   "summary": "Two mixers, each with three level-controlled inputs and one unity-gain input.",
+   "how_it_works": [
+    "Each section sums three inputs through level knobs plus one input at fixed unity gain. Chain one section's output into the other's unity input to make a single larger mixer.",
+    "Outputs can be built as 1/4\", 3.5 mm or banana jacks; mixing a module's output back into its own input makes useful feedback patches."
+   ],
+   "controls": [
+    [
+     "IN 1-3 + knobs",
+     "inputs",
+     "Level-controlled inputs."
+    ],
+    [
+     "x1",
+     "input",
+     "Unity-gain input."
+    ],
+    [
+     "OUT",
+     "output",
+     "Mix."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Dual_Mixer",
+     "hw": "pf_Dual_Mixer",
+     "width": 2
+    },
+    {
+     "label": "Paperface, 4 inputs",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Dual_Mixer_4in",
+     "hw": "pf_Dual_Mixer_4in",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Dual Mixer",
+     "url": "https://prismcircuits.net/products/serge-modular-dual-mixer",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version)",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-dual-mixer"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/dual-mixer-lw",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "sequencer-10-stage",
+   "name": "Sequencer (Ten-Stage Pulse Sequencer)",
+   "aka": [
+    "Sequencer",
+    "Ten-Stage Pulse Sequencer"
+   ],
+   "designer": "Serge Tcherepnin",
+   "function": "Sequencing",
+   "summary": "A ten-stage pulse sequencer with CLOCK, RESET and HOLD inputs and a pulse output per stage.",
+   "how_it_works": [
+    "Each clock pulse moves the sequencer one stage on. The active stage puts out a pulse (and lights its LED), so the stages fire other modules in turn: envelopes, routers, sample-and-holds or a Programmer.",
+    "RESET returns it to the first stage and HOLD freezes it, so sequences of fewer than ten steps and stop-start patterns are easy. Prism's calibration sets the step output to 5-6 V."
+   ],
+   "controls": [
+    [
+     "CLOCK",
+     "input",
+     "Advances one stage."
+    ],
+    [
+     "RESET",
+     "input",
+     "Back to stage 1."
+    ],
+    [
+     "HOLD",
+     "input",
+     "Freezes the sequence."
+    ],
+    [
+     "Stage outputs 1-10",
+     "outputs",
+     "Pulse from the active stage."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "Paperface (1973)",
+     "dir": "Paperface",
+     "sub": "Module",
+     "file": "Sequencer",
+     "hw": "pf_Sequencer",
+     "width": 3
+    },
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Sequencer",
+     "hw": "lw_seq8",
+     "width": 4
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits Sequencer",
+     "url": "https://prismcircuits.net/products/serge-modular-sequencer",
+     "offer": "PCB for a 4U paperface panel",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/serge-modular-sequencer"
+     },
+     "notes": [
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "1973 paperface modules: first user's guide",
+     "path": "Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "x-fader",
+   "name": "X-Fader",
+   "aka": [
+    "X-Fade / Gate",
+    "Crossfader"
+   ],
+   "designer": "Serge Tcherepnin",
+   "function": "Mixing / amplitude",
+   "summary": "A voltage-controlled crossfader between two signals, with a built-in VCA on the result.",
+   "how_it_works": [
+    "Two inputs are blended into one output. A knob sets the starting balance and a control voltage moves it, so one source fades out as the other fades in.",
+    "A VCA on the output sets the overall level with its own knob and control input. AC or DC coupling lets it crossfade audio or control voltages."
+   ],
+   "controls": [
+    [
+     "IN 1, IN 2",
+     "inputs",
+     "The two sources."
+    ],
+    [
+     "Fade knob + VC",
+     "knob / input",
+     "Crossfade position."
+    ],
+    [
+     "Gain knob + VC",
+     "knob / input",
+     "Overall level."
+    ],
+    [
+     "OUT",
+     "output",
+     "Blend."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "X_Fader",
+     "hw": "lw_xfader",
+     "width": 1
+    },
+    {
+     "label": "X-Fader 2",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "X_Fader_2",
+     "hw": "lw_xfader2",
+     "width": 1
+    }
+   ],
+   "builds": [
+    {
+     "maker": "prism",
+     "name": "Prism Circuits X-Fade / Gate",
+     "url": "https://prismcircuits.net/products/x-fade-gate",
+     "offer": "PCB for a 4U paperface panel (also an LW-format version)",
+     "format": "4U Serge, paperface",
+     "schematic": {
+      "status": "none",
+      "title": "Not published by Prism"
+     },
+     "bom": {
+      "status": "available",
+      "title": "Mouser project BOM, linked from the product page",
+      "url": "https://prismcircuits.net/products/x-fade-gate"
+     },
+     "notes": [
+      "LW-format version: https://prismcircuits.net/products/x-fade-gate-lw",
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "gate-sequencer",
+   "name": "Gate Sequencer",
+   "aka": [
+    "CGS89"
+   ],
+   "designer": "Ken Stone (CGS89), after the Serge paperface Gate Sequencer",
+   "function": "Sequencing",
+   "summary": "A step sequencer of gates: each stage sends its pulse to a chosen output row.",
+   "how_it_works": [
+    "A counter steps through the stages on each clock. A switch at each stage sends that stage's gate to one of the output rows or leaves it silent, giving rhythmic patterns across several outputs.",
+    "This is Ken Stone's smaller-format version; the original paperface Gate Sequencer is a different panel (photo still needed)."
+   ],
+   "controls": [
+    [
+     "CLOCK, RESET",
+     "inputs",
+     "Step and restart."
+    ],
+    [
+     "Stage switches",
+     "switches",
+     "Which row each stage fires."
+    ],
+    [
+     "Row outputs",
+     "outputs",
+     "Gate patterns."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "CGS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Gate_Sequencer",
+     "hw": "lw_gateseq",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS89 Gate Sequencer",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs89_gate_sequencer.html",
+     "parts": "cgs89_gate_sequencer",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS89 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS89 Gate Sequencer schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs89_gate_sequencer.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS89 Gate Sequencer parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs89_gate_sequencer.html"
+     },
+     "notes": []
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE089C Gate Sequencer",
+     "url": "https://www.low-gain.com/shop/p/lge089c",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge089c"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge089c"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": []
+  },
+  {
+   "slug": "extended-adsr",
+   "name": "Extended ADSR",
+   "aka": [
+    "CGS116"
+   ],
+   "designer": "Serge Tcherepnin; CGS116 by Ken Stone",
+   "function": "Envelopes",
+   "summary": "A voltage-controlled ADSR with an extra stage, keyboard tracking and a shape switch.",
+   "how_it_works": [
+    "GATE and TRIG start the envelope; each stage has its own voltage-control input and knob, so the envelope's shape can be modulated while it plays.",
+    "1V/OCT (or VC ALL) scales all the stages together so envelopes get shorter as notes get higher. A switch picks the envelope shape, and an LED shows activity."
+   ],
+   "controls": [
+    [
+     "GATE, TRIG",
+     "inputs",
+     "Start the envelope."
+    ],
+    [
+     "Stage VC inputs + knobs",
+     "inputs / knobs",
+     "Time of each stage."
+    ],
+    [
+     "1V/OCT / VC ALL",
+     "input",
+     "Scales all stages."
+    ],
+    [
+     "Shape switch",
+     "switch",
+     "Envelope shape."
+    ],
+    [
+     "OUT",
+     "output",
+     "Envelope."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Extended_ADSR",
+     "hw": "lw_extadsr",
+     "width": 2
+    },
+    {
+     "label": "The Human Comparator",
+     "dir": "CGS",
+     "sub": "",
+     "file": "Extended_ADSR_HumanComparator",
+     "hw": "lw_hc_extadsr",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS116 Serge Extended ADSR",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs116_env.html",
+     "parts": "cgs116_env",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS116 PCB"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS116 Serge Extended ADSR schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs116_env.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS116 Serge Extended ADSR parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs116_env.html"
+     },
+     "notes": []
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE116 Extended ADSR",
+     "url": "https://www.low-gain.com/shop/p/lge116",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge116"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge116"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "extended-range-vcf",
+   "name": "Extended Range VCF / Variable Q VCF",
+   "aka": [
+    "VCFQ",
+    "VCFX",
+    "CGS112"
+   ],
+   "designer": "Serge Tcherepnin; CGS112 by Ken Stone",
+   "function": "Filter",
+   "summary": "Serge's resonant voltage-controlled filter with low, high, band and notch outputs over a very wide range.",
+   "how_it_works": [
+    "A resonant filter with low-pass, high-pass, band-pass and notch outputs. Q can be set high enough to ring or oscillate; VC Q and VC F control resonance and frequency.",
+    "Ken Stone's CGS112 builds it from three CGS108 Serge gain cells on a carrier board. The gain-cell schematic is not published."
+   ],
+   "controls": [
+    [
+     "LOW, HIGH, BAND, NOTCH",
+     "outputs",
+     "Filter responses."
+    ],
+    [
+     "IN 1, IN 2",
+     "inputs",
+     "Audio."
+    ],
+    [
+     "TRIG",
+     "input",
+     "Pings the filter."
+    ],
+    [
+     "VC Q, VC F, 1V/OCT",
+     "inputs",
+     "Control."
+    ],
+    [
+     "Q, frequency knobs",
+     "knobs",
+     "Manual settings."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Extended_Range_VCF",
+     "hw": "lw_ervcf",
+     "width": 2
+    },
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Variable_Q_VCF",
+     "hw": "lw_vqvcf",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS112 Serge VC Resonance Filter",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs112_vcfq.html",
+     "parts": "cgs112_vcfq",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS112 PCB set (+3 CGS108)"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS112 Serge VC Resonance Filter schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs112_vcfq.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS112 Serge VC Resonance Filter parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs112_vcfq.html"
+     },
+     "notes": []
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE112 Extended Range VCF (VCFX/VCFQ)",
+     "url": "https://www.low-gain.com/shop/p/low-gain-lge112-variable-q-filter-vcfq-4u-serge-compatible-panel",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/low-gain-lge112-variable-q-filter-vcfq-4u-serge-compatible-panel"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/low-gain-lge112-variable-q-filter-vcfq-4u-serge-compatible-panel"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
     }
    ]
   }

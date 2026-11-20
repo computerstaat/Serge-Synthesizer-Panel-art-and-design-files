@@ -1,0 +1,6 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour not recorded",10,4 mm,,,
+All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,8,value from the board BOM,,,
+All builds,Front panel (Paperface (1973)),Panel hardware,Knob,8,one per pot,,,
+Prism Circuits Dual Processor,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-dual-processor",,,
+Low-Gain LGE012 Dual Processor V2,Board,,See the maker's BOM,,Board BOMs on the product page - https://www.low-gain.com/shop/p/lge012v2,,,

@@ -1,0 +1,116 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs102_epp.html",
+"board": "CGS102",
+"parts": [
+{
+"type": "Resistor",
+"value": "6.8k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "10k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "13k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "33k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "47k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "82k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "110k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "150k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "220k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "330k",
+"qty": 8
+},
+{
+"type": "Capacitor",
+"value": "47pF",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "47pF 1206 SMT",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "10nF 1206 SMT",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "100nF 1206 SMT",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "CA3046, LM3046, CA3086 or sim.",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "TL071",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "TL074",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "5 pin 90° 0.1\" header strip",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "12 pin 90° 0.1\" header strip",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "CGS102 VER1.0 PCB set",
+"qty": 1
+}
+]
+}

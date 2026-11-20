@@ -7,6 +7,7 @@ Each module gets Modules/<slug>.html; Modules/index.html lists them all. A modul
 (a CGS board, a Low-Gain board, a Prism board ...), each with its own boards, schematic, BOM and fit notes.
 The hardware lists are exported from the panel builder: every jack (with its colour), knob, switch, LED and button."""
 import collections
+import csv
 import html
 import json
 import os
@@ -99,6 +100,46 @@ def hardware(key):
     return [(part, n, note) for (part, note), n in sorted(c.items())]
 
 
+BOM_COLS = ["Build option", "Section", "Type", "Value / part", "Qty", "Notes", "Mouser part no.", "Mouser link", "Unit price"]
+
+
+def parts_list(key):
+    p = os.path.join(HERE, "parts", key + ".json")
+    return json.load(open(p)) if os.path.exists(p) else None
+
+
+def bom_rows(m):
+    """Rows of the module's BOM spreadsheet: front-panel hardware, then each build option's board parts."""
+    rows = []
+    v0 = next((v for v in m["variants"] if hardware(v.get("hw"))), None)
+    if v0:
+        for part, n, note in hardware(v0["hw"]):
+            if part != "Mounting screw":
+                rows.append(["All builds", "Front panel (%s)" % v0["label"], "Panel hardware", part, n, note, "", "", ""])
+        rows.append(["All builds", "Front panel (%s)" % v0["label"], "Panel hardware", "Knob", sum(n for p_, n, _ in hardware(v0["hw"]) if p_.startswith("Potentiometer")), "one per pot", "", "", ""])
+    for b in m["builds"]:
+        keys = b.get("parts") or []
+        keys = [keys] if isinstance(keys, str) else keys
+        if keys:
+            for k in keys:
+                pl = parts_list(k)
+                for r in pl["parts"]:
+                    rows.append([b["name"], pl["board"] + " board", r["type"], r["value"], r["qty"], "from " + pl["source"], "", "", ""])
+        else:
+            rows.append([b["name"], "Board", "", "See the maker's BOM", "", b["bom"].get("title", "") + " - " + b["bom"].get("url", b["url"]), "", "", ""])
+    return rows
+
+
+def write_bom(m):
+    os.makedirs(os.path.join(OUT, "BOM"), exist_ok=True)
+    path = os.path.join(OUT, "BOM", m["slug"] + ".csv")
+    with open(path, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(BOM_COLS)
+        w.writerows(bom_rows(m))
+    return "BOM/%s.csv" % m["slug"]
+
+
 def link(title, url):
     return '<a href="%s">%s</a>' % (e(url), e(title))
 
@@ -113,7 +154,7 @@ def status(s):
 def top_bar():
     return ('<header class="top"><div class="in"><a class="brand" href="index.html">Serge module build pages</a>'
             '<a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a>'
-            '<a href="#build">Build options</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></header>')
+            '<a href="#build">Build options</a><a href="#bom">BOM</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></header>')
 
 
 def page(m):
@@ -169,6 +210,20 @@ def page(m):
         out.append("</div>")
     out.append('</div><p class="licence">%s</p></section>' % e(DATA.get("licence_note", "")))
 
+    rows = bom_rows(m)
+    out.append('<section id="bom"><h2>Bill of materials</h2><p>Spreadsheet: <a href="%s">%s</a> (CSV; opens in Excel, '
+               'Numbers or Google Sheets). The Mouser columns are there to fill in with order links.</p>' % (
+                   quote(m["bom_csv"]), e(os.path.basename(m["bom_csv"]))))
+    groups = collections.OrderedDict()
+    for r in rows:
+        groups.setdefault(r[0], []).append(r)
+    for g, rs in groups.items():
+        out.append('<details%s><summary><b>%s</b> (%d lines)</summary><table><tr><th>Section</th><th>Type</th><th>Value / part</th>'
+                   '<th>Qty</th><th>Notes</th></tr>%s</table></details>' % (
+                       " open" if g == "All builds" else "", e(g), len(rs), "".join(
+                           "<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>" % tuple(e(str(x)) for x in r[1:6]) for r in rs)))
+    out.append("</section>")
+
     out.append('<section id="hardware"><h2>Panel hardware</h2><p>Front-panel parts for each panel in this repo, counted '
                "from the panel files. Board parts (resistors, ICs, trimmers) are in each build option's own BOM.</p>")
     for v in m["variants"]:
@@ -209,7 +264,28 @@ def index():
         CSS, "".join(rows), mk, e(DATA.get("licence_note", "")))
 
 
+def readme():
+    """Modules/README.md: the index as Markdown, so GitHub shows it with pictures."""
+    L = ["# Serge module build pages", "",
+         "One page per module: the panels in this repo, how it works, the front-panel hardware, and every known way to build it, "
+         "with its PCB, schematic and parts list. Open the `.html` pages from a clone, or browse them on GitHub Pages; "
+         "each module's BOM spreadsheet is in [`BOM/`](BOM/).", "",
+         "| Panel | Module | Build options | BOM |", "|---|---|---|---|"]
+    for m in DATA["modules"]:
+        v = next((v for v in m["variants"] if "png" in panel_files(v)), None)
+        img = '<img src="%s" height="120">' % ("../" + quote(panel_files(v)["png"])) if v else ""
+        makers = ", ".join(sorted({MAKERS[b["maker"]]["name"] for b in m["builds"]}))
+        L.append("| %s | **[%s](%s.html)**<br>%s | %s | [%s](%s) |" % (img, m["name"], m["slug"], m["summary"], makers,
+                                                                     m["slug"] + ".csv", quote(m["bom_csv"])))
+    L += ["", "## Where to get parts", ""] + ["- [%s](%s): %s" % (x["name"], x["url"], x["note"]) for x in MAKERS.values()]
+    L += ["", DATA.get("licence_note", ""), "", "_Generated by `_source/make_pages.py` from `_source/modules.json`._", ""]
+    open(os.path.join(OUT, "README.md"), "w").write("\n".join(L))
+
+
 if __name__ == "__main__":
+    for m in DATA["modules"]:
+        m["bom_csv"] = write_bom(m)
+    readme()
     for m in DATA["modules"]:
         open(os.path.join(OUT, m["slug"] + ".html"), "w").write(page(m))
     open(os.path.join(OUT, "index.html"), "w").write(index())

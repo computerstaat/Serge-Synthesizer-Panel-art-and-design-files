@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>X-Fader | Serge module build page</title><style>
+:root{--ink:#1d1d1b;--muted:#6b6b66;--line:#e2ded5;--bg:#f6f4ee;--card:#fff;--accent:#b3261e;--ok:#2f7d32;--wait:#9a6a00;--no:#8a8a85}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--accent)}
+header.top{position:sticky;top:0;z-index:5;background:var(--ink);color:#fff}
+header.top .in{max-width:1120px;margin:0 auto;padding:10px 20px;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+header.top a{color:#fff;text-decoration:none;font-size:.9rem;opacity:.85}header.top a:hover{opacity:1}
+header.top .brand{font-weight:700;opacity:1;margin-right:auto}
+main{max-width:1120px;margin:0 auto;padding:28px 20px 64px}
+.hero{display:grid;grid-template-columns:minmax(220px,300px) 1fr;gap:36px;align-items:start}
+.hero .art{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:center}
+.hero .art img{max-width:100%;max-height:640px}
+h1{font-size:2.3rem;line-height:1.15;margin:0 0 6px}.aka{color:var(--muted);margin:0 0 14px}
+.summary{font-size:1.15rem;margin:0 0 18px}
+.facts{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;font-size:.95rem;margin:0 0 18px}
+.facts dt{color:var(--muted)}.facts dd{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:.88rem;text-decoration:none;color:var(--ink)}
+section{margin-top:44px}h2{font-size:1.35rem;margin:0 0 14px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
+.panels{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;width:220px}
+.panel img{display:block;height:300px;max-width:100%;margin:0 auto 10px;object-fit:contain}
+.panel h3{font-size:.95rem;margin:0 0 6px}.files{font-size:.85rem}
+table{border-collapse:collapse;width:100%;background:var(--card);border:1px solid var(--line)}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.82rem;color:var(--muted);background:#faf9f5}
+.builds{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:18px}
+.build{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.build h3{margin:0 0 2px;font-size:1.08rem}.build .maker{color:var(--muted);font-size:.9rem;margin:0 0 12px}
+.build dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 14px;margin:0 0 12px;font-size:.93rem}.build dt{color:var(--muted)}.build dd{margin:0}
+.boards{margin:0 0 12px;padding-left:18px;font-size:.92rem}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:4px;padding:1px 6px;margin-right:6px;color:#fff}
+.pill.available{background:var(--ok)}.pill.listed{background:var(--wait)}.pill.none{background:var(--no)}
+.note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:8px;padding:10px 12px;font-size:.9rem;margin:8px 0 0}
+.licence{font-size:.85rem;color:var(--muted);margin-top:14px}
+h3.hw{font-size:1rem;margin:18px 0 8px}
+footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
+.idx td img{height:110px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}}
+</style></head><body>
+<header class="top"><div class="in"><a class="brand" href="index.html">Serge module build pages</a><a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a><a href="#build">Build options</a><a href="#bom">BOM</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></header>
+<main>
+<div class="hero"><div class="art"><img src="../Modern/Images/Module/X_Fader.png" alt="X-Fader panel"></div><div>
+<h1>X-Fader</h1>
+<p class="aka">X-Fade / Gate · Crossfader</p>
+<p class="summary">A voltage-controlled crossfader between two signals, with a built-in VCA on the result.</p>
+<dl class="facts"><dt>Design</dt><dd>Serge Tcherepnin</dd><dt>Function</dt><dd>Mixing / amplitude</dd><dt>Panel widths</dt><dd>1&quot;</dd><dt>Build options</dt><dd>1</dd></dl>
+<div class="chips"><a class="chip" href="#build-0">Prism Circuits</a></div></div></div>
+<section id="panels"><h2>Panels in this repo</h2><div class="panels">
+<div class="panel">
+<a href="../Modern/Images/Module/X_Fader.png"><img src="../Modern/Images/Module/X_Fader.png" alt="STS / modern"></a>
+<h3>STS / modern</h3><div class="files"><a href="../Modern/Images/Module/X_Fader.png">PNG</a> · <a href="../Modern/Vector%20Graphics/Module/X_Fader.svg">SVG</a> · <a href="../Modern/Drill%20Templates/Module/X_Fader.pdf">Drill template (1:1 PDF)</a></div></div>
+<div class="panel">
+<a href="../Modern/Images/Module/X_Fader_2.png"><img src="../Modern/Images/Module/X_Fader_2.png" alt="X-Fader 2"></a>
+<h3>X-Fader 2</h3><div class="files"><a href="../Modern/Images/Module/X_Fader_2.png">PNG</a> · <a href="../Modern/Vector%20Graphics/Module/X_Fader_2.svg">SVG</a> · <a href="../Modern/Drill%20Templates/Module/X_Fader_2.pdf">Drill template (1:1 PDF)</a></div></div>
+</div></section>
+<section id="how"><h2>How it works</h2><p>Two inputs are blended into one output. A knob sets the starting balance and a control voltage moves it, so one source fades out as the other fades in.</p><p>A VCA on the output sets the overall level with its own knob and control input. AC or DC coupling lets it crossfade audio or control voltages.</p></section>
+<section id="controls"><h2>Controls and jacks</h2><table><tr><th>Name</th><th>Type</th><th>What it does</th></tr><tr><td>IN 1, IN 2</td><td>inputs</td><td>The two sources.</td></tr><tr><td>Fade knob + VC</td><td>knob / input</td><td>Crossfade position.</td></tr><tr><td>Gain knob + VC</td><td>knob / input</td><td>Overall level.</td></tr><tr><td>OUT</td><td>output</td><td>Blend.</td></tr></table>
+</section>
+<section id="build"><h2>Build options</h2><div class="builds">
+<div class="build" id="build-0"><h3><a href="https://prismcircuits.net/products/x-fade-gate">Prism Circuits X-Fade / Gate</a></h3><p class="maker"><a href="https://prismcircuits.net/">Prism Circuits</a></p><dl>
+<dt>Offered as</dt><dd>PCB for a 4U paperface panel (also an LW-format version)</dd>
+<dt>Format</dt><dd>4U Serge, paperface</dd>
+<dt>Schematic</dt><dd><span class="pill none">not published</span>Not published by Prism</dd><dt>BOM</dt><dd><span class="pill available">available</span><a href="https://prismcircuits.net/products/x-fade-gate">Mouser project BOM, linked from the product page</a></dd></dl>
+<p class="note">LW-format version: https://prismcircuits.net/products/x-fade-gate-lw</p>
+<p class="note">Prism&#x27;s product page also links its own panel art; that artwork is Prism&#x27;s and is not copied here.</p>
+</div>
+</div><p class="licence">Ken Stone&#x27;s Serge-derived designs may be built for personal use only; Serge Tcherepnin keeps all rights to his circuits. Schematics, parts lists and PCBs belong to their designers and sellers, so these pages link to them rather than copying them.</p></section>
+<section id="bom"><h2>Bill of materials</h2><p>Spreadsheet: <a href="BOM/x-fader.csv">x-fader.csv</a> (CSV; opens in Excel, Numbers or Google Sheets). The Mouser columns are there to fill in with order links.</p>
+<details open><summary><b>All builds</b> (5 lines)</summary><table><tr><th>Section</th><th>Type</th><th>Value / part</th><th>Qty</th><th>Notes</th></tr><tr><td>Front panel (STS / modern)</td><td>Panel hardware</td><td>1/4&quot; jack</td><td>1</td><td></td></tr><tr><td>Front panel (STS / modern)</td><td>Panel hardware</td><td>Banana jack, black</td><td>3</td><td>4 mm</td></tr><tr><td>Front panel (STS / modern)</td><td>Panel hardware</td><td>Banana jack, blue</td><td>2</td><td>4 mm</td></tr><tr><td>Front panel (STS / modern)</td><td>Panel hardware</td><td>Potentiometer + knob</td><td>2</td><td>value from the board BOM</td></tr><tr><td>Front panel (STS / modern)</td><td>Panel hardware</td><td>Knob</td><td>2</td><td>one per pot</td></tr></table></details>
+<details><summary><b>Prism Circuits X-Fade / Gate</b> (1 lines)</summary><table><tr><th>Section</th><th>Type</th><th>Value / part</th><th>Qty</th><th>Notes</th></tr><tr><td>Board</td><td></td><td>See the maker&#x27;s BOM</td><td></td><td>Mouser project BOM, linked from the product page - https://prismcircuits.net/products/x-fade-gate</td></tr></table></details>
+</section>
+<section id="hardware"><h2>Panel hardware</h2><p>Front-panel parts for each panel in this repo, counted from the panel files. Board parts (resistors, ICs, trimmers) are in each build option's own BOM.</p>
+<h3 class="hw">STS / modern</h3><table><tr><th>Part</th><th>Qty</th><th>Note</th></tr><tr><td>1/4&quot; jack</td><td>1</td><td></td></tr><tr><td>Banana jack, black</td><td>3</td><td>4 mm</td></tr><tr><td>Banana jack, blue</td><td>2</td><td>4 mm</td></tr><tr><td>Mounting screw</td><td>2</td><td>panel to rails</td></tr><tr><td>Potentiometer + knob</td><td>2</td><td>value from the board BOM</td></tr></table>
+<h3 class="hw">X-Fader 2</h3><table><tr><th>Part</th><th>Qty</th><th>Note</th></tr><tr><td>Banana jack, black</td><td>3</td><td>4 mm</td></tr><tr><td>Banana jack, blue</td><td>2</td><td>4 mm</td></tr><tr><td>Mounting screw</td><td>2</td><td>panel to rails</td></tr><tr><td>Potentiometer + knob</td><td>2</td><td>value from the board BOM</td></tr></table>
+</section>
+<section id="docs"><h2>Original documentation</h2><ul><li><a href="../Documentation/SMMS_Catalogue_1980.pdf">SMMS catalogue 1980</a></li></ul></section>
+<footer>Panel artwork is from this repo, drawn after the original Serge panels. Schematics, BOMs and PCBs belong to their designers and sellers and are linked, not copied. Generated by Modules/_source/make_pages.py.</footer></main></body></html>

@@ -1,0 +1,71 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html",
+"board": "CGS84",
+"parts": [
+{
+"type": "Capacitor",
+"value": "100n (0.1) decoupling caps",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "10uF 25V",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "2k2",
+"qty": 16
+},
+{
+"type": "Resistor",
+"value": "10k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "15k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "150k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "220k 1%",
+"qty": 2
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "10k Lin pot",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 28
+},
+{
+"type": "Semiconductor",
+"value": "2N3565 (BC547 or sim)",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "2N3566 (BC547 or sim)",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "2N4250 (BC557 or sim)",
+"qty": 4
+},
+{
+"type": "Misc",
+"value": "CGS84 VER1.0 PCB",
+"qty": 1
+}
+]
+}

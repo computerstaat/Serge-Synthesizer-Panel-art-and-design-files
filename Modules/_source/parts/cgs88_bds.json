@@ -1,0 +1,96 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs88_bds.html",
+"board": "CGS88",
+"parts": [
+{
+"type": "Capacitor",
+"value": "10n monolithic ceramic",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "100n (0.1) monolithic ceramic",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "1k (1% metal film)",
+"qty": 9
+},
+{
+"type": "Resistor",
+"value": "2k2 (12V) or 4k7 (15V)",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "8k2 (12V) or 10k (15V)",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "10k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "22k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "47k",
+"qty": 5
+},
+{
+"type": "Resistor",
+"value": "1M5",
+"qty": 6
+},
+{
+"type": "Semiconductor",
+"value": "MC3401 or LM3900",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "CD4007AE, CD4007UBE etc.",
+"qty": 3
+},
+{
+"type": "Semiconductor",
+"value": "CD4013B or sim",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "2N3566 or BC547",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "2N3638 or BC557",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "BC547",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "BC557",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "CGS88 VER1.0 PCB",
+"qty": 1
+}
+]
+}

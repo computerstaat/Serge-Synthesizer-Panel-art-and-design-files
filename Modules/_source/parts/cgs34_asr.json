@@ -1,0 +1,111 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs34_asr.html",
+"board": "CGS34",
+"parts": [
+{
+"type": "Capacitor",
+"value": "47pF",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "10n",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "100n",
+"qty": 7
+},
+{
+"type": "Capacitor",
+"value": "CX (100n or 47n)",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "10uF 25V",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "330R",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "10k 1%",
+"qty": 5
+},
+{
+"type": "Resistor",
+"value": "15k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "20k 1%",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "22k 1%",
+"qty": 7
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 3
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "4k7 trimmer",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "TL071",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "TL074",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "LF356 or CA3140",
+"qty": 4
+},
+{
+"type": "Semiconductor",
+"value": "4024",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "4052",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead (or 10R resistor)",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "0.156 4 pin connector",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "cgs34 PCB",
+"qty": 1
+}
+]
+}

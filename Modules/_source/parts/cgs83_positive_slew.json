@@ -1,0 +1,166 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs83_positive_slew.html",
+"board": "CGS83",
+"parts": [
+{
+"type": "Capacitor",
+"value": "220pF",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "100n (0.1) decoupling caps",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "100n mylar, MKT or sim",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "10uF 25V",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "33R",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "100R",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "220R",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "3k3",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "4k7",
+"qty": 12
+},
+{
+"type": "Resistor",
+"value": "5k6",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "6k8",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "10k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "18k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "22k (use 100k)",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "47k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 8
+},
+{
+"type": "Resistor",
+"value": "220k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "470k",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "820k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "1M",
+"qty": 4
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "20k (or sim) single turn trimmer",
+"qty": 2
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "100k lin pot",
+"qty": 4
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 4
+},
+{
+"type": "Semiconductor",
+"value": "2N3565 (BC547)",
+"qty": 6
+},
+{
+"type": "Semiconductor",
+"value": "2N3566 (BC547)",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "2N4248 (BC557)",
+"qty": 4
+},
+{
+"type": "Semiconductor",
+"value": "BC547 or sim",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "MC3401 (can use LM3900)",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LM3900",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead (or 10R resistor)",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "0.156 4 pin connector",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "cgs83 VER1.0 PCB",
+"qty": 1
+}
+]
+}
