@@ -6,10 +6,10 @@ with the artwork photo-exposed onto it, normally black on silver; some systems u
 black (the Cal Arts Black Serge, `../../Systems/CalArts_Black_Serge.md`). The Modern (aluminium)
 panels kept these layouts, so the drawings in `../../Modern` are the reference for these too.
 
-Photo-confirmed in this style, not drawn yet:
+## Artwork
 
-| Module | Notes |
-|---|---|
-| Noise Source, Random Voltage Generator | Same layout as the Modern versions |
-| Quad Channel / Quad Output Mixer, Resonant Equalizer, Dual Phaser, Matrix Mixer, Dual Audio Mixer, Audio Mixer | Seen in one rounded-box system |
-| Dual Transient Generator, VCA Comp, Schmitt Trigger, Scaling Buffer, Extended ADSR, 7-Stage Sequencing Programmer, Quantizer, TKB | Seen in the same system |
+The metal-overlay panels use the same rounded-box layouts as the Modern set, so their artwork lives in
+[`../../Modern`](../../Modern/README.md) rather than being copied here. Every rounded module there, including
+the Noise Source, Random Voltage Generator, Quad VCA, UPAP, Quad mixers and Dual Stereo Panner, is the drawing these
+panels used. Systems drawn in this style: [Moby's Series 79](../../Systems/Moby_Series79.md) and the
+[Cal Arts Black Serge](../../Systems/CalArts_Black_Serge.md) (reversed, silver on black).
