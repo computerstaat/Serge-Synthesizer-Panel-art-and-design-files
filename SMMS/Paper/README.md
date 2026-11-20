@@ -25,7 +25,7 @@ into the bottom edge, upright letter-spaced geometric sans lettering (Avant Gard
 The jack and knob positions follow the Modern drawings, which match the photos; only the box style and lettering
 change. Details too small to read in the photos (knob range markings, exact LED positions) are left out.
 
-In progress (kept outside the repo until it matches the photos): Keyboard Envelope Generator (3", six rows).
+In progress: `Keyboard_Envelope_Generator_UNFINISHED` (3", six rows), close to the photos but not right yet.
 
 Seen in system photos, not drawn yet: New Timbral Oscillator, Variable Q VCF, Variable Slope VCF, Variable Bandwidth
 Filter, Triple Wave Shaper, Ring, VCA, Dual Negative Slew, VC Slew Generator, Smooth Function Generator, Analog Shift
