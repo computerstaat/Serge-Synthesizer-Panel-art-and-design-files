@@ -13,7 +13,11 @@ OUT = os.path.join(os.path.dirname(HERE), "BOM", "mouser")
 MP = json.load(open(os.path.join(HERE, "mouser_parts.json")))
 P, NA = MP["parts"], MP["not_at_mouser"]
 # which board parts lists to export, per module page
-TARGETS = {"triple-comparator": ["cgs96_comp"], "triple-wave-shaper": ["cgs85_tws"], "ring-modulator": ["cgs79_ring"]}
+TARGETS = {"triple-comparator": ["cgs96_comp"], "triple-wave-shaper": ["cgs85_tws"], "ring-modulator": ["cgs79_ring"],
+           "universal-audio-processor": ["cgs102_epp", "cgs108_vca"]}
+MULT = {"cgs108_vca": 2}          # the UAP needs two gain cells
+# BOMs written out line by line from a maker's own BOM and Mouser cart (Low-Gain), not from a parts list
+EXPLICIT = json.load(open(os.path.join(HERE, "mouser_explicit.json")))
 
 
 def key(t, v):
@@ -21,6 +25,7 @@ def key(t, v):
     lv = v.lower()
     if t == "Misc":
         if "pcb" in lv: return ("NA", "PCB")
+        if "header strip" in lv: return ("NA", "Header")
         if "ferrite" in lv: return "M:Ferrite"
         if "connector" in lv: return "M:MTA156 housing"
         if "header" in lv or "0.156" in lv: return "M:MTA156 header"
@@ -32,15 +37,19 @@ def key(t, v):
     if t == "Resistor":
         if lv.startswith("rled"): return "R:1k"
         val = v.split()[0].replace("Ω", "R").replace("Ohms", "")
+        m = re.match(r"^(\d+)\.(\d)([kM])$", val)
+        if m: val = m.group(1) + m.group(3).replace("K", "k") + m.group(2)
         return "R:" + val
     if t == "Capacitor":
-        if "smt" in lv or "1206" in lv: return "C:100n SMT"
-        for pat, k in (("10uf", "C:10uF"), ("47uf", "C:47uF"), ("470n", "C:470n"), ("220pf", "C:220pF"), ("100pf", "C:100pF"),
+        if "smt" in lv or "1206" in lv:
+            return "C:47pF SMT" if lv.startswith("47pf") else "C:10n SMT" if lv.startswith("10nf") else "C:100n SMT"
+        for pat, k in (("5pf", "C:5pF"), ("47pf", "C:47pF"), ("10uf", "C:10uF"), ("47uf", "C:47uF"), ("470n", "C:470n"), ("220pf", "C:220pF"), ("100pf", "C:100pF"),
                        ("10nf", "C:10n"), ("10n", "C:10n"), ("100n", "C:100n"), ("0.1", "C:100n")):
             if lv.startswith(pat) or lv.split()[0] == pat: return k
     if t == "Semiconductor":
         for pat, k in (("1n4148", "S:1N4148"), ("6v2", "S:6V2"), ("bc547", "S:BC547"), ("bc557", "S:BC557"), ("lm3900", "S:LM3900"),
-                       ("mc3401", "S:LM3900"), ("lm3080", ("NA", "LM3080")), ("ca3080", ("NA", "LM3080")), ("lm307", ("NA", "LM307"))):
+                       ("mc3401", "S:LM3900"), ("tl074", "S:TL074"), ("tl072", "S:TL072"), ("tl071", "S:TL071"),
+                       ("ca3046", ("NA", "CA3046")), ("ca3086", ("NA", "CA3046")), ("lm3080", ("NA", "LM3080")), ("ca3080", ("NA", "LM3080")), ("lm307", ("NA", "LM307"))):
             if pat in lv: return k
     return ("NA", "unmapped")
 
@@ -52,7 +61,8 @@ def main():
         for b in boards:
             pl = json.load(open(os.path.join(HERE, "parts", b + ".json")))
             lines, na = {}, []
-            for r in pl["parts"]:
+            for r0 in pl["parts"]:
+                r = dict(r0, qty=r0["qty"] * MULT.get(b, 1))
                 k = key(r["type"], r["value"])
                 if isinstance(k, tuple) or k not in P:
                     reason = NA.get(k[1], "No Mouser part chosen yet") if isinstance(k, tuple) else "No Mouser part chosen yet"
@@ -71,6 +81,16 @@ def main():
             cost = sum(P[k][3] * 0 for k in ())  # placeholder
             total = sum(L[3] * next(p[3] for p in P.values() if p[0] == L[0]) for L in lines.values())
             report.append((slug, b, len(lines), len(na), round(total, 2)))
+    for base, x in EXPLICIT.items():
+        with open(os.path.join(OUT, base + ".csv"), "w", newline="") as f:
+            w = csv.writer(f)
+            w.writerow(["Mouser Part Number", "Manufacturer Part Number", "Manufacturer", "Quantity", "Description", "Customer Part Number"])
+            for l in x["lines"]:
+                w.writerow([l[0], l[1], l[2], l[3], l[5], l[6]])
+        with open(os.path.join(OUT, base + "_not_at_mouser.csv"), "w", newline="") as f:
+            w = csv.writer(f); w.writerow(["Part", "Quantity", "Where to get it"]); w.writerows(x["na"])
+        slug, b = base.split("__")
+        report.append((slug, b, len(x["lines"]), len(x["na"]), round(sum(l[3] * l[4] for l in x["lines"]), 2)))
     for r in report:
         print("%-20s %-12s %2d Mouser lines, %d elsewhere, ~$%.2f at 1-off prices" % r)
     json.dump({"%s__%s" % (r[0], r[1]): {"lines": r[2], "elsewhere": r[3], "cost": r[4]} for r in report},

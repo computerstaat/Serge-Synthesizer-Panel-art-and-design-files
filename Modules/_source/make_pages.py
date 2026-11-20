@@ -128,6 +128,13 @@ def bom_rows(m):
                 rows.append(["All builds", "Front panel (%s)" % v0["label"], "Panel hardware", part, n, note, "", "", ""])
         rows.append(["All builds", "Front panel (%s)" % v0["label"], "Panel hardware", "Knob", sum(n for p_, n, _ in hardware(v0["hw"]) if p_.startswith("Potentiometer")), "one per pot", "", "", ""])
     for b in m["builds"]:
+        if b.get("explicit"):
+            x = make_mouser.EXPLICIT[b["explicit"]]
+            for l in x["lines"]:
+                rows.append([b["name"], x["title"], "", l[5], l[3], l[6], l[0], "https://www.mouser.com/ProductDetail/" + l[0], l[4]])
+            for n in x["na"]:
+                rows.append([b["name"], x["title"], "Not at Mouser", n[0], n[1], n[2], "", "", ""])
+            continue
         keys = b.get("parts") or []
         keys = [keys] if isinstance(keys, str) else keys
         if keys:

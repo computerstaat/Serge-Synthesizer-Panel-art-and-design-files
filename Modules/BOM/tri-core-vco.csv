@@ -1,0 +1,65 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,"Front panel (Tri-Core VCO (2""))",Panel hardware,"Banana jack, black",3,4 mm,,,
+All builds,"Front panel (Tri-Core VCO (2""))",Panel hardware,"Banana jack, blue",5,4 mm,,,
+All builds,"Front panel (Tri-Core VCO (2""))",Panel hardware,"Banana jack, purple",1,4 mm,,,
+All builds,"Front panel (Tri-Core VCO (2""))",Panel hardware,LED,1,,,,
+All builds,"Front panel (Tri-Core VCO (2""))",Panel hardware,Potentiometer + knob,6,value from the board BOM,,,
+All builds,"Front panel (Tri-Core VCO (2""))",Panel hardware,Toggle switch,1,type from the board BOM,,,
+All builds,"Front panel (Tri-Core VCO (2""))",Panel hardware,Knob,6,one per pot,,,
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"Ceramic 100nF X7R 50V, 0805 SMD",18,"Main C1-C4,C6,C8-C13,C15,C23,C24; I/O C2-C5",80-C0805C104M5R,https://www.mouser.com/ProductDetail/80-C0805C104M5R,0.17
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Electrolytic 10uF 50V,4,"Main C5,C7,C14,C17",667-ECE-A1HKA100,https://www.mouser.com/ProductDetail/667-ECE-A1HKA100,0.27
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"Ceramic 1nF C0G 50V, 5mm",2,"Main C16,C19",810-FG28C0G1H102JNT6,https://www.mouser.com/ProductDetail/810-FG28C0G1H102JNT6,0.27
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"Ceramic 47pF C0G 100V, 5mm",1,Main C20,810-FG28C0G2A470JNT6,https://www.mouser.com/ProductDetail/810-FG28C0G2A470JNT6,0.28
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"Film 100nF 63V, 5mm",1,Main C21,505-MKS20.1/63/5,https://www.mouser.com/ProductDetail/505-MKS20.1/63/5,0.68
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"Film 220nF 100V, 5mm",1,I/O C18 (main C18 is jumpered with the I/O board),505-MKS2D032201C00JS,https://www.mouser.com/ProductDetail/505-MKS2D032201C00JS,0.71
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"Ceramic 33pF C0G 100V, 5mm",1,I/O C1,810-FG28C0G2A330JNT6,https://www.mouser.com/ProductDetail/810-FG28C0G2A330JNT6,0.3
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Small-signal diode,2,"Main D1,D5",512-1N4148,https://www.mouser.com/ProductDetail/512-1N4148,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,NPN transistor,4,"Main Q3,Q6,Q7,Q8 (through-hole option; Q1/Q2 SMD duals left out)",512-2N3904BU,https://www.mouser.com/ProductDetail/512-2N3904BU,0.29
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,PNP transistor,2,"Main Q4,Q5",512-2N3906BU,https://www.mouser.com/ProductDetail/512-2N3906BU,0.27
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,N-channel JFET (replaces MPF102),1,Main Q9,610-2N5458,https://www.mouser.com/ProductDetail/610-2N5458,2.07
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 10R 1/4W 1%,2,"Main R1,R2",708-RNF14FTD10R0,https://www.mouser.com/ProductDetail/708-RNF14FTD10R0,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 100k 0.1% 25ppm,2,"Main R3,R4",603-MFP-25BRD52-100K,https://www.mouser.com/ProductDetail/603-MFP-25BRD52-100K,0.63
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 100k 1/4W 1%,11,"Main R5,R6,R7,R14,R17,R35,R42; I/O R1-R4",603-MFR-25FBF52-100K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-100K,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 2M4 1/4W 1%,1,Main R8,603-MFR-25FTE52-2M4,https://www.mouser.com/ProductDetail/603-MFR-25FTE52-2M4,0.11
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 2M2 1/4W 1%,2,"Main R9,R38",603-MFR-25FBF52-2M2,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-2M2,0.11
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 1M2 1/4W 1%,1,Main R11,603-MFR-25FRF52-1M2,https://www.mouser.com/ProductDetail/603-MFR-25FRF52-1M2,0.11
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 16k 1/4W 1%,1,Main R12,603-MFR-25FBF52-16K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-16K,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 470k 1/4W 1%,1,Main R13,603-MFR-25FBF52-470K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-470K,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 47R 1/4W 1%,1,Main R15,603-MFR-25FBF52-47R,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-47R,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 820R 1/4W 1%,1,Main R16,603-MFR-25FRF52-820R,https://www.mouser.com/ProductDetail/603-MFR-25FRF52-820R,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 10k 1/4W 1%,5,"Main R18,R20,R25,R26,R27",708-RNF14FTD10K0,https://www.mouser.com/ProductDetail/708-RNF14FTD10K0,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 27k 1/4W 1%,1,Main R19,603-MFR-25FRF52-27K,https://www.mouser.com/ProductDetail/603-MFR-25FRF52-27K,0.11
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 110k 1/4W 1%,1,Main R21,603-MFR-25FRF52-110K,https://www.mouser.com/ProductDetail/603-MFR-25FRF52-110K,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 18k 1/4W 1%,2,"Main R22,R31",603-MFR-25FBF52-18K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-18K,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 24k 1/4W 1%,1,Main R23,603-MFR-25FRF52-24K,https://www.mouser.com/ProductDetail/603-MFR-25FRF52-24K,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 3k92 1/4W 1%,1,Main R24,603-MFR-25FRF52-3K92,https://www.mouser.com/ProductDetail/603-MFR-25FRF52-3K92,0.11
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 2k21 1/4W 1%,3,"Main R28,R29,R41",603-MFR-25FRF522K21,https://www.mouser.com/ProductDetail/603-MFR-25FRF522K21,0.11
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 390R 1/4W 1%,1,Main R30,603-MFR-25FRF52-390R,https://www.mouser.com/ProductDetail/603-MFR-25FRF52-390R,0.11
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 14k 1/4W 1%,2,"Main R32,R33",603-MFR-25FRF52-14K,https://www.mouser.com/ProductDetail/603-MFR-25FRF52-14K,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 1k 1/4W 1%,3,"Main R61 (R34 jumpered with the I/O board); I/O R6,R7",603-MFR-25FBF52-1K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1K,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 360k 1/4W 1%,1,Main R36,603-MFR-25FRF52-360K,https://www.mouser.com/ProductDetail/603-MFR-25FRF52-360K,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 150k 1/4W 1%,1,Main R37,603-MFR-25FBF52-150K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-150K,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Resistor 2k 1/4W 1%,2,"Main R39,R40",603-MFR-25FBF52-2K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-2K,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"Resistor 5k62 1/4W 1% (LED brightness, to taste)",1,I/O R5,603-MFR-25FBF52-5K62,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-5K62,0.1
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Trimmer 100R multi-turn (V/OCT),1,Main TR1,652-3296W-1-101LF,https://www.mouser.com/ProductDetail/652-3296W-1-101LF,2.39
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"Trimmer 100k multi-turn (HI FREQ, SINE RND)",2,"Main TR2,TR3",652-3296W-1-104LF,https://www.mouser.com/ProductDetail/652-3296W-1-104LF,2.46
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Trimmer 50k multi-turn (SINE SYM),1,Main TR4,652-3296W-1-503LF,https://www.mouser.com/ProductDetail/652-3296W-1-503LF,2.2
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,4-pin locking power header (0.156in),1,Main U1 PWR,737-LHA-04-TS,https://www.mouser.com/ProductDetail/737-LHA-04-TS,0.23
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"JFET op-amp, dual",4,Main U2-U4; I/O U1,595-TL072CP,https://www.mouser.com/ProductDetail/595-TL072CP,1.2
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"JFET op-amp, single",2,Main U8; I/O U3,595-TL071IP,https://www.mouser.com/ProductDetail/595-TL071IP,0.63
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"+5V regulator, TO-92",1,Main U5,926-LM78L05ACZ/LFT1,https://www.mouser.com/ProductDetail/926-LM78L05ACZ/LFT1,0.53
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"-5V regulator, TO-92",1,Main U6,926-LM79L05ACZ/NOPB,https://www.mouser.com/ProductDetail/926-LM79L05ACZ/NOPB,0.81
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"Bi-colour LED red/green, 3mm",1,I/O D1,696-SSL-LX3054IGW,https://www.mouser.com/ProductDetail/696-SSL-LX3054IGW,0.62
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,LED lens,1,I/O,593-2000C,https://www.mouser.com/ProductDetail/593-2000C,0.77
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,9mm pot B100K,6,I/O VR1-VR6,858-P0915NFC15BR100K,https://www.mouser.com/ProductDetail/858-P0915NFC15BR100K,2.65
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Mini toggle SPDT on-on (VCO / LFO),1,I/O SW,612-100-A1111,https://www.mouser.com/ProductDetail/612-100-A1111,3.08
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"Banana jack, black",3,"SINE, TRI, PULSE outputs",530-108-0903-1,https://www.mouser.com/ProductDetail/530-108-0903-1,1.43
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"Banana jack, blue",5,"V/OCT x2, EXP FM (VC F), LIN FM, PWM",530-108-0910-1,https://www.mouser.com/ProductDetail/530-108-0910-1,1.71
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,"Banana jack, violet",1,SYNC,530-108-0912-1,https://www.mouser.com/ProductDetail/530-108-0912-1,1.73
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,,Standoff M3 x 11mm,4,Board mounting,710-970110321,https://www.mouser.com/ProductDetail/710-970110321,0.32
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,Not at Mouser,CA3080E OTA,1,"Main U7. Obsolete, not at Mouser: Synthcube, Thonk or another synth-parts supplier (AS3080 / LM3080 also work).",,,
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,Not at Mouser,2K tempco resistor 3300-3500ppm,1,"Main R10. Synth DIY shops (Thonk, Synthcube, Modular Addict). In a pinch Low-Gain suggests two 1k in series.",,,
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,Not at Mouser,Knobs (Davies 1900H style),6,"Synthcube, Thonk, Modular Addict",,,
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,Not at Mouser,"M3x6 button-head screws, M3 split washers",8,Hardware,,,
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,Not at Mouser,2.54mm male + female 40-pin headers,1,Board-to-board connection; any breakaway header,,,
+Low-Gain LGE130 Tri-Core VCO,Low-Gain LGE130 main board + LGE130C I/O board,Not at Mouser,LGE130 + LGE130C PCBs,1,Low-Gain Electronics,,,

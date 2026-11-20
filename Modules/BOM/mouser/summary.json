@@ -13,5 +13,25 @@
   "lines": 20,
   "elsewhere": 3,
   "cost": 13.93
+ },
+ "universal-audio-processor__cgs102_epp": {
+  "lines": 18,
+  "elsewhere": 4,
+  "cost": 6.39
+ },
+ "universal-audio-processor__cgs108_vca": {
+  "lines": 13,
+  "elsewhere": 2,
+  "cost": 14.0
+ },
+ "tri-core-vco__lge130": {
+  "lines": 51,
+  "elsewhere": 6,
+  "cost": 69.94
+ },
+ "triple-wave-shaper__lge085": {
+  "lines": 21,
+  "elsewhere": 4,
+  "cost": 58.31
  }
 }

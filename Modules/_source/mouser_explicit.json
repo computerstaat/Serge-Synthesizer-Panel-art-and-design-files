@@ -1,0 +1,716 @@
+{
+ "tri-core-vco__lge130": {
+  "title": "Low-Gain LGE130 main board + LGE130C I/O board",
+  "source": "https://www.low-gain.com/shop/p/low-gain-lge130-tri-core-oscillator-4u-serge-compatible",
+  "lines": [
+   [
+    "80-C0805C104M5R",
+    "C0805C104M5RACTU",
+    "KEMET",
+    18,
+    0.17,
+    "Ceramic 100nF X7R 50V, 0805 SMD",
+    "Main C1-C4,C6,C8-C13,C15,C23,C24; I/O C2-C5"
+   ],
+   [
+    "667-ECE-A1HKA100",
+    "ECE-A1HKA100",
+    "Panasonic",
+    4,
+    0.27,
+    "Electrolytic 10uF 50V",
+    "Main C5,C7,C14,C17"
+   ],
+   [
+    "810-FG28C0G1H102JNT6",
+    "FG28C0G1H102JNT06",
+    "TDK",
+    2,
+    0.27,
+    "Ceramic 1nF C0G 50V, 5mm",
+    "Main C16,C19"
+   ],
+   [
+    "810-FG28C0G2A470JNT6",
+    "FG28C0G2A470JNT06",
+    "TDK",
+    1,
+    0.28,
+    "Ceramic 47pF C0G 100V, 5mm",
+    "Main C20"
+   ],
+   [
+    "505-MKS20.1/63/5",
+    "MKS2C031001A00JSSD",
+    "WIMA",
+    1,
+    0.68,
+    "Film 100nF 63V, 5mm",
+    "Main C21"
+   ],
+   [
+    "505-MKS2D032201C00JS",
+    "MKS2D032201C00JSSD",
+    "WIMA",
+    1,
+    0.71,
+    "Film 220nF 100V, 5mm",
+    "I/O C18 (main C18 is jumpered with the I/O board)"
+   ],
+   [
+    "810-FG28C0G2A330JNT6",
+    "FG28C0G2A330JNT06",
+    "TDK",
+    1,
+    0.3,
+    "Ceramic 33pF C0G 100V, 5mm",
+    "I/O C1"
+   ],
+   [
+    "512-1N4148",
+    "1N4148",
+    "onsemi",
+    2,
+    0.1,
+    "Small-signal diode",
+    "Main D1,D5"
+   ],
+   [
+    "512-2N3904BU",
+    "2N3904BU",
+    "onsemi",
+    4,
+    0.29,
+    "NPN transistor",
+    "Main Q3,Q6,Q7,Q8 (through-hole option; Q1/Q2 SMD duals left out)"
+   ],
+   [
+    "512-2N3906BU",
+    "2N3906BU",
+    "onsemi",
+    2,
+    0.27,
+    "PNP transistor",
+    "Main Q4,Q5"
+   ],
+   [
+    "610-2N5458",
+    "2N5458 PBFREE",
+    "Central Semiconductor",
+    1,
+    2.07,
+    "N-channel JFET (replaces MPF102)",
+    "Main Q9"
+   ],
+   [
+    "708-RNF14FTD10R0",
+    "RNF14FTD10R0",
+    "Stackpole",
+    2,
+    0.1,
+    "Resistor 10R 1/4W 1%",
+    "Main R1,R2"
+   ],
+   [
+    "603-MFP-25BRD52-100K",
+    "MFP-25BRD52-100K",
+    "YAGEO",
+    2,
+    0.63,
+    "Resistor 100k 0.1% 25ppm",
+    "Main R3,R4"
+   ],
+   [
+    "603-MFR-25FBF52-100K",
+    "MFR-25FBF52-100K",
+    "YAGEO",
+    11,
+    0.1,
+    "Resistor 100k 1/4W 1%",
+    "Main R5,R6,R7,R14,R17,R35,R42; I/O R1-R4"
+   ],
+   [
+    "603-MFR-25FTE52-2M4",
+    "MFR-25FTE52-2M4",
+    "YAGEO",
+    1,
+    0.11,
+    "Resistor 2M4 1/4W 1%",
+    "Main R8"
+   ],
+   [
+    "603-MFR-25FBF52-2M2",
+    "MFR-25FBF52-2M2",
+    "YAGEO",
+    2,
+    0.11,
+    "Resistor 2M2 1/4W 1%",
+    "Main R9,R38"
+   ],
+   [
+    "603-MFR-25FRF52-1M2",
+    "MFR-25FRF52-1M2",
+    "YAGEO",
+    1,
+    0.11,
+    "Resistor 1M2 1/4W 1%",
+    "Main R11"
+   ],
+   [
+    "603-MFR-25FBF52-16K",
+    "MFR-25FBF52-16K",
+    "YAGEO",
+    1,
+    0.1,
+    "Resistor 16k 1/4W 1%",
+    "Main R12"
+   ],
+   [
+    "603-MFR-25FBF52-470K",
+    "MFR-25FBF52-470K",
+    "YAGEO",
+    1,
+    0.1,
+    "Resistor 470k 1/4W 1%",
+    "Main R13"
+   ],
+   [
+    "603-MFR-25FBF52-47R",
+    "MFR-25FBF52-47R",
+    "YAGEO",
+    1,
+    0.1,
+    "Resistor 47R 1/4W 1%",
+    "Main R15"
+   ],
+   [
+    "603-MFR-25FRF52-820R",
+    "MFR-25FRF52-820R",
+    "YAGEO",
+    1,
+    0.1,
+    "Resistor 820R 1/4W 1%",
+    "Main R16"
+   ],
+   [
+    "708-RNF14FTD10K0",
+    "RNF14FTD10K0",
+    "Stackpole",
+    5,
+    0.1,
+    "Resistor 10k 1/4W 1%",
+    "Main R18,R20,R25,R26,R27"
+   ],
+   [
+    "603-MFR-25FRF52-27K",
+    "MFR-25FRF52-27K",
+    "YAGEO",
+    1,
+    0.11,
+    "Resistor 27k 1/4W 1%",
+    "Main R19"
+   ],
+   [
+    "603-MFR-25FRF52-110K",
+    "MFR-25FRF52-110K",
+    "YAGEO",
+    1,
+    0.1,
+    "Resistor 110k 1/4W 1%",
+    "Main R21"
+   ],
+   [
+    "603-MFR-25FBF52-18K",
+    "MFR-25FBF52-18K",
+    "YAGEO",
+    2,
+    0.1,
+    "Resistor 18k 1/4W 1%",
+    "Main R22,R31"
+   ],
+   [
+    "603-MFR-25FRF52-24K",
+    "MFR-25FRF52-24K",
+    "YAGEO",
+    1,
+    0.1,
+    "Resistor 24k 1/4W 1%",
+    "Main R23"
+   ],
+   [
+    "603-MFR-25FRF52-3K92",
+    "MFR-25FRF52-3K92",
+    "YAGEO",
+    1,
+    0.11,
+    "Resistor 3k92 1/4W 1%",
+    "Main R24"
+   ],
+   [
+    "603-MFR-25FRF522K21",
+    "MFR-25FRF52-2K21",
+    "YAGEO",
+    3,
+    0.11,
+    "Resistor 2k21 1/4W 1%",
+    "Main R28,R29,R41"
+   ],
+   [
+    "603-MFR-25FRF52-390R",
+    "MFR-25FRF52-390R",
+    "YAGEO",
+    1,
+    0.11,
+    "Resistor 390R 1/4W 1%",
+    "Main R30"
+   ],
+   [
+    "603-MFR-25FRF52-14K",
+    "MFR-25FRF52-14K",
+    "YAGEO",
+    2,
+    0.1,
+    "Resistor 14k 1/4W 1%",
+    "Main R32,R33"
+   ],
+   [
+    "603-MFR-25FBF52-1K",
+    "MFR-25FBF52-1K",
+    "YAGEO",
+    3,
+    0.1,
+    "Resistor 1k 1/4W 1%",
+    "Main R61 (R34 jumpered with the I/O board); I/O R6,R7"
+   ],
+   [
+    "603-MFR-25FRF52-360K",
+    "MFR-25FRF52-360K",
+    "YAGEO",
+    1,
+    0.1,
+    "Resistor 360k 1/4W 1%",
+    "Main R36"
+   ],
+   [
+    "603-MFR-25FBF52-150K",
+    "MFR-25FBF52-150K",
+    "YAGEO",
+    1,
+    0.1,
+    "Resistor 150k 1/4W 1%",
+    "Main R37"
+   ],
+   [
+    "603-MFR-25FBF52-2K",
+    "MFR-25FBF52-2K",
+    "YAGEO",
+    2,
+    0.1,
+    "Resistor 2k 1/4W 1%",
+    "Main R39,R40"
+   ],
+   [
+    "603-MFR-25FBF52-5K62",
+    "MFR-25FBF52-5K62",
+    "YAGEO",
+    1,
+    0.1,
+    "Resistor 5k62 1/4W 1% (LED brightness, to taste)",
+    "I/O R5"
+   ],
+   [
+    "652-3296W-1-101LF",
+    "3296W-1-101LF",
+    "Bourns",
+    1,
+    2.39,
+    "Trimmer 100R multi-turn (V/OCT)",
+    "Main TR1"
+   ],
+   [
+    "652-3296W-1-104LF",
+    "3296W-1-104LF",
+    "Bourns",
+    2,
+    2.46,
+    "Trimmer 100k multi-turn (HI FREQ, SINE RND)",
+    "Main TR2,TR3"
+   ],
+   [
+    "652-3296W-1-503LF",
+    "3296W-1-503LF",
+    "Bourns",
+    1,
+    2.2,
+    "Trimmer 50k multi-turn (SINE SYM)",
+    "Main TR4"
+   ],
+   [
+    "737-LHA-04-TS",
+    "LHA-04-TS",
+    "Adam Tech",
+    1,
+    0.23,
+    "4-pin locking power header (0.156in)",
+    "Main U1 PWR"
+   ],
+   [
+    "595-TL072CP",
+    "TL072CP",
+    "Texas Instruments",
+    4,
+    1.2,
+    "JFET op-amp, dual",
+    "Main U2-U4; I/O U1"
+   ],
+   [
+    "595-TL071IP",
+    "TL071IP",
+    "Texas Instruments",
+    2,
+    0.63,
+    "JFET op-amp, single",
+    "Main U8; I/O U3"
+   ],
+   [
+    "926-LM78L05ACZ/LFT1",
+    "LM78L05ACZ/LFT1",
+    "Texas Instruments",
+    1,
+    0.53,
+    "+5V regulator, TO-92",
+    "Main U5"
+   ],
+   [
+    "926-LM79L05ACZ/NOPB",
+    "LM79L05ACZ/NOPB",
+    "Texas Instruments",
+    1,
+    0.81,
+    "-5V regulator, TO-92",
+    "Main U6"
+   ],
+   [
+    "696-SSL-LX3054IGW",
+    "SSL-LX3054IGW",
+    "Lumex",
+    1,
+    0.62,
+    "Bi-colour LED red/green, 3mm",
+    "I/O D1"
+   ],
+   [
+    "593-2000C",
+    "SMB_200_CTP",
+    "VCC",
+    1,
+    0.77,
+    "LED lens",
+    "I/O"
+   ],
+   [
+    "858-P0915NFC15BR100K",
+    "P0915N-FC15BR100K",
+    "TT Electronics",
+    6,
+    2.65,
+    "9mm pot B100K",
+    "I/O VR1-VR6"
+   ],
+   [
+    "612-100-A1111",
+    "100SP1T1B4M2QE",
+    "E-Switch",
+    1,
+    3.08,
+    "Mini toggle SPDT on-on (VCO / LFO)",
+    "I/O SW"
+   ],
+   [
+    "530-108-0903-1",
+    "108-0903-001",
+    "Cinch",
+    3,
+    1.43,
+    "Banana jack, black",
+    "SINE, TRI, PULSE outputs"
+   ],
+   [
+    "530-108-0910-1",
+    "108-0910-001",
+    "Cinch",
+    5,
+    1.71,
+    "Banana jack, blue",
+    "V/OCT x2, EXP FM (VC F), LIN FM, PWM"
+   ],
+   [
+    "530-108-0912-1",
+    "108-0912-001",
+    "Cinch",
+    1,
+    1.73,
+    "Banana jack, violet",
+    "SYNC"
+   ],
+   [
+    "710-970110321",
+    "970110321",
+    "Wurth Elektronik",
+    4,
+    0.32,
+    "Standoff M3 x 11mm",
+    "Board mounting"
+   ]
+  ],
+  "na": [
+   [
+    "CA3080E OTA",
+    1,
+    "Main U7. Obsolete, not at Mouser: Synthcube, Thonk or another synth-parts supplier (AS3080 / LM3080 also work)."
+   ],
+   [
+    "2K tempco resistor 3300-3500ppm",
+    1,
+    "Main R10. Synth DIY shops (Thonk, Synthcube, Modular Addict). In a pinch Low-Gain suggests two 1k in series."
+   ],
+   [
+    "Knobs (Davies 1900H style)",
+    6,
+    "Synthcube, Thonk, Modular Addict"
+   ],
+   [
+    "M3x6 button-head screws, M3 split washers",
+    8,
+    "Hardware"
+   ],
+   [
+    "2.54mm male + female 40-pin headers",
+    1,
+    "Board-to-board connection; any breakaway header"
+   ],
+   [
+    "LGE130 + LGE130C PCBs",
+    1,
+    "Low-Gain Electronics"
+   ]
+  ]
+ },
+ "triple-wave-shaper__lge085": {
+  "title": "Low-Gain LGE085 main board + LGE085C I/O board",
+  "source": "https://www.low-gain.com/shop/p/lge085",
+  "lines": [
+   [
+    "810-FG28C0G1H101JNT0",
+    "FG28C0G1H101JNT00",
+    "TDK",
+    3,
+    0.27,
+    "Ceramic 100pF C0G 50V, 5mm",
+    "C1,C4,C7"
+   ],
+   [
+    "667-ECE-A1EKA470",
+    "ECE-A1EKA470",
+    "Panasonic",
+    3,
+    0.31,
+    "Electrolytic 47uF 25V",
+    "C2,C5,C8"
+   ],
+   [
+    "505-MKS2.47/63/5T",
+    "MKS2-.47/63/5T",
+    "WIMA",
+    3,
+    0.94,
+    "Film 470nF 63V (5mm pitch; the board has 7mm pads, so bend the leads)",
+    "C3,C6,C9"
+   ],
+   [
+    "667-ECE-A1EKA100",
+    "ECE-A1EKA100",
+    "Panasonic",
+    1,
+    0.26,
+    "Electrolytic 10uF 25V",
+    "C10"
+   ],
+   [
+    "80-C0805C104M5R",
+    "C0805C104M5RACTU",
+    "KEMET",
+    2,
+    0.17,
+    "Ceramic 100nF X7R 50V, 0805 SMD",
+    "C11,C12"
+   ],
+   [
+    "512-1N4148",
+    "1N4148",
+    "onsemi",
+    12,
+    0.1,
+    "Small-signal diode",
+    "D1-D12"
+   ],
+   [
+    "708-RNF14FTD10R0",
+    "RNF14FTD10R0",
+    "Stackpole",
+    1,
+    0.1,
+    "Resistor 10R (or a 60 ohm ferrite bead)",
+    "FB1"
+   ],
+   [
+    "571-6404454",
+    "640445-4",
+    "TE Connectivity",
+    1,
+    0.34,
+    "MTA-156 power header, 4 pin",
+    "J1"
+   ],
+   [
+    "603-MFR-25FBF52-100K",
+    "MFR-25FBF52-100K",
+    "YAGEO",
+    6,
+    0.1,
+    "Resistor 100k 1/4W 1%",
+    "R1,R9,R11,R19,R21,R29"
+   ],
+   [
+    "660-MFS1/4DCT52R1504",
+    "MFS1/4DCT52R1504F",
+    "KOA Speer",
+    9,
+    0.47,
+    "Resistor 1M5 1/4W 1%",
+    "R2,R3,R10,R12,R13,R20,R22,R23,R30"
+   ],
+   [
+    "652-3362P-1-253LF",
+    "3362P-1-253LF",
+    "Bourns",
+    3,
+    1.3,
+    "Trimmer 25k, 3362P",
+    "R4,R14,R24"
+   ],
+   [
+    "603-MFR-25FBF52-330R",
+    "MFR-25FBF52-330R",
+    "YAGEO",
+    3,
+    0.11,
+    "Resistor 330R 1/4W 1%",
+    "R5,R15,R25"
+   ],
+   [
+    "603-MFR-25FBF52-150K",
+    "MFR-25FBF52-150K",
+    "YAGEO",
+    3,
+    0.1,
+    "Resistor 150k 1/4W 1%",
+    "R6,R16,R26"
+   ],
+   [
+    "603-MFR-25FBF52-220K",
+    "MFR-25FBF52-220K",
+    "YAGEO",
+    6,
+    0.1,
+    "Resistor 220k 1/4W 1%",
+    "R7,R8,R17,R18,R27,R28"
+   ],
+   [
+    "595-LM3900N",
+    "LM3900N",
+    "Texas Instruments",
+    1,
+    0.85,
+    "Quad Norton amplifier",
+    "U1"
+   ],
+   [
+    "858-P0915NFC15BR100K",
+    "P0915N-FC15BR100K",
+    "TT Electronics",
+    4,
+    2.65,
+    "9mm pot B100K",
+    "I/O VR1-VR4"
+   ],
+   [
+    "612-100SP3T1B2M2RE",
+    "100SP3T1B2M2RE",
+    "E-Switch",
+    1,
+    3.82,
+    "Mini toggle SPDT on-off-on (feedback)",
+    "I/O K1"
+   ],
+   [
+    "612-100-A1111",
+    "100SP1T1B4M2QE",
+    "E-Switch",
+    2,
+    3.08,
+    "Mini toggle SPDT on-on (join 1-2, 2-3)",
+    "I/O K2,K3"
+   ],
+   [
+    "530-108-0903-1",
+    "108-0903-001",
+    "Cinch",
+    6,
+    1.43,
+    "Banana jack, black",
+    "INPUT x3, OUT x3"
+   ],
+   [
+    "530-108-0910-1",
+    "108-0910-001",
+    "Cinch",
+    6,
+    1.71,
+    "Banana jack, blue",
+    "VC1 x3, VC2 x3"
+   ],
+   [
+    "710-970110321",
+    "970110321",
+    "Wurth Elektronik",
+    4,
+    0.32,
+    "Standoff M3 x 11mm",
+    "Board mounting"
+   ]
+  ],
+  "na": [
+   [
+    "Knobs (Davies 1900H style)",
+    4,
+    "Synthcube, Thonk, Modular Addict"
+   ],
+   [
+    "M3x6 button-head screws, M3 split washers",
+    8,
+    "Hardware"
+   ],
+   [
+    "2.54mm male + female 40-pin headers",
+    1,
+    "Board-to-board connection"
+   ],
+   [
+    "LGE085 + LGE085C PCBs",
+    1,
+    "Low-Gain Electronics"
+   ]
+  ]
+ }
+}
