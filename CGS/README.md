@@ -50,5 +50,6 @@ Modules that differ from the versions already here carry `_HumanComparator` in t
 | Catgirl_Panel_Sequencers_Logic_Dividers | Sequencers (10-stage triple, 10"), Peaks and Troughs, Divider and Logic, Master Divider (Catgirl version) |
 | Catgirl_Panel_Touch_Programmer_Sequencer | Touch Activated Programmer Sequencer (16": 16 stages, knob rows A-D, touch plates) |
 | Catgirl_Panel_VCOs_DUSG_Smooth_VCA_VCF_Stereo_Mixer | Precision VCO ×2, Dual Universal Slope Generator, Smooth / Stepped Function, Dual VCA, Variable Q VCF, VC Stereo Mixer (all `_Catgirl` versions) |
+| Catgirl_Panel_VCOs_Wave_Multipliers_DTG_VCF_Audio_Mixer | Precision VCO ×2, Wave Multipliers, Smooth / Stepped Function, Dual Transient Generator, Variable Q VCF, Audio Mixer, Dual VCA, Adapters (`_Catgirl` versions) |
 
 More panels are in progress. The source artwork is in `Other/Reference Photos/CGS Panels` (not tracked).
