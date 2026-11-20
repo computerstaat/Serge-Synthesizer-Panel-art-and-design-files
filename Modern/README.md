@@ -35,7 +35,7 @@ Against the STS module list on the Egres site's "150 DPI graphics" page (archive
 | RING | Ring Modulator | 1" | Ring_Modulator |
 | FRS | Frequency Shifter | 3" | Frequency_Shifter |
 | FRSX | Frequency Shifter (external carrier) | 3" | Frequency_Shifter_External_Carrier (150 dpi STS graphic) |
-| PHA | Phase Shifter | 2" | VC_Phaser (from the 1980 catalogue drawing; our older 1" Phaser is a different module) |
+| PHA | Phase Shifter | 2" | VC_Phaser (from the 1980 catalogue drawing; the older 1" "Phaser", which matches no Serge phaser, moved to Other) |
 | 2PHA | Dual Phase Shifter | 2" | Dual_Phaser |
 | TWS | Triple Waveshaper | 2" | Triple_Waveshaper |
 | VCM | Wave Multipliers | 2" | Wave_Multipliers |
@@ -74,11 +74,14 @@ Against the STS module list on the Egres site's "150 DPI graphics" page (archive
 | ACPR | Active Processor | 1" | Active_Processor |
 | C/M | Control Module | 1" | C_M |
 | CVI | Control Voltage Interface | 3" | **missing** |
-| CMX | Control Voltage Mixer | 1" | **missing** |
-| PRO | Control Voltage Processor | 1" | **missing** |
+| CMX | Control Voltage Mixer | 1" | CV_Mixer (also on the Control Generator M-Class panel) |
+| PRO | Control Voltage Processor | 1" | CV_Pro (also on the Red CV1 shop panel) |
 | PRC | Dual Processor | 2" | Dual_Processor |
 | BUFF | Scaling Buffer | 1" | Scaling_Buffers |
-| ADP | Four Adapters | 1" | **missing** |
+| ADP | Four Adapters | 1" | Adapter (one 1" adapter per module, from a photo of an SMMS panel) |
+
+SMMS modules drawn from the Introduction book's rounded-box drawings: Quad_VCA (QCA) and
+Universal_Equal_Power_Audio_Processor (UPAP).
 
 STS shop panels on the same page: Animal, Blue Voice, Blue CV2, Red Voice, Red CV1, Sequencer, Soup Kitchen,
 Soup Kitchen 2 and TKB. All are in `Full Panel/`; Blue CV2 and Red CV1 are drawn as Blue_Control and Red_Control.
