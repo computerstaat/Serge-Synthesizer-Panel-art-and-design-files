@@ -4,6 +4,10 @@ The older SMMS artwork, as drawn in the 1979 "Series 79" catalogue (`../../Docum
 square-cornered boxes, the module name printed inside the top of the module outline, and "serge" or
 "SERGE MODULAR MUSIC (SYSTEMS)" along the bottom edge. Printed paper stuck on the panel, later with a Mylar overlay.
 
+The 1978 Owner's Guide (`../../Documentation/SMMS_Owners_Guide_1978.pdf`) sketches most squared modules. It
+confirms the Keyboard Envelope Generator is a 3" six-row module, while the 2" modules (Precision VCO, Dual
+Transient Generator, Dual Cross-Fader) and the Quad VCA sit on the usual eight rows.
+
 ## Drawn
 
 Built with the squared style: square corners, the name on one line inside the top edge, "SERGE MODULAR MUSIC" set
