@@ -35,7 +35,7 @@ Against the STS module list on the Egres site's "150 DPI graphics" page (archive
 | RING | Ring Modulator | 1" | Ring_Modulator |
 | FRS | Frequency Shifter | 3" | Frequency_Shifter |
 | FRSX | Frequency Shifter (external carrier) | 3" | Frequency_Shifter_External_Carrier (150 dpi STS graphic) |
-| PHA | Phase Shifter | 2" | VC_Phaser (from the 1980 catalogue drawing; our older 1" Phaser is a different module) |
+| PHA | Phase Shifter | 2" | VC_Phaser (from the 1980 catalogue drawing; the older 1" "Phaser", which matches no Serge phaser, moved to Other) |
 | 2PHA | Dual Phase Shifter | 2" | Dual_Phaser |
 | TWS | Triple Waveshaper | 2" | Triple_Waveshaper |
 | VCM | Wave Multipliers | 2" | Wave_Multipliers |
