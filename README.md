@@ -19,19 +19,24 @@ Panel artwork for a collection of Serge-format synthesizer modules, with drill t
 
 Every panel, drawn at the same height so the widths compare truthfully:
 
-- [Module_overview.png](Module_overview.png)
-- [M-Class_overview.png](M-Class_overview.png)
-- [Full_Panel_overview.png](Full_Panel_overview.png)
-- [Quarter_Panel_overview.png](Quarter_Panel_overview.png)
+- [Modern/Module_overview.png](Modern/Module_overview.png)
+- [Modern/M-Class_overview.png](Modern/M-Class_overview.png)
+- [Modern/Full_Panel_overview.png](Modern/Full_Panel_overview.png)
+- [Modern/Quarter_Panel_overview.png](Modern/Quarter_Panel_overview.png)
+- [Paperface/Paperface_overview.png](Paperface/Paperface_overview.png)
 
 ## Folders
 
+The panels are grouped by era:
+
 ```
-Images/                 one preview PNG per panel            Images/<category>/<name>.png
-Vector Graphics/        the panel artwork (Inkscape SVG)      Vector Graphics/<category>/<name>.svg
-Front Panel Express/    Front Panel Designer files            Front Panel Express/<category>/<name>.fpd
-Drill Templates/        1:1 printable drill templates (PDF)   Drill Templates/<category>/<name>.pdf
-Paperface/              classic Serge paperface artwork (Illustrator, InDesign and PDF)
+Modern/                 the later Serge style (rounded boxes, "serge" at the bottom)
+  Images/               one preview PNG per panel            Images/<category>/<name>.png
+  Vector Graphics/      the panel artwork (Inkscape SVG)      Vector Graphics/<category>/<name>.svg
+  Front Panel Express/  Front Panel Designer files            Front Panel Express/<category>/<name>.fpd
+  Drill Templates/      1:1 printable drill templates (PDF)   Drill Templates/<category>/<name>.pdf
+Paperface/              the 1970s paperface line-art panels: Images, Vector Graphics and Drill Templates
+Documentation/          original Serge manuals, catalog and user's guide
 ```
 
 Each SVG has three layers:
