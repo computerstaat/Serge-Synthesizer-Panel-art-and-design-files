@@ -6,8 +6,8 @@ square-cornered boxes, the module name printed inside the top of the module outl
 
 ## Drawn
 
-Built with the squared style (square corners, the name on one line inside the top edge, "SERGE MODULAR MUSIC" set
-into the bottom edge). PNG in `Images/Module`, SVG in `Vector Graphics/Module`, 1:1 drill templates in
+Built with the squared style: square corners, the name on one line inside the top edge, "SERGE MODULAR MUSIC" set
+into the bottom edge, upright letter-spaced geometric sans lettering (Avant Garde style), and no swoosh round the knobs. PNG in `Images/Module`, SVG in `Vector Graphics/Module`, 1:1 drill templates in
 `Drill Templates/Module`.
 
 | Module | Source |
