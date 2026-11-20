@@ -10,9 +10,9 @@ Panel artwork for a collection of Serge-format synthesizer modules, with drill t
 
 | Category | Folder name | Size | Panels |
 |---|---|---|---|
-| Single modules | `Module` | 4U, 175 mm high, 1"–8" wide (Loudest Warning format) | 111 |
+| Single modules | `Module` | 4U, 175 mm high, 1"–8" wide (Loudest Warning format) | 95 |
 | M-Class | `M-Class` | 8" × 7" | 28 |
-| Full panels | `Full Panel` | 17" × 7" | 27 |
+| Full panels | `Full Panel` | 17" × 7" | 26 |
 | Quarter panels | `Quarter Panel` | 4.25" × 7" | 8 |
 
 ## Previews
@@ -38,6 +38,7 @@ Modern/                 the rounded-box layouts shared by SMMS metal-overlay and
 Paperface/              1973–76 panels with the early geometric symbols (paper): Images, Vector Graphics and Drill Templates
 SMMS/                   Serge Modular Music Systems, about 1976–92: Paper/ (squared boxes) and Metal_Overlay/ (rounded boxes), in progress
 Documentation/          original Serge manuals, catalog and user's guide
+CGS/                    Ken Stone's Catgirl Synth (CGS) designs drawn in the Serge style
 Systems/                one file per real Serge system (CME 1973, Cal Arts Black Serge, ...) pointing to its panels
 ```
 

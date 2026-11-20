@@ -13,7 +13,7 @@ into the bottom edge). PNG in `Images/Module`, SVG in `Vector Graphics/Module`, 
 | Module | Source |
 |---|---|
 | Universal Equal Power Audio Processor | Introduction book drawings, squared-box photos |
-| Keyboard Envelope Generator | close-up photo of a squared SMMS panel (VC ADSR: Gate, Trig, OUT, VC-ALL, four stage inputs, END-T2) |
+| Keyboard Envelope Generator | 3" (two photos of squared SMMS panels): Gate, Trig, OUT pair, VC-ALL, four stage inputs, END-T2; the name runs along the bottom edge |
 | Dual Processor | close-up photo |
 | Dual Universal Slope Generator | close-up photo |
 | Extended Range VCF | older layout: IN 1 / IN 2, NOTCH (AGC) behind a dashed line, TRIG, RANGE switch |
