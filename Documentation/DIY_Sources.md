@@ -7,6 +7,10 @@ checked; follow the link for current details.
 - Site: https://open4umodular.github.io/synthpanel/index.html (mirror of Ken Stone's module pages)
 - The main source for PCBs, schematics and build notes for most Serge-derived modules; each module page names its CGS number.
 
+## Elby Designs
+- Ken Stone PCB range: https://www.elby-designs.com/contents/en-au/d6.html
+- Sells the PCBs for Ken Stone's CGS designs. Ken's module pages (above) hold the matching schematics, parts lists and construction notes.
+
 ## Prism Circuits
 - Site: https://prismcircuits.net/
 - Paperface-style DIY PCBs in a "Paperface DIY friendly 4U format", plus drilled panels, PSU, bus boards, cases and pre-built panels.
@@ -23,3 +27,12 @@ checked; follow the link for current details.
 | Slim PSU v3, Passive Bus Board | power | parts | https://prismcircuits.net/products/serge-modular-slim-psu |
 
 The site gives no schematics, BOMs or licence terms; check each product page and the build guide.
+
+## Low-Gain
+- Site: https://www.low-gain.com/
+- 4U and Eurorack modules, M-Class modules, matrix mixers, power supplies, DIY panels and PCBs.
+- Some Low-Gain boards will not quite fit the other panel layouts in this repo, or need extra work to fit them.
+
+## Panel artwork
+
+Panel artwork from Prism Circuits, Low-Gain and Elby is not copied into this repo. Link to their products instead.

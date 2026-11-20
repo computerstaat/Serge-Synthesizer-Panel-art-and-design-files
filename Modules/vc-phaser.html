@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VC Phaser - Serge module build page</title><style>
+:root{--ink:#1d1d1b;--muted:#6b6b66;--line:#d9d6cf;--bg:#faf8f3;--card:#fff;--accent:#b3261e}
+*{box-sizing:border-box}body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--bg)}
+main{max-width:1040px;margin:0 auto;padding:32px 20px 64px}a{color:var(--accent)}
+h1{font-size:2rem;margin:0 0 4px}h2{font-size:1.25rem;margin:36px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.aka,.meta{color:var(--muted);margin:0}.summary{font-size:1.1rem;margin:14px 0 0}
+.panels{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px;width:230px}
+.panel img{display:block;height:300px;max-width:100%;margin:0 auto 10px;object-fit:contain}
+.panel h3{font-size:.95rem;margin:0 0 6px}.panel ul{margin:6px 0 0;padding-left:18px;font-size:.88rem}
+.files{font-size:.85rem}table{border-collapse:collapse;width:100%;background:var(--card)}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.85rem;color:var(--muted)}
+.note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:6px;padding:10px 12px;font-size:.92rem}
+.back{font-size:.9rem}footer{margin-top:48px;color:var(--muted);font-size:.85rem}
+</style></head><body><main>
+<p class="back"><a href="index.html">&larr; All modules</a></p>
+<h1>VC Phaser</h1>
+<p class="aka">Also: PHA, Phaser, CGS90 Phaser and Audio Mixers</p>
+<p class="meta">Serge Tcherepnin; CGS90 version by Ken Stone &middot; Effects</p>
+<p class="summary">A voltage-controlled phase shifter with three phase-shifted outputs and a built-in mix for the classic notched phasing sound.</p>
+<h2>Panels in this repo</h2><div class="panels">
+<div class="panel">
+<a href="../Modern/Images/Module/VC_Phaser.png"><img src="../Modern/Images/Module/VC_Phaser.png" alt="STS / modern (2&quot;)"></a>
+<h3>STS / modern (2&quot;)</h3>
+<div class="files"><a href="../Modern/Images/Module/VC_Phaser.png">PNG</a> &middot; <a href="../Modern/Vector%20Graphics/Module/VC_Phaser.svg">SVG</a> &middot; <a href="../Modern/Drill%20Templates/Module/VC_Phaser.pdf">Drill template (PDF, 1:1)</a></div>
+<ul><li>7 &times; Banana jacks</li><li>4 &times; Mounting holes</li><li>3 &times; Potentiometers / knobs</li></ul>
+</div>
+<div class="panel">
+<a href="../Paperface/Images/Module/Phaser.png"><img src="../Paperface/Images/Module/Phaser.png" alt="Paperface"></a>
+<h3>Paperface</h3>
+<div class="files"><a href="../Paperface/Images/Module/Phaser.png">PNG</a> &middot; <a href="../Paperface/Vector%20Graphics/Module/Phaser.svg">SVG</a> &middot; <a href="../Paperface/Drill%20Templates/Module/Phaser.pdf">Drill template (PDF, 1:1)</a></div>
+</div>
+<div class="panel">
+<a href="../CGS/Images/Phaser_CGS90.png"><img src="../CGS/Images/Phaser_CGS90.png" alt="CGS90 Phaser (2&quot;)"></a>
+<h3>CGS90 Phaser (2&quot;)</h3>
+<div class="files"><a href="../CGS/Images/Phaser_CGS90.png">PNG</a> &middot; <a href="../CGS/Vector%20Graphics/Phaser_CGS90.svg">SVG</a> &middot; <a href="../CGS/Drill%20Templates/Phaser_CGS90.pdf">Drill template (PDF, 1:1)</a></div>
+<ul><li>8 &times; Banana jacks</li><li>4 &times; Mounting holes</li><li>3 &times; Potentiometers / knobs</li></ul>
+</div>
+<div class="panel">
+<a href="../CGS/Images/Mixers.png"><img src="../CGS/Images/Mixers.png" alt="CGS90 Mixers (2&quot;)"></a>
+<h3>CGS90 Mixers (2&quot;)</h3>
+<div class="files"><a href="../CGS/Images/Mixers.png">PNG</a> &middot; <a href="../CGS/Vector%20Graphics/Mixers.svg">SVG</a> &middot; <a href="../CGS/Drill%20Templates/Mixers.pdf">Drill template (PDF, 1:1)</a></div>
+<ul><li>10 &times; Banana jacks</li><li>4 &times; Mounting holes</li><li>6 &times; Potentiometers / knobs</li></ul>
+</div>
+<div class="panel">
+<a href="../CGS/Images/Phaser_with_Mixers.png"><img src="../CGS/Images/Phaser_with_Mixers.png" alt="CGS90 Phaser with Mixers (4&quot;)"></a>
+<h3>CGS90 Phaser with Mixers (4&quot;)</h3>
+<div class="files"><a href="../CGS/Images/Phaser_with_Mixers.png">PNG</a> &middot; <a href="../CGS/Vector%20Graphics/Phaser_with_Mixers.svg">SVG</a> &middot; <a href="../CGS/Drill%20Templates/Phaser_with_Mixers.pdf">Drill template (PDF, 1:1)</a></div>
+<ul><li>18 &times; Banana jacks</li><li>4 &times; Mounting holes</li><li>9 &times; Potentiometers / knobs</li></ul>
+</div>
+</div>
+<h2>How it works</h2>
+<p>The input runs through a chain of all-pass stages. An all-pass stage leaves the level of every frequency alone but delays its phase, and the amount of delay depends on frequency and on the control voltage. Taps along the chain give outputs shifted by 360°, 720° and 1080°.</p>
+<p>On their own the shifted outputs sound almost the same as the input, because the ear hardly hears phase. The effect appears when a shifted signal is mixed back with the original: frequencies that come out of phase cancel, cutting a row of notches into the spectrum. The MIXED output does this inside the module with the 1080° tap, and the MIX knob sets the balance.</p>
+<p>PHASE sets the shift by hand. The VC input, through its attenuator, sweeps it from an envelope, LFO or sequencer; the response follows a log curve so sweeps sound even across the range.</p>
+<p>Ken Stone&#x27;s CGS90 puts two small audio mixers on the same PCB. Each has three inputs with level knobs plus one unity-gain x1 input. They are inverting and AC coupled, which makes them good for blending the raw phase outputs with the dry signal (straight or inverted) and for feedback patches: mix the phaser&#x27;s output with its input before it goes back in. Patch one mixer&#x27;s output into the other&#x27;s x1 input to get a single six-input mixer.</p>
+<h2>Controls and jacks</h2><table><tr><th>Name</th><th>Type</th><th>What it does</th></tr>
+<tr><td>1080°, 720°, 360°</td><td>output</td><td>Phase-shifted copies of the input.</td></tr>
+<tr><td>MIXED</td><td>output</td><td>Input mixed with the 1080° output: the phasing sound.</td></tr>
+<tr><td>MIX</td><td>knob</td><td>Balance of the MIXED output.</td></tr>
+<tr><td>IN</td><td>input</td><td>Audio in. The CGS90 panel has two IN jacks.</td></tr>
+<tr><td>VC</td><td>input + knob</td><td>Control voltage for the amount of shift, with attenuator.</td></tr>
+<tr><td>PHASE</td><td>knob</td><td>Manual amount of shift.</td></tr>
+<tr><td>Mixers: inputs 1-3, x1, OUT</td><td>inputs / output</td><td>CGS90 only: two inverting audio mixers, three level-controlled inputs and one unity-gain input each.</td></tr>
+</table>
+<h2>Build it</h2><table><tr><th>Part</th><th>Source</th></tr>
+<tr><td>PCB</td><td><a href="https://www.elby-designs.com/contents/en-au/d6.html">Elby Designs</a>: CGS90 Phaser and Mixers PCB (search the Ken Stone range)<br><small>Sells the PCBs for Ken Stone&#x27;s CGS designs.</small></td></tr>
+<tr><td>Schematic</td><td><a href="https://open4umodular.github.io/synthpanel/modules/cgs90_phaser.html">Ken Stone CGS90: phaser and mixer schematics, PCB overlay</a></td></tr>
+<tr><td>BOM / parts list</td><td><a href="https://open4umodular.github.io/synthpanel/modules/cgs90_phaser.html">Ken Stone CGS90: parts list</a></td></tr>
+<tr><td>Panel</td><td>Print or order the panel from the files above; the drill template is 1:1.</td></tr></table>
+<p class="note">Ken Stone uses standard quad op-amps in place of the original RC4136 (LM3403 or TL074), and a 741 or TL071 in the mixers.</p>
+<p class="note">The CGS90 board carries the phaser and both mixers, so the 4&quot; Phaser with Mixers panel uses every jack on the board; the 2&quot; Phaser panel leaves the mixers unused.</p>
+<h2>Original documentation</h2><ul><li><a href="../Documentation/SMMS_Catalogue_1980.pdf">SMMS catalogue 1980 (VC Phaser, PHA)</a></li></ul>
+<footer>Schematics, parts lists and PCBs belong to their designers and sellers; this page links to them. Panel artwork is from this repo. Generated by Modules/_source/make_pages.py.</footer></main></body></html>

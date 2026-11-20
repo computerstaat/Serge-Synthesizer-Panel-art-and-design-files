@@ -1,0 +1,125 @@
+{
+  "makers": {
+    "elby": {"name": "Elby Designs", "url": "https://www.elby-designs.com/contents/en-au/d6.html", "note": "Sells the PCBs for Ken Stone's CGS designs."},
+    "kenstone": {"name": "Ken Stone (CGS)", "url": "https://open4umodular.github.io/synthpanel/modules/index.html", "note": "Schematics, parts lists, PCB overlays and construction notes for the CGS designs."},
+    "prism": {"name": "Prism Circuits", "url": "https://prismcircuits.net/", "note": "PCBs for some 1973 paperface modules in a 4U paperface-friendly format."},
+    "lowgain": {"name": "Low-Gain", "url": "https://www.low-gain.com/", "note": "4U and Eurorack modules, DIY panels and PCBs. Some Low-Gain boards will not match other panel layouts, or need extra work to fit them."}
+  },
+  "modules": [
+    {
+      "slug": "vc-phaser",
+      "name": "VC Phaser",
+      "aka": ["PHA", "Phaser", "CGS90 Phaser and Audio Mixers"],
+      "designer": "Serge Tcherepnin; CGS90 version by Ken Stone",
+      "function": "Effects",
+      "summary": "A voltage-controlled phase shifter with three phase-shifted outputs and a built-in mix for the classic notched phasing sound.",
+      "how_it_works": [
+        "The input runs through a chain of all-pass stages. An all-pass stage leaves the level of every frequency alone but delays its phase, and the amount of delay depends on frequency and on the control voltage. Taps along the chain give outputs shifted by 360°, 720° and 1080°.",
+        "On their own the shifted outputs sound almost the same as the input, because the ear hardly hears phase. The effect appears when a shifted signal is mixed back with the original: frequencies that come out of phase cancel, cutting a row of notches into the spectrum. The MIXED output does this inside the module with the 1080° tap, and the MIX knob sets the balance.",
+        "PHASE sets the shift by hand. The VC input, through its attenuator, sweeps it from an envelope, LFO or sequencer; the response follows a log curve so sweeps sound even across the range.",
+        "Ken Stone's CGS90 puts two small audio mixers on the same PCB. Each has three inputs with level knobs plus one unity-gain x1 input. They are inverting and AC coupled, which makes them good for blending the raw phase outputs with the dry signal (straight or inverted) and for feedback patches: mix the phaser's output with its input before it goes back in. Patch one mixer's output into the other's x1 input to get a single six-input mixer."
+      ],
+      "controls": [
+        ["1080°, 720°, 360°", "output", "Phase-shifted copies of the input."],
+        ["MIXED", "output", "Input mixed with the 1080° output: the phasing sound."],
+        ["MIX", "knob", "Balance of the MIXED output."],
+        ["IN", "input", "Audio in. The CGS90 panel has two IN jacks."],
+        ["VC", "input + knob", "Control voltage for the amount of shift, with attenuator."],
+        ["PHASE", "knob", "Manual amount of shift."],
+        ["Mixers: inputs 1-3, x1, OUT", "inputs / output", "CGS90 only: two inverting audio mixers, three level-controlled inputs and one unity-gain input each."]
+      ],
+      "variants": [
+        {"label": "STS / modern (2\")", "dir": "Modern", "sub": "Module", "file": "VC_Phaser", "hw": "lw_pha", "width": 2},
+        {"label": "Paperface", "dir": "Paperface", "sub": "Module", "file": "Phaser", "width": null},
+        {"label": "CGS90 Phaser (2\")", "dir": "CGS", "sub": "", "file": "Phaser_CGS90", "hw": "lw_cgsphaser", "width": 2},
+        {"label": "CGS90 Mixers (2\")", "dir": "CGS", "sub": "", "file": "Mixers", "hw": "lw_cgsmixers", "width": 2},
+        {"label": "CGS90 Phaser with Mixers (4\")", "dir": "CGS", "sub": "", "file": "Phaser_with_Mixers", "hw": "lw_cgsphasermix", "width": 4}
+      ],
+      "build": {
+        "pcb": [{"maker": "elby", "item": "CGS90 Phaser and Mixers PCB (search the Ken Stone range)"}],
+        "schematic": [{"title": "Ken Stone CGS90: phaser and mixer schematics, PCB overlay", "url": "https://open4umodular.github.io/synthpanel/modules/cgs90_phaser.html"}],
+        "bom": [{"title": "Ken Stone CGS90: parts list", "url": "https://open4umodular.github.io/synthpanel/modules/cgs90_phaser.html"}],
+        "notes": [
+          "Ken Stone uses standard quad op-amps in place of the original RC4136 (LM3403 or TL074), and a 741 or TL071 in the mixers.",
+          "The CGS90 board carries the phaser and both mixers, so the 4\" Phaser with Mixers panel uses every jack on the board; the 2\" Phaser panel leaves the mixers unused."
+        ]
+      },
+      "docs": [
+        {"title": "SMMS catalogue 1980 (VC Phaser, PHA)", "path": "Documentation/SMMS_Catalogue_1980.pdf"}
+      ]
+    },
+    {
+      "slug": "wave-multipliers",
+      "name": "Wave Multipliers",
+      "aka": ["VCM", "CGS113"],
+      "designer": "Serge Tcherepnin; CGS113 version by Ken Stone",
+      "function": "Timbre / waveshaping",
+      "summary": "Three separate voltage-controlled waveshapers that add harmonics to a signal instead of filtering them away.",
+      "how_it_works": [
+        "A filter changes timbre by removing frequencies. The Wave Multipliers do the opposite: they bend the waveform so that new, harmonically related overtones appear. Each of the three sections works in a different way, and each has its own control voltage and knob. In a VCO-VCF-VCA patch the usual place for it is between the oscillator and the filter.",
+        "Top section: a switch picks the mode. In HI it squares up the signal with rounded, saturated peaks, like an overdriven tube amplifier but voltage controlled. In LO it is a plain linear VCA, handy for amplitude modulation or for gating a signal into the other sections.",
+        "Middle section: fed with a sine wave, turning it up sweeps through the odd harmonics, up to about the 13th. It sounds like overblowing a pipe closed at one end, so it suits reed and wind sounds. A second input lets two signals be mixed before processing, which gives sum-and-difference-like effects richer than a ring modulator.",
+        "Bottom section: chained full-wave rectifiers, each of which doubles the frequency of a sine or triangle. Sweeping the control moves smoothly through the even harmonics (2nd, 4th, 8th) without the drop in level a plain rectifier gives. It has two inputs and two outputs; the second output is a squared-up version of the first and behaves like a more complex pulse-width modulation."
+      ],
+      "controls": [
+        ["VC (each section)", "input + knob", "Control voltage and manual amount for that section."],
+        ["LO / HI", "switch", "Top section: linear VCA (LO) or soft squaring (HI)."],
+        ["IN 1, IN 2", "inputs", "Middle and bottom sections: two inputs mixed before processing."],
+        ["OUT, OUT 1, OUT 2", "outputs", "Processed signals; OUT 2 of the bottom section is the squared version."]
+      ],
+      "variants": [
+        {"label": "STS / modern (2\")", "dir": "Modern", "sub": "Module", "file": "Wave_Multipliers", "hw": "lw_wavemult", "width": 2}
+      ],
+      "related": ["The Wave Multipliers, Wave Multiplier (1\") and Wave Multiplier 2in panels in the CGS folder come from The Human Comparator artwork and are different circuits."],
+      "build": {
+        "pcb": [{"maker": "elby", "item": "CGS113 Wave Multipliers PCB (search the Ken Stone range)"}],
+        "schematic": [{"title": "Ken Stone CGS113: schematic and construction", "url": "https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html"}],
+        "bom": [{"title": "Ken Stone CGS113: parts list", "url": "https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html"}],
+        "notes": []
+      },
+      "docs": [
+        {"title": "SMMS catalogue 1980 (Wave Multipliers, VCM)", "path": "Documentation/SMMS_Catalogue_1980.pdf"}
+      ]
+    },
+    {
+      "slug": "dual-universal-slope-generator",
+      "name": "Dual Universal Slope Generator",
+      "aka": ["DUSG", "DSG", "CGS114"],
+      "designer": "Serge Tcherepnin; CGS114 version by Ken Stone",
+      "function": "Modulation / envelopes / oscillators",
+      "summary": "Two identical slope generators, each of which can be a slew limiter, envelope, LFO, audio oscillator or pulse divider.",
+      "how_it_works": [
+        "Each half produces a voltage that rises and falls at rates set by the RISE and FALL knobs. What it does depends only on what is patched into it.",
+        "Slew: a voltage at IN is followed by the output, but no faster than the RISE and FALL times allow. With a stepped voltage at IN this gives portamento; with the knobs fully up the output simply copies the input.",
+        "Envelope: a pulse at TRIG IN starts a rise from 0 to about +5 V followed by the fall. A new trigger during the envelope is ignored, and an END pulse comes out when the cycle finishes.",
+        "Oscillator: patch END back to TRIG IN (or set the cycle switch where fitted) and the slope runs continuously, from slow LFO up to audio. With RISE and FALL equal it makes a triangle; making one much shorter turns it into a sawtooth.",
+        "Pitch and control: 1V/OCT halves the rise and fall times for each added volt, so the slope tracks a keyboard. VC IN, through its attenuator, varies the times too, and the switch chooses whether VC acts on RISE, FALL or BOTH.",
+        "Divider: feed a pulse train into TRIG IN with a cycle a little longer than the pulse spacing, and the generator skips pulses, producing sub-harmonics."
+      ],
+      "controls": [
+        ["IN", "input", "Signal to be slewed."],
+        ["TRIG IN", "input", "Starts a rise / fall cycle."],
+        ["END", "output", "Pulse at the end of each cycle (LED shows activity)."],
+        ["OUTPUT", "output", "The slope voltage."],
+        ["RISE, FALL", "knobs", "Rise and fall times."],
+        ["1V/OCT", "input", "Exponential control of both times."],
+        ["VC IN", "input + knob", "Control of the times, with attenuator."],
+        ["RISE / BOTH / FALL", "switch", "Which time VC IN controls."]
+      ],
+      "variants": [
+        {"label": "STS / modern (3\")", "dir": "Modern", "sub": "Module", "file": "Dual_Universal_Slope_Generator", "hw": "lw_dusg", "width": 3},
+        {"label": "The Human Comparator (3\")", "dir": "CGS", "sub": "", "file": "Dual_Universal_Slope_Generator_HumanComparator", "hw": "lw_hc_dusg", "width": 3}
+      ],
+      "build": {
+        "pcb": [{"maker": "elby", "item": "CGS114 Slope PCB (search the Ken Stone range)"}],
+        "schematic": [{"title": "Ken Stone CGS114: panel wiring, kit parts and test procedure", "url": "https://open4umodular.github.io/synthpanel/modules/cgs114_dusg.html"}],
+        "bom": [{"title": "Ken Stone CGS114: kit parts list", "url": "https://open4umodular.github.io/synthpanel/modules/cgs114_dusg.html"}],
+        "notes": ["Ken Stone's page follows the original Serge kit instructions, including how to test each function once the panel is wired."]
+      },
+      "docs": [
+        {"title": "SMMS catalogue 1980", "path": "Documentation/SMMS_Catalogue_1980.pdf"},
+        {"title": "STS catalogue", "path": "Documentation/Serge_Modular_Music_Systems_STS_Catalog.pdf"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wave Multipliers - Serge module build page</title><style>
+:root{--ink:#1d1d1b;--muted:#6b6b66;--line:#d9d6cf;--bg:#faf8f3;--card:#fff;--accent:#b3261e}
+*{box-sizing:border-box}body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--bg)}
+main{max-width:1040px;margin:0 auto;padding:32px 20px 64px}a{color:var(--accent)}
+h1{font-size:2rem;margin:0 0 4px}h2{font-size:1.25rem;margin:36px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.aka,.meta{color:var(--muted);margin:0}.summary{font-size:1.1rem;margin:14px 0 0}
+.panels{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px;width:230px}
+.panel img{display:block;height:300px;max-width:100%;margin:0 auto 10px;object-fit:contain}
+.panel h3{font-size:.95rem;margin:0 0 6px}.panel ul{margin:6px 0 0;padding-left:18px;font-size:.88rem}
+.files{font-size:.85rem}table{border-collapse:collapse;width:100%;background:var(--card)}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.85rem;color:var(--muted)}
+.note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:6px;padding:10px 12px;font-size:.92rem}
+.back{font-size:.9rem}footer{margin-top:48px;color:var(--muted);font-size:.85rem}
+</style></head><body><main>
+<p class="back"><a href="index.html">&larr; All modules</a></p>
+<h1>Wave Multipliers</h1>
+<p class="aka">Also: VCM, CGS113</p>
+<p class="meta">Serge Tcherepnin; CGS113 version by Ken Stone &middot; Timbre / waveshaping</p>
+<p class="summary">Three separate voltage-controlled waveshapers that add harmonics to a signal instead of filtering them away.</p>
+<h2>Panels in this repo</h2><div class="panels">
+<div class="panel">
+<a href="../Modern/Images/Module/Wave_Multipliers.png"><img src="../Modern/Images/Module/Wave_Multipliers.png" alt="STS / modern (2&quot;)"></a>
+<h3>STS / modern (2&quot;)</h3>
+<div class="files"><a href="../Modern/Images/Module/Wave_Multipliers.png">PNG</a> &middot; <a href="../Modern/Vector%20Graphics/Module/Wave_Multipliers.svg">SVG</a> &middot; <a href="../Modern/Drill%20Templates/Module/Wave_Multipliers.pdf">Drill template (PDF, 1:1)</a></div>
+<ul><li>12 &times; Banana jacks</li><li>4 &times; Mounting holes</li><li>3 &times; Potentiometers / knobs</li><li>1 &times; Toggle switches</li></ul>
+</div>
+</div>
+<h2>How it works</h2>
+<p>A filter changes timbre by removing frequencies. The Wave Multipliers do the opposite: they bend the waveform so that new, harmonically related overtones appear. Each of the three sections works in a different way, and each has its own control voltage and knob. In a VCO-VCF-VCA patch the usual place for it is between the oscillator and the filter.</p>
+<p>Top section: a switch picks the mode. In HI it squares up the signal with rounded, saturated peaks, like an overdriven tube amplifier but voltage controlled. In LO it is a plain linear VCA, handy for amplitude modulation or for gating a signal into the other sections.</p>
+<p>Middle section: fed with a sine wave, turning it up sweeps through the odd harmonics, up to about the 13th. It sounds like overblowing a pipe closed at one end, so it suits reed and wind sounds. A second input lets two signals be mixed before processing, which gives sum-and-difference-like effects richer than a ring modulator.</p>
+<p>Bottom section: chained full-wave rectifiers, each of which doubles the frequency of a sine or triangle. Sweeping the control moves smoothly through the even harmonics (2nd, 4th, 8th) without the drop in level a plain rectifier gives. It has two inputs and two outputs; the second output is a squared-up version of the first and behaves like a more complex pulse-width modulation.</p>
+<h2>Controls and jacks</h2><table><tr><th>Name</th><th>Type</th><th>What it does</th></tr>
+<tr><td>VC (each section)</td><td>input + knob</td><td>Control voltage and manual amount for that section.</td></tr>
+<tr><td>LO / HI</td><td>switch</td><td>Top section: linear VCA (LO) or soft squaring (HI).</td></tr>
+<tr><td>IN 1, IN 2</td><td>inputs</td><td>Middle and bottom sections: two inputs mixed before processing.</td></tr>
+<tr><td>OUT, OUT 1, OUT 2</td><td>outputs</td><td>Processed signals; OUT 2 of the bottom section is the squared version.</td></tr>
+</table>
+<p class="note">The Wave Multipliers, Wave Multiplier (1&quot;) and Wave Multiplier 2in panels in the CGS folder come from The Human Comparator artwork and are different circuits.</p>
+<h2>Build it</h2><table><tr><th>Part</th><th>Source</th></tr>
+<tr><td>PCB</td><td><a href="https://www.elby-designs.com/contents/en-au/d6.html">Elby Designs</a>: CGS113 Wave Multipliers PCB (search the Ken Stone range)<br><small>Sells the PCBs for Ken Stone&#x27;s CGS designs.</small></td></tr>
+<tr><td>Schematic</td><td><a href="https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html">Ken Stone CGS113: schematic and construction</a></td></tr>
+<tr><td>BOM / parts list</td><td><a href="https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html">Ken Stone CGS113: parts list</a></td></tr>
+<tr><td>Panel</td><td>Print or order the panel from the files above; the drill template is 1:1.</td></tr></table>
+<h2>Original documentation</h2><ul><li><a href="../Documentation/SMMS_Catalogue_1980.pdf">SMMS catalogue 1980 (Wave Multipliers, VCM)</a></li></ul>
+<footer>Schematics, parts lists and PCBs belong to their designers and sellers; this page links to them. Panel artwork is from this repo. Generated by Modules/_source/make_pages.py.</footer></main></body></html>
