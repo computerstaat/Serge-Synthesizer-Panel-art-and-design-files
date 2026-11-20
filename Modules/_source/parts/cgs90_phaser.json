@@ -1,0 +1,126 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs90_phaser.html",
+"board": "CGS90",
+"parts": [
+{
+"type": "Capacitor",
+"value": "10pF",
+"qty": 6
+},
+{
+"type": "Capacitor",
+"value": "47pF",
+"qty": 3
+},
+{
+"type": "Capacitor",
+"value": "2n2",
+"qty": 6
+},
+{
+"type": "Capacitor",
+"value": "10n",
+"qty": 3
+},
+{
+"type": "Capacitor",
+"value": "100n (0.1) decoupling caps",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "470n",
+"qty": 3
+},
+{
+"type": "Capacitor",
+"value": "10uF 25V",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "220R",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "330R",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "1k5",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "15k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "22k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "47k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "68k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 12
+},
+{
+"type": "Resistor",
+"value": "150k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "1M",
+"qty": 18
+},
+{
+"type": "Semiconductor",
+"value": "CA3086 or CA3046",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "MC3403 or TL074",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LM741 or TL071",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "VTL5C3/2 vactrol",
+"qty": 3
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "0.156 4 pin connector",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "CGS90 VER1.0 PCB",
+"qty": 1
+}
+]
+}

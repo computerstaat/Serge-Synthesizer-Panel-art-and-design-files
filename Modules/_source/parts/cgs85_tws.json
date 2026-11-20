@@ -1,0 +1,86 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html",
+"board": "CGS85",
+"parts": [
+{
+"type": "Capacitor",
+"value": "100pF decoupling caps",
+"qty": 3
+},
+{
+"type": "Capacitor",
+"value": "100n (0.1) decoupling caps",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "470n MKT or sim",
+"qty": 3
+},
+{
+"type": "Capacitor",
+"value": "10uF 25V",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "47uF 25V",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "330R",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "150k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "220k",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "1M5",
+"qty": 9
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "22k trimmer",
+"qty": 3
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "100k Lin pot",
+"qty": 3
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 12
+},
+{
+"type": "Semiconductor",
+"value": "LM3900",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "CGS85 VER1.0 PCB",
+"qty": 1
+}
+]
+}

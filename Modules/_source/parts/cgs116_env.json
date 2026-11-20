@@ -1,0 +1,231 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs116_env.html",
+"board": "CGS116",
+"parts": [
+{
+"type": "Capacitor",
+"value": "10pF",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "47pF",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "100pF",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "220pF",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "1n",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "10n",
+"qty": 5
+},
+{
+"type": "Capacitor",
+"value": "22n",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "47n",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "10uF",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "47R (or LINK)",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "330R (330 Ohms)",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "1k (pick to suit LED)",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "2k 1%",
+"qty": 5
+},
+{
+"type": "Resistor",
+"value": "3k3",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "8k2",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "22k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "33k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "34k 1%",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "47k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "47k5 1%",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "51k1 1%",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "82k",
+"qty": 7
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 8
+},
+{
+"type": "Resistor",
+"value": "110k",
+"qty": 5
+},
+{
+"type": "Resistor",
+"value": "330k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "470k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "2M2",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "22M",
+"qty": 1
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "50k or 100k lin pot",
+"qty": 5
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 7
+},
+{
+"type": "Semiconductor",
+"value": "PN3565 (BC547)",
+"qty": 4
+},
+{
+"type": "Semiconductor",
+"value": "PN4250 (BC557)",
+"qty": 3
+},
+{
+"type": "Semiconductor",
+"value": "2N5089 (BC547)",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "4558 (TL072)",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "TL082 (TL072)",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "4001B*",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "4016* (4066)",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "4069*",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "LM324",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "LED",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "Jacks",
+"qty": 10
+},
+{
+"type": "Misc",
+"value": "SPST Ctr-Off switch",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead (or 10R resistor)",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "0.156 4 pin connector",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "CGS116 VER1.1 PCB",
+"qty": 1
+}
+]
+}

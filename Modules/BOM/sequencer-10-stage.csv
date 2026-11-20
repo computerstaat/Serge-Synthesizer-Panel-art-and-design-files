@@ -1,0 +1,5 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour not recorded",14,4 mm,,,
+All builds,Front panel (Paperface (1973)),Panel hardware,LED,10,,,,
+All builds,Front panel (Paperface (1973)),Panel hardware,Knob,0,one per pot,,,
+Prism Circuits Sequencer,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-sequencer",,,

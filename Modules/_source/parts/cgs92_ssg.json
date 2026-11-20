@@ -1,0 +1,186 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs92_ssg.html",
+"board": "CGS92",
+"parts": [
+{
+"type": "Capacitor",
+"value": "47pF",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "100pF",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "1n (MKT etc)",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "100n/0.1 (Monolithic ceramic)",
+"qty": 8
+},
+{
+"type": "Capacitor",
+"value": "100n (MKT etc)",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "220n (MKT etc)",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "10uF 25V",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "100R",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "330R",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "RLED 1k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "3k3",
+"qty": 5
+},
+{
+"type": "Resistor",
+"value": "10k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "15k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "33k",
+"qty": 9
+},
+{
+"type": "Resistor",
+"value": "82k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 7
+},
+{
+"type": "Resistor",
+"value": "470k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "680k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "820k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "1M",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "1M5",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "2M2",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "2M7",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "3M3",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "4M7",
+"qty": 1
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "25k (100k) trimmers",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 10
+},
+{
+"type": "Semiconductor",
+"value": "J201 or sim (N channel JFET)",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "PN4250 or sim",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "741",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "LM3080/CA3080",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LM3900",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "TL072",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead (or 10R resistor)",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "0.156 4 pin connector",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "CGS92 VER1.0 PCB",
+"qty": 1
+}
+]
+}

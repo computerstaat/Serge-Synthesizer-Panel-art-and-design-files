@@ -1,0 +1,196 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs114_dusg.html",
+"board": "CGS114",
+"parts": [
+{
+"type": "Capacitor",
+"value": "47pF",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "1n",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "10n",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "22n",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "100n",
+"qty": 10
+},
+{
+"type": "Capacitor",
+"value": "100n SMT1206 (optional)",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "47uF 25V",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "100R",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "330R",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "1k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "1k5",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "2k2",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "8k2",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "33k",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "47k",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "68k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "82k",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 12
+},
+{
+"type": "Resistor",
+"value": "150k* see text",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "220k",
+"qty": 8
+},
+{
+"type": "Resistor",
+"value": "330k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "470k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "820k",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "1M",
+"qty": 10
+},
+{
+"type": "Resistor",
+"value": "10M",
+"qty": 4
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "100k trimmer",
+"qty": 2
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "50k lin pot",
+"qty": 6
+},
+{
+"type": "Semiconductor",
+"value": "5V6 400mW zener",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LED",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 8
+},
+{
+"type": "Semiconductor",
+"value": "2N3904 (2N3563)",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "2N3904 (2N5089)",
+"qty": 4
+},
+{
+"type": "Semiconductor",
+"value": "2N3906 (2N4250)",
+"qty": 6
+},
+{
+"type": "Semiconductor",
+"value": "4558 or TL072",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LF353 or TL072",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LM3900",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "SPDT Switch",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "CGS114 PCB",
+"qty": 1
+}
+]
+}

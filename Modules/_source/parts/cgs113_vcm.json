@@ -1,0 +1,211 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html",
+"board": "CGS113",
+"parts": [
+{
+"type": "Capacitor",
+"value": "30pF",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "150pF",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "47n",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "100n (0.1 ceramic monolythic or similar)",
+"qty": 6
+},
+{
+"type": "Capacitor",
+"value": "220n",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "1uF BP 25V",
+"qty": 3
+},
+{
+"type": "Capacitor",
+"value": "10uF 25V",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "47uF 25V",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "330R (330 Ohms)",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "1k5",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "3k3",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "10k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "15k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "22k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "33k",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "47k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "82k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 20
+},
+{
+"type": "Resistor",
+"value": "150k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "220k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "330k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "470k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "820k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "1M",
+"qty": 5
+},
+{
+"type": "Resistor",
+"value": "1M5",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "2M2",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "3M3",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "6M8",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "10M",
+"qty": 6
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "100k trim",
+"qty": 2
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "50k or 100k lin pot",
+"qty": 3
+},
+{
+"type": "Semiconductor",
+"value": "4V3 or 4V6 400 or 500mW Zener (DZ)",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 22
+},
+{
+"type": "Semiconductor",
+"value": "2N4250 (BC557 or sim)",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LM3080 or CA3080",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LM3900",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "TL072 (4558)",
+"qty": 4
+},
+{
+"type": "Misc",
+"value": "DPDT switch",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead (or 10R resistor)",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "0.156 4 pin connector",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "CGS113 VER1.0 PCB",
+"qty": 1
+}
+]
+}

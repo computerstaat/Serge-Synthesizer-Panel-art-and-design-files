@@ -1,0 +1,226 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs76_env.html",
+"board": "CGS76",
+"parts": [
+{
+"type": "Capacitor",
+"value": "100pF",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "220pF",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "10n",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "100n",
+"qty": 3
+},
+{
+"type": "Capacitor",
+"value": "100n 1206 SMT (optional)",
+"qty": 3
+},
+{
+"type": "Capacitor",
+"value": "470n MKT or poly",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "10uF 25V",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "33R",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "470R",
+"qty": 5
+},
+{
+"type": "Resistor",
+"value": "1k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "1k8",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "2k2",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "3k3",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "6k8",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "15k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "22k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "33k",
+"qty": 7
+},
+{
+"type": "Resistor",
+"value": "68k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "82k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 5
+},
+{
+"type": "Resistor",
+"value": "330k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "470k",
+"qty": 7
+},
+{
+"type": "Resistor",
+"value": "1M",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "1M5",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "10M",
+"qty": 2
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "10k trim pot",
+"qty": 1
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "25k or similar trim pot",
+"qty": 1
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "100k lin pot",
+"qty": 3
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "20k lin pot (see text)",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "RLED LED Resistors",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LED",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 6
+},
+{
+"type": "Semiconductor",
+"value": "2N3391A NPN",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "2N3565 NPN",
+"qty": 4
+},
+{
+"type": "Semiconductor",
+"value": "2N3566 NPN",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "2N3638 PNP",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "2N4248 PNP",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "BC547 NPN",
+"qty": 3
+},
+{
+"type": "Semiconductor",
+"value": "LM3900",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "MC3401 or LM3900",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "SPST switch",
+"qty": 3
+},
+{
+"type": "Misc",
+"value": "0.156 4 pin connector",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "CGS75 PCB",
+"qty": 1
+}
+]
+}

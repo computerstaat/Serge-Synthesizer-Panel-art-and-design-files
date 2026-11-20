@@ -1,0 +1,121 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html",
+"board": "CGS79",
+"parts": [
+{
+"type": "Resistor",
+"value": "330Ω",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "1k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "2k2",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "15k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "22k",
+"qty": 4
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "25k trimmer",
+"qty": 3
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "25k lin pot",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "33k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "47k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "68k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "220k",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "100nF 1206 SMT (=0.1uF) see text.",
+"qty": 3
+},
+{
+"type": "Capacitor",
+"value": "10nF (=0.01uF)",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "470nF (=0.47uF)",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "10uF electrolytic",
+"qty": 3
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "6V2",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "BC557",
+"qty": 3
+},
+{
+"type": "Semiconductor",
+"value": "LM307",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "LM3080",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "MTA-156 header 4Pin",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "CGS79 PCB",
+"qty": 1
+}
+]
+}
