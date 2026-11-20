@@ -5,11 +5,12 @@
   <path d="M 0.1000,0.5000 L 1.0000,0.5000 L 1.0000,1.5000 L 0.1000,1.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <text x="0.4200" y="0.6700" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">END</text>
   <path d="M 0.6700,0.6600 L 0.7033,0.6600 L 0.7033,0.6200 L 0.7367,0.6200 L 0.7367,0.6600 L 0.7700,0.6600" fill="none" stroke="#000000" stroke-width="0.0192" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 1.0000,0.5000 L 2.0000,0.5000 L 2.0000,2.5000 L 1.0000,2.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 2.0000,0.5000 L 2.9000,0.5000 L 2.9000,1.5000 L 2.0000,1.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 2.4500,0.6800 L 2.4833,0.6800 L 2.4833,0.6400 L 2.5167,0.6400 L 2.5167,0.6800 L 2.5500,0.6800" fill="none" stroke="#000000" stroke-width="0.0192" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 0.1200,1.5000 L 0.5000,2.0000 L 0.9800,1.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <text x="0.5000" y="1.6600" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">START</text>
-  <path d="M 2.0000,2.0000 A 0.4700,0.4700 0 0 1 2.9000,1.7532" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.0200,2.4700 L 2.0200,1.8000 L 2.4500,1.5500 L 2.8800,1.8000 L 2.8800,2.4700 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 0.1200,2.5000 L 0.5000,3.0000 L 0.9800,2.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <text x="0.5000" y="2.6600" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">CYCLE</text>
   <path d="M 1.0200,2.5000 L 1.5000,3.0000 L 1.9800,2.5000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
@@ -17,11 +18,12 @@
   <path d="M 2.0000,2.5000 L 2.9000,2.5000 L 2.9000,3.5000 L 2.0000,3.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <text x="2.4500" y="2.6600" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">WINDOW</text>
   <text x="2.4500" y="2.7500" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">SIZE</text>
-  <path d="M 2.0000,4.5000 L 2.9000,4.5000 L 2.9000,5.5000 L 2.0000,5.5000 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.0000,4.5000 L 2.9000,4.5000 L 2.9000,6.3600 L 2.0000,6.3600 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <text x="2.4500" y="4.6600" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0600" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">DURATION</text>
+  <path d="M 2.0600,6.0000 A 0.4200,0.4200 0 0 1 2.8400,5.7534" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 0.0700,6.3300 L 0.0700,5.8000 L 0.5000,5.5500 L 0.9300,5.8000 L 0.9300,6.3300 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 1.0700,6.3300 L 1.0700,5.8000 L 1.5000,5.5500 L 1.9300,5.8000 L 1.9300,6.3300 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
-  <path d="M 2.5000,5.0000 L 2.5000,6.0000" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.5000,5.0000 L 2.5000,5.5800" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 0.1000,6.3600 L 2.9000,6.3600 L 2.9000,6.5200 L 0.1000,6.5200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 1.0000,6.3600 L 1.0000,6.5200" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
   <path d="M 2.0000,6.3600 L 2.0000,6.5200" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
@@ -34,7 +36,7 @@
   <circle cx="2.5000" cy="1.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
   <circle cx="0.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
   <circle cx="1.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
-  <circle cx="2.5000" cy="2.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="2.0500" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
   <circle cx="0.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
   <circle cx="1.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
   <circle cx="2.5000" cy="3.0000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>

@@ -10,9 +10,9 @@ Panel artwork for a collection of Serge-format synthesizer modules, with drill t
 
 | Category | Folder name | Size | Panels |
 |---|---|---|---|
-| Single modules | `Module` | 4U, 175 mm high, 1"–8" wide (Loudest Warning format) | 85 |
+| Single modules | `Module` | 4U, 175 mm high, 1"–8" wide (Loudest Warning format) | 106 |
 | M-Class | `M-Class` | 8" × 7" | 28 |
-| Full panels | `Full Panel` | 17" × 7" | 13 |
+| Full panels | `Full Panel` | 17" × 7" | 25 |
 | Quarter panels | `Quarter Panel` | 4.25" × 7" | 8 |
 
 ## Previews
@@ -30,14 +30,15 @@ Every panel, drawn at the same height so the widths compare truthfully:
 The panels are grouped by era:
 
 ```
-Modern/                 the later Serge style (rounded boxes, "serge" at the bottom)
+Modern/                 the rounded-box layouts shared by SMMS metal-overlay and STS panels, plus STS-only modules
   Images/               one preview PNG per panel            Images/<category>/<name>.png
   Vector Graphics/      the panel artwork (Inkscape SVG)      Vector Graphics/<category>/<name>.svg
   Front Panel Express/  Front Panel Designer files            Front Panel Express/<category>/<name>.fpd
   Drill Templates/      1:1 printable drill templates (PDF)   Drill Templates/<category>/<name>.pdf
-Paperface/              the 1970s paperface line-art panels: Images, Vector Graphics and Drill Templates
-Serge Modular Music/    the white printed "SERGE MODULAR MUSIC SYSTEMS" panels (in progress, see its README)
+Paperface/              1973–76 panels with the early geometric symbols (paper): Images, Vector Graphics and Drill Templates
+SMMS/                   Serge Modular Music Systems, about 1976–92: Paper/ (squared boxes) and Metal_Overlay/ (rounded boxes), in progress
 Documentation/          original Serge manuals, catalog and user's guide
+Systems/                one file per real Serge system (CME 1973, Cal Arts Black Serge, ...) pointing to its panels
 ```
 
 Each SVG has three layers:
