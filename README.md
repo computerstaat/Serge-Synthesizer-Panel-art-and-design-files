@@ -15,6 +15,13 @@ Panel artwork for a collection of Serge-format synthesizer modules, with drill t
 | Full panels | `Full Panel` | 17" × 7" | 26 |
 | Quarter panels | `Quarter Panel` | 4.25" × 7" | 8 |
 
+## Website
+
+The repo is also a website: `index.html` at the root links a panel gallery for each era, the module build pages,
+the real systems and the documentation. Turn on GitHub Pages (Settings > Pages > deploy from branch `main`, root
+folder) and it is served at `https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/`.
+Rebuild it with `python3 tools/make_site.py` after adding panels or modules.
+
 ## Previews
 
 Every panel, drawn at the same height so the widths compare truthfully:
