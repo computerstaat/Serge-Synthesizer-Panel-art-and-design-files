@@ -43,4 +43,9 @@ Modules that differ from the versions already here carry `_HumanComparator` in t
 
 ## Catgirl Synth panels
 
-In progress. The source artwork is in `Other/Reference Photos/CGS Panels` (not tracked).
+| Panel | Modules |
+|---|---|
+| Catgirl_Panel_DTG_Drums_LPG_Outputs | Dual Transient Generator ×2, Drum Sim, Chime Sim, Cynare Drum Simulator, Dual Lowpass Gate, Outputs |
+| Catgirl_Panel_Switches_Logic_LFO | Sequential Switch (4" with CV) + 2× Sequential Switch, Pulse Divider ×2, Boolean Logic ×2, Master LFO |
+
+More panels are in progress. The source artwork is in `Other/Reference Photos/CGS Panels` (not tracked).
