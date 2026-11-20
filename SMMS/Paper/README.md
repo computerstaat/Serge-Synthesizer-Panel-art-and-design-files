@@ -1,8 +1,8 @@
-# SMMS 1979: squared boxes
+# SMMS on paper (about 1976–79): squared boxes
 
 The older SMMS artwork, as drawn in the 1979 "Series 79" catalogue (`../../Documentation/SMMS_Catalogue_1979.pdf`):
 square-cornered boxes, the module name printed inside the top of the module outline, and "serge" or
-"SERGE MODULAR MUSIC (SYSTEMS)" along the bottom edge. Printed paper faces.
+"SERGE MODULAR MUSIC (SYSTEMS)" along the bottom edge. Printed paper stuck on the panel, later with a Mylar overlay.
 
 Photo-confirmed in this style, not drawn yet:
 

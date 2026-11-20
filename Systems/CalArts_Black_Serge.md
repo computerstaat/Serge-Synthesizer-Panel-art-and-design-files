@@ -2,7 +2,7 @@
 
 The black-panel Serge at the California Institute of the Arts. Four 17" upright panels, a sloped control panel in front of them on the left, and a Touch Activated Keyboard Sequencer (TKB) on the right. The line-up comes from video frames and photos of the instrument, and the sloped panel was confirmed against a render of a replica.
 
-Era: **Modern** (the later Serge layout), printed white on black panels.
+Era: **SMMS metal overlay** (rounded-box layout), most likely early 1980s. Darrel Johansen describes donating his custom six-panel system to CalArts in 1997: built in the early 80s, with the metallic graphics exposed from positive masters so they came out silver on black instead of the usual black on silver. The drawings live in `../Modern` because the metal-overlay and STS panels share these layouts.
 
 Each panel comes in two versions: the standard white artwork, and a black version (white lines and lettering on a black panel) that looks like the real instrument. Both use the same holes, so the drill template is shared.
 

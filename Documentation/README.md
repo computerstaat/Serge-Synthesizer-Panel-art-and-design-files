@@ -8,4 +8,4 @@
 | `Serge_Modular_Music_Systems_STS_Catalog.pdf` | A later edition of the same catalogue (same drawings and Haight Street address) | SMMS rounded / Modern layout |
 | `An_Introduction_to_the_Serge_Modular_Music_System.pdf` | Rich Gold's introduction and user's manual | SMMS |
 
-See [SMMS_Catalogue_Notes.md](SMMS_Catalogue_Notes.md) for what the two SMMS catalogues tell us.
+See [Serge_History.md](Serge_History.md) for the timeline and how the panel graphics were made, and [SMMS_Catalogue_Notes.md](SMMS_Catalogue_Notes.md) for what the two SMMS catalogues tell us.
