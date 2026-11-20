@@ -36,7 +36,7 @@ Modern/                 STS panels printed directly on aluminium (rounded boxes,
   Front Panel Express/  Front Panel Designer files            Front Panel Express/<category>/<name>.fpd
   Drill Templates/      1:1 printable drill templates (PDF)   Drill Templates/<category>/<name>.pdf
 Paperface/              the early 1970s paperface panels in the simpler line-art style: Images, Vector Graphics and Drill Templates
-SMMS/                   Serge Modular Music Systems: printed paper faces, squared (1979) or rounded (1980+) boxes (in progress)
+SMMS/                   Serge Modular Music Systems, printed paper faces: 1979/ (squared boxes) and 1980/ (rounded boxes), in progress
 Documentation/          original Serge manuals, catalog and user's guide
 Systems/                one file per real Serge system (CME 1973, Cal Arts Black Serge, ...) pointing to its panels
 ```
