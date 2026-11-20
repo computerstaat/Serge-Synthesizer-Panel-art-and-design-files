@@ -30,13 +30,13 @@ Every panel, drawn at the same height so the widths compare truthfully:
 The panels are grouped by era:
 
 ```
-Modern/                 panels printed directly on aluminium (rounded boxes, "serge" at the bottom)
+Modern/                 STS panels printed directly on aluminium (rounded boxes, "serge" at the bottom)
   Images/               one preview PNG per panel            Images/<category>/<name>.png
   Vector Graphics/      the panel artwork (Inkscape SVG)      Vector Graphics/<category>/<name>.svg
   Front Panel Express/  Front Panel Designer files            Front Panel Express/<category>/<name>.fpd
   Drill Templates/      1:1 printable drill templates (PDF)   Drill Templates/<category>/<name>.pdf
-Paperface/              the 1970s hand-drawn paperface line-art panels: Images, Vector Graphics and Drill Templates
-Serge Modular Music/    printed paper-face panels, "serge" / "SERGE MODULAR MUSIC SYSTEMS" under the names (in progress)
+Paperface/              the early 1970s paperface panels in the simpler line-art style: Images, Vector Graphics and Drill Templates
+SMMS/                   Serge Modular Music Systems: printed paper faces, squared (1979) or rounded (1980+) boxes (in progress)
 Documentation/          original Serge manuals, catalog and user's guide
 Systems/                one file per real Serge system (CME 1973, Cal Arts Black Serge, ...) pointing to its panels
 ```
