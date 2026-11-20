@@ -81,3 +81,24 @@ Other notes:
 - The Pitch and Envelope Follower is a Serge catalogue product (7"), even though the panels in photos carry Gentle Electric's name.
 - The 1979 COM is the Triple Comparator (2"); by 1983 COM is a 1" Dual Comparator.
 - The 1979 catalogue's Ring Modulator is a 2" "Ring Modulator / VC Gate"; by 1983 it is the 1" Ring Modulator.
+
+## An earlier module list
+
+A typed module list photographed by Tone Tweakers (pages 1–2 only; not in this folder) predates both catalogues and uses older codes and sizes:
+
+| Early name (code) | Size | Notes |
+|---|---|---|
+| VC Oscillator | 2" | Low-cost VCO, 16–16,000 Hz, voltage-variable waveshape from sine to saw, sync, a reference saw output; uncalibrated VC inputs |
+| New Timbral Oscillator (NTO) | 3" | Same size as later |
+| VC Filter (VCF) | 2" | Two-pole filter, high-pass, band-pass and low-pass outputs, Q from flat to over 100 |
+| VC Filter-Q (VCFQ) | 3" | 1V/octave inputs, VC Q, two audio inputs; 2" in the later catalogues |
+| VC Filter Extended Range (VCF-2) | 2" | Adds a sub-sonic range (0.05–200 Hz); later called VCFX. The code VCF2 was later reused for the Variable Bandwidth Filter |
+| Dual VCF (VCFX2) | 4" | Two VCFs in series: high-pass, low-pass, variable-bandwidth band-pass and two fixed band-pass outputs; the forerunner of the Variable Bandwidth Filter |
+| Filter Bank | special order | Instructions to chain three or more filters |
+| VC Phaser (VCP) | 2" | 360°, 720° and 1080° outputs plus a mixed output |
+| Noise Source (NS) | 2" | White and pink noise, an S/H source output, push-button or pulse-triggered random sample-and-hold |
+
+What this settles:
+- The single VC Phaser has always been 2" wide with three stage outputs. Our 1" "Phaser" (360° and 720° only) is not this module.
+- The Noise Source's MANUAL push-button and IN trigger go back to the earliest list.
+- Codes changed over time, so match modules by description and size, not by code alone.
