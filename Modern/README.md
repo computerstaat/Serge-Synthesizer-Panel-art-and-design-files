@@ -18,7 +18,7 @@ Against the STS module list on the Egres site's "150 DPI graphics" page (archive
 | 2VCA | Dual VCA | 1" | Dual_VCA |
 | UAP | Universal Audio Processor | 2" | Universal_Audio_Processor |
 | XFAD | Cross-Fader | 1" | X_Fader |
-| — | Dual Stereo Panner | — | **missing** |
+| PAN | Dual Stereo Panner | 2" | Dual_Stereo_Panner (with Stereo_Output_Mixer, from a Tone Tweakers photo) |
 | VCFQ | Variable Q VC Filter | 2" | Variable_Q_VCF |
 | VCF2 | Variable Bandpass VC Filter | 2" | Variable_Bandwidth_VCF |
 | VCFS | Variable Slope VC Filter | 2" | Variable_Slope_VCF |
