@@ -25,8 +25,8 @@ Against the STS module list on the Egres site's "150 DPI graphics" page (archive
 | VCFQ(X) | Extended Range VC Q Filter | 2" | Extended_Range_VCF |
 | DCSM | Dual Channel Stereo Mixer | 2" | Dual_Channel_Stereo_Mixer |
 | QVM | Quad Channel Stereo Mixer | 4" | VC_Stereo_Mixer |
-| QMX | Multi-Channel Quad Mixer | 6" | **missing** |
-| QPC | Quad Panner Channel | 2" | **missing** |
+| QMX | Multi-Channel Quad Mixer | 6" | Multi-Channel_Quadraphonic_Mixer (two Quad_Channel + Quad_Output_Mixer; user-supplied catalogue drawing) |
+| QPC | Quad Panner Channel | 2" | Quad_Channel |
 | MLV | Dual Master Level | 1" | **missing** |
 | AMX | Audio Mixer with phase switch | 1" | Mixer (check the phase switch) |
 | MIX2 | Dual Audio Mixer with phase switch | 2" | Audio_Mixer (check the phase switch) |
@@ -34,15 +34,15 @@ Against the STS module list on the Egres site's "150 DPI graphics" page (archive
 | EQ | Resonant Equalizer | 2" | Resonant_Equalizer |
 | RING | Ring Modulator | 1" | Ring_Modulator |
 | FRS | Frequency Shifter | 3" | Frequency_Shifter |
-| FRSX | Frequency Shifter (external carrier) | 3" | **missing** |
+| FRSX | Frequency Shifter (external carrier) | 3" | Frequency_Shifter_External_Carrier (150 dpi STS graphic) |
 | PHA | Phase Shifter | 2" | VC_Phaser (from the 1980 catalogue drawing; our older 1" Phaser is a different module) |
 | 2PHA | Dual Phase Shifter | 2" | Dual_Phaser |
 | TWS | Triple Waveshaper | 2" | Triple_Waveshaper |
 | VCM | Wave Multipliers | 2" | Wave_Multipliers |
 | WAD | Wilson Analog Delay | 3" | Wilson_Analog_Delay |
 | PRNV | Preamp Detector | 1" | Preamp_Detector |
-| ENV | Envelope Detector | 1" | Envelope_Detector (1980 catalogue drawing; the STS version adds a sensitivity pot, not drawn yet) |
-| ENV2 | Dual Envelope Detector | 1" | Dual_Envelope_Detector (1980 catalogue drawing) |
+| ENV | Envelope Detector | 1" | Envelope_Detector (1980 catalogue drawing, matches the 150 dpi STS graphic) |
+| ENV2 | Dual Envelope Detector | 1" | Dual_Envelope_Detector (matches the 150 dpi STS graphic) |
 | ASR | Analog Shift Register | 1" | ASR |
 | COM | Dual Comparator | 1" | Dual_Comp |
 | NCOM | Divide by N Comparator | 1" | Divide_N_Comp |
@@ -61,7 +61,7 @@ Against the STS module list on the Egres site's "150 DPI graphics" page (archive
 | 2RVG | Dual Random Voltage Generator | 2" | Dual_Random_Voltage_Generator (1980 catalogue drawing) |
 | QUO | Quadrature Oscillator | 2" | Quadrature_Oscillator |
 | QUAN | Quantizer | 2" | Quantizer |
-| QSEQ | Quantizer for SQPs | 1" | **missing** |
+| QSEQ | Quantizer for SQPs | 1" | Quantizer_SQP (150 dpi STS graphic) |
 | QTKB | Quantizer for TKB | 2" | Quantizer_TKB |
 | SQP4 | 4-Stage Sequencer Programmer | 5" | 4_Stage_Sequencing_Programmer |
 | SQP5 | 5-Stage Sequencer Programmer | 6" | 5_Stage_Sequencing_Programmer |
