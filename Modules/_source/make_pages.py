@@ -108,6 +108,14 @@ def parts_list(key):
     return json.load(open(p)) if os.path.exists(p) else None
 
 
+import make_mouser
+
+
+def mouser_files(slug):
+    d = os.path.join(OUT, "BOM", "mouser")
+    return sorted(f for f in os.listdir(d) if f.startswith(slug + "__") and f.endswith(".csv") and "not_at" not in f) if os.path.isdir(d) else []
+
+
 def bom_rows(m):
     """Rows of the module's BOM spreadsheet: front-panel hardware, then each build option's board parts."""
     rows = []
@@ -123,8 +131,12 @@ def bom_rows(m):
         if keys:
             for k in keys:
                 pl = parts_list(k)
+                mapped = any(k in v for v in make_mouser.TARGETS.values())
                 for r in pl["parts"]:
-                    rows.append([b["name"], pl["board"] + " board", r["type"], r["value"], r["qty"], "from " + pl["source"], "", "", ""])
+                    mk = make_mouser.key(r["type"], r["value"]) if mapped else None
+                    mp = make_mouser.P.get(mk) if isinstance(mk, str) else None
+                    rows.append([b["name"], pl["board"] + " board", r["type"], r["value"], r["qty"], "from " + pl["source"],
+                                 mp[0] if mp else "", "https://www.mouser.com/ProductDetail/" + mp[0] if mp else "", mp[3] if mp else ""])
         else:
             rows.append([b["name"], "Board", "", "See the maker's BOM", "", b["bom"].get("title", "") + " - " + b["bom"].get("url", b["url"]), "", "", ""])
     return rows
@@ -214,6 +226,14 @@ def page(m):
     out.append('<section id="bom"><h2>Bill of materials</h2><p>Spreadsheet: <a href="%s">%s</a> (CSV; opens in Excel, '
                'Numbers or Google Sheets). The Mouser columns are there to fill in with order links.</p>' % (
                    quote(m["bom_csv"]), e(os.path.basename(m["bom_csv"]))))
+    mf = mouser_files(m["slug"])
+    if mf:
+        sm = json.load(open(os.path.join(OUT, "BOM", "mouser", "summary.json")))
+        out.append('<p class="note"><b>Order from Mouser:</b> %s. Upload it at <a href="https://www.mouser.com/bomtool/">Mouser\'s BOM tool</a> '
+                   '(it reads the Mouser and manufacturer part number columns). Parts Mouser doesn\'t stock are listed in %s.</p>' % (
+                       ", ".join('<a href="%s">%s</a> (%d lines, about $%.2f at single-unit prices)' % (
+                           quote("BOM/mouser/" + f), e(f), sm[f[:-4]]["lines"], sm[f[:-4]]["cost"]) for f in mf),
+                       ", ".join('<a href="%s">%s</a>' % (quote("BOM/mouser/" + f[:-4] + "_not_at_mouser.csv"), e(f[:-4] + "_not_at_mouser.csv")) for f in mf)))
     groups = collections.OrderedDict()
     for r in rows:
         groups.setdefault(r[0], []).append(r)

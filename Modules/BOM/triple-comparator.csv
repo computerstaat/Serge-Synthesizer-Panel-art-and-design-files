@@ -3,24 +3,24 @@ All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour no
 All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,3,value from the board BOM,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Knob,3,one per pot,,,
 Prism Circuits Triple Comparator,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-triple-comparator",,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,330R,4,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,5k6,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,6k8,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Potentiometer / trimmer,25k trimmer,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,100k,6,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,220k,3,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,470k,3,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,820k,4,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,1M,7,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,22M,3,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,RLED resistor for LED,4,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Potentiometer / trimmer,"25k, 50k or 100k linear POT",3,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Capacitor,220pF,3,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Capacitor,0.1 uF 1206 SMT,3,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Capacitor,10uF electrolytic,2,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Semiconductor,BC547,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Semiconductor,MC3401 or LM3900,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Misc,Ferrite Bead,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Misc,MTA-156 connector 4 Pin,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
-Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Misc,MTA-156 header 4 Pin,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,330R,4,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,603-MFR-25FBF52-330R,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-330R,0.11
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,5k6,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,603-MFR-25FBF52-5K6,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-5K6,0.1
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,6k8,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,603-MFR-25FBF52-6K8,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-6K8,0.1
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Potentiometer / trimmer,25k trimmer,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,652-3362P-1-253LF,https://www.mouser.com/ProductDetail/652-3362P-1-253LF,1.3
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,100k,6,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,603-MFR-25FBF52-100K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-100K,0.1
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,220k,3,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,603-MFR-25FBF52-220K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-220K,0.1
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,470k,3,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,603-MFR-25FBF52-470K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-470K,0.1
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,820k,4,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,603-MFR-25FBF52-820K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-820K,0.1
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,1M,7,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,603-MFR-25FBF52-1M,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1M,0.1
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,22M,3,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,660-RK1/4LCT52R226G,https://www.mouser.com/ProductDetail/660-RK1/4LCT52R226G,0.71
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,RLED resistor for LED,4,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,603-MFR-25FBF52-1K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1K,0.1
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Potentiometer / trimmer,"25k, 50k or 100k linear POT",3,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,313-1000F-25K,https://www.mouser.com/ProductDetail/313-1000F-25K,1.36
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Capacitor,220pF,3,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,810-FG28C0G1H221JNT0,https://www.mouser.com/ProductDetail/810-FG28C0G1H221JNT0,0.23
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Capacitor,0.1 uF 1206 SMT,3,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,80-C1206C104K5R,https://www.mouser.com/ProductDetail/80-C1206C104K5R,0.17
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Capacitor,10uF electrolytic,2,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,667-ECE-A1EKA100,https://www.mouser.com/ProductDetail/667-ECE-A1EKA100,0.26
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Semiconductor,BC547,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,512-BC547BTA,https://www.mouser.com/ProductDetail/512-BC547BTA,0.27
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Semiconductor,MC3401 or LM3900,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,595-LM3900N,https://www.mouser.com/ProductDetail/595-LM3900N,0.85
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Misc,Ferrite Bead,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,875-28L0138-70R-10,https://www.mouser.com/ProductDetail/875-28L0138-70R-10,0.45
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Misc,MTA-156 connector 4 Pin,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,571-3-640426-4,https://www.mouser.com/ProductDetail/571-3-640426-4,0.6
+Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Misc,MTA-156 header 4 Pin,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,571-6404454,https://www.mouser.com/ProductDetail/571-6404454,0.34
 Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Misc,CGS96 PCB,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,,,
