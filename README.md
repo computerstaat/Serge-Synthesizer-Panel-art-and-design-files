@@ -10,9 +10,9 @@ Panel artwork for a collection of Serge-format synthesizer modules, with drill t
 
 | Category | Folder name | Size | Panels |
 |---|---|---|---|
-| Single modules | `Module` | 4U, 175 mm high, 1"–8" wide (Loudest Warning format) | 85 |
+| Single modules | `Module` | 4U, 175 mm high, 1"–8" wide (Loudest Warning format) | 92 |
 | M-Class | `M-Class` | 8" × 7" | 28 |
-| Full panels | `Full Panel` | 17" × 7" | 13 |
+| Full panels | `Full Panel` | 17" × 7" | 19 |
 | Quarter panels | `Quarter Panel` | 4.25" × 7" | 8 |
 
 ## Previews
