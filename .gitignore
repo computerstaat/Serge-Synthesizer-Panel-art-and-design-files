@@ -5,6 +5,7 @@ __pycache__/
 
 # Everything used to build the Front Panel Express files stays out of the repo
 Front Panel Express/Build Kit/
+**/Front Panel Express/Build Kit/
 fpd/Build Kit/
 FPD_Kit/
 *.command
