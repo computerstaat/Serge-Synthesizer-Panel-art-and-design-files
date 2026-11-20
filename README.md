@@ -36,6 +36,7 @@ Modern/                 the later Serge style (rounded boxes, "serge" at the bot
   Front Panel Express/  Front Panel Designer files            Front Panel Express/<category>/<name>.fpd
   Drill Templates/      1:1 printable drill templates (PDF)   Drill Templates/<category>/<name>.pdf
 Paperface/              the 1970s paperface line-art panels: Images, Vector Graphics and Drill Templates
+Serge Modular Music/    the white printed "SERGE MODULAR MUSIC SYSTEMS" panels (in progress, see its README)
 Documentation/          original Serge manuals, catalog and user's guide
 ```
 
