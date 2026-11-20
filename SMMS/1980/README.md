@@ -1,8 +1,8 @@
 # SMMS 1980: rounded boxes
 
 The newer SMMS artwork, as drawn in the 1980 catalogue (`../../Documentation/SMMS_Catalogue_1980.pdf`): rounded
-boxes, the module name above the outline and "serge" in the bottom edge. Printed paper faces. The Modern (STS,
-aluminium) panels kept these layouts, so the drawings in `../../Modern` are the reference for these too.
+boxes, the module name above the outline and "serge" in the bottom edge. Printed paper faces. The Modern (aluminium)
+panels kept these layouts, so the drawings in `../../Modern` are the reference for these too.
 
 Photo-confirmed in this style, not drawn yet:
 

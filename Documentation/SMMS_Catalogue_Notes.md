@@ -3,7 +3,7 @@
 ## The two box styles
 
 - **1979 catalogue (Series 79):** every panel drawing has square-cornered boxes, the module name sits inside the top of the outline, and "serge" is printed in the bottom edge. This is the **squared** SMMS style.
-- **1980 catalogue:** the same modules redrawn with rounded boxes and the name above the outline. This is the **rounded** SMMS style. The drawings are the same ones as in the STS catalogue that the Modern set was drawn from, so the Modern (aluminium) panels kept the rounded SMMS layout.
+- **1980 catalogue:** the same modules redrawn with rounded boxes and the name above the outline. This is the **rounded** SMMS style. The drawings are the same ones as in the STS catalogue that the Modern set was drawn from, so the Modern (aluminium) panels kept the rounded SMMS layout. When the change from SMMS to STS happened, and whether some aluminium panels are SMMS on metal, is still open.
 
 So a module's layout can be checked against the 1980 drawings for both rounded SMMS and Modern, and against the 1979 drawings for squared SMMS.
 

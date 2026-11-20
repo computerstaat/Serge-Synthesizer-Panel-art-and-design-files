@@ -30,7 +30,7 @@ Every panel, drawn at the same height so the widths compare truthfully:
 The panels are grouped by era:
 
 ```
-Modern/                 STS panels printed directly on aluminium (rounded boxes, "serge" at the bottom)
+Modern/                 panels printed directly on aluminium (STS, and perhaps some late SMMS on metal; still being worked out)
   Images/               one preview PNG per panel            Images/<category>/<name>.png
   Vector Graphics/      the panel artwork (Inkscape SVG)      Vector Graphics/<category>/<name>.svg
   Front Panel Express/  Front Panel Designer files            Front Panel Express/<category>/<name>.fpd

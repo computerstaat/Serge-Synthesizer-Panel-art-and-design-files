@@ -2,8 +2,12 @@
 
 The middle era of Serge panels: **printed paper faces** (white, cream or yellow) with the module name on top
 and "serge", "SERGE MODULAR" or "SERGE MODULAR MUSIC SYSTEMS" printed underneath. They sit between the 1970s
-Paperface panels (`../Paperface`, also paper, in the simpler early style) and the Modern panels (`../Modern`), the
-later STS panels printed directly on aluminium.
+Paperface panels (`../Paperface`, also paper, in the simpler early style) and the Modern panels (`../Modern`), printed
+directly on aluminium.
+
+Open question: when SMMS became STS is not settled. Some aluminium panels may be SMMS printed on metal, so a
+metal panel is not automatically STS. Panels are sorted by what the photos show (paper or metal, squared or
+rounded boxes), and the maker is noted only where a photo or document confirms it.
 
 There are two versions of SMMS artwork:
 
