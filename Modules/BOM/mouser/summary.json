@@ -1,0 +1,17 @@
+{
+ "triple-comparator__cgs96_comp": {
+  "lines": 20,
+  "elsewhere": 1,
+  "cost": 15.08
+ },
+ "triple-wave-shaper__cgs85_tws": {
+  "lines": 15,
+  "elsewhere": 1,
+  "cost": 22.05
+ },
+ "ring-modulator__cgs79_ring": {
+  "lines": 20,
+  "elsewhere": 3,
+  "cost": 13.93
+ }
+}

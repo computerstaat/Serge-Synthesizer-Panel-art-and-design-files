@@ -3,20 +3,20 @@ All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour no
 All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,3,value from the board BOM,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Knob,3,one per pot,,,
 Prism Circuits Triple Waveshaper,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-triple-wave-shaper",,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,100pF decoupling caps,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,100n (0.1) decoupling caps,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,470n MKT or sim,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,10uF 25V,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,47uF 25V,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Resistor,330R,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Resistor,100k,6,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Resistor,150k,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Resistor,220k,6,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Resistor,1M5,9,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Potentiometer / trimmer,22k trimmer,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Potentiometer / trimmer,100k Lin pot,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Semiconductor,1N4148,12,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Semiconductor,LM3900,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Misc,Ferrite Bead,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,100pF decoupling caps,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,810-FG28C0G1H101JNT0,https://www.mouser.com/ProductDetail/810-FG28C0G1H101JNT0,0.27
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,100n (0.1) decoupling caps,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,810-FG28X7R1H104KNT6,https://www.mouser.com/ProductDetail/810-FG28X7R1H104KNT6,0.27
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,470n MKT or sim,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,505-MKS2.47/63/5T,https://www.mouser.com/ProductDetail/505-MKS2.47/63/5T,0.94
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,10uF 25V,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,667-ECE-A1EKA100,https://www.mouser.com/ProductDetail/667-ECE-A1EKA100,0.26
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,47uF 25V,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,667-ECE-A1EKA470,https://www.mouser.com/ProductDetail/667-ECE-A1EKA470,0.31
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Resistor,330R,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,603-MFR-25FBF52-330R,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-330R,0.11
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Resistor,100k,6,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,603-MFR-25FBF52-100K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-100K,0.1
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Resistor,150k,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,603-MFR-25FBF52-150K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-150K,0.1
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Resistor,220k,6,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,603-MFR-25FBF52-220K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-220K,0.1
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Resistor,1M5,9,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,660-MFS1/4DCT52R1504,https://www.mouser.com/ProductDetail/660-MFS1/4DCT52R1504,0.47
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Potentiometer / trimmer,22k trimmer,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,652-3362P-1-223LF,https://www.mouser.com/ProductDetail/652-3362P-1-223LF,1.19
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Potentiometer / trimmer,100k Lin pot,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,313-1000F-100K,https://www.mouser.com/ProductDetail/313-1000F-100K,1.61
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Semiconductor,1N4148,12,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,512-1N4148,https://www.mouser.com/ProductDetail/512-1N4148,0.1
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Semiconductor,LM3900,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,595-LM3900N,https://www.mouser.com/ProductDetail/595-LM3900N,0.85
+Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Misc,Ferrite Bead,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,875-28L0138-70R-10,https://www.mouser.com/ProductDetail/875-28L0138-70R-10,0.45
 Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Misc,CGS85 VER1.0 PCB,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
 Low-Gain LGE085 Triple Waveshaper,Board,,See the maker's BOM,,Board BOMs on the product page - https://www.low-gain.com/shop/p/lge085,,,

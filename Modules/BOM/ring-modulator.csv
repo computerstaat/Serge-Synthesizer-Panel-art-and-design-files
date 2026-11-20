@@ -3,27 +3,27 @@ All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour no
 All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,1,value from the board BOM,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Knob,1,one per pot,,,
 Prism Circuits Ring Modulator,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-ring-modulator",,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,330Ω,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,1k,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,2k2,2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,15k,2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,22k,4,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Potentiometer / trimmer,25k trimmer,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Potentiometer / trimmer,25k lin pot,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,33k,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,47k,2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,68k,2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,220k,4,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Capacitor,100nF 1206 SMT (=0.1uF) see text.,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Capacitor,10nF (=0.01uF),2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Capacitor,470nF (=0.47uF),2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Capacitor,10uF electrolytic,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Semiconductor,1N4148,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Semiconductor,6V2,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Semiconductor,BC557,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,330Ω,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,603-MFR-25FBF52-330R,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-330R,0.11
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,1k,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,603-MFR-25FBF52-1K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1K,0.1
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,2k2,2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,603-MFR-25FBF52-2K2,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-2K2,0.1
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,15k,2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,603-MFR-25FBF52-15K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-15K,0.1
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,22k,4,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,603-MFR-25FBF52-22K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-22K,0.1
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Potentiometer / trimmer,25k trimmer,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,652-3362P-1-253LF,https://www.mouser.com/ProductDetail/652-3362P-1-253LF,1.3
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Potentiometer / trimmer,25k lin pot,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,313-1000F-25K,https://www.mouser.com/ProductDetail/313-1000F-25K,1.36
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,33k,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,603-MFR-25FBF52-33K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-33K,0.1
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,47k,2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,603-MFR-25FBF52-47K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-47K,0.1
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,68k,2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,603-MFR-25FBF52-68K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-68K,0.12
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,220k,4,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,603-MFR-25FBF52-220K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-220K,0.1
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Capacitor,100nF 1206 SMT (=0.1uF) see text.,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,80-C1206C104K5R,https://www.mouser.com/ProductDetail/80-C1206C104K5R,0.17
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Capacitor,10nF (=0.01uF),2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,810-FG28X7R1H103KNT6,https://www.mouser.com/ProductDetail/810-FG28X7R1H103KNT6,0.23
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Capacitor,470nF (=0.47uF),2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,505-MKS2.47/63/5T,https://www.mouser.com/ProductDetail/505-MKS2.47/63/5T,0.94
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Capacitor,10uF electrolytic,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,667-ECE-A1EKA100,https://www.mouser.com/ProductDetail/667-ECE-A1EKA100,0.26
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Semiconductor,1N4148,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,512-1N4148,https://www.mouser.com/ProductDetail/512-1N4148,0.1
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Semiconductor,6V2,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,78-TZX6V2A,https://www.mouser.com/ProductDetail/78-TZX6V2A,0.49
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Semiconductor,BC557,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,512-BC557BTA,https://www.mouser.com/ProductDetail/512-BC557BTA,0.28
 Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Semiconductor,LM307,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
 Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Semiconductor,LM3080,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Misc,Ferrite Bead,2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Misc,MTA-156 header 4Pin,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Misc,Ferrite Bead,2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,875-28L0138-70R-10,https://www.mouser.com/ProductDetail/875-28L0138-70R-10,0.45
+Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Misc,MTA-156 header 4Pin,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,571-6404454,https://www.mouser.com/ProductDetail/571-6404454,0.34
 Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Misc,CGS79 PCB,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
 Low-Gain LGE006 R6 Ring / Gate,Board,,See the maker's BOM,,Board BOMs on the product page - https://www.low-gain.com/shop/p/lge006,,,
