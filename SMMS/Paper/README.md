@@ -17,7 +17,6 @@ into the bottom edge, upright letter-spaced geometric sans lettering (Avant Gard
 | Module | Source |
 |---|---|
 | Universal Equal Power Audio Processor | Introduction book drawings, squared-box photos |
-| Keyboard Envelope Generator | 3" (two photos of squared SMMS panels): six rows spread over the full height: Gate / OUT with LED, Trig / VC-ALL, four stage inputs, END-T2; large knobs; the name along the bottom edge |
 | Dual Processor | close-up photo |
 | Dual Universal Slope Generator | close-up photo |
 | Extended Range VCF | older layout: IN 1 / IN 2, NOTCH (AGC) behind a dashed line, TRIG, RANGE switch |
@@ -25,6 +24,8 @@ into the bottom edge, upright letter-spaced geometric sans lettering (Avant Gard
 
 The jack and knob positions follow the Modern drawings, which match the photos; only the box style and lettering
 change. Details too small to read in the photos (knob range markings, exact LED positions) are left out.
+
+In progress (kept outside the repo until it matches the photos): Keyboard Envelope Generator (3", six rows).
 
 Seen in system photos, not drawn yet: New Timbral Oscillator, Variable Q VCF, Variable Slope VCF, Variable Bandwidth
 Filter, Triple Wave Shaper, Ring, VCA, Dual Negative Slew, VC Slew Generator, Smooth Function Generator, Analog Shift
