@@ -6,7 +6,7 @@
 
 Click a picture for the full-size PNG. **SVG** is the artwork, **Drill** the 1:1 drill template, **Build** the module's build page. The same gallery is on the [website](https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/panels.html).
 
-### Module (35)
+### Module (36)
 
 <table>
 <tr>
@@ -55,7 +55,10 @@ Click a picture for the full-size PNG. **SVG** is the artwork, **Drill** the 1:1
 <td align="center" valign="bottom"><a href="Images/Module/Sequencer.png"><img src="../thumbs/Paperface/Images/Module/Sequencer.jpg" height="200"></a><br><sub><b>Sequencer</b><br><a href="Vector%20Graphics/Module/Sequencer.svg">SVG</a> · <a href="Drill%20Templates/Module/Sequencer.pdf">Drill</a> · <a href="https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/Modules/sequencer-10-stage.html">Build</a></sub></td>
 <td align="center" valign="bottom"><a href="Images/Module/Smooth_Stepped_Function_VC_Generator.png"><img src="../thumbs/Paperface/Images/Module/Smooth_Stepped_Function_VC_Generator.jpg" height="200"></a><br><sub><b>Smooth Stepped Function VC Generator</b><br><a href="Vector%20Graphics/Module/Smooth_Stepped_Function_VC_Generator.svg">SVG</a> · <a href="Drill%20Templates/Module/Smooth_Stepped_Function_VC_Generator.pdf">Drill</a> · <a href="https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/Modules/smooth-stepped-generator.html">Build</a></sub></td>
 <td align="center" valign="bottom"><a href="Images/Module/Triple_Bi-Directional_Router.png"><img src="../thumbs/Paperface/Images/Module/Triple_Bi-Directional_Router.jpg" height="200"></a><br><sub><b>Triple Bi-Directional Router</b><br><a href="Vector%20Graphics/Module/Triple_Bi-Directional_Router.svg">SVG</a> · <a href="Drill%20Templates/Module/Triple_Bi-Directional_Router.pdf">Drill</a> · <a href="https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/Modules/bi-directional-router.html">Build</a></sub></td>
+<td align="center" valign="bottom"><a href="Images/Module/Triple_Comparator.png"><img src="../thumbs/Paperface/Images/Module/Triple_Comparator.jpg" height="200"></a><br><sub><b>Triple Comparator</b><br><a href="Vector%20Graphics/Module/Triple_Comparator.svg">SVG</a> · <a href="Drill%20Templates/Module/Triple_Comparator.pdf">Drill</a></sub></td>
 <td align="center" valign="bottom"><a href="Images/Module/Triple_Wave_Shaper.png"><img src="../thumbs/Paperface/Images/Module/Triple_Wave_Shaper.jpg" height="200"></a><br><sub><b>Triple Wave Shaper</b><br><a href="Vector%20Graphics/Module/Triple_Wave_Shaper.svg">SVG</a> · <a href="Drill%20Templates/Module/Triple_Wave_Shaper.pdf">Drill</a> · <a href="https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/Modules/triple-wave-shaper.html">Build</a></sub></td>
+</tr>
+<tr>
 <td align="center" valign="bottom"><a href="Images/Module/VC_Slew_Generator.png"><img src="../thumbs/Paperface/Images/Module/VC_Slew_Generator.jpg" height="200"></a><br><sub><b>VC Slew Generator</b><br><a href="Vector%20Graphics/Module/VC_Slew_Generator.svg">SVG</a> · <a href="Drill%20Templates/Module/VC_Slew_Generator.pdf">Drill</a></sub></td>
 </tr>
 </table>
