@@ -48,10 +48,12 @@ async function draw(){
  const L=layout(),{used,T}=L;
  $('meter').innerHTML=sel.length?('Modules: <b>'+used.toFixed(2)+'"</b>'+(T?(' of '+T+'" &middot; '+(used>T?'<b class="bad">'+(used-T).toFixed(2)+'" too wide</b>':((T-used).toFixed(2)+'" left'))):'')+' &middot; '+sel.length+' module'+(sel.length>1?'s':'')):'';
  const btn=['dl','dp','dd','df'];
- if(!sel.length){$('stage').innerHTML='<div class="empty">Click modules on the left to add them to the panel.</div>';btn.forEach(b=>$(b).disabled=true);$('warn').textContent='';return}
+ if(!sel.length){$('bp').innerHTML='';$('stage').innerHTML='<div class="empty">Click modules on the left to add them to the panel.</div>';btn.forEach(b=>$(b).disabled=true);$('warn').textContent='';return}
  const o=await svg('art');$('stage').innerHTML='';$('stage').appendChild(o);btn.forEach(b=>$(b).disabled=false);
  const H=holes(L);$('warn').innerHTML=H.miss.length?'No drill data yet for: <b>'+[...new Set(H.miss)].join(', ')+'</b>. Their holes are missing from the drill template and the Front Panel Express file.':'';
  $('hc').textContent=H.list.length+' holes';
+ const bs=[...new Set(sel.map(i=>M[i].b).filter(Boolean))];
+ $('bp').innerHTML=bs.length?'<p class="meter"><b>Build these modules:</b> '+bs.map(b=>'<a href="Modules/'+b+'.html">'+(M.find(m=>m.b===b).n)+'</a> (<a href="Modules/BOM/'+b+'.csv">BOM</a>)').join(' &middot; ')+'</p>':'';
  history.replaceState(null,'','#w='+$('pw').value+'&m='+sel.map(i=>M[i].n).join(','))}
 const ser=o=>'<?xml version="1.0" encoding="UTF-8"?>\n'+new XMLSerializer().serializeToString(o);
 function save(blob,name){const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
@@ -59,20 +61,36 @@ function nm(){return($('nm').value.trim()||'Serge_panel').replace(/[^\w.-]+/g,'_
 function png(o,dpi,cb){const L=layout();let w=Math.round(L.W*dpi),h=Math.round(L.H*dpi);const sc=Math.min(1,16000/w);w=Math.round(w*sc);h=Math.round(h*sc);
  const img=new Image();img.onload=()=>{const c=document.createElement('canvas');c.width=w;c.height=h;c.getContext('2d').drawImage(img,0,0,w,h);c.toBlob(cb,'image/png')};
  img.src=URL.createObjectURL(new Blob([ser(o)],{type:'image/svg+xml'}))}
-// ---- PDF drill template, 1:1
-function pdf(){const L=layout(),H=holes(L),Wmm=L.W*MMI,Hmm=L.H*MMI,mg=12,pt=v=>(v*72/MMI).toFixed(2),dia=HD.diameters_mm;
- const PW=Wmm+2*mg,PH=Hmm+2*mg+14;let c='0.4 w 0 0 0 RG\n'+pt(mg)+' '+pt(mg)+' '+pt(Wmm)+' '+pt(Hmm)+' re S\n';
+// ---- PDF drill template, 1:1 (one sheet, or tiled on Letter / A4 with overlap and alignment marks)
+function pdf(){const L=layout(),H=holes(L),Wmm=L.W*MMI,Hmm=L.H*MMI,paper=$('pp').value,one=paper==='one',mg=one?12:4,pt=v=>(v*72/MMI).toFixed(2),dia=HD.diameters_mm;
+ const PW=Wmm+2*mg,PH=Hmm+2*mg+(one?14:0);let c='0.4 w 0 0 0 RG\n'+pt(mg)+' '+pt(mg)+' '+pt(Wmm)+' '+pt(Hmm)+' re S\n';
  const circ=(x,y,r)=>{const k=0.5523*r;return pt(x+r)+' '+pt(y)+' m '+[[x+r,y+k,x+k,y+r,x,y+r],[x-k,y+r,x-r,y+k,x-r,y],[x-r,y-k,x-k,y-r,x,y-r],[x+k,y-r,x+r,y-k,x+r,y]].map(a=>a.map(pt).join(' ')+' c').join(' ')+' S\n'};
  for(const h of H.list){const x=mg+h[1],y=mg+h[2];
   if(h[0]==='slot'){c+=pt(x-h[3]/2)+' '+pt(y-h[4]/2)+' '+pt(h[3])+' '+pt(h[4])+' re S\n';continue}
   const r=(dia[h[0]]||4)/2;c+=circ(x,y,r)+pt(x-r-1.5)+' '+pt(y)+' m '+pt(x+r+1.5)+' '+pt(y)+' l '+pt(x)+' '+pt(y-r-1.5)+' m '+pt(x)+' '+pt(y+r+1.5)+' l S\n'}
  const esc=t=>t.replace(/[\\()]/g,'\\$&').replace(/[^\x20-\x7e]/g,'');
- const ty=mg+Hmm+5;c+='BT /F1 9 Tf '+pt(mg)+' '+pt(ty+4)+' Td ('+esc(nm().replace(/_/g,' ')+' - drill template, '+L.W.toFixed(2)+' x 7 in, '+H.list.length+' holes')+') Tj ET\n';
- c+='BT /F1 7 Tf '+pt(mg)+' '+pt(ty)+' Td ('+esc('Print at 100% / actual size. The bar on the right must measure 50 mm. Hole circles are drawn at drill size.'+(H.miss.length?' Missing: '+[...new Set(H.miss)].join(', '):''))+') Tj ET\n';
- c+='1 w '+pt(mg+Wmm-50)+' '+pt(ty+1)+' m '+pt(mg+Wmm)+' '+pt(ty+1)+' l S\n';
- const objs=['<< /Type /Catalog /Pages 2 0 R >>','<< /Type /Pages /Kids [3 0 R] /Count 1 >>',
-  '<< /Type /Page /Parent 2 0 R /MediaBox [0 0 '+pt(PW)+' '+pt(PH)+'] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>',
-  '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>','<< /Length '+c.length+' >>\nstream\n'+c+'endstream'];
+ const txt=(x,y,sz,t)=>'BT /F1 '+sz+' Tf '+pt(x)+' '+pt(y)+' Td ('+esc(t)+') Tj ET\n';
+ const title=nm().replace(/_/g,' ')+' - drill template, '+L.W.toFixed(2)+' x 7 in, '+H.list.length+' holes',note='Print at 100% / actual size; the bar must measure 50 mm.'+(H.miss.length?' Missing: '+[...new Set(H.miss)].join(', '):'');
+ const ty=mg+Hmm+5;if(one){c+=txt(mg,ty+4,9,nm().replace(/_/g,' ')+' - drill template, '+L.W.toFixed(2)+' x 7 in, '+H.list.length+' holes');
+ c+=txt(mg,ty,7,'Print at 100% / actual size. The bar on the right must measure 50 mm. Hole circles are drawn at drill size.'+(H.miss.length?' Missing: '+[...new Set(H.miss)].join(', '):''));
+ c+='1 w '+pt(mg+Wmm-50)+' '+pt(ty+1)+' m '+pt(mg+Wmm)+' '+pt(ty+1)+' l S\n'}
+ const pages=[];
+ if(paper==='one')pages.push({w:PW,h:PH,s:c});
+ else{const[sw,sh]=paper==='a4'?[297,210]:[279.4,215.9],m=7,ov=15,uw=sw-2*m,uh=sh-2*m-10,
+  nx=Math.max(1,Math.ceil((PW-ov)/(uw-ov))),ny=Math.max(1,Math.ceil((PH-ov)/(uh-ov)));
+  for(let j=ny-1;j>=0;j--)for(let i=0;i<nx;i++){const ox=i*(uw-ov),oy=j*(uh-ov),n=pages.length+1,row=ny-j;
+   let s='q '+pt(m)+' '+pt(m)+' '+pt(uw)+' '+pt(uh)+' re W n 1 0 0 1 '+pt(m-ox)+' '+pt(m-oy)+' cm\n'+c+'Q\n';
+   s+='0.3 w 0.6 0.6 0.6 RG [2 2] 0 d '+pt(m)+' '+pt(m)+' '+pt(uw)+' '+pt(uh)+' re S [] 0 d 0 0 0 RG\n';
+   if(i>0)s+='0.6 0 0.6 RG '+pt(m+ov)+' '+pt(m)+' m '+pt(m+ov)+' '+pt(m+uh)+' l S 0 0 0 RG\n';
+   if(j<ny-1)s+='0.6 0 0.6 RG '+pt(m)+' '+pt(m+uh-ov)+' m '+pt(m+uw)+' '+pt(m+uh-ov)+' l S 0 0 0 RG\n';
+   s+=txt(m,sh-m-4,8,title+'   Sheet '+n+' of '+nx*ny+(ny>1?' (row '+row+', column '+(i+1)+')':''));
+   s+=txt(m,sh-m-9,7,note+(i>0?' Trim the left edge on the purple line and lay it over the previous sheet so the holes line up.':''));
+   s+='1 w '+pt(sw-m-50)+' '+pt(sh-m-6)+' m '+pt(sw-m)+' '+pt(sh-m-6)+' l S\n';
+   pages.push({w:sw,h:sh,s})}}
+ const np=pages.length,objs=['<< /Type /Catalog /Pages 2 0 R >>','<< /Type /Pages /Kids ['+pages.map((_,k)=>(4+2*k)+' 0 R').join(' ')+'] /Count '+np+' >>',
+  '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>'];
+ pages.forEach((p,k)=>{objs.push('<< /Type /Page /Parent 2 0 R /MediaBox [0 0 '+pt(p.w)+' '+pt(p.h)+'] /Resources << /Font << /F1 3 0 R >> >> /Contents '+(5+2*k)+' 0 R >>');
+  objs.push('<< /Length '+p.s.length+' >>\nstream\n'+p.s+'endstream')});
  let s='%PDF-1.4\n';const off=[];objs.forEach((o,i)=>{off.push(s.length);s+=(i+1)+' 0 obj\n'+o+'\nendobj\n'});
  const x=s.length;s+='xref\n0 '+(objs.length+1)+'\n0000000000 65535 f \n'+off.map(o=>String(o).padStart(10,'0')+' 00000 n \n').join('')+'trailer\n<< /Size '+(objs.length+1)+' /Root 1 0 R >>\nstartxref\n'+x+'\n%%EOF';
  return new Blob([s],{type:'application/pdf'})}

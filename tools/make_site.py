@@ -379,7 +379,7 @@ def main():
         0, "Library"))
 
     import panel_builder
-    write("panel-builder.html", page("Panel builder | Serge DIY", panel_builder.body(ROOT, thumb), 0, "Panel builder"))
+    write("panel-builder.html", page("Panel builder | Serge DIY", panel_builder.body(ROOT, thumb, links), 0, "Panel builder"))
 
     # data for the DIY pages
     D = json.load(open(os.path.join(ROOT, "Modules", "_source", "modules.json")))

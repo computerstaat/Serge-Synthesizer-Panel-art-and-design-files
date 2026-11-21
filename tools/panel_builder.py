@@ -12,7 +12,7 @@ GROUPS = [("Modern/Vector Graphics/Module", "SMMS metal / STS"), ("Paperface/Vec
 HOLES = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "module_holes.json")))
 
 
-def manifest(root, thumb):
+def manifest(root, thumb, links):
     out = []
     for folder, era in GROUPS:
         for f in sorted(glob.glob(os.path.join(root, folder, "*.svg"))):
@@ -27,7 +27,8 @@ def manifest(root, thumb):
             key = era + "|" + os.path.basename(f)[:-4]
             out.append({"n": os.path.basename(f)[:-4].replace("_", " "), "e": era, "s": quote(rel), "w": float(w.group(1)),
                         "h": float(h.group(1)), "t": quote(thumb(png)) if os.path.exists(os.path.join(root, png)) else "",
-                        "k": key if key in HOLES["modules"] else ""})
+                        "k": key if key in HOLES["modules"] else "",
+                        "b": links.get(png, ("",))[0]})
     return out
 
 
@@ -49,6 +50,7 @@ CSS = """
 .meter{font-size:.9rem;margin:6px 0}.meter b.bad{color:var(--accent)}
 .empty{color:var(--muted);text-align:center;padding:40px}
 .warn{color:var(--accent);font-size:.9rem;margin:6px 0}.dls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.dls .btn{cursor:pointer;font:inherit;font-weight:600}
+.pair{display:inline-flex;gap:4px;align-items:center}.pair select{font:inherit;padding:8px;border:1px solid var(--line);border-radius:8px;background:#fff}
 .btn:disabled{opacity:.4;cursor:default}.how{font-size:.9rem;color:var(--muted);padding-left:18px}.how li{margin:4px 0}
 @media(max-width:760px){.pb{grid-template-columns:1fr}.lib{position:static;max-height:420px}}
 """
@@ -56,8 +58,8 @@ CSS = """
 JS = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "panel_builder.js")).read()
 
 
-def body(root, thumb):
-    man = manifest(root, thumb)
+def body(root, thumb, links):
+    man = manifest(root, thumb, links)
     eras = []
     for _, era in GROUPS:
         if any(m["e"] == era for m in man):
@@ -74,13 +76,14 @@ def body(root, thumb):
             '<label>Mounting holes <select id="mt"><option value="corners">Panel corners</option><option value="modules">Each module\'s own</option></select></label>'
             '<label><input id="fr" type="checkbox" checked> Outline</label></div>'
             '<div class="sel" id="sel"></div><div class="meter" id="meter"></div><div class="stage" id="stage"></div>'
-            '<p class="warn" id="warn"></p>'
+            '<p class="warn" id="warn"></p><div id="bp"></div>'
             '<h2>Download</h2><div class="opts"><input id="nm" placeholder="Panel name" value="My_Serge_panel" aria-label="File name"><button class="btn" id="cp">Copy link</button></div>'
-            '<div class="dls"><button class="btn pri" id="dl">Artwork (.svg)</button><button class="btn" id="dd">Drill template (1:1 PDF)</button>'
+            '<div class="dls"><button class="btn pri" id="dl">Artwork (.svg)</button><span class="pair"><button class="btn" id="dd">Drill template (1:1 PDF)</button><select id="pp" aria-label="Drill template paper">'
+            '<option value="letter">Tiled on Letter</option><option value="a4">Tiled on A4</option><option value="one">One large sheet</option></select></span>'
             '<button class="btn" id="df">Front Panel Express kit (.zip)</button><button class="btn" id="dp">Preview (.png)</button><span class="muted" id="hc"></span></div>'
             '<ul class="how"><li><b>Artwork:</b> one SVG for the whole panel, with Background, Linework and Jacks/Knobs layers from each module, plus one '
             'XXX layer of drill marks for the whole panel. The modules\' own drill marks and mounting crosses are left out.</li>'
-            '<li><b>Drill template:</b> every hole of the whole panel at drill size, to print at 100%% and tape to the blank. A 50 mm bar checks the scale.</li>'
+            '<li><b>Drill template:</b> every hole of the whole panel at drill size, to print at 100%% and tape to the blank. A 50 mm bar checks the scale. Tiled sheets overlap by 15 mm and are numbered.</li>'
             '<li><b>Front Panel Express kit:</b> the hole list, the print artwork and the build script. Open Front Panel Designer, double-click '
             '<i>Build panel</i>, and it saves a ready-to-order <code>.fpd</code> file. Details are in the kit\'s README.</li></ul>'
             '<div class="note">Modules are 7" tall (Loudest Warning format, 175 mm). Check the result against your own jacks, pots and '
