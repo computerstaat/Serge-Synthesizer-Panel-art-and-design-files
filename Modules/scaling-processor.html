@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Scaling Processor | Serge module build page</title><style>
+:root{--ink:#1d1d1b;--muted:#6b6b66;--line:#e2ded5;--bg:#f6f4ee;--card:#fff;--accent:#b3261e;--ok:#2f7d32;--wait:#9a6a00;--no:#8a8a85}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--accent)}
+header.top{position:sticky;top:0;z-index:5;background:var(--ink);color:#fff}
+header.top .in{max-width:1120px;margin:0 auto;padding:10px 20px;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+header.top a{color:#fff;text-decoration:none;font-size:.9rem;opacity:.85}header.top a:hover{opacity:1}
+header.top .brand{font-weight:700;opacity:1;margin-right:auto}
+nav.sub{background:#fff;border-bottom:1px solid var(--line)}nav.sub .in{max-width:1120px;margin:0 auto;padding:8px 20px;display:flex;gap:18px;flex-wrap:wrap}
+nav.sub a{font-size:.88rem;text-decoration:none}
+main{max-width:1120px;margin:0 auto;padding:28px 20px 64px}
+.hero{display:grid;grid-template-columns:minmax(220px,300px) 1fr;gap:36px;align-items:start}
+.hero .art{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:center}
+.hero .art img{max-width:100%;max-height:640px}
+h1{font-size:2.3rem;line-height:1.15;margin:0 0 6px}.aka{color:var(--muted);margin:0 0 14px}
+.summary{font-size:1.15rem;margin:0 0 18px}
+.facts{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;font-size:.95rem;margin:0 0 18px}
+.facts dt{color:var(--muted)}.facts dd{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:.88rem;text-decoration:none;color:var(--ink)}
+section{margin-top:44px}h2{font-size:1.35rem;margin:0 0 14px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
+.panels{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;width:220px}
+.panel img{display:block;height:300px;max-width:100%;margin:0 auto 10px;object-fit:contain}
+.panel h3{font-size:.95rem;margin:0 0 6px}.files{font-size:.85rem}
+table{border-collapse:collapse;width:100%;background:var(--card);border:1px solid var(--line)}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.82rem;color:var(--muted);background:#faf9f5}
+.builds{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:18px}
+.build{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.build h3{margin:0 0 2px;font-size:1.08rem}.build .maker{color:var(--muted);font-size:.9rem;margin:0 0 12px}
+.build dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 14px;margin:0 0 12px;font-size:.93rem}.build dt{color:var(--muted)}.build dd{margin:0}
+.boards{margin:0 0 12px;padding-left:18px;font-size:.92rem}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:4px;padding:1px 6px;margin-right:6px;color:#fff}
+.pill.available{background:var(--ok)}.pill.listed{background:var(--wait)}.pill.none{background:var(--no)}
+.note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:8px;padding:10px 12px;font-size:.9rem;margin:8px 0 0}
+.licence{font-size:.85rem;color:var(--muted);margin-top:14px}
+h3.hw{font-size:1rem;margin:18px 0 8px}
+footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
+.idx td img{height:110px}
+.find{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0 10px}
+.find input,.find select{font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:#fff}.find input{flex:1;min-width:220px}
+.cnt{color:var(--muted);font-size:.9rem}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.chip{font:inherit;font-size:.85rem;border:1px solid var(--line);background:#fff;border-radius:99px;padding:3px 12px;cursor:pointer}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.mk{display:inline-block;font-size:.78rem;background:#efece4;border-radius:99px;padding:1px 9px;margin:2px 2px 2px 0;white-space:nowrap}
+@media(max-width:760px){.hm{display:none}table.idx td:nth-child(3){display:none}.hero{grid-template-columns:1fr}.hero .art img{max-height:380px}
+.panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.panel{width:auto;min-width:0;padding:8px}.panel img{height:180px;width:100%}.panel b,.panel a{font-size:.85rem}
+nav.sub{position:sticky;top:0;z-index:5}nav.sub .in{flex-wrap:nowrap;overflow-x:auto;gap:16px;white-space:nowrap}}
+</style></head><body>
+<header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../panel-builder.html">Panel builder</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a></div></header><nav class="sub"><div class="in"><a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a><a href="#build">Build options</a><a href="#bom">BOM</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></nav>
+<main>
+<div class="hero"><div class="art"><img src="../Modern/Images/Module/Scaling_Processor.png" alt="Scaling Processor panel"></div><div>
+<h1>Scaling Processor</h1>
+<p class="aka">CV Processor</p>
+<p class="summary">Three voltage processors with attenuverters, an offset and a +5 V source.</p>
+<dl class="facts"><dt>Design</dt><dd>Serge Tcherepnin / STS</dd><dt>Function</dt><dd>Utility / CV processing</dd><dt>Panel widths</dt><dd>2&quot;</dd><dt>Build options</dt><dd>1</dd></dl>
+<div class="chips"><a class="chip" href="#build-0">Low-Gain</a></div></div></div>
+<section id="panels"><h2>Panels in this repo</h2><div class="panels">
+<div class="panel">
+<a href="../Modern/Images/Module/Scaling_Processor.png"><img src="../Modern/Images/Module/Scaling_Processor.png" alt="STS / modern"></a>
+<h3>STS / modern</h3><div class="files"><a href="../Modern/Images/Module/Scaling_Processor.png">PNG</a> · <a href="../Modern/Vector%20Graphics/Module/Scaling_Processor.svg">SVG</a> · <a href="../Modern/Drill%20Templates/Module/Scaling_Processor.pdf">Drill template (1:1 PDF)</a></div></div>
+</div></section>
+<section id="how"><h2>How it works</h2><p>The top two sections each add one input to a second that passes through a bipolar attenuator, so a signal can be scaled, inverted and offset by another.</p><p>The bottom section has two bipolar attenuated inputs, a third input and a -5 to +5 V offset knob; a +5 V jack supplies a fixed voltage for offsets elsewhere in the patch.</p></section>
+<section id="controls"><h2>Controls and jacks</h2><table><tr><th>Name</th><th>Type</th><th>What it does</th></tr><tr><td>IN 1, IN 2 + knobs</td><td>inputs / knobs</td><td>Inputs; IN 2 is attenuverted.</td></tr><tr><td>OUTPUT</td><td>outputs</td><td>Sums.</td></tr><tr><td>-5 / +5</td><td>knob</td><td>Offset on the bottom section.</td></tr><tr><td>+5V OUT</td><td>output</td><td>Fixed 5 V.</td></tr></table>
+</section>
+<section id="build"><h2>Build options</h2><div class="builds">
+<div class="build" id="build-0"><h3><a href="https://www.low-gain.com/shop/p/lge030">Low-Gain LGE030 Scaling Processor</a></h3><p class="maker"><a href="https://www.low-gain.com/">Low-Gain</a></p><dl>
+<dt>Offered as</dt><dd>Assembled module or DIY PCBs</dd>
+<dt>Format</dt><dd>4U Serge, Loudest Warning-style mounting</dd>
+<dt>Schematic</dt><dd><span class="pill listed">listed, not linked yet</span><a href="https://www.low-gain.com/shop/p/lge030">Board documents on the product page</a></dd><dt>BOM</dt><dd><span class="pill listed">listed, not linked yet</span><a href="https://www.low-gain.com/shop/p/lge030">Board BOMs on the product page</a></dd>
+</dl>
+<p class="note">Low-Gain&#x27;s bottom section adds Min / Max outputs alongside the sum, behaving like a Peak &amp; Trough.</p>
+<p class="note">Low-Gain boards set their own jack positions; check them against the panel you use.</p>
+</div>
+</div><p class="licence">Ken Stone&#x27;s Serge-derived designs may be built for personal use only; Serge Tcherepnin keeps all rights to his circuits. Schematics, parts lists and PCBs belong to their designers and sellers, so these pages link to them rather than copying them.</p></section>
+<section id="bom"><h2>Bill of materials</h2><p>Spreadsheet: <a href="BOM/scaling-processor.csv">scaling-processor.csv</a> (CSV; opens in Excel, Numbers or Google Sheets). The Mouser columns are there to fill in with order links.</p>
+<details><summary><b>Low-Gain LGE030 Scaling Processor</b> (1 lines)</summary><table><tr><th>Section</th><th>Type</th><th>Value / part</th><th>Qty</th><th>Notes</th></tr><tr><td>Board</td><td></td><td>See the maker&#x27;s BOM</td><td></td><td>Board BOMs on the product page - https://www.low-gain.com/shop/p/lge030</td></tr></table></details>
+</section>
+<section id="hardware"><h2>Panel hardware</h2><p>Front-panel parts for each panel in this repo, counted from the panel files. Board parts (resistors, ICs, trimmers) are in each build option's own BOM.</p>
+</section>
+<section id="docs"><h2>Original documentation</h2><ul><li><a href="../Documentation/SMMS_Catalogue_1980.pdf">SMMS catalogue 1980</a></li></ul></section>
+<footer>Panel artwork is from this repo, drawn after the original Serge panels. Schematics, BOMs and PCBs belong to their designers and sellers and are linked, not copied. Generated by Modules/_source/make_pages.py.</footer></main></body></html>

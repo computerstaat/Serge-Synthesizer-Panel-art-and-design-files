@@ -2,36 +2,211 @@
  "triple-comparator__cgs96_comp": {
   "lines": 20,
   "elsewhere": 1,
-  "cost": 15.08
+  "cost": 15.08,
+  "unverified": 0,
+  "boards": 1
  },
  "triple-wave-shaper__cgs85_tws": {
   "lines": 15,
   "elsewhere": 1,
-  "cost": 22.05
+  "cost": 22.05,
+  "unverified": 0,
+  "boards": 1
  },
  "ring-modulator__cgs79_ring": {
   "lines": 20,
   "elsewhere": 3,
-  "cost": 13.93
+  "cost": 13.93,
+  "unverified": 0,
+  "boards": 1
  },
  "universal-audio-processor__cgs102_epp": {
   "lines": 18,
   "elsewhere": 4,
-  "cost": 6.39
+  "cost": 6.39,
+  "unverified": 0,
+  "boards": 1
  },
  "universal-audio-processor__cgs108_vca": {
   "lines": 13,
   "elsewhere": 2,
-  "cost": 14.0
+  "cost": 14.0,
+  "unverified": 0,
+  "boards": 2
+ },
+ "analog-shift-register__cgs34_asr": {
+  "lines": 19,
+  "elsewhere": 1,
+  "cost": 21.35,
+  "unverified": 5,
+  "boards": 1
+ },
+ "envelope-generator-1973__cgs76_env": {
+  "lines": 38,
+  "elsewhere": 1,
+  "cost": 40.45,
+  "unverified": 10,
+  "boards": 1
+ },
+ "filter-1973__cgs77_vcf": {
+  "lines": 39,
+  "elsewhere": 3,
+  "cost": 38.63,
+  "unverified": 9,
+  "boards": 1
+ },
+ "negative-slew__cgs82_negative_slew": {
+  "lines": 24,
+  "elsewhere": 2,
+  "cost": 18.49,
+  "unverified": 6,
+  "boards": 1
+ },
+ "positive-slew__cgs83_positive_slew": {
+  "lines": 27,
+  "elsewhere": 1,
+  "cost": 25.99,
+  "unverified": 6,
+  "boards": 1
+ },
+ "peak-trough__cgs84_peakandtrough": {
+  "lines": 11,
+  "elsewhere": 1,
+  "cost": 11.46,
+  "unverified": 1,
+  "boards": 1
+ },
+ "bi-directional-router__cgs88_bds": {
+  "lines": 15,
+  "elsewhere": 1,
+  "cost": 10.77,
+  "unverified": 2,
+  "boards": 1
+ },
+ "gate-sequencer__cgs89_gate_sequencer": {
+  "lines": 23,
+  "elsewhere": 4,
+  "cost": 134.26,
+  "unverified": 9,
+  "boards": 1
+ },
+ "vc-phaser__cgs90_phaser": {
+  "lines": 21,
+  "elsewhere": 3,
+  "cost": 19.1,
+  "unverified": 4,
+  "boards": 1
+ },
+ "smooth-stepped-generator__cgs92_ssg": {
+  "lines": 33,
+  "elsewhere": 2,
+  "cost": 38.84,
+  "unverified": 10,
+  "boards": 1
+ },
+ "noise-source__cgs97_noise": {
+  "lines": 36,
+  "elsewhere": 2,
+  "cost": 18.48,
+  "unverified": 14,
+  "boards": 1
+ },
+ "extended-range-vcf__cgs112_vcfq": {
+  "lines": 26,
+  "elsewhere": 2,
+  "cost": 19.03,
+  "unverified": 5,
+  "boards": 1
+ },
+ "extended-range-vcf__cgs108_vca": {
+  "lines": 13,
+  "elsewhere": 2,
+  "cost": 21.0,
+  "unverified": 0,
+  "boards": 3
+ },
+ "wave-multipliers__cgs113_vcm": {
+  "lines": 39,
+  "elsewhere": 2,
+  "cost": 48.84,
+  "unverified": 13,
+  "boards": 1
+ },
+ "dual-universal-slope-generator__cgs114_dusg": {
+  "lines": 35,
+  "elsewhere": 1,
+  "cost": 51.55,
+  "unverified": 9,
+  "boards": 1
+ },
+ "extended-adsr__cgs116_env": {
+  "lines": 41,
+  "elsewhere": 2,
+  "cost": 35.15,
+  "unverified": 17,
+  "boards": 1
+ },
+ "resonant-equalizer__cgs202_reseq": {
+  "lines": 44,
+  "elsewhere": 2,
+  "cost": 46.25,
+  "unverified": 27,
+  "boards": 1
+ },
+ "dual-channel-stereo-mixer__cgs101_dcsm": {
+  "lines": 13,
+  "elsewhere": 3,
+  "cost": 19.76,
+  "unverified": 2,
+  "boards": 1
+ },
+ "dual-channel-stereo-mixer__cgs108_vca": {
+  "lines": 13,
+  "elsewhere": 2,
+  "cost": 28.0,
+  "unverified": 0,
+  "boards": 4
+ },
+ "dual-channel-stereo-mixer__cgs102_epp": {
+  "lines": 18,
+  "elsewhere": 4,
+  "cost": 12.78,
+  "unverified": 0,
+  "boards": 2
+ },
+ "programmer-sequencer__cgs87s_prog": {
+  "lines": 24,
+  "elsewhere": 1,
+  "cost": 15.29,
+  "unverified": 1,
+  "boards": 1
+ },
+ "programmer-sequencer__cgs87_prog": {
+  "lines": 14,
+  "elsewhere": 1,
+  "cost": 35.12,
+  "unverified": 4,
+  "boards": 1
+ },
+ "vc-slope__cgs75_vcs": {
+  "lines": 42,
+  "elsewhere": 1,
+  "cost": 46.48,
+  "unverified": 12,
+  "boards": 1
  },
  "tri-core-vco__lge130": {
   "lines": 51,
   "elsewhere": 6,
-  "cost": 69.94
+  "cost": 69.94,
+  "unverified": 0,
+  "boards": 1
  },
  "triple-wave-shaper__lge085": {
   "lines": 21,
   "elsewhere": 4,
-  "cost": 58.31
+  "cost": 58.31,
+  "unverified": 0,
+  "boards": 1
  }
 }
