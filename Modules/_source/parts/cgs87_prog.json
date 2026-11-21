@@ -1,0 +1,81 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs87_prog.html",
+"board": "CGS87",
+"parts": [
+{
+"type": "Resistor",
+"value": "680Ω",
+"qty": 8
+},
+{
+"type": "Resistor",
+"value": "820Ω",
+"qty": 8
+},
+{
+"type": "Resistor",
+"value": "RLED (10k)",
+"qty": 8
+},
+{
+"type": "Resistor",
+"value": "47k",
+"qty": 24
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 40
+},
+{
+"type": "Resistor",
+"value": "150k",
+"qty": 24
+},
+{
+"type": "Resistor",
+"value": "470k",
+"qty": 8
+},
+{
+"type": "Resistor",
+"value": "1M",
+"qty": 8
+},
+{
+"type": "Capacitor",
+"value": "470pF",
+"qty": 8
+},
+{
+"type": "Capacitor",
+"value": "10nF (=0.01uF)",
+"qty": 16
+},
+{
+"type": "Capacitor",
+"value": "22nF (=0.022uF)",
+"qty": 8
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 40
+},
+{
+"type": "Semiconductor",
+"value": "BC547",
+"qty": 8
+},
+{
+"type": "Semiconductor",
+"value": "BC557",
+"qty": 24
+},
+{
+"type": "Misc",
+"value": "CGS87 PCB",
+"qty": 1
+}
+]
+}

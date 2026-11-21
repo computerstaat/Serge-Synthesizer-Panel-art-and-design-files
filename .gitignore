@@ -17,3 +17,8 @@ build_log.txt
 # The Other panels live in the Other folder in the repo root and stay out of the repo
 /Other/
 /other/
+
+# The one-panel Front Panel Express script that the website Panel builder puts in its download
+!tools/fpd/
+!tools/fpd/fpd_build.py
+!tools/fpd/fpd_client.py

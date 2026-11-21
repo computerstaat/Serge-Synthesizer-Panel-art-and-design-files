@@ -379,7 +379,7 @@ def main():
         0, "Library"))
 
     import panel_builder
-    write("panel-builder.html", page("Panel builder | Serge DIY", panel_builder.body(ROOT, thumb), 0, "Panel builder"))
+    write("panel-builder.html", page("Panel builder | Serge DIY", panel_builder.body(ROOT, thumb, links), 0, "Panel builder"))
 
     # data for the DIY pages
     D = json.load(open(os.path.join(ROOT, "Modules", "_source", "modules.json")))
@@ -428,12 +428,12 @@ def main():
     for slug in sorted(mfiles):
         m = next(x for x in mods if x["slug"] == slug)
         for b, v in mfiles[slug]:
-            brows.append('<tr><td><a href="Modules/%s.html">%s</a></td><td>%s</td><td class="c">%d</td><td class="c">%d</td><td class="c">$%.2f</td>'
+            brows.append('<tr><td><a href="Modules/%s.html">%s</a></td><td>%s</td><td class="c">%d</td><td class="c">%d</td><td class="c">%s</td><td class="c">$%.2f</td>'
                          '<td><a class="tag ok" href="Modules/BOM/mouser/%s__%s.csv">Upload file</a> <a class="tag" href="Modules/BOM/mouser/%s__%s_not_at_mouser.csv">Other parts</a></td></tr>' % (
-                             slug, e(m["name"]), e(b.upper().replace("_", " ")), v["lines"], v.get("elsewhere", 0), v["cost"], slug, b, slug, b))
+                             slug, e(m["name"]), e(b.upper().replace("_", " ")), v["lines"], v.get("elsewhere", 0), v.get("unverified", 0) or "&ndash;", v["cost"], slug, b, slug, b))
     write("boms.html", page("Parts & BOMs | Serge DIY",
         "<h1>Parts &amp; BOMs</h1><p class=\"lead\">Every module has a BOM spreadsheet covering each way to build it, plus the panel hardware. "
-        "For boards we've worked through line by line, there is also a ready-made <b>Mouser upload file</b>: in-stock, low-cost parts, "
+        "For boards we've worked through line by line, there is also a ready-made <b>Mouser upload file</b>: low-cost parts (check stock before ordering), "
         "matched to the part numbers the designer used where we could.</p>"
         '<h2>Ordering from Mouser</h2><div class="steps">'
         '<div class="step"><h3>Download the upload file</h3><p>Pick the board you are building below. Each file is a CSV in Mouser\'s BOM tool layout.</p></div>'
@@ -441,8 +441,11 @@ def main():
         '<div class="step"><h3>Check stock and quantities</h3><p>Prices and stock change daily. Multiply quantities if you are building more than one.</p></div>'
         '<div class="step"><h3>Get the rest elsewhere</h3><p>Banana jacks, knobs and anything Mouser does not stock is in the "Other parts" file.</p></div></div>'
         '<h2>Mouser upload files</h2><div class="scroll"><table class="mx"><tr><th>Module</th><th>Board</th><th class="c">Mouser lines</th>'
-        '<th class="c">Bought elsewhere</th><th class="c">Approx. cost</th><th>Files</th></tr>%s</table></div>'
+        '<th class="c">Bought elsewhere</th><th class="c">Unchecked lines</th><th class="c">Approx. cost</th><th>Files</th></tr>%s</table></div>'
         '<p class="muted">Costs are Mouser\'s single-unit prices when the file was made, before tax and shipping, for one board, without the PCB or panel.</p>'
+        '<div class="note"><b>Check stock and price before ordering.</b> Lines counted under "Unchecked lines" use part numbers built from the '
+        'manufacturers\' numbering and not yet checked on mouser.com; they are marked [UNVERIFIED] in the file and their prices are estimates. '
+        'The BOM tool flags anything it cannot find or that is out of stock, so you can pick an equivalent there.</div>'
         "<h2>Every module</h2><p>Which builds exist, whether a schematic is published, and the BOM spreadsheet for each module.</p>%s" % ("".join(brows), matrix()),
         0, "Parts & BOMs"))
 

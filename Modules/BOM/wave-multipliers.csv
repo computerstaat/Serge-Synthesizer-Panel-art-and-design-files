@@ -4,45 +4,45 @@ All builds,"Front panel (STS / modern (2""))",Panel hardware,"Banana jack, blue"
 All builds,"Front panel (STS / modern (2""))",Panel hardware,Potentiometer + knob,3,value from the board BOM,,,
 All builds,"Front panel (STS / modern (2""))",Panel hardware,Toggle switch,1,type from the board BOM,,,
 All builds,"Front panel (STS / modern (2""))",Panel hardware,Knob,3,one per pot,,,
-CGS113 (Ken Stone design),CGS113 board,Capacitor,30pF,4,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Capacitor,150pF,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Capacitor,47n,4,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Capacitor,100n (0.1 ceramic monolythic or similar),6,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Capacitor,220n,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Capacitor,1uF BP 25V,3,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Capacitor,10uF 25V,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Capacitor,47uF 25V,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,330R (330 Ohms),2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,1k5,4,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,3k3,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,10k,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,15k,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,22k,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,33k,6,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,47k,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,82k,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,100k,20,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,150k,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,220k,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,330k,4,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,470k,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,820k,3,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,1M,5,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,1M5,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,2M2,4,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,3M3,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,6M8,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Resistor,10M,6,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Potentiometer / trimmer,100k trim,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Potentiometer / trimmer,50k or 100k lin pot,3,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Semiconductor,4V3 or 4V6 400 or 500mW Zener (DZ),1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Semiconductor,1N4148,22,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Semiconductor,2N4250 (BC557 or sim),2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
+CGS113 (Ken Stone design),CGS113 board,Capacitor,30pF,4,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,810-FG28C0G1H300JNT0,https://www.mouser.com/ProductDetail/810-FG28C0G1H300JNT0,0.27
+CGS113 (Ken Stone design),CGS113 board,Capacitor,150pF,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,810-FG28C0G1H151JNT0,https://www.mouser.com/ProductDetail/810-FG28C0G1H151JNT0,0.27
+CGS113 (Ken Stone design),CGS113 board,Capacitor,47n,4,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,505-MKS2.047/63/5T,https://www.mouser.com/ProductDetail/505-MKS2.047/63/5T,0.45
+CGS113 (Ken Stone design),CGS113 board,Capacitor,100n (0.1 ceramic monolythic or similar),6,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,810-FG28X7R1H104KNT6,https://www.mouser.com/ProductDetail/810-FG28X7R1H104KNT6,0.27
+CGS113 (Ken Stone design),CGS113 board,Capacitor,220n,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,505-MKS2.22/63/5T,https://www.mouser.com/ProductDetail/505-MKS2.22/63/5T,0.6
+CGS113 (Ken Stone design),CGS113 board,Capacitor,1uF BP 25V,3,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,647-UES1H010MDM,https://www.mouser.com/ProductDetail/647-UES1H010MDM,0.45
+CGS113 (Ken Stone design),CGS113 board,Capacitor,10uF 25V,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,667-ECE-A1EKA100,https://www.mouser.com/ProductDetail/667-ECE-A1EKA100,0.26
+CGS113 (Ken Stone design),CGS113 board,Capacitor,47uF 25V,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,667-ECE-A1EKA470,https://www.mouser.com/ProductDetail/667-ECE-A1EKA470,0.31
+CGS113 (Ken Stone design),CGS113 board,Resistor,330R (330 Ohms),2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-330R,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-330R,0.11
+CGS113 (Ken Stone design),CGS113 board,Resistor,1k5,4,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,603-MFR-25FBF52-1K5,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1K5,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,3k3,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,603-MFR-25FBF52-3K3,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-3K3,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,10k,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-10K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-10K,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,15k,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-15K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-15K,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,22k,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-22K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-22K,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,33k,6,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-33K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-33K,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,47k,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-47K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-47K,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,82k,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-82K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-82K,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,100k,20,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-100K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-100K,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,150k,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-150K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-150K,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,220k,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-220K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-220K,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,330k,4,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-330K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-330K,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,470k,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-470K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-470K,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,820k,3,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-820K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-820K,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,1M,5,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,603-MFR-25FBF52-1M,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1M,0.1
+CGS113 (Ken Stone design),CGS113 board,Resistor,1M5,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,660-MFS1/4DCT52R1504,https://www.mouser.com/ProductDetail/660-MFS1/4DCT52R1504,0.47
+CGS113 (Ken Stone design),CGS113 board,Resistor,2M2,4,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,660-RK1/4DCT52R2204F,https://www.mouser.com/ProductDetail/660-RK1/4DCT52R2204F,0.6
+CGS113 (Ken Stone design),CGS113 board,Resistor,3M3,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,660-RK1/4DCT52R3304F,https://www.mouser.com/ProductDetail/660-RK1/4DCT52R3304F,0.6
+CGS113 (Ken Stone design),CGS113 board,Resistor,6M8,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,660-RK1/4DCT52R6804F,https://www.mouser.com/ProductDetail/660-RK1/4DCT52R6804F,0.6
+CGS113 (Ken Stone design),CGS113 board,Resistor,10M,6,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,660-RK1/4DCT52R1005F,https://www.mouser.com/ProductDetail/660-RK1/4DCT52R1005F,0.6
+CGS113 (Ken Stone design),CGS113 board,Potentiometer / trimmer,100k trim,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,652-3296W-1-104LF,https://www.mouser.com/ProductDetail/652-3296W-1-104LF,2.46
+CGS113 (Ken Stone design),CGS113 board,Potentiometer / trimmer,50k or 100k lin pot,3,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,313-1000F-100K,https://www.mouser.com/ProductDetail/313-1000F-100K,1.61
+CGS113 (Ken Stone design),CGS113 board,Semiconductor,4V3 or 4V6 400 or 500mW Zener (DZ),1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,78-TZX4V3A,https://www.mouser.com/ProductDetail/78-TZX4V3A,0.49
+CGS113 (Ken Stone design),CGS113 board,Semiconductor,1N4148,22,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,512-1N4148,https://www.mouser.com/ProductDetail/512-1N4148,0.1
+CGS113 (Ken Stone design),CGS113 board,Semiconductor,2N4250 (BC557 or sim),2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,512-BC557BTA,https://www.mouser.com/ProductDetail/512-BC557BTA,0.28
 CGS113 (Ken Stone design),CGS113 board,Semiconductor,LM3080 or CA3080,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Semiconductor,LM3900,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Semiconductor,TL072 (4558),4,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Misc,DPDT switch,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Misc,Ferrite Bead (or 10R resistor),2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
-CGS113 (Ken Stone design),CGS113 board,Misc,0.156 4 pin connector,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
+CGS113 (Ken Stone design),CGS113 board,Semiconductor,LM3900,2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,595-LM3900N,https://www.mouser.com/ProductDetail/595-LM3900N,0.85
+CGS113 (Ken Stone design),CGS113 board,Semiconductor,TL072 (4558),4,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,595-TL072CP,https://www.mouser.com/ProductDetail/595-TL072CP,1.2
+CGS113 (Ken Stone design),CGS113 board,Misc,DPDT switch,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html; Mouser part not checked yet: verify stock and price,611-7201SYZQE,https://www.mouser.com/ProductDetail/611-7201SYZQE,5.8
+CGS113 (Ken Stone design),CGS113 board,Misc,Ferrite Bead (or 10R resistor),2,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,875-28L0138-70R-10,https://www.mouser.com/ProductDetail/875-28L0138-70R-10,0.45
+CGS113 (Ken Stone design),CGS113 board,Misc,0.156 4 pin connector,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,571-3-640426-4,https://www.mouser.com/ProductDetail/571-3-640426-4,0.6
 CGS113 (Ken Stone design),CGS113 board,Misc,CGS113 VER1.0 PCB,1,from https://open4umodular.github.io/synthpanel/modules/cgs113_vcm.html,,,
 Low-Gain LGE113 Wave Multipliers (Harmonic Processors),Board,,See the maker's BOM,,BOMs on the Low-Gain product page - https://www.low-gain.com/shop/p/lge113,,,

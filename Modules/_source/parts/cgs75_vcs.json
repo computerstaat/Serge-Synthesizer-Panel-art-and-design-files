@@ -1,0 +1,221 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs75_vcs.html",
+"board": "CGS75",
+"parts": [
+{
+"type": "Capacitor",
+"value": "47pF",
+"qty": 9
+},
+{
+"type": "Capacitor",
+"value": "1n",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "10n",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "22n",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "100n",
+"qty": 6
+},
+{
+"type": "Capacitor",
+"value": "10uF 25V",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "47uF 25V",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "100R",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "330R",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "1k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "1k8",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "2k2",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "8k2",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "33k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "68k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "82k",
+"qty": 5
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 18
+},
+{
+"type": "Resistor",
+"value": "150k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "200k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "220k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "330k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "470k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "600k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "820k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "1M",
+"qty": 9
+},
+{
+"type": "Resistor",
+"value": "10M",
+"qty": 2
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "100k trimmer",
+"qty": 1
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "50k lin pot",
+"qty": 2
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "20k lin pot",
+"qty": 1
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "100k lin pot",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LED",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 6
+},
+{
+"type": "Semiconductor",
+"value": "2N3904",
+"qty": 3
+},
+{
+"type": "Semiconductor",
+"value": "2N3906",
+"qty": 3
+},
+{
+"type": "Semiconductor",
+"value": "5V6 400mW Zener",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "TL071",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "TL072",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "TL074",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "LM3900",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "SPST switch",
+"qty": 3
+},
+{
+"type": "Misc",
+"value": "0.156 4 pin connector",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "CGS75 PCB",
+"qty": 1
+}
+]
+}

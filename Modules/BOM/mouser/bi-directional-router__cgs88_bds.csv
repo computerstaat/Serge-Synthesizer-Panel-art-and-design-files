@@ -1,0 +1,16 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28X7R1H103KNT6,FG28X7R1H103KNT06,TDK,1,"Ceramic 10nF X7R 50V, 5mm",CGS88: 10n monolithic ceramic
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,1,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS88: 100n (0.1) monolithic ceramic
+603-MFR-25FBF52-1K,MFR-25FBF52-1K,YAGEO,9,Metal film resistor 1k 1/4W 1%,CGS88: 1k (1% metal film)
+603-MFR-25FBF52-2K2,MFR-25FBF52-2K2,YAGEO,2,Metal film resistor 2k2 1/4W 1%,CGS88: 2k2 (12V) or 4k7 (15V)
+603-MFR-25FRF52-8K2,MFR-25FRF52-8K2,YAGEO,2,Metal film resistor 8k2 1/4W 1%,CGS88: 8k2 (12V) or 10k (15V)
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,1,Metal film resistor 10k 1/4W 1%,CGS88: 10k
+603-MFR-25FBF52-22K,MFR-25FBF52-22K,YAGEO,3,Metal film resistor 22k 1/4W 1%,CGS88: 22k
+603-MFR-25FBF52-47K,MFR-25FBF52-47K,YAGEO,5,Metal film resistor 47k 1/4W 1%,CGS88: 47k
+660-MFS1/4DCT52R1504,MFS1/4DCT52R1504F,KOA Speer,6,Metal film resistor 1M5 1/4W 1%,CGS88: 1M5
+595-LM3900N,LM3900N,Texas Instruments,1,Quad Norton amplifier (also replaces MC3401),CGS88: MC3401 or LM3900
+595-CD4007UBE,CD4007UBE,Texas Instruments,3,"CMOS CD4007UB, DIP [UNVERIFIED: check stock and price]","CGS88: CD4007AE, CD4007UBE etc."
+595-CD4013BE,CD4013BE,Texas Instruments,1,"CMOS CD4013B, DIP [UNVERIFIED: check stock and price]",CGS88: CD4013B or sim
+512-BC547BTA,BC547BTA,onsemi,2,NPN transistor (BC547B),CGS88: 2N3566 or BC547 / BC547
+512-BC557BTA,BC557BTA,onsemi,2,PNP transistor (BC557B),CGS88: 2N3638 or BC557 / BC557
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS88: Ferrite Bead

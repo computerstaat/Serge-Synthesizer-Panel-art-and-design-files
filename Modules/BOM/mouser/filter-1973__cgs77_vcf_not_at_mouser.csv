@@ -1,0 +1,4 @@
+Part,Quantity,Where to get it
+RG1-4 see text,4,Value depends on the build; see Ken Stone's construction notes before choosing it.
+CA3080 or LM3080,2,"LM3080 / CA3080 OTA: obsolete, not stocked at Mouser. Prism Circuits sells CA3080; otherwise buy from synth-parts suppliers."
+cgs77 PCB,1,PCB from Elby Designs.
