@@ -5,6 +5,17 @@ an SMMS Series 79. The line-up comes from the listing photos.
 
 Era: **SMMS metal overlay** (rounded boxes, black on silver), around 1979–80.
 
+## The whole system
+
+![The whole system, drawn with the repo artwork: the two panels and the Touch Activated Keyboard Sequencer.](Images/Moby_Series79.jpg)
+
+*The whole system, drawn with the repo artwork: the two panels and the Touch Activated Keyboard Sequencer.*
+
+Photos of the real system:
+
+- [Original Reverb listing (photos of the whole system)](https://reverb.com/item/11542095-serge-modular-music-system-smms-series-79-owned-by-moby)
+- [Gearnews: the story of Moby's Serge, with photos](https://www.gearnews.com/mobys-serge-modular)
+
 | Panel | Modules (left to right) | Artwork |
 |---|---|---|
 | Top | Precision VCO ×2, Random Source, Audio Mixer, Dual VCA, Dual Universal Slope Generator, Dual Phaser, Dual Channel Stereo Mixer | [PNG](../Modern/Images/Full%20Panel/Moby_Series79_Panel_1.png) · [SVG](../Modern/Vector%20Graphics/Full%20Panel/Moby_Series79_Panel_1.svg) · [Drill](../Modern/Drill%20Templates/Full%20Panel/Moby_Series79_Panel_1.pdf) |

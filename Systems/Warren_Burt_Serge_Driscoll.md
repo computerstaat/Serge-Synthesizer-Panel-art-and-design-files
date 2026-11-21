@@ -13,6 +13,12 @@ Sources:
 
 Photos are in `Other/Reference Photos/Warren Burt Serge-Driscoll` (not tracked).
 
+## The whole system
+
+Photos of the real system:
+
+- [djjondent: The Warren Burt Serge/Driscoll, with photos of all four boxes](https://djjondent.blogspot.com/2013/12/the-warren-burt-sergedriscoll.html)
+
 ## Box 1 (top left): the earliest panels
 
 - **Top panel:** yellow paperface with coloured jacks. Left to right: 2 Oscillators, 4 VCAs, Triple Wave Shaper, and the Phaser (with two hand-drawn ducks saying "QUACK!"). Then 2 Dual Analog Shift Registers on aluminium, the SMMS metal overlay style marked "serge".

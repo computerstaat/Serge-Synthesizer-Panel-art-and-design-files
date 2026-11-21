@@ -4,6 +4,16 @@ The paperface system built for the Center for Music Experiment (CME) at UC San D
 
 Era: **Paperface** (1970s line art). Six 17" panels.
 
+## The whole system
+
+![The whole system: the six panels, drawn with the repo artwork (top to bottom: panels 1–6).](Images/CME_La_Jolla_1973.jpg)
+
+*The whole system: the six panels, drawn with the repo artwork (top to bottom: panels 1–6).*
+
+Photos of the real system:
+
+- Ken Stone's pages on this system, with photos of the panels: [Classic Serge (open4umodular)](https://open4umodular.github.io/synthpanel/synth/serge/index.html)
+
 | Panel | Modules (left to right) | Artwork |
 |---|---|---|
 | 1 | Negative Slew, Programmer, Programmer Multiples, Programmer, Programmer Multiples, Peak & Trough | [PNG](../Paperface/Images/Full%20Panel/CME_Panel_1.png) · [SVG](../Paperface/Vector%20Graphics/Full%20Panel/CME_Panel_1.svg) · [Drill](../Paperface/Drill%20Templates/Full%20Panel/CME_Panel_1.pdf) |
