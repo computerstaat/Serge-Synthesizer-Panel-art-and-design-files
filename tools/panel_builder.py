@@ -71,7 +71,7 @@ def body(root, thumb, links):
             "side by side, plus a 1:1 drill template and a Front Panel Express kit for the whole panel.</p>"
             '<div class="pb"><div class="lib"><div class="f"><input id="q" type="search" placeholder="Find a module..." aria-label="Find a module">'
             '</div><div class="f chips2" id="eras"><button class="chip on" data-v="">All</button>%s</div>'
-            '<label class="pcb"><input id="pcb" type="checkbox"> Only modules with a PCB for sale</label><div class="lst" id="lst"></div></div>'
+            '<label class="pcb"><input id="pcb" type="checkbox"> PCB available</label><div class="lst" id="lst"></div></div>'
             '<div><div class="opts"><label>Panel width <select id="pw"><option value="fit">Fit to modules</option>'
             '<option value="17" selected>17" full panel</option><option value="8">8" M-Class</option><option value="4.25">4.25" quarter panel</option>'
             '<option value="custom">Custom...</option></select></label><input id="cw" type="number" step="0.25" min="1" value="12" style="display:none;width:80px" aria-label="Custom width in inches">'
