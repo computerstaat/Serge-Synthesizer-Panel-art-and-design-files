@@ -3,30 +3,30 @@ All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour no
 All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,4,value from the board BOM,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Knob,4,one per pot,,,
 Prism Circuits Negative Slew,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-negative-slew",,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Capacitor,120pF,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Capacitor,10n,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Capacitor,100n (0.1) decoupling caps,4,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Capacitor,330n,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Capacitor,10uF 25V,3,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,33R,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,220R,4,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,4k7,4,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,5k6,1,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,6k8,5,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,10k,6,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,18k,4,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,22k,4,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,100k,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,220k,6,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,330k,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,470k,8,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,820k,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,1M,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Potentiometer / trimmer,100k (or 20-25k) trimmer,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Semiconductor,BC547 or sim,3,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
+Ken Stone CGS82 Negative Slew,CGS82 board,Capacitor,120pF,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html; Mouser part not checked yet: verify stock and price,810-FG28C0G1H121JNT0,https://www.mouser.com/ProductDetail/810-FG28C0G1H121JNT0,0.27
+Ken Stone CGS82 Negative Slew,CGS82 board,Capacitor,10n,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,810-FG28X7R1H103KNT6,https://www.mouser.com/ProductDetail/810-FG28X7R1H103KNT6,0.23
+Ken Stone CGS82 Negative Slew,CGS82 board,Capacitor,100n (0.1) decoupling caps,4,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,810-FG28X7R1H104KNT6,https://www.mouser.com/ProductDetail/810-FG28X7R1H104KNT6,0.27
+Ken Stone CGS82 Negative Slew,CGS82 board,Capacitor,330n,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html; Mouser part not checked yet: verify stock and price,505-MKS2.33/63/5T,https://www.mouser.com/ProductDetail/505-MKS2.33/63/5T,0.75
+Ken Stone CGS82 Negative Slew,CGS82 board,Capacitor,10uF 25V,3,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,667-ECE-A1EKA100,https://www.mouser.com/ProductDetail/667-ECE-A1EKA100,0.26
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,33R,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html; Mouser part not checked yet: verify stock and price,603-MFR-25FBF52-33R,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-33R,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,220R,4,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html; Mouser part not checked yet: verify stock and price,603-MFR-25FBF52-220R,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-220R,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,4k7,4,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html; Mouser part not checked yet: verify stock and price,603-MFR-25FBF52-4K7,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-4K7,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,5k6,1,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,603-MFR-25FBF52-5K6,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-5K6,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,6k8,5,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,603-MFR-25FBF52-6K8,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-6K8,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,10k,6,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,603-MFR-25FBF52-10K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-10K,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,18k,4,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html; Mouser part not checked yet: verify stock and price,603-MFR-25FBF52-18K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-18K,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,22k,4,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,603-MFR-25FBF52-22K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-22K,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,100k,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,603-MFR-25FBF52-100K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-100K,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,220k,6,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,603-MFR-25FBF52-220K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-220K,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,330k,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,603-MFR-25FBF52-330K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-330K,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,470k,8,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,603-MFR-25FBF52-470K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-470K,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,820k,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,603-MFR-25FBF52-820K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-820K,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Resistor,1M,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,603-MFR-25FBF52-1M,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1M,0.1
+Ken Stone CGS82 Negative Slew,CGS82 board,Potentiometer / trimmer,100k (or 20-25k) trimmer,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,652-3296W-1-104LF,https://www.mouser.com/ProductDetail/652-3296W-1-104LF,2.46
+Ken Stone CGS82 Negative Slew,CGS82 board,Semiconductor,BC547 or sim,3,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,512-BC547BTA,https://www.mouser.com/ProductDetail/512-BC547BTA,0.27
 Ken Stone CGS82 Negative Slew,CGS82 board,Semiconductor,CA3086 or CA3046,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Semiconductor,MC3401 or LM3900,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Misc,Ferrite Bead (or 10R resistor),2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
-Ken Stone CGS82 Negative Slew,CGS82 board,Misc,0.156 4 pin connector,1,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
+Ken Stone CGS82 Negative Slew,CGS82 board,Semiconductor,MC3401 or LM3900,2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,595-LM3900N,https://www.mouser.com/ProductDetail/595-LM3900N,0.85
+Ken Stone CGS82 Negative Slew,CGS82 board,Misc,Ferrite Bead (or 10R resistor),2,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,875-28L0138-70R-10,https://www.mouser.com/ProductDetail/875-28L0138-70R-10,0.45
+Ken Stone CGS82 Negative Slew,CGS82 board,Misc,0.156 4 pin connector,1,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,571-3-640426-4,https://www.mouser.com/ProductDetail/571-3-640426-4,0.6
 Ken Stone CGS82 Negative Slew,CGS82 board,Misc,CGS82 VER1.0 PCB,1,from https://open4umodular.github.io/synthpanel/modules/cgs82_negative_slew.html,,,
 Low-Gain LGE082 Dual Negative Slopes + Hills & Valleys,Board,,See the maker's BOM,,Board BOMs on the product page - https://www.low-gain.com/shop/p/lge082,,,

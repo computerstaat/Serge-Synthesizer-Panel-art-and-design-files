@@ -2997,7 +2997,10 @@
      "maker": "kenstone",
      "name": "Ken Stone CGS112 Serge VC Resonance Filter",
      "url": "https://open4umodular.github.io/synthpanel/modules/cgs112_vcfq.html",
-     "parts": "cgs112_vcfq",
+     "parts": [
+      "cgs112_vcfq",
+      "cgs108_vca"
+     ],
      "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
      "pcb": {
       "maker": "elby",
@@ -3015,7 +3018,8 @@
       "url": "https://open4umodular.github.io/synthpanel/modules/cgs112_vcfq.html"
      },
      "notes": [
-      "Elby now supplies the Serge gain cells for the CGS512 only as pre-built, factory-calibrated sub-assemblies with the PCB; they are no longer a DIY kit."
+      "Elby now supplies the Serge gain cells for the CGS512 only as pre-built, factory-calibrated sub-assemblies with the PCB; they are no longer a DIY kit.",
+      "The carrier needs three CGS108 gain cells; the CGS108 parts list below is for one."
      ]
     },
     {
@@ -3033,6 +3037,1062 @@
       "status": "listed",
       "title": "Board BOMs on the product page",
       "url": "https://www.low-gain.com/shop/p/low-gain-lge112-variable-q-filter-vcfq-4u-serge-compatible-panel"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "resonant-equalizer",
+   "name": "Resonant Equalizer",
+   "aka": [
+    "RES EQ",
+    "Fixed Resonant Filterbank",
+    "CGS202"
+   ],
+   "designer": "Serge Tcherepnin, 1982; CGS202 by Ken Stone",
+   "function": "Filter / EQ",
+   "summary": "A ten-band fixed filter bank whose bands can boost, cut or ring, with two comb outputs carrying alternate bands.",
+   "how_it_works": [
+    "The input is split across ten fixed band-pass sections. Apart from the outermost bands they sit a major seventh apart rather than an octave, so the bank does not favour any one key the way a graphic EQ does.",
+    "Each band knob is flat at its centre, boosts or cuts by roughly 12 dB either side, and past about three o'clock the band starts to resonate, so the module can ring like a set of tuned resonators when struck with pulses.",
+    "Besides the summed EQ output, two comb outputs each carry every other band; mixing or panning them gives hollow, phaser-like spectra and stereo spread from a mono source."
+   ],
+   "controls": [
+    [
+     "Band knobs (29 Hz to 11 kHz)",
+     "10 knobs",
+     "Cut, boost or resonance for each band."
+    ],
+    [
+     "LEVEL",
+     "knob",
+     "Input level."
+    ],
+    [
+     "IN",
+     "inputs",
+     "Audio in (banana and 1/4\")."
+    ],
+    [
+     "EQ",
+     "output",
+     "Sum of all ten bands."
+    ],
+    [
+     "COMB up / down",
+     "outputs",
+     "Alternate bands, upper and lower set."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Resonant_Equalizer",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS202 Serge Resonant Equalizer",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs202_reseq.html",
+     "parts": "cgs202_reseq",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS522 Resonant Equalizer (current version of the CGS202)",
+      "url": "https://elby-designs.com/webtek/cgs/serge/cgs522/cgs202/cgs202.htm"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS202 Serge Resonant Equalizer schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs202_reseq.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS202 Serge Resonant Equalizer parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs202_reseq.html"
+     },
+     "notes": [
+      "Ken Stone's page says the module runs on +/-12 V or +/-15 V unchanged."
+     ]
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE202 Resonant Filterbank",
+     "url": "https://www.low-gain.com/shop/p/lge202",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge202"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge202"
+     },
+     "notes": [
+      "Sold as a panel and PCB set by Thonk: https://www.thonk.co.uk/shop/lge202-panelpcb/ ; Low-Gain describes it as inspired by the Serge filter bank and adds feedback points.",
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "dual-channel-stereo-mixer",
+   "name": "Dual Channel Stereo Mixer",
+   "aka": [
+    "DCSM",
+    "CGS101"
+   ],
+   "designer": "Serge Tcherepnin; CGS101 by Ken Stone",
+   "function": "Mixer / VCA",
+   "summary": "Two voltage-controlled channels with equal-power panning onto a stereo bus, with aux inputs for chaining mixers.",
+   "how_it_works": [
+    "Each channel has a voltage-controlled amplifier for level and an equal-power panner that places it between the left and right outputs without a dip in loudness at the centre.",
+    "The two pan controls work in opposite senses, so one control voltage patched to both spreads the channels apart. Aux left and right inputs join the output bus directly, so several mixers can be chained.",
+    "Ken Stone's CGS101 builds it from four CGS108 Serge gain cells (the VCAs) and two CGS102 equal-power panner drivers on a carrier board; the same carrier can also be wired as the Serge quad VCA."
+   ],
+   "controls": [
+    [
+     "CHAN 1, CHAN 2",
+     "inputs",
+     "Audio inputs."
+    ],
+    [
+     "VC GAIN + knobs",
+     "inputs / knobs",
+     "Level of each channel."
+    ],
+    [
+     "VC PAN + knobs",
+     "inputs / knobs",
+     "Pan of each channel, opposite senses."
+    ],
+    [
+     "AUX L, R",
+     "inputs",
+     "Straight onto the output bus."
+    ],
+    [
+     "LEFT, RIGHT",
+     "outputs",
+     "Banana and 1/4\" stereo outputs."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Dual_Channel_Stereo_Mixer",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS101 Serge Dual Channel Stereo Mixer",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs101_dcsm.html",
+     "parts": [
+      "cgs101_dcsm",
+      "cgs108_vca",
+      "cgs102_epp"
+     ],
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS506 (CGS101 board set)",
+      "url": "https://elby-designs.com/webtek/cgs/serge/cgs506/cgs101/cgs101_dcsm.html"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS101 Serge Dual Channel Stereo Mixer schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs101_dcsm.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS101 Serge Dual Channel Stereo Mixer parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs101_dcsm.html"
+     },
+     "notes": [
+      "The carrier needs four CGS108 gain cells and two CGS102 panner boards; the CGS108 and CGS102 parts lists below are for one board each.",
+      "The sdiy.info wiki describes the same CGS101 carrier built as a Serge quad VCA: https://sdiy.info/wiki/CGS_Serge_quad_VCA"
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "programmer-sequencer",
+   "name": "Programmer Sequencer",
+   "aka": [
+    "Sequencing Programmer",
+    "CGS87"
+   ],
+   "designer": "Serge Tcherepnin; CGS87 by Ken Stone (Serge-inspired)",
+   "function": "Sequencer",
+   "summary": "A random-access voltage programmer: each stage holds a row of preset voltages and can be selected by pulse, button or up/down stepping.",
+   "how_it_works": [
+    "Each stage stores one knob per row (A to D). Whichever stage is active sends its knob voltages to the row outputs, so the module works both as a sequencer and as a bank of preset voltages.",
+    "Stages are chosen directly by a pulse at their own input or a press of their button, or stepped up and down by the clock or direction inputs. Each stage also gives a pulse while it is selected, and patching a stage pulse back to the first stage sets the sequence length.",
+    "CPO goes high while any button is held and AEP gives a pulse on every stage change. Ken Stone's CGS87 builds eight stages per board, cascadable, with an interface board for the outputs; he notes it follows the Serge programmer except for the up/down inputs."
+   ],
+   "controls": [
+    [
+     "Row knobs A-D",
+     "knobs",
+     "Preset voltage per stage and row."
+    ],
+    [
+     "A, B, C, D",
+     "outputs",
+     "Row voltages of the active stage."
+    ],
+    [
+     "Stage pulse inputs + buttons",
+     "inputs / buttons",
+     "Select a stage directly."
+    ],
+    [
+     "Stage gate outputs",
+     "outputs",
+     "High while the stage is active."
+    ],
+    [
+     "CLOCK / UP / DOWN, direction switch",
+     "inputs / switch",
+     "Step through the stages."
+    ],
+    [
+     "CPO, AEP",
+     "outputs",
+     "Button gate and all-event pulse."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Programmer_Sequencer",
+     "width": 5
+    },
+    {
+     "label": "CGS 8 stage (Catgirl)",
+     "dir": "CGS",
+     "sub": "",
+     "file": "8_Stage_Programmer_Sequencer",
+     "width": 9
+    }
+   ],
+   "builds": [
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS87 Programmer Sequencer",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs87_prog.html",
+     "parts": [
+      "cgs87s_prog",
+      "cgs87_prog"
+     ],
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS87 / CGS387 Programmer Sequencer",
+      "url": "https://www.elby-designs.com/contents/en-au/p1114_CGS87_-_Programmer_Sequencer.html"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS87 Programmer Sequencer schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs87_prog.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS87 Programmer Sequencer parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs87_prog.html"
+     },
+     "notes": [
+      "One CGS87 board holds eight stages; the CGS87S interface board drives the outputs. Optional on-off-on switches per stage set skip/stop behaviour."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "vc-slope",
+   "name": "VC Slope",
+   "aka": [
+    "VCS",
+    "CGS75"
+   ],
+   "designer": "Serge Tcherepnin (DUSG); CGS75 by Ken Stone under licence",
+   "function": "Envelopes / slope",
+   "summary": "One channel of the Serge slope generator: envelope, slew, LFO, VCO and envelope follower in a single 2\" module.",
+   "how_it_works": [
+    "A voltage follower whose rise and fall times are set separately, by knobs and by voltage. A signal at INPUT comes out slewed; a trigger at TRIG IN fires a full rise-and-fall envelope.",
+    "With CYCLE on, the END pulse retriggers the slope, so it runs as an LFO or, with the 1V/OCT input, as a roughly tracking oscillator that sweeps from triangle to sawtooth as rise and fall change.",
+    "The same circuit acts as a portamento, an envelope follower, a pulse delay or sub-harmonic divider, and a rough low-pass gate on audio."
+   ],
+   "controls": [
+    [
+     "INPUT",
+     "input",
+     "Signal to slew."
+    ],
+    [
+     "TRIG IN",
+     "input",
+     "Starts an envelope."
+    ],
+    [
+     "CYCLE",
+     "switch",
+     "Free-running LFO / VCO."
+    ],
+    [
+     "RISE, FALL + VC RISE, VC FALL",
+     "knobs / inputs",
+     "Slope times."
+    ],
+    [
+     "VC BOTH, 1V/OCT",
+     "inputs",
+     "Both slopes together."
+    ],
+    [
+     "OUT, END",
+     "outputs",
+     "Slope output and end-of-cycle pulse."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "CGS (Catgirl)",
+     "dir": "CGS",
+     "sub": "",
+     "file": "VC_Slope",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "kenstone",
+     "name": "Ken Stone CGS75 Voltage Controlled Slope",
+     "url": "https://open4umodular.github.io/synthpanel/modules/cgs75_vcs.html",
+     "parts": "cgs75_vcs",
+     "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS575 (CGS75 VCS)",
+      "url": "https://elby-designs.com/webtek/cgs/serge/cgs575/cgs75/cgs75_vcs.html"
+     },
+     "schematic": {
+      "status": "available",
+      "title": "CGS75 Voltage Controlled Slope schematic",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs75_vcs.html"
+     },
+     "bom": {
+      "status": "available",
+      "title": "CGS75 Voltage Controlled Slope parts list (in the BOM spreadsheet below)",
+      "url": "https://open4umodular.github.io/synthpanel/modules/cgs75_vcs.html"
+     },
+     "notes": [
+      "Ken Stone also lists a Eurorack version, the CGS775."
+     ]
+    }
+   ],
+   "related": [
+    "Two of these make a Dual Universal Slope Generator; see that page for the two-channel boards."
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "dual-transient-generator",
+   "name": "Dual Transient Generator",
+   "aka": [
+    "DTG",
+    "Dual Rise/Fall"
+   ],
+   "designer": "Serge Tcherepnin",
+   "function": "Envelopes / slope",
+   "summary": "Two slope generators with voltage-controlled rise and fall: envelopes, slew, LFOs and pulse delays in 2\".",
+   "how_it_works": [
+    "The DTG is the Dual Universal Slope Generator's circuit with fewer front-panel options. Each channel slews whatever arrives at its signal input, or fires a full rise-and-fall when triggered.",
+    "Rise and fall each have a knob, and a VC input sets both. A gate holds the channel at the top until it ends; the end-of-cycle output can retrigger the channel for LFO duty or trigger the other channel."
+   ],
+   "controls": [
+    [
+     "SIG IN",
+     "inputs",
+     "Signal to slew."
+    ],
+    [
+     "TRIG IN",
+     "inputs",
+     "Start an envelope."
+    ],
+    [
+     "RISE, FALL",
+     "knobs",
+     "Slope times."
+    ],
+    [
+     "VC IN",
+     "inputs",
+     "Voltage control of the slopes."
+    ],
+    [
+     "OUTPUTS",
+     "outputs",
+     "Slope outputs."
+    ],
+    [
+     "GATE / end",
+     "outputs",
+     "End-of-cycle pulses."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Dual_Transient_Generator",
+     "width": 2
+    },
+    {
+     "label": "STS / modern, bipolar",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Dual_Transient_Generator_Bipolar",
+     "width": 2
+    },
+    {
+     "label": "STS / modern, cycle toggles",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Dual_Transient_Generator_Toggles",
+     "width": 2
+    },
+    {
+     "label": "CGS (Catgirl)",
+     "dir": "CGS",
+     "sub": "",
+     "file": "Dual_Transient_Generator_Catgirl",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE114A Dual Rise/Fall (DTG)",
+     "url": "https://www.low-gain.com/shop/p/lge114a",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge114a"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge114a"
+     },
+     "notes": [
+      "Low-Gain says it is inspired by the DTG in the SMMS catalogue and gives the Extended Dual Rise/Fall's functions in less panel space.",
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "related": [
+    "The full two-channel slope generator, with Ken Stone's CGS114 board, is on the Dual Universal Slope Generator page; one channel of it is the CGS75 VC Slope."
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "dual-vca",
+   "name": "Dual VCA",
+   "aka": [
+    "2VCA"
+   ],
+   "designer": "Serge Tcherepnin",
+   "function": "VCA",
+   "summary": "Two exponential VCAs for patch-level gain control, with a steep cut-off near zero volts that suits envelopes.",
+   "how_it_works": [
+    "Each channel is a voltage-controlled amplifier with an exponential (audio-taper) response, so an envelope sounds even across its whole range.",
+    "The VC input sets gain together with the knob; near zero the output drops quickly to silence. Gain tops out at about two, so the channels can also boost weak signals before a filter or waveshaper."
+   ],
+   "controls": [
+    [
+     "INPUT",
+     "inputs",
+     "Audio or CV in."
+    ],
+    [
+     "VC + knob",
+     "inputs / knobs",
+     "Gain control."
+    ],
+    [
+     "OUTPUT",
+     "outputs",
+     "Amplified signal."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Dual_VCA",
+     "width": 1
+    },
+    {
+     "label": "CGS (Catgirl)",
+     "dir": "CGS",
+     "sub": "",
+     "file": "Dual_VCA_Catgirl",
+     "width": 1
+    },
+    {
+     "label": "The Human Comparator",
+     "dir": "CGS",
+     "sub": "",
+     "file": "Dual_VCA_HumanComparator",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE214 Dual VCA (2VCA)",
+     "url": "https://www.low-gain.com/shop/p/low-gain-lge214-dual-exponetial-vca-4u-serge-compatible",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/low-gain-lge214-dual-exponetial-vca-4u-serge-compatible"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/low-gain-lge214-dual-exponetial-vca-4u-serge-compatible"
+     },
+     "notes": [
+      "Low-Gain bases it on the original Serge 2VCA, with matched SMD transistors.",
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "variable-slope-vcf",
+   "name": "Variable Slope VCF",
+   "aka": [
+    "VCFS",
+    "Slope Filter"
+   ],
+   "designer": "Serge Tcherepnin",
+   "function": "Filter",
+   "summary": "A two-pole filter whose slope knob moves from a gentle 6 dB/octave through flat to sharp and resonant.",
+   "how_it_works": [
+    "A state-variable filter with high-pass, low-pass and band-pass outputs at once. Its frequency is set by knob, VC F and a 1V/OCT input.",
+    "The SLOPE control (and its VC input) changes the response: at the centre it is a normal 12 dB/octave filter, towards one end resonance and steepness increase, towards the other the slope relaxes to 6 dB/octave.",
+    "Two inputs are blended with the MIX knob, so the filter can crossfade between sources."
+   ],
+   "controls": [
+    [
+     "IN 1, IN 2 + MIX",
+     "inputs / knob",
+     "Two sources, crossfaded."
+    ],
+    [
+     "BAND, HI, LO",
+     "outputs",
+     "Filter responses."
+    ],
+    [
+     "SLOPE + VC SLOPE",
+     "knob / input",
+     "Slope and resonance."
+    ],
+    [
+     "FREQUENCY, VC F, 1V/OCT",
+     "knob / inputs",
+     "Cutoff."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Variable_Slope_VCF",
+     "width": 2
+    },
+    {
+     "label": "STS / modern, LE",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Variable_Slope_VCF_LE",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE111 Slope Filter",
+     "url": "https://www.low-gain.com/shop/p/lge111",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge111"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge111"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "audio-mixer",
+   "name": "Audio Mixer",
+   "aka": [
+    "AMIX"
+   ],
+   "designer": "Serge Tcherepnin",
+   "function": "Mixer",
+   "summary": "Two three-input audio mixers with level knobs, one with a phase-invert switch.",
+   "how_it_works": [
+    "Each section sums three inputs, each through its own level knob, into one output. The top section's switch inverts or mutes its first channel, useful for cancelling or comb-filtering two copies of a signal.",
+    "The lower section has an AUX IN that joins its output bus directly, so mixers can be chained."
+   ],
+   "controls": [
+    [
+     "IN 1-3 + knobs",
+     "inputs / knobs",
+     "Inputs and levels, two sections."
+    ],
+    [
+     "Phase switch",
+     "switch",
+     "Invert / mute channel 1 (top section)."
+    ],
+    [
+     "AUX IN",
+     "input",
+     "Joins the lower output bus."
+    ],
+    [
+     "OUTPUT",
+     "outputs",
+     "Mix outputs."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Audio_Mixer",
+     "width": 2
+    },
+    {
+     "label": "CGS (Catgirl)",
+     "dir": "CGS",
+     "sub": "",
+     "file": "Audio_Mixer_Catgirl",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE209 Audio Mixer",
+     "url": "https://www.low-gain.com/shop/p/lge209",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge209"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge209"
+     },
+     "notes": [
+      "One section per board: three AC-coupled channels; Low-Gain says it can be changed to DC coupling.",
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "related": [
+    "Ken Stone's CGS90 board carries two audio mixers next to its phaser; see the VC Phaser page."
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "scaling-processor",
+   "name": "Scaling Processor",
+   "aka": [
+    "CV Processor"
+   ],
+   "designer": "Serge Tcherepnin / STS",
+   "function": "Utility / CV processing",
+   "summary": "Three voltage processors with attenuverters, an offset and a +5 V source.",
+   "how_it_works": [
+    "The top two sections each add one input to a second that passes through a bipolar attenuator, so a signal can be scaled, inverted and offset by another.",
+    "The bottom section has two bipolar attenuated inputs, a third input and a -5 to +5 V offset knob; a +5 V jack supplies a fixed voltage for offsets elsewhere in the patch."
+   ],
+   "controls": [
+    [
+     "IN 1, IN 2 + knobs",
+     "inputs / knobs",
+     "Inputs; IN 2 is attenuverted."
+    ],
+    [
+     "OUTPUT",
+     "outputs",
+     "Sums."
+    ],
+    [
+     "-5 / +5",
+     "knob",
+     "Offset on the bottom section."
+    ],
+    [
+     "+5V OUT",
+     "output",
+     "Fixed 5 V."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Scaling_Processor",
+     "width": 2
+    }
+   ],
+   "builds": [
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE030 Scaling Processor",
+     "url": "https://www.low-gain.com/shop/p/lge030",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge030"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge030"
+     },
+     "notes": [
+      "Low-Gain's bottom section adds Min / Max outputs alongside the sum, behaving like a Peak & Trough.",
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "divide-n-comparator",
+   "name": "Divide by N Comparator",
+   "aka": [
+    "NCOM",
+    "÷N COMP"
+   ],
+   "designer": "Serge Tcherepnin",
+   "function": "Logic / divider",
+   "summary": "A comparator plus a voltage-controlled divider (1 to 31) with a staircase output.",
+   "how_it_works": [
+    "The comparator turns any waveform into pulses, compared against a level set by the knob. The divider outputs one pulse for every N pulses it receives, N set from 1 to 31 by knob and VC input.",
+    "STEP OUT gives a staircase with N steps; into a VCO it produces whole-tone runs. On audio the divider makes sub-octaves and sub-harmonics; on clocks it counts beats for rhythms and event triggers."
+   ],
+   "controls": [
+    [
+     "IN +, IN -",
+     "inputs",
+     "Comparator inputs."
+    ],
+    [
+     "Level knob",
+     "knob",
+     "Comparator threshold."
+    ],
+    [
+     "OUT",
+     "output",
+     "Comparator output."
+    ],
+    [
+     "N knob, VC IN",
+     "knob / input",
+     "Division 1 to 31."
+    ],
+    [
+     "OUT ÷",
+     "output",
+     "Divided pulses."
+    ],
+    [
+     "STEP OUT",
+     "output",
+     "Staircase."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Divide_N_Comp",
+     "width": 1
+    }
+   ],
+   "builds": [
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE205 Divide by N Comparator (NCOM)",
+     "url": "https://www.low-gain.com/shop/p/lge205",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge205"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge205"
+     },
+     "notes": [
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "dual-comparator",
+   "name": "Dual Comparator",
+   "aka": [
+    "COM"
+   ],
+   "designer": "Serge Tcherepnin",
+   "function": "Logic / waveshaping",
+   "summary": "Two comparators with threshold knobs, for squaring signals, level detection and pulse-width modulation.",
+   "how_it_works": [
+    "Each comparator outputs high when its + input is above its - input (plus the knob's offset), low otherwise.",
+    "Feed it a waveform and it squares it; move the threshold or the - input and the pulse width changes. With an envelope at the input it signals when a level is crossed."
+   ],
+   "controls": [
+    [
+     "IN +, IN -",
+     "inputs",
+     "Compared voltages."
+    ],
+    [
+     "-5 / +5",
+     "knobs",
+     "Threshold."
+    ],
+    [
+     "OUT",
+     "outputs",
+     "Logic result."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Dual_Comp",
+     "width": 1
+    }
+   ],
+   "builds": [
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE205D Dual Comparator (COM)",
+     "url": "https://www.low-gain.com/shop/p/lge205d",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge205d"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge205d"
+     },
+     "notes": [
+      "Based on the Dual Comparator (COM) in the original Serge catalogue.",
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
+    }
+   ],
+   "related": [
+    "The three-section version is on the Triple Comparator page."
+   ],
+   "docs": [
+    {
+     "title": "SMMS catalogue 1980",
+     "path": "Documentation/SMMS_Catalogue_1980.pdf"
+    }
+   ]
+  },
+  {
+   "slug": "active-processor",
+   "name": "Active Processor",
+   "aka": [
+    "ACPR"
+   ],
+   "designer": "Serge Tcherepnin",
+   "function": "Utility / CV processing",
+   "summary": "A voltage-controlled crossfader plus an inverting / offset stage, for audio or control voltages.",
+   "how_it_works": [
+    "The top section crossfades linearly between IN 1 and IN 2; the knob and VC XFADE set the balance, so it can fade, pan or blend under voltage control.",
+    "The bottom section inverts its input and adds a -5 to +5 V offset, to flip envelopes, shift LFOs or make a manual voltage."
+   ],
+   "controls": [
+    [
+     "IN 1, IN 2",
+     "inputs",
+     "Crossfader sources."
+    ],
+    [
+     "VC XFADE + knob",
+     "input / knob",
+     "Balance."
+    ],
+    [
+     "OUT",
+     "output",
+     "Crossfader output."
+    ],
+    [
+     "INV IN, -5 / +5",
+     "input / knob",
+     "Inverter with offset."
+    ],
+    [
+     "OUT",
+     "output",
+     "Inverter output."
+    ]
+   ],
+   "variants": [
+    {
+     "label": "STS / modern",
+     "dir": "Modern",
+     "sub": "Module",
+     "file": "Active_Processor",
+     "width": 1
+    }
+   ],
+   "builds": [
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE201 Active Processor",
+     "url": "https://www.low-gain.com/shop/p/lge201-active-processor",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Board documents on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge201-active-processor"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Board BOMs on the product page",
+      "url": "https://www.low-gain.com/shop/p/lge201-active-processor"
      },
      "notes": [
       "Low-Gain boards set their own jack positions; check them against the panel you use."

@@ -5,54 +5,145 @@
 
 For each mapped board writes Modules/BOM/mouser/<module>__<board>.csv in the layout Mouser's BOM tool (FORTE)
 imports: Mouser Part Number, Manufacturer Part Number, Manufacturer, Quantity, Description, Customer Part Number.
-Lines Mouser can't supply go to <module>__<board>_not_at_mouser.csv."""
+Lines Mouser can't supply go to <module>__<board>_not_at_mouser.csv. Also writes summary.json and README.md there.
+
+Parts listed under "unverified" in mouser_parts.json were not checked on mouser.com; their lines say so in the
+Description column, and the summary counts them so the BOM pages can warn."""
 import csv, json, os, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(os.path.dirname(HERE), "BOM", "mouser")
 MP = json.load(open(os.path.join(HERE, "mouser_parts.json")))
 P, NA = MP["parts"], MP["not_at_mouser"]
-# which board parts lists to export, per module page
+UNVERIFIED, NOTES = MP.get("unverified", {}), MP.get("notes", {})
+# which Ken Stone board parts lists to export, per module page
 TARGETS = {"triple-comparator": ["cgs96_comp"], "triple-wave-shaper": ["cgs85_tws"], "ring-modulator": ["cgs79_ring"],
-           "universal-audio-processor": ["cgs102_epp", "cgs108_vca"]}
-MULT = {"cgs108_vca": 2}          # the UAP needs two gain cells
+           "universal-audio-processor": ["cgs102_epp", "cgs108_vca"],
+           "analog-shift-register": ["cgs34_asr"], "envelope-generator-1973": ["cgs76_env"], "filter-1973": ["cgs77_vcf"],
+           "negative-slew": ["cgs82_negative_slew"], "positive-slew": ["cgs83_positive_slew"], "peak-trough": ["cgs84_peakandtrough"],
+           "bi-directional-router": ["cgs88_bds"], "gate-sequencer": ["cgs89_gate_sequencer"], "vc-phaser": ["cgs90_phaser"],
+           "smooth-stepped-generator": ["cgs92_ssg"], "noise-source": ["cgs97_noise"], "extended-range-vcf": ["cgs112_vcfq", "cgs108_vca"],
+           "wave-multipliers": ["cgs113_vcm"], "dual-universal-slope-generator": ["cgs114_dusg"], "extended-adsr": ["cgs116_env"],
+           "resonant-equalizer": ["cgs202_reseq"], "dual-channel-stereo-mixer": ["cgs101_dcsm", "cgs108_vca", "cgs102_epp"],
+           "programmer-sequencer": ["cgs87s_prog", "cgs87_prog"], "vc-slope": ["cgs75_vcs"]}
+# boards needed more than once per module: gain cells and panner drivers on the carrier boards
+MULT = {("universal-audio-processor", "cgs108_vca"): 2, ("extended-range-vcf", "cgs108_vca"): 3,
+        ("dual-channel-stereo-mixer", "cgs108_vca"): 4, ("dual-channel-stereo-mixer", "cgs102_epp"): 2}
 # BOMs written out line by line from a maker's own BOM and Mouser cart (Low-Gain), not from a parts list
 EXPLICIT = json.load(open(os.path.join(HERE, "mouser_explicit.json")))
+HEAD = ["Mouser Part Number", "Manufacturer Part Number", "Manufacturer", "Quantity", "Description", "Customer Part Number"]
+
+# old transistor numbers -> a current part with the same polarity and TO-92 EBC pinout
+OBSOLETE = (("2n3391", "S:2N3904"), ("2n3565", "S:2N3904"), ("2n3566", "S:2N3904"),
+            ("2n3638", "S:2N3906"), ("2n4248", "S:2N3906"), ("2n4250", "S:2N3906"), ("pn4250", "S:2N3906"))
+
+
+def rval(s):
+    """'4.7k' -> '4k7', '330Ω' -> '330R', '2.2M' -> '2M2', '150k*' -> '150k', '1k,' -> '1k'; None if not a value."""
+    s = s.replace("Ω", "R").replace("Ohms", "").strip()
+    m = re.match(r"^(\d+)(?:\.(\d+))?\s*([RkKM]?)(\d*)", s)
+    if not m:
+        return None
+    a, dec, u, tail = m.groups()
+    u = {"K": "k", "": "R"}.get(u, u)
+    if dec:
+        return a + u + dec
+    return a + u + tail
+
+
+def cval(lv):
+    """Capacitor value text -> key name ('C:10pF', 'C:2n2', 'C:47n', 'C:1uF', 'C:4.7uF'), or None."""
+    m = re.match(r"^(\d+(?:\.\d+)?)\s*(pf|nf|n|uf|u|µf)(\d*)", lv)
+    if not m:
+        m2 = re.match(r"^0\.1\b", lv)
+        return "C:100n" if m2 else None
+    num, unit, tail = m.groups()
+    x = float(num + ("." + tail if tail else ""))
+    pf = x * {"pf": 1, "nf": 1e3, "n": 1e3, "uf": 1e6, "u": 1e6, "µf": 1e6}[unit]
+    if pf < 1000:
+        return "C:%dpF" % round(pf)
+    if pf < 1e6:
+        n = pf / 1e3
+        return "C:%dn" % n if n == int(n) else "C:" + ("%g" % n).replace(".", "n")
+    u = pf / 1e6
+    return "C:%guF" % u
 
 
 def key(t, v):
     """Map one parts-list line to a key in mouser_parts.json, or ('NA', reason)."""
-    lv = v.lower()
+    lv = v.lower().strip()
+    if t == "Off-board":
+        if any(w in lv for w in ("jack", "knob", "position switch")): return ("NA", "Panel")
+        t = "Misc" if "switch" in lv else "Semiconductor"
     if t == "Misc":
         if "pcb" in lv: return ("NA", "PCB")
+        if "submodule" in lv: return ("NA", "Submodule")
         if "header strip" in lv: return ("NA", "Header")
         if "ferrite" in lv: return "M:Ferrite"
         if "connector" in lv: return "M:MTA156 housing"
         if "header" in lv or "0.156" in lv: return "M:MTA156 header"
+        if lv.startswith("jack") or lv.startswith("knob"): return ("NA", "Panel")
+        if "switch" in lv:
+            if "dpdt" in lv: return "M:DPDT"
+            if "ctr" in lv or "centre" in lv or "center" in lv: return "M:SPDT on-off-on"
+            return "M:SPDT"
     if t == "Potentiometer / trimmer":
-        mm = re.match(r"([\d.]+[kKM]?)", v)
-        val = mm.group(1).replace("K", "k") if mm else v
+        val = rval(v) or v
+        if val.endswith("R") and val[:-1].isdigit() and int(val[:-1]) >= 1000:
+            val = val[:-1]
         if "pot" in lv and "trim" not in lv:
+            if "log" in lv: return "P:%s log" % val
             return "P:100k" if ("100k" in lv and val != "25k") or val == "100k" else "P:" + val
         return "T:" + val
     if t == "Resistor":
-        if lv.startswith("rled"): return "R:1k"
-        val = v.split()[0].replace("Ω", "R").replace("Ohms", "")
-        m = re.match(r"^(\d+)\.(\d)([kM])$", val)
-        if m: val = m.group(1) + m.group(3).replace("K", "k") + m.group(2)
-        return "R:" + val
+        if lv.startswith("rled"):
+            m = re.search(r"\(([\d.]+[kKM]?\d*)\)", v)
+            return "R:" + (rval(m.group(1)) if m else "1k")
+        if lv.startswith("rpd"):
+            m = re.search(r"\(([\d.]+[kKM]\d*)\)", v)
+            return "R:" + rval(m.group(1)) if m else ("NA", "See text")
+        if "see text" in lv and not re.match(r"^\d", lv): return ("NA", "See text")
+        val = rval(v)
+        return "R:" + val if val else ("NA", "unmapped")
     if t == "Capacitor":
         if "smt" in lv or "1206" in lv:
             return "C:47pF SMT" if lv.startswith("47pf") else "C:10n SMT" if lv.startswith("10nf") else "C:100n SMT"
-        for pat, k in (("5pf", "C:5pF"), ("47pf", "C:47pF"), ("10uf", "C:10uF"), ("47uf", "C:47uF"), ("470n", "C:470n"), ("220pf", "C:220pF"), ("100pf", "C:100pF"),
-                       ("10nf", "C:10n"), ("10n", "C:10n"), ("100n", "C:100n"), ("0.1", "C:100n")):
-            if lv.startswith(pat) or lv.split()[0] == pat: return k
+        if lv.startswith("cx"):
+            return "C:100n"
+        k = cval(lv)
+        if k == "C:1uF" and ("bp" in lv or "bipolar" in lv or "np" in lv.split()): k = "C:1uF BP"
+        return k or ("NA", "unmapped")
     if t == "Semiconductor":
-        for pat, k in (("1n4148", "S:1N4148"), ("6v2", "S:6V2"), ("bc547", "S:BC547"), ("bc557", "S:BC557"), ("lm3900", "S:LM3900"),
+        for pat, k in (("1n4148", "S:1N4148"), ("6v2", "S:6V2"), ("4v3", "S:4V3"), ("5v6", "S:5V6"), ("bc547", "S:BC547"), ("bc557", "S:BC557"),
+                       ("2n3904", "S:2N3904"), ("2n3906", "S:2N3906"), ("lm3900", "S:LM3900"),
                        ("mc3401", "S:LM3900"), ("tl074", "S:TL074"), ("tl072", "S:TL072"), ("tl071", "S:TL071"),
-                       ("ca3046", ("NA", "CA3046")), ("ca3086", ("NA", "CA3046")), ("lm3080", ("NA", "LM3080")), ("ca3080", ("NA", "LM3080")), ("lm307", ("NA", "LM307"))):
+                       ("ca3046", ("NA", "CA3046")), ("ca3086", ("NA", "CA3046")), ("lm3080", ("NA", "LM3080")), ("ca3080", ("NA", "LM3080")),
+                       ("lm307", ("NA", "LM307")), ("vtl5c", ("NA", "Vactrol")), ("ca3140", "S:CA3140"), ("ca3130", "S:CA3130"),
+                       ("lm324", "S:LM324"), ("lm339", "S:LM339"), ("lm393", "S:LM393"), ("78l12", "S:78L12"), ("79l12", "S:79L12"),
+                       ("j201", "S:J201")) + OBSOLETE:
             if pat in lv: return k
+        m = re.match(r"^(?:cd)?40(01|07|13|16|17|24|52|66|69|81)", lv)
+        if m: return "S:40" + ("66" if m.group(1) == "16" else m.group(1))
+        if re.match(r"^(lm|ua)?741\b", lv): return "S:741"
+        if lv.startswith("led"): return "S:LED"
     return ("NA", "unmapped")
+
+
+def note_for(k, value):
+    """Short note for the Description column: substitutions and the unverified flag."""
+    bits = []
+    lv = value.lower()
+    if any(p in lv for p, _ in OBSOLETE) and k in ("S:2N3904", "S:2N3906") and k[2:].lower() not in lv:
+        bits.append("obs:" + value.split()[0])
+    elif k == "S:4066" and "4016" in lv:
+        bits.append("replaces 4016")
+    elif k == "S:CA3140" and "lf356" in lv:
+        bits.append("in place of LF356")
+    elif k == "R:600k":
+        bits.append("nearest value to " + value.split()[0])
+    elif k == "M:SPDT" and "spst" in lv:
+        bits.append("SPDT used as SPST")
+    return bits
 
 
 def main():
@@ -61,41 +152,73 @@ def main():
     for slug, boards in TARGETS.items():
         for b in boards:
             pl = json.load(open(os.path.join(HERE, "parts", b + ".json")))
+            mult = MULT.get((slug, b), 1)
             lines, na = {}, []
             for r0 in pl["parts"]:
-                r = dict(r0, qty=r0["qty"] * MULT.get(b, 1))
+                r = dict(r0, qty=r0["qty"] * mult)
                 k = key(r["type"], r["value"])
                 if isinstance(k, tuple) or k not in P:
                     reason = NA.get(k[1], "No Mouser part chosen yet") if isinstance(k, tuple) else "No Mouser part chosen yet"
                     na.append([r["value"], r["qty"], reason]); continue
                 p = P[k]
-                L = lines.setdefault(p[0], [p[0], p[1], p[2], 0, p[4], []])
-                L[3] += r["qty"]; L[5].append(r["value"])
+                L = lines.setdefault(p[0], {"p": p, "qty": 0, "vals": [], "notes": [], "unv": False})
+                L["qty"] += r["qty"]; L["vals"].append(r["value"])
+                L["notes"] += [n for n in note_for(k, r["value"]) if n not in L["notes"]]
+                L["unv"] |= k in UNVERIFIED
             base = "%s__%s" % (slug, b)
             with open(os.path.join(OUT, base + ".csv"), "w", newline="") as f:
                 w = csv.writer(f)
-                w.writerow(["Mouser Part Number", "Manufacturer Part Number", "Manufacturer", "Quantity", "Description", "Customer Part Number"])
+                w.writerow(HEAD)
                 for L in lines.values():
-                    w.writerow(L[:5] + [("%s: %s" % (pl["board"], " / ".join(L[5]))).replace("Ω", "R")])
+                    p = L["p"]
+                    obs = [n[4:] for n in L["notes"] if n.startswith("obs:")]
+                    notes = [n for n in L["notes"] if not n.startswith("obs:")] + (["replaces obsolete %s, check pinout" % "/".join(obs)] if obs else [])
+                    desc = p[4] + "".join(" (%s)" % n for n in notes) + (" [UNVERIFIED: check stock and price]" if L["unv"] else "")
+                    cust = "%s%s: %s" % (pl["board"], " x%d" % mult if mult > 1 else "", " / ".join(L["vals"]))
+                    w.writerow([p[0], p[1], p[2], L["qty"], desc, cust.replace("Ω", "R")])
             with open(os.path.join(OUT, base + "_not_at_mouser.csv"), "w", newline="") as f:
                 w = csv.writer(f); w.writerow(["Part", "Quantity", "Where to get it"]); w.writerows(na)
-            cost = sum(P[k][3] * 0 for k in ())  # placeholder
-            total = sum(L[3] * next(p[3] for p in P.values() if p[0] == L[0]) for L in lines.values())
-            report.append((slug, b, len(lines), len(na), round(total, 2)))
+            total = sum(L["qty"] * L["p"][3] for L in lines.values())
+            report.append((slug, b, len(lines), len(na), round(total, 2), sum(L["unv"] for L in lines.values()), mult))
     for base, x in EXPLICIT.items():
         with open(os.path.join(OUT, base + ".csv"), "w", newline="") as f:
             w = csv.writer(f)
-            w.writerow(["Mouser Part Number", "Manufacturer Part Number", "Manufacturer", "Quantity", "Description", "Customer Part Number"])
+            w.writerow(HEAD)
             for l in x["lines"]:
                 w.writerow([l[0], l[1], l[2], l[3], l[5], l[6]])
         with open(os.path.join(OUT, base + "_not_at_mouser.csv"), "w", newline="") as f:
             w = csv.writer(f); w.writerow(["Part", "Quantity", "Where to get it"]); w.writerows(x["na"])
         slug, b = base.split("__")
-        report.append((slug, b, len(x["lines"]), len(x["na"]), round(sum(l[3] * l[4] for l in x["lines"]), 2)))
+        report.append((slug, b, len(x["lines"]), len(x["na"]), round(sum(l[3] * l[4] for l in x["lines"]), 2), 0, 1))
     for r in report:
-        print("%-20s %-12s %2d Mouser lines, %d elsewhere, ~$%.2f at 1-off prices" % r)
-    json.dump({"%s__%s" % (r[0], r[1]): {"lines": r[2], "elsewhere": r[3], "cost": r[4]} for r in report},
+        print("%-32s %-20s %2d Mouser lines (%2d unverified), %d elsewhere, ~$%.2f" % (r[0], r[1], r[2], r[5], r[3], r[4]))
+    json.dump({"%s__%s" % (r[0], r[1]): {"lines": r[2], "elsewhere": r[3], "cost": r[4], "unverified": r[5], "boards": r[6]} for r in report},
               open(os.path.join(OUT, "summary.json"), "w"), indent=1)
+    readme(report)
+
+
+def readme(report):
+    L = ["# Mouser BOM upload files", "",
+         "Each `<module>__<board>.csv` loads straight into Mouser's BOM tool (https://www.mouser.com/bomtool/). Upload the file, then map the "
+         "columns: **Mouser Part Number** (or Manufacturer Part Number) and **Quantity**. Quantities are for one module; where a module needs "
+         "several copies of a sub-board (CGS108 gain cells, CGS102 panner drivers) the quantities are already multiplied and the Customer Part "
+         "Number says so (e.g. `CGS108 x4`).", "",
+         "`<module>__<board>_not_at_mouser.csv` lists what Mouser doesn't sell: the PCB, obsolete chips such as the CA3080 / LM3080, vactrols, "
+         "and front-panel jacks and knobs.", "",
+         "**Check stock and price before ordering.** The first set of parts was checked on mouser.com on 2026-11-20. Parts added later were "
+         "chosen from the manufacturers' part-number patterns and only spot-checked; their lines end in `[UNVERIFIED: check stock and price]` "
+         "and their prices are estimates. The BOM tool flags any number it doesn't recognise or that is out of stock: pick an equivalent there.", "",
+         "Substitutions: obsolete transistors (2N3391A, 2N3565, 2N3566 / 2N3638, 2N4248, 2N4250) are replaced by 2N3904 / 2N3906, which share "
+         "the TO-92 EBC pinout (check the PCB overlay); the 4016 by the CD4066BE; the LF356 by the CA3140EZ where Ken Stone's list allows it; "
+         "4k7 trimmers by 5k. The Description column notes each one.", "",
+         "The Low-Gain files (`__lge…`) include the panel jacks, pots and switches, following Low-Gain's BOM; the CGS files include pots and "
+         "switches but leave out banana jacks and knobs, which synth-parts suppliers sell far cheaper than Mouser.", "",
+         "| File | Mouser lines | Unverified lines | Bought elsewhere (lines) | Approx. cost (1 off) |", "|---|---|---|---|---|"]
+    for r in report:
+        L.append("| %s__%s.csv | %d | %d | %d | $%.2f |" % (r[0], r[1], r[2], r[5], r[3], r[4]))
+    L += ["", "To add a module, map its values in `../../_source/mouser_parts.json`, add it to `TARGETS` in `../../_source/make_mouser.py`, "
+          "and run that script and `make_pages.py`. Values still without a Mouser part are listed in `../../_source/mouser_pending.md`.", ""]
+    open(os.path.join(OUT, "README.md"), "w").write("\n".join(L))
 
 
 if __name__ == "__main__":

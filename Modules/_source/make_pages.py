@@ -152,7 +152,8 @@ def bom_rows(m):
                 for r in pl["parts"]:
                     mk = make_mouser.key(r["type"], r["value"]) if mapped else None
                     mp = make_mouser.P.get(mk) if isinstance(mk, str) else None
-                    rows.append([b["name"], pl["board"] + " board", r["type"], r["value"], r["qty"], "from " + pl["source"],
+                    unv = "; Mouser part not checked yet: verify stock and price" if isinstance(mk, str) and mk in make_mouser.UNVERIFIED else ""
+                    rows.append([b["name"], pl["board"] + " board", r["type"], r["value"], r["qty"], "from " + pl["source"] + unv,
                                  mp[0] if mp else "", "https://www.mouser.com/ProductDetail/" + mp[0] if mp else "", mp[3] if mp else ""])
         else:
             rows.append([b["name"], "Board", "", "See the maker's BOM", "", b["bom"].get("title", "") + " - " + b["bom"].get("url", b["url"]), "", "", ""])
@@ -262,6 +263,11 @@ def page(m):
                        ", ".join('<a href="%s">%s</a> (%d lines, about $%.2f at single-unit prices)' % (
                            quote("BOM/mouser/" + f), e(f), sm[f[:-4]]["lines"], sm[f[:-4]]["cost"]) for f in mf),
                        ", ".join('<a href="%s">%s</a>' % (quote("BOM/mouser/" + f[:-4] + "_not_at_mouser.csv"), e(f[:-4] + "_not_at_mouser.csv")) for f in mf)))
+        nu = sum(sm[f[:-4]].get("unverified", 0) for f in mf)
+        if nu:
+            out.append('<p class="note"><b>Check stock and price before ordering:</b> %d line%s in %s (marked <code>[UNVERIFIED]</code> in the Description '
+                       'column) use part numbers built from the manufacturers\' numbering and not yet checked on mouser.com; their prices are estimates. '
+                       'The BOM tool flags anything it can\'t find or that is out of stock.</p>' % (nu, "s" if nu > 1 else "", "these files" if len(mf) > 1 else "this file"))
     groups = collections.OrderedDict()
     for r in rows:
         groups.setdefault(r[0], []).append(r)
