@@ -8,5 +8,6 @@ One file per real Serge synthesizer: where it was, which era its panels belong t
 | [Cal Arts Black Serge](CalArts_Black_Serge.md) | SMMS metal overlay, reversed (early 1980s) | 4 upright + sloped panel + TKB | Done, in white and black versions |
 | [Moby's SMMS Series 79](Moby_Series79.md) | SMMS metal overlay (about 1979–80) | 2 × 17" + TKB | Done |
 | [La Trobe University](La_Trobe_University.md) | Paperface | LA1–LA4 | Not built yet |
+| [Warren Burt Serge / Driscoll](Warren_Burt_Serge_Driscoll.md) | Paperface, SMMS, handmade and Driscoll black panels | 12 panels in 4 boxes | Catalogued; panels not built yet |
 
 Line-ups are read left to right, as on the instrument.

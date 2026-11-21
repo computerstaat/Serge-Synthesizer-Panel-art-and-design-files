@@ -16,7 +16,7 @@ h1{font-size:clamp(2rem,4vw,2.8rem);line-height:1.1;margin:0 0 10px}h2{font-size
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;text-decoration:none;color:var(--ink);display:block}
 .card:hover{border-color:var(--ink)}.card h3{margin:8px 0 4px;font-size:1.1rem}.card p{margin:0;font-size:.93rem;color:var(--muted)}
 .card .strip{height:150px;display:flex;gap:4px;overflow:hidden;align-items:flex-end;justify-content:center;background:#faf9f5;border-radius:6px;padding:6px}
-.card .strip img{height:100%;width:auto}
+.card .strip img{height:100%;width:auto}.card.sys p{margin-top:4px}.doccard h3{margin-top:10px}
 .tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:0 0 6px}
 .tools input{font:inherit;padding:8px 12px;border:1px solid var(--line);border-radius:8px;min-width:260px;background:#fff}
 .chips{display:flex;gap:8px;flex-wrap:wrap}.chips a{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:.88rem;text-decoration:none;color:var(--ink)}
@@ -51,8 +51,11 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 .tag.ok{background:#dff3e4;color:#1b5e2e}
 .scroll{overflow-x:auto}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}}
-</style></head><body><header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="../Modules/index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../systems.html" class="on">Systems</a><a href="../documentation.html">Library</a></div></header><main><p class="muted"><a href="../systems.html">Systems</a> /</p><div class="doc"><h1>Moby's SMMS "Series 79"</h1>
+.mob{display:none;margin-top:4px}
+@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}.mob{display:block}
+.mx td,.mx th{padding:8px 6px}.stats{grid-template-columns:1fr 1fr}.stat b{font-size:1.6rem}
+header .wrap{flex-wrap:wrap;gap:4px 14px}}
+</style></head><body><header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="../Modules/index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../panel-builder.html">Panel builder</a><a href="../systems.html" class="on">Systems</a><a href="../documentation.html">Library</a></div></header><main><p class="muted"><a href="../systems.html">Systems</a> /</p><div class="doc"><h1>Moby's SMMS "Series 79"</h1>
 <p>A two-panel SMMS system with a Touch Activated Keyboard Sequencer, sold on Reverb from Moby's collection and listed as
 an SMMS Series 79. The line-up comes from the listing photos.</p>
 <p>Era: <strong>SMMS metal overlay</strong> (rounded boxes, black on silver), around 1979–80.</p>
@@ -82,7 +85,9 @@ an SMMS Series 79. The line-up comes from the listing photos.</p>
 </tr>
 </tbody>
 </table>
-<p>The panels are drawn with the repo's existing module artwork. Small differences from this system's panels:
-- its Analog Shift Register uses yellow jacks for AUX PULSE and PULSE IN;
-- its Dual Universal Slope Generators have a dark red LED in each OUTPUTS box;
-- its Precision VCOs have yellow SYNC jacks.</p></div><footer>Serge DIY: build notes, parts lists and panel artwork for Serge-format modules, shared for educational purposes. Schematics, PCBs and BOMs belong to their designers and sellers and are linked, not copied. Module designs, names and trademarks belong to their owners. <a href="https://github.com/computerstaat/Serge-Synthesizer-Panel-art-and-design-files">Source on GitHub</a>.</footer></main></body></html>
+<p>The panels are drawn with the repo's existing module artwork. Small differences from this system's panels:</p>
+<ul>
+<li>its Analog Shift Register uses yellow jacks for AUX PULSE and PULSE IN;</li>
+<li>its Dual Universal Slope Generators have a dark red LED in each OUTPUTS box;</li>
+<li>its Precision VCOs have yellow SYNC jacks.</li>
+</ul></div><footer>Serge DIY: build notes, parts lists and panel artwork for Serge-format modules, shared for educational purposes. Schematics, PCBs and BOMs belong to their designers and sellers and are linked, not copied. Module designs, names and trademarks belong to their owners. <a href="https://github.com/computerstaat/Serge-Synthesizer-Panel-art-and-design-files">Source on GitHub</a>.</footer></main></body></html>

@@ -16,7 +16,7 @@ h1{font-size:clamp(2rem,4vw,2.8rem);line-height:1.1;margin:0 0 10px}h2{font-size
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;text-decoration:none;color:var(--ink);display:block}
 .card:hover{border-color:var(--ink)}.card h3{margin:8px 0 4px;font-size:1.1rem}.card p{margin:0;font-size:.93rem;color:var(--muted)}
 .card .strip{height:150px;display:flex;gap:4px;overflow:hidden;align-items:flex-end;justify-content:center;background:#faf9f5;border-radius:6px;padding:6px}
-.card .strip img{height:100%;width:auto}
+.card .strip img{height:100%;width:auto}.card.sys p{margin-top:4px}.doccard h3{margin-top:10px}
 .tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:0 0 6px}
 .tools input{font:inherit;padding:8px 12px;border:1px solid var(--line);border-radius:8px;min-width:260px;background:#fff}
 .chips{display:flex;gap:8px;flex-wrap:wrap}.chips a{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:.88rem;text-decoration:none;color:var(--ink)}
@@ -51,8 +51,11 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 .tag.ok{background:#dff3e4;color:#1b5e2e}
 .scroll{overflow-x:auto}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}}
-</style></head><body><header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="../Modules/index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../systems.html">Systems</a><a href="../documentation.html" class="on">Library</a></div></header><main><p class="muted"><a href="../documentation.html">Documentation</a> /</p><div class="doc"><h1>What the SMMS catalogues tell us</h1>
+.mob{display:none;margin-top:4px}
+@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}.mob{display:block}
+.mx td,.mx th{padding:8px 6px}.stats{grid-template-columns:1fr 1fr}.stat b{font-size:1.6rem}
+header .wrap{flex-wrap:wrap;gap:4px 14px}}
+</style></head><body><header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="../Modules/index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../panel-builder.html">Panel builder</a><a href="../systems.html">Systems</a><a href="../documentation.html" class="on">Library</a></div></header><main><p class="muted"><a href="../documentation.html">Library</a> /</p><div class="doc"><h1>What the SMMS catalogues tell us</h1>
 <h2>The two box styles</h2>
 <ul>
 <li><strong>1979 catalogue (Series 79):</strong> every panel drawing has square-cornered boxes, the module name sits inside the top of the outline, and "serge" is printed in the bottom edge. This is the <strong>squared</strong> SMMS style.</li>
@@ -476,10 +479,12 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 <h2>Catalogued but not drawn yet</h2>
 <p>The 3" Dual Audio Mixer, Four-Input Stereo Mixer/Panner, Ten-Stage Pulse Sequencer and N-Voice Controller.</p>
 <p>These are SMMS modules. Under the era rule they go into <code>SMMS/</code> from the catalogue drawings, and into <code>Modern/</code> only once a photo shows an aluminium version.</p>
-<p>Other notes:
-- The Pitch and Envelope Follower is a Serge catalogue product (7"), even though the panels in photos carry Gentle Electric's name.
-- The 1979 COM is the Triple Comparator (2"); by 1983 COM is a 1" Dual Comparator.
-- The 1979 catalogue's Ring Modulator is a 2" "Ring Modulator / VC Gate"; by 1983 it is the 1" Ring Modulator.</p>
+<p>Other notes:</p>
+<ul>
+<li>The Pitch and Envelope Follower is a Serge catalogue product (7"), even though the panels in photos carry Gentle Electric's name.</li>
+<li>The 1979 COM is the Triple Comparator (2"); by 1983 COM is a 1" Dual Comparator.</li>
+<li>The 1979 catalogue's Ring Modulator is a 2" "Ring Modulator / VC Gate"; by 1983 it is the 1" Ring Modulator.</li>
+</ul>
 <h2>An earlier module list</h2>
 <p>A typed module list photographed by Tone Tweakers (pages 1–2 only; not in this folder) predates both catalogues and uses older codes and sizes:</p>
 <table>
@@ -538,7 +543,9 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 </tr>
 </tbody>
 </table>
-<p>What this settles:
-- The single VC Phaser has always been 2" wide with three stage outputs. Our 1" "Phaser" (360° and 720° only) is not this module.
-- The Noise Source's MANUAL push-button and IN trigger go back to the earliest list.
-- Codes changed over time, so match modules by description and size, not by code alone.</p></div><footer>Serge DIY: build notes, parts lists and panel artwork for Serge-format modules, shared for educational purposes. Schematics, PCBs and BOMs belong to their designers and sellers and are linked, not copied. Module designs, names and trademarks belong to their owners. <a href="https://github.com/computerstaat/Serge-Synthesizer-Panel-art-and-design-files">Source on GitHub</a>.</footer></main></body></html>
+<p>What this settles:</p>
+<ul>
+<li>The single VC Phaser has always been 2" wide with three stage outputs. Our 1" "Phaser" (360° and 720° only) is not this module.</li>
+<li>The Noise Source's MANUAL push-button and IN trigger go back to the earliest list.</li>
+<li>Codes changed over time, so match modules by description and size, not by code alone.</li>
+</ul></div><footer>Serge DIY: build notes, parts lists and panel artwork for Serge-format modules, shared for educational purposes. Schematics, PCBs and BOMs belong to their designers and sellers and are linked, not copied. Module designs, names and trademarks belong to their owners. <a href="https://github.com/computerstaat/Serge-Synthesizer-Panel-art-and-design-files">Source on GitHub</a>.</footer></main></body></html>
