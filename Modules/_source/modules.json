@@ -137,7 +137,7 @@
       "url": "https://www.low-gain.com/shop/p/lge208-universal-audio-processor"
      },
      "notes": [
-      "As of 20 Nov 2026 the LGE206, LGE207 and LGE208 BOMs and schematics are listed on the product page but not linked, so there is no Mouser file for this option yet. (One link there opens the LGE214c Dual VCA layout instead.)",
+      "As of 21 Nov 2026 the LGE206, LGE207 and LGE208 BOMs and schematics are listed on the product page but not linked, so there is no Mouser file for this option yet. (One link there opens the LGE214c Dual VCA layout instead.)",
       "The LGE208 I/O board sets the jack and knob positions. The panels on this page are drawn from the Serge layouts, so check the hole positions against the I/O board before using one with the Low-Gain boards."
      ]
     },
@@ -301,6 +301,15 @@
       "The Mouser file follows Low-Gain's own Mouser cart and adds what the cart leaves out (TL072s, the 9mm pots, switch, jacks, film caps). It uses the through-hole transistor option (Q3-Q8) instead of the SMD dual pairs Q1 / Q2.",
       "The CA3080 and the 2k tempco resistor are not sold by Mouser; see the 'not at Mouser' file.",
       "The panel in this repo is drawn from the user's own Tri-Core, so its jack and pot positions follow the LGE130C I/O board layout; still check them against the board before drilling."
+     ],
+     "doclist": [
+      "LGE130 Main PCB Bill of Materials (Main & I/O boards)",
+      "LGE130 Main PCB Schematic",
+      "LGE130 Main PCB Layout w/ Designators",
+      "LGE130C I/O Board Schematic (wiring diagram)",
+      "LGE130C I/O Board Layout w/ Designators",
+      "Mechanical parts BOM",
+      "Plus a Mouser cart for the main and I/O boards"
      ]
     }
    ],
@@ -473,17 +482,27 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge090"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge090"
      },
      "notes": [
+      "Two main boards: V1 uses three dual-element 5C3/2 vactrols with flying wires; V2 (LGE090N) uses six single NSL-32 vactrols and the LGE090C I/O board. Low-Gain says the two can sweep and respond to CV a little differently.",
+      "The LGE090 phaser has an input level knob, a CV attenuator and a feedback (FDBK) knob, and each mixer has three variable inputs plus one fixed one. The Serge phaser panels in this repo have no feedback or input level control, so check the I/O board against the CGS90 Phaser with Mixers (4\") panel before drilling.",
+      "The mixers are AC-coupled and inverting, so they are for audio rather than control voltages.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE090N Main PCB V2 (NSL-32): BOM, Schematic, Layout w/ Designators",
+      "LGE090 Main PCB V1 (5C3/2): BOM, Schematic, Layout w/ Designators",
+      "LGE090C I/O board (V2 only): BOM, Schematic (wiring diagram), Layout w/ Designators",
+      "LGE090 Panel Artwork",
+      "Mechanical parts BOM"
      ]
     }
    ]
@@ -1192,7 +1211,17 @@
        "Jacks, the four pots and the three switches: feedback (SPDT on-off-on) and two JOIN switches that chain stage 1 into 2 and 2 into 3."
       ]
      ],
-     "explicit": "triple-wave-shaper__lge085"
+     "explicit": "triple-wave-shaper__lge085",
+     "doclist": [
+      "LGE085 Bill of Materials (Main & I/O boards)",
+      "LGE085 Main PCB Schematic",
+      "LGE085 Main PCB Layout w/ Designators",
+      "LGE085 Main PCB Layout w/ Values",
+      "LGE085C I/O PCB V2 Schematic (wiring diagram)",
+      "LGE085C I/O PCB V2 Layout w/ Designators",
+      "LGE085 Panel Art",
+      "Mechanical parts BOM"
+     ]
     }
    ],
    "docs": [
@@ -1306,17 +1335,30 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge006"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge006"
      },
      "notes": [
+      "The same main board is built as either a Ring modulator or a Gate (VCA), each with its own panel and I/O board (LGE006RC or LGE006GC). Only the Ring version lines up with the Ring Modulator panels in this repo.",
+      "V1 boards need trace cuts, plus a further mod for Gate / VCA use; V2 boards need neither.",
+      "Low-Gain warns that a negative voltage at the linear CV input can drive the VCA to full rail level; keep the CV attenuators in use.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "Combined LGE006 V2 Main + I/O Board Bill of Materials",
+      "LGE006 Main Board V2: BOM, Schematic, PCB w/ Designators",
+      "LGE006GC (Gate) I/O Board: BOM, Schematic / Wiring Diagram, PCB w/ Designators",
+      "LGE006RC (Ring) I/O Board: BOM, Schematic / Wiring Diagram, PCB w/ Designators",
+      "LGE006G and LGE006R Printable Panel Art",
+      "LGE006 V1: Schematic, PCB w/ Designators, BOM, PCB mod for Gate / VCA use",
+      "LGE006C Panel Wiring Diagram (Ring / Gate, V1)",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -1500,17 +1542,28 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge082"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge082"
      },
      "notes": [
+      "Known error: in the Hills & Valleys section R57 is wired to ground; its ground end should go to V- (Low-Gain links a photo of the fix).",
+      "The LGE082 is two negative slopes plus a Hills & Valleys (min / max) section on one 6\" x 2\" board with the LGE082C I/O board for the V3 white panel. The single-slope paperface Negative Slew panel in this repo has room for neither the second slope nor the min / max jacks.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE082 Main PCB Bill of Materials",
+      "LGE082 Main PCB Schematic",
+      "LGE082 Main PCB Layout w/ Designators",
+      "LGE082C I/O Board Bill of Materials",
+      "LGE082C I/O Board Schematic (wiring diagram)",
+      "LGE082C I/O Board Layout w/ Designators",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -1616,17 +1669,27 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge083"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge083"
      },
      "notes": [
+      "The LGE083 is two positive slopes on one 6\" x 2\" board, and its white-panel I/O board (LGE083C) adds sub-miniature toggle switches and 3mm LEDs. The single-slope paperface Positive Slew panel in this repo has no switches or LEDs, so it will not take the I/O board without changes.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE083 Main PCB Bill of Materials (v2)",
+      "LGE083 Main PCB Schematic (v2)",
+      "LGE083 Main PCB Layout w/ Designators (v2)",
+      "LGE083C I/O Board Bill of Materials",
+      "LGE083C I/O Board Schematic (wiring diagram)",
+      "LGE083C I/O Board Layout w/ Designators",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -1884,17 +1947,25 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge084"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge084"
      },
      "notes": [
+      "Known errors: on V1, R5 in the Hills / Valleys circuit goes to ground where it should go to V-. On V2, a ground trace shorts the Peak (Hills) OR bus on the top half of the board; cut the trace on the underside as shown on the product page. V2.1 has its own BOM, schematic and layout.",
+      "A single 6\" x 1\" board with no I/O board listed.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE084 V1: Main Board BOM, Schematic, Designator Layout",
+      "LGE084 V2: Error Fix (rendered fix and board photo), Main Board Designator Layout",
+      "LGE084 V2.1: Main Board BOM, Schematic, Designator Layout",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -2006,17 +2077,29 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge076"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge076"
      },
      "notes": [
+      "Low-Gain adds a Cycle switch, a manual Start push button and a Lin / Expo / Log shape control to the '73 design, and the LGE076W panel also has Hold, Window size, Window output and a Window LED. The 1973 paperface panel in this repo has none of these, so the LGE076C I/O board will not fit it without changes.",
+      "Check the Cycle switch wiring against Low-Gain's guide before power-up.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE076 Main PCB Bill of Materials",
+      "LGE076 Main PCB Schematic",
+      "LGE076 Main PCB Layout w/ Designators",
+      "LGE076C I/O Board Bill of Materials",
+      "LGE076C I/O Board Schematic (wiring diagram)",
+      "LGE076C I/O Board Layout w/ Designators",
+      "Cycle switch wiring guide",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -2220,22 +2303,31 @@
     },
     {
      "maker": "lowgain",
-     "name": "Low-Gain LGE024 Bi-Directional Router (Switch)",
+     "name": "Low-Gain LGE024 Quad Bi-Directional Router (Switch)",
      "url": "https://www.low-gain.com/shop/p/low-gain-lge024-quad-bi-directional-router-4u-serge-compatible",
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "none",
+      "title": "No schematic on the product page (BOM and layouts only)",
       "url": "https://www.low-gain.com/shop/p/low-gain-lge024-quad-bi-directional-router-4u-serge-compatible"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "LGE024 V2 BOM (main and I/O boards) on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/low-gain-lge024-quad-bi-directional-router-4u-serge-compatible"
      },
      "notes": [
+      "The LGE024 has four routers, not three, and each has an ON / OFF / EXT toggle and a bi-colour LED next to its CV input. The Triple Bi-Directional Router panels in this repo have three channels and no toggles or LEDs, so the LGE024C I/O board will not line up with them.",
+      "The current boards are V2; Low-Gain asks you to email for V1 sets.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE024 V2 Bill of Materials (Main & I/O boards)",
+      "LGE024 V2 Main Board Designator Layout",
+      "LGE024C V2 I/O Board Designator Layout",
+      "LGE024 V2 Panel Art",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -2804,17 +2896,25 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge089c"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge089c"
      },
      "notes": [
+      "Low-Gain's is a 10-stage decade-counter gate sequencer: Clock, Reset, Reset/Hold and Hold inputs, one gate output per stage, Manual Advance and Reset/Hold push buttons and bi-colour stage LEDs. The CGS Gate Sequencer panel in this repo has stage switches and row outputs instead, so the LGE089C I/O board does not fit it.",
+      "Parts inside the white outline on the main board are only for the Gate Sequencer XL and can be left off. V1 I/O boards need the manual-advance modification shown on the product page.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "Main PCB (LGE089): Bill of Materials, Schematic, Layout w/ Designators",
+      "Gate Sequencer I/O PCB (LGE089C, V1): Bill of Materials, Schematic, Manual Advance Modification image, Schematic w/ Modification",
+      "LGE089C V2.1 I/O Board: Bill of Materials, Schematic, Layout w/ Designators",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -2911,16 +3011,18 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "none",
+      "title": "Not published on the product page",
       "url": "https://www.low-gain.com/shop/p/lge116"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "none",
+      "title": "Not published on the product page (only the general mechanical parts BOM is linked)",
       "url": "https://www.low-gain.com/shop/p/lge116"
      },
      "notes": [
+      "As of 21 Nov 2026 the product page links no schematic, BOM or layout for the LGE116 main board or its LGE116C I/O board, only Low-Gain's general mechanical parts BOM. The kit was also out of stock, with a restock promised.",
+      "Low-Gain describes the same functions as the Serge panel: an initial delay, voltage control of each stage, a three-position slope switch and a 1V/OCT input.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
      ]
     }
@@ -3029,17 +3131,26 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/low-gain-lge112-variable-q-filter-vcfq-4u-serge-compatible-panel"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/low-gain-lge112-variable-q-filter-vcfq-4u-serge-compatible-panel"
      },
      "notes": [
+      "The main PCB can come with three LGE108 gain cells already built (SMD). You still fit each cell's 100K trimmer and headers, then calibrate them with the tester circuit on the product page.",
+      "Low-Gain's Mouser cart for this kit leaves out the knobs, pots, headers and other mechanical parts.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE112 Main PCB: Bill of Materials, Schematic, Designators, Bottom Values",
+      "LGE112C I/O PCB: Schematic (wiring diagram), Designators",
+      "LGE112 Panel Art",
+      "LGE108 Gain Cell: Schematic, PCB Designators, Testing / Calibration circuit",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -3146,6 +3257,8 @@
      },
      "notes": [
       "Sold as a panel and PCB set by Thonk: https://www.thonk.co.uk/shop/lge202-panelpcb/ ; Low-Gain describes it as inspired by the Serge filter bank and adds feedback points.",
+      "Thonk's listing names main-board and LGE202C I/O-board BOMs, schematics and designator layouts, a main-board layout marking the feedback points, and a second I/O wiring diagram for a switch version. The Low-Gain page could not be read on 21 Nov 2026, so these are not confirmed as linked there.",
+      "The feedback points and the switch version of the I/O board have no place on the Serge Resonant Equalizer panel in this repo.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
      ]
     }
@@ -3524,18 +3637,29 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge114a"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge114a"
      },
      "notes": [
-      "Low-Gain says it is inspired by the DTG in the SMMS catalogue and gives the Extended Dual Rise/Fall's functions in less panel space.",
+      "Code confirmed on low-gain.com: the product page (lge114a) is the Dual Rise/Fall (DTG). LGE114A is its panel and I/O option; it runs on the LGE114 main board (V1 or V2) or the newer LGE114B block-format board, which ships with matched SMD transistors fitted.",
+      "Low-Gain's DIY panel stacks the two slopes one above the other, while the assembled module uses the DTG's side-by-side layout, and the board has a loop switch. Check which layout and which switches your panel from this repo has before picking the I/O board.",
+      "The LED drivers are not on the main board. Low-Gain advises against hanging an LED and resistor straight off an output; use their LED driver chiclets or the I/O board.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE114B (block-format main board): Bill of Materials, Main PCB Schematic, Main PCB Layout w/ Designators",
+      "LGE114ABC Dual I/O Board Layout w/ Designators",
+      "LGE114 Main Board V1: Bill of Materials, Schematic, PCB Layout w/ Designators, PCB Layout w/ Values",
+      "LGE114 V2: Bill of Materials, PCB Layout w/ Designators, Interactive Bill of Materials",
+      "LGE114AC I/O Board: Bill of Materials, Schematic (wiring diagram)",
+      "Mechanical parts BOM",
+      "Plus a Mouser cart for the LGE114B main and I/O boards"
      ]
     }
    ],
@@ -3610,18 +3734,28 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/low-gain-lge214-dual-exponetial-vca-4u-serge-compatible"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/low-gain-lge214-dual-exponetial-vca-4u-serge-compatible"
      },
      "notes": [
       "Low-Gain bases it on the original Serge 2VCA, with matched SMD transistors.",
+      "Six jacks and two GAIN knobs (IN, CV, OUT and GAIN per channel), the same as the Serge 2VCA panel. To DC-couple, jumper C12 and C14. Calibration notes were still marked 'coming soon' on 21 Nov 2026.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE214 Bill of Materials (Main & I/O boards)",
+      "LGE214 Panel Art",
+      "LGE214 Main PCB Schematic",
+      "LGE214 Main PCB Layout w/ Designators",
+      "LGE214C I/O Board PCB Schematic (wiring diagram)",
+      "LGE214C I/O Board PCB Layout w/ Designators",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -3693,17 +3827,25 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge111"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge111"
      },
      "notes": [
+      "Known issue: with inputs above about 2.5 V peak-to-peak, Slope at mid-rotation and Frequency fully up, the filter can take off and thump. Low-Gain changed R34 from 47K to 75K to fix it, and the BOM now lists 75K. The main board also has a simple jumper modification, shown on the product page.",
+      "The main PCB includes two LGE108 gain cells; fit each cell's 100K trimmer and headers, then calibrate them.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE111 Main PCB: Bill of Materials, Schematic, Designators, Modification (simple jumper)",
+      "LGE111C I/O PCB: Bill of Materials, Schematic (wiring diagram), Designators",
+      "LGE108 Gain Cell: Schematic, PCB Designators, Testing / Calibration circuit",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -3773,18 +3915,28 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge209"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge209"
      },
      "notes": [
-      "One section per board: three AC-coupled channels; Low-Gain says it can be changed to DC coupling.",
+      "One section per board: three AC-coupled inputs (the third with a phase switch) and one output. To make it DC-coupled, remove C8, C9 and C10 and fit jumpers in their place.",
+      "There is no AUX IN jack, so the board will not fill every hole on the Serge Audio Mixer panels in this repo.",
+      "As of 21 Nov 2026 the product options on this page are labelled LGE203 panel and LGE203 PCB, while the documents say LGE209; LGE203 is also the code of Low-Gain's Dual Audio Mixer. Check which board you are ordering.",
+      "The DIY PCBs come with the surface parts fitted; you add the panel parts and the power header.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE209 PCB Layout w/ Designators",
+      "LGE209 Schematic",
+      "LGE209 Paperface Panel PDF",
+      "DIY Bill of Materials (on the page itself)",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -3850,18 +4002,28 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge030"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge030"
      },
      "notes": [
-      "Low-Gain's bottom section adds Min / Max outputs alongside the sum, behaving like a Peak & Trough.",
+      "Low-Gain's version has three sections: two with one attenuated input and one direct input into a sum, and a bottom section with two attenuated inputs, a -5 / +5 offset and MIN, MAX and SUM outputs, plus a +5V reference jack. The Scaling Processor panel in this repo has no MIN or MAX jacks.",
+      "Calibration: trim the offset until the minimum output reads as close to 0 V as you can get.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE030 Bill of Materials (Main & I/O boards)",
+      "LGE030 PCB Layout w/ Designators",
+      "LGE030 Main Board Schematic",
+      "LGE030C I/O Board Layout w/ Designators",
+      "LGE030C I/O Board Schematic (wiring diagram)",
+      "LGE030 Panel Layout (Art)",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -3935,17 +4097,28 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge205"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge205"
      },
      "notes": [
+      "Low-Gain's board has a VC input for the comparator as well as for the divider; the Divide by N Comparator panel in this repo has no comparator VC jack.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE205 Bill of Materials v1.3",
+      "LGE205 Schematic v1.3",
+      "LGE205 Main PCB w/ Designators v1.3",
+      "LGE205C Bill of Materials v1.4",
+      "LGE205C Schematic v1.4",
+      "LGE205C I/O Board w/ Designators v1.4",
+      "LGE205 Panel Art PDF",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -4003,18 +4176,29 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge205d"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge205d"
      },
      "notes": [
+      "Code confirmed on low-gain.com: LGE205D is the Dual Comparator (COM) panel and I/O board. It uses the same LGE205 main board as the Divide by N Comparator, stuffed as two comparators.",
       "Based on the Dual Comparator (COM) in the original Serge catalogue.",
+      "As of 21 Nov 2026 the dual-comparator schematic is named on the product page but not linked; the LGE205D I/O schematic is.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE205 Bill of Materials (Dual Comp config)",
+      "LGE205 Schematic (Dual Comp config; named, not linked)",
+      "LGE205 Main PCB w/ Designators",
+      "LGE205D Bill of Materials",
+      "LGE205D Schematic",
+      "LGE205D I/O Board w/ Designators",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -4085,17 +4269,28 @@
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge201-active-processor"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge201-active-processor"
      },
      "notes": [
+      "The crossfader is two CA3280 OTA VCAs with five trimmers, set in order: output offset, then linearity, then gain.",
+      "Low-Gain's calibration notes mention both a manual XFade knob and an attenuator for the XFade CV input; check the LGE201C I/O board against the single VC XFADE knob on the Active Processor panel in this repo.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE201 Bill of Materials (Main & I/O boards)",
+      "LGE201 Main PCB Schematic",
+      "LGE201 Main PCB Designators",
+      "LGE201C I/O PCB Schematic",
+      "LGE201C I/O PCB Designators and LGE201 Panel Art (named, not linked yet)",
+      "Craig Lee's LGE201 build write-up (external)",
+      "Mechanical parts BOM"
      ]
     }
    ],
