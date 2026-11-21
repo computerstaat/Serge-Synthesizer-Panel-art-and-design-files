@@ -21,7 +21,7 @@ upload files. Plus panel artwork from 1973 paperface to STS and CGS, with drill 
 **Website:** https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/ has the full site. On GitHub, each era folder's README shows all its panels as pictures.
 
 <table><tr>
-<td align="center" valign="top" width="25%"><a href="Paperface/README.md"><img src="thumbs/Paperface/Images/Module/Analog_Shift_Register.jpg" height="140"></a><br><b><a href="Paperface/README.md">Paperface</a></b><br><sub>41 panels</sub></td>
+<td align="center" valign="top" width="25%"><a href="Paperface/README.md"><img src="thumbs/Paperface/Images/Module/Analog_Shift_Register.jpg" height="140"></a><br><b><a href="Paperface/README.md">Paperface</a></b><br><sub>42 panels</sub></td>
 <td align="center" valign="top" width="25%"><a href="SMMS/Paper/README.md"><img src="thumbs/SMMS/Paper/Images/Module/Dual_Processor.jpg" height="140"></a><br><b><a href="SMMS/Paper/README.md">SMMS paper</a></b><br><sub>6 panels</sub></td>
 <td align="center" valign="top" width="25%"><a href="Modern/README.md"><img src="thumbs/Modern/Images/Module/4_Stage_Sequencing_Programmer.jpg" height="140"></a><br><b><a href="Modern/README.md">SMMS metal overlay and STS</a></b><br><sub>167 panels</sub></td>
 <td align="center" valign="top" width="25%"><a href="CGS/README.md"><img src="thumbs/CGS/Images/8_Stage_Programmer_Sequencer.jpg" height="140"></a><br><b><a href="CGS/README.md">CGS (Catgirl Synth)</a></b><br><sub>74 panels</sub></td>

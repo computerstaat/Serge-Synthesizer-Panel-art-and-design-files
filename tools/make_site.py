@@ -204,7 +204,7 @@ def md_fix(text):
 def first_image(src):
     """The first panel PNG a markdown file links or shows, as a repo path."""
     d = os.path.dirname(src)
-    for mo in re.finditer(r"\(([^)\s]+\.png)\)", open(os.path.join(ROOT, src)).read()):
+    for mo in re.finditer(r"\(([^)\s]+\.(?:png|jpg))\)", open(os.path.join(ROOT, src)).read()):
         from urllib.parse import unquote
         pth = os.path.normpath(os.path.join(d, unquote(mo.group(1))))
         if os.path.exists(os.path.join(ROOT, pth)):

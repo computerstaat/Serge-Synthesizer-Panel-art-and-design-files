@@ -6,6 +6,16 @@ Era: **SMMS metal overlay** (rounded-box layout), most likely early 1980s. Darre
 
 Each panel comes in two versions: the standard white artwork, and a black version (white lines and lettering on a black panel) that looks like the real instrument. Both use the same holes, so the drill template is shared.
 
+## The whole system
+
+![The whole system, drawn with the black artwork: the four upright panels (top left, top right, bottom left, bottom right), then the sloped panel and the Touch Activated Keyboard Sequencer.](Images/CalArts_Black_Serge.jpg)
+
+*The whole system, drawn with the black artwork: the four upright panels (top left, top right, bottom left, bottom right), then the sloped panel and the Touch Activated Keyboard Sequencer.*
+
+Photos of the real system:
+
+- No public photo of the whole instrument was found; the line-up comes from video frames and photos of it.
+
 | Panel | Modules (left to right) | White | Black | Drill |
 |---|---|---|---|---|
 | Top left | Triple Comparator, Ring, Dual VCA, Triple Waveshaper, Wave Multipliers, Audio Mixer, Dual Phaser, VC Stereo Mixer | [CalArts_Panel_1](../Modern/Images/Full%20Panel/CalArts_Panel_1.png) | [Black](../Modern/Images/Full%20Panel/CalArts_Panel_1_Black.png) | [PDF](../Modern/Drill%20Templates/Full%20Panel/CalArts_Panel_1.pdf) |

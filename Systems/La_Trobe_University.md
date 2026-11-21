@@ -13,6 +13,14 @@ Status: **not built yet.** Photos confirm these paperface modules in the system:
 
 The Reverb and Adapter modules seen on the La Bestia reproduction are not part of the original system and are left out.
 
+## The whole system
+
+Photos of the real system:
+
+- [MESS (Melbourne Electronic Sound Studio): the 73–75 Paperface](https://mess.foundation/product/73-75-paperface/), where the restored system lives now
+- [University of Sydney: Benjamin Carey's MESS residency, with a photo in front of the system](https://www.sydney.edu.au/music/news-and-events/news/2020/01/10/benjamin-carey-named-mess-artist-in-residence-.html)
+- [Matrixsynth: Ken Stone testing four panels of the ex-La Trobe Serge (video)](https://www.matrixsynth.com/2013/03/la-trobe-university-serge-vintage-1975.html)
+
 ## Identified modules
 
 - **Top-left panel, second module: Ten-Stage Pulse Sequencer** (identified by the user, Nov 2026). It is labelled SEQUENCER on the panel. Each of the ten stages is a pair of red jacks with a numbered LED between them: stages 1-5 run up the left column and 6-10 down the right, so 1 sits beside 10 at the bottom and 2 beside 9 above it. Along the bottom is a row of triangle-boxed inputs, with CLOCK first and RESET last; RESET has a red push button. The two middle labels can't be read in the photo. The Catgirl Synth "Sequencers" panel uses the same stage pair, LED and RESET / HOLD / CLOCK scheme.
