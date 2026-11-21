@@ -19,7 +19,6 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 603-MFR-25FBF52-820K,MFR-25FBF52-820K,YAGEO,2,Metal film resistor 820k 1/4W 1%,CGS83: 820k
 603-MFR-25FBF52-1M,MFR-25FBF52-1M,YAGEO,4,Metal film resistor 1M 1/4W 1%,CGS83: 1M
 652-3362P-1-203LF,3362P-1-203LF,Bourns,2,"Trimmer 20k, 1/4in square [UNVERIFIED: check stock and price]",CGS83: 20k (or sim) single turn trimmer
-313-1000F-100K,RV16AF-10-15R1-B100K-3LA,Alpha (Taiwan),4,"16mm pot 100k linear, solder lugs",CGS83: 100k lin pot
 512-1N4148,1N4148,onsemi,4,Small-signal diode,CGS83: 1N4148
 512-BC547BTA,BC547BTA,onsemi,9,NPN transistor (BC547B),CGS83: 2N3565 (BC547) / 2N3566 (BC547) / BC547 or sim
 512-BC557BTA,BC557BTA,onsemi,4,PNP transistor (BC557B),CGS83: 2N4248 (BC557)

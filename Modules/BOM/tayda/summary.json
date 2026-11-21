@@ -1,0 +1,74 @@
+{
+ "triple-comparator__cgs96_comp": {
+  "lines": 2,
+  "cost": 2.43
+ },
+ "triple-wave-shaper__cgs85_tws": {
+  "lines": 2,
+  "cost": 2.43
+ },
+ "ring-modulator__cgs79_ring": {
+  "lines": 2,
+  "cost": 0.81
+ },
+ "universal-audio-processor__cgs102_epp": {
+  "lines": 1,
+  "cost": 0.84
+ },
+ "envelope-generator-1973__cgs76_env": {
+  "lines": 2,
+  "cost": 2.85
+ },
+ "filter-1973__cgs77_vcf": {
+  "lines": 3,
+  "cost": 3.35
+ },
+ "negative-slew__cgs82_negative_slew": {
+  "lines": 1,
+  "cost": 1.68
+ },
+ "positive-slew__cgs83_positive_slew": {
+  "lines": 2,
+  "cost": 3.24
+ },
+ "peak-trough__cgs84_peakandtrough": {
+  "lines": 2,
+  "cost": 1.62
+ },
+ "vc-phaser__cgs90_phaser": {
+  "lines": 1,
+  "cost": 1.26
+ },
+ "smooth-stepped-generator__cgs92_ssg": {
+  "lines": 1,
+  "cost": 1.68
+ },
+ "extended-range-vcf__cgs112_vcfq": {
+  "lines": 1,
+  "cost": 1.26
+ },
+ "wave-multipliers__cgs113_vcm": {
+  "lines": 2,
+  "cost": 2.43
+ },
+ "dual-universal-slope-generator__cgs114_dusg": {
+  "lines": 2,
+  "cost": 4.86
+ },
+ "extended-adsr__cgs116_env": {
+  "lines": 2,
+  "cost": 4.05
+ },
+ "resonant-equalizer__cgs202_reseq": {
+  "lines": 3,
+  "cost": 9.02
+ },
+ "dual-channel-stereo-mixer__cgs101_dcsm": {
+  "lines": 2,
+  "cost": 3.24
+ },
+ "vc-slope__cgs75_vcs": {
+  "lines": 3,
+  "cost": 3.66
+ }
+}

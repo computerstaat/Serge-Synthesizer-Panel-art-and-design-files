@@ -31,6 +31,9 @@ MULT = {("universal-audio-processor", "cgs108_vca"): 2, ("extended-range-vcf", "
         ("dual-channel-stereo-mixer", "cgs108_vca"): 4, ("dual-channel-stereo-mixer", "cgs102_epp"): 2}
 # BOMs written out line by line from a maker's own BOM and Mouser cart (Low-Gain), not from a parts list
 EXPLICIT = json.load(open(os.path.join(HERE, "mouser_explicit.json")))
+TY = json.load(open(os.path.join(HERE, "tayda_parts.json")))
+TOUT = os.path.join(os.path.dirname(HERE), "BOM", "tayda")
+THEAD = ["Tayda SKU", "Quantity", "Description", "Unit price (USD)", "Link", "Board / values"]
 HEAD = ["Mouser Part Number", "Manufacturer Part Number", "Manufacturer", "Quantity", "Description", "Customer Part Number"]
 
 # old transistor numbers -> a current part with the same polarity and TO-92 EBC pinout
@@ -147,16 +150,36 @@ def note_for(k, value):
 
 
 def main():
-    os.makedirs(OUT, exist_ok=True)
-    report = []
+    os.makedirs(OUT, exist_ok=True); os.makedirs(TOUT, exist_ok=True)
+    report, treport = [], {}
+    mods = {m["slug"]: m for m in json.load(open(os.path.join(HERE, "modules.json")))["modules"]}
+
+    def panel_knobs(slug):
+        """Knobs on the module's first panel with a hardware list (pot values aren't on the panel, so knobs only)."""
+        for v in mods.get(slug, {}).get("variants", []):
+            p = os.path.join(HERE, "hardware", (v.get("hw") or "") + ".json")
+            if v.get("hw") and os.path.exists(p):
+                return sum(1 for it in json.load(open(p))["items"] if it[0] == "knob")
+        return 0
+
+    def has_pots(slug):
+        return any(str(key(r["type"], r["value"])).startswith("P:")
+                   for b in TARGETS[slug] for r in json.load(open(os.path.join(HERE, "parts", b + ".json")))["parts"])
     for slug, boards in TARGETS.items():
         for b in boards:
             pl = json.load(open(os.path.join(HERE, "parts", b + ".json")))
             mult = MULT.get((slug, b), 1)
-            lines, na = {}, []
+            lines, na, tay = {}, [], {}
             for r0 in pl["parts"]:
                 r = dict(r0, qty=r0["qty"] * mult)
                 k = key(r["type"], r["value"])
+                if isinstance(k, str) and k in TY["parts"]:               # pots: Tayda, with a knob each
+                    for kk in (k, "KNOB"):
+                        T = tay.setdefault(kk, {"qty": 0, "vals": []}); T["qty"] += r["qty"]
+                        if kk == k: T["vals"].append(r["value"])
+                    continue
+                if isinstance(k, str) and k.startswith("P:"):            # a pot Tayda doesn't have: Mouser, but its knob from Tayda
+                    T = tay.setdefault("KNOB", {"qty": 0, "vals": []}); T["qty"] += r["qty"]
                 if isinstance(k, tuple) or k not in P:
                     reason = NA.get(k[1], "No Mouser part chosen yet") if isinstance(k, tuple) else "No Mouser part chosen yet"
                     na.append([r["value"], r["qty"], reason]); continue
@@ -178,6 +201,18 @@ def main():
                     w.writerow([p[0], p[1], p[2], L["qty"], desc, cust.replace("Ω", "R")])
             with open(os.path.join(OUT, base + "_not_at_mouser.csv"), "w", newline="") as f:
                 w = csv.writer(f); w.writerow(["Part", "Quantity", "Where to get it"]); w.writerows(na)
+            if b == boards[0] and not has_pots(slug) and panel_knobs(slug):
+                tay["KNOB"] = {"qty": panel_knobs(slug), "vals": ["one per knob on the panel (pots not in the parts list)"]}
+                tay["_note"] = True
+            tay.pop("_note", None)
+            if tay:
+                with open(os.path.join(TOUT, base + ".csv"), "w", newline="") as f:
+                    w = csv.writer(f); w.writerow(THEAD)
+                    for kk, T in sorted(tay.items(), key=lambda t: t[0] == "KNOB"):
+                        t = TY["parts"][kk]
+                        w.writerow([t[0], T["qty"], t[1], "%.2f" % t[2], t[3],
+                                    "%s%s: %s" % (pl["board"], " x%d" % mult if mult > 1 else "", " / ".join(T["vals"]) if T["vals"] else "one per pot")])
+                treport[base] = {"lines": len(tay), "cost": round(sum(T["qty"] * TY["parts"][kk][2] for kk, T in tay.items()), 2)}
             total = sum(L["qty"] * L["p"][3] for L in lines.values())
             report.append((slug, b, len(lines), len(na), round(total, 2), sum(L["unv"] for L in lines.values()), mult))
     for base, x in EXPLICIT.items():
@@ -194,6 +229,16 @@ def main():
         print("%-32s %-20s %2d Mouser lines (%2d unverified), %d elsewhere, ~$%.2f" % (r[0], r[1], r[2], r[5], r[3], r[4]))
     json.dump({"%s__%s" % (r[0], r[1]): {"lines": r[2], "elsewhere": r[3], "cost": r[4], "unverified": r[5], "boards": r[6]} for r in report},
               open(os.path.join(OUT, "summary.json"), "w"), indent=1)
+    json.dump(treport, open(os.path.join(TOUT, "summary.json"), "w"), indent=1)
+    open(os.path.join(TOUT, "README.md"), "w").write("\n".join([
+        "# Tayda parts lists: pots and knobs", "",
+        "For the Ken Stone boards, the front-panel pots and their knobs are cheaper at Tayda Electronics (https://www.taydaelectronics.com) "
+        "than at Mouser, so they are listed here instead of in the Mouser files. Each `<module>__<board>.csv` has the Tayda SKU, quantity, "
+        "price and a link to the product page; add the SKUs to your cart there (Tayda's Quick Order takes SKU and quantity).", "",
+        "Pots: Alpha-type 16 mm, solder lugs, 6.35 mm (1/4\") round shaft, so they take 1/4\" knobs such as the Davies 1900H clone listed "
+        "with them (one knob per pot). Values Tayda doesn't stock in that style (20K linear) stay in the Mouser file, with the knob still "
+        "listed here. Prices were checked on 2026-11-21 and change; check stock before ordering.", "",
+        "| File | Lines | Approx. cost |", "|---|---|---|"] + ["| %s.csv | %d | $%.2f |" % (b, x["lines"], x["cost"]) for b, x in sorted(treport.items())] + [""]))
     readme(report)
 
 
@@ -211,8 +256,8 @@ def readme(report):
          "Substitutions: obsolete transistors (2N3391A, 2N3565, 2N3566 / 2N3638, 2N4248, 2N4250) are replaced by 2N3904 / 2N3906, which share "
          "the TO-92 EBC pinout (check the PCB overlay); the 4016 by the CD4066BE; the LF356 by the CA3140EZ where Ken Stone's list allows it; "
          "4k7 trimmers by 5k. The Description column notes each one.", "",
-         "The Low-Gain files (`__lge…`) include the panel jacks, pots and switches, following Low-Gain's BOM; the CGS files include pots and "
-         "switches but leave out banana jacks and knobs, which synth-parts suppliers sell far cheaper than Mouser.", "",
+         "The Low-Gain files (`__lge…`) include the panel jacks, pots and switches, following Low-Gain's BOM. The CGS files include switches "
+         "but leave out banana jacks; their pots and knobs are in the Tayda lists in `../tayda/` (cheaper there).", "",
          "| File | Mouser lines | Unverified lines | Bought elsewhere (lines) | Approx. cost (1 off) |", "|---|---|---|---|---|"]
     for r in report:
         L.append("| %s__%s.csv | %d | %d | %d | $%.2f |" % (r[0], r[1], r[2], r[5], r[3], r[4]))

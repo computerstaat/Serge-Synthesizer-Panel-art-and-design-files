@@ -165,25 +165,35 @@ function csvParse(t){const rows=[];let row=[],f='',q=false;for(let i=0;i<t.lengt
  if(f||row.length){row.push(f);rows.push(row)}return rows}
 const csvq=v=>/[",\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v;
 async function bom(){const cnt={};for(const i of all()){const b=M[i].b;if(b)cnt[b]=(cnt[b]||0)+1}
- const mouser={},other=[],used=[],none=[],te=new TextEncoder();
+ const mouser={},tay={},other=[],used=[],none=[],te=new TextEncoder(),n=nm(),f=[],tset=new Set(HD.tayda||[]);
+ const scale=(rows,qi,k)=>rows.map((r,j)=>j&&k>1?r.map((v,c)=>c===qi?String((+v||0)*k):v):r);
+ const out=rows=>te.encode(rows.map(r=>r.map(v=>csvq(String(v))).join(',')).join('\r\n')+'\r\n');
  for(const[slug,k]of Object.entries(cnt)){const fl=(HD.mouser||{})[slug]||[];if(!fl.length){none.push(slug);continue}
   const ken=fl.filter(b=>/^cgs/.test(b)),pick=ken.length?ken:[fl[0]];
-  for(const b of pick){used.push(slug+' / '+b.toUpperCase().replace(/_/g,' ')+(k>1?' x'+k:''));
-   const r=csvParse(await (await fetch('Modules/BOM/mouser/'+slug+'__'+b+'.csv')).text());
+  for(const b of pick){const base=slug+'__'+b,tag=k>1?'_x'+k:'';used.push(slug+' / '+b.toUpperCase().replace(/_/g,' ')+(k>1?' x'+k:''));
+   const r=csvParse(await (await fetch('Modules/BOM/mouser/'+base+'.csv')).text());
+   f.push({name:'per module/'+base+tag+'_Mouser.csv',data:out(scale(r,3,k))});
    for(const row of r.slice(1)){const key=row[0]||row[1];if(!key)continue;const q=(+row[3]||0)*k;
     if(mouser[key]){mouser[key][3]+=q;if(!mouser[key][5].includes(row[5]))mouser[key][5]+='; '+row[5]}else mouser[key]=[row[0],row[1],row[2],q,row[4],row[5]]}
-   try{const o=csvParse(await (await fetch('Modules/BOM/mouser/'+slug+'__'+b+'_not_at_mouser.csv')).text());
+   if(tset.has(base)){const t=csvParse(await (await fetch('Modules/BOM/tayda/'+base+'.csv')).text());
+    f.push({name:'per module/'+base+tag+'_Tayda.csv',data:out(scale(t,1,k))});
+    for(const row of t.slice(1)){const q=(+row[1]||0)*k;if(tay[row[0]]){tay[row[0]][1]+=q;tay[row[0]][5]+='; '+row[5]}else tay[row[0]]=[row[0],q,row[2],row[3],row[4],row[5]]}}
+   try{const o=csvParse(await (await fetch('Modules/BOM/mouser/'+base+'_not_at_mouser.csv')).text());
+    f.push({name:'per module/'+base+tag+'_other_parts.csv',data:out(scale(o,1,k))});
     if(!other.length)other.push(['Module','Board','Copies'].concat(o[0]));for(const row of o.slice(1))other.push([slug,b,String(k)].concat(row))}catch(e){}}}
  const head='Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number';
- const body=Object.values(mouser).map(r=>r.map(v=>csvq(String(v))).join(',')).join('\r\n');
- const n=nm(),f=[{name:n+'_Mouser_upload.csv',data:te.encode(head+'\r\n'+body+'\r\n')}];
- if(other.length)f.push({name:n+'_other_parts.csv',data:te.encode(other.map(r=>r.map(v=>csvq(String(v))).join(',')).join('\r\n')+'\r\n')});
+ f.unshift({name:n+'_Mouser_upload.csv',data:te.encode(head+'\r\n'+Object.values(mouser).map(r=>r.map(v=>csvq(String(v))).join(',')).join('\r\n')+'\r\n')});
+ const tv=Object.values(tay);
+ if(tv.length)f.splice(1,0,{name:n+'_Tayda_pots_and_knobs.csv',data:out([['Tayda SKU','Quantity','Description','Unit price (USD)','Link','Board / values']].concat(tv))});
+ if(other.length)f.push({name:n+'_other_parts.csv',data:out(other)});
  f.push({name:'README.txt',data:te.encode(['Parts for '+n.replace(/_/g,' ')+', made with Build a panel on the Serge DIY site.','',
   'Boards included (quantities multiplied by how many of each module are on the panel):',...used.map(u=>'  '+u),'',
-  none.length?'No Mouser file yet for: '+none.join(', ')+' (see their build pages for BOMs).\r\n':'',
-  n+'_Mouser_upload.csv: upload at mouser.com/bomtool. Lines marked UNVERIFIED have not been checked for stock and price.',
-  n+'_other_parts.csv: jacks, knobs, PCBs and parts Mouser does not stock.','',
-  'Panel hardware (jacks, pots, switches on the panel) is listed per module in each module\'s BOM spreadsheet on its build page.'].join('\r\n'))});
+  none.length?'No parts files yet for: '+none.join(', ')+' (see their build pages for BOMs).\r\n':'',
+  n+'_Mouser_upload.csv: every board added up. Upload at mouser.com/bomtool. Lines marked UNVERIFIED have not been checked for stock and price.',
+  n+'_Tayda_pots_and_knobs.csv: front-panel pots and Davies 1900H-style knobs, cheaper at taydaelectronics.com. Each line has the SKU and a link.',
+  n+'_other_parts.csv: jacks, PCBs and parts neither shop stocks.','',
+  'per module/: the same files for each module on its own, so you can check one module at a time.','',
+  'Banana jacks and switches on the panel are listed per module in each module\'s BOM spreadsheet on its build page.'].join('\r\n'))});
  save(zip(f),n+'_parts.zip')}
 $('dl').onclick=async()=>save(new Blob([ser(await svg('art'))],{type:'image/svg+xml'}),nm()+'.svg');
 $('dp').onclick=async()=>png(await svg('art'),150,b=>save(b,nm()+'.png'));

@@ -105,12 +105,13 @@ def body(root, thumb, links):
             '<ul class="how"><li><b>Artwork:</b> one SVG for the whole panel, with Background, Linework and Jacks/Knobs layers from each module, plus one '
             'XXX layer of drill marks for the whole panel. The modules\' own drill marks and mounting crosses are left out.</li>'
             '<li><b>Drill template:</b> every hole of the whole panel at drill size, to print at 100%% and tape to the blank. A 50 mm bar checks the scale. Tiled sheets overlap by 15 mm and are numbered.</li>'
-            '<li><b>Parts for this panel:</b> one Mouser BOM-tool upload file for every chosen module that has one (Ken Stone boards, '
-            'with their sub-boards; two of a module doubles the parts), plus the parts Mouser does not stock.</li>'
+            '<li><b>Parts for this panel:</b> a Mouser BOM-tool upload file and a Tayda list (pots and knobs, with links) for each chosen module, '
+            'so each can be checked on its own, plus the same parts added up for the whole panel (Ken Stone boards with their sub-boards; '
+            'two of a module doubles the parts) and the parts neither shop stocks.</li>'
             '<li><b>Front Panel Express kit:</b> the hole list, the print artwork and the build script. Open Front Panel Designer, double-click '
             '<i>Build panel</i>, and it saves a ready-to-order <code>.fpd</code> file. Details are in the kit\'s README.</li></ul>'
             '<div class="note">Modules sit as close together as on the M-Class and 17" panels: about 2.2 mm between module outlines. Modules are 7" tall (Loudest Warning format, 175 mm). Check the result against your own jacks, pots and '
             'case before drilling; module widths come from each module\'s artwork. Mixing eras works, but the styles will differ.</div></div></div>'
             '<script type="application/json" id="man">%s</script><script type="application/json" id="holes">%s</script><script>%s</script>') % (
         CSS, "".join('<button class="chip" data-v="%s">%s</button>' % (e, e) for e in eras), json.dumps(man).replace("</", "<\\/"),
-        json.dumps({"diameters_mm": HOLES["diameters_mm"], "gap": HOLES.get("module_gap_in", 0.088), "mouser": mouser_files(root), "modules": {m["k"]: HOLES["modules"][m["k"]] for m in man if m["k"]}}, separators=(",", ":")), JS)
+        json.dumps({"diameters_mm": HOLES["diameters_mm"], "gap": HOLES.get("module_gap_in", 0.088), "mouser": mouser_files(root), "tayda": sorted(f[:-4] for f in os.listdir(os.path.join(root, "Modules", "BOM", "tayda")) if f.endswith(".csv")) if os.path.isdir(os.path.join(root, "Modules", "BOM", "tayda")) else [], "modules": {m["k"]: HOLES["modules"][m["k"]] for m in man if m["k"]}}, separators=(",", ":")), JS)

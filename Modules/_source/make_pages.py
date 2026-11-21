@@ -268,6 +268,14 @@ def page(m):
             out.append('<p class="note"><b>Check stock and price before ordering:</b> %d line%s in %s (marked <code>[UNVERIFIED]</code> in the Description '
                        'column) use part numbers built from the manufacturers\' numbering and not yet checked on mouser.com; their prices are estimates. '
                        'The BOM tool flags anything it can\'t find or that is out of stock.</p>' % (nu, "s" if nu > 1 else "", "these files" if len(mf) > 1 else "this file"))
+    tf = [f for f in mouser_files(m["slug"]) if os.path.exists(os.path.join(OUT, "BOM", "tayda", f))]
+    if tf:
+        ts = json.load(open(os.path.join(OUT, "BOM", "tayda", "summary.json")))
+        out.append('<p class="note"><b>Pots and knobs from Tayda:</b> %s. The pots (16 mm, solder lugs, 1/4" round shaft) and Davies 1900H-style '
+                   'knobs cost less at <a href="https://www.taydaelectronics.com">Tayda Electronics</a> than at Mouser, so they are listed here '
+                   'with a link to each Tayda product instead of in the Mouser file.</p>' % ", ".join(
+                       '<a href="%s">%s</a> (%d lines, about $%.2f)' % (quote("BOM/tayda/" + f), e(f), ts[f[:-4]]["lines"], ts[f[:-4]]["cost"])
+                       for f in tf if f[:-4] in ts))
     groups = collections.OrderedDict()
     for r in rows:
         groups.setdefault(r[0], []).append(r)
