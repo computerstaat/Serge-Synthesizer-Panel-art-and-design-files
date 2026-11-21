@@ -21,15 +21,16 @@
   <text x="96.0" y="114" style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.0px;font-family:Futura;-inkscape-font-specification:'Futura Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33174;font-style:oblique">TRIG</text>
   <text x="192.0" y="114" style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.0px;font-family:Futura;-inkscape-font-specification:'Futura Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33174;font-style:oblique">TRIG</text>
   <path d="M 52.2200,132.8898 A 8.8898,8.8898 0 0 1 61.1098,124.0000 L 226.8902,124.0000 A 8.8898,8.8898 0 0 1 235.7800,132.8898 L 235.7800,327.1102 A 8.8898,8.8898 0 0 1 226.8902,336.0000 L 61.1098,336.0000 A 8.8898,8.8898 0 0 1 52.2200,327.1102 Z" style="display:inline;fill:none;stroke:#000000;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round" />
-  <path d="M 144.000,124.000 L 144.000,336.000" style="display:inline;fill:none;stroke:#000000;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path d="M 144.000,124.000 L 144.000,182.000" style="display:inline;fill:none;stroke:#000000;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path d="M 144.000,202.000 L 144.000,336.000" style="display:inline;fill:none;stroke:#000000;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
   <text x="144.0" y="196" style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.97px;font-family:Futura;-inkscape-font-specification:'Futura Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33174;font-style:oblique">OUTPUTS</text>
-  <path d="M 58.0,192.0 h 7 v -9 h 9" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
+  <path d="M 96.0,196.0 h 7 v -9 h 9" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 90.0,268.0 l 6,-9 l 6,9" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 59.80,552.00 L 68.20,552.00" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 123.80,552.00 L 132.20,552.00 M 128.00,547.80 L 128.00,556.20" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 96.000,542.628 L 96.000,575.482" style="display:inline;fill:none;stroke:#000000;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
   <text x="96.0" y="626" style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.0px;font-family:Futura;-inkscape-font-specification:'Futura Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33174;font-style:oblique">VC  IN</text>
-  <path d="M 154.0,192.0 h 7 v -9 h 9" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
+  <path d="M 176.0,196.0 h 7 v -9 h 9" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 186.0,268.0 l 6,-9 l 6,9" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 155.80,552.00 L 164.20,552.00" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 219.80,552.00 L 228.20,552.00 M 224.00,547.80 L 224.00,556.20" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
@@ -45,15 +46,16 @@
   <text x="288.0" y="114" style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.0px;font-family:Futura;-inkscape-font-specification:'Futura Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33174;font-style:oblique">TRIG</text>
   <text x="384.0" y="114" style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.0px;font-family:Futura;-inkscape-font-specification:'Futura Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33174;font-style:oblique">TRIG</text>
   <path d="M 244.2200,132.8898 A 8.8898,8.8898 0 0 1 253.1098,124.0000 L 418.8902,124.0000 A 8.8898,8.8898 0 0 1 427.7800,132.8898 L 427.7800,327.1102 A 8.8898,8.8898 0 0 1 418.8902,336.0000 L 253.1098,336.0000 A 8.8898,8.8898 0 0 1 244.2200,327.1102 Z" style="display:inline;fill:none;stroke:#000000;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round" />
-  <path d="M 336.000,124.000 L 336.000,336.000" style="display:inline;fill:none;stroke:#000000;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path d="M 336.000,124.000 L 336.000,182.000" style="display:inline;fill:none;stroke:#000000;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path d="M 336.000,202.000 L 336.000,336.000" style="display:inline;fill:none;stroke:#000000;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
   <text x="336.0" y="196" style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.97px;font-family:Futura;-inkscape-font-specification:'Futura Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33174;font-style:oblique">OUTPUTS</text>
-  <path d="M 250.0,192.0 h 7 v -9 h 9" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
+  <path d="M 288.0,196.0 h 7 v -9 h 9" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 282.0,268.0 l 6,-9 l 6,9" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 251.80,552.00 L 260.20,552.00" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 315.80,552.00 L 324.20,552.00 M 320.00,547.80 L 320.00,556.20" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 288.000,542.628 L 288.000,575.482" style="display:inline;fill:none;stroke:#000000;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
   <text x="288.0" y="626" style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.0px;font-family:Futura;-inkscape-font-specification:'Futura Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33174;font-style:oblique">VC  IN</text>
-  <path d="M 346.0,192.0 h 7 v -9 h 9" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
+  <path d="M 368.0,196.0 h 7 v -9 h 9" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 378.0,268.0 l 6,-9 l 6,9" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 347.80,552.00 L 356.20,552.00" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
   <path d="M 411.80,552.00 L 420.20,552.00 M 416.00,547.80 L 416.00,556.20" style="display:inline;fill:none;stroke:#1d1d1b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
@@ -1917,7 +1919,7 @@
     <g id="g46610-1-8-0-1-0-8-s19" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s19" style="stroke-width:0.767293">
       <circle id="circle46574-9-7-1-3-6-0-s19" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s19" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
+      <circle id="circle46576-1-6-2-7-9-7-s19" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" fill="#1f6fe8" />
       <g id="g46604-3-2-4-7-0-5-s19" style="stroke-width:0.767293">
        <defs id="defs46580-4-2-5-6-2-79-s19">
         <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s19" />
@@ -2042,7 +2044,7 @@
     <g id="g46610-1-8-0-1-0-8-s32" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s32" style="stroke-width:0.767293">
       <circle id="circle46574-9-7-1-3-6-0-s32" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s32" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
+      <circle id="circle46576-1-6-2-7-9-7-s32" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" fill="#1f6fe8" />
       <g id="g46604-3-2-4-7-0-5-s32" style="stroke-width:0.767293">
        <defs id="defs46580-4-2-5-6-2-79-s32">
         <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s32" />
@@ -2203,7 +2205,7 @@
     <g id="g46610-1-8-0-1-0-8-s49" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s49" style="stroke-width:0.767293">
       <circle id="circle46574-9-7-1-3-6-0-s49" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s49" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
+      <circle id="circle46576-1-6-2-7-9-7-s49" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" fill="#1f6fe8" />
       <g id="g46604-3-2-4-7-0-5-s49" style="stroke-width:0.767293">
        <defs id="defs46580-4-2-5-6-2-79-s49">
         <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s49" />
@@ -2328,7 +2330,7 @@
     <g id="g46610-1-8-0-1-0-8-s62" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s62" style="stroke-width:0.767293">
       <circle id="circle46574-9-7-1-3-6-0-s62" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s62" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
+      <circle id="circle46576-1-6-2-7-9-7-s62" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" fill="#1f6fe8" />
       <g id="g46604-3-2-4-7-0-5-s62" style="stroke-width:0.767293">
        <defs id="defs46580-4-2-5-6-2-79-s62">
         <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s62" />

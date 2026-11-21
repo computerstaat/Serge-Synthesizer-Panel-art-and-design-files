@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4in" height="7in" viewBox="0 0 4 7">
+  <rect x="0" y="0" width="4" height="7" fill="#ffffff"/>
+  <rect x="0.004" y="0.004" width="3.992" height="6.992" fill="none" stroke="#b3b3b3" stroke-width="0.008"/>
+  <path d="M 0.1000,0.5000 L 1.9800,0.5000 L 1.9800,1.4200 L 0.1000,1.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 2.0200,0.5000 L 3.9000,0.5000 L 3.9000,1.4200 L 2.0200,1.4200 Z" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <path d="M 0.5000,0.9200 L 1.5000,0.9200" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="1.0000" y="1.2200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">LEFT</text>
+  <path d="M 2.5000,0.9200 L 3.5000,0.9200" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="3.0000" y="1.2200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">RIGHT</text>
+  <path d="M 0.5000,1.8500 L 1.5000,1.8500" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="1.0000" y="1.7600" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">AUX</text>
+  <text x="1.0000" y="2.0700" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">IN-L</text>
+  <path d="M 3.5000,1.8500 L 2.5000,1.8500" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="3.0000" y="1.7600" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">AUX</text>
+  <text x="3.0000" y="2.0700" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">IN-R</text>
+  <text x="2.0000" y="2.5200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">PAN</text>
+  <text x="2.0000" y="4.5200" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">GAIN</text>
+  <text x="2.0000" y="5.5700" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0100">STEREO</text>
+  <text x="0.2000" y="3.1800" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">L</text>
+  <text x="0.8000" y="3.1800" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">R</text>
+  <path d="M 0.5000,2.8000 L 0.5000,5.9500" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="0.5000" y="6.3500" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">1</text>
+  <text x="1.2000" y="3.1800" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">L</text>
+  <text x="1.8000" y="3.1800" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">R</text>
+  <path d="M 1.5000,2.8000 L 1.5000,5.9500" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="1.5000" y="6.3500" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">2</text>
+  <text x="2.2000" y="3.1800" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">L</text>
+  <text x="2.8000" y="3.1800" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">R</text>
+  <path d="M 2.5000,2.8000 L 2.5000,5.9500" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="2.5000" y="6.3500" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">3</text>
+  <text x="3.2000" y="3.1800" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">L</text>
+  <text x="3.8000" y="3.1800" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">R</text>
+  <path d="M 3.5000,2.8000 L 3.5000,5.9500" fill="none" stroke="#000000" stroke-width="0.0240" stroke-linejoin="miter" stroke-miterlimit="1.5" stroke-linecap="butt"/>
+  <text x="3.5000" y="6.3500" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.0700" font-weight="normal" text-anchor="middle" fill="#000000">4</text>
+  <circle cx="0.5000" cy="0.9200" r="0.1900" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="0.9200" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="0.9200" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="3.5000" cy="0.9200" r="0.1900" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="1.8500" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="1.8500" r="0.1250" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="3.5000" cy="1.8500" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="1.8500" r="0.1250" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="2.8000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="4.8500" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="0.5000" cy="5.9500" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="2.8000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="4.8500" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="1.5000" cy="5.9500" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="2.8000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="4.8500" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="2.5000" cy="5.9500" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="3.5000" cy="2.8000" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="3.5000" cy="4.8500" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <circle cx="3.5000" cy="5.9500" r="0.1550" fill="#ffffff" stroke="#000000" stroke-width="0.0180"/>
+  <text x="2.0000" y="0.3300" font-family="Futura, 'Century Gothic', 'URW Gothic', 'Avant Garde', 'Liberation Sans', sans-serif" font-size="0.1050" font-weight="normal" text-anchor="middle" fill="#000000" letter-spacing="0.0300">OUTPUTS</text>
+</svg>
