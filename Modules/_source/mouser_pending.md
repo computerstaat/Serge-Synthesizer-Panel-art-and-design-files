@@ -17,30 +17,14 @@ These go to the `_not_at_mouser.csv` files with a note on where to get them:
 - **Sub-boards** (CGS108, CGS102): they have their own upload files.
 - **Values Ken Stone leaves to the builder:** RG1-4 on the CGS77, and RPD on the CGS97.
 
-## Mapped but not checked on mouser.com
+## Checked on mouser.com
 
-The keys listed under `unverified` in `mouser_parts.json` (92 of them) were added on 2026-11-20. Their part numbers come from each manufacturer's numbering pattern, following the parts already in the file, and their prices are estimates. Each line in the upload files is marked `[UNVERIFIED: check stock and price]`.
+Every mapped part was checked on mouser.com for stock and single-unit price: the first set on 2026-11-20, the remaining 92 on 2026-11-21. Replacements made in that check:
 
-Spot-checked so far:
+- **Not stocked or not listed:** 910k (now KOA 909k), 2M2 / 2M7 / 3M3 / 4M7 / 6M8 (now Yageo CFR-25 carbon film, 5%), 30pF (now KEMET C317C300J5G5TA), 330n WIMA (now MKS2C033301C00JI00), 50k log pot (now Alpha RV16AF-10-15R1-A50K-3DLA), 4.3V zener (now Vishay BZX55C4V3-TR).
+- **Out of stock:** Bourns 3362P-1-502LF (now 3362P-1-502TLF), TI LM324N (now LM324AN/NOPB).
+- **Obsolete or end of life:** Panasonic ECE-A1HKA010 1uF (now KEMET ESK105M050AC3AA). The Nichicon UEP1H010MDD1TA bipolar 1uF is end of life but in stock; a 1uF film capacitor also works.
+- **Price corrections:** the C&K 7000-series toggles cost more than estimated: DPDT $14.99, SPDT $8.45, SPDT on-off-on $11.63. Synth-parts suppliers sell solder-lug mini toggles for less.
+- **Not recommended for new designs (still in stock):** TDK 82pF, 120pF, 150pF and 680pF C0G.
 
-- **InterFET J201 (106-J201):** in stock.
-- **onsemi 2N3904BU (512-2N3904BU):** in stock.
-- **Bourns 3362P-1-502LF:** exists, but was backordered on mouser.co.uk.
-- **Part numbers that exist** (checked at other distributors):
-  - TDK FG28C0G1H222JNT06
-  - Vishay TZX5V6A-TR
-  - TI CD4066BE, LM78L12ACZ/NOPB, LM79L12ACZ/NOPB, UA741CP, LM324N
-  - Renesas CA3140EZ
-  - KOA RK1/4DCT52R1005F
-  - Yageo MFR-25FBF52-47K5
-- **Alpha log pots:** Mouser lists them as 313-5000F-<value> (RV16AF-…-A<value>).
-- **Nichicon UES1H010MDM (1uF bipolar):** listed, but marked for discontinuation.
-
-When a key has been checked on mouser.com, remove it from `unverified` and update its price.
-
-Least certain:
-
-- **WIMA MKS2 numbers** (22n, 47n, 220n, 330n): these copy the shape of the existing 470n entry.
-- **TDK 4.7nF C0G** (FG28C0G1H472JNT06): may only come in a different voltage rating.
-- **KOA RK 11M:** not a common value.
-- **C&K 7000-series toggles:** expensive. The CGS89 needs twenty centre-off toggles, about $100 at Mouser, so builders may prefer a synth-parts supplier.
+When stock changes, Mouser's BOM tool flags the line; update the part in `mouser_parts.json` and rerun `make_mouser.py` and `make_pages.py`.

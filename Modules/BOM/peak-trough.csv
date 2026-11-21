@@ -1,7 +1,7 @@
 Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
 All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour not recorded",12,4 mm,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Knob,0,one per pot,,,
-Prism Circuits Peak & Trough,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-peak-trough",,,
+Prism Circuits Peak & Trough,Board,,See the maker's BOM,,Prism Mouser cart (the Prism BOM) - https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9d3046aab0,,,
 Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Capacitor,100n (0.1) decoupling caps,2,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html,810-FG28X7R1H104KNT6,https://www.mouser.com/ProductDetail/810-FG28X7R1H104KNT6,0.27
 Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Capacitor,10uF 25V,2,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html,667-ECE-A1EKA100,https://www.mouser.com/ProductDetail/667-ECE-A1EKA100,0.26
 Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Resistor,2k2,16,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html,603-MFR-25FBF52-2K2,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-2K2,0.1
@@ -9,10 +9,11 @@ Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Resistor,10k,4,from https://ope
 Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Resistor,15k,2,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html,603-MFR-25FBF52-15K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-15K,0.1
 Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Resistor,150k,2,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html,603-MFR-25FBF52-150K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-150K,0.1
 Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Resistor,220k 1%,2,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html,603-MFR-25FBF52-220K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-220K,0.1
-Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Potentiometer / trimmer,10k Lin pot,2,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html; Mouser part not checked yet: verify stock and price,313-1000F-10K,https://www.mouser.com/ProductDetail/313-1000F-10K,1.4
+Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Potentiometer / trimmer,10k Lin pot,2,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html,313-1000F-10K,https://www.mouser.com/ProductDetail/313-1000F-10K,1.61
 Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Semiconductor,1N4148,28,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html,512-1N4148,https://www.mouser.com/ProductDetail/512-1N4148,0.1
 Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Semiconductor,2N3565 (BC547 or sim),2,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html,512-BC547BTA,https://www.mouser.com/ProductDetail/512-BC547BTA,0.27
 Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Semiconductor,2N3566 (BC547 or sim),2,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html,512-BC547BTA,https://www.mouser.com/ProductDetail/512-BC547BTA,0.27
 Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Semiconductor,2N4250 (BC557 or sim),4,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html,512-BC557BTA,https://www.mouser.com/ProductDetail/512-BC557BTA,0.28
 Ken Stone CGS84 Dual Peak and Trough,CGS84 board,Misc,CGS84 VER1.0 PCB,1,from https://open4umodular.github.io/synthpanel/modules/cgs84_peakandtrough.html,,,
-Low-Gain LGE084 Peak & Trough (Hills & Valleys),Board,,See the maker's BOM,,BOMs on the Low-Gain product page - https://www.low-gain.com/shop/p/lge084,,,
+Low-Gain LGE084 Peak & Trough (Hills & Valleys),Board,,See the maker's BOM,,LGE084 V2.1 Main Board BOM - https://drive.google.com/file/d/1wcF1HQNc6Vuv1t32s5FDpQUEefi86WBG/view,,,
+Low-Gain LGE084 Peak & Trough (Hills & Valleys),Board,,See the maker's BOM,,LGE084 Main Board (V2) BOM - https://drive.google.com/file/d/1x37CsugZ_NlgvNhsVYTUqytkc8p61D70/view,,,

@@ -250,17 +250,17 @@ def readme(report):
          "Number says so (e.g. `CGS108 x4`).", "",
          "`<module>__<board>_not_at_mouser.csv` lists what Mouser doesn't sell: the PCB, obsolete chips such as the CA3080 / LM3080, vactrols, "
          "and front-panel jacks and knobs.", "",
-         "**Check stock and price before ordering.** The first set of parts was checked on mouser.com on 2026-11-20. Parts added later were "
-         "chosen from the manufacturers' part-number patterns and only spot-checked; their lines end in `[UNVERIFIED: check stock and price]` "
-         "and their prices are estimates. The BOM tool flags any number it doesn't recognise or that is out of stock: pick an equivalent there.", "",
+         "**Stock and prices change.** Every part number was checked on mouser.com (stock and single-unit price) on 2026-11-20 and "
+         "2026-11-21. The BOM tool flags any number it no longer recognises or that has gone out of stock: pick an equivalent there.", "",
          "Substitutions: obsolete transistors (2N3391A, 2N3565, 2N3566 / 2N3638, 2N4248, 2N4250) are replaced by 2N3904 / 2N3906, which share "
          "the TO-92 EBC pinout (check the PCB overlay); the 4016 by the CD4066BE; the LF356 by the CA3140EZ where Ken Stone's list allows it; "
-         "4k7 trimmers by 5k. The Description column notes each one.", "",
+         "4k7 trimmers by 5k; 910k by 909k; 1% metal film by 5% carbon film for 2M2 to 6M8, which Mouser doesn't stock in metal film. The "
+         "Description column notes each one.", "",
          "The Low-Gain files (`__lge…`) include the panel jacks, pots and switches, following Low-Gain's BOM. The CGS files include switches "
          "but leave out banana jacks; their pots and knobs are in the Tayda lists in `../tayda/` (cheaper there).", "",
-         "| File | Mouser lines | Unverified lines | Bought elsewhere (lines) | Approx. cost (1 off) |", "|---|---|---|---|---|"]
+         "| File | Mouser lines | Bought elsewhere (lines) | Approx. cost (1 off) |", "|---|---|---|---|"]
     for r in report:
-        L.append("| %s__%s.csv | %d | %d | %d | $%.2f |" % (r[0], r[1], r[2], r[5], r[3], r[4]))
+        L.append("| %s__%s.csv | %d | %d | $%.2f |" % (r[0], r[1], r[2], r[3], r[4]))
     L += ["", "To add a module, map its values in `../../_source/mouser_parts.json`, add it to `TARGETS` in `../../_source/make_mouser.py`, "
           "and run that script and `make_pages.py`. Values still without a Mouser part are listed in `../../_source/mouser_pending.md`.", ""]
     open(os.path.join(OUT, "README.md"), "w").write("\n".join(L))

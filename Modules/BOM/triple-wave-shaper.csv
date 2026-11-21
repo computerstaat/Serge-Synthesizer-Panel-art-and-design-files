@@ -2,7 +2,7 @@ Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Uni
 All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour not recorded",15,4 mm,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,3,value from the board BOM,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Knob,3,one per pot,,,
-Prism Circuits Triple Waveshaper,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-triple-wave-shaper",,,
+Prism Circuits Triple Waveshaper,Board,,See the maker's BOM,,Prism Mouser cart (the Prism BOM) - https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=1e130b0e64,,,
 Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,100pF decoupling caps,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,810-FG28C0G1H101JNT0,https://www.mouser.com/ProductDetail/810-FG28C0G1H101JNT0,0.27
 Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,100n (0.1) decoupling caps,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,810-FG28X7R1H104KNT6,https://www.mouser.com/ProductDetail/810-FG28X7R1H104KNT6,0.27
 Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Capacitor,470n MKT or sim,3,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,505-MKS2.47/63/5T,https://www.mouser.com/ProductDetail/505-MKS2.47/63/5T,0.94

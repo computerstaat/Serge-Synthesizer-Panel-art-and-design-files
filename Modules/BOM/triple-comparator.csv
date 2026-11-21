@@ -2,7 +2,7 @@ Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Uni
 All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour not recorded",9,4 mm,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,3,value from the board BOM,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Knob,3,one per pot,,,
-Prism Circuits Triple Comparator,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-triple-comparator",,,
+Prism Circuits Triple Comparator,Board,,See the maker's BOM,,Prism Mouser cart (the Prism BOM) - https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=17a3dd6fdf,,,
 Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,330R,4,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,603-MFR-25FBF52-330R,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-330R,0.11
 Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,5k6,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,603-MFR-25FBF52-5K6,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-5K6,0.1
 Ken Stone CGS96 Serge Triple Comparator,CGS96 board,Resistor,6k8,1,from https://open4umodular.github.io/synthpanel/modules/cgs96_comp.html,603-MFR-25FBF52-6K8,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-6K8,0.1

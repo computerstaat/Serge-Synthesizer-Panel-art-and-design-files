@@ -9,8 +9,8 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 603-MFR-25FBF52-47K,MFR-25FBF52-47K,YAGEO,5,Metal film resistor 47k 1/4W 1%,CGS88: 47k
 660-MFS1/4DCT52R1504,MFS1/4DCT52R1504F,KOA Speer,6,Metal film resistor 1M5 1/4W 1%,CGS88: 1M5
 595-LM3900N,LM3900N,Texas Instruments,1,Quad Norton amplifier (also replaces MC3401),CGS88: MC3401 or LM3900
-595-CD4007UBE,CD4007UBE,Texas Instruments,3,"CMOS CD4007UB, DIP [UNVERIFIED: check stock and price]","CGS88: CD4007AE, CD4007UBE etc."
-595-CD4013BE,CD4013BE,Texas Instruments,1,"CMOS CD4013B, DIP [UNVERIFIED: check stock and price]",CGS88: CD4013B or sim
+595-CD4007UBE,CD4007UBE,Texas Instruments,3,"CMOS CD4007UB, DIP","CGS88: CD4007AE, CD4007UBE etc."
+595-CD4013BE,CD4013BE,Texas Instruments,1,"CMOS CD4013B, DIP",CGS88: CD4013B or sim
 512-BC547BTA,BC547BTA,onsemi,2,NPN transistor (BC547B),CGS88: 2N3566 or BC547 / BC547
 512-BC557BTA,BC557BTA,onsemi,2,PNP transistor (BC557B),CGS88: 2N3638 or BC557 / BC557
 875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS88: Ferrite Bead

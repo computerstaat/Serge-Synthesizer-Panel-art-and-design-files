@@ -2,4 +2,4 @@ Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Uni
 All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour not recorded",5,4 mm,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,1,value from the board BOM,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Knob,1,one per pot,,,
-Prism Circuits Gate,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-gate-vca",,,
+Prism Circuits Gate,Board,,See the maker's BOM,,Prism Mouser cart (the Prism BOM) - https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=4089d005e8,,,
