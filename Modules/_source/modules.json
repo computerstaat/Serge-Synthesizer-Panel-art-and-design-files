@@ -2644,6 +2644,28 @@
        "https://open4umodular.github.io/synthpanel/synth/serge/kit/dam.html"
       ]
      ]
+    },
+    {
+     "maker": "lowgain",
+     "name": "Low-Gain LGE203 Dual Audio Mixer",
+     "url": "https://www.low-gain.com/shop/p/lge203",
+     "offer": "Assembled module or DIY PCBs",
+     "format": "4U Serge, Loudest Warning-style mounting",
+     "schematic": {
+      "status": "listed",
+      "title": "Check the Low-Gain product page for documents",
+      "url": "https://www.low-gain.com/shop/p/lge203"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "Check the Low-Gain product page for documents",
+      "url": "https://www.low-gain.com/shop/p/lge203"
+     },
+     "notes": [
+      "Two four-input mixers; three of the four inputs on each have a level knob, matching this panel's three level-controlled inputs and one unity-gain input.",
+      "All inputs are AC-coupled (they block DC offsets), so it is an audio mixer rather than a CV mixer.",
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ]
     }
    ],
    "docs": [
