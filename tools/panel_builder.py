@@ -9,6 +9,9 @@ GROUPS = [("Modern/Vector Graphics/Module", "SMMS metal / STS"), ("Paperface/Vec
           ("SMMS/Paper/Vector Graphics/Module", "SMMS paper"), ("CGS/Vector Graphics", "CGS")]
 
 
+HOLES = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "module_holes.json")))
+
+
 def manifest(root, thumb):
     out = []
     for folder, era in GROUPS:
@@ -21,8 +24,10 @@ def manifest(root, thumb):
                 continue
             rel = os.path.relpath(f, root)
             png = rel.replace("Vector Graphics", "Images")[:-4] + ".png"
+            key = era + "|" + os.path.basename(f)[:-4]
             out.append({"n": os.path.basename(f)[:-4].replace("_", " "), "e": era, "s": quote(rel), "w": float(w.group(1)),
-                        "h": float(h.group(1)), "t": quote(thumb(png)) if os.path.exists(os.path.join(root, png)) else ""})
+                        "h": float(h.group(1)), "t": quote(thumb(png)) if os.path.exists(os.path.join(root, png)) else "",
+                        "k": key if key in HOLES["modules"] else ""})
     return out
 
 
@@ -43,59 +48,12 @@ CSS = """
 .stage svg{max-width:100%;height:auto;background:#fff;box-shadow:0 6px 18px rgba(0,0,0,.15)}
 .meter{font-size:.9rem;margin:6px 0}.meter b.bad{color:var(--accent)}
 .empty{color:var(--muted);text-align:center;padding:40px}
+.warn{color:var(--accent);font-size:.9rem;margin:6px 0}.dls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.dls .btn{cursor:pointer;font:inherit;font-weight:600}
+.btn:disabled{opacity:.4;cursor:default}.how{font-size:.9rem;color:var(--muted);padding-left:18px}.how li{margin:4px 0}
 @media(max-width:760px){.pb{grid-template-columns:1fr}.lib{position:static;max-height:420px}}
 """
 
-JS = r"""
-const M=JSON.parse(document.getElementById('man').textContent),D=96,cache={};let sel=[],uid=0;
-const $=id=>document.getElementById(id);
-function lib(){const q=$('q').value.toLowerCase(),er=$('era').value;$('lst').innerHTML='';
- M.forEach((m,i)=>{if(er&&m.e!==er)return;if(q&&!m.n.toLowerCase().includes(q))return;
-  const d=document.createElement('div');d.className='it';d.title='Add '+m.n;
-  d.innerHTML=(m.t?'<img loading="lazy" src="'+m.t+'" alt="">':'')+m.n+'<br><small>'+m.e+' · '+(+m.w).toFixed(2)+'"</small>';
-  d.onclick=()=>{sel.push(i);draw()};$('lst').appendChild(d)})}
-async function get(m){if(!cache[m.s]){const r=await fetch(m.s);cache[m.s]=await r.text()}return cache[m.s]}
-function nest(txt,x,y,m){const p='m'+(++uid)+'-';
- txt=txt.replace(/<\?xml[^>]*>/,'').replace(/<!DOCTYPE[^>]*>/,'')
-  .replace(/\bid="([^"]+)"/g,(a,b)=>'id="'+p+b+'"').replace(/url\(#([^)]+)\)/g,(a,b)=>'url(#'+p+b+')')
-  .replace(/href="#([^"]+)"/g,(a,b)=>'href="#'+p+b+'"');
- const doc=new DOMParser().parseFromString(txt,'image/svg+xml'),s=doc.documentElement;
- s.querySelectorAll('namedview').forEach(n=>n.remove());
- for(const n of [...s.getElementsByTagName('sodipodi:namedview')])n.remove();
- s.setAttribute('x',x);s.setAttribute('y',y);s.setAttribute('width',m.w*D);s.setAttribute('height',m.h*D);return s}
-function target(){const v=$('pw').value;return v==='fit'?null:v==='custom'?(+$('cw').value||17):+v}
-async function draw(){
- $('sel').innerHTML='';sel.forEach((i,k)=>{const s=document.createElement('span');s.innerHTML=M[i].n+
-  ' <button title="Move left">&#8249;</button><button title="Move right">&#8250;</button><button title="Remove">&times;</button>';
-  const b=s.querySelectorAll('button');b[0].onclick=()=>{if(k){[sel[k-1],sel[k]]=[sel[k],sel[k-1]];draw()}};
-  b[1].onclick=()=>{if(k<sel.length-1){[sel[k+1],sel[k]]=[sel[k],sel[k+1]];draw()}};b[2].onclick=()=>{sel.splice(k,1);draw()};$('sel').appendChild(s)});
- const used=sel.reduce((a,i)=>a+M[i].w,0),T=target(),W=T||Math.max(used,1),H=7;
- $('meter').innerHTML=sel.length?('Modules: <b>'+used.toFixed(2)+'"</b>'+(T?(' of '+T+'" &middot; '+(used>T?'<b class="bad">'+(used-T).toFixed(2)+'" too wide</b>':((T-used).toFixed(2)+'" left'))):'')+' &middot; '+sel.length+' module'+(sel.length>1?'s':'')):'';
- if(!sel.length){$('stage').innerHTML='<div class="empty">Click modules on the left to add them to the panel.</div>';$('dl').disabled=$('dp').disabled=true;return}
- const NS='http://www.w3.org/2000/svg',o=document.createElementNS(NS,'svg');
- o.setAttribute('xmlns',NS);o.setAttribute('xmlns:xlink','http://www.w3.org/1999/xlink');
- o.setAttribute('width',Math.max(W,used)+'in');o.setAttribute('height',H+'in');o.setAttribute('viewBox','0 0 '+Math.max(W,used)*D+' '+H*D);
- const bg=document.createElementNS(NS,'rect');bg.setAttribute('width','100%');bg.setAttribute('height','100%');bg.setAttribute('fill',$('bg').value);o.appendChild(bg);
- let x=$('al').value==='center'&&T&&used<T?(T-used)*D/2:0;
- for(const i of sel){const m=M[i],t=await get(m);o.appendChild(document.importNode(nest(t,x,(H-m.h)*D/2,m),true));x+=m.w*D}
- if($('fr').checked){const r=document.createElementNS(NS,'rect');r.setAttribute('x',.5);r.setAttribute('y',.5);
-  r.setAttribute('width',Math.max(W,used)*D-1);r.setAttribute('height',H*D-1);r.setAttribute('fill','none');r.setAttribute('stroke','#000');r.setAttribute('stroke-width','1');r.setAttribute('id','panel-outline');o.appendChild(r)}
- $('stage').innerHTML='';$('stage').appendChild(o);$('dl').disabled=$('dp').disabled=false;
- history.replaceState(null,'','#w='+$('pw').value+'&m='+sel.map(i=>M[i].n).join(','))}
-function svgText(){return '<?xml version="1.0" encoding="UTF-8"?>\n'+new XMLSerializer().serializeToString($('stage').querySelector('svg'))}
-function save(blob,name){const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
-function nm(){return($('nm').value.trim()||'Serge_panel').replace(/[^\w.-]+/g,'_')}
-$('dl').onclick=()=>save(new Blob([svgText()],{type:'image/svg+xml'}),nm()+'.svg');
-$('dp').onclick=()=>{const s=$('stage').querySelector('svg'),w=parseFloat(s.getAttribute('width'))*150,h=7*150,img=new Image();
- img.onload=()=>{const c=document.createElement('canvas');c.width=w;c.height=h;const g=c.getContext('2d');g.drawImage(img,0,0,w,h);c.toBlob(b=>save(b,nm()+'.png'))};
- img.src=URL.createObjectURL(new Blob([svgText()],{type:'image/svg+xml'}))};
-$('cp').onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText(location.href);$('cp').textContent='Link copied'};
-['q','era'].forEach(i=>$(i).addEventListener('input',lib));['pw','cw','bg','al','fr'].forEach(i=>$(i).addEventListener('change',()=>{$('cw').style.display=$('pw').value==='custom'?'':'none';draw()}));
-const h=new URLSearchParams(location.hash.slice(1));
-if(h.get('m'))sel=h.get('m').split(',').map(n=>M.findIndex(m=>m.s===n||m.n===n)).filter(i=>i>=0);
-if(h.get('w'))$('pw').value=h.get('w');
-lib();draw();
-"""
+JS = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "panel_builder.js")).read()
 
 
 def body(root, thumb):
@@ -105,8 +63,7 @@ def body(root, thumb):
         if any(m["e"] == era for m in man):
             eras.append(era)
     return ("<style>%s</style><h1>Panel builder</h1><p class=\"lead\">Pick modules and get one panel: a single SVG with every module "
-            "side by side, ready to print, to send to a panel maker, or to open in Inkscape. Each module keeps its layers, including "
-            "the drill marks.</p>"
+            "side by side, plus a 1:1 drill template and a Front Panel Express kit for the whole panel.</p>"
             '<div class="pb"><div class="lib"><div class="f"><input id="q" type="search" placeholder="Find a module..." aria-label="Find a module">'
             '<select id="era"><option value="">All eras</option>%s</select></div><div class="lst" id="lst"></div></div>'
             '<div><div class="opts"><label>Panel width <select id="pw"><option value="fit">Fit to modules</option>'
@@ -114,11 +71,20 @@ def body(root, thumb):
             '<option value="custom">Custom...</option></select></label><input id="cw" type="number" step="0.25" min="1" value="12" style="display:none;width:80px" aria-label="Custom width in inches">'
             '<label>Align <select id="al"><option value="left">Left</option><option value="center">Centre</option></select></label>'
             '<label>Background <select id="bg"><option value="#ffffff">White</option><option value="#000000">Black</option><option value="none">None</option></select></label>'
+            '<label>Mounting holes <select id="mt"><option value="corners">Panel corners</option><option value="modules">Each module\'s own</option></select></label>'
             '<label><input id="fr" type="checkbox" checked> Outline</label></div>'
             '<div class="sel" id="sel"></div><div class="meter" id="meter"></div><div class="stage" id="stage"></div>'
-            '<div class="opts" style="margin-top:12px"><input id="nm" placeholder="Panel name" value="My_Serge_panel" aria-label="File name">'
-            '<button class="btn pri" id="dl">Download SVG</button><button class="btn" id="cp">Copy link</button><button class="btn" id="dp">Download PNG</button></div>'
+            '<p class="warn" id="warn"></p>'
+            '<h2>Download</h2><div class="opts"><input id="nm" placeholder="Panel name" value="My_Serge_panel" aria-label="File name"><button class="btn" id="cp">Copy link</button></div>'
+            '<div class="dls"><button class="btn pri" id="dl">Artwork (.svg)</button><button class="btn" id="dd">Drill template (1:1 PDF)</button>'
+            '<button class="btn" id="df">Front Panel Express kit (.zip)</button><button class="btn" id="dp">Preview (.png)</button><span class="muted" id="hc"></span></div>'
+            '<ul class="how"><li><b>Artwork:</b> one SVG for the whole panel, with Background, Linework and Jacks/Knobs layers from each module, plus one '
+            'XXX layer of drill marks for the whole panel. The modules\' own drill marks and mounting crosses are left out.</li>'
+            '<li><b>Drill template:</b> every hole of the whole panel at drill size, to print at 100%% and tape to the blank. A 50 mm bar checks the scale.</li>'
+            '<li><b>Front Panel Express kit:</b> the hole list, the print artwork and the build script. Open Front Panel Designer, double-click '
+            '<i>Build panel</i>, and it saves a ready-to-order <code>.fpd</code> file. Details are in the kit\'s README.</li></ul>'
             '<div class="note">Modules are 7" tall (Loudest Warning format, 175 mm). Check the result against your own jacks, pots and '
             'case before drilling; module widths come from each module\'s artwork. Mixing eras works, but the styles will differ.</div></div></div>'
-            '<script type="application/json" id="man">%s</script><script>%s</script>') % (
-        CSS, "".join('<option>%s</option>' % e for e in eras), json.dumps(man).replace("</", "<\\/"), JS)
+            '<script type="application/json" id="man">%s</script><script type="application/json" id="holes">%s</script><script>%s</script>') % (
+        CSS, "".join('<option>%s</option>' % e for e in eras), json.dumps(man).replace("</", "<\\/"),
+        json.dumps({"diameters_mm": HOLES["diameters_mm"], "modules": {m["k"]: HOLES["modules"][m["k"]] for m in man if m["k"]}}, separators=(",", ":")), JS)
