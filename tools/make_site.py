@@ -19,6 +19,7 @@ from PIL import Image
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "Modules", "_source"))
+sys.path.insert(0, os.path.join(ROOT, "tools"))
 e = html.escape
 SITE = "https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/"
 
@@ -52,7 +53,7 @@ h1{font-size:clamp(2rem,4vw,2.8rem);line-height:1.1;margin:0 0 10px}h2{font-size
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;text-decoration:none;color:var(--ink);display:block}
 .card:hover{border-color:var(--ink)}.card h3{margin:8px 0 4px;font-size:1.1rem}.card p{margin:0;font-size:.93rem;color:var(--muted)}
 .card .strip{height:150px;display:flex;gap:4px;overflow:hidden;align-items:flex-end;justify-content:center;background:#faf9f5;border-radius:6px;padding:6px}
-.card .strip img{height:100%;width:auto}
+.card .strip img{height:100%;width:auto}.card.sys p{margin-top:4px}.doccard h3{margin-top:10px}
 .tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:0 0 6px}
 .tools input{font:inherit;padding:8px 12px;border:1px solid var(--line);border-radius:8px;min-width:260px;background:#fff}
 .chips{display:flex;gap:8px;flex-wrap:wrap}.chips a{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:.88rem;text-decoration:none;color:var(--ink)}
@@ -87,11 +88,14 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 .tag.ok{background:#dff3e4;color:#1b5e2e}
 .scroll{overflow-x:auto}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}}
+.mob{display:none;margin-top:4px}
+@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}.mob{display:block}
+.mx td,.mx th{padding:8px 6px}.stats{grid-template-columns:1fr 1fr}.stat b{font-size:1.6rem}
+header .wrap{flex-wrap:wrap;gap:4px 14px}}
 """
 
 NAV = [("Modules/index.html", "Build a module"), ("boms.html", "Parts & BOMs"), ("sources.html", "PCB sources"),
-       ("panels.html", "Panel art"), ("systems.html", "Systems"), ("documentation.html", "Library")]
+       ("panels.html", "Panel art"), ("panel-builder.html", "Panel builder"), ("systems.html", "Systems"), ("documentation.html", "Library")]
 
 
 def nav(depth, on=""):
@@ -186,8 +190,39 @@ def era_page(slug, title, folder, blurb, links):
     return n, [f["png"] for c in cats for _, f in P[c]]
 
 
+def md_fix(text):
+    """Python-Markdown needs a blank line before a list; GitHub does not. Add one."""
+    out, prev = [], ""
+    for ln in text.split("\n"):
+        if re.match(r"^\s*([-*+]|\d+\.)\s", ln) and prev.strip() and not re.match(r"^\s*([-*+]|\d+\.)\s", prev) and not prev.lstrip().startswith("|"):
+            out.append("")
+        out.append(ln)
+        prev = ln
+    return "\n".join(out)
+
+
+def first_image(src):
+    """The first panel PNG a markdown file links or shows, as a repo path."""
+    d = os.path.dirname(src)
+    for mo in re.finditer(r"\(([^)\s]+\.png)\)", open(os.path.join(ROOT, src)).read()):
+        from urllib.parse import unquote
+        pth = os.path.normpath(os.path.join(d, unquote(mo.group(1))))
+        if os.path.exists(os.path.join(ROOT, pth)):
+            return pth
+    return None
+
+
+def first_para(src):
+    paras = [p.strip() for p in open(os.path.join(ROOT, src)).read().split("\n\n")]
+    for p in paras:
+        if p and not p.startswith(("#", "|", "!", "<", "-", "*", ">")):
+            t = re.sub(r"\[([^]]+)\]\([^)]+\)", r"\1", re.sub(r"[*_`]", "", p))
+            return t if len(t) < 200 else t[:200].rsplit(" ", 1)[0] + "…"
+    return ""
+
+
 def md_page(src, dst, title, depth, back):
-    text = open(os.path.join(ROOT, src)).read()
+    text = md_fix(open(os.path.join(ROOT, src)).read())
     htm = markdown.markdown(text, extensions=["tables", "fenced_code"])
     srcdir = os.path.dirname(src)
 
@@ -303,33 +338,48 @@ def main():
 
     # systems
     sysfiles = sorted(f for f in os.listdir(os.path.join(ROOT, "Systems")) if f.endswith(".md") and f != "README.md")
-    rows = []
+    status = {}
+    rd = os.path.join(ROOT, "Systems", "README.md")
+    if os.path.exists(rd):
+        for ln in open(rd):
+            mo = re.match(r"\|\s*\[[^]]+\]\(([^)]+)\.md\)\s*\|([^|]*)\|([^|]*)\|([^|]*)\|", ln)
+            if mo:
+                status[mo.group(1)] = [x.strip() for x in mo.groups()[1:]]
+    cards = []
     for f in sysfiles:
         t = first_heading("Systems/" + f)
         md_page("Systems/" + f, "systems/%s.html" % f[:-3], t, 1, '<a href="../systems.html">Systems</a> /')
-        rows.append('<tr><td><a href="systems/%s.html"><b>%s</b></a></td></tr>' % (f[:-3], e(t)))
-    intro = markdown.markdown(open(os.path.join(ROOT, "Systems", "README.md")).read().split("\n", 1)[1]) if os.path.exists(
-        os.path.join(ROOT, "Systems", "README.md")) else ""
-    write("systems.html", page("Systems | Serge DIY", "<h1>Systems</h1><div class=\"lead\">%s</div>"
-                               '<table class="list">%s</table>' % (re.sub(r'href="([^"#:]+)\.md"', r'href="systems/\1.html"', intro), "".join(rows)),
-                               0, "Systems"))
+        img = first_image("Systems/" + f)
+        era, pan, st = status.get(f[:-3], ["", "", ""])
+        meta = " · ".join(x for x in (era, pan) if x)
+        tag = ('<span class="tag%s">%s</span>' % (" ok" if st.lower().startswith("done") else "", e(st))) if st else ""
+        cards.append('<a class="card sys" href="systems/%s.html"><div class="strip">%s</div><h3>%s</h3><p><b>%s</b></p><p>%s</p><p style="margin-top:8px">%s</p></a>' % (
+            f[:-3], ('<img loading="lazy" src="%s" alt="">' % quote(thumb(img))) if img else '<span class="muted" style="align-self:center">No panel art yet</span>', e(t), e(meta), e(first_para("Systems/" + f)), tag))
+    write("systems.html", page("Systems | Serge DIY",
+        "<h1>Systems</h1><p class=\"lead\">Real Serge synthesizers: where each one was, which era its panels belong to, "
+        "the panel line-ups as they appear in photos (read left to right, as on the instrument), and links to the matching panel artwork.</p>"
+        '<div class="cards">%s</div>' % "".join(cards), 0, "Systems"))
 
-    # documentation
+    # library
     docs = sorted(os.listdir(os.path.join(ROOT, "Documentation")))
-    rows = []
+    orig, notes = [], []
     for f in docs:
         p = "Documentation/" + f
         if f.endswith(".md") and f != "README.md":
             t = first_heading(p)
-            md_page(p, "documentation/%s.html" % f[:-3], t, 1, '<a href="../documentation.html">Documentation</a> /')
-            rows.append('<tr><td><a href="documentation/%s.html"><b>%s</b></a></td><td>notes</td><td></td></tr>' % (f[:-3], e(t)))
+            md_page(p, "documentation/%s.html" % f[:-3], t, 1, '<a href="../documentation.html">Library</a> /')
+            notes.append('<a class="card" href="documentation/%s.html"><h3>%s</h3><p>%s</p></a>' % (f[:-3], e(t), e(first_para(p))))
         elif f.endswith(".pdf"):
             mb = os.path.getsize(os.path.join(ROOT, p)) / 1e6
-            rows.append('<tr><td><a href="%s"><b>%s</b></a></td><td>PDF</td><td>%.1f MB</td></tr>' % (quote(p), e(f[:-4].replace("_", " ")), mb))
-    write("documentation.html", page("Documentation | Serge DIY",
-                                     "<h1>Documentation</h1><p class=\"lead\">Original Serge catalogues, manuals and guides, and our notes on them.</p>"
-                                     '<table class="list"><tr><th>Document</th><th>Type</th><th>Size</th></tr>%s</table>' % "".join(rows),
-                                     0, "Library"))
+            orig.append('<a class="card doccard" href="%s"><span class="tag">PDF · %.1f MB</span><h3>%s</h3></a>' % (quote(p), mb, e(f[:-4].replace("_", " "))))
+    write("documentation.html", page("Library | Serge DIY",
+        "<h1>Library</h1><p class=\"lead\">Original Serge catalogues, manuals and guides, and our own notes: Serge history, what "
+        "the catalogues tell us, and where to get boards for building modules.</p>"
+        '<h2>Our notes</h2><div class="cards">%s</div><h2>Original Serge documents</h2><div class="cards">%s</div>' % ("".join(notes), "".join(orig)),
+        0, "Library"))
+
+    import panel_builder
+    write("panel-builder.html", page("Panel builder | Serge DIY", panel_builder.body(ROOT, thumb), 0, "Panel builder"))
 
     # data for the DIY pages
     D = json.load(open(os.path.join(ROOT, "Modules", "_source", "modules.json")))
@@ -349,7 +399,7 @@ def main():
         return ""
 
     def has_schem(m):
-        return any(b.get("schematic", {}).get("status") == "available" for b in m["builds"])
+        return any(b.get("schematic", {}).get("status") in ("available", "listed") for b in m["builds"])
 
     order = ["kenstone", "lowgain", "prism"]
 
@@ -357,18 +407,20 @@ def main():
         rows = []
         for m in sorted(mods, key=lambda m: m["name"]):
             mk = {b["maker"] for b in m["builds"]}
-            cells = "".join('<td class="c">%s</td>' % ('<span class="y">&#10003;</span>' if k in mk else '<span class="n">&ndash;</span>') for k in order)
+            cells = "".join('<td class="c hide">%s</td>' % ('<span class="y">&#10003;</span>' if k in mk else '<span class="n">&ndash;</span>') for k in order)
             mf = mfiles.get(m["slug"], [])
             mcell = "".join('<a class="tag ok" href="%sBOM/mouser/%s__%s.csv">%s</a>' % (link_prefix, m["slug"], b, e(b.upper().replace("_", " ")))
                             for b, v in mf) or '<span class="n">&ndash;</span>'
             img = mod_img(m)
-            rows.append('<tr><td class="hide">%s</td><td><a href="%s%s.html"><b>%s</b></a><br><small class="muted">%s</small></td>%s'
-                        '<td class="c">%s</td><td class="c"><a href="%sBOM/%s.csv">CSV</a></td><td>%s</td></tr>' % (
+            mob = '<div class="mob">%s%s</div>' % ("".join('<span class="tag">%s</span>' % e(makers[k]["name"].replace(" (CGS)", "")) for k in order if k in mk),
+                                                    '<span class="tag">schematic</span>' if has_schem(m) else "")
+            rows.append(('<tr><td class="hide">%s</td><td><a href="%s%s.html"><b>%s</b></a><br><small class="muted">%s</small>' + mob.replace("%", "%%") + '</td>%s'
+                        '<td class="c hide">%s</td><td class="c"><a href="%sBOM/%s.csv">CSV</a></td><td>%s</td></tr>') % (
                             '<img loading="lazy" src="%s" alt="">' % img if img else "", link_prefix, m["slug"], e(m["name"]), e(m["function"]),
                             cells, '<span class="y">&#10003;</span>' if has_schem(m) else '<span class="n">&ndash;</span>',
                             link_prefix, m["slug"], mcell))
-        head = ('<tr><th class="hide"></th><th>Module</th>%s<th class="c">Schematic</th><th class="c">BOM</th><th>Mouser upload</th></tr>'
-                % "".join('<th class="c">%s</th>' % e(makers[k]["name"].replace(" (CGS)", "")) for k in order))
+        head = ('<tr><th class="hide"></th><th>Module</th>%s<th class="c hide">Schematic</th><th class="c">BOM</th><th>Mouser upload</th></tr>'
+                % "".join('<th class="c hide">%s</th>' % e(makers[k]["name"].replace(" (CGS)", "")) for k in order))
         return '<div class="scroll"><table class="mx">%s%s</table></div>' % (head, "".join(rows))
 
     # parts & BOMs
@@ -417,7 +469,7 @@ def main():
             "module works, where to get its PCB today, the schematic and BOM that go with that board, Mouser parts orders, and "
             "the panel artwork from 1973 paperface to STS and CGS.</p>"
             '<div class="btns"><a class="btn pri" href="Modules/index.html">Build a module</a><a class="btn" href="boms.html">Parts &amp; BOMs</a>'
-            '<a class="btn" href="panels.html">Panel art</a></div></div>%s</div>' % (
+            '<a class="btn" href="panels.html">Panel art</a><a class="btn" href="panel-builder.html">Build a panel</a></div></div>%s</div>' % (
                 '<img src="%s" alt="The Cal Arts Black Serge, panel 1">' % quote(thumb(hero, 640)))]
     body.append('<div class="stats"><a class="stat" href="Modules/index.html"><b>%d</b><span>module build pages</span></a>'
                 '<a class="stat" href="sources.html"><b>%d</b><span>PCB sources</span></a>'

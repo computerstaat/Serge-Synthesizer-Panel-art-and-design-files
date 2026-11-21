@@ -59,7 +59,15 @@ th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);verti
 h3.hw{font-size:1rem;margin:18px 0 8px}
 footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
 .idx td img{height:110px}
-@media(max-width:760px){.hero{grid-template-columns:1fr}}
+.find{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0 10px}
+.find input,.find select{font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:#fff}.find input{flex:1;min-width:220px}
+.cnt{color:var(--muted);font-size:.9rem}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.chip{font:inherit;font-size:.85rem;border:1px solid var(--line);background:#fff;border-radius:99px;padding:3px 12px;cursor:pointer}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.mk{display:inline-block;font-size:.78rem;background:#efece4;border-radius:99px;padding:1px 9px;margin:2px 2px 2px 0;white-space:nowrap}
+@media(max-width:760px){.hm{display:none}table.idx td:nth-child(3){display:none}.hero{grid-template-columns:1fr}.hero .art img{max-height:380px}
+.panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.panel{width:auto;min-width:0;padding:8px}.panel img{height:180px;width:100%}.panel b,.panel a{font-size:.85rem}
+nav.sub{position:sticky;top:0;z-index:5}nav.sub .in{flex-wrap:nowrap;overflow-x:auto;gap:16px;white-space:nowrap}}
 """
 
 
@@ -173,7 +181,7 @@ def status(s):
 
 
 SITE_NAV = ('<a href="index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a>'
-            '<a href="../panels.html">Panel art</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a>')
+            '<a href="../panels.html">Panel art</a><a href="../panel-builder.html">Panel builder</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a>')
 
 
 def top_bar():
@@ -283,24 +291,39 @@ def page(m):
 
 
 def index():
-    rows = []
-    for m in DATA["modules"]:
+    rows, funcs = [], set()
+    for m in sorted(DATA["modules"], key=lambda m: m["name"]):
         v = next((v for v in m["variants"] if "png" in panel_files(v)), None)
-        img = '<img src="%s" alt="">' % rel(panel_files(v)["png"]) if v else ""
-        makers = ", ".join(sorted({MAKERS[b["maker"]]["name"] for b in m["builds"]}))
-        rows.append('<tr><td>%s</td><td><a href="%s.html"><b>%s</b></a><br><small>%s</small><br>%s</td><td>%s</td><td>%s</td></tr>' % (
-            img, m["slug"], e(m["name"]), e(" · ".join(m.get("aka", []))), e(m["summary"]), e(m["function"]), e(makers)))
+        img = '<img loading="lazy" src="%s" alt="">' % rel(panel_files(v)["png"]) if v else ""
+        mk = sorted({b["maker"] for b in m["builds"]})
+        fn = [f.strip().lower() for f in m["function"].split("/")]
+        funcs.update(fn)
+        tags = "".join('<span class="mk">%s</span>' % e(MAKERS[k]["name"]) for k in mk)
+        text = " ".join([m["name"], " ".join(m.get("aka", [])), m["summary"], m["function"], " ".join(MAKERS[k]["name"] for k in mk)]).lower()
+        rows.append('<tr data-t="%s" data-f="%s" data-m="%s"><td>%s</td><td><a href="%s.html"><b>%s</b></a><br><small>%s</small><br>%s</td><td>%s</td><td>%s</td></tr>' % (
+            e(text), e("|".join(fn)), " ".join(mk), img, m["slug"], e(m["name"]), e(" · ".join(m.get("aka", []))), e(m["summary"]), e(m["function"]), tags))
+    chips = '<button class="chip on" data-v="">All</button>' + "".join('<button class="chip" data-v="%s">%s</button>' % (e(f), e(f[:1].upper() + f[1:])) for f in sorted(funcs))
+    msel = '<select id="mk"><option value="">Any PCB source</option>%s</select>' % "".join(
+        '<option value="%s">%s</option>' % (k, e(x["name"])) for k, x in MAKERS.items() if any(b["maker"] == k for m in DATA["modules"] for b in m["builds"]))
     mk = "".join("<tr><td>%s</td><td>%s</td></tr>" % (link(x["name"], x["url"]), e(x["note"])) for x in MAKERS.values())
+    script = ("<script>{const q=document.getElementById('q'),k=document.getElementById('mk'),n=document.getElementById('n');let f='';"
+              "function go(){const v=q.value.toLowerCase().trim();let c=0;for(const r of document.querySelectorAll('table.idx tr[data-t]')){"
+              "const ok=(!v||v.split(/\\s+/).every(w=>r.dataset.t.includes(w)))&&(!f||r.dataset.f.split('|').includes(f))&&(!k.value||r.dataset.m.split(' ').includes(k.value));"
+              "r.style.display=ok?'':'none';c+=ok}n.textContent=c+(c==1?' module':' modules')}"
+              "q.addEventListener('input',go);k.addEventListener('change',go);"
+              "for(const b of document.querySelectorAll('.chip'))b.addEventListener('click',()=>{for(const x of document.querySelectorAll('.chip'))x.classList.remove('on');b.classList.add('on');f=b.dataset.v;go()});go()}</script>")
     return ('<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            '<title>Serge module build pages</title><style>%s</style></head><body>'
+            '<title>Build a module | Serge DIY</title><style>%s</style></head><body>'
             '<header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a>' + SITE_NAV + '</div></header><main>'
-            '<h1>Serge module build pages</h1><p class="summary">For each module: the panels in this repo, how it works, '
-            'the front-panel hardware, and every known way to build it, with its PCB, schematic and parts list.</p>'
-            '<section id="modules"><h2>Modules</h2><table class="idx"><tr><th></th><th>Module</th><th>Function</th><th>Build options</th></tr>%s</table></section>'
+            '<h1>Build a module</h1><p class="summary">For each module: the panels in this repo, how it works, '
+            'the front-panel hardware, and every known way to build it, with its PCB, schematic, BOM and Mouser parts.</p>'
+            '<div class="find"><input id="q" type="search" placeholder="Search modules: name, function, maker..." aria-label="Search modules">%s<span id="n" class="cnt"></span></div>'
+            '<div class="chips">%s</div>'
+            '<section id="modules"><table class="idx"><tr><th></th><th>Module</th><th class="hm">Function</th><th class="hm">PCB sources</th></tr>%s</table></section>'
             '<section id="sources"><h2>Where to get parts</h2><table><tr><th>Source</th><th>What they offer</th></tr>%s</table>'
             '<p class="licence">%s</p></section>'
-            '<footer>Generated by Modules/_source/make_pages.py from modules.json.</footer></main></body></html>') % (
-        CSS, "".join(rows), mk, e(DATA.get("licence_note", "")))
+            '<footer>Generated by Modules/_source/make_pages.py from modules.json.</footer></main>%s</body></html>') % (
+        CSS, msel, chips, "".join(rows), mk, e(DATA.get("licence_note", "")), script)
 
 
 SITE = "https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/"

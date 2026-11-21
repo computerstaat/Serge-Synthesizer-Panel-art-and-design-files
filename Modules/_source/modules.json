@@ -825,6 +825,16 @@
      "notes": [
       "LW-format version: https://prismcircuits.net/products/1973-oscillator",
       "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ],
+     "docs": [
+      [
+       "Serge 1973 paperface manual: the Oscillator (NYU IDM scan)",
+       "https://idmnyu.github.io/audiolab/pdf/1973PaperFace.pdf"
+      ],
+      [
+       "Ken Stone CGS48 VCO, built to replace the 1973 Serge VCOs, with schematic",
+       "https://open4umodular.github.io/synthpanel/modules/cgs48_vco.html"
+      ]
      ]
     },
     {
@@ -1371,8 +1381,9 @@
      "offer": "PCB for a 4U paperface panel (also an LW-format version); the CA3080 is bought separately",
      "format": "4U Serge, paperface",
      "schematic": {
-      "status": "none",
-      "title": "Not published by Prism"
+      "status": "available",
+      "title": "Original 1973 Gate schematic (Ken Stone's notes on sdiy.info); Prism does not publish its own",
+      "url": "https://sdiy.info/wiki/Ken_Stone/1973_classic_Serge/Serge_ring_modulator_and_gate"
      },
      "bom": {
       "status": "available",
@@ -1381,7 +1392,14 @@
      },
      "notes": [
       "LW-format version: https://prismcircuits.net/products/gate-ringmod-lw",
-      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here.",
+      "modularsynthesis.com notes that X and Y are swapped on the original R6 PCB, which swaps the +12 V and +6 V supplies."
+     ],
+     "docs": [
+      [
+       "R6 Gate schematic redrawn with panel parts and values (modularsynthesis.com, Box 1)",
+       "https://modularsynthesis.com/serge/box1/serge1.htm"
+      ]
      ]
     }
    ],
@@ -2514,8 +2532,9 @@
      "offer": "PCB for a 4U paperface panel (also an LW-format version)",
      "format": "4U Serge, paperface",
      "schematic": {
-      "status": "none",
-      "title": "Not published by Prism"
+      "status": "available",
+      "title": "Original 1973 dual mixer pot wiring (Ken Stone's notes on sdiy.info); Prism does not publish its own",
+      "url": "https://sdiy.info/wiki/Ken_Stone/1973_classic_Serge/Serge_dual_mixer"
      },
      "bom": {
       "status": "available",
@@ -2524,7 +2543,14 @@
      },
      "notes": [
       "LW-format version: https://prismcircuits.net/products/dual-mixer-lw",
-      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here.",
+      "Prism's BOM lists 1/4\" jacks; choose 1/4\" or 3.5 mm jacks before ordering."
+     ],
+     "docs": [
+      [
+       "Original Serge kit wiring diagram: Dual Audio Mixer (MIX/MIX board)",
+       "https://open4umodular.github.io/synthpanel/synth/serge/kit/dam.html"
+      ]
      ]
     }
    ],
@@ -2597,8 +2623,9 @@
      "offer": "PCB for a 4U paperface panel",
      "format": "4U Serge, paperface",
      "schematic": {
-      "status": "none",
-      "title": "Not published by Prism"
+      "status": "available",
+      "title": "Original 1973 sequencer schematic (Ken Stone's notes on sdiy.info); Prism does not publish its own",
+      "url": "https://sdiy.info/wiki/Ken_Stone/1973_classic_Serge/Serge_dual_sequencer"
      },
      "bom": {
       "status": "available",
@@ -2606,7 +2633,14 @@
       "url": "https://prismcircuits.net/products/serge-modular-sequencer"
      },
      "notes": [
-      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+      "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here.",
+      "Calibration per Prism: probe an active step and set the OUTPUT trimmer so each step puts out 5 to 6 V."
+     ],
+     "docs": [
+      [
+       "Original Serge kit wiring diagram and self-test: Sequencer (10 stages), PC board R16",
+       "https://open4umodular.github.io/synthpanel/synth/serge/kit/seq_r16.html"
+      ]
      ]
     }
    ],

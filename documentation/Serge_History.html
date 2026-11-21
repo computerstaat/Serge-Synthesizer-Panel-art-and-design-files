@@ -16,7 +16,7 @@ h1{font-size:clamp(2rem,4vw,2.8rem);line-height:1.1;margin:0 0 10px}h2{font-size
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;text-decoration:none;color:var(--ink);display:block}
 .card:hover{border-color:var(--ink)}.card h3{margin:8px 0 4px;font-size:1.1rem}.card p{margin:0;font-size:.93rem;color:var(--muted)}
 .card .strip{height:150px;display:flex;gap:4px;overflow:hidden;align-items:flex-end;justify-content:center;background:#faf9f5;border-radius:6px;padding:6px}
-.card .strip img{height:100%;width:auto}
+.card .strip img{height:100%;width:auto}.card.sys p{margin-top:4px}.doccard h3{margin-top:10px}
 .tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:0 0 6px}
 .tools input{font:inherit;padding:8px 12px;border:1px solid var(--line);border-radius:8px;min-width:260px;background:#fff}
 .chips{display:flex;gap:8px;flex-wrap:wrap}.chips a{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:.88rem;text-decoration:none;color:var(--ink)}
@@ -51,28 +51,45 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 .tag.ok{background:#dff3e4;color:#1b5e2e}
 .scroll{overflow-x:auto}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}}
-</style></head><body><header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="../Modules/index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../systems.html">Systems</a><a href="../documentation.html" class="on">Library</a></div></header><main><p class="muted"><a href="../documentation.html">Documentation</a> /</p><div class="doc"><h1>Serge history, as it bears on the panel artwork</h1>
+.mob{display:none;margin-top:4px}
+@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}.mob{display:block}
+.mx td,.mx th{padding:8px 6px}.stats{grid-template-columns:1fr 1fr}.stat b{font-size:1.6rem}
+header .wrap{flex-wrap:wrap;gap:4px 14px}}
+</style></head><body><header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="../Modules/index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../panel-builder.html">Panel builder</a><a href="../systems.html">Systems</a><a href="../documentation.html" class="on">Library</a></div></header><main><p class="muted"><a href="../documentation.html">Library</a> /</p><div class="doc"><h1>Serge history, as it bears on the panel artwork</h1>
 <p>A summary in our own words, from the Wikipedia "Serge synthesizer" article (current and older revisions) and the
 Egres fan site (serge-fans.com, Darrel Johansen, Gary Chang and Kevin Braheny Fortune's pages).</p>
 <h2>Timeline</h2>
 <ul>
-<li><strong>1972–73:</strong> Serge Tcherepnin, Rich Gold and Randy Cohen design the first modules at CalArts. Students pay for
+<li>
+<p><strong>1972–73:</strong> Serge Tcherepnin, Rich Gold and Randy Cohen design the first modules at CalArts. Students pay for
   parts, build modules in an informal "assembly line" and take home a six-panel system. The CME system at UC San
-  Diego, La Jolla dates from 1973.</li>
-<li><strong>1974–75:</strong> Serge leaves teaching. Serge Modular Music Systems starts in Hollywood (Western Avenue and Santa
-  Monica Boulevard).</li>
-<li><strong>Around 1976:</strong> a new generation of modules (Quad VCA, UPAP, Precision VCO, NTO, the variable Q, slope and
-  bandwidth filters, Wave Multipliers, DUSG/DTG, TKB, Extended ADSR, Pitch and Envelope Follower).</li>
-<li><strong>Around 1979:</strong> the "Series 79" standard system; the next generation (Active Processor, Resonant Equalizer,
+  Diego, La Jolla dates from 1973.</p>
+</li>
+<li>
+<p><strong>1974–75:</strong> Serge leaves teaching. Serge Modular Music Systems starts in Hollywood (Western Avenue and Santa
+  Monica Boulevard).</p>
+</li>
+<li>
+<p><strong>Around 1976:</strong> a new generation of modules (Quad VCA, UPAP, Precision VCO, NTO, the variable Q, slope and
+  bandwidth filters, Wave Multipliers, DUSG/DTG, TKB, Extended ADSR, Pitch and Envelope Follower).</p>
+</li>
+<li>
+<p><strong>Around 1979:</strong> the "Series 79" standard system; the next generation (Active Processor, Resonant Equalizer,
   sequencer programmers, comparators, Wilson Analog Delay, Quantizer, Frequency Shifter, Quadrature Oscillator, Dual
-  VCA). The company moves to Haight Street, San Francisco, around 1980.</li>
-<li><strong>Mid 1980s:</strong> business slows; the N-Voice Controller (around 1982) is about the last new module.</li>
-<li><strong>1992:</strong> Serge returns to France and sells the designs to Rex Probe, who founds Sound Transform Systems (STS).
+  VCA). The company moves to Haight Street, San Francisco, around 1980.</p>
+</li>
+<li>
+<p><strong>Mid 1980s:</strong> business slows; the N-Voice Controller (around 1982) is about the last new module.</p>
+</li>
+<li>
+<p><strong>1992:</strong> Serge returns to France and sells the designs to Rex Probe, who founds Sound Transform Systems (STS).
   STS adds Pulse Divider, Boolean Logic, an audio mixer with phase switch and other modules, and redesigns many
-  layouts to be more compact.</li>
-<li><strong>Later:</strong> licensed and DIY versions from CGS (Ken Stone), Random*Source, ELBY, Loudest Warning, 73-75 and
-  others.</li>
+  layouts to be more compact.</p>
+</li>
+<li>
+<p><strong>Later:</strong> licensed and DIY versions from CGS (Ken Stone), Random*Source, ELBY, Loudest Warning, 73-75 and
+  others.</p>
+</li>
 </ul>
 <h2>How the panels were made</h2>
 <p>Every Serge panel is the same 17" × 7" pre-drilled aluminium panel holding 16" of modules. What changed is the
@@ -113,10 +130,16 @@ graphics:</p>
 </tr>
 </tbody>
 </table>
-<p>Other details:
-- Early panels had every hole punched; graphics covered the unused ones.
-- Jack colours: red for triggers and logic, blue for control, black for audio, yellow or green for special.
-- Early Sequencers had two jacks per output, later ones one. Some early Noise Sources had only the white, pink and
-  S/H source outputs.
-- Darrel Johansen's custom six-panel system, built in the early 1980s with reversed (silver on black) metallic
-  graphics, was donated to CalArts in 1997. That fits the Cal Arts Black Serge (<code>../Systems/CalArts_Black_Serge.md</code>).</p></div><footer>Serge DIY: build notes, parts lists and panel artwork for Serge-format modules, shared for educational purposes. Schematics, PCBs and BOMs belong to their designers and sellers and are linked, not copied. Module designs, names and trademarks belong to their owners. <a href="https://github.com/computerstaat/Serge-Synthesizer-Panel-art-and-design-files">Source on GitHub</a>.</footer></main></body></html>
+<p>Other details:</p>
+<ul>
+<li>Early panels had every hole punched; graphics covered the unused ones.</li>
+<li>Jack colours: red for triggers and logic, blue for control, black for audio, yellow or green for special.</li>
+<li>
+<p>Early Sequencers had two jacks per output, later ones one. Some early Noise Sources had only the white, pink and
+  S/H source outputs.</p>
+</li>
+<li>
+<p>Darrel Johansen's custom six-panel system, built in the early 1980s with reversed (silver on black) metallic
+  graphics, was donated to CalArts in 1997. That fits the Cal Arts Black Serge (<code>../Systems/CalArts_Black_Serge.md</code>).</p>
+</li>
+</ul></div><footer>Serge DIY: build notes, parts lists and panel artwork for Serge-format modules, shared for educational purposes. Schematics, PCBs and BOMs belong to their designers and sellers and are linked, not copied. Module designs, names and trademarks belong to their owners. <a href="https://github.com/computerstaat/Serge-Synthesizer-Panel-art-and-design-files">Source on GitHub</a>.</footer></main></body></html>

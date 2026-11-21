@@ -38,9 +38,17 @@ th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);verti
 h3.hw{font-size:1rem;margin:18px 0 8px}
 footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
 .idx td img{height:110px}
-@media(max-width:760px){.hero{grid-template-columns:1fr}}
+.find{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0 10px}
+.find input,.find select{font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:#fff}.find input{flex:1;min-width:220px}
+.cnt{color:var(--muted);font-size:.9rem}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.chip{font:inherit;font-size:.85rem;border:1px solid var(--line);background:#fff;border-radius:99px;padding:3px 12px;cursor:pointer}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.mk{display:inline-block;font-size:.78rem;background:#efece4;border-radius:99px;padding:1px 9px;margin:2px 2px 2px 0;white-space:nowrap}
+@media(max-width:760px){.hm{display:none}table.idx td:nth-child(3){display:none}.hero{grid-template-columns:1fr}.hero .art img{max-height:380px}
+.panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.panel{width:auto;min-width:0;padding:8px}.panel img{height:180px;width:100%}.panel b,.panel a{font-size:.85rem}
+nav.sub{position:sticky;top:0;z-index:5}nav.sub .in{flex-wrap:nowrap;overflow-x:auto;gap:16px;white-space:nowrap}}
 </style></head><body>
-<header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a></div></header><nav class="sub"><div class="in"><a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a><a href="#build">Build options</a><a href="#bom">BOM</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></nav>
+<header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../panel-builder.html">Panel builder</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a></div></header><nav class="sub"><div class="in"><a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a><a href="#build">Build options</a><a href="#bom">BOM</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></nav>
 <main>
 <div class="hero"><div class="art"><img src="../Paperface/Images/Module/Sequencer.png" alt="Sequencer (Ten-Stage Pulse Sequencer) panel"></div><div>
 <h1>Sequencer (Ten-Stage Pulse Sequencer)</h1>
@@ -63,9 +71,11 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 <div class="build" id="build-0"><h3><a href="https://prismcircuits.net/products/serge-modular-sequencer">Prism Circuits Sequencer</a></h3><p class="maker"><a href="https://prismcircuits.net/">Prism Circuits</a></p><dl>
 <dt>Offered as</dt><dd>PCB for a 4U paperface panel</dd>
 <dt>Format</dt><dd>4U Serge, paperface</dd>
-<dt>Schematic</dt><dd><span class="pill none">not published</span>Not published by Prism</dd><dt>BOM</dt><dd><span class="pill available">available</span><a href="https://prismcircuits.net/products/serge-modular-sequencer">Mouser project BOM, linked from the product page</a></dd>
+<dt>Schematic</dt><dd><span class="pill available">available</span><a href="https://sdiy.info/wiki/Ken_Stone/1973_classic_Serge/Serge_dual_sequencer">Original 1973 sequencer schematic (Ken Stone&#x27;s notes on sdiy.info); Prism does not publish its own</a></dd><dt>BOM</dt><dd><span class="pill available">available</span><a href="https://prismcircuits.net/products/serge-modular-sequencer">Mouser project BOM, linked from the product page</a></dd>
+<dt>Documents</dt><dd><a href="https://open4umodular.github.io/synthpanel/synth/serge/kit/seq_r16.html">Original Serge kit wiring diagram and self-test: Sequencer (10 stages), PC board R16</a></dd>
 </dl>
 <p class="note">Prism&#x27;s product page also links its own panel art; that artwork is Prism&#x27;s and is not copied here.</p>
+<p class="note">Calibration per Prism: probe an active step and set the OUTPUT trimmer so each step puts out 5 to 6 V.</p>
 </div>
 </div><p class="licence">Ken Stone&#x27;s Serge-derived designs may be built for personal use only; Serge Tcherepnin keeps all rights to his circuits. Schematics, parts lists and PCBs belong to their designers and sellers, so these pages link to them rather than copying them.</p></section>
 <section id="bom"><h2>Bill of materials</h2><p>Spreadsheet: <a href="BOM/sequencer-10-stage.csv">sequencer-10-stage.csv</a> (CSV; opens in Excel, Numbers or Google Sheets). The Mouser columns are there to fill in with order links.</p>
