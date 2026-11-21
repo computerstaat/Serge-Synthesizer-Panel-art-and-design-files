@@ -1,20 +1,46 @@
-# Mouser parts still to choose
+# Mouser parts still to choose or check
 
-These values from Ken Stone's parts lists have no Mouser part yet. Each candidate must be checked on mouser.com for stock and price before it goes into `mouser_parts.json`.
+Every value in Ken Stone's parts lists (`parts/*.json`) now maps to a Mouser part or to a reason it is bought elsewhere (`not_at_mouser` in `mouser_parts.json`).
 
-- **Resistors:** 33R, 47R, 220R, 470R, 820R, 1k5, 1k8, 2k, 3k3, 4k7, 18k, 20k, 34k, 47k5, 51k1, 680k, 2M2, 2M7, 3M3, 4M7, 6M8, 10M, 11M. Yageo MFR-25FBF52 where it exists, otherwise KOA MFS or Vishay MRS25.
-- **Trimmers:** 100R, 4k7 (use 5k), 10k, 20k (Bourns 3362P).
-- **Pots:** 10k, 20k and 50k linear, 50k log (Alpha 16 mm, RV16AF series).
-- **Capacitors:**
-  - C0G ceramic: 10pF, 22pF, 30pF, 120pF, 150pF, 1nF, 2.2nF (TDK FG28).
-  - Film: 22n, 47n, 220n, 330n (WIMA MKS2).
-  - Electrolytic: 1uF, and 1uF bipolar.
-- **Semiconductors:**
-  - CMOS: CD4001BE, CD4007UBE, CD4013BE, CD4017BE, CD4024BE, CD4052BE, CD4066BE (in place of the 4016), CD4069UBE, CD4081BE.
-  - Op-amps and comparators: UA741CP, LM324N, LM339N, CA3130EZ, CA3140EZ (in place of the LF356).
-  - Regulators: 78L12, 79L12.
-  - Zeners: 4V3, 5V6 (Vishay TZX).
-  - JFET: J201.
-  - LED: 3 mm.
-  - Old transistor numbers to replace with BC547B / BC557B / 2N3904 / 2N3906: 2N3391A, 2N3565, 2N3566, 2N3638, 2N4248, 2N4250.
-- **Switches:** DPDT mini toggle, and SPST centre-off (use SPDT on-off-on).
+## Not at Mouser (by design)
+
+These go to the `_not_at_mouser.csv` files with a note on where to get them:
+
+- **Obsolete chips:**
+  - CA3080 / LM3080 OTA
+  - CA3046 / CA3086 transistor array (Low-Gain sells the LGE3086 replacement)
+  - LM307
+  - VTL5C3/2 vactrol
+- **PCBs.**
+- **Header strips:** cut from breakaway header.
+- **Front-panel hardware:** jacks, knobs, and the CGS89's 12-position rotary switch.
+- **Sub-boards** (CGS108, CGS102): they have their own upload files.
+- **Values Ken Stone leaves to the builder:** RG1-4 on the CGS77, and RPD on the CGS97.
+
+## Mapped but not checked on mouser.com
+
+The keys listed under `unverified` in `mouser_parts.json` (92 of them) were added on 2026-11-20. Their part numbers come from each manufacturer's numbering pattern, following the parts already in the file, and their prices are estimates. Each line in the upload files is marked `[UNVERIFIED: check stock and price]`.
+
+Spot-checked so far:
+
+- **InterFET J201 (106-J201):** in stock.
+- **onsemi 2N3904BU (512-2N3904BU):** in stock.
+- **Bourns 3362P-1-502LF:** exists, but was backordered on mouser.co.uk.
+- **Part numbers that exist** (checked at other distributors):
+  - TDK FG28C0G1H222JNT06
+  - Vishay TZX5V6A-TR
+  - TI CD4066BE, LM78L12ACZ/NOPB, LM79L12ACZ/NOPB, UA741CP, LM324N
+  - Renesas CA3140EZ
+  - KOA RK1/4DCT52R1005F
+  - Yageo MFR-25FBF52-47K5
+- **Alpha log pots:** Mouser lists them as 313-5000F-<value> (RV16AF-…-A<value>).
+- **Nichicon UES1H010MDM (1uF bipolar):** listed, but marked for discontinuation.
+
+When a key has been checked on mouser.com, remove it from `unverified` and update its price.
+
+Least certain:
+
+- **WIMA MKS2 numbers** (22n, 47n, 220n, 330n): these copy the shape of the existing 470n entry.
+- **TDK 4.7nF C0G** (FG28C0G1H472JNT06): may only come in a different voltage rating.
+- **KOA RK 11M:** not a common value.
+- **C&K 7000-series toggles:** expensive. The CGS89 needs twenty centre-off toggles, about $100 at Mouser, so builders may prefer a synth-parts supplier.

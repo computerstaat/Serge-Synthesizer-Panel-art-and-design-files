@@ -2997,7 +2997,10 @@
      "maker": "kenstone",
      "name": "Ken Stone CGS112 Serge VC Resonance Filter",
      "url": "https://open4umodular.github.io/synthpanel/modules/cgs112_vcfq.html",
-     "parts": "cgs112_vcfq",
+     "parts": [
+      "cgs112_vcfq",
+      "cgs108_vca"
+     ],
      "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
      "pcb": {
       "maker": "elby",
@@ -3015,7 +3018,8 @@
       "url": "https://open4umodular.github.io/synthpanel/modules/cgs112_vcfq.html"
      },
      "notes": [
-      "Elby now supplies the Serge gain cells for the CGS512 only as pre-built, factory-calibrated sub-assemblies with the PCB; they are no longer a DIY kit."
+      "Elby now supplies the Serge gain cells for the CGS512 only as pre-built, factory-calibrated sub-assemblies with the PCB; they are no longer a DIY kit.",
+      "The carrier needs three CGS108 gain cells; the CGS108 parts list below is for one."
      ]
     },
     {
