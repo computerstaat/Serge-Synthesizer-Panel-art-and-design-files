@@ -1,11 +1,13 @@
 const M=JSON.parse(document.getElementById('man').textContent),HD=JSON.parse(document.getElementById('holes').textContent),D=96,MMI=25.4,cache={};let sel=[],uid=0;
 const NS='http://www.w3.org/2000/svg',INK='http://www.inkscape.org/namespaces/inkscape';
 const $=id=>document.getElementById(id);
-function lib(){const q=$('q').value.toLowerCase(),er=$('era').value;$('lst').innerHTML='';
- M.forEach((m,i)=>{if(er&&m.e!==er)return;if(q&&!m.n.toLowerCase().includes(q))return;
+let era='';
+function lib(){const q=$('q').value.toLowerCase(),pc=$('pcb').checked;$('lst').innerHTML='';let c=0;
+ M.forEach((m,i)=>{if(era&&m.e!==era)return;if(pc&&!m.b)return;if(q&&!m.n.toLowerCase().includes(q))return;c++;
   const d=document.createElement('div');d.className='it';d.title='Add '+m.n;
-  d.innerHTML=(m.t?'<img loading="lazy" src="'+m.t+'" alt="">':'')+m.n+'<br><small>'+m.e+' · '+(+m.w).toFixed(2)+'"'+(m.k?'':' · no drill data')+'</small>';
-  d.onclick=()=>{sel.push(i);draw()};$('lst').appendChild(d)})}
+  d.innerHTML=(m.t?'<img loading="lazy" src="'+m.t+'" alt="">':'')+m.n+'<br><small>'+m.e+' · '+(+m.w).toFixed(2)+'"'+(m.k?'':' · no drill data')+'</small>'+(m.b?'<br><small class="pb1">PCB</small>':'');
+  d.onclick=()=>{sel.push(i);draw()};$('lst').appendChild(d)});
+ if(!c)$('lst').innerHTML='<p class="muted">No modules match.</p>'}
 async function get(m){if(!cache[m.s]){const r=await fetch(m.s);cache[m.s]=await r.text()}return cache[m.s]}
 const lab=g=>g.getAttribute('inkscape:label')||'';
 function nest(txt,x,y,m,keep){const p='m'+(++uid)+'-';
@@ -18,7 +20,8 @@ function nest(txt,x,y,m,keep){const p='m'+(++uid)+'-';
  s.setAttribute('x',x);s.setAttribute('y',y);s.setAttribute('width',m.w*D);s.setAttribute('height',m.h*D);return s}
 function target(){const v=$('pw').value;return v==='fit'?null:v==='custom'?(+$('cw').value||17):+v}
 function layout(){const used=sel.reduce((a,i)=>a+M[i].w,0),T=target(),W=Math.max(T||used,used,0.5),H=7;
- let x=$('al').value==='center'&&T&&used<T?(T-used)/2:0;const pos=[];for(const i of sel){pos.push([i,x]);x+=M[i].w}return{used,T,W,H,pos}}
+ let x=T&&used<T?(T-used)/2:0;   /* always centred on the panel */
+ const pos=[];for(const i of sel){pos.push([i,x]);x+=M[i].w}return{used,T,W,H,pos}}
 function holes(L){const out=[],miss=[],Hmm=L.H*MMI,Wmm=L.W*MMI;
  for(const[i,x]of L.pos){const m=M[i],h=m.k&&HD.modules[m.k];if(!h){miss.push(m.n);continue}
   const ox=x*MMI,oy=(L.H-m.h)/2*MMI;
@@ -129,7 +132,9 @@ $('dp').onclick=async()=>png(await svg('art'),150,b=>save(b,nm()+'.png'));
 $('dd').onclick=()=>save(pdf(),nm()+'_drill_template.pdf');
 $('df').onclick=()=>fpdKit().catch(e=>{$('df').textContent='Front Panel Express kit (.zip)';alert('Could not build the kit: '+e)});
 $('cp').onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText(location.href);$('cp').textContent='Link copied'};
-['q','era'].forEach(i=>$(i).addEventListener('input',lib));['pw','cw','bg','al','fr','mt'].forEach(i=>$(i).addEventListener('change',()=>{$('cw').style.display=$('pw').value==='custom'?'':'none';draw()}));
+$('q').addEventListener('input',lib);$('pcb').addEventListener('change',lib);
+for(const b of document.querySelectorAll('#eras .chip'))b.onclick=()=>{for(const x of document.querySelectorAll('#eras .chip'))x.classList.remove('on');b.classList.add('on');era=b.dataset.v;lib()};
+['pw','cw','bg','fr','mt'].forEach(i=>$(i).addEventListener('change',()=>{$('cw').style.display=$('pw').value==='custom'?'':'none';draw()}));
 const h=new URLSearchParams(location.hash.slice(1));
 if(h.get('m'))sel=h.get('m').split(',').map(n=>M.findIndex(m=>m.s===n||m.n===n)).filter(i=>i>=0);
 if(h.get('w'))$('pw').value=h.get('w');
