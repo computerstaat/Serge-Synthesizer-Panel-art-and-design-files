@@ -94,8 +94,8 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 header .wrap{flex-wrap:wrap;gap:4px 14px}}
 """
 
-NAV = [("Modules/index.html", "Build a module"), ("boms.html", "Parts & BOMs"), ("sources.html", "PCB sources"),
-       ("panels.html", "Panel art"), ("panel-builder.html", "Panel builder"), ("systems.html", "Systems"), ("documentation.html", "Library")]
+NAV = [("Modules/index.html", "Build a module"), ("panel-builder.html", "Build a panel"), ("boms.html", "Parts & BOMs"),
+       ("sources.html", "PCB sources"), ("panels.html", "Panel art"), ("systems.html", "Systems"), ("documentation.html", "Library")]
 
 
 def nav(depth, on=""):
@@ -380,7 +380,7 @@ def main():
         0, "Library"))
 
     import panel_builder
-    write("panel-builder.html", page("Panel builder | Serge DIY", panel_builder.body(ROOT, thumb, links), 0, "Panel builder"))
+    write("panel-builder.html", page("Build a panel | Serge DIY", panel_builder.body(ROOT, thumb, links), 0, "Build a panel"))
 
     # data for the DIY pages
     D = json.load(open(os.path.join(ROOT, "Modules", "_source", "modules.json")))
@@ -426,12 +426,14 @@ def main():
 
     # parts & BOMs
     brows = []
+    tsum = json.load(open(os.path.join(ROOT, "Modules", "BOM", "tayda", "summary.json")))
     for slug in sorted(mfiles):
         m = next(x for x in mods if x["slug"] == slug)
         for b, v in mfiles[slug]:
             brows.append('<tr><td><a href="Modules/%s.html">%s</a></td><td>%s</td><td class="c">%d</td><td class="c">%d</td><td class="c">%s</td><td class="c">$%.2f</td>'
-                         '<td><a class="tag ok" href="Modules/BOM/mouser/%s__%s.csv">Upload file</a> <a class="tag" href="Modules/BOM/mouser/%s__%s_not_at_mouser.csv">Other parts</a></td></tr>' % (
-                             slug, e(m["name"]), e(b.upper().replace("_", " ")), v["lines"], v.get("elsewhere", 0), v.get("unverified", 0) or "&ndash;", v["cost"], slug, b, slug, b))
+                         '<td><a class="tag ok" href="Modules/BOM/mouser/%s__%s.csv">Upload file</a> <a class="tag" href="Modules/BOM/mouser/%s__%s_not_at_mouser.csv">Other parts</a>%s</td></tr>' % (
+                             slug, e(m["name"]), e(b.upper().replace("_", " ")), v["lines"], v.get("elsewhere", 0), v.get("unverified", 0) or "&ndash;", v["cost"], slug, b, slug, b,
+                             (' <a class="tag ok" href="Modules/BOM/tayda/%s__%s.csv">Tayda pots &amp; knobs</a>' % (slug, b)) if (slug + "__" + b) in tsum else ""))
     write("boms.html", page("Parts & BOMs | Serge DIY",
         "<h1>Parts &amp; BOMs</h1><p class=\"lead\">Every module has a BOM spreadsheet covering each way to build it, plus the panel hardware. "
         "For boards we've worked through line by line, there is also a ready-made <b>Mouser upload file</b>: low-cost parts (check stock before ordering), "
@@ -440,7 +442,8 @@ def main():
         '<div class="step"><h3>Download the upload file</h3><p>Pick the board you are building below. Each file is a CSV in Mouser\'s BOM tool layout.</p></div>'
         '<div class="step"><h3>Open the Mouser BOM tool</h3><p>Go to <a href="https://www.mouser.com/bomtool/">mouser.com/bomtool</a> and upload the CSV. The columns map automatically.</p></div>'
         '<div class="step"><h3>Check stock and quantities</h3><p>Prices and stock change daily. Multiply quantities if you are building more than one.</p></div>'
-        '<div class="step"><h3>Get the rest elsewhere</h3><p>Banana jacks, knobs and anything Mouser does not stock is in the "Other parts" file.</p></div></div>'
+        '<div class="step"><h3>Pots and knobs from Tayda</h3><p>Front-panel pots and Davies 1900H-style knobs are cheaper at <a href="https://www.taydaelectronics.com">Tayda</a>: '
+        'each board with pots has a "Tayda pots &amp; knobs" list with SKUs and links. Banana jacks and anything else Mouser does not stock is in the "Other parts" file.</p></div></div>'
         '<h2>Mouser upload files</h2><div class="scroll"><table class="mx"><tr><th>Module</th><th>Board</th><th class="c">Mouser lines</th>'
         '<th class="c">Bought elsewhere</th><th class="c">Unchecked lines</th><th class="c">Approx. cost</th><th>Files</th></tr>%s</table></div>'
         '<p class="muted">Costs are Mouser\'s single-unit prices when the file was made, before tax and shipping, for one board, without the PCB or panel.</p>'

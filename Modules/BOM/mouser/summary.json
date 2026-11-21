@@ -1,22 +1,22 @@
 {
  "triple-comparator__cgs96_comp": {
-  "lines": 20,
+  "lines": 19,
   "elsewhere": 1,
-  "cost": 15.08,
+  "cost": 11.0,
   "unverified": 0,
   "boards": 1
  },
  "triple-wave-shaper__cgs85_tws": {
-  "lines": 15,
+  "lines": 14,
   "elsewhere": 1,
-  "cost": 22.05,
+  "cost": 17.22,
   "unverified": 0,
   "boards": 1
  },
  "ring-modulator__cgs79_ring": {
-  "lines": 20,
+  "lines": 19,
   "elsewhere": 3,
-  "cost": 13.93,
+  "cost": 12.57,
   "unverified": 0,
   "boards": 1
  },
@@ -42,17 +42,17 @@
   "boards": 1
  },
  "envelope-generator-1973__cgs76_env": {
-  "lines": 38,
+  "lines": 37,
   "elsewhere": 1,
-  "cost": 40.45,
+  "cost": 35.62,
   "unverified": 10,
   "boards": 1
  },
  "filter-1973__cgs77_vcf": {
-  "lines": 39,
+  "lines": 37,
   "elsewhere": 3,
-  "cost": 38.63,
-  "unverified": 9,
+  "cost": 32.4,
+  "unverified": 8,
   "boards": 1
  },
  "negative-slew__cgs82_negative_slew": {
@@ -63,17 +63,17 @@
   "boards": 1
  },
  "positive-slew__cgs83_positive_slew": {
-  "lines": 27,
+  "lines": 26,
   "elsewhere": 1,
-  "cost": 25.99,
+  "cost": 19.55,
   "unverified": 6,
   "boards": 1
  },
  "peak-trough__cgs84_peakandtrough": {
-  "lines": 11,
+  "lines": 10,
   "elsewhere": 1,
-  "cost": 11.46,
-  "unverified": 1,
+  "cost": 8.66,
+  "unverified": 0,
   "boards": 1
  },
  "bi-directional-router__cgs88_bds": {
@@ -126,37 +126,37 @@
   "boards": 3
  },
  "wave-multipliers__cgs113_vcm": {
-  "lines": 39,
+  "lines": 38,
   "elsewhere": 2,
-  "cost": 48.84,
+  "cost": 44.01,
   "unverified": 13,
   "boards": 1
  },
  "dual-universal-slope-generator__cgs114_dusg": {
-  "lines": 35,
+  "lines": 34,
   "elsewhere": 1,
-  "cost": 51.55,
-  "unverified": 9,
+  "cost": 43.15,
+  "unverified": 8,
   "boards": 1
  },
  "extended-adsr__cgs116_env": {
-  "lines": 41,
+  "lines": 40,
   "elsewhere": 2,
-  "cost": 35.15,
+  "cost": 27.1,
   "unverified": 17,
   "boards": 1
  },
  "resonant-equalizer__cgs202_reseq": {
-  "lines": 44,
+  "lines": 42,
   "elsewhere": 2,
-  "cost": 46.25,
-  "unverified": 27,
+  "cost": 28.75,
+  "unverified": 26,
   "boards": 1
  },
  "dual-channel-stereo-mixer__cgs101_dcsm": {
-  "lines": 13,
+  "lines": 12,
   "elsewhere": 3,
-  "cost": 19.76,
+  "cost": 13.32,
   "unverified": 2,
   "boards": 1
  },
@@ -189,10 +189,10 @@
   "boards": 1
  },
  "vc-slope__cgs75_vcs": {
-  "lines": 42,
+  "lines": 40,
   "elsewhere": 1,
-  "cost": 46.48,
-  "unverified": 12,
+  "cost": 40.46,
+  "unverified": 11,
   "boards": 1
  },
  "tri-core-vco__lge130": {

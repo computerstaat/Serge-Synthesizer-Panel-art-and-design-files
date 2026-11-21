@@ -48,7 +48,7 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 .panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.panel{width:auto;min-width:0;padding:8px}.panel img{height:180px;width:100%}.panel b,.panel a{font-size:.85rem}
 nav.sub{position:sticky;top:0;z-index:5}nav.sub .in{flex-wrap:nowrap;overflow-x:auto;gap:16px;white-space:nowrap}}
 </style></head><body>
-<header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../panel-builder.html">Panel builder</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a></div></header><nav class="sub"><div class="in"><a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a><a href="#build">Build options</a><a href="#bom">BOM</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></nav>
+<header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="index.html">Build a module</a><a href="../panel-builder.html">Build a panel</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a></div></header><nav class="sub"><div class="in"><a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a><a href="#build">Build options</a><a href="#bom">BOM</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></nav>
 <main>
 <div class="hero"><div class="art"><img src="../Modern/Images/Module/Variable_Slope_VCF.png" alt="Variable Slope VCF panel"></div><div>
 <h1>Variable Slope VCF</h1>
@@ -71,13 +71,16 @@ nav.sub{position:sticky;top:0;z-index:5}nav.sub .in{flex-wrap:nowrap;overflow-x:
 <div class="build" id="build-0"><h3><a href="https://www.low-gain.com/shop/p/lge111">Low-Gain LGE111 Slope Filter</a></h3><p class="maker"><a href="https://www.low-gain.com/">Low-Gain</a></p><dl>
 <dt>Offered as</dt><dd>Assembled module or DIY PCBs</dd>
 <dt>Format</dt><dd>4U Serge, Loudest Warning-style mounting</dd>
-<dt>Schematic</dt><dd><span class="pill listed">listed, not linked yet</span><a href="https://www.low-gain.com/shop/p/lge111">Board documents on the product page</a></dd><dt>BOM</dt><dd><span class="pill listed">listed, not linked yet</span><a href="https://www.low-gain.com/shop/p/lge111">Board BOMs on the product page</a></dd>
+<dt>Schematic</dt><dd><span class="pill available">available</span><a href="https://www.low-gain.com/shop/p/lge111">Schematics on the Low-Gain product page</a></dd><dt>BOM</dt><dd><span class="pill available">available</span><a href="https://www.low-gain.com/shop/p/lge111">BOMs on the Low-Gain product page</a></dd>
+<dt>Documents</dt><dd>LGE111 Main PCB: Bill of Materials, Schematic, Designators, Modification (simple jumper)<br>LGE111C I/O PCB: Bill of Materials, Schematic (wiring diagram), Designators<br>LGE108 Gain Cell: Schematic, PCB Designators, Testing / Calibration circuit<br>Mechanical parts BOM<br><small>All on the <a href="https://www.low-gain.com/shop/p/lge111">Low-Gain</a> product page.</small></dd>
 </dl>
+<p class="note">Known issue: with inputs above about 2.5 V peak-to-peak, Slope at mid-rotation and Frequency fully up, the filter can take off and thump. Low-Gain changed R34 from 47K to 75K to fix it, and the BOM now lists 75K. The main board also has a simple jumper modification, shown on the product page.</p>
+<p class="note">The main PCB includes two LGE108 gain cells; fit each cell&#x27;s 100K trimmer and headers, then calibrate them.</p>
 <p class="note">Low-Gain boards set their own jack positions; check them against the panel you use.</p>
 </div>
 </div><p class="licence">Ken Stone&#x27;s Serge-derived designs may be built for personal use only; Serge Tcherepnin keeps all rights to his circuits. Schematics, parts lists and PCBs belong to their designers and sellers, so these pages link to them rather than copying them.</p></section>
 <section id="bom"><h2>Bill of materials</h2><p>Spreadsheet: <a href="BOM/variable-slope-vcf.csv">variable-slope-vcf.csv</a> (CSV; opens in Excel, Numbers or Google Sheets). The Mouser columns are there to fill in with order links.</p>
-<details><summary><b>Low-Gain LGE111 Slope Filter</b> (1 lines)</summary><table><tr><th>Section</th><th>Type</th><th>Value / part</th><th>Qty</th><th>Notes</th></tr><tr><td>Board</td><td></td><td>See the maker&#x27;s BOM</td><td></td><td>Board BOMs on the product page - https://www.low-gain.com/shop/p/lge111</td></tr></table></details>
+<details><summary><b>Low-Gain LGE111 Slope Filter</b> (1 lines)</summary><table><tr><th>Section</th><th>Type</th><th>Value / part</th><th>Qty</th><th>Notes</th></tr><tr><td>Board</td><td></td><td>See the maker&#x27;s BOM</td><td></td><td>BOMs on the Low-Gain product page - https://www.low-gain.com/shop/p/lge111</td></tr></table></details>
 </section>
 <section id="hardware"><h2>Panel hardware</h2><p>Front-panel parts for each panel in this repo, counted from the panel files. Board parts (resistors, ICs, trimmers) are in each build option's own BOM.</p>
 </section>

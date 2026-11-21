@@ -48,7 +48,7 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 .panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.panel{width:auto;min-width:0;padding:8px}.panel img{height:180px;width:100%}.panel b,.panel a{font-size:.85rem}
 nav.sub{position:sticky;top:0;z-index:5}nav.sub .in{flex-wrap:nowrap;overflow-x:auto;gap:16px;white-space:nowrap}}
 </style></head><body>
-<header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../panel-builder.html">Panel builder</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a></div></header><nav class="sub"><div class="in"><a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a><a href="#build">Build options</a><a href="#bom">BOM</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></nav>
+<header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="index.html">Build a module</a><a href="../panel-builder.html">Build a panel</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a></div></header><nav class="sub"><div class="in"><a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a><a href="#build">Build options</a><a href="#bom">BOM</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></nav>
 <main>
 <div class="hero"><div class="art"><img src="../Modern/Images/Module/Divide_N_Comp.png" alt="Divide by N Comparator panel"></div><div>
 <h1>Divide by N Comparator</h1>
@@ -68,13 +68,15 @@ nav.sub{position:sticky;top:0;z-index:5}nav.sub .in{flex-wrap:nowrap;overflow-x:
 <div class="build" id="build-0"><h3><a href="https://www.low-gain.com/shop/p/lge205">Low-Gain LGE205 Divide by N Comparator (NCOM)</a></h3><p class="maker"><a href="https://www.low-gain.com/">Low-Gain</a></p><dl>
 <dt>Offered as</dt><dd>Assembled module or DIY PCBs</dd>
 <dt>Format</dt><dd>4U Serge, Loudest Warning-style mounting</dd>
-<dt>Schematic</dt><dd><span class="pill listed">listed, not linked yet</span><a href="https://www.low-gain.com/shop/p/lge205">Board documents on the product page</a></dd><dt>BOM</dt><dd><span class="pill listed">listed, not linked yet</span><a href="https://www.low-gain.com/shop/p/lge205">Board BOMs on the product page</a></dd>
+<dt>Schematic</dt><dd><span class="pill available">available</span><a href="https://www.low-gain.com/shop/p/lge205">Schematics on the Low-Gain product page</a></dd><dt>BOM</dt><dd><span class="pill available">available</span><a href="https://www.low-gain.com/shop/p/lge205">BOMs on the Low-Gain product page</a></dd>
+<dt>Documents</dt><dd>LGE205 Bill of Materials v1.3<br>LGE205 Schematic v1.3<br>LGE205 Main PCB w/ Designators v1.3<br>LGE205C Bill of Materials v1.4<br>LGE205C Schematic v1.4<br>LGE205C I/O Board w/ Designators v1.4<br>LGE205 Panel Art PDF<br>Mechanical parts BOM<br><small>All on the <a href="https://www.low-gain.com/shop/p/lge205">Low-Gain</a> product page.</small></dd>
 </dl>
+<p class="note">Low-Gain&#x27;s board has a VC input for the comparator as well as for the divider; the Divide by N Comparator panel in this repo has no comparator VC jack.</p>
 <p class="note">Low-Gain boards set their own jack positions; check them against the panel you use.</p>
 </div>
 </div><p class="licence">Ken Stone&#x27;s Serge-derived designs may be built for personal use only; Serge Tcherepnin keeps all rights to his circuits. Schematics, parts lists and PCBs belong to their designers and sellers, so these pages link to them rather than copying them.</p></section>
 <section id="bom"><h2>Bill of materials</h2><p>Spreadsheet: <a href="BOM/divide-n-comparator.csv">divide-n-comparator.csv</a> (CSV; opens in Excel, Numbers or Google Sheets). The Mouser columns are there to fill in with order links.</p>
-<details><summary><b>Low-Gain LGE205 Divide by N Comparator (NCOM)</b> (1 lines)</summary><table><tr><th>Section</th><th>Type</th><th>Value / part</th><th>Qty</th><th>Notes</th></tr><tr><td>Board</td><td></td><td>See the maker&#x27;s BOM</td><td></td><td>Board BOMs on the product page - https://www.low-gain.com/shop/p/lge205</td></tr></table></details>
+<details><summary><b>Low-Gain LGE205 Divide by N Comparator (NCOM)</b> (1 lines)</summary><table><tr><th>Section</th><th>Type</th><th>Value / part</th><th>Qty</th><th>Notes</th></tr><tr><td>Board</td><td></td><td>See the maker&#x27;s BOM</td><td></td><td>BOMs on the Low-Gain product page - https://www.low-gain.com/shop/p/lge205</td></tr></table></details>
 </section>
 <section id="hardware"><h2>Panel hardware</h2><p>Front-panel parts for each panel in this repo, counted from the panel files. Board parts (resistors, ICs, trimmers) are in each build option's own BOM.</p>
 </section>
