@@ -2234,25 +2234,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s15" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s15" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s15" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s15" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s15" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s15" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s15">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s15" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s15">
-        <use id="use46582-1-1-3-9-1-7-s15" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s15" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s15" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s15" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s15" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s15" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s15" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s15" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s15" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s15" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s15" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(227.229 20.984 20.940)" />
      </g>
     </g>
@@ -2262,25 +2244,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s18" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s18" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s18" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s18" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s18" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s18" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s18">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s18" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s18">
-        <use id="use46582-1-1-3-9-1-7-s18" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s18" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s18" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s18" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s18" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s18" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s18" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s18" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s18" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s18" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s18" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(227.229 20.984 20.940)" />
      </g>
     </g>
@@ -2290,25 +2254,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s21" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s21" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s21" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s21" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s21" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s21" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s21">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s21" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s21">
-        <use id="use46582-1-1-3-9-1-7-s21" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s21" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s21" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s21" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s21" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s21" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s21" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s21" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s21" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s21" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s21" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(317.229 20.984 20.940)" />
      </g>
     </g>
@@ -2318,25 +2264,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s24" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s24" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s24" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s24" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s24" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s24" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s24">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s24" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s24">
-        <use id="use46582-1-1-3-9-1-7-s24" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s24" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s24" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s24" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s24" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s24" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s24" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s24" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s24" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s24" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s24" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(317.229 20.984 20.940)" />
      </g>
     </g>
@@ -2346,25 +2274,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s27" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s27" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s27" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s27" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s27" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s27" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s27">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s27" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s27">
-        <use id="use46582-1-1-3-9-1-7-s27" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s27" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s27" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s27" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s27" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s27" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s27" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s27" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s27" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s27" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s27" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(267.229 20.984 20.940)" />
      </g>
     </g>
@@ -2374,25 +2284,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s30" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s30" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s30" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s30" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s30" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s30" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s30">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s30" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s30">
-        <use id="use46582-1-1-3-9-1-7-s30" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s30" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s30" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s30" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s30" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s30" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s30" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s30" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s30" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s30" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s30" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(172.229 20.984 20.940)" />
      </g>
     </g>
@@ -2402,25 +2294,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s33" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s33" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s33" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s33" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s33" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s33" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s33">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s33" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s33">
-        <use id="use46582-1-1-3-9-1-7-s33" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s33" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s33" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s33" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s33" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s33" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s33" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s33" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s33" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s33" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s33" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(317.229 20.984 20.940)" />
      </g>
     </g>
@@ -2430,25 +2304,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s36" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s36" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s36" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s36" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s36" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s36" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s36">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s36" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s36">
-        <use id="use46582-1-1-3-9-1-7-s36" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s36" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s36" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s36" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s36" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s36" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s36" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s36" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s36" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s36" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s36" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(267.229 20.984 20.940)" />
      </g>
     </g>
@@ -2458,25 +2314,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s39" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s39" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s39" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s39" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s39" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s39" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s39">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s39" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s39">
-        <use id="use46582-1-1-3-9-1-7-s39" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s39" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s39" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s39" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s39" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s39" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s39" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s39" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s39" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s39" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s39" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(227.229 20.984 20.940)" />
      </g>
     </g>
@@ -2486,25 +2324,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s42" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s42" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s42" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s42" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s42" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s42" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s42">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s42" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s42">
-        <use id="use46582-1-1-3-9-1-7-s42" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s42" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s42" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s42" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s42" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s42" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s42" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s42" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s42" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s42" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s42" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(177.229 20.984 20.940)" />
      </g>
     </g>
@@ -2537,25 +2357,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s50" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s50" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s50" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s50" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s50" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s50" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s50">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s50" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s50">
-        <use id="use46582-1-1-3-9-1-7-s50" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s50" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s50" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s50" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s50" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s50" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s50" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s50" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s50" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s50" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s50" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(317.229 20.984 20.940)" />
      </g>
     </g>
@@ -2599,25 +2401,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s59" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s59" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s59" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s59" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s59" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s59" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s59">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s59" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s59">
-        <use id="use46582-1-1-3-9-1-7-s59" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s59" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s59" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s59" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s59" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s59" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s59" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s59" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s59" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s59" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s59" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(227.229 20.984 20.940)" />
      </g>
     </g>
@@ -2637,25 +2421,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s64" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s64" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s64" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s64" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s64" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s64" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s64">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s64" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s64">
-        <use id="use46582-1-1-3-9-1-7-s64" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s64" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s64" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s64" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s64" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s64" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s64" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s64" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s64" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s64" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s64" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(317.229 20.984 20.940)" />
      </g>
     </g>
@@ -2675,25 +2441,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s69" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s69" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s69" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s69" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s69" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s69" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s69">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s69" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s69">
-        <use id="use46582-1-1-3-9-1-7-s69" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s69" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s69" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s69" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s69" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s69" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s69" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s69" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s69" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s69" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s69" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(172.229 20.984 20.940)" />
      </g>
     </g>
@@ -2713,25 +2461,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s74" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s74" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s74" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s74" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s74" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s74" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s74">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s74" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s74">
-        <use id="use46582-1-1-3-9-1-7-s74" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s74" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s74" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s74" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s74" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s74" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s74" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s74" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s74" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s74" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s74" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(267.229 20.984 20.940)" />
      </g>
     </g>
@@ -2751,25 +2481,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s79" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s79" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s79" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s79" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s79" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s79" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s79">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s79" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s79">
-        <use id="use46582-1-1-3-9-1-7-s79" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s79" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s79" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s79" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s79" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s79" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s79" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s79" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s79" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s79" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s79" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(317.229 20.984 20.940)" />
      </g>
     </g>
@@ -2789,25 +2501,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s84" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s84" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s84" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s84" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s84" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s84" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s84">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s84" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s84">
-        <use id="use46582-1-1-3-9-1-7-s84" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s84" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s84" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s84" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s84" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s84" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s84" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s84" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s84" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s84" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s84" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(227.229 20.984 20.940)" />
      </g>
     </g>
@@ -2867,25 +2561,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s97" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s97" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s97" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s97" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s97" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s97" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s97">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s97" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s97">
-        <use id="use46582-1-1-3-9-1-7-s97" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s97" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s97" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s97" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s97" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s97" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s97" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s97" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s97" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s97" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s97" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(307.229 20.984 20.940)" />
      </g>
     </g>
@@ -2935,25 +2611,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s108" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s108" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s108" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s108" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s108" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s108" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s108">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s108" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s108">
-        <use id="use46582-1-1-3-9-1-7-s108" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s108" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s108" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s108" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s108" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s108" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s108" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s108" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s108" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s108" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s108" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(177.229 20.984 20.940)" />
      </g>
     </g>
@@ -2973,25 +2631,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s113" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s113" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s113" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s113" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s113" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s113" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s113">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s113" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s113">
-        <use id="use46582-1-1-3-9-1-7-s113" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s113" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s113" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s113" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s113" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s113" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s113" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s113" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s113" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s113" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s113" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(267.229 20.984 20.940)" />
      </g>
     </g>
@@ -3001,25 +2641,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s116" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s116" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s116" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s116" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s116" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s116" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s116">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s116" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s116">
-        <use id="use46582-1-1-3-9-1-7-s116" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s116" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s116" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s116" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s116" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s116" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s116" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s116" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s116" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s116" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s116" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(212.229 20.984 20.940)" />
      </g>
     </g>
@@ -3029,25 +2651,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s118" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s118" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s118" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s118" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s118" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s118" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s118">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s118" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s118">
-        <use id="use46582-1-1-3-9-1-7-s118" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s118" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s118" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s118" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s118" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s118" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s118" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s118" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s118" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s118" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s118" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(317.229 20.984 20.940)" />
      </g>
     </g>
@@ -3147,25 +2751,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s139" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s139" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s139" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s139" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s139" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s139" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s139">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s139" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s139">
-        <use id="use46582-1-1-3-9-1-7-s139" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s139" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s139" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s139" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s139" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s139" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s139" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s139" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s139" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s139" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s139" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(177.229 20.984 20.940)" />
      </g>
     </g>
@@ -3185,25 +2771,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s144" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s144" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s144" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s144" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s144" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s144" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s144">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s144" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s144">
-        <use id="use46582-1-1-3-9-1-7-s144" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s144" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s144" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s144" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s144" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s144" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s144" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s144" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s144" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s144" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s144" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(267.229 20.984 20.940)" />
      </g>
     </g>
@@ -3213,25 +2781,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s147" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s147" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s147" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s147" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s147" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s147" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s147">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s147" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s147">
-        <use id="use46582-1-1-3-9-1-7-s147" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s147" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s147" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s147" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s147" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s147" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s147" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s147" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s147" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s147" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s147" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(212.229 20.984 20.940)" />
      </g>
     </g>
@@ -3241,25 +2791,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s149" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s149" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s149" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s149" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s149" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s149" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s149">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s149" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s149">
-        <use id="use46582-1-1-3-9-1-7-s149" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s149" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s149" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s149" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s149" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s149" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s149" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s149" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s149" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s149" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s149" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(317.229 20.984 20.940)" />
      </g>
     </g>
@@ -3379,25 +2911,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s174" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s174" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s174" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s174" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s174" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s174" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s174">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s174" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s174">
-        <use id="use46582-1-1-3-9-1-7-s174" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s174" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s174" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s174" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s174" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s174" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s174" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s174" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s174" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s174" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s174" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(227.229 20.984 20.940)" />
      </g>
     </g>
@@ -3407,25 +2921,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s177" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s177" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s177" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s177" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s177" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s177" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s177">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s177" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s177">
-        <use id="use46582-1-1-3-9-1-7-s177" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s177" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s177" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s177" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s177" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s177" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s177" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s177" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s177" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s177" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s177" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(177.229 20.984 20.940)" />
      </g>
     </g>
@@ -3435,25 +2931,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s180" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s180" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s180" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s180" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s180" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s180" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s180">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s180" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s180">
-        <use id="use46582-1-1-3-9-1-7-s180" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s180" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s180" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s180" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s180" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s180" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s180" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s180" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s180" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s180" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s180" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(187.229 20.984 20.940)" />
      </g>
     </g>
@@ -3463,25 +2941,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s182" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s182" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s182" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s182" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s182" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s182" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s182">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s182" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s182">
-        <use id="use46582-1-1-3-9-1-7-s182" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s182" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s182" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s182" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s182" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s182" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s182" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s182" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s182" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s182" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s182" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(187.229 20.984 20.940)" />
      </g>
     </g>
@@ -3491,25 +2951,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s185" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s185" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s185" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s185" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s185" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s185" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s185">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s185" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s185">
-        <use id="use46582-1-1-3-9-1-7-s185" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s185" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s185" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s185" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s185" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s185" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s185" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s185" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s185" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s185" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s185" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(277.229 20.984 20.940)" />
      </g>
     </g>
@@ -3519,25 +2961,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s188" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s188" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s188" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s188" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s188" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s188" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s188">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s188" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s188">
-        <use id="use46582-1-1-3-9-1-7-s188" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s188" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s188" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s188" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s188" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s188" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s188" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s188" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s188" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s188" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s188" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(207.229 20.984 20.940)" />
      </g>
     </g>
@@ -3557,25 +2981,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s192" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s192" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s192" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s192" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s192" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s192" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s192">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s192" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s192">
-        <use id="use46582-1-1-3-9-1-7-s192" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s192" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s192" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s192" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s192" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s192" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s192" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s192" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s192" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s192" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s192" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(207.229 20.984 20.940)" />
      </g>
     </g>
@@ -3625,25 +3031,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s203" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s203" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s203" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s203" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s203" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s203" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s203">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s203" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s203">
-        <use id="use46582-1-1-3-9-1-7-s203" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s203" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s203" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s203" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s203" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s203" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s203" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s203" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s203" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s203" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s203" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(307.229 20.984 20.940)" />
      </g>
     </g>
@@ -3697,25 +3085,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s214" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s214" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s214" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s214" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s214" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s214" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s214">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s214" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s214">
-        <use id="use46582-1-1-3-9-1-7-s214" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s214" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s214" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s214" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s214" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s214" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s214" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s214" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s214" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s214" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s214" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(177.229 20.984 20.940)" />
      </g>
     </g>
@@ -3725,25 +3095,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s217" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s217" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s217" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s217" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s217" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s217" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s217">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s217" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s217">
-        <use id="use46582-1-1-3-9-1-7-s217" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s217" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s217" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s217" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s217" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s217" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s217" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s217" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s217" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s217" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s217" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(267.229 20.984 20.940)" />
      </g>
     </g>
@@ -3753,25 +3105,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s219" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s219" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s219" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s219" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s219" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s219" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s219">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s219" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s219">
-        <use id="use46582-1-1-3-9-1-7-s219" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s219" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s219" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s219" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s219" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s219" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s219" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s219" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s219" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s219" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s219" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(177.229 20.984 20.940)" />
      </g>
     </g>
@@ -3801,25 +3135,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s226" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s226" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s226" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s226" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s226" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s226" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s226">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s226" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s226">
-        <use id="use46582-1-1-3-9-1-7-s226" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s226" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s226" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s226" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s226" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s226" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s226" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s226" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s226" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s226" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s226" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(187.229 20.984 20.940)" />
      </g>
     </g>
@@ -3829,25 +3145,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s229" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s229" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s229" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s229" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s229" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s229" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s229">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s229" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s229">
-        <use id="use46582-1-1-3-9-1-7-s229" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s229" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s229" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s229" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s229" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s229" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s229" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s229" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s229" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s229" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s229" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(187.229 20.984 20.940)" />
      </g>
     </g>
@@ -3926,25 +3224,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s243" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s243" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s243" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s243" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s243" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s243" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s243">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s243" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s243">
-        <use id="use46582-1-1-3-9-1-7-s243" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s243" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s243" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s243" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s243" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s243" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s243" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s243" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s243" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s243" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s243" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(187.229 20.984 20.940)" />
      </g>
     </g>
@@ -3954,25 +3234,7 @@
    <switch id="switch46612-7-6-2-2-6-30-s246" transform="matrix(1.304124,0,0,1.3024402,68.638173,488.71778)" style="display:inline;stroke-width:0.767293">
     <g id="g46610-1-8-0-1-0-8-s246" adobe:extraneous="self" style="stroke-width:0.767293">
      <g id="g46608-6-9-1-2-2-5-s246" style="stroke-width:0.767293">
-      <circle id="circle46574-9-7-1-3-6-0-s246" r="18.000999" cy="20.947001" cx="20.981001" stroke-width="0.25" stroke="#000000" fill="#ffffff" />
-      <circle id="circle46576-1-6-2-7-9-7-s246" r="16.878" cy="20.947001" cx="20.981001" stroke-width="0.125" stroke="#ffffff" />
-      <g id="g46604-3-2-4-7-0-5-s246" style="stroke-width:0.767293">
-       <defs id="defs46580-4-2-5-6-2-79-s246">
-        <circle r="18.024" cy="20.926001" cx="20.975" id="circle26-s246" />
-       </defs>
-       <clipPath id="clipPath46584-5-2-2-1-2-3-s246">
-        <use id="use46582-1-1-3-9-1-7-s246" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" />
-       </clipPath>
-       <circle id="circle46586-8-7-2-9-7-9-s246" r="2.7720001" cy="21.007999" cx="38.997002" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <path id="path46588-5-4-3-7-9-97-s246" d="m 2.887,23.613 c 1.531,0.006 2.777,-1.229 2.785,-2.759 0.008,-1.532 -1.227,-2.78 -2.76,-2.788 -1.531,-0.005 -2.777,1.23 -2.787,2.763 -0.006,1.528 1.229,2.777 2.762,2.784 z" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" inkscape:connector-curvature="0" />
-       <circle id="circle46590-5-0-1-9-8-9-s246" r="2.7720001" cy="38.932999" cx="20.892" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46592-9-2-1-0-7-9-s246" r="2.7720001" cy="2.8970001" cx="21.059999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46594-8-1-9-6-6-8-s246" r="2.7720001" cy="8.2489996" cx="33.745998" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46596-3-8-8-5-2-8-s246" r="2.7720001" cy="33.693001" cx="33.661999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46598-9-1-0-1-8-5-s246" r="2.7720001" cy="33.59" cx="8.1459999" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <circle id="circle46600-8-6-9-7-3-5-s246" r="2.773" cy="8.1040001" cx="8.302" stroke-width="0.25" stroke="#ffffff" fill="#ffffff" clip-path="url(#XMLID_3_-2-2-8-3-0-1-2)" />
-       <use id="use46602-7-3-5-9-8-7-s246" stroke="#ffffff" fill="none" xlink:href="#XMLID_1_" x="0" y="0" width="100%" height="100%" style="stroke-width:0.767293" />
-      </g>
+      <path d="M 3.175,23.605 A 2.772,2.772 0 0 0 3.202,18.078 A 18,18 0 0 1 6.506,10.219 A 2.772,2.772 0 0 0 10.437,6.333 A 18,18 0 0 1 18.295,3.127 A 2.772,2.772 0 0 0 23.823,3.153 A 18,18 0 0 1 31.651,6.434 A 2.772,2.772 0 0 0 35.545,10.357 A 18,18 0 0 1 38.774,18.243 A 2.772,2.772 0 0 0 38.749,23.771 A 18,18 0 0 1 35.473,31.594 A 2.772,2.772 0 0 0 31.552,35.491 A 18,18 0 0 1 23.657,38.725 A 2.772,2.772 0 0 0 18.129,38.700 A 18,18 0 0 1 10.258,35.388 A 2.772,2.772 0 0 0 6.375,31.454 A 18,18 0 0 1 3.175,23.605 Z" fill="#000000" stroke="#ffffff" stroke-width="1.15" stroke-linejoin="round" />
       <line id="line46606-2-6-2-7-4-5-s246" y2="20.940001" x2="20.983999" y1="27.909" x1="37.585999" stroke="#ffffff" fill="none" style="stroke-width:0.767293" transform="rotate(187.229 20.984 20.940)" />
      </g>
     </g>
