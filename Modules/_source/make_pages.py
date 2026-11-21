@@ -181,8 +181,8 @@ def status(s):
     return '<span class="pill %s">%s</span>%s' % (st, lab, t)
 
 
-SITE_NAV = ('<a href="index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a>'
-            '<a href="../panels.html">Panel art</a><a href="../panel-builder.html">Panel builder</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a>')
+SITE_NAV = ('<a href="index.html">Build a module</a><a href="../panel-builder.html">Build a panel</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a>'
+            '<a href="../panels.html">Panel art</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a>')
 
 
 def top_bar():

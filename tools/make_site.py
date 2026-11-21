@@ -94,8 +94,8 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 header .wrap{flex-wrap:wrap;gap:4px 14px}}
 """
 
-NAV = [("Modules/index.html", "Build a module"), ("boms.html", "Parts & BOMs"), ("sources.html", "PCB sources"),
-       ("panels.html", "Panel art"), ("panel-builder.html", "Panel builder"), ("systems.html", "Systems"), ("documentation.html", "Library")]
+NAV = [("Modules/index.html", "Build a module"), ("panel-builder.html", "Build a panel"), ("boms.html", "Parts & BOMs"),
+       ("sources.html", "PCB sources"), ("panels.html", "Panel art"), ("systems.html", "Systems"), ("documentation.html", "Library")]
 
 
 def nav(depth, on=""):
@@ -380,7 +380,7 @@ def main():
         0, "Library"))
 
     import panel_builder
-    write("panel-builder.html", page("Panel builder | Serge DIY", panel_builder.body(ROOT, thumb, links), 0, "Panel builder"))
+    write("panel-builder.html", page("Build a panel | Serge DIY", panel_builder.body(ROOT, thumb, links), 0, "Build a panel"))
 
     # data for the DIY pages
     D = json.load(open(os.path.join(ROOT, "Modules", "_source", "modules.json")))
