@@ -18,7 +18,7 @@ upload files. Plus panel artwork from 1973 paperface to STS and CGS, with drill 
 
 ## Browse
 
-**Website:** open [`index.html`](index.html) through GitHub Pages for the full site. On GitHub, each era folder's README shows all its panels as pictures.
+**Website:** https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/ has the full site. On GitHub, each era folder's README shows all its panels as pictures.
 
 <table><tr>
 <td align="center" valign="top" width="25%"><a href="Paperface/README.md"><img src="thumbs/Paperface/Images/Module/Analog_Shift_Register.jpg" height="140"></a><br><b><a href="Paperface/README.md">Paperface</a></b><br><sub>41 panels</sub></td>

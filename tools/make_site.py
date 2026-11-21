@@ -20,6 +20,7 @@ from PIL import Image
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "Modules", "_source"))
 e = html.escape
+SITE = "https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/"
 
 ERAS = [  # slug, title, folder, blurb
     ("paperface", "Paperface", "Paperface",
@@ -244,7 +245,7 @@ def gallery_md(folder, links, cols=5):
     up = "../" * (folder.count("/") + 1)
     P = panels(folder)
     out = ["## Panels", "", "Click a picture for the full-size PNG. **SVG** is the artwork, **Drill** the 1:1 drill template, "
-           "**Build** the module's build page. The same gallery is on the [website](%spanels.html)." % up, ""]
+           "**Build** the module's build page. The same gallery is on the [website](%spanels.html)." % SITE, ""]
     for c in sorted(P, key=lambda c: CAT_ORDER.index(c) if c in CAT_ORDER else 9):
         items = P[c]
         n = 3 if c in ("Full Panel", "M-Class", "Quarter Panel", "Full Panel/Custom") else cols
@@ -259,7 +260,7 @@ def gallery_md(folder, links, cols=5):
                     lk.append('<a href="%s">Drill</a>' % rel(f["drill"]))
                 bl = links.get(f["png"])
                 if bl:
-                    lk.append('<a href="%sModules/%s.html">Build</a>' % (up, bl[0]))
+                    lk.append('<a href="%sModules/%s.html">Build</a>' % (SITE, bl[0]))
                 tw, th = Image.open(os.path.join(ROOT, thumb(f["png"]))).size
                 size = ('width="%d"' % (260 if n == 3 else 150)) if tw > th * 0.75 else 'height="200"'
                 out.append('<td align="center" valign="bottom"><a href="%s"><img src="%s" %s></a><br><sub><b>%s</b><br>%s</sub></td>' % (
@@ -289,7 +290,7 @@ def main():
     # GitHub view: picture galleries in each era folder's README, and an overview in the main README
     for slug, title, folder, blurb in ERAS:
         set_block(folder + "/README.md", gallery_md(folder, links), title)
-    rows = ['<p align="center"><img src="%s" width="760" alt="The Cal Arts Black Serge, panel 1"></p>' % quote(thumb("Modern/Images/Full Panel/CalArts_Panel_1_Black.png", 640)), "", "## Browse", "", "**Website:** open [`index.html`](index.html) through GitHub Pages for the full site. On GitHub, each era folder's "
+    rows = ['<p align="center"><img src="%s" width="760" alt="The Cal Arts Black Serge, panel 1"></p>' % quote(thumb("Modern/Images/Full Panel/CalArts_Panel_1_Black.png", 640)), "", "## Browse", "", "**Website:** https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/ has the full site. On GitHub, each era folder's "
             "README shows all its panels as pictures.", "", "<table><tr>"]
     for slug, title, b, n, ims in era_info:
         folder = [x[2] for x in ERAS if x[0] == slug][0]
