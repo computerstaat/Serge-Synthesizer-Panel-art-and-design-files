@@ -87,7 +87,10 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 .tag.ok{background:#dff3e4;color:#1b5e2e}
 .scroll{overflow-x:auto}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}}
+.mob{display:none;margin-top:4px}
+@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}.mob{display:block}
+.mx td,.mx th{padding:8px 6px}.stats{grid-template-columns:1fr 1fr}.stat b{font-size:1.6rem}
+header .wrap{flex-wrap:wrap;gap:4px 14px}}
 """
 
 NAV = [("Modules/index.html", "Build a module"), ("boms.html", "Parts & BOMs"), ("sources.html", "PCB sources"),
@@ -357,18 +360,20 @@ def main():
         rows = []
         for m in sorted(mods, key=lambda m: m["name"]):
             mk = {b["maker"] for b in m["builds"]}
-            cells = "".join('<td class="c">%s</td>' % ('<span class="y">&#10003;</span>' if k in mk else '<span class="n">&ndash;</span>') for k in order)
+            cells = "".join('<td class="c hide">%s</td>' % ('<span class="y">&#10003;</span>' if k in mk else '<span class="n">&ndash;</span>') for k in order)
             mf = mfiles.get(m["slug"], [])
             mcell = "".join('<a class="tag ok" href="%sBOM/mouser/%s__%s.csv">%s</a>' % (link_prefix, m["slug"], b, e(b.upper().replace("_", " ")))
                             for b, v in mf) or '<span class="n">&ndash;</span>'
             img = mod_img(m)
-            rows.append('<tr><td class="hide">%s</td><td><a href="%s%s.html"><b>%s</b></a><br><small class="muted">%s</small></td>%s'
-                        '<td class="c">%s</td><td class="c"><a href="%sBOM/%s.csv">CSV</a></td><td>%s</td></tr>' % (
+            mob = '<div class="mob">%s%s</div>' % ("".join('<span class="tag">%s</span>' % e(makers[k]["name"].replace(" (CGS)", "")) for k in order if k in mk),
+                                                    '<span class="tag">schematic</span>' if has_schem(m) else "")
+            rows.append(('<tr><td class="hide">%s</td><td><a href="%s%s.html"><b>%s</b></a><br><small class="muted">%s</small>' + mob.replace("%", "%%") + '</td>%s'
+                        '<td class="c hide">%s</td><td class="c"><a href="%sBOM/%s.csv">CSV</a></td><td>%s</td></tr>') % (
                             '<img loading="lazy" src="%s" alt="">' % img if img else "", link_prefix, m["slug"], e(m["name"]), e(m["function"]),
                             cells, '<span class="y">&#10003;</span>' if has_schem(m) else '<span class="n">&ndash;</span>',
                             link_prefix, m["slug"], mcell))
-        head = ('<tr><th class="hide"></th><th>Module</th>%s<th class="c">Schematic</th><th class="c">BOM</th><th>Mouser upload</th></tr>'
-                % "".join('<th class="c">%s</th>' % e(makers[k]["name"].replace(" (CGS)", "")) for k in order))
+        head = ('<tr><th class="hide"></th><th>Module</th>%s<th class="c hide">Schematic</th><th class="c">BOM</th><th>Mouser upload</th></tr>'
+                % "".join('<th class="c hide">%s</th>' % e(makers[k]["name"].replace(" (CGS)", "")) for k in order))
         return '<div class="scroll"><table class="mx">%s%s</table></div>' % (head, "".join(rows))
 
     # parts & BOMs

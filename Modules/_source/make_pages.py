@@ -59,7 +59,9 @@ th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);verti
 h3.hw{font-size:1rem;margin:18px 0 8px}
 footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
 .idx td img{height:110px}
-@media(max-width:760px){.hero{grid-template-columns:1fr}}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.hero .art img{max-height:380px}
+.panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.panel{width:auto;min-width:0;padding:8px}.panel img{height:180px;width:100%}.panel b,.panel a{font-size:.85rem}
+nav.sub{position:sticky;top:0;z-index:5}nav.sub .in{flex-wrap:nowrap;overflow-x:auto;gap:16px;white-space:nowrap}}
 """
 
 
