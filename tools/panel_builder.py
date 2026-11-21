@@ -28,6 +28,7 @@ def manifest(root, thumb, links):
             out.append({"n": os.path.basename(f)[:-4].replace("_", " "), "e": era, "s": quote(rel), "w": float(w.group(1)),
                         "h": float(h.group(1)), "t": quote(thumb(png)) if os.path.exists(os.path.join(root, png)) else "",
                         "k": key if key in HOLES["modules"] else "",
+                        "o": HOLES.get("outlines", {}).get(key),
                         "b": links.get(png, ("",))[0]})
     return out
 
@@ -89,8 +90,8 @@ def body(root, thumb, links):
             '<li><b>Drill template:</b> every hole of the whole panel at drill size, to print at 100%% and tape to the blank. A 50 mm bar checks the scale. Tiled sheets overlap by 15 mm and are numbered.</li>'
             '<li><b>Front Panel Express kit:</b> the hole list, the print artwork and the build script. Open Front Panel Designer, double-click '
             '<i>Build panel</i>, and it saves a ready-to-order <code>.fpd</code> file. Details are in the kit\'s README.</li></ul>'
-            '<div class="note">Modules are 7" tall (Loudest Warning format, 175 mm). Check the result against your own jacks, pots and '
+            '<div class="note">Modules sit as close together as on the M-Class and 17" panels: about 2.2 mm between module outlines. Modules are 7" tall (Loudest Warning format, 175 mm). Check the result against your own jacks, pots and '
             'case before drilling; module widths come from each module\'s artwork. Mixing eras works, but the styles will differ.</div></div></div>'
             '<script type="application/json" id="man">%s</script><script type="application/json" id="holes">%s</script><script>%s</script>') % (
         CSS, "".join('<button class="chip" data-v="%s">%s</button>' % (e, e) for e in eras), json.dumps(man).replace("</", "<\\/"),
-        json.dumps({"diameters_mm": HOLES["diameters_mm"], "modules": {m["k"]: HOLES["modules"][m["k"]] for m in man if m["k"]}}, separators=(",", ":")), JS)
+        json.dumps({"diameters_mm": HOLES["diameters_mm"], "gap": HOLES.get("module_gap_in", 0.088), "modules": {m["k"]: HOLES["modules"][m["k"]] for m in man if m["k"]}}, separators=(",", ":")), JS)
