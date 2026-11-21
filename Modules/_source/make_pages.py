@@ -128,6 +128,13 @@ def bom_rows(m):
                 rows.append(["All builds", "Front panel (%s)" % v0["label"], "Panel hardware", part, n, note, "", "", ""])
         rows.append(["All builds", "Front panel (%s)" % v0["label"], "Panel hardware", "Knob", sum(n for p_, n, _ in hardware(v0["hw"]) if p_.startswith("Potentiometer")), "one per pot", "", "", ""])
     for b in m["builds"]:
+        if b.get("explicit"):
+            x = make_mouser.EXPLICIT[b["explicit"]]
+            for l in x["lines"]:
+                rows.append([b["name"], x["title"], "", l[5], l[3], l[6], l[0], "https://www.mouser.com/ProductDetail/" + l[0], l[4]])
+            for n in x["na"]:
+                rows.append([b["name"], x["title"], "Not at Mouser", n[0], n[1], n[2], "", "", ""])
+            continue
         keys = b.get("parts") or []
         keys = [keys] if isinstance(keys, str) else keys
         if keys:
@@ -220,8 +227,15 @@ def page(m):
             out.append("<dt>Format</dt><dd>%s</dd>" % e(b["format"]))
         if b.get("pcb"):
             pm = MAKERS[b["pcb"]["maker"]]
-            out.append("<dt>PCB</dt><dd>%s: %s</dd>" % (link(pm["name"], pm["url"]), e(b["pcb"]["item"])))
-        out.append("<dt>Schematic</dt><dd>%s</dd><dt>BOM</dt><dd>%s</dd></dl>" % (status(b["schematic"]), status(b["bom"])))
+            item = link(b["pcb"]["item"], b["pcb"]["url"]) if b["pcb"].get("url") else e(b["pcb"]["item"])
+            out.append("<dt>PCB</dt><dd>%s: %s</dd>" % (link(pm["name"], pm["url"]), item))
+        out.append("<dt>Schematic</dt><dd>%s</dd><dt>BOM</dt><dd>%s</dd>" % (status(b["schematic"]), status(b["bom"])))
+        if b.get("docs"):
+            out.append("<dt>Documents</dt><dd>%s</dd>" % "<br>".join(link(t, u) for t, u in b["docs"]))
+        if b.get("doclist"):
+            out.append("<dt>Documents</dt><dd>%s<br><small>All on the %s product page.</small></dd>" % (
+                "<br>".join(e(t) for t in b["doclist"]), link(MAKERS[b["maker"]]["name"], b["url"])))
+        out.append("</dl>")
         if b.get("boards"):
             out.append('<ul class="boards">%s</ul>' % "".join("<li><b>%s</b>: %s</li>" % (e(n), e(d)) for n, d in b["boards"]))
         out += ['<p class="note">%s</p>' % e(n) for n in b.get("notes", [])]

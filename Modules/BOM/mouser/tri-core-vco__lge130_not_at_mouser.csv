@@ -1,0 +1,7 @@
+Part,Quantity,Where to get it
+CA3080E OTA,1,"Main U7. Obsolete, not at Mouser: Synthcube, Thonk or another synth-parts supplier (AS3080 / LM3080 also work)."
+2K tempco resistor 3300-3500ppm,1,"Main R10. Synth DIY shops (Thonk, Synthcube, Modular Addict). In a pinch Low-Gain suggests two 1k in series."
+Knobs (Davies 1900H style),6,"Synthcube, Thonk, Modular Addict"
+"M3x6 button-head screws, M3 split washers",8,Hardware
+2.54mm male + female 40-pin headers,1,Board-to-board connection; any breakaway header
+LGE130 + LGE130C PCBs,1,Low-Gain Electronics

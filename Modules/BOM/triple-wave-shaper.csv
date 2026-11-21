@@ -19,4 +19,28 @@ Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Semiconductor,1N4148,12,from http
 Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Semiconductor,LM3900,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,595-LM3900N,https://www.mouser.com/ProductDetail/595-LM3900N,0.85
 Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Misc,Ferrite Bead,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,875-28L0138-70R-10,https://www.mouser.com/ProductDetail/875-28L0138-70R-10,0.45
 Ken Stone CGS85 Triple Wave Shaper,CGS85 board,Misc,CGS85 VER1.0 PCB,1,from https://open4umodular.github.io/synthpanel/modules/cgs85_tws.html,,,
-Low-Gain LGE085 Triple Waveshaper,Board,,See the maker's BOM,,Board BOMs on the product page - https://www.low-gain.com/shop/p/lge085,,,
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,"Ceramic 100pF C0G 50V, 5mm",3,"C1,C4,C7",810-FG28C0G1H101JNT0,https://www.mouser.com/ProductDetail/810-FG28C0G1H101JNT0,0.27
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,Electrolytic 47uF 25V,3,"C2,C5,C8",667-ECE-A1EKA470,https://www.mouser.com/ProductDetail/667-ECE-A1EKA470,0.31
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,"Film 470nF 63V (5mm pitch; the board has 7mm pads, so bend the leads)",3,"C3,C6,C9",505-MKS2.47/63/5T,https://www.mouser.com/ProductDetail/505-MKS2.47/63/5T,0.94
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,Electrolytic 10uF 25V,1,C10,667-ECE-A1EKA100,https://www.mouser.com/ProductDetail/667-ECE-A1EKA100,0.26
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,"Ceramic 100nF X7R 50V, 0805 SMD",2,"C11,C12",80-C0805C104M5R,https://www.mouser.com/ProductDetail/80-C0805C104M5R,0.17
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,Small-signal diode,12,D1-D12,512-1N4148,https://www.mouser.com/ProductDetail/512-1N4148,0.1
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,Resistor 10R (or a 60 ohm ferrite bead),1,FB1,708-RNF14FTD10R0,https://www.mouser.com/ProductDetail/708-RNF14FTD10R0,0.1
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,"MTA-156 power header, 4 pin",1,J1,571-6404454,https://www.mouser.com/ProductDetail/571-6404454,0.34
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,Resistor 100k 1/4W 1%,6,"R1,R9,R11,R19,R21,R29",603-MFR-25FBF52-100K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-100K,0.1
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,Resistor 1M5 1/4W 1%,9,"R2,R3,R10,R12,R13,R20,R22,R23,R30",660-MFS1/4DCT52R1504,https://www.mouser.com/ProductDetail/660-MFS1/4DCT52R1504,0.47
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,"Trimmer 25k, 3362P",3,"R4,R14,R24",652-3362P-1-253LF,https://www.mouser.com/ProductDetail/652-3362P-1-253LF,1.3
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,Resistor 330R 1/4W 1%,3,"R5,R15,R25",603-MFR-25FBF52-330R,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-330R,0.11
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,Resistor 150k 1/4W 1%,3,"R6,R16,R26",603-MFR-25FBF52-150K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-150K,0.1
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,Resistor 220k 1/4W 1%,6,"R7,R8,R17,R18,R27,R28",603-MFR-25FBF52-220K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-220K,0.1
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,Quad Norton amplifier,1,U1,595-LM3900N,https://www.mouser.com/ProductDetail/595-LM3900N,0.85
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,9mm pot B100K,4,I/O VR1-VR4,858-P0915NFC15BR100K,https://www.mouser.com/ProductDetail/858-P0915NFC15BR100K,2.65
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,Mini toggle SPDT on-off-on (feedback),1,I/O K1,612-100SP3T1B2M2RE,https://www.mouser.com/ProductDetail/612-100SP3T1B2M2RE,3.82
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,"Mini toggle SPDT on-on (join 1-2, 2-3)",2,"I/O K2,K3",612-100-A1111,https://www.mouser.com/ProductDetail/612-100-A1111,3.08
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,"Banana jack, black",6,"INPUT x3, OUT x3",530-108-0903-1,https://www.mouser.com/ProductDetail/530-108-0903-1,1.43
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,"Banana jack, blue",6,"VC1 x3, VC2 x3",530-108-0910-1,https://www.mouser.com/ProductDetail/530-108-0910-1,1.71
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,,Standoff M3 x 11mm,4,Board mounting,710-970110321,https://www.mouser.com/ProductDetail/710-970110321,0.32
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,Not at Mouser,Knobs (Davies 1900H style),4,"Synthcube, Thonk, Modular Addict",,,
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,Not at Mouser,"M3x6 button-head screws, M3 split washers",8,Hardware,,,
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,Not at Mouser,2.54mm male + female 40-pin headers,1,Board-to-board connection,,,
+Low-Gain LGE085 Triple Waveshaper,Low-Gain LGE085 main board + LGE085C I/O board,Not at Mouser,LGE085 + LGE085C PCBs,1,Low-Gain Electronics,,,
