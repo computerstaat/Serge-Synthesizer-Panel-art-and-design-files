@@ -1,11 +1,13 @@
 const M=JSON.parse(document.getElementById('man').textContent),HD=JSON.parse(document.getElementById('holes').textContent),D=96,MMI=25.4,cache={};let sel=[],uid=0;
 const NS='http://www.w3.org/2000/svg',INK='http://www.inkscape.org/namespaces/inkscape';
 const $=id=>document.getElementById(id);
-function lib(){const q=$('q').value.toLowerCase(),er=$('era').value;$('lst').innerHTML='';
- M.forEach((m,i)=>{if(er&&m.e!==er)return;if(q&&!m.n.toLowerCase().includes(q))return;
+let era='';
+function lib(){const q=$('q').value.toLowerCase(),pc=$('pcb').checked;$('lst').innerHTML='';let c=0;
+ M.forEach((m,i)=>{if(era&&m.e!==era)return;if(pc&&!m.b)return;if(q&&!m.n.toLowerCase().includes(q))return;c++;
   const d=document.createElement('div');d.className='it';d.title='Add '+m.n;
-  d.innerHTML=(m.t?'<img loading="lazy" src="'+m.t+'" alt="">':'')+m.n+'<br><small>'+m.e+' · '+(+m.w).toFixed(2)+'"'+(m.k?'':' · no drill data')+'</small>';
-  d.onclick=()=>{sel.push(i);draw()};$('lst').appendChild(d)})}
+  d.innerHTML=(m.t?'<img loading="lazy" src="'+m.t+'" alt="">':'')+m.n+'<br><small>'+m.e+' · '+(+m.w).toFixed(2)+'"'+(m.k?'':' · no drill data')+'</small>'+(m.b?'<br><small class="pb1">PCB</small>':'');
+  d.onclick=()=>{sel.push(i);draw()};$('lst').appendChild(d)});
+ if(!c)$('lst').innerHTML='<p class="muted">No modules match.</p>'}
 async function get(m){if(!cache[m.s]){const r=await fetch(m.s);cache[m.s]=await r.text()}return cache[m.s]}
 const lab=g=>g.getAttribute('inkscape:label')||'';
 function nest(txt,x,y,m,keep){const p='m'+(++uid)+'-';
@@ -17,8 +19,15 @@ function nest(txt,x,y,m,keep){const p='m'+(++uid)+'-';
  for(const g of [...s.children])if(g.tagName==='g'&&lab(g)&&!keep.includes(lab(g)))g.remove();   // module drill marks (XXX) always go
  s.setAttribute('x',x);s.setAttribute('y',y);s.setAttribute('width',m.w*D);s.setAttribute('height',m.h*D);return s}
 function target(){const v=$('pw').value;return v==='fit'?null:v==='custom'?(+$('cw').value||17):+v}
-function layout(){const used=sel.reduce((a,i)=>a+M[i].w,0),T=target(),W=Math.max(T||used,used,0.5),H=7;
- let x=$('al').value==='center'&&T&&used<T?(T-used)/2:0;const pos=[];for(const i of sel){pos.push([i,x]);x+=M[i].w}return{used,T,W,H,pos}}
+function layout(){   /* modules sit as on the M-Class and 17" panels: about 2.2 mm between module outlines, centred */
+ const G=HD.gap||0.088,pos=[];let x=0,prev=null;
+ for(const i of sel){const m=M[i],o=m.o||[0,m.w];
+  if(prev)x=prev.x+prev.o[1]+G-o[0];pos.push([i,x]);prev={x,o}}
+ const first=sel.length?(M[sel[0]].o||[0])[0]:0,lastM=sel.length?M[sel[sel.length-1]]:null,
+  end=lastM?pos[pos.length-1][1]+(lastM.o||[0,lastM.w])[1]:0,used=sel.length?end-first:0,T=target(),
+  margin=0.544,W=T||Math.max(used+2*margin,0.5),H=7,shift=(W-used)/2-first;
+ for(const p of pos)p[1]+=shift;
+ return{used,T,W,H,pos}}
 function holes(L){const out=[],miss=[],Hmm=L.H*MMI,Wmm=L.W*MMI;
  for(const[i,x]of L.pos){const m=M[i],h=m.k&&HD.modules[m.k];if(!h){miss.push(m.n);continue}
   const ox=x*MMI,oy=(L.H-m.h)/2*MMI;
@@ -30,7 +39,7 @@ function el(n,a,p){const e=document.createElementNS(NS,n);for(const k in a)e.set
 async function svg(mode){const L=layout(),o=el('svg',{xmlns:NS,'xmlns:xlink':'http://www.w3.org/1999/xlink','xmlns:inkscape':INK,
   width:L.W+'in',height:L.H+'in',viewBox:'0 0 '+L.W*D+' '+L.H*D});
  if(mode==='art'&&$('bg').value!=='none')el('rect',{width:'100%',height:'100%',fill:$('bg').value},o);
- const keep=mode==='fpe'?['Linework']:['Background','Linework','Jacks/Knobs'];
+ const keep=mode==='fpe'?['Linework']:['Linework','Jacks/Knobs'];   /* one background for the whole panel, no per-module sheet edges */
  for(const[i,x]of L.pos){const m=M[i],t=await get(m);o.appendChild(document.importNode(nest(t,x*D,(L.H-m.h)/2*D,m,keep),true))}
  if(mode==='art'){
   if($('fr').checked)el('rect',{x:.5,y:.5,width:L.W*D-1,height:L.H*D-1,fill:'none',stroke:'#000','stroke-width':1},o);
@@ -46,7 +55,7 @@ async function draw(){
   const b=s.querySelectorAll('button');b[0].onclick=()=>{if(k){[sel[k-1],sel[k]]=[sel[k],sel[k-1]];draw()}};
   b[1].onclick=()=>{if(k<sel.length-1){[sel[k+1],sel[k]]=[sel[k],sel[k+1]];draw()}};b[2].onclick=()=>{sel.splice(k,1);draw()};$('sel').appendChild(s)});
  const L=layout(),{used,T}=L;
- $('meter').innerHTML=sel.length?('Modules: <b>'+used.toFixed(2)+'"</b>'+(T?(' of '+T+'" &middot; '+(used>T?'<b class="bad">'+(used-T).toFixed(2)+'" too wide</b>':((T-used).toFixed(2)+'" left'))):'')+' &middot; '+sel.length+' module'+(sel.length>1?'s':'')):'';
+ $('meter').innerHTML=sel.length?('Modules: <b>'+used.toFixed(2)+'"</b>'+(T?(' of '+T+'" &middot; '+(used>T-1.09?'<b class="bad">'+(used-T+1.09).toFixed(2)+'" too wide (keep 0.54" each side)</b>':((T-1.09-used).toFixed(2)+'" left'))):'')+' &middot; '+sel.length+' module'+(sel.length>1?'s':'')):'';
  const btn=['dl','dp','dd','df'];
  if(!sel.length){$('bp').innerHTML='';$('stage').innerHTML='<div class="empty">Click modules on the left to add them to the panel.</div>';btn.forEach(b=>$(b).disabled=true);$('warn').textContent='';return}
  const o=await svg('art');$('stage').innerHTML='';$('stage').appendChild(o);btn.forEach(b=>$(b).disabled=false);
@@ -129,7 +138,9 @@ $('dp').onclick=async()=>png(await svg('art'),150,b=>save(b,nm()+'.png'));
 $('dd').onclick=()=>save(pdf(),nm()+'_drill_template.pdf');
 $('df').onclick=()=>fpdKit().catch(e=>{$('df').textContent='Front Panel Express kit (.zip)';alert('Could not build the kit: '+e)});
 $('cp').onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText(location.href);$('cp').textContent='Link copied'};
-['q','era'].forEach(i=>$(i).addEventListener('input',lib));['pw','cw','bg','al','fr','mt'].forEach(i=>$(i).addEventListener('change',()=>{$('cw').style.display=$('pw').value==='custom'?'':'none';draw()}));
+$('q').addEventListener('input',lib);$('pcb').addEventListener('change',lib);
+for(const b of document.querySelectorAll('#eras .chip'))b.onclick=()=>{for(const x of document.querySelectorAll('#eras .chip'))x.classList.remove('on');b.classList.add('on');era=b.dataset.v;lib()};
+['pw','cw','bg','fr','mt'].forEach(i=>$(i).addEventListener('change',()=>{$('cw').style.display=$('pw').value==='custom'?'':'none';draw()}));
 const h=new URLSearchParams(location.hash.slice(1));
 if(h.get('m'))sel=h.get('m').split(',').map(n=>M.findIndex(m=>m.s===n||m.n===n)).filter(i=>i>=0);
 if(h.get('w'))$('pw').value=h.get('w');
