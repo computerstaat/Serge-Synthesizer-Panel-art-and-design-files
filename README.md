@@ -19,7 +19,7 @@ Panel artwork for a collection of Serge-format synthesizer modules, with drill t
 <td align="center" valign="top" width="25%"><a href="Paperface/README.md"><img src="thumbs/Paperface/Images/Module/Analog_Shift_Register.jpg" height="140"></a><br><b><a href="Paperface/README.md">Paperface</a></b><br><sub>41 panels</sub></td>
 <td align="center" valign="top" width="25%"><a href="SMMS/Paper/README.md"><img src="thumbs/SMMS/Paper/Images/Module/Dual_Processor.jpg" height="140"></a><br><b><a href="SMMS/Paper/README.md">SMMS paper</a></b><br><sub>6 panels</sub></td>
 <td align="center" valign="top" width="25%"><a href="Modern/README.md"><img src="thumbs/Modern/Images/Module/4_Stage_Sequencing_Programmer.jpg" height="140"></a><br><b><a href="Modern/README.md">SMMS metal overlay and STS</a></b><br><sub>167 panels</sub></td>
-<td align="center" valign="top" width="25%"><a href="CGS/README.md"><img src="thumbs/CGS/Images/8_Stage_Programmer_Sequencer.jpg" height="140"></a><br><b><a href="CGS/README.md">CGS (Catgirl Synth)</a></b><br><sub>49 panels</sub></td>
+<td align="center" valign="top" width="25%"><a href="CGS/README.md"><img src="thumbs/CGS/Images/8_Stage_Programmer_Sequencer.jpg" height="140"></a><br><b><a href="CGS/README.md">CGS (Catgirl Synth)</a></b><br><sub>74 panels</sub></td>
 </tr></table>
 
 **[Module build pages](Modules/README.md):** how each module works, PCB sources, schematics and a BOM spreadsheet, with Mouser upload files for some.  

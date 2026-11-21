@@ -148,7 +148,8 @@
      "offer": "Sub-module PCBs from Elby Designs; there is no complete CGS UAP board",
      "pcb": {
       "maker": "elby",
-      "item": "CGS102 Equal Power Panner and CGS108 Serge gain cell PCBs"
+      "item": "CGS102 Equal Power Panner; the CGS108 gain cell is superseded by the CGS508",
+      "url": "https://www.elby-designs.com/webtek/cgs/serge/cgs508/cgs508.htm"
      },
      "schematic": {
       "status": "available",
@@ -163,7 +164,8 @@
      "notes": [
       "The CGS102 converts and sums control voltages only; it needs CGS108 gain cells for the audio path, and those need a host board.",
       "Ken Stone does not publish the CGS108 gain cell schematic: the circuit is proprietary. His page gives the PCB overlay and parts only.",
-      "The Mouser files for this option cover the CGS102 and two CGS108 gain cells only. The board that carries the audio path, the panel wiring and the mode switch is not published, so they are not a complete UAP."
+      "The Mouser files for this option cover the CGS102 and two CGS108 gain cells only. The board that carries the audio path, the panel wiring and the mode switch is not published, so they are not a complete UAP.",
+      "The CGS508 Serge gain cell supersedes the CGS108. Its circuit is proprietary, so Elby sells it only pre-assembled, for use with the modules that need it; the CGS108 Mouser file is only useful if you have old CGS108 boards."
      ],
      "parts": [
       "cgs102_epp",
@@ -429,7 +431,21 @@
       "Ken Stone uses standard quad op-amps in place of the original RC4136 (LM3403 or TL074), and a 741 or TL071 in the mixers.",
       "The CGS90 board carries the phaser and both mixers, so the 4\" Phaser with Mixers panel uses every jack on the board; the 2\" Phaser panel leaves the mixers unused."
      ],
-     "parts": "cgs90_phaser"
+     "parts": "cgs90_phaser",
+     "docs": [
+      [
+       "Elby CGS90 component kit BOM (PDF)",
+       "https://www.elby-designs.com/webtek/cgs/serge/cgs90/kc-7-cgs90.pdf"
+      ],
+      [
+       "Elby CGS90 hardware kit BOM (PDF): jacks, pots, knobs",
+       "https://www.elby-designs.com/webtek/cgs/serge/cgs90/kh-7-cgs90.pdf"
+      ],
+      [
+       "sdiy.info wiki: schematics and PCB overlay",
+       "https://sdiy.info/wiki/CGS_Serge_phaser_and_audio_mixers"
+      ]
+     ]
     },
     {
      "maker": "prism",
@@ -537,7 +553,8 @@
      "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
      "pcb": {
       "maker": "elby",
-      "item": "CGS113 Wave Multipliers PCB (search the Ken Stone range)"
+      "item": "CGS513 Wave Multipliers (current version of the CGS113)",
+      "url": "https://www.elby-designs.com/webtek/cgs/serge/cgs513/cgs513.htm"
      },
      "schematic": {
       "status": "available",
@@ -550,26 +567,45 @@
       "title": "Ken Stone CGS113: parts list"
      },
      "notes": [],
-     "parts": "cgs113_vcm"
+     "parts": "cgs113_vcm",
+     "docs": [
+      [
+       "sdiy.info wiki: CGS113",
+       "https://sdiy.info/wiki/CGS_Serge_voltage_controlled_wave_multiplier"
+      ],
+      [
+       "Elby CGS513 V2.0",
+       "https://www.elby-designs.com/webtek/cgs/serge/cgs513/cgs513-v20/cgs513.htm"
+      ]
+     ]
     },
     {
      "maker": "lowgain",
-     "name": "Low-Gain LGE113 Wave Multipliers (VCM)",
-     "url": "https://www.low-gain.com/shop/p/low-gain-lge113-wave-multipliers-vcm-4u-serge-compatible",
+     "name": "Low-Gain LGE113 Wave Multipliers (Harmonic Processors)",
+     "url": "https://www.low-gain.com/shop/p/lge113",
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
-      "url": "https://www.low-gain.com/shop/p/low-gain-lge113-wave-multipliers-vcm-4u-serge-compatible"
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
+      "url": "https://www.low-gain.com/shop/p/lge113"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
-      "url": "https://www.low-gain.com/shop/p/low-gain-lge113-wave-multipliers-vcm-4u-serge-compatible"
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
+      "url": "https://www.low-gain.com/shop/p/lge113"
      },
      "notes": [
+      "Known error on LGE113 v1.2 PCBs: the 3-pin header carrying J, H and G is wired wrongly between LGE113 and LGE113C, so connect those three with wires instead of the male / female headers.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE113 Main Board Bill of Materials",
+      "LGE113 Main Board Schematic",
+      "LGE113 Main Board Designator Layout",
+      "LGE113C I/O Board Schematic (wiring diagram)",
+      "LGE113C I/O Board Designator Layout",
+      "Mechanical parts BOM"
      ]
     }
    ]
@@ -671,7 +707,8 @@
      "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
      "pcb": {
       "maker": "elby",
-      "item": "CGS114 Slope PCB (search the Ken Stone range)"
+      "item": "CGS514 (current version of the CGS114); Elby keeps the DUSG panel wiring and test notes here",
+      "url": "https://elby-designs.com/webtek/cgs/serge/cgs514/cgs114/cgs114.htm"
      },
      "schematic": {
       "status": "available",
@@ -690,22 +727,30 @@
     },
     {
      "maker": "lowgain",
-     "name": "Low-Gain LGE114 Extended Dual Rise/Fall (DUSG)",
+     "name": "Low-Gain LGE114 Extended Dual Rise/Fall",
      "url": "https://www.low-gain.com/shop/p/lge114",
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge114"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
       "url": "https://www.low-gain.com/shop/p/lge114"
      },
      "notes": [
+      "Low-Gain moved the LED drivers off the main LGE114 board to stop crosstalk between the two slopes; the LEDs are driven from the I/O board, or from their LED driver chiclets for flying-wire builds.",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE114 Schematic",
+      "LGE114 PCB Layout w/ Values",
+      "LGE114 Bill of Materials",
+      "LGE114AC Schematic (wiring diagram)",
+      "LGE114AC Bill of Materials"
      ]
     }
    ]
@@ -780,6 +825,31 @@
      "notes": [
       "LW-format version: https://prismcircuits.net/products/1973-oscillator",
       "Prism's product page also links its own panel art; that artwork is Prism's and is not copied here."
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Elby / CGS CGS507 1973 VCO",
+     "url": "https://www.elby-designs.com/webtek/cgs/serge/cgs507/cgs507.htm",
+     "offer": "PCB (1\" x 6\") from Elby Designs",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS507 1973 VCO",
+      "url": "https://www.elby-designs.com/webtek/cgs/serge/cgs507/cgs507.htm"
+     },
+     "schematic": {
+      "status": "listed",
+      "title": "On the Elby CGS507 page",
+      "url": "https://www.elby-designs.com/webtek/cgs/serge/cgs507/cgs507.htm"
+     },
+     "bom": {
+      "status": "listed",
+      "title": "On the Elby CGS507 page",
+      "url": "https://www.elby-designs.com/webtek/cgs/serge/cgs507/cgs507.htm"
+     },
+     "notes": [
+      "Like the original, the CGS507 has no 1V/octave input: the scalable CV A input together with FREQUENCY gives tonal tracking, and CV B can act as a fine tune.",
+      "Ranges per Elby: CV A, CV B and WAVE SHAPER 0 to +5 V; outputs SHAPED and SAW in AC (-2.5 to +2.5 V) and DC (0 to +5 V) versions; 16 Hz to over 16 kHz."
      ]
     }
    ],
@@ -867,7 +937,8 @@
      "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
      "pcb": {
       "maker": "elby",
-      "item": "CGS77 PCB"
+      "item": "CGS577 V2.0 1973 Voltage Controlled Filter (current version of the CGS77)",
+      "url": "https://www.elby-designs.com/webtek/cgs/serge/cgs577/cgs577.htm"
      },
      "schematic": {
       "status": "available",
@@ -1638,7 +1709,8 @@
      "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
      "pcb": {
       "maker": "elby",
-      "item": "CGS92 PCB"
+      "item": "CGS592 Smooth and Stepped Generator (current version of the CGS92)",
+      "url": "https://elby-designs.com/webtek/cgs/serge/cgs592/cgs92/cgs92_ssg.html"
      },
      "schematic": {
       "status": "available",
@@ -1650,26 +1722,45 @@
       "title": "CGS92 Serge Smooth and Stepped Generator parts list (in the BOM spreadsheet below)",
       "url": "https://open4umodular.github.io/synthpanel/modules/cgs92_ssg.html"
      },
-     "notes": []
+     "notes": [],
+     "docs": [
+      [
+       "sdiy.info wiki: schematic and PCB overlay",
+       "https://sdiy.info/wiki/CGS_Serge_smooth_and_stepped_generator"
+      ],
+      [
+       "Earlier CGS SSG version (Ken Stone)",
+       "https://open4umodular.github.io/synthpanel/modules/cgsssg_ssg.html"
+      ]
+     ]
     },
     {
      "maker": "lowgain",
-     "name": "Low-Gain LGE092 Smooth / Stepped Generator",
-     "url": "https://www.low-gain.com/shop/p/low-gain-lge092-smooth-stepped-generator-ssg-4u-serge-compatible",
+     "name": "Low-Gain LGE092 Smooth Stepped Generator",
+     "url": "https://www.low-gain.com/shop/p/lge092",
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
-      "status": "listed",
-      "title": "Board documents on the product page",
-      "url": "https://www.low-gain.com/shop/p/low-gain-lge092-smooth-stepped-generator-ssg-4u-serge-compatible"
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
+      "url": "https://www.low-gain.com/shop/p/lge092"
      },
      "bom": {
-      "status": "listed",
-      "title": "Board BOMs on the product page",
-      "url": "https://www.low-gain.com/shop/p/low-gain-lge092-smooth-stepped-generator-ssg-4u-serge-compatible"
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
+      "url": "https://www.low-gain.com/shop/p/lge092"
      },
      "notes": [
+      "The LGE092 is two sub-modules on one board, Smooth on top and Stepped below; no flying wires (PCB 6\" x 2\").",
       "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE092 Bill of Materials",
+      "LGE092 Schematic",
+      "LGE092 PCB Layout w/ Designators",
+      "LGE092C I/O Board Schematic (wiring diagram)",
+      "LGE092 I/O Board Bill of Materials",
+      "Mechanical parts BOM"
      ]
     }
    ],
@@ -2313,23 +2404,51 @@
     },
     {
      "maker": "lowgain",
-     "name": "Low-Gain LGE012 Dual Processor V2",
-     "url": "https://www.low-gain.com/shop/p/lge012v2",
+     "name": "Low-Gain LGE012 Dual Processor",
+     "url": "https://www.low-gain.com/shop/p/lge012",
      "offer": "Assembled module or DIY PCBs",
      "format": "4U Serge, Loudest Warning-style mounting",
      "schematic": {
+      "status": "available",
+      "title": "Schematics on the Low-Gain product page",
+      "url": "https://www.low-gain.com/shop/p/lge012"
+     },
+     "bom": {
+      "status": "available",
+      "title": "BOMs on the Low-Gain product page",
+      "url": "https://www.low-gain.com/shop/p/lge012"
+     },
+     "notes": [
+      "Each LGE012 channel has an optional limit / saturate switch that the Serge Dual Processor panel does not have.",
+      "Low-Gain boards set their own jack positions; check them against the panel you use."
+     ],
+     "doclist": [
+      "LGE012 Bill of Materials",
+      "LGE012 PCB Layout w/ Designators",
+      "LGE012 Schematic"
+     ]
+    },
+    {
+     "maker": "kenstone",
+     "name": "Elby / CGS CGS381 Dual Voltage Processor",
+     "url": "https://elby-designs.com/webtek/cgs/cgs381/cgs381.htm",
+     "offer": "PCB from Elby Designs",
+     "pcb": {
+      "maker": "elby",
+      "item": "CGS381 V2.1 Dual Voltage Processor",
+      "url": "https://elby-designs.com/webtek/cgs/cgs381/cgs381.htm"
+     },
+     "schematic": {
       "status": "listed",
-      "title": "Board documents on the product page",
-      "url": "https://www.low-gain.com/shop/p/lge012v2"
+      "title": "On the Elby CGS381 page",
+      "url": "https://elby-designs.com/webtek/cgs/cgs381/cgs381.htm"
      },
      "bom": {
       "status": "listed",
-      "title": "Board BOMs on the product page",
-      "url": "https://www.low-gain.com/shop/p/lge012v2"
+      "title": "On the Elby CGS381 page",
+      "url": "https://elby-designs.com/webtek/cgs/cgs381/cgs381.htm"
      },
-     "notes": [
-      "Low-Gain boards set their own jack positions; check them against the panel you use."
-     ]
+     "notes": []
     }
    ],
    "docs": [
@@ -2734,7 +2853,8 @@
      "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
      "pcb": {
       "maker": "elby",
-      "item": "CGS116 PCB"
+      "item": "CGS516 V2.0 Extended ADSR (current version of the CGS116)",
+      "url": "https://www.elby-designs.com/webtek/cgs/serge/cgs516/v20/cgs516.htm"
      },
      "schematic": {
       "status": "available",
@@ -2746,7 +2866,9 @@
       "title": "CGS116 Serge Extended ADSR parts list (in the BOM spreadsheet below)",
       "url": "https://open4umodular.github.io/synthpanel/modules/cgs116_env.html"
      },
-     "notes": []
+     "notes": [
+      "On the CGS516 the GATE input reads as ON when nothing is plugged into it."
+     ]
     },
     {
      "maker": "lowgain",
@@ -2845,7 +2967,8 @@
      "offer": "PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone's page",
      "pcb": {
       "maker": "elby",
-      "item": "CGS112 PCB set (+3 CGS108)"
+      "item": "CGS512 VCFQ (current version of the CGS112)",
+      "url": "https://www.elby-designs.com/webtek/cgs/serge/cgs512/cgs512.htm"
      },
      "schematic": {
       "status": "available",
@@ -2857,7 +2980,9 @@
       "title": "CGS112 Serge VC Resonance Filter parts list (in the BOM spreadsheet below)",
       "url": "https://open4umodular.github.io/synthpanel/modules/cgs112_vcfq.html"
      },
-     "notes": []
+     "notes": [
+      "Elby now supplies the Serge gain cells for the CGS512 only as pre-built, factory-calibrated sub-assemblies with the PCB; they are no longer a DIY kit."
+     ]
     },
     {
      "maker": "lowgain",

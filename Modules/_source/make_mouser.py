@@ -30,7 +30,8 @@ def key(t, v):
         if "connector" in lv: return "M:MTA156 housing"
         if "header" in lv or "0.156" in lv: return "M:MTA156 header"
     if t == "Potentiometer / trimmer":
-        val = re.match(r"([\d.]+k)", v).group(1)
+        mm = re.match(r"([\d.]+[kKM]?)", v)
+        val = mm.group(1).replace("K", "k") if mm else v
         if "pot" in lv and "trim" not in lv:
             return "P:100k" if ("100k" in lv and val != "25k") or val == "100k" else "P:" + val
         return "T:" + val
