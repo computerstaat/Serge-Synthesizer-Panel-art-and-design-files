@@ -172,12 +172,12 @@ def status(s):
     return '<span class="pill %s">%s</span>%s' % (st, lab, t)
 
 
-SITE_NAV = ('<a href="../index.html">Home</a><a href="../panels.html">Panels</a><a href="index.html">Build pages</a>'
-            '<a href="../systems.html">Systems</a><a href="../documentation.html">Documentation</a>')
+SITE_NAV = ('<a href="index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a>'
+            '<a href="../panels.html">Panel art</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a>')
 
 
 def top_bar():
-    return ('<header class="top"><div class="in"><a class="brand" href="../index.html">Serge panel artwork</a>' + SITE_NAV + '</div></header>'
+    return ('<header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a>' + SITE_NAV + '</div></header>'
             '<nav class="sub"><div class="in"><a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a>'
             '<a href="#build">Build options</a><a href="#bom">BOM</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></nav>')
 
@@ -293,7 +293,7 @@ def index():
     mk = "".join("<tr><td>%s</td><td>%s</td></tr>" % (link(x["name"], x["url"]), e(x["note"])) for x in MAKERS.values())
     return ('<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             '<title>Serge module build pages</title><style>%s</style></head><body>'
-            '<header class="top"><div class="in"><a class="brand" href="../index.html">Serge panel artwork</a>' + SITE_NAV + '</div></header><main>'
+            '<header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a>' + SITE_NAV + '</div></header><main>'
             '<h1>Serge module build pages</h1><p class="summary">For each module: the panels in this repo, how it works, '
             'the front-panel hardware, and every known way to build it, with its PCB, schematic and parts list.</p>'
             '<section id="modules"><h2>Modules</h2><table class="idx"><tr><th></th><th>Module</th><th>Function</th><th>Build options</th></tr>%s</table></section>'

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Serge history, as it bears on the panel artwork | Serge panel artwork</title><style>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Serge history, as it bears on the panel artwork | Serge DIY</title><style>
 :root{--ink:#1d1d1b;--muted:#6b6b66;--line:#e2ded5;--bg:#f6f4ee;--card:#fff;--accent:#b3261e}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
@@ -32,8 +32,27 @@ table.list{border-collapse:collapse;width:100%;background:var(--card);border:1px
 table.list td,table.list th{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line)}
 .note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:8px;padding:10px 14px;font-size:.92rem}
 footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
-@media(max-width:760px){.hero{grid-template-columns:1fr}}
-</style></head><body><header class="top"><div class="in"><a class="brand" href="../index.html">Serge panel artwork</a><a href="../index.html">Home</a><a href="../panels.html">Panels</a><a href="../Modules/index.html">Build pages</a><a href="../systems.html">Systems</a><a href="../documentation.html" class="on">Documentation</a></div></header><main><p class="muted"><a href="../documentation.html">Documentation</a> /</p><div class="doc"><h1>Serge history, as it bears on the panel artwork</h1>
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.btn{display:inline-block;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600;border:2px solid var(--ink);color:var(--ink);background:#fff}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:28px 0 8px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;text-decoration:none;color:var(--ink)}
+.stat b{display:block;font-size:2rem;line-height:1.1}.stat span{color:var(--muted);font-size:.9rem}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;counter-reset:s}
+.step{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;position:relative}
+.step:before{counter-increment:s;content:counter(s);position:absolute;top:-12px;left:14px;background:var(--ink);color:#fff;width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+.step h3{margin:6px 0 4px;font-size:1.05rem}.step p{margin:0;font-size:.93rem;color:var(--muted)}
+.mx{border-collapse:collapse;width:100%;background:var(--card);border:1px solid var(--line);font-size:.93rem}
+.mx th{background:#efece4;text-align:left;font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.mx td,.mx th{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+.mx td.c,.mx th.c{text-align:center}.mx img{height:56px;display:block}.mx tr:hover td{background:#fbfaf6}
+.y{color:#1b7f3b;font-weight:700}.n{color:#c9c5bb}
+.tag{display:inline-block;font-size:.75rem;padding:1px 8px;border-radius:99px;background:#efece4;margin:1px 2px}
+.tag.ok{background:#dff3e4;color:#1b5e2e}
+.scroll{overflow-x:auto}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}}
+</style></head><body><header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="../Modules/index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../systems.html">Systems</a><a href="../documentation.html" class="on">Library</a></div></header><main><p class="muted"><a href="../documentation.html">Documentation</a> /</p><div class="doc"><h1>Serge history, as it bears on the panel artwork</h1>
 <p>A summary in our own words, from the Wikipedia "Serge synthesizer" article (current and older revisions) and the
 Egres fan site (serge-fans.com, Darrel Johansen, Gary Chang and Kevin Braheny Fortune's pages).</p>
 <h2>Timeline</h2>
@@ -100,4 +119,4 @@ graphics:</p>
 - Early Sequencers had two jacks per output, later ones one. Some early Noise Sources had only the white, pink and
   S/H source outputs.
 - Darrel Johansen's custom six-panel system, built in the early 1980s with reversed (silver on black) metallic
-  graphics, was donated to CalArts in 1997. That fits the Cal Arts Black Serge (<code>../Systems/CalArts_Black_Serge.md</code>).</p></div><footer>Serge-style panel artwork, shared for educational purposes. Module designs, names and trademarks belong to their owners. <a href="https://github.com/computerstaat/Serge-Synthesizer-Panel-art-and-design-files">Source on GitHub</a>.</footer></main></body></html>
+  graphics, was donated to CalArts in 1997. That fits the Cal Arts Black Serge (<code>../Systems/CalArts_Black_Serge.md</code>).</p></div><footer>Serge DIY: build notes, parts lists and panel artwork for Serge-format modules, shared for educational purposes. Schematics, PCBs and BOMs belong to their designers and sellers and are linked, not copied. Module designs, names and trademarks belong to their owners. <a href="https://github.com/computerstaat/Serge-Synthesizer-Panel-art-and-design-files">Source on GitHub</a>.</footer></main></body></html>
