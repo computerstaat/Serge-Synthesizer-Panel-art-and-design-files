@@ -1,0 +1,91 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs101_dcsm.html",
+"board": "CGS101",
+"parts": [
+{
+"type": "Resistor",
+"value": "330Ω",
+"qty": 8
+},
+{
+"type": "Resistor",
+"value": "5.6k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "82k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 37
+},
+{
+"type": "Resistor",
+"value": "RPD (100k)",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "220k",
+"qty": 4
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "100k lin pot",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "82pF ceramic",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "220nF (=0.22uF) MKT",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "10uF 25V electrolytic",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "TL074",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "MTA-156 connector 4Pin",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "MTA-156 header 4Pin",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "CGS108 submodule",
+"qty": 4
+},
+{
+"type": "Misc",
+"value": "CGS102 submodule set",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "CGS101 VER1.0 PCB set",
+"qty": 1
+}
+]
+}

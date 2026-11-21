@@ -1,0 +1,28 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H221JNT0,FG28C0G1H221JNT00,TDK,2,"Ceramic 220pF C0G 50V, 5mm",CGS83: 220pF
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,4,"Ceramic 100nF X7R 50V, 5mm (decoupling)","CGS83: 100n (0.1) decoupling caps / 100n mylar, MKT or sim"
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,3,Electrolytic 10uF 25V,CGS83: 10uF 25V
+603-MFR-25FBF52-33R,MFR-25FBF52-33R,YAGEO,2,Metal film resistor 33R 1/4W 1% [UNVERIFIED: check stock and price],CGS83: 33R
+603-MFR-25FBF52-100R,MFR-25FBF52-100R,YAGEO,2,Metal film resistor 100R 1/4W 1%,CGS83: 100R
+603-MFR-25FBF52-220R,MFR-25FBF52-220R,YAGEO,6,Metal film resistor 220R 1/4W 1% [UNVERIFIED: check stock and price],CGS83: 220R
+603-MFR-25FBF52-3K3,MFR-25FBF52-3K3,YAGEO,2,Metal film resistor 3k3 1/4W 1% [UNVERIFIED: check stock and price],CGS83: 3k3
+603-MFR-25FBF52-4K7,MFR-25FBF52-4K7,YAGEO,12,Metal film resistor 4k7 1/4W 1% [UNVERIFIED: check stock and price],CGS83: 4k7
+603-MFR-25FBF52-5K6,MFR-25FBF52-5K6,YAGEO,1,Metal film resistor 5k6 1/4W 1%,CGS83: 5k6
+603-MFR-25FBF52-6K8,MFR-25FBF52-6K8,YAGEO,1,Metal film resistor 6k8 1/4W 1%,CGS83: 6k8
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,2,Metal film resistor 10k 1/4W 1%,CGS83: 10k
+603-MFR-25FBF52-18K,MFR-25FBF52-18K,YAGEO,4,Metal film resistor 18k 1/4W 1% [UNVERIFIED: check stock and price],CGS83: 18k
+603-MFR-25FBF52-22K,MFR-25FBF52-22K,YAGEO,2,Metal film resistor 22k 1/4W 1%,CGS83: 22k (use 100k)
+603-MFR-25FBF52-47K,MFR-25FBF52-47K,YAGEO,2,Metal film resistor 47k 1/4W 1%,CGS83: 47k
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,8,Metal film resistor 100k 1/4W 1%,CGS83: 100k
+603-MFR-25FBF52-220K,MFR-25FBF52-220K,YAGEO,4,Metal film resistor 220k 1/4W 1%,CGS83: 220k
+603-MFR-25FBF52-470K,MFR-25FBF52-470K,YAGEO,6,Metal film resistor 470k 1/4W 1%,CGS83: 470k
+603-MFR-25FBF52-820K,MFR-25FBF52-820K,YAGEO,2,Metal film resistor 820k 1/4W 1%,CGS83: 820k
+603-MFR-25FBF52-1M,MFR-25FBF52-1M,YAGEO,4,Metal film resistor 1M 1/4W 1%,CGS83: 1M
+652-3362P-1-203LF,3362P-1-203LF,Bourns,2,"Trimmer 20k, 1/4in square [UNVERIFIED: check stock and price]",CGS83: 20k (or sim) single turn trimmer
+313-1000F-100K,RV16AF-10-15R1-B100K-3LA,Alpha (Taiwan),4,"16mm pot 100k linear, solder lugs",CGS83: 100k lin pot
+512-1N4148,1N4148,onsemi,4,Small-signal diode,CGS83: 1N4148
+512-BC547BTA,BC547BTA,onsemi,9,NPN transistor (BC547B),CGS83: 2N3565 (BC547) / 2N3566 (BC547) / BC547 or sim
+512-BC557BTA,BC557BTA,onsemi,4,PNP transistor (BC557B),CGS83: 2N4248 (BC557)
+595-LM3900N,LM3900N,Texas Instruments,4,Quad Norton amplifier (also replaces MC3401),CGS83: MC3401 (can use LM3900) / LM3900
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS83: Ferrite Bead (or 10R resistor)
+571-3-640426-4,3-640426-4,TE Connectivity,1,"MTA-156 housing, 4 pos (for the power cable)",CGS83: 0.156 4 pin connector

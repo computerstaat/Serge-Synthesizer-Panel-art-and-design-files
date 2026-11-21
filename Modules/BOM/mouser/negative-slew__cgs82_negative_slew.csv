@@ -1,0 +1,25 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H121JNT0,FG28C0G1H121JNT00,TDK,2,"Ceramic 120pF C0G 50V, 5mm [UNVERIFIED: check stock and price]",CGS82: 120pF
+810-FG28X7R1H103KNT6,FG28X7R1H103KNT06,TDK,2,"Ceramic 10nF X7R 50V, 5mm",CGS82: 10n
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,4,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS82: 100n (0.1) decoupling caps
+505-MKS2.33/63/5T,MKS2-.33/63/5T,WIMA,2,"Film capacitor 330nF 63V, 5mm [UNVERIFIED: check stock and price]",CGS82: 330n
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,3,Electrolytic 10uF 25V,CGS82: 10uF 25V
+603-MFR-25FBF52-33R,MFR-25FBF52-33R,YAGEO,2,Metal film resistor 33R 1/4W 1% [UNVERIFIED: check stock and price],CGS82: 33R
+603-MFR-25FBF52-220R,MFR-25FBF52-220R,YAGEO,4,Metal film resistor 220R 1/4W 1% [UNVERIFIED: check stock and price],CGS82: 220R
+603-MFR-25FBF52-4K7,MFR-25FBF52-4K7,YAGEO,4,Metal film resistor 4k7 1/4W 1% [UNVERIFIED: check stock and price],CGS82: 4k7
+603-MFR-25FBF52-5K6,MFR-25FBF52-5K6,YAGEO,1,Metal film resistor 5k6 1/4W 1%,CGS82: 5k6
+603-MFR-25FBF52-6K8,MFR-25FBF52-6K8,YAGEO,5,Metal film resistor 6k8 1/4W 1%,CGS82: 6k8
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,6,Metal film resistor 10k 1/4W 1%,CGS82: 10k
+603-MFR-25FBF52-18K,MFR-25FBF52-18K,YAGEO,4,Metal film resistor 18k 1/4W 1% [UNVERIFIED: check stock and price],CGS82: 18k
+603-MFR-25FBF52-22K,MFR-25FBF52-22K,YAGEO,4,Metal film resistor 22k 1/4W 1%,CGS82: 22k
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,2,Metal film resistor 100k 1/4W 1%,CGS82: 100k
+603-MFR-25FBF52-220K,MFR-25FBF52-220K,YAGEO,6,Metal film resistor 220k 1/4W 1%,CGS82: 220k
+603-MFR-25FBF52-330K,MFR-25FBF52-330K,YAGEO,2,Metal film resistor 330k 1/4W 1%,CGS82: 330k
+603-MFR-25FBF52-470K,MFR-25FBF52-470K,YAGEO,8,Metal film resistor 470k 1/4W 1%,CGS82: 470k
+603-MFR-25FBF52-820K,MFR-25FBF52-820K,YAGEO,2,Metal film resistor 820k 1/4W 1%,CGS82: 820k
+603-MFR-25FBF52-1M,MFR-25FBF52-1M,YAGEO,2,Metal film resistor 1M 1/4W 1%,CGS82: 1M
+652-3296W-1-104LF,3296W-1-104LF,Bourns,2,"Trimmer 100k, 3296W multi-turn (3362P 100k out of stock)",CGS82: 100k (or 20-25k) trimmer
+512-BC547BTA,BC547BTA,onsemi,3,NPN transistor (BC547B),CGS82: BC547 or sim
+595-LM3900N,LM3900N,Texas Instruments,2,Quad Norton amplifier (also replaces MC3401),CGS82: MC3401 or LM3900
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS82: Ferrite Bead (or 10R resistor)
+571-3-640426-4,3-640426-4,TE Connectivity,1,"MTA-156 housing, 4 pos (for the power cable)",CGS82: 0.156 4 pin connector

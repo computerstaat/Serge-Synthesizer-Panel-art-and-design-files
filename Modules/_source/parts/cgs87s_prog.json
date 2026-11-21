@@ -1,0 +1,131 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs87_prog.html",
+"board": "CGS87S",
+"parts": [
+{
+"type": "Misc",
+"value": "Ferrite Bead",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "330Ω",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "1k",
+"qty": 4
+},
+{
+"type": "Resistor",
+"value": "2.2k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "10k",
+"qty": 6
+},
+{
+"type": "Resistor",
+"value": "22k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "33k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "47k",
+"qty": 9
+},
+{
+"type": "Resistor",
+"value": "100k",
+"qty": 17
+},
+{
+"type": "Resistor",
+"value": "150k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "220k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "470k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "1M",
+"qty": 1
+},
+{
+"type": "Capacitor",
+"value": "47pF",
+"qty": 8
+},
+{
+"type": "Capacitor",
+"value": "10nF (=0.01uF)",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "100nF (=0.1uF) monoblock",
+"qty": 3
+},
+{
+"type": "Capacitor",
+"value": "100nF (=0.1uF) 1206 SMT",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "10uF electrolytic",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "1N4148",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "BC547",
+"qty": 3
+},
+{
+"type": "Semiconductor",
+"value": "BC557",
+"qty": 2
+},
+{
+"type": "Semiconductor",
+"value": "LM393",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "TL074",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "MTA-156 connector 4Pin",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "CGS87S PCB",
+"qty": 1
+}
+]
+}

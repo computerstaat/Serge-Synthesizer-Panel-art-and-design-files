@@ -1,0 +1,241 @@
+{
+"source": "https://open4umodular.github.io/synthpanel/modules/cgs202_reseq.html",
+"board": "CGS202",
+"parts": [
+{
+"type": "Capacitor",
+"value": "47pF",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "220pF",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "680pF",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "1n",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "2n2",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "4n7",
+"qty": 4
+},
+{
+"type": "Capacitor",
+"value": "10n monolythic ceramic",
+"qty": 10
+},
+{
+"type": "Capacitor",
+"value": "10n",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "22n",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "47n",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "4u7",
+"qty": 2
+},
+{
+"type": "Capacitor",
+"value": "10uF",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "330R (330 Ohms)",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "3k3",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "4k7",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "10k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "15k4",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "16k5",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "22k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "24k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "27k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "30k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "33k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "36k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "39k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "43k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "47k",
+"qty": 13
+},
+{
+"type": "Resistor",
+"value": "51k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "62k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "68k",
+"qty": 3
+},
+{
+"type": "Resistor",
+"value": "82k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "91k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "130k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "470k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "510k",
+"qty": 2
+},
+{
+"type": "Resistor",
+"value": "560k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "620k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "680k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "820k",
+"qty": 1
+},
+{
+"type": "Resistor",
+"value": "910k",
+"qty": 1
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "50k or 100k lin pot",
+"qty": 10
+},
+{
+"type": "Potentiometer / trimmer",
+"value": "50k or 100k log pot",
+"qty": 1
+},
+{
+"type": "Semiconductor",
+"value": "LF353 (TL072)",
+"qty": 10
+},
+{
+"type": "Misc",
+"value": "Jacks",
+"qty": 4
+},
+{
+"type": "Misc",
+"value": "Ferrite Bead (or 10R resistor)",
+"qty": 2
+},
+{
+"type": "Misc",
+"value": "0.156 4 pin connector",
+"qty": 1
+},
+{
+"type": "Misc",
+"value": "CGS202 VER1.0 PCB",
+"qty": 1
+}
+]
+}
