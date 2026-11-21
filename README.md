@@ -1,7 +1,12 @@
-# Serge-style Panel Artwork
+# Serge DIY: build Serge-format modules
 
-Panel artwork for a collection of Serge-format synthesizer modules, with drill templates and Front Panel Designer
+A DIY resource for Serge-format modular synthesizers. For each module: how it works, where to get its PCB today
+(Ken Stone / Elby, Low-Gain, Prism Circuits), which schematic and BOM go with which board, a BOM spreadsheet and Mouser
+upload files. Plus panel artwork from 1973 paperface to STS and CGS, with drill templates and Front Panel Designer
 (`.fpd`) files for Front Panel Express.
+
+**Website: https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/**
+· [Build a module](Modules/README.md) · [Mouser BOM files](Modules/BOM/mouser) · [Systems](Systems/README.md) · [Library](Documentation)
 
 > **For educational purposes only.** This repository is shared so people can study and learn from Serge-style panel
 > design. It is not a product, it is not affiliated with or endorsed by any of the original designers or
@@ -13,7 +18,7 @@ Panel artwork for a collection of Serge-format synthesizer modules, with drill t
 
 ## Browse
 
-**Website:** open [`index.html`](index.html) through GitHub Pages for the full site. On GitHub, each era folder's README shows all its panels as pictures.
+**Website:** https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/ has the full site. On GitHub, each era folder's README shows all its panels as pictures.
 
 <table><tr>
 <td align="center" valign="top" width="25%"><a href="Paperface/README.md"><img src="thumbs/Paperface/Images/Module/Analog_Shift_Register.jpg" height="140"></a><br><b><a href="Paperface/README.md">Paperface</a></b><br><sub>41 panels</sub></td>

@@ -20,6 +20,7 @@ from PIL import Image
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "Modules", "_source"))
 e = html.escape
+SITE = "https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/"
 
 ERAS = [  # slug, title, folder, blurb
     ("paperface", "Paperface", "Paperface",
@@ -67,23 +68,42 @@ table.list{border-collapse:collapse;width:100%;background:var(--card);border:1px
 table.list td,table.list th{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line)}
 .note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:8px;padding:10px 14px;font-size:.92rem}
 footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
-@media(max-width:760px){.hero{grid-template-columns:1fr}}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.btn{display:inline-block;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600;border:2px solid var(--ink);color:var(--ink);background:#fff}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:28px 0 8px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;text-decoration:none;color:var(--ink)}
+.stat b{display:block;font-size:2rem;line-height:1.1}.stat span{color:var(--muted);font-size:.9rem}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;counter-reset:s}
+.step{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;position:relative}
+.step:before{counter-increment:s;content:counter(s);position:absolute;top:-12px;left:14px;background:var(--ink);color:#fff;width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+.step h3{margin:6px 0 4px;font-size:1.05rem}.step p{margin:0;font-size:.93rem;color:var(--muted)}
+.mx{border-collapse:collapse;width:100%;background:var(--card);border:1px solid var(--line);font-size:.93rem}
+.mx th{background:#efece4;text-align:left;font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.mx td,.mx th{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+.mx td.c,.mx th.c{text-align:center}.mx img{height:56px;display:block}.mx tr:hover td{background:#fbfaf6}
+.y{color:#1b7f3b;font-weight:700}.n{color:#c9c5bb}
+.tag{display:inline-block;font-size:.75rem;padding:1px 8px;border-radius:99px;background:#efece4;margin:1px 2px}
+.tag.ok{background:#dff3e4;color:#1b5e2e}
+.scroll{overflow-x:auto}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}}
 """
 
-NAV = [("index.html", "Home"), ("panels.html", "Panels"), ("Modules/index.html", "Build pages"),
-       ("systems.html", "Systems"), ("documentation.html", "Documentation")]
+NAV = [("Modules/index.html", "Build a module"), ("boms.html", "Parts & BOMs"), ("sources.html", "PCB sources"),
+       ("panels.html", "Panel art"), ("systems.html", "Systems"), ("documentation.html", "Library")]
 
 
 def nav(depth, on=""):
     up = "../" * depth
-    links = "".join('<a href="%s%s"%s>%s</a>' % (up, h, ' class="on"' if t == on else "", t) for h, t in NAV)
-    return '<header class="top"><div class="in"><a class="brand" href="%sindex.html">Serge panel artwork</a>%s</div></header>' % (up, links)
+    links = "".join('<a href="%s%s"%s>%s</a>' % (up, h, ' class="on"' if t == on else "", e(t)) for h, t in NAV)
+    return '<header class="top"><div class="in"><a class="brand" href="%sindex.html">Serge DIY</a>%s</div></header>' % (up, links)
 
 
 def page(title, body, depth=0, on=""):
     return ('<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            "<title>%s</title><style>%s</style></head><body>%s<main>%s<footer>Serge-style panel artwork, shared for "
-            "educational purposes. Module designs, names and trademarks belong to their owners. "
+            "<title>%s</title><style>%s</style></head><body>%s<main>%s<footer>Serge DIY: build notes, parts lists and panel artwork for Serge-format modules, shared for "
+            "educational purposes. Schematics, PCBs and BOMs belong to their designers and sellers and are linked, not copied. Module designs, names and trademarks belong to their owners. "
             '<a href="https://github.com/computerstaat/Serge-Synthesizer-Panel-art-and-design-files">Source on GitHub</a>.</footer>'
             "</main></body></html>") % (e(title), CSS, nav(depth, on), body)
 
@@ -146,11 +166,11 @@ def era_page(slug, title, folder, blurb, links):
     body = ['<p class="muted"><a href="panels.html">Panels</a> /</p><h1>%s</h1><p class="lead">%s</p>' % (e(title), e(blurb))]
     body.append('<div class="tools"><input id="q" type="search" placeholder="Filter %d panels by name" aria-label="Filter panels">'
                 '<div class="chips">%s</div></div>' % (n, "".join('<a href="#%s">%s (%d)</a>' % (
-                    quote(c or "panels"), e(c or "Panels"), len(P[c])) for c in cats)))
+                    quote(c or "panels"), e(c or "Panel art"), len(P[c])) for c in cats)))
     lab = {"png": "PNG", "svg": "SVG", "drill": "Drill", "fpe": "FPD"}
     for c in cats:
         wide = c in ("Full Panel", "M-Class", "Quarter Panel")
-        body.append('<section id="%s" class="%s"><h2>%s</h2><div class="grid">' % (e(c or "panels"), "wide" if wide else "", e(c or "Panels")))
+        body.append('<section id="%s" class="%s"><h2>%s</h2><div class="grid">' % (e(c or "panels"), "wide" if wide else "", e(c or "Panel art")))
         for name, f in P[c]:
             t = thumb(f["png"])
             bl = links.get(f["png"])
@@ -162,7 +182,7 @@ def era_page(slug, title, folder, blurb, links):
         body.append("</div></section>")
     body.append("<script>{const q=document.getElementById('q');q.addEventListener('input',()=>{const v=q.value.toLowerCase().trim();"
                 "for(const p of document.querySelectorAll('.p'))p.style.display=!v||p.dataset.n.includes(v.replace(/ /g,'_'))||p.dataset.n.includes(v)?'':'none'})}</script>")
-    write("panels-%s.html" % slug, page(title + " | Serge panel artwork", "".join(body), 0, "Panels"))
+    write("panels-%s.html" % slug, page(title + " | Serge DIY", "".join(body), 0, "Panel art"))
     return n, [f["png"] for c in cats for _, f in P[c]]
 
 
@@ -184,8 +204,8 @@ def md_page(src, dst, title, depth, back):
             target = path
         return '%s="%s"' % (attr, "../" * depth + quote(target))
     htm = re.sub(r'(href|src)="([^"]+)"', fix, htm)
-    write(dst, page(title + " | Serge panel artwork", '<p class="muted">%s</p><div class="doc">%s</div>' % (back, htm), depth,
-                    "Systems" if dst.startswith("systems") else "Documentation"))
+    write(dst, page(title + " | Serge DIY", '<p class="muted">%s</p><div class="doc">%s</div>' % (back, htm), depth,
+                    "Systems" if dst.startswith("systems") else "Library"))
 
 
 def first_heading(src):
@@ -225,7 +245,7 @@ def gallery_md(folder, links, cols=5):
     up = "../" * (folder.count("/") + 1)
     P = panels(folder)
     out = ["## Panels", "", "Click a picture for the full-size PNG. **SVG** is the artwork, **Drill** the 1:1 drill template, "
-           "**Build** the module's build page. The same gallery is on the [website](%spanels.html)." % up, ""]
+           "**Build** the module's build page. The same gallery is on the [website](%spanels.html)." % SITE, ""]
     for c in sorted(P, key=lambda c: CAT_ORDER.index(c) if c in CAT_ORDER else 9):
         items = P[c]
         n = 3 if c in ("Full Panel", "M-Class", "Quarter Panel", "Full Panel/Custom") else cols
@@ -240,7 +260,7 @@ def gallery_md(folder, links, cols=5):
                     lk.append('<a href="%s">Drill</a>' % rel(f["drill"]))
                 bl = links.get(f["png"])
                 if bl:
-                    lk.append('<a href="%sModules/%s.html">Build</a>' % (up, bl[0]))
+                    lk.append('<a href="%sModules/%s.html">Build</a>' % (SITE, bl[0]))
                 tw, th = Image.open(os.path.join(ROOT, thumb(f["png"]))).size
                 size = ('width="%d"' % (260 if n == 3 else 150)) if tw > th * 0.75 else 'height="200"'
                 out.append('<td align="center" valign="bottom"><a href="%s"><img src="%s" %s></a><br><sub><b>%s</b><br>%s</sub></td>' % (
@@ -260,17 +280,17 @@ def main():
         n, pngs = era_page(slug, title, folder, blurb, links)
         mods = [p for p in pngs if "/Module/" in p] or pngs
         era_info.append((slug, title, blurb, n, mods[:6]))
-    cards = "".join('<a class="card" href="panels-%s.html"><div class="strip">%s</div><h3>%s</h3><p>%d panels. %s</p></a>' % (
+    cards_era = cards = "".join('<a class="card" href="panels-%s.html"><div class="strip">%s</div><h3>%s</h3><p>%d panels. %s</p></a>' % (
         s, "".join('<img loading="lazy" src="%s" alt="">' % quote(thumb(p)) for p in ims), e(t), n, e(b)) for s, t, b, n, ims in era_info)
-    write("panels.html", page("Panels | Serge panel artwork",
+    write("panels.html", page("Panels | Serge DIY",
                               "<h1>Panels</h1><p class=\"lead\">Every panel in the repo, grouped by era. Each panel has a PNG preview, the SVG "
                               "artwork, a 1:1 drill template, and for the modern panels a Front Panel Express file.</p>"
-                              '<div class="cards">%s</div>' % cards, 0, "Panels"))
+                              '<div class="cards">%s</div>' % cards, 0, "Panel art"))
 
     # GitHub view: picture galleries in each era folder's README, and an overview in the main README
     for slug, title, folder, blurb in ERAS:
         set_block(folder + "/README.md", gallery_md(folder, links), title)
-    rows = ['<p align="center"><img src="%s" width="760" alt="The Cal Arts Black Serge, panel 1"></p>' % quote(thumb("Modern/Images/Full Panel/CalArts_Panel_1_Black.png", 640)), "", "## Browse", "", "**Website:** open [`index.html`](index.html) through GitHub Pages for the full site. On GitHub, each era folder's "
+    rows = ['<p align="center"><img src="%s" width="760" alt="The Cal Arts Black Serge, panel 1"></p>' % quote(thumb("Modern/Images/Full Panel/CalArts_Panel_1_Black.png", 640)), "", "## Browse", "", "**Website:** https://computerstaat.github.io/Serge-Synthesizer-Panel-art-and-design-files/ has the full site. On GitHub, each era folder's "
             "README shows all its panels as pictures.", "", "<table><tr>"]
     for slug, title, b, n, ims in era_info:
         folder = [x[2] for x in ERAS if x[0] == slug][0]
@@ -290,7 +310,7 @@ def main():
         rows.append('<tr><td><a href="systems/%s.html"><b>%s</b></a></td></tr>' % (f[:-3], e(t)))
     intro = markdown.markdown(open(os.path.join(ROOT, "Systems", "README.md")).read().split("\n", 1)[1]) if os.path.exists(
         os.path.join(ROOT, "Systems", "README.md")) else ""
-    write("systems.html", page("Systems | Serge panel artwork", "<h1>Systems</h1><div class=\"lead\">%s</div>"
+    write("systems.html", page("Systems | Serge DIY", "<h1>Systems</h1><div class=\"lead\">%s</div>"
                                '<table class="list">%s</table>' % (re.sub(r'href="([^"#:]+)\.md"', r'href="systems/\1.html"', intro), "".join(rows)),
                                0, "Systems"))
 
@@ -306,37 +326,121 @@ def main():
         elif f.endswith(".pdf"):
             mb = os.path.getsize(os.path.join(ROOT, p)) / 1e6
             rows.append('<tr><td><a href="%s"><b>%s</b></a></td><td>PDF</td><td>%.1f MB</td></tr>' % (quote(p), e(f[:-4].replace("_", " ")), mb))
-    write("documentation.html", page("Documentation | Serge panel artwork",
+    write("documentation.html", page("Documentation | Serge DIY",
                                      "<h1>Documentation</h1><p class=\"lead\">Original Serge catalogues, manuals and guides, and our notes on them.</p>"
                                      '<table class="list"><tr><th>Document</th><th>Type</th><th>Size</th></tr>%s</table>' % "".join(rows),
-                                     0, "Documentation"))
+                                     0, "Library"))
+
+    # data for the DIY pages
+    D = json.load(open(os.path.join(ROOT, "Modules", "_source", "modules.json")))
+    mods, makers = D["modules"], D["makers"]
+    msum = json.load(open(os.path.join(ROOT, "Modules", "BOM", "mouser", "summary.json")))
+    mfiles = {}
+    for k, v in msum.items():
+        slug, board = k.split("__", 1)
+        mfiles.setdefault(slug, []).append((board, v))
+    npanels = sum(x[3] for x in era_info)
+
+    def mod_img(m, h=None):
+        for v in m["variants"]:
+            png = "%s/Images/%s%s.png" % (v["dir"], (v["sub"] + "/") if v["sub"] else "", v["file"])
+            if os.path.exists(os.path.join(ROOT, png)):
+                return quote(thumb(png))
+        return ""
+
+    def has_schem(m):
+        return any(b.get("schematic", {}).get("status") == "available" for b in m["builds"])
+
+    order = ["kenstone", "lowgain", "prism"]
+
+    def matrix(link_prefix="Modules/"):
+        rows = []
+        for m in sorted(mods, key=lambda m: m["name"]):
+            mk = {b["maker"] for b in m["builds"]}
+            cells = "".join('<td class="c">%s</td>' % ('<span class="y">&#10003;</span>' if k in mk else '<span class="n">&ndash;</span>') for k in order)
+            mf = mfiles.get(m["slug"], [])
+            mcell = "".join('<a class="tag ok" href="%sBOM/mouser/%s__%s.csv">%s</a>' % (link_prefix, m["slug"], b, e(b.upper().replace("_", " ")))
+                            for b, v in mf) or '<span class="n">&ndash;</span>'
+            img = mod_img(m)
+            rows.append('<tr><td class="hide">%s</td><td><a href="%s%s.html"><b>%s</b></a><br><small class="muted">%s</small></td>%s'
+                        '<td class="c">%s</td><td class="c"><a href="%sBOM/%s.csv">CSV</a></td><td>%s</td></tr>' % (
+                            '<img loading="lazy" src="%s" alt="">' % img if img else "", link_prefix, m["slug"], e(m["name"]), e(m["function"]),
+                            cells, '<span class="y">&#10003;</span>' if has_schem(m) else '<span class="n">&ndash;</span>',
+                            link_prefix, m["slug"], mcell))
+        head = ('<tr><th class="hide"></th><th>Module</th>%s<th class="c">Schematic</th><th class="c">BOM</th><th>Mouser upload</th></tr>'
+                % "".join('<th class="c">%s</th>' % e(makers[k]["name"].replace(" (CGS)", "")) for k in order))
+        return '<div class="scroll"><table class="mx">%s%s</table></div>' % (head, "".join(rows))
+
+    # parts & BOMs
+    brows = []
+    for slug in sorted(mfiles):
+        m = next(x for x in mods if x["slug"] == slug)
+        for b, v in mfiles[slug]:
+            brows.append('<tr><td><a href="Modules/%s.html">%s</a></td><td>%s</td><td class="c">%d</td><td class="c">%d</td><td class="c">$%.2f</td>'
+                         '<td><a class="tag ok" href="Modules/BOM/mouser/%s__%s.csv">Upload file</a> <a class="tag" href="Modules/BOM/mouser/%s__%s_not_at_mouser.csv">Other parts</a></td></tr>' % (
+                             slug, e(m["name"]), e(b.upper().replace("_", " ")), v["lines"], v.get("elsewhere", 0), v["cost"], slug, b, slug, b))
+    write("boms.html", page("Parts & BOMs | Serge DIY",
+        "<h1>Parts &amp; BOMs</h1><p class=\"lead\">Every module has a BOM spreadsheet covering each way to build it, plus the panel hardware. "
+        "For boards we've worked through line by line, there is also a ready-made <b>Mouser upload file</b>: in-stock, low-cost parts, "
+        "matched to the part numbers the designer used where we could.</p>"
+        '<h2>Ordering from Mouser</h2><div class="steps">'
+        '<div class="step"><h3>Download the upload file</h3><p>Pick the board you are building below. Each file is a CSV in Mouser\'s BOM tool layout.</p></div>'
+        '<div class="step"><h3>Open the Mouser BOM tool</h3><p>Go to <a href="https://www.mouser.com/bomtool/">mouser.com/bomtool</a> and upload the CSV. The columns map automatically.</p></div>'
+        '<div class="step"><h3>Check stock and quantities</h3><p>Prices and stock change daily. Multiply quantities if you are building more than one.</p></div>'
+        '<div class="step"><h3>Get the rest elsewhere</h3><p>Banana jacks, knobs and anything Mouser does not stock is in the "Other parts" file.</p></div></div>'
+        '<h2>Mouser upload files</h2><div class="scroll"><table class="mx"><tr><th>Module</th><th>Board</th><th class="c">Mouser lines</th>'
+        '<th class="c">Bought elsewhere</th><th class="c">Approx. cost</th><th>Files</th></tr>%s</table></div>'
+        '<p class="muted">Costs are Mouser\'s single-unit prices when the file was made, before tax and shipping, for one board, without the PCB or panel.</p>'
+        "<h2>Every module</h2><p>Which builds exist, whether a schematic is published, and the BOM spreadsheet for each module.</p>%s" % ("".join(brows), matrix()),
+        0, "Parts & BOMs"))
+
+    # PCB sources
+    cards = []
+    for k in ["kenstone", "elby", "lowgain", "prism"]:
+        x = makers[k]
+        n = sum(1 for m in mods if any(b["maker"] == k for b in m["builds"])) if k != "elby" else sum(
+            1 for m in mods if any((b.get("pcb") or {}).get("maker") == "elby" for b in m["builds"]))
+        cards.append('<div class="card"><h3><a href="%s">%s</a></h3><p>%s</p><p style="margin-top:8px"><b>%d</b> of our modules</p></div>' % (
+            e(x["url"]), e(x["name"]), e(x["note"]), n))
+    write("sources.html", page("PCB sources | Serge DIY",
+        "<h1>PCB sources</h1><p class=\"lead\">Where to get boards for Serge-format modules today. Each module page lists every source "
+        "for that module and which schematic and BOM go with which board.</p>"
+        '<div class="cards">%s</div><div class="note" style="margin-top:20px">%s Some Low-Gain boards set their own jack and pot '
+        "positions, so they may not fit the classic panel layouts without extra work; the module pages say where.</div>"
+        '<p><a href="documentation/DIY_Sources.html">More detail on each source &rarr;</a></p>'
+        "<h2>Which sources cover which modules</h2>%s" % ("".join(cards), e(D.get("licence_note", "")), matrix()), 0, "PCB sources"))
 
     # home
-    mods = json.load(open(os.path.join(ROOT, "Modules", "_source", "modules.json")))["modules"]
     hero = "Modern/Images/Full Panel/CalArts_Panel_1_Black.png"
-    body = ['<div class="hero"><div><h1>Serge-style panel artwork</h1><p class="lead">Panel artwork for Serge-format synthesizer modules, '
-            "from the 1973 paperface panels through SMMS and STS to Ken Stone's CGS designs. Every panel comes as a preview, "
-            "editable SVG artwork and a 1:1 drill template, and the build pages show how to make each module: PCB sources, "
-            "schematics and a parts list you can order from.</p>"
-            '<div class="chips"><a href="panels.html">Browse the panels</a><a href="Modules/index.html">Module build pages</a>'
-            '<a href="systems.html">Real systems</a></div></div>%s</div>' % (
-                '<img src="%s" alt="The Cal Arts Black Serge, panel 1">' % quote(thumb(hero, 640)) if hero else "")]
-    body.append('<h2>Panels by era</h2><div class="cards">%s</div>' % cards)
-    mcards = []
-    for m in mods[:8]:
-        v = next((v for v in m["variants"] if os.path.exists(os.path.join(ROOT, "%s/Images/%s%s.png" % (v["dir"], (v["sub"] + "/") if v["sub"] else "", v["file"])))), None)
-        img = ""
-        if v:
-            img = '<img loading="lazy" src="%s" alt="">' % quote(thumb("%s/Images/%s%s.png" % (v["dir"], (v["sub"] + "/") if v["sub"] else "", v["file"])))
-        mcards.append('<a class="card" href="Modules/%s.html"><div class="strip">%s</div><h3>%s</h3><p>%s</p></a>' % (
-            m["slug"], img, e(m["name"]), e(m["summary"])))
-    body.append('<h2>Build a module</h2><p>%d modules so far, each with its panels, how it works, every known PCB source, and a '
-                'BOM spreadsheet. <a href="Modules/index.html">See them all &rarr;</a></p><div class="cards">%s</div>' % (len(mods), "".join(mcards)))
-    body.append('<h2>Using the files</h2><div class="note">The SVGs have three layers: <b>Linework</b> (what gets printed), '
+    nm = sum(len(v) for v in mfiles.values())
+    body = ['<div class="hero"><div><h1>Build a Serge</h1><p class="lead">A DIY resource for Serge-format modular synthesizers: how each '
+            "module works, where to get its PCB today, the schematic and BOM that go with that board, Mouser parts orders, and "
+            "the panel artwork from 1973 paperface to STS and CGS.</p>"
+            '<div class="btns"><a class="btn pri" href="Modules/index.html">Build a module</a><a class="btn" href="boms.html">Parts &amp; BOMs</a>'
+            '<a class="btn" href="panels.html">Panel art</a></div></div>%s</div>' % (
+                '<img src="%s" alt="The Cal Arts Black Serge, panel 1">' % quote(thumb(hero, 640)))]
+    body.append('<div class="stats"><a class="stat" href="Modules/index.html"><b>%d</b><span>module build pages</span></a>'
+                '<a class="stat" href="sources.html"><b>%d</b><span>PCB sources</span></a>'
+                '<a class="stat" href="boms.html"><b>%d</b><span>BOM spreadsheets</span></a>'
+                '<a class="stat" href="boms.html"><b>%d</b><span>Mouser upload files</span></a>'
+                '<a class="stat" href="panels.html"><b>%d</b><span>panel designs</span></a>'
+                '<a class="stat" href="systems.html"><b>%d</b><span>documented systems</span></a></div>' % (
+                    len(mods), len(makers), len(mods), nm, npanels, len(sysfiles)))
+    body.append('<h2>How to build a module</h2><div class="steps">'
+                '<div class="step"><h3>Pick a module</h3><p>Each build page explains what the module does and how it works, from the Serge manuals.</p></div>'
+                '<div class="step"><h3>Choose a board</h3><p>Compare the Ken Stone / Elby, Low-Gain and Prism boards, with notes on what fits which panel.</p></div>'
+                '<div class="step"><h3>Order the parts</h3><p>Download the BOM spreadsheet, or upload the Mouser file straight into Mouser\'s BOM tool.</p></div>'
+                '<div class="step"><h3>Make the panel</h3><p>Print the SVG artwork and the 1:1 drill template, or send the file to Front Panel Express.</p></div></div>')
+    body.append('<h2>Modules you can build</h2><p>Ticks show who makes a board for it. <a href="Modules/index.html">All build pages &rarr;</a></p>' + matrix())
+    body.append('<h2>Learn about Serge</h2><div class="two">'
+                '<a class="card" href="systems.html"><h3>Real systems</h3><p>Catalogued Serge systems, from the CalArts panels to the Warren Burt Serge/Driscoll, and the modules in each.</p></a>'
+                '<a class="card" href="documentation.html"><h3>Library</h3><p>Original Serge catalogues, manuals and guides, plus our notes on DIY sources.</p></a></div>')
+    body.append('<h2>Panel art by era</h2><div class="cards">%s</div>' % cards_era)
+    body.append('<h2>Using the panel files</h2><div class="note">The SVGs have three layers: <b>Linework</b> (what gets printed), '
                 "<b>Jacks/Knobs</b> (pictures of the parts, for previews) and <b>XXX</b> (drill marks). Drill templates print at 1:1. "
                 "Holes: knobs 7 mm, banana jacks double-D (8.33 mm round, 6.35 mm flats), toggles 6.35 mm, 1/4\" jacks 9.5 mm. "
                 "Check every panel against your own parts before drilling.</div>")
-    write("index.html", page("Serge panel artwork", "".join(body), 0, "Home"))
+    write("index.html", page("Serge DIY: build Serge-format modules", "".join(body), 0, "Home"))
     open(os.path.join(ROOT, ".nojekyll"), "w").close()
     print("site built")
 

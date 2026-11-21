@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>La Trobe University | Serge panel artwork</title><style>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>La Trobe University | Serge DIY</title><style>
 :root{--ink:#1d1d1b;--muted:#6b6b66;--line:#e2ded5;--bg:#f6f4ee;--card:#fff;--accent:#b3261e}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
@@ -32,8 +32,27 @@ table.list{border-collapse:collapse;width:100%;background:var(--card);border:1px
 table.list td,table.list th{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line)}
 .note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:8px;padding:10px 14px;font-size:.92rem}
 footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
-@media(max-width:760px){.hero{grid-template-columns:1fr}}
-</style></head><body><header class="top"><div class="in"><a class="brand" href="../index.html">Serge panel artwork</a><a href="../index.html">Home</a><a href="../panels.html">Panels</a><a href="../Modules/index.html">Build pages</a><a href="../systems.html" class="on">Systems</a><a href="../documentation.html">Documentation</a></div></header><main><p class="muted"><a href="../systems.html">Systems</a> /</p><div class="doc"><h1>La Trobe University</h1>
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.btn{display:inline-block;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600;border:2px solid var(--ink);color:var(--ink);background:#fff}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:28px 0 8px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;text-decoration:none;color:var(--ink)}
+.stat b{display:block;font-size:2rem;line-height:1.1}.stat span{color:var(--muted);font-size:.9rem}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;counter-reset:s}
+.step{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;position:relative}
+.step:before{counter-increment:s;content:counter(s);position:absolute;top:-12px;left:14px;background:var(--ink);color:#fff;width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+.step h3{margin:6px 0 4px;font-size:1.05rem}.step p{margin:0;font-size:.93rem;color:var(--muted)}
+.mx{border-collapse:collapse;width:100%;background:var(--card);border:1px solid var(--line);font-size:.93rem}
+.mx th{background:#efece4;text-align:left;font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.mx td,.mx th{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+.mx td.c,.mx th.c{text-align:center}.mx img{height:56px;display:block}.mx tr:hover td{background:#fbfaf6}
+.y{color:#1b7f3b;font-weight:700}.n{color:#c9c5bb}
+.tag{display:inline-block;font-size:.75rem;padding:1px 8px;border-radius:99px;background:#efece4;margin:1px 2px}
+.tag.ok{background:#dff3e4;color:#1b5e2e}
+.scroll{overflow-x:auto}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:760px){.hero,.two{grid-template-columns:1fr}.mx .hide{display:none}}
+</style></head><body><header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="../Modules/index.html">Build a module</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../systems.html" class="on">Systems</a><a href="../documentation.html">Library</a></div></header><main><p class="muted"><a href="../systems.html">Systems</a> /</p><div class="doc"><h1>La Trobe University</h1>
 <p>The paperface system at La Trobe University, Melbourne, specified by Warren Burt and later restored by Ken Stone. Four panels, LA1–LA4.</p>
 <p>Era: <strong>Paperface</strong>.</p>
 <p>Photos: the system laid out flat with its panels marked LA-1 to LA-4, and later photos of it mounted in a
@@ -47,4 +66,4 @@ twelve 1" Glide strips in the middle.</p>
 <li><strong>Top-left panel, second module: Ten-Stage Pulse Sequencer</strong> (identified by the user, Nov 2026). It is labelled SEQUENCER on the panel. Each of the ten stages is a pair of red jacks with a numbered LED between them: stages 1-5 run up the left column and 6-10 down the right, so 1 sits beside 10 at the bottom and 2 beside 9 above it. Along the bottom is a row of triangle-boxed inputs, with CLOCK first and RESET last; RESET has a red push button. The two middle labels can't be read in the photo. The Catgirl Synth "Sequencers" panel uses the same stage pair, LED and RESET / HOLD / CLOCK scheme.</li>
 <li>A close-up of another panel shows a Mixer (inputs 2-4 with x1 outputs), the Triple Wave Shaper (VC1 / VC2) and the Phaser (1080 / 720 / 360, MIX, the + knob).</li>
 </ul>
-<p>Photos are kept in <code>Other/Reference Photos/La Trobe</code> (not tracked).</p></div><footer>Serge-style panel artwork, shared for educational purposes. Module designs, names and trademarks belong to their owners. <a href="https://github.com/computerstaat/Serge-Synthesizer-Panel-art-and-design-files">Source on GitHub</a>.</footer></main></body></html>
+<p>Photos are kept in <code>Other/Reference Photos/La Trobe</code> (not tracked).</p></div><footer>Serge DIY: build notes, parts lists and panel artwork for Serge-format modules, shared for educational purposes. Schematics, PCBs and BOMs belong to their designers and sellers and are linked, not copied. Module designs, names and trademarks belong to their owners. <a href="https://github.com/computerstaat/Serge-Synthesizer-Panel-art-and-design-files">Source on GitHub</a>.</footer></main></body></html>
