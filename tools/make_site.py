@@ -230,7 +230,8 @@ def md_page(src, dst, title, depth, back):
         attr, url = mo.group(1), mo.group(2)
         if re.match(r"^(https?:|mailto:|#)", url):
             return mo.group(0)
-        path = os.path.normpath(os.path.join(srcdir, url.split("#")[0]))
+        from urllib.parse import unquote
+        path = os.path.normpath(os.path.join(srcdir, unquote(url.split("#")[0])))   # links in the .md are already %20-encoded
         if path.startswith("Systems/") and path.endswith(".md") and not path.endswith("README.md"):
             target = "systems/%s.html" % os.path.basename(path)[:-3]
         elif path.startswith("Documentation/") and path.endswith(".md"):
