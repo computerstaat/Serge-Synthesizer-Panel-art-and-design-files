@@ -305,6 +305,12 @@ def page(m):
                    'with a link to each Tayda product instead of in the Mouser file.</p>' % ", ".join(
                        '<a href="%s">%s</a> (%d lines, about $%.2f)' % (quote("BOM/tayda/" + f), e(f), ts[f[:-4]]["lines"], ts[f[:-4]]["cost"])
                        for f in tf if f[:-4] in ts))
+        kf = [f for f in tf if os.path.exists(os.path.join(OUT, "BOM", "mouser", "knobs", f))]
+        if kf:
+            out.append('<p class="note"><b>Or genuine Davies knobs from Mouser:</b> the Tayda knob is a Davies 1900H clone ($0.42). If you want '
+                       'the real Davies Molding 1900-H (Mouser 5164-1900-H, about $4.36 each; 5164-1900-L has an indicator line), upload %s '
+                       'at Mouser\'s BOM tool instead and leave the knob line out of the Tayda order.</p>' % ", ".join(
+                           '<a href="%s">%s</a> (%d knobs)' % (quote("BOM/mouser/knobs/" + f), e("knobs/" + f), ts[f[:-4]].get("knobs", 0)) for f in kf))
     groups = collections.OrderedDict()
     for r in rows:
         groups.setdefault(r[0], []).append(r)

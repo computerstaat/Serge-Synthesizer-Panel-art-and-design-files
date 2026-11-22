@@ -10,6 +10,8 @@ Substitutions: obsolete transistors (2N3391A, 2N3565, 2N3566 / 2N3638, 2N4248, 2
 
 The Low-Gain files (`__lge…`) include the panel jacks, pots and switches, following Low-Gain's BOM. The CGS files include switches but leave out banana jacks; their pots and knobs are in the Tayda lists in `../tayda/` (cheaper there).
 
+Files ending `__prism_cart.csv` or `__lowgain_cart_<board>.csv` are made from the maker's own shared Mouser project (cart), copied line for line with Mouser and manufacturer part numbers. They follow the maker's board, not Ken Stone's, and the makers often leave pots, knobs, jacks or headers out of their carts: check the build page.
+
 | File | Mouser lines | Bought elsewhere (lines) | Approx. cost (1 off) |
 |---|---|---|---|
 | triple-comparator__cgs96_comp.csv | 19 | 1 | $11.00 |

@@ -213,6 +213,12 @@ def main():
                         w.writerow([t[0], T["qty"], t[1], "%.2f" % t[2], t[3],
                                     "%s%s: %s" % (pl["board"], " x%d" % mult if mult > 1 else "", " / ".join(T["vals"]) if T["vals"] else "one per pot")])
                 treport[base] = {"lines": len(tay), "cost": round(sum(T["qty"] * TY["parts"][kk][2] for kk, T in tay.items()), 2)}
+                if "KNOB" in tay:                      # the same knobs as genuine Davies 1900-H from Mouser, for those who prefer them
+                    mk = TY["mouser_knob"]; os.makedirs(os.path.join(OUT, "knobs"), exist_ok=True)
+                    with open(os.path.join(OUT, "knobs", base + ".csv"), "w", newline="") as f:
+                        w = csv.writer(f); w.writerow(HEAD)
+                        w.writerow([mk[0], mk[1], mk[2], tay["KNOB"]["qty"], mk[4], "%s: knobs" % pl["board"]])
+                    treport[base]["knobs"] = tay["KNOB"]["qty"]
             total = sum(L["qty"] * L["p"][3] for L in lines.values())
             report.append((slug, b, len(lines), len(na), round(total, 2), sum(L["unv"] for L in lines.values()), mult))
     for base, x in EXPLICIT.items():
@@ -257,6 +263,9 @@ def main():
         "Pots: Alpha-type 16 mm, solder lugs, 6.35 mm (1/4\") round shaft, so they take 1/4\" knobs such as the Davies 1900H clone listed "
         "with them (one knob per pot). Values Tayda doesn't stock in that style (20K linear) stay in the Mouser file, with the knob still "
         "listed here. Prices were checked on 2026-11-21 and change; check stock before ordering.", "",
+        "Prefer genuine Davies knobs? `../mouser/knobs/<module>__<board>.csv` is a Mouser upload file with the same number of "
+        "Davies Molding 1900-H knobs (Mouser 5164-1900-H, about $4.36 each on 2026-11-21; 5164-1900-L is the version with an "
+        "indicator line). Use it instead of the knob line here.", "",
         "| File | Lines | Approx. cost |", "|---|---|---|"] + ["| %s.csv | %d | $%.2f |" % (b, x["lines"], x["cost"]) for b, x in sorted(treport.items())] + [""]))
     readme(report)
 
