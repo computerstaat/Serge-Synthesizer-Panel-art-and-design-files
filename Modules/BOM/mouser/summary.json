@@ -37,36 +37,36 @@
  "analog-shift-register__cgs34_asr": {
   "lines": 19,
   "elsewhere": 1,
-  "cost": 21.35,
-  "unverified": 5,
+  "cost": 29.25,
+  "unverified": 0,
   "boards": 1
  },
  "envelope-generator-1973__cgs76_env": {
   "lines": 37,
   "elsewhere": 1,
-  "cost": 35.62,
-  "unverified": 10,
+  "cost": 47.86,
+  "unverified": 0,
   "boards": 1
  },
  "filter-1973__cgs77_vcf": {
   "lines": 37,
   "elsewhere": 3,
-  "cost": 32.4,
-  "unverified": 8,
+  "cost": 32.14,
+  "unverified": 0,
   "boards": 1
  },
  "negative-slew__cgs82_negative_slew": {
   "lines": 24,
   "elsewhere": 2,
-  "cost": 18.49,
-  "unverified": 6,
+  "cost": 18.51,
+  "unverified": 0,
   "boards": 1
  },
  "positive-slew__cgs83_positive_slew": {
   "lines": 26,
   "elsewhere": 1,
-  "cost": 19.55,
-  "unverified": 6,
+  "cost": 19.77,
+  "unverified": 0,
   "boards": 1
  },
  "peak-trough__cgs84_peakandtrough": {
@@ -79,43 +79,43 @@
  "bi-directional-router__cgs88_bds": {
   "lines": 15,
   "elsewhere": 1,
-  "cost": 10.77,
-  "unverified": 2,
+  "cost": 11.81,
+  "unverified": 0,
   "boards": 1
  },
  "gate-sequencer__cgs89_gate_sequencer": {
   "lines": 23,
   "elsewhere": 4,
-  "cost": 134.26,
-  "unverified": 9,
+  "cost": 267.47,
+  "unverified": 0,
   "boards": 1
  },
  "vc-phaser__cgs90_phaser": {
   "lines": 21,
   "elsewhere": 3,
-  "cost": 19.1,
-  "unverified": 4,
+  "cost": 18.84,
+  "unverified": 0,
   "boards": 1
  },
  "smooth-stepped-generator__cgs92_ssg": {
   "lines": 33,
   "elsewhere": 2,
-  "cost": 38.84,
-  "unverified": 10,
+  "cost": 35.04,
+  "unverified": 0,
   "boards": 1
  },
  "noise-source__cgs97_noise": {
   "lines": 36,
   "elsewhere": 2,
-  "cost": 18.48,
-  "unverified": 14,
+  "cost": 18.81,
+  "unverified": 0,
   "boards": 1
  },
  "extended-range-vcf__cgs112_vcfq": {
   "lines": 26,
   "elsewhere": 2,
-  "cost": 19.03,
-  "unverified": 5,
+  "cost": 28.11,
+  "unverified": 0,
   "boards": 1
  },
  "extended-range-vcf__cgs108_vca": {
@@ -128,36 +128,36 @@
  "wave-multipliers__cgs113_vcm": {
   "lines": 38,
   "elsewhere": 2,
-  "cost": 44.01,
-  "unverified": 13,
+  "cost": 57.54,
+  "unverified": 0,
   "boards": 1
  },
  "dual-universal-slope-generator__cgs114_dusg": {
   "lines": 34,
   "elsewhere": 1,
-  "cost": 43.15,
-  "unverified": 8,
+  "cost": 53.55,
+  "unverified": 0,
   "boards": 1
  },
  "extended-adsr__cgs116_env": {
   "lines": 40,
   "elsewhere": 2,
-  "cost": 27.1,
-  "unverified": 17,
+  "cost": 36.01,
+  "unverified": 0,
   "boards": 1
  },
  "resonant-equalizer__cgs202_reseq": {
   "lines": 42,
   "elsewhere": 2,
-  "cost": 28.75,
-  "unverified": 26,
+  "cost": 32.27,
+  "unverified": 0,
   "boards": 1
  },
  "dual-channel-stereo-mixer__cgs101_dcsm": {
   "lines": 12,
   "elsewhere": 3,
-  "cost": 13.32,
-  "unverified": 2,
+  "cost": 13.76,
+  "unverified": 0,
   "boards": 1
  },
  "dual-channel-stereo-mixer__cgs108_vca": {
@@ -177,22 +177,22 @@
  "programmer-sequencer__cgs87s_prog": {
   "lines": 24,
   "elsewhere": 1,
-  "cost": 15.29,
-  "unverified": 1,
+  "cost": 15.37,
+  "unverified": 0,
   "boards": 1
  },
  "programmer-sequencer__cgs87_prog": {
   "lines": 14,
   "elsewhere": 1,
-  "cost": 35.12,
-  "unverified": 4,
+  "cost": 41.52,
+  "unverified": 0,
   "boards": 1
  },
  "vc-slope__cgs75_vcs": {
   "lines": 40,
   "elsewhere": 1,
-  "cost": 40.46,
-  "unverified": 11,
+  "cost": 53.54,
+  "unverified": 0,
   "boards": 1
  },
  "tri-core-vco__lge130": {

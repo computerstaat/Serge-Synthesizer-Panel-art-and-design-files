@@ -2,5 +2,5 @@ Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Uni
 All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour not recorded",12,4 mm,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,6,value from the board BOM,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Knob,6,one per pot,,,
-Prism Circuits Dual Mixer,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-dual-mixer",,,
-Low-Gain LGE203 Dual Audio Mixer,Board,,See the maker's BOM,,Check the Low-Gain product page for documents - https://www.low-gain.com/shop/p/lge203,,,
+Prism Circuits Dual Mixer,Board,,See the maker's BOM,,Prism Mouser cart (the Prism BOM) - https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=412c5cd7f7,,,
+Low-Gain LGE203 Dual Audio Mixer,Board,,See the maker's BOM,,LGE203 BOM - https://drive.google.com/file/d/1isWzHILU-V-XERhsg8r4er88zmg4AsUM/view,,,

@@ -2,7 +2,7 @@ Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Uni
 All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour not recorded",5,4 mm,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,1,value from the board BOM,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Knob,1,one per pot,,,
-Prism Circuits Ring Modulator,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-ring-modulator",,,
+Prism Circuits Ring Modulator,Board,,See the maker's BOM,,Prism Mouser cart (the Prism BOM) - https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=41380a1352,,,
 Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,330Ω,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,603-MFR-25FBF52-330R,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-330R,0.11
 Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,1k,3,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,603-MFR-25FBF52-1K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1K,0.1
 Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Resistor,2k2,2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,603-MFR-25FBF52-2K2,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-2K2,0.1
@@ -26,4 +26,8 @@ Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Semiconductor,LM3080,1,from htt
 Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Misc,Ferrite Bead,2,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,875-28L0138-70R-10,https://www.mouser.com/ProductDetail/875-28L0138-70R-10,0.45
 Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Misc,MTA-156 header 4Pin,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,571-6404454,https://www.mouser.com/ProductDetail/571-6404454,0.34
 Ken Stone CGS79 Serge Ring Modulator,CGS79 board,Misc,CGS79 PCB,1,from https://open4umodular.github.io/synthpanel/modules/cgs79_ring.html,,,
-Low-Gain LGE006 R6 Ring / Gate,Board,,See the maker's BOM,,BOMs on the Low-Gain product page - https://www.low-gain.com/shop/p/lge006,,,
+Low-Gain LGE006 R6 Ring / Gate,Board,,See the maker's BOM,,Combined LGE006 V2 Main + I/O Board BOM - https://drive.google.com/file/d/17ZPzaZvP0c-gkOEn_h6j_KJcq7ebL9Dl/view,,,
+Low-Gain LGE006 R6 Ring / Gate,Board,,See the maker's BOM,,LGE006 Main Board V2 BOM - https://drive.google.com/file/d/1W3DQj-ufHfAtSaIw01AfS8mAzSGBGGDk/view,,,
+Low-Gain LGE006 R6 Ring / Gate,Board,,See the maker's BOM,,LGE006GC I/O Board BOM - https://drive.google.com/file/d/17cdRf613TVhzfHjYlFCUXc3v62Gb9lrH/view,,,
+Low-Gain LGE006 R6 Ring / Gate,Board,,See the maker's BOM,,LGE006RC I/O Board BOM - https://drive.google.com/file/d/10DKDwwz4Sw2rlqlia1bBrpZKuw2glxxS/view,,,
+Low-Gain LGE006 R6 Ring / Gate,Board,,See the maker's BOM,,LGE006 (V1) BOM - https://drive.google.com/file/d/1gMcGIkMrdhnSN8YvyxDZav9tvrBWhy0s/view,,,

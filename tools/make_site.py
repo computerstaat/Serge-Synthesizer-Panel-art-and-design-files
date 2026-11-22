@@ -424,15 +424,24 @@ def main():
                 % "".join('<th class="c hide">%s</th>' % e(makers[k]["name"].replace(" (CGS)", "")) for k in order))
         return '<div class="scroll"><table class="mx">%s%s</table></div>' % (head, "".join(rows))
 
+    def carts_table():
+        rows = []
+        for m in sorted(mods, key=lambda x: x["name"]):
+            for b in m["builds"]:
+                for t, u in b.get("cart", []):
+                    rows.append('<tr><td><a href="Modules/%s.html">%s</a></td><td>%s</td><td><a class="tag ok" href="%s">Mouser cart</a></td></tr>' % (
+                        m["slug"], e(m["name"]), e(b["name"] + (" (" + t.split(": ", 1)[1] + ")" if ": " in t and not t.endswith("(the Prism BOM)") else "")), e(u)))
+        return '<div class="scroll"><table class="mx"><tr><th>Module</th><th>Build</th><th>Cart</th></tr>%s</table></div>' % "".join(rows)
+
     # parts & BOMs
     brows = []
     tsum = json.load(open(os.path.join(ROOT, "Modules", "BOM", "tayda", "summary.json")))
     for slug in sorted(mfiles):
         m = next(x for x in mods if x["slug"] == slug)
         for b, v in mfiles[slug]:
-            brows.append('<tr><td><a href="Modules/%s.html">%s</a></td><td>%s</td><td class="c">%d</td><td class="c">%d</td><td class="c">%s</td><td class="c">$%.2f</td>'
+            brows.append('<tr><td><a href="Modules/%s.html">%s</a></td><td>%s</td><td class="c">%d</td><td class="c">%d</td><td class="c">$%.2f</td>'
                          '<td><a class="tag ok" href="Modules/BOM/mouser/%s__%s.csv">Upload file</a> <a class="tag" href="Modules/BOM/mouser/%s__%s_not_at_mouser.csv">Other parts</a>%s</td></tr>' % (
-                             slug, e(m["name"]), e(b.upper().replace("_", " ")), v["lines"], v.get("elsewhere", 0), v.get("unverified", 0) or "&ndash;", v["cost"], slug, b, slug, b,
+                             slug, e(m["name"]), e(b.upper().replace("_", " ")), v["lines"], v.get("elsewhere", 0), v["cost"], slug, b, slug, b,
                              (' <a class="tag ok" href="Modules/BOM/tayda/%s__%s.csv">Tayda pots &amp; knobs</a>' % (slug, b)) if (slug + "__" + b) in tsum else ""))
     write("boms.html", page("Parts & BOMs | Serge DIY",
         "<h1>Parts &amp; BOMs</h1><p class=\"lead\">Every module has a BOM spreadsheet covering each way to build it, plus the panel hardware. "
@@ -445,12 +454,13 @@ def main():
         '<div class="step"><h3>Pots and knobs from Tayda</h3><p>Front-panel pots and Davies 1900H-style knobs are cheaper at <a href="https://www.taydaelectronics.com">Tayda</a>: '
         'each board with pots has a "Tayda pots &amp; knobs" list with SKUs and links. Banana jacks and anything else Mouser does not stock is in the "Other parts" file.</p></div></div>'
         '<h2>Mouser upload files</h2><div class="scroll"><table class="mx"><tr><th>Module</th><th>Board</th><th class="c">Mouser lines</th>'
-        '<th class="c">Bought elsewhere</th><th class="c">Unchecked lines</th><th class="c">Approx. cost</th><th>Files</th></tr>%s</table></div>'
+        '<th class="c">Bought elsewhere</th><th class="c">Approx. cost</th><th>Files</th></tr>%s</table></div>'
         '<p class="muted">Costs are Mouser\'s single-unit prices when the file was made, before tax and shipping, for one board, without the PCB or panel.</p>'
-        '<div class="note"><b>Check stock and price before ordering.</b> Lines counted under "Unchecked lines" use part numbers built from the '
-        'manufacturers\' numbering and not yet checked on mouser.com; they are marked [UNVERIFIED] in the file and their prices are estimates. '
-        'The BOM tool flags anything it cannot find or that is out of stock, so you can pick an equivalent there.</div>'
-        "<h2>Every module</h2><p>Which builds exist, whether a schematic is published, and the BOM spreadsheet for each module.</p>%s" % ("".join(brows), matrix()),
+        '<div class="note"><b>Stock changes.</b> Every part number in these files was checked on mouser.com for stock and price on 20 and 21 Nov 2026. '
+        'The BOM tool flags anything that has since gone out of stock, so you can pick an equivalent there.</div>'
+        '<h2>Makers\' Mouser carts</h2><p>Low-Gain and Prism keep their own BOMs as shared Mouser projects. Open one and choose "Buy selected items". '
+        'They follow the maker\'s current board and often leave out pots, knobs, jacks and headers, so check the build page too.</p>%s'
+        "<h2>Every module</h2><p>Which builds exist, whether a schematic is published, and the BOM spreadsheet for each module.</p>%s" % ("".join(brows), carts_table(), matrix()),
         0, "Parts & BOMs"))
 
     # PCB sources

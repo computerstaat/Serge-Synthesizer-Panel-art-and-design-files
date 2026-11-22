@@ -2,5 +2,6 @@ Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Uni
 All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour not recorded",8,4 mm,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,4,value from the board BOM,,,
 All builds,Front panel (Paperface (1973)),Panel hardware,Knob,4,one per pot,,,
-Prism Circuits 1973 Oscillator,Board,,See the maker's BOM,,"Mouser project BOM, linked from the product page - https://prismcircuits.net/products/serge-modular-oscillator",,,
+Prism Circuits 1973 Oscillator,Board,,See the maker's BOM,,Prism Mouser cart (the Prism BOM) - https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=f9c0e7fd0d,,,
+Prism Circuits 1973 Oscillator,Board,,See the maker's BOM,,Prism BOM list - https://drive.google.com/file/d/15Q1ncrHFW0HxBuSrxZR-5S341HYKgXHp/view,,,
 Elby / CGS CGS507 1973 VCO,Board,,See the maker's BOM,,On the Elby CGS507 page - https://www.elby-designs.com/webtek/cgs/serge/cgs507/cgs507.htm,,,

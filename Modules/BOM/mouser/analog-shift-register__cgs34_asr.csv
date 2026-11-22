@@ -6,15 +6,15 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 603-MFR-25FBF52-330R,MFR-25FBF52-330R,YAGEO,3,Metal film resistor 330R 1/4W 1%,CGS34: 330R
 603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,5,Metal film resistor 10k 1/4W 1%,CGS34: 10k 1%
 603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,2,Metal film resistor 15k 1/4W 1%,CGS34: 15k
-603-MFR-25FBF52-20K,MFR-25FBF52-20K,YAGEO,1,Metal film resistor 20k 1/4W 1% [UNVERIFIED: check stock and price],CGS34: 20k 1%
+603-MFR-25FBF52-20K,MFR-25FBF52-20K,YAGEO,1,Metal film resistor 20k 1/4W 1%,CGS34: 20k 1%
 603-MFR-25FBF52-22K,MFR-25FBF52-22K,YAGEO,7,Metal film resistor 22k 1/4W 1%,CGS34: 22k 1%
 603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,3,Metal film resistor 100k 1/4W 1%,CGS34: 100k
-652-3362P-1-502LF,3362P-1-502LF,Bourns,1,"Trimmer 5k, 1/4in square (for a 4k7 trimmer) [UNVERIFIED: check stock and price]",CGS34: 4k7 trimmer
+652-3362P-1-502TLF,3362P-1-502TLF,Bourns,1,"Trimmer 5k, 1/4in square (for a 4k7 trimmer)",CGS34: 4k7 trimmer
 512-1N4148,1N4148,onsemi,1,Small-signal diode,CGS34: 1N4148
 595-TL071IP,TL071IP,Texas Instruments,1,"JFET op-amp, single",CGS34: TL071
 595-TL074CN,TL074CN,Texas Instruments,1,"JFET op-amp, quad",CGS34: TL074
-968-CA3140EZ,CA3140EZ,Renesas,4,"MOSFET-input op-amp, DIP-8 (in place of LF356) [UNVERIFIED: check stock and price]",CGS34: LF356 or CA3140
-595-CD4024BE,CD4024BE,Texas Instruments,1,"CMOS CD4024B, DIP [UNVERIFIED: check stock and price]",CGS34: 4024
-595-CD4052BE,CD4052BE,Texas Instruments,2,"CMOS CD4052B, DIP [UNVERIFIED: check stock and price]",CGS34: 4052
+968-CA3140EZ,CA3140EZ,Renesas,4,"MOSFET-input op-amp, DIP-8 (in place of LF356)",CGS34: LF356 or CA3140
+595-CD4024BE,CD4024BE,Texas Instruments,1,"CMOS CD4024B, DIP",CGS34: 4024
+595-CD4052BE,CD4052BE,Texas Instruments,2,"CMOS CD4052B, DIP",CGS34: 4052
 875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS34: Ferrite Bead (or 10R resistor)
 571-3-640426-4,3-640426-4,TE Connectivity,1,"MTA-156 housing, 4 pos (for the power cable)",CGS34: 0.156 4 pin connector

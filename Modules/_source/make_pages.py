@@ -156,7 +156,11 @@ def bom_rows(m):
                     rows.append([b["name"], pl["board"] + " board", r["type"], r["value"], r["qty"], "from " + pl["source"] + unv,
                                  mp[0] if mp else "", "https://www.mouser.com/ProductDetail/" + mp[0] if mp else "", mp[3] if mp else ""])
         else:
-            rows.append([b["name"], "Board", "", "See the maker's BOM", "", b["bom"].get("title", "") + " - " + b["bom"].get("url", b["url"]), "", "", ""])
+            links = [(t, u) for t, u in b.get("cart", [])] + [(t, u) for t, u in b.get("docs", []) if t.endswith(" BOM") or "BOM list" in t]
+            if not links:
+                links = [(b["bom"].get("title", ""), b["bom"].get("url", b["url"]))]
+            for t, u in links:
+                rows.append([b["name"], "Board", "", "See the maker's BOM", "", t + " - " + u, "", "", ""])
     return rows
 
 
@@ -239,6 +243,9 @@ def page(m):
             item = link(b["pcb"]["item"], b["pcb"]["url"]) if b["pcb"].get("url") else e(b["pcb"]["item"])
             out.append("<dt>PCB</dt><dd>%s: %s</dd>" % (link(pm["name"], pm["url"]), item))
         out.append("<dt>Schematic</dt><dd>%s</dd><dt>BOM</dt><dd>%s</dd>" % (status(b["schematic"]), status(b["bom"])))
+        if b.get("cart"):
+            out.append("<dt>Mouser cart</dt><dd>%s<br><small>The maker's own shared Mouser project: open it and choose \"Buy selected items\". "
+                       "Check what it leaves out (often pots, knobs, jacks and headers).</small></dd>" % "<br>".join(link(t, u) for t, u in b["cart"]))
         if b.get("docs"):
             out.append("<dt>Documents</dt><dd>%s</dd>" % "<br>".join(link(t, u) for t, u in b["docs"]))
         if b.get("doclist"):
@@ -268,6 +275,11 @@ def page(m):
             out.append('<p class="note"><b>Check stock and price before ordering:</b> %d line%s in %s (marked <code>[UNVERIFIED]</code> in the Description '
                        'column) use part numbers built from the manufacturers\' numbering and not yet checked on mouser.com; their prices are estimates. '
                        'The BOM tool flags anything it can\'t find or that is out of stock.</p>' % (nu, "s" if nu > 1 else "", "these files" if len(mf) > 1 else "this file"))
+    carts = [(b, t, u) for b in m["builds"] for t, u in b.get("cart", [])]
+    if carts:
+        out.append('<p class="note"><b>Makers\' Mouser carts:</b> %s. Each opens the maker\'s shared Mouser project, where you can add the '
+                   'whole list to your cart. They are kept by the makers, so they follow the current board revision.</p>' % "; ".join(
+                       "%s: %s" % (e(b["name"]), link(t.split(": ", 1)[-1], u)) for b, t, u in carts))
     tf = [f for f in mouser_files(m["slug"]) if os.path.exists(os.path.join(OUT, "BOM", "tayda", f))]
     if tf:
         ts = json.load(open(os.path.join(OUT, "BOM", "tayda", "summary.json")))

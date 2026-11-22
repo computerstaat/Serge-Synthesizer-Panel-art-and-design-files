@@ -1,24 +1,24 @@
 Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
 810-FG28X7R1H103KNT6,FG28X7R1H103KNT06,TDK,1,"Ceramic 10nF X7R 50V, 5mm",CGS89: 10n
 810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,5,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS89: 0.1/100n
-505-MKS2.22/63/5T,MKS2-.22/63/5T,WIMA,1,"Film capacitor 220nF 63V, 5mm [UNVERIFIED: check stock and price]",CGS89: 220n
+505-MKS2.22/63/5T,MKS2-.22/63/5T,WIMA,1,"Film capacitor 220nF 63V, 5mm",CGS89: 220n
 667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,2,Electrolytic 10uF 25V,CGS89: 10uF 25V
 603-MFR-25FBF52-1K,MFR-25FBF52-1K,YAGEO,20,Metal film resistor 1k 1/4W 1%,"CGS89: 1k, RY / RLED* 1k"
-603-MFR-25FBF52-4K7,MFR-25FBF52-4K7,YAGEO,1,Metal film resistor 4k7 1/4W 1% [UNVERIFIED: check stock and price],CGS89: 4k7
+603-MFR-25FBF52-4K7,MFR-25FBF52-4K7,YAGEO,1,Metal film resistor 4k7 1/4W 1%,CGS89: 4k7
 603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,29,Metal film resistor 10k 1/4W 1%,CGS89: 10k
 603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,2,Metal film resistor 15k 1/4W 1%,CGS89: 15k
 603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,16,Metal film resistor 100k 1/4W 1%,CGS89: 100k
 603-MFR-25FBF52-220K,MFR-25FBF52-220K,YAGEO,7,Metal film resistor 220k 1/4W 1%,CGS89: 220k
 603-MFR-25FBF52-1M,MFR-25FBF52-1M,YAGEO,3,Metal film resistor 1M 1/4W 1%,CGS89: 1M
-652-3362P-1-103LF,3362P-1-103LF,Bourns,1,"Trimmer 10k, 1/4in square [UNVERIFIED: check stock and price]",CGS89: 10k single turn trimmer
+652-3362P-1-103LF,3362P-1-103LF,Bourns,1,"Trimmer 10k, 1/4in square",CGS89: 10k single turn trimmer
 512-1N4148,1N4148,onsemi,41,Small-signal diode,CGS89: 1N4148 / 1N4148
 512-BC547BTA,BC547BTA,onsemi,11,NPN transistor (BC547B),CGS89: BC547
-595-CD4017BE,CD4017BE,Texas Instruments,1,"CMOS CD4017B, DIP [UNVERIFIED: check stock and price]",CGS89: 4017
-595-CD4081BE,CD4081BE,Texas Instruments,1,"CMOS CD4081B, DIP [UNVERIFIED: check stock and price]",CGS89: 4081
-595-LM339N,LM339N,Texas Instruments,1,"Quad comparator, DIP-14 [UNVERIFIED: check stock and price]",CGS89: LM339
+595-CD4017BE,CD4017BE,Texas Instruments,1,"CMOS CD4017B, DIP",CGS89: 4017
+595-CD4081BE,CD4081BE,Texas Instruments,1,"CMOS CD4081B, DIP",CGS89: 4081
+595-LM339N,LM339N,Texas Instruments,1,"Quad comparator, DIP-14",CGS89: LM339
 595-TL074CN,TL074CN,Texas Instruments,1,"JFET op-amp, quad",CGS89: TL074
 875-28L0138-70R-10,28L0138-70R-10,Laird,1,"Ferrite bead, through hole",CGS89: Ferrite Bead (or 10R resistor)
 571-3-640426-4,3-640426-4,TE Connectivity,1,"MTA-156 housing, 4 pos (for the power cable)",CGS89: 0.156 4 pin 90° connector
-859-LTL-4221N,LTL-4221N,Lite-On,10,LED 3mm red [UNVERIFIED: check stock and price],CGS89: LED
-611-7101SYZQE,7101SYZQE,C&K,1,"Mini toggle SPDT on-on, solder lugs [UNVERIFIED: check stock and price]",CGS89: SPDT switch
-611-7103SYZQE,7103SYZQE,C&K,20,"Mini toggle SPDT on-off-on, solder lugs [UNVERIFIED: check stock and price]",CGS89: SPDT Ctr-off switch
+859-LTL-4221N,LTL-4221N,Lite-On,10,LED 3mm red,CGS89: LED
+611-7101-001,7101SYZQE,C&K,1,"Mini toggle SPDT on-on, solder lugs",CGS89: SPDT switch
+611-7103-001,7103SYZQE,C&K,20,"Mini toggle SPDT on-off-on, solder lugs",CGS89: SPDT Ctr-off switch

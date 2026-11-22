@@ -189,7 +189,7 @@ async function bom(){const cnt={};for(const i of all()){const b=M[i].b;if(b)cnt[
  f.push({name:'README.txt',data:te.encode(['Parts for '+n.replace(/_/g,' ')+', made with Build a panel on the Serge DIY site.','',
   'Boards included (quantities multiplied by how many of each module are on the panel):',...used.map(u=>'  '+u),'',
   none.length?'No parts files yet for: '+none.join(', ')+' (see their build pages for BOMs).\r\n':'',
-  n+'_Mouser_upload.csv: every board added up. Upload at mouser.com/bomtool. Lines marked UNVERIFIED have not been checked for stock and price.',
+  n+'_Mouser_upload.csv: every board added up. Upload at mouser.com/bomtool. Part numbers were checked for stock and price in Nov 2026; the BOM tool flags anything out of stock.',
   n+'_Tayda_pots_and_knobs.csv: front-panel pots and Davies 1900H-style knobs, cheaper at taydaelectronics.com. Each line has the SKU and a link.',
   n+'_other_parts.csv: jacks, PCBs and parts neither shop stocks.','',
   'per module/: the same files for each module on its own, so you can check one module at a time.','',

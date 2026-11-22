@@ -1,5 +1,5 @@
 {
- "_note": "Generic value -> chosen Mouser part [mouser#, mfr#, mfr, unit price USD, description]. The first set was checked on mouser.com 2026-11-20 for stock and price. Keys listed under 'unverified' were added later from the manufacturers' numbering patterns: check stock and price before ordering. 'notes' explains substitutions.",
+ "_note": "Generic value -> chosen Mouser part [mouser#, mfr#, mfr, unit price USD, description]. Every part was checked on mouser.com for stock and single-unit price: the first set on 2026-11-20, the rest on 2026-11-21. 'notes' explains substitutions.",
  "parts": {
   "R:330R": [
    "603-MFR-25FBF52-330R",
@@ -397,7 +397,7 @@
    "603-MFR-25FBF52-470R",
    "MFR-25FBF52-470R",
    "YAGEO",
-   0.1,
+   0.11,
    "Metal film resistor 470R 1/4W 1%"
   ],
   "R:680R": [
@@ -418,7 +418,7 @@
    "603-MFR-25FBF52-1K5",
    "MFR-25FBF52-1K5",
    "YAGEO",
-   0.1,
+   0.12,
    "Metal film resistor 1k5 1/4W 1%"
   ],
   "R:1k8": [
@@ -446,7 +446,7 @@
    "603-MFR-25FBF52-4K7",
    "MFR-25FBF52-4K7",
    "YAGEO",
-   0.1,
+   0.12,
    "Metal film resistor 4k7 1/4W 1%"
   ],
   "R:18k": [
@@ -460,7 +460,7 @@
    "603-MFR-25FBF52-20K",
    "MFR-25FBF52-20K",
    "YAGEO",
-   0.1,
+   0.11,
    "Metal film resistor 20k 1/4W 1%"
   ],
   "R:24k": [
@@ -537,7 +537,7 @@
    "603-MFR-25FBF52-62K",
    "MFR-25FBF52-62K",
    "YAGEO",
-   0.1,
+   0.11,
    "Metal film resistor 62k 1/4W 1%"
   ],
   "R:91k": [
@@ -558,7 +558,7 @@
    "603-MFR-25FBF52-200K",
    "MFR-25FBF52-200K",
    "YAGEO",
-   0.1,
+   0.11,
    "Metal film resistor 200k 1/4W 1%"
   ],
   "R:510k": [
@@ -586,15 +586,15 @@
    "603-MFR-25FBF52-680K",
    "MFR-25FBF52-680K",
    "YAGEO",
-   0.1,
+   0.11,
    "Metal film resistor 680k 1/4W 1%"
   ],
   "R:910k": [
-   "603-MFR-25FBF52-910K",
-   "MFR-25FBF52-910K",
-   "YAGEO",
+   "660-MF1/4DCT52R9093F",
+   "MF1/4DCT52R9093F",
+   "KOA Speer",
    0.1,
-   "Metal film resistor 910k 1/4W 1%"
+   "Metal film resistor 909k 1/4W 1%"
   ],
   "R:15k4": [
    "603-MFR-25FBF52-15K4",
@@ -618,171 +618,171 @@
    "Metal film resistor 604k 1/4W 1%"
   ],
   "R:2M2": [
-   "660-RK1/4DCT52R2204F",
-   "RK1/4DCT52R2204F",
-   "KOA Speer",
-   0.6,
-   "Metal film resistor 2M2 1/4W 1%"
+   "603-CFR-25JB-52-2M2",
+   "CFR-25JB-52-2M2",
+   "YAGEO",
+   0.1,
+   "Carbon film resistor 2M2 1/4W 5%"
   ],
   "R:2M7": [
-   "660-RK1/4DCT52R2704F",
-   "RK1/4DCT52R2704F",
-   "KOA Speer",
-   0.6,
-   "Metal film resistor 2M7 1/4W 1%"
+   "603-CFR-25JB-52-2M7",
+   "CFR-25JB-52-2M7",
+   "YAGEO",
+   0.1,
+   "Carbon film resistor 2M7 1/4W 5%"
   ],
   "R:3M3": [
-   "660-RK1/4DCT52R3304F",
-   "RK1/4DCT52R3304F",
-   "KOA Speer",
-   0.6,
-   "Metal film resistor 3M3 1/4W 1%"
+   "603-CFR-25JB-52-3M3",
+   "CFR-25JB-52-3M3",
+   "YAGEO",
+   0.1,
+   "Carbon film resistor 3M3 1/4W 5%"
   ],
   "R:4M7": [
-   "660-RK1/4DCT52R4704F",
-   "RK1/4DCT52R4704F",
-   "KOA Speer",
-   0.6,
-   "Metal film resistor 4M7 1/4W 1%"
+   "603-CFR-25JB-52-4M7",
+   "CFR-25JB-52-4M7",
+   "YAGEO",
+   0.1,
+   "Carbon film resistor 4M7 1/4W 5%"
   ],
   "R:6M8": [
-   "660-RK1/4DCT52R6804F",
-   "RK1/4DCT52R6804F",
-   "KOA Speer",
-   0.6,
-   "Metal film resistor 6M8 1/4W 1%"
+   "603-CFR-25JB-52-6M8",
+   "CFR-25JB-52-6M8",
+   "YAGEO",
+   0.1,
+   "Carbon film resistor 6M8 1/4W 5%"
   ],
   "R:10M": [
    "660-RK1/4DCT52R1005F",
    "RK1/4DCT52R1005F",
    "KOA Speer",
-   0.6,
+   0.9,
    "Metal film resistor 10M 1/4W 1%"
   ],
   "R:11M": [
    "660-RK1/4DCT52R1105F",
    "RK1/4DCT52R1105F",
    "KOA Speer",
-   0.6,
+   0.85,
    "Metal film resistor 11M 1/4W 1%"
   ],
   "T:100R": [
    "652-3362P-1-101LF",
    "3362P-1-101LF",
    "Bourns",
-   1.19,
+   1.2,
    "Trimmer 100R, 1/4in square"
   ],
   "T:10k": [
    "652-3362P-1-103LF",
    "3362P-1-103LF",
    "Bourns",
-   1.19,
+   1.16,
    "Trimmer 10k, 1/4in square"
   ],
   "T:20k": [
    "652-3362P-1-203LF",
    "3362P-1-203LF",
    "Bourns",
-   1.19,
+   1.18,
    "Trimmer 20k, 1/4in square"
   ],
   "T:4k7": [
-   "652-3362P-1-502LF",
-   "3362P-1-502LF",
+   "652-3362P-1-502TLF",
+   "3362P-1-502TLF",
    "Bourns",
-   1.19,
+   2.56,
    "Trimmer 5k, 1/4in square (for a 4k7 trimmer)"
   ],
   "P:10k": [
    "313-1000F-10K",
    "RV16AF-10-15R1-B10K-3LA",
    "Alpha (Taiwan)",
-   1.4,
+   1.61,
    "16mm pot 10k linear, solder lugs"
   ],
   "P:20k": [
    "313-1000F-20K",
    "RV16AF-10-15R1-B20K-3LA",
    "Alpha (Taiwan)",
-   1.4,
+   1.61,
    "16mm pot 20k linear, solder lugs"
   ],
   "P:50k": [
    "313-1000F-50K",
    "RV16AF-10-15R1-B50K-3LA",
    "Alpha (Taiwan)",
-   1.4,
+   1.61,
    "16mm pot 50k linear, solder lugs"
   ],
   "P:50k log": [
-   "313-5000F-50K",
-   "RV16AF-10-15R1-A50K-3LA",
+   "313-4000F-50K",
+   "RV16AF-10-15R1-A50K-3DLA",
    "Alpha (Taiwan)",
-   1.4,
-   "16mm pot 50k log (audio), solder lugs"
+   1.94,
+   "16mm pot 50k log (audio), round shaft"
   ],
   "C:10pF": [
    "810-FG28C0G1H100DNT0",
    "FG28C0G1H100DNT00",
    "TDK",
-   0.27,
+   0.22,
    "Ceramic 10pF C0G 50V, 5mm"
   ],
   "C:22pF": [
    "810-FG28C0G1H220JNT0",
    "FG28C0G1H220JNT00",
    "TDK",
-   0.27,
+   0.22,
    "Ceramic 22pF C0G 50V, 5mm"
   ],
   "C:30pF": [
-   "810-FG28C0G1H300JNT0",
-   "FG28C0G1H300JNT00",
-   "TDK",
-   0.27,
+   "80-C317C300J5G",
+   "C317C300J5G5TA",
+   "KEMET",
+   0.88,
    "Ceramic 30pF C0G 50V, 5mm"
   ],
   "C:82pF": [
    "810-FG28C0G1H820JNT0",
    "FG28C0G1H820JNT00",
    "TDK",
-   0.27,
+   0.29,
    "Ceramic 82pF C0G 50V, 5mm"
   ],
   "C:120pF": [
    "810-FG28C0G1H121JNT0",
    "FG28C0G1H121JNT00",
    "TDK",
-   0.27,
+   0.22,
    "Ceramic 120pF C0G 50V, 5mm"
   ],
   "C:150pF": [
    "810-FG28C0G1H151JNT0",
    "FG28C0G1H151JNT00",
    "TDK",
-   0.27,
+   0.22,
    "Ceramic 150pF C0G 50V, 5mm"
   ],
   "C:470pF": [
    "810-FG28C0G1H471JNT0",
    "FG28C0G1H471JNT00",
    "TDK",
-   0.27,
+   0.25,
    "Ceramic 470pF C0G 50V, 5mm"
   ],
   "C:680pF": [
    "810-FG28C0G1H681JNT0",
    "FG28C0G1H681JNT00",
    "TDK",
-   0.27,
+   0.24,
    "Ceramic 680pF C0G 50V, 5mm"
   ],
   "C:1n": [
    "810-FG28C0G1H102JNT0",
    "FG28C0G1H102JNT06",
    "TDK",
-   0.27,
+   0.25,
    "Ceramic 1nF C0G 50V, 5mm"
   ],
   "C:2n2": [
@@ -796,161 +796,161 @@
    "810-FG28C0G1H472JNT0",
    "FG28C0G1H472JNT06",
    "TDK",
-   0.27,
+   0.38,
    "Ceramic 4.7nF C0G 50V, 5mm"
   ],
   "C:22n": [
    "505-MKS2.022/63/5T",
    "MKS2-.022/63/5T",
    "WIMA",
-   0.45,
+   1.27,
    "Film capacitor 22nF 63V, 5mm"
   ],
   "C:47n": [
    "505-MKS2.047/63/5T",
    "MKS2-.047/63/5T",
    "WIMA",
-   0.45,
+   1.17,
    "Film capacitor 47nF 63V, 5mm"
   ],
   "C:220n": [
    "505-MKS2.22/63/5T",
    "MKS2-.22/63/5T",
    "WIMA",
-   0.6,
+   0.69,
    "Film capacitor 220nF 63V, 5mm"
   ],
   "C:330n": [
-   "505-MKS2.33/63/5T",
-   "MKS2-.33/63/5T",
+   "505-MKS2C033301C00JI",
+   "MKS2C033301C00JI00",
    "WIMA",
-   0.75,
+   0.77,
    "Film capacitor 330nF 63V, 5mm"
   ],
   "C:1uF": [
-   "667-ECE-A1HKA010",
-   "ECE-A1HKA010",
-   "Panasonic",
-   0.24,
+   "80-ESK105M050AC3AA",
+   "ESK105M050AC3AA",
+   "KEMET",
+   0.16,
    "Electrolytic 1uF 50V"
   ],
   "C:4.7uF": [
    "667-ECE-A1HKA4R7",
    "ECE-A1HKA4R7",
    "Panasonic",
-   0.25,
+   0.27,
    "Electrolytic 4.7uF 50V"
   ],
   "C:1uF BP": [
-   "647-UES1H010MDM",
-   "UES1H010MDM",
+   "647-UEP1H010MDD1TA",
+   "UEP1H010MDD1TA",
    "Nichicon",
-   0.45,
+   0.62,
    "Bipolar electrolytic 1uF 50V"
   ],
   "S:4001": [
    "595-CD4001BE",
    "CD4001BE",
    "Texas Instruments",
-   0.6,
+   0.76,
    "CMOS CD4001B, DIP"
   ],
   "S:4007": [
    "595-CD4007UBE",
    "CD4007UBE",
    "Texas Instruments",
-   0.6,
+   0.89,
    "CMOS CD4007UB, DIP"
   ],
   "S:4013": [
    "595-CD4013BE",
    "CD4013BE",
    "Texas Instruments",
-   0.6,
+   0.77,
    "CMOS CD4013B, DIP"
   ],
   "S:4017": [
    "595-CD4017BE",
    "CD4017BE",
    "Texas Instruments",
-   0.6,
+   1.39,
    "CMOS CD4017B, DIP"
   ],
   "S:4024": [
    "595-CD4024BE",
    "CD4024BE",
    "Texas Instruments",
-   0.6,
+   1.02,
    "CMOS CD4024B, DIP"
   ],
   "S:4052": [
    "595-CD4052BE",
    "CD4052BE",
    "Texas Instruments",
-   0.6,
+   0.89,
    "CMOS CD4052B, DIP"
   ],
   "S:4066": [
    "595-CD4066BE",
    "CD4066BE",
    "Texas Instruments",
-   0.6,
+   0.99,
    "CMOS CD4066B, DIP"
   ],
   "S:4069": [
    "595-CD4069UBE",
    "CD4069UBE",
    "Texas Instruments",
-   0.6,
+   1.0,
    "CMOS CD4069UB, DIP"
   ],
   "S:4081": [
    "595-CD4081BE",
    "CD4081BE",
    "Texas Instruments",
-   0.6,
+   1.11,
    "CMOS CD4081B, DIP"
   ],
   "S:741": [
    "595-UA741CP",
    "UA741CP",
    "Texas Instruments",
-   0.5,
+   0.68,
    "Op-amp 741, DIP-8"
   ],
   "S:LM324": [
-   "595-LM324N",
-   "LM324N",
+   "926-LM324AN/NOPB",
+   "LM324AN/NOPB",
    "Texas Instruments",
-   0.55,
-   "Quad op-amp, DIP-14"
+   1.18,
+   "Quad op-amp LM324A, DIP-14"
   ],
   "S:LM339": [
    "595-LM339N",
    "LM339N",
    "Texas Instruments",
-   0.55,
+   0.63,
    "Quad comparator, DIP-14"
   ],
   "S:LM393": [
    "595-LM393P",
    "LM393P",
    "Texas Instruments",
-   0.45,
+   0.53,
    "Dual comparator, DIP-8"
   ],
   "S:CA3130": [
    "968-CA3130EZ",
    "CA3130EZ",
    "Renesas",
-   2.7,
+   3.93,
    "CMOS-input op-amp, DIP-8"
   ],
   "S:CA3140": [
    "968-CA3140EZ",
    "CA3140EZ",
    "Renesas",
-   2.0,
+   3.38,
    "MOSFET-input op-amp, DIP-8"
   ],
   "S:78L12": [
@@ -964,12 +964,12 @@
    "926-LM79L12ACZ/NOPB",
    "LM79L12ACZ/NOPB",
    "Texas Instruments",
-   0.7,
+   0.81,
    "-12V 100mA regulator, TO-92"
   ],
   "S:4V3": [
-   "78-TZX4V3A",
-   "TZX4V3A-TR",
+   "78-BZX55C4V3",
+   "BZX55C4V3-TR",
    "Vishay",
    0.49,
    "Zener 4.3V 0.5W"
@@ -1006,28 +1006,28 @@
    "859-LTL-4221N",
    "LTL-4221N",
    "Lite-On",
-   0.3,
+   0.23,
    "LED 3mm red"
   ],
   "M:DPDT": [
-   "611-7201SYZQE",
+   "611-7201-001",
    "7201SYZQE",
    "C&K",
-   5.8,
+   14.99,
    "Mini toggle DPDT on-on, solder lugs"
   ],
   "M:SPDT": [
-   "611-7101SYZQE",
+   "611-7101-001",
    "7101SYZQE",
    "C&K",
-   4.6,
+   8.45,
    "Mini toggle SPDT on-on, solder lugs"
   ],
   "M:SPDT on-off-on": [
-   "611-7103SYZQE",
+   "611-7103-001",
    "7103SYZQE",
    "C&K",
-   5.2,
+   11.63,
    "Mini toggle SPDT on-off-on, solder lugs"
   ]
  },
@@ -1043,108 +1043,29 @@
   "Submodule": "Separate sub-board: its parts are in this module's other upload file(s), with quantities already multiplied.",
   "See text": "Value depends on the build; see Ken Stone's construction notes before choosing it."
  },
- "unverified": {
-  "R:33R": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:47R": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:220R": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:470R": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:680R": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:820R": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:1k5": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:1k8": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:2k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:3k3": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:4k7": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:18k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:20k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:24k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:27k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:30k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:34k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:36k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:39k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:43k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:47k5": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:51k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:51k1": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:62k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:91k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:130k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:200k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:510k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:560k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:620k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:680k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:910k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:15k4": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:16k5": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:600k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:2M2": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:2M7": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:3M3": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:4M7": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:6M8": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:10M": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "R:11M": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "T:100R": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "T:10k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "T:20k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "T:4k7": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "P:10k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "P:20k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "P:50k": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "P:50k log": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:10pF": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:22pF": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:30pF": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:82pF": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:120pF": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:150pF": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:470pF": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:680pF": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:1n": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:2n2": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:4n7": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:22n": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:47n": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:220n": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:330n": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:1uF": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:4.7uF": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "C:1uF BP": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:4001": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:4007": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:4013": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:4017": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:4024": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:4052": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:4066": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:4069": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:4081": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:741": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:LM324": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:LM339": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:LM393": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:CA3130": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:CA3140": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:78L12": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:79L12": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:4V3": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:5V6": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:2N3906": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "S:LED": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "M:DPDT": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "M:SPDT": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates).",
-  "M:SPDT on-off-on": "Part number built from the manufacturer's numbering pattern on 2026-11-20; stock and price not checked on mouser.com (prices are estimates)."
- },
+ "unverified": {},
  "notes": {
   "R:600k": "Ken Stone lists 600k, which is not a standard value; 604k is the nearest 1% (E96) value.",
-  "T:4k7": "4k7 trimmers are not made; a 5k trimmer covers the same range. The 3362P-1-502LF was backordered on mouser.co.uk on 2026-11-20.",
-  "C:1uF BP": "Nichicon marks this part for discontinuation; a 1uF film capacitor with 5 mm pitch also works if it fits.",
+  "T:4k7": "4k7 trimmers are not made; a 5k trimmer covers the same range. On 2026-11-21 the usual 3362P-1-502LF was out of stock at Mouser, so the file uses the 3362P-1-502TLF (same trimmer, different packing).",
+  "C:1uF BP": "Nichicon lists this part as end of life (in stock on 2026-11-21). A 1uF film capacitor with 5 mm pitch also works if it fits.",
   "S:4066": "Ken Stone's 4016 is replaced by the pin-compatible CD4066BE (the 4016 is no longer made).",
-  "S:CA3140": "Ken Stone's parts list allows a CA3140 in place of the LF356.",
+  "S:CA3140": "Ken Stone's parts list allows a CA3140 in place of the LF356. Mouser had little stock on 2026-11-21 (82 pieces).",
   "S:2N3904": "Also used for the obsolete NPN numbers 2N3391A, 2N3565, 2N3566: same TO-92 EBC pinout; check the PCB overlay.",
   "S:2N3906": "Also used for the obsolete PNP numbers 2N3638, 2N4248, 2N4250, PN4250: same TO-92 EBC pinout; check the PCB overlay.",
-  "M:SPDT": "Also used where an SPST switch is listed (leave one outer lug unconnected)."
+  "M:SPDT": "Also used where an SPST switch is listed (leave one outer lug unconnected).",
+  "R:910k": "Mouser does not stock the Yageo 910k; 909k is the nearest 1% (E96) value.",
+  "R:2M2": "1% metal film in this value is not stocked at Mouser; 5% carbon film is fine here.",
+  "R:2M7": "1% metal film in this value is not stocked at Mouser; 5% carbon film is fine here.",
+  "R:3M3": "1% metal film in this value is not stocked at Mouser; 5% carbon film is fine here.",
+  "R:4M7": "1% metal film in this value is not stocked at Mouser; 5% carbon film is fine here.",
+  "R:6M8": "1% metal film in this value is not stocked at Mouser; 5% carbon film is fine here.",
+  "C:1uF": "The Panasonic ECE-A1HKA010 is obsolete; the KEMET ESK is the same 1uF 50V radial electrolytic.",
+  "S:LM324": "TI's LM324N was out of stock on 2026-11-21; the LM324AN is the same pinout with tighter offset.",
+  "P:50k log": "Alpha's solder-lug log pot (313-5000F-50K) is not listed at Mouser; this one has the same 16 mm body and round shaft. Tayda's A-2399 is cheaper (see the Tayda list).",
+  "C:82pF": "TDK marks this capacitor 'not recommended for new designs'; it was in stock on 2026-11-21.",
+  "C:120pF": "TDK marks this capacitor 'not recommended for new designs'; it was in stock on 2026-11-21.",
+  "C:150pF": "TDK marks this capacitor 'not recommended for new designs'; it was in stock on 2026-11-21.",
+  "C:680pF": "TDK marks this capacitor 'not recommended for new designs'; it was in stock on 2026-11-21.",
+  "M:DPDT": "C&K mini toggles are expensive at Mouser (DPDT $14.99 on 2026-11-21); synth-parts suppliers sell equivalent solder-lug mini toggles for less."
  }
 }
