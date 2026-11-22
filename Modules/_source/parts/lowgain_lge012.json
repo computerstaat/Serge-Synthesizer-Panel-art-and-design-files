@@ -1,0 +1,137 @@
+{
+ "source": "https://drive.google.com/file/d/16sxXlTBRr4FRnD-q4PyKnvqgj2qPCbcC/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE012",
+ "page": "lge012",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "C4-C8",
+   "qty": 6,
+   "refs": "C1",
+   "desc": "100nF",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF@50V",
+   "qty": 2,
+   "refs": "C2,C3",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Capacitor",
+   "value": "33pF",
+   "qty": 2,
+   "refs": "C12,C13",
+   "desc": "Ceramic Cap 5MM LS",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Diode",
+   "value": "BAT48",
+   "qty": 4,
+   "refs": "D1,D2,D3,D4",
+   "desc": "SCHOTTKY DIODE",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Diode",
+   "value": "BAT48",
+   "qty": 4,
+   "refs": "D5,D6,D7,D8",
+   "desc": "SCHOTTKY DIODE",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jacks Cinch Connectivity 108 Series Banana Jack",
+   "qty": 8,
+   "refs": "J1,J2,J3,J4,J5,J6,J7,J8",
+   "desc": "Pick your color",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Switch",
+   "value": "SPDT",
+   "qty": 2,
+   "refs": "K1,K2",
+   "desc": "SubMini Switch SPDT",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "R1,R2",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Other",
+   "value": "R3-R5, R7-R9, R13-R15, R17-R19",
+   "qty": 12,
+   "refs": "",
+   "desc": "100K",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Resistor",
+   "value": "332R",
+   "qty": 2,
+   "refs": "R10,R20",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 2,
+   "refs": "R11,R21",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Resistor",
+   "value": "150-220R",
+   "qty": 2,
+   "refs": "R12,R22",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Resistor",
+   "value": "220K/270K",
+   "qty": 2,
+   "refs": "R25,R27",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "IC",
+   "value": "TL072",
+   "qty": 2,
+   "refs": "U1,U2",
+   "desc": "TL072",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Connector",
+   "value": "4P HDR",
+   "qty": 1,
+   "refs": "U3",
+   "desc": "0.156 MOLEX HDR",
+   "section": "Main board: LGE012"
+  },
+  {
+   "type": "Other",
+   "value": "VR1-VR3, VR5-VR7, VR9-VR10",
+   "qty": 8,
+   "refs": "",
+   "desc": "B100K",
+   "section": "Main board: LGE012"
+  }
+ ]
+}

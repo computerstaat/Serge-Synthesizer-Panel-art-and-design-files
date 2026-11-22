@@ -1,0 +1,169 @@
+{
+ "source": "https://drive.google.com/file/d/1isWzHILU-V-XERhsg8r4er88zmg4AsUM/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE203",
+ "page": "lge203",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "100nF",
+   "qty": 6,
+   "refs": "C1,C3,C4,C5,C6,C8",
+   "desc": "Ceramic Capacitor 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF@35V",
+   "qty": 2,
+   "refs": "C2,C7",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "33pF",
+   "qty": 2,
+   "refs": "C9,C10",
+   "desc": "Ceramic Capacitor 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "1uF",
+   "qty": 8,
+   "refs": "U1,U2,U3,U4,U5,U7,U9,U10",
+   "desc": "Film Capacitor 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "PWR",
+   "qty": 1,
+   "refs": "HDR_1",
+   "desc": "AMP .100 4P HDR",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "IN1A",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "IN1B",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "IN2A",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "IN2B",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "IN3A",
+   "qty": 1,
+   "refs": "J5",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "IN3B",
+   "qty": 1,
+   "refs": "J6",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "OUT A",
+   "qty": 1,
+   "refs": "J7",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "OUT B",
+   "qty": 1,
+   "refs": "J8",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "AUXA",
+   "qty": 1,
+   "refs": "J9",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "AUXB",
+   "qty": 1,
+   "refs": "J10",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "R1,R2",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 14,
+   "refs": "R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R15,R17,R18",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "332R",
+   "qty": 2,
+   "refs": "R14,R16",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "TL072",
+   "qty": 2,
+   "refs": "U6,U8",
+   "desc": "TL072D",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "A100K",
+   "qty": 6,
+   "refs": "VR1,VR2,VR3,VR4,VR5,VR6",
+   "desc": "9mm Alpha/Bourns Pot",
+   "section": ""
+  }
+ ]
+}

@@ -1,0 +1,473 @@
+{
+ "source": "https://drive.google.com/file/d/1zCFjhEvX5VpGkHnnlO5EMlshYJCqFNpP/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE089 Main PCB",
+ "page": "lge089c",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "10n",
+   "qty": 1,
+   "refs": "C1",
+   "desc": "FILM/Ceramic Capacitor 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "220n",
+   "qty": 1,
+   "refs": "C2",
+   "desc": "FILM Capacitor 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 8,
+   "refs": "C3,C4,C5,C8,C9,C10,C11,C12",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "10u",
+   "qty": 2,
+   "refs": "C6,C7",
+   "desc": "Electrolytic Capacitor 2mm LS",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 11,
+   "refs": "D1,D2,D3,D4,D5,D16,D17,D18,D19,D20,D21",
+   "desc": "1N4148",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 10,
+   "refs": "D6,D7,D8,D9,D10,D11,D12,D13,D14,D15",
+   "desc": "1N4148",
+   "section": ""
+  },
+  {
+   "type": "Ferrite bead or 10R",
+   "value": "10R",
+   "qty": 2,
+   "refs": "FB1,FB2",
+   "desc": "Bead(10.16mm)",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "Power",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "MTA-156-4",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "BC547",
+   "qty": 11,
+   "refs": "Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11",
+   "desc": "BC547",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 30,
+   "refs": "R1,R6,R11,R13,R14,R22,R25,R27,R28,R30,R31,R33,R34,R36,R37,R39,R40,R42,R43,R45,R46,R48,R49,R51,R52,R54,R71,R73,R75,R77",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "220K",
+   "qty": 7,
+   "refs": "R2,R3,R7,R8,R12,R15,R16",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 15,
+   "refs": "R4,R18,R19,R20,R57,R58,R59,R60,R61,R64,R65,R66,R67,R68,R69",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 3,
+   "refs": "R5,R9,R10",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "15K",
+   "qty": 2,
+   "refs": "R17,R70",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Trimmer",
+   "value": "10K",
+   "qty": 1,
+   "refs": "R21",
+   "desc": "Gate Output Voltage Trimmer",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "RY",
+   "qty": 2,
+   "refs": "R23,R24",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "RLED",
+   "qty": 10,
+   "refs": "R26,R29,R32,R35,R38,R41,R44,R47,R50,R53",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "1K",
+   "qty": 8,
+   "refs": "R55,R56,R62,R63,R72,R74,R76,R78",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "CD4017BCM",
+   "qty": 1,
+   "refs": "U1",
+   "desc": "CD4017BCM",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "LM339AN",
+   "qty": 1,
+   "refs": "U2",
+   "desc": "LM339AN",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "TL074",
+   "qty": 1,
+   "refs": "U3",
+   "desc": "TL074",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "CD4081",
+   "qty": 1,
+   "refs": "U4",
+   "desc": "CD4081",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "CLK",
+   "qty": 1,
+   "refs": "W1",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "HLD",
+   "qty": 1,
+   "refs": "W2",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "V+",
+   "qty": 2,
+   "refs": "W3,W35",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "RSB",
+   "qty": 1,
+   "refs": "W4",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "RST",
+   "qty": 1,
+   "refs": "W5",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "RSP",
+   "qty": 1,
+   "refs": "W6",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "O1",
+   "qty": 1,
+   "refs": "W7",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "LA1",
+   "qty": 1,
+   "refs": "W8",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "O2",
+   "qty": 1,
+   "refs": "W9",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "LA2",
+   "qty": 1,
+   "refs": "W10",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "O3",
+   "qty": 1,
+   "refs": "W11",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "LA3",
+   "qty": 1,
+   "refs": "W12",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "O4",
+   "qty": 1,
+   "refs": "W13",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "LA4",
+   "qty": 1,
+   "refs": "W14",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "O5",
+   "qty": 1,
+   "refs": "W15",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "LA5",
+   "qty": 1,
+   "refs": "W16",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "O6",
+   "qty": 1,
+   "refs": "W17",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "LA6",
+   "qty": 1,
+   "refs": "W18",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "O7",
+   "qty": 1,
+   "refs": "W19",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "LA7",
+   "qty": 1,
+   "refs": "W20",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "O9",
+   "qty": 1,
+   "refs": "W21",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "LA9",
+   "qty": 1,
+   "refs": "W22",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "O8",
+   "qty": 1,
+   "refs": "W23",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "LA8",
+   "qty": 1,
+   "refs": "W24",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "O10",
+   "qty": 1,
+   "refs": "W25",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "LA10",
+   "qty": 1,
+   "refs": "W26",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "F1",
+   "qty": 1,
+   "refs": "W27",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "P1",
+   "qty": 1,
+   "refs": "W28",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "F2",
+   "qty": 1,
+   "refs": "W29",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "P2",
+   "qty": 1,
+   "refs": "W30",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "FM1",
+   "qty": 1,
+   "refs": "W31",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "PO1",
+   "qty": 1,
+   "refs": "W32",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "FM2",
+   "qty": 1,
+   "refs": "W33",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "PO2",
+   "qty": 1,
+   "refs": "W34",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "GND",
+   "qty": 1,
+   "refs": "W36",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "V-",
+   "qty": 1,
+   "refs": "W37",
+   "desc": "Wire Point",
+   "section": ""
+  }
+ ]
+}

@@ -1,0 +1,425 @@
+{
+ "source": "https://drive.google.com/file/d/1DkuVmhZu0cX8BE06ewfM0jV0jaftfQOp/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE114B",
+ "page": "lge114a",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "47p",
+   "qty": 2,
+   "refs": "C11,C18",
+   "desc": "Ceramic Capacitor 5mm LS",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1n",
+   "qty": 1,
+   "refs": "C12",
+   "desc": "Ceramic Capacitor 5mm LS",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 7,
+   "refs": "C13,C14,C15,C16,C17,C25,C26",
+   "desc": "MLCC 50V SMT 0805/1206",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47u",
+   "qty": 1,
+   "refs": "C19",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF",
+   "qty": 1,
+   "refs": "C20",
+   "desc": "Film Capacitor 5mm LS",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF@50V",
+   "qty": 2,
+   "refs": "C27,C28",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Diode",
+   "value": "1n4148",
+   "qty": 3,
+   "refs": "D6,D7,D9",
+   "desc": "General Purpose Diode",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Diode",
+   "value": "5.6V",
+   "qty": 1,
+   "refs": "D8",
+   "desc": "5V6 Zener Diode",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Connector",
+   "value": "0.100” (2.54mm) 4P HDR",
+   "qty": 1,
+   "refs": "HDR_1",
+   "desc": "Power Header",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Transistor",
+   "value": "DMMT3904",
+   "qty": 1,
+   "refs": "Q1",
+   "desc": "Pre-Installed",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Transistor",
+   "value": "DMMT3906",
+   "qty": 1,
+   "refs": "Q2",
+   "desc": "Pre-Installed",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3906",
+   "qty": 1,
+   "refs": "Q3",
+   "desc": "2N3906",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "820K",
+   "qty": 3,
+   "refs": "R44,R45,R68",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "33K",
+   "qty": 3,
+   "refs": "R46,R69,R78",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 6,
+   "refs": "R47,R48,R54,R59,R72,R75",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Trimmer",
+   "value": "100K",
+   "qty": 1,
+   "refs": "R49",
+   "desc": "Trimmer",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "220K",
+   "qty": 4,
+   "refs": "R50,R55,R62,R65",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "10M",
+   "qty": 2,
+   "refs": "R51,R53",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "68K",
+   "qty": 3,
+   "refs": "R52,R64,R81",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "330K",
+   "qty": 1,
+   "refs": "R56",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "2.2K",
+   "qty": 3,
+   "refs": "R57,R73,R82",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K",
+   "qty": 1,
+   "refs": "R58",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "8.2K",
+   "qty": 1,
+   "refs": "R60",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 5,
+   "refs": "R61,R63,R66,R67,R77",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K",
+   "qty": 2,
+   "refs": "R70,R79",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "453K",
+   "qty": 1,
+   "refs": "R71",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "470K",
+   "qty": 1,
+   "refs": "R74",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "330",
+   "qty": 1,
+   "refs": "R76",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "220R",
+   "qty": 1,
+   "refs": "R80",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "75K",
+   "qty": 1,
+   "refs": "R84",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "1.5K",
+   "qty": 1,
+   "refs": "R86",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "R89,R90",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "IC",
+   "value": "LM3900",
+   "qty": 1,
+   "refs": "U4",
+   "desc": "LM3900N",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "IC",
+   "value": "TL072/RC4558",
+   "qty": 1,
+   "refs": "U5",
+   "desc": "RC4558",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "IC",
+   "value": "TL072/RC4558",
+   "qty": 1,
+   "refs": "U6",
+   "desc": "RC4558",
+   "section": "Main board: LGE114B (x2 ALL QTY'S FOR DUAL SLOPES)"
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 2,
+   "refs": "D1,D3",
+   "desc": "General Purpose Switching Diode",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Diode",
+   "value": "3mm LED",
+   "qty": 2,
+   "refs": "D2,D4",
+   "desc": "T1 Dual Color",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "LED",
+   "value": "LED Lens",
+   "qty": 2,
+   "refs": "",
+   "desc": "3mm LED",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Jack",
+   "value": "J1, J2, J3, J4, J5, J6, J7, J8, J9, J10 Cinch Banana Jack",
+   "qty": 10,
+   "refs": "",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Switch",
+   "value": "SubMini Switch SPDT (On-On)",
+   "qty": 2,
+   "refs": "K2,K4",
+   "desc": "Cycle Switches",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Switch",
+   "value": "SubMini Switch SPDT (On-Off-On)",
+   "qty": 2,
+   "refs": "K1,K3",
+   "desc": "CV Assign Switches",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Transistor",
+   "value": "BC547",
+   "qty": 2,
+   "refs": "Q1,Q2",
+   "desc": "TO-92 NPN Transistor",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Resistor",
+   "value": "150K",
+   "qty": 2,
+   "refs": "R2,R4",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Resistor",
+   "value": "5K62 (RLED)",
+   "qty": 2,
+   "refs": "R1,R3",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 6,
+   "refs": "VR1,VR2,VR3,VR4,VR5,VR6",
+   "desc": "9mm Alpha style potentiometer",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Knob",
+   "value": "Knobs",
+   "qty": 6,
+   "refs": "",
+   "desc": "DAVIES 1900H",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6mm BUTTON HEAD SCREW",
+   "qty": 16,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 16,
+   "refs": "",
+   "desc": "",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Other",
+   "value": "11mm Stand-off",
+   "qty": 0,
+   "refs": "",
+   "desc": "TAYDA: A-3317",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11mm F-F HEX STAND OFFS Female to Female",
+   "qty": 8,
+   "refs": "",
+   "desc": "(These are 12mm not 11mm, but will work)",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 2,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 3,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": "I/O Board: LGE114BC v1.1 (I/O + Panel related parts)"
+  }
+ ]
+}

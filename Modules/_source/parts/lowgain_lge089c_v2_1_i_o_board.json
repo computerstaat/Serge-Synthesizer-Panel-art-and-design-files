@@ -1,0 +1,249 @@
+{
+ "source": "https://drive.google.com/file/d/17s7zqNTtR5b0FW9n4-vVMf0Hn_wQhaBG/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE089C V2.1 I/O Board",
+ "page": "lge089c",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "10n",
+   "qty": 1,
+   "refs": "C1",
+   "desc": "Capacitor 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "22n",
+   "qty": 1,
+   "refs": "C2",
+   "desc": "Capacitor 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 2,
+   "refs": "D1,D2",
+   "desc": "Diode(7,62mm)",
+   "section": ""
+  },
+  {
+   "type": "LED",
+   "value": "Bi-Color LED",
+   "qty": 0,
+   "refs": "",
+   "desc": "3mm",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "Common Cathode (3 pins)",
+   "qty": 5,
+   "refs": "D3,D4,D5,D6,D7",
+   "desc": "5mm for Blue Panel",
+   "section": ""
+  },
+  {
+   "type": "LED",
+   "value": "LED Lens",
+   "qty": 5,
+   "refs": "",
+   "desc": "Clear LED Lens",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "GATE 1 OUTPUT",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "GATE 2 OUTPUT",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "GATE 3 OUTPUT",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "GATE 4 OUTPUT",
+   "qty": 1,
+   "refs": "J5",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "CLOCK INPUT",
+   "qty": 1,
+   "refs": "J6",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "GATE 5 OUTPUT",
+   "qty": 1,
+   "refs": "J8",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "GATE 6 OUTPUT",
+   "qty": 1,
+   "refs": "J9",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "RESET/HOLD",
+   "qty": 1,
+   "refs": "J10",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "GATE 7 OUTPUT",
+   "qty": 1,
+   "refs": "J11",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "GATE 8 OUTPUT",
+   "qty": 1,
+   "refs": "J12",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "RESET (MOMENTARY)",
+   "qty": 1,
+   "refs": "J13",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "GATE 9 OUTPUT",
+   "qty": 1,
+   "refs": "J14",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "HOLD",
+   "qty": 1,
+   "refs": "J15",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "GATE 10 OUTPUT",
+   "qty": 1,
+   "refs": "J16",
+   "desc": "Banana",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 2,
+   "refs": "R1,R4",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "220K",
+   "qty": 3,
+   "refs": "R2,R3,R5",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "PB",
+   "qty": 2,
+   "refs": "",
+   "desc": "Pushbutton (momentary closed)",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "PB Dress Nut",
+   "qty": 2,
+   "refs": "",
+   "desc": "Pushbutton Dress Nut",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "PB Cap",
+   "qty": 2,
+   "refs": "",
+   "desc": "Pushbutton Cap Red",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 BUTTON HEAD SCREW",
+   "qty": 8,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 8,
+   "refs": "",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11 F-F HEX STAND OFFS",
+   "qty": 4,
+   "refs": "",
+   "desc": "(12mm not 11mm, but will work)",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": ""
+  }
+ ]
+}

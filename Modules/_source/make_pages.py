@@ -155,7 +155,19 @@ def bom_rows(m):
                     unv = "; Mouser part not checked yet: verify stock and price" if isinstance(mk, str) and mk in make_mouser.UNVERIFIED else ""
                     rows.append([b["name"], pl["board"] + " board", r["type"], r["value"], r["qty"], "from " + pl["source"] + unv,
                                  mp[0] if mp else "", "https://www.mouser.com/ProductDetail/" + mp[0] if mp else "", mp[3] if mp else ""])
-        else:
+        for k in b.get("maker_parts", []):
+            pl = parts_list(k)
+            by = {"prism": "Prism's Mouser cart", "lowgain": "Low-Gain's BOM", "elby": "Elby's kit BOM"}[pl["maker"]]
+            if pl["kind"] == "mouser_cart":
+                by = "Low-Gain's Mouser cart" if pl["maker"] == "lowgain" else by
+            for r in pl["parts"]:
+                note = "; ".join(x for x in [r.get("refs", ""), r.get("desc", "") if r.get("desc") != r["value"] else "", r.get("section", "")] if x)
+                mp = r.get("mouser", "")
+                rows.append([b["name"], pl["board"], r["type"], r["value"], r["qty"], (note + "; " if note else "") + "from " + by + ": " + pl["source"],
+                             mp, "https://www.mouser.com/ProductDetail/" + mp if mp else "", r.get("price") or ""])
+        if b.get("maker_parts") and not keys:
+            continue
+        if not keys and not b.get("explicit"):
             links = [(t, u) for t, u in b.get("cart", [])] + [(t, u) for t, u in b.get("docs", []) if t.endswith(" BOM") or "BOM list" in t]
             if not links:
                 links = [(b["bom"].get("title", ""), b["bom"].get("url", b["url"]))]
@@ -260,12 +272,17 @@ def page(m):
 
     rows = bom_rows(m)
     out.append('<section id="bom"><h2>Bill of materials</h2><p>Spreadsheet: <a href="%s">%s</a> (CSV; opens in Excel, '
-               'Numbers or Google Sheets). The Mouser columns are there to fill in with order links.</p>' % (
+               'Numbers or Google Sheets). It lists the parts for every build option: Ken Stone\'s parts lists, and the parts data from '
+               'Low-Gain\'s, Prism\'s and Elby\'s own BOMs where they publish one.</p>' % (
                    quote(m["bom_csv"]), e(os.path.basename(m["bom_csv"]))))
+    if any(b.get("maker_parts") for b in m["builds"]):
+        out.append('<p class="note">The makers\' parts lists were copied into the spreadsheet automatically from their PDFs and Mouser carts '
+                   '(values, quantities and reference designators only; each row links its source). Check them against the maker\'s '
+                   'current BOM before ordering, and read the maker\'s notes there: they are not repeated here.</p>')
     mf = mouser_files(m["slug"])
     if mf:
         sm = json.load(open(os.path.join(OUT, "BOM", "mouser", "summary.json")))
-        out.append('<p class="note"><b>Order from Mouser:</b> %s. Upload it at <a href="https://www.mouser.com/bomtool/">Mouser\'s BOM tool</a> '
+        out.append('<p class="note"><b>Order from Mouser:</b> %s. Files ending <code>_cart</code> are made from a maker\'s own Mouser cart. Upload one at <a href="https://www.mouser.com/bomtool/">Mouser\'s BOM tool</a> '
                    '(it reads the Mouser and manufacturer part number columns). Parts Mouser doesn\'t stock are listed in %s.</p>' % (
                        ", ".join('<a href="%s">%s</a> (%d lines, about $%.2f at single-unit prices)' % (
                            quote("BOM/mouser/" + f), e(f), sm[f[:-4]]["lines"], sm[f[:-4]]["cost"]) for f in mf),

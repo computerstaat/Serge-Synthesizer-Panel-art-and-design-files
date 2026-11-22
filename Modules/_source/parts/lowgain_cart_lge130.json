@@ -1,0 +1,448 @@
+{
+ "source": "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9a71a0a12a",
+ "maker": "lowgain",
+ "kind": "mouser_cart",
+ "board": "Low-Gain LGE130 Mouser cart",
+ "parts": [
+  {
+   "type": "Trimmer",
+   "value": "100",
+   "qty": 1,
+   "desc": "Trimmer 3/8IN 100 OHM",
+   "mfr": "Bourns",
+   "mfr_pn": "3296W-1-101",
+   "mouser": "652-3296W-1-101",
+   "price": 3.92
+  },
+  {
+   "type": "Resistor",
+   "value": "47k",
+   "qty": 1,
+   "desc": "R 47K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-47K",
+   "mouser": "603-MFR-25FRF52-47K",
+   "price": 0.1
+  },
+  {
+   "type": "Transistor",
+   "value": "2N5458 PBFREE",
+   "qty": 1,
+   "desc": "JFET N-Ch",
+   "mfr": "Central Semiconductor",
+   "mfr_pn": "2N5458 PBFREE",
+   "mouser": "610-2N5458",
+   "price": 2.07
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904TFR",
+   "qty": 2,
+   "desc": "BJT NPN Transistor General",
+   "mfr": "onsemi",
+   "mfr_pn": "2N3904TFR",
+   "mouser": "512-2N3904TFR",
+   "price": 0.29
+  },
+  {
+   "type": "Hardware",
+   "value": "970110321",
+   "qty": 4,
+   "desc": "Standoff M3 x 11mm",
+   "mfr": "Wurth Elektronik",
+   "mfr_pn": "970110321",
+   "mouser": "710-970110321",
+   "price": 0.32
+  },
+  {
+   "type": "Hardware",
+   "value": "SMB_200_CTP",
+   "qty": 1,
+   "desc": "LED Lens Clear Fresnel",
+   "mfr": "VCC",
+   "mfr_pn": "SMB_200_CTP",
+   "mouser": "593-2000C",
+   "price": 0.77
+  },
+  {
+   "type": "Resistor",
+   "value": "2M2",
+   "qty": 2,
+   "desc": "R 2.2M OHM 1/6W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-12FTF52-2M2",
+   "mouser": "603-MFR-12FTF52-2M2",
+   "price": 0.15
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 20,
+   "desc": "MLCC SMD 0805 0.1uF 50V",
+   "mfr": "KEMET",
+   "mfr_pn": "C0805C104M5RACTU",
+   "mouser": "80-C0805C104M5R",
+   "price": 0.058
+  },
+  {
+   "type": "Capacitor",
+   "value": "1000pF",
+   "qty": 1,
+   "desc": "Film 100volts 1000pF 10% LS 5mm",
+   "mfr": "KEMET",
+   "mfr_pn": "MMK5102K100J01L4BULK",
+   "mouser": "80-MMK5102K100J01L4",
+   "price": 0.51
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.22uF",
+   "qty": 2,
+   "desc": "Film 50volts 0.22uF 10% LS 5mm",
+   "mfr": "KEMET",
+   "mfr_pn": "MMK5224K50J01L4BULK",
+   "mouser": "80-MMK5224K50J01L4",
+   "price": 0.66
+  },
+  {
+   "type": "Capacitor",
+   "value": "1000pF",
+   "qty": 1,
+   "desc": "MLCC RAD 50V 1000pF C0G 5% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28C0G1H102JNT06",
+   "mouser": "810-FG28C0G1H102JNT6",
+   "price": 0.27
+  },
+  {
+   "type": "Capacitor",
+   "value": "33pF",
+   "qty": 1,
+   "desc": "MLCC RAD 100V 33pF C0G 5% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28C0G2A330JNT06",
+   "mouser": "810-FG28C0G2A330JNT6",
+   "price": 0.3
+  },
+  {
+   "type": "Capacitor",
+   "value": "47pF",
+   "qty": 1,
+   "desc": "MLCC RAD 100V 47pF C0G 5% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28C0G2A470JNT06",
+   "mouser": "810-FG28C0G2A470JNT6",
+   "price": 0.28
+  },
+  {
+   "type": "Switch",
+   "value": "1N4148",
+   "qty": 2,
+   "desc": "Small Signal Switching Diode",
+   "mfr": "onsemi",
+   "mfr_pn": "1N4148",
+   "mouser": "512-1N4148",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "desc": "R 10Ohms 1/4W 1% Metal Film",
+   "mfr": "SEI Stackpole",
+   "mfr_pn": "RNF14FTD10R0",
+   "mouser": "708-RNF14FTD10R0",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "100k",
+   "qty": 15,
+   "desc": "R 0.1% 25ppm 100K ohm",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFP-25BRD52-100K",
+   "mouser": "603-MFP-25BRD52-100K",
+   "price": 0.41
+  },
+  {
+   "type": "Resistor",
+   "value": "2M4",
+   "qty": 1,
+   "desc": "R 2.4M OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FTE52-2M4",
+   "mouser": "603-MFR-25FTE52-2M4",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "1M2",
+   "qty": 1,
+   "desc": "R 1.2M OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-1M2",
+   "mouser": "603-MFR-25FRF52-1M2",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "16k",
+   "qty": 1,
+   "desc": "R 16K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FBF52-16K",
+   "mouser": "603-MFR-25FBF52-16K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "470k",
+   "qty": 1,
+   "desc": "R 470K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-470K",
+   "mouser": "603-MFR-25FRF52-470K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "47R",
+   "qty": 1,
+   "desc": "R 47 OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FBF52-47R",
+   "mouser": "603-MFR-25FBF52-47R",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "820R",
+   "qty": 1,
+   "desc": "R 820 OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-820R",
+   "mouser": "603-MFR-25FRF52-820R",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "10k",
+   "qty": 10,
+   "desc": "R 10KOhms 1/4W 1% Metal Film",
+   "mfr": "SEI Stackpole",
+   "mfr_pn": "RNF14FTD10K0",
+   "mouser": "708-RNF14FTD10K0",
+   "price": 0.044
+  },
+  {
+   "type": "Resistor",
+   "value": "27k",
+   "qty": 1,
+   "desc": "R 27K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-27K",
+   "mouser": "603-MFR-25FRF52-27K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "110k",
+   "qty": 1,
+   "desc": "R 110K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-110K",
+   "mouser": "603-MFR-25FRF52-110K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "18k",
+   "qty": 2,
+   "desc": "R 18K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-18K",
+   "mouser": "603-MFR-25FRF52-18K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "24k",
+   "qty": 1,
+   "desc": "R 24K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-24K",
+   "mouser": "603-MFR-25FRF52-24K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "3k92",
+   "qty": 1,
+   "desc": "R 3.92K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-3K92",
+   "mouser": "603-MFR-25FRF52-3K92",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "2k21",
+   "qty": 3,
+   "desc": "R 2.21K ohm 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-2K21",
+   "mouser": "603-MFR-25FRF522K21",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "390R",
+   "qty": 1,
+   "desc": "R 390 OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-390R",
+   "mouser": "603-MFR-25FRF52-390R",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "14k",
+   "qty": 2,
+   "desc": "R 14K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-14K",
+   "mouser": "603-MFR-25FRF52-14K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "1k",
+   "qty": 10,
+   "desc": "R 1K ohm 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-1K",
+   "mouser": "603-MFR-25FRF521K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "360k",
+   "qty": 1,
+   "desc": "R 360K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-360K",
+   "mouser": "603-MFR-25FRF52-360K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "150k",
+   "qty": 1,
+   "desc": "R 150Kohm 1% 1/4W Metal Film",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FTF52-150K",
+   "mouser": "603-MFR-25FTF52-150K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "2k",
+   "qty": 2,
+   "desc": "R 2Kohm 1% 1/4W Metal Film",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FTF52-2K",
+   "mouser": "603-MFR-25FTF52-2K",
+   "price": 0.1
+  },
+  {
+   "type": "Trimmer",
+   "value": "100k",
+   "qty": 2,
+   "desc": "Trimmer 3/8\" 100Kohms",
+   "mfr": "Bourns",
+   "mfr_pn": "3296W-1-104LF",
+   "mouser": "652-3296W-1-104LF",
+   "price": 2.46
+  },
+  {
+   "type": "Trimmer",
+   "value": "50k",
+   "qty": 1,
+   "desc": "Trimmer 3/8\" 50Kohms",
+   "mfr": "Bourns",
+   "mfr_pn": "3296W-1-503LF",
+   "mouser": "652-3296W-1-503LF",
+   "price": 2.2
+  },
+  {
+   "type": "IC",
+   "value": "LHA-04-TS",
+   "qty": 1,
+   "desc": "4P locking header straight",
+   "mfr": "Adam Tech",
+   "mfr_pn": "LHA-04-TS",
+   "mouser": "737-LHA-04-TS",
+   "price": 0.23
+  },
+  {
+   "type": "IC",
+   "value": "LM78L05ACZ/LFT7",
+   "qty": 1,
+   "desc": "Linear Voltage Regulator +5V 100mA",
+   "mfr": "TI",
+   "mfr_pn": "LM78L05ACZ/LFT7",
+   "mouser": "926-LM78L05ACZ/LFT7",
+   "price": 0.53
+  },
+  {
+   "type": "IC",
+   "value": "LM79L05ACZ/NOPB",
+   "qty": 1,
+   "desc": "Linear Voltage Regulator -5V",
+   "mfr": "TI",
+   "mfr_pn": "LM79L05ACZ/NOPB",
+   "mouser": "926-LM79L05ACZ/NOPB",
+   "price": 0.81
+  },
+  {
+   "type": "IC",
+   "value": "TL071IP",
+   "qty": 2,
+   "desc": "OpAmp Low Noise JFET Input",
+   "mfr": "TI",
+   "mfr_pn": "TL071IP",
+   "mouser": "595-TL071IP",
+   "price": 0.63
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Blue",
+   "qty": 5,
+   "desc": "Jack BANANA JACK BLUE",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0910-001",
+   "mouser": "530-108-0910-1",
+   "price": 1.71
+  },
+  {
+   "type": "Jack",
+   "value": "Grey Nylon Banana Jack",
+   "qty": 3,
+   "desc": "Jack Grey Nylon Banana Jack",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0913-001",
+   "mouser": "530-108-0913-1",
+   "price": 1.6
+  },
+  {
+   "type": "IC",
+   "value": "SSL-LX3054IGW",
+   "qty": 1,
+   "desc": "LED bicolour Red/Green",
+   "mfr": "Lumex",
+   "mfr_pn": "SSL-LX3054IGW",
+   "mouser": "696-SSL-LX3054IGW",
+   "price": 0.62
+  }
+ ]
+}

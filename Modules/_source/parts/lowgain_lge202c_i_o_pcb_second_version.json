@@ -1,0 +1,257 @@
+{
+ "source": "https://drive.google.com/file/d/1Z1CQpCZn9PY1Oqn1PwaPN_Kb1f708Ydo/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE202C I/O PCB (second version)",
+ "page": "lge202",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "33pF",
+   "qty": 1,
+   "refs": "C7",
+   "desc": "Ceramic Cap 5MM LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF",
+   "qty": 2,
+   "refs": "C8,C9",
+   "desc": "Ceramic Cap 0805/1206",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Emmerson_Banana",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "INPUT",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Emmerson_Banana",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "UPPER COMB OUT",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Emmerson_Banana",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "LOWER COMB OUT",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Emmerson_Banana",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "OUTPUT",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 5,
+   "refs": "R1,R3,R5,R6,R10",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "TL072",
+   "qty": 1,
+   "refs": "U1",
+   "desc": "TL072",
+   "section": ""
+  },
+  {
+   "type": "Switch",
+   "value": "SPDT ON-OFF-ON",
+   "qty": 1,
+   "refs": "K1",
+   "desc": "SUB MINIATURE TOGGLE",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": ", VR7, VR8, VR9, VR10, VR11, VR12",
+   "qty": 12,
+   "refs": "VR1,VR2,VR3,VR4,VR5,VR6",
+   "desc": "B100K",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "Input (to wiper of level pot)",
+   "qty": 1,
+   "refs": "",
+   "desc": "M",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "To CW end of all filter pots",
+   "qty": 1,
+   "refs": "",
+   "desc": "E",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Upper Comb out",
+   "qty": 1,
+   "refs": "",
+   "desc": "L",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Lower comb out",
+   "qty": 1,
+   "refs": "",
+   "desc": "G",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Output",
+   "qty": 1,
+   "refs": "",
+   "desc": "P",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "To CCW end of all filter pots",
+   "qty": 1,
+   "refs": "",
+   "desc": "J",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "29 Hz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "C",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "115 Hz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "B",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "411 Hz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "D",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "1.5 kHz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "I",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "5.2 kHz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "H",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "61 Hz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "A",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "218 Hz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "u",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "777 Hz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "F",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "2.8 kHz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "K",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "11 kHz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "N",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "+12Vdc",
+   "qty": 1,
+   "refs": "",
+   "desc": "V+",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "And CCW end of level pot.",
+   "qty": 1,
+   "refs": "",
+   "desc": "GND",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "-12Vdc",
+   "qty": 1,
+   "refs": "",
+   "desc": "V-",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "M2",
+   "qty": 1,
+   "refs": "W20",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "FB",
+   "qty": 1,
+   "refs": "W21",
+   "desc": "Wire Point",
+   "section": ""
+  }
+ ]
+}

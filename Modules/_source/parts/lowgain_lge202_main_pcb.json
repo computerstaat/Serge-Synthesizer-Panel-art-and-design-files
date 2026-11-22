@@ -1,0 +1,521 @@
+{
+ "source": "https://drive.google.com/file/d/1dyH7euIG6l85lUqA-DyzI-y-18JiDSNE/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE202 Main PCB",
+ "page": "lge202",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "10uF @ 50V Electrolytic Cap 2mm LS",
+   "qty": 2,
+   "refs": "C1,C2",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF",
+   "qty": 20,
+   "refs": "C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C43,C44,C45,C46",
+   "desc": "Ceramic Cap 0805/1206",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "4.7uF @ 50V Electrolytic Cap 2mm LS",
+   "qty": 2,
+   "refs": "C19,C20",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "47pF",
+   "qty": 2,
+   "refs": "C21,C22",
+   "desc": "Film Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "47nF",
+   "qty": 2,
+   "refs": "C23,C24",
+   "desc": "Film Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF",
+   "qty": 2,
+   "refs": "C25,C26",
+   "desc": "Film Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "4.7nF",
+   "qty": 4,
+   "refs": "C27,C28,C35,C36",
+   "desc": "Film Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "1nF",
+   "qty": 2,
+   "refs": "C29,C30",
+   "desc": "Film Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "220pF",
+   "qty": 4,
+   "refs": "C31,C32,C41,C42",
+   "desc": "Film Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "22nF",
+   "qty": 2,
+   "refs": "C33,C34",
+   "desc": "Film Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "2.2nF",
+   "qty": 2,
+   "refs": "C37,C38",
+   "desc": "Film Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "680pF",
+   "qty": 2,
+   "refs": "C39,C40",
+   "desc": "Film Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Ferrite bead or 10R",
+   "value": "10R0",
+   "qty": 2,
+   "refs": "FB1,FB2",
+   "desc": "Ferrite Bead or 10R",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "0.156” header",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "MTA-156-4",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "3.3K",
+   "qty": 1,
+   "refs": "R1",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "470K",
+   "qty": 1,
+   "refs": "R2",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "47K",
+   "qty": 13,
+   "refs": "R3,R4,R5,R6,R7,R15,R19,R23,R26,R27,R36,R40,R44",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "4.7K",
+   "qty": 2,
+   "refs": "R8,R9",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "330",
+   "qty": 3,
+   "refs": "R10,R11,R12",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "91K",
+   "qty": 1,
+   "refs": "R13",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "39K",
+   "qty": 1,
+   "refs": "R14",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "510K",
+   "qty": 2,
+   "refs": "R16,R24",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "36K",
+   "qty": 2,
+   "refs": "R17,R22",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "62K",
+   "qty": 1,
+   "refs": "R18",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "820K",
+   "qty": 1,
+   "refs": "R20",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "22K",
+   "qty": 2,
+   "refs": "R21,R55",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "27K",
+   "qty": 1,
+   "refs": "R25",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "620K",
+   "qty": 1,
+   "refs": "R28",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "130K",
+   "qty": 2,
+   "refs": "R29,R32",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 3,
+   "refs": "R30,R47,R52",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "16.5K",
+   "qty": 2,
+   "refs": "R31,R48",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "33K",
+   "qty": 2,
+   "refs": "R33,R50",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "30K",
+   "qty": 1,
+   "refs": "R34",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "51K",
+   "qty": 1,
+   "refs": "R35",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "680K",
+   "qty": 1,
+   "refs": "R37",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "43K",
+   "qty": 2,
+   "refs": "R38,R43",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "68K",
+   "qty": 3,
+   "refs": "R39,R51,R54",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "910K",
+   "qty": 1,
+   "refs": "R41",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "24K",
+   "qty": 1,
+   "refs": "R42",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "560K",
+   "qty": 1,
+   "refs": "R45",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "82K",
+   "qty": 2,
+   "refs": "R46,R49",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "15.4K",
+   "qty": 1,
+   "refs": "R53",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "TL072",
+   "qty": 10,
+   "refs": "U1,U2,U3,U4,U5,U6,U7,U8,U9,U10",
+   "desc": "LF353N",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "Input (to wiper of level pot)",
+   "qty": 1,
+   "refs": "",
+   "desc": "M",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "To CW end of all filter pots",
+   "qty": 1,
+   "refs": "",
+   "desc": "E",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Upper Comb out",
+   "qty": 1,
+   "refs": "",
+   "desc": "L",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Lower comb out",
+   "qty": 1,
+   "refs": "",
+   "desc": "G",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Output",
+   "qty": 1,
+   "refs": "",
+   "desc": "P",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "To CCW end of all filter pots",
+   "qty": 1,
+   "refs": "",
+   "desc": "J",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "29 Hz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "C",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "115 Hz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "B",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "411 Hz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "D",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "1.5 kHz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "I",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "5.2 kHz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "H",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "61 Hz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "A",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "218 Hz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "U",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "777 Hz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "F",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "2.8 kHz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "K",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "11 kHz pot Wiper",
+   "qty": 1,
+   "refs": "",
+   "desc": "N",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "+12Vdc",
+   "qty": 1,
+   "refs": "",
+   "desc": "V+",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "And CCW end of level pot.",
+   "qty": 1,
+   "refs": "",
+   "desc": "GND",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "-12Vdc",
+   "qty": 1,
+   "refs": "",
+   "desc": "V-",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "All Frequency Pots = B50K-B100K",
+   "qty": 10,
+   "refs": "",
+   "desc": "B50-B100K",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Intput attenuators = A50K-A100K",
+   "qty": 1,
+   "refs": "",
+   "desc": "A100K",
+   "section": ""
+  }
+ ]
+}

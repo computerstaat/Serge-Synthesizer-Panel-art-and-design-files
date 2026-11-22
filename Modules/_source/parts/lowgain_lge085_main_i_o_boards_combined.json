@@ -1,0 +1,233 @@
+{
+ "source": "https://drive.google.com/file/d/18WIfdtWCNoi-bcLyuLysK44tXpnQ4Oqo/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE085 (Main & I/O Boards combined)",
+ "page": "lge085",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "100p",
+   "qty": 3,
+   "refs": "C1,C4,C7",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47u",
+   "qty": 3,
+   "refs": "C2,C5,C8",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Capacitor",
+   "value": "470n",
+   "qty": 3,
+   "refs": "C3,C6,C9",
+   "desc": "Poly Film Cap 7mm LS",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10u",
+   "qty": 1,
+   "refs": "C10",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 2,
+   "refs": "C11,C12",
+   "desc": "MLCC 50V SMT 0805/1206",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 12,
+   "refs": "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12",
+   "desc": "General Signal Diode",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 1,
+   "refs": "FB1",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Connector",
+   "value": "0.156” 4P Header",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Power Header",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 6,
+   "refs": "R1,R9,R11,R19,R21,R29",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Resistor",
+   "value": "1.5M",
+   "qty": 9,
+   "refs": "R2,R3,R10,R12,R13,R20,R22,R23,R30",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Trimmer",
+   "value": "25K",
+   "qty": 3,
+   "refs": "R4,R14,R24",
+   "desc": "3362P Series Trimmer",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 3,
+   "refs": "R5,R15,R25",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Resistor",
+   "value": "150K",
+   "qty": 3,
+   "refs": "R6,R16,R26",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Resistor",
+   "value": "220K",
+   "qty": 6,
+   "refs": "R7,R8,R17,R18,R27,R28",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "IC",
+   "value": "LM3900N",
+   "qty": 1,
+   "refs": "U1",
+   "desc": "LM3900N",
+   "section": "Main Board: LGE085"
+  },
+  {
+   "type": "Jack",
+   "value": "INPUT",
+   "qty": 3,
+   "refs": "J1,J7,J11",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE085C"
+  },
+  {
+   "type": "Jack",
+   "value": "VC1",
+   "qty": 3,
+   "refs": "J2,J5,J9",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE085C"
+  },
+  {
+   "type": "Jack",
+   "value": "VC2",
+   "qty": 3,
+   "refs": "J3,J6,J10",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE085C"
+  },
+  {
+   "type": "Jack",
+   "value": "OUT",
+   "qty": 3,
+   "refs": "J4,J8,J12",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE085C"
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 4,
+   "refs": "VR1,VR2,VR3,VR4",
+   "desc": "9mm Alpha style potentiometer",
+   "section": "I/O Board: LGE085C"
+  },
+  {
+   "type": "Knob",
+   "value": "Knobs",
+   "qty": 4,
+   "refs": "",
+   "desc": "DAVIES 1900H",
+   "section": "I/O Board: LGE085C"
+  },
+  {
+   "type": "Other",
+   "value": "SW1a",
+   "qty": 1,
+   "refs": "K1",
+   "desc": "Fdbk SW",
+   "section": "I/O Board: LGE085C"
+  },
+  {
+   "type": "Other",
+   "value": "SW1b",
+   "qty": 2,
+   "refs": "K2,K3",
+   "desc": "JOIN SW 1-2 & 2 TO 3",
+   "section": "I/O Board: LGE085C"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 BUTTON HEAD SCREW",
+   "qty": 8,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": "I/O Board: LGE085C"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 8,
+   "refs": "",
+   "desc": "",
+   "section": "I/O Board: LGE085C"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11 F-F HEX STAND OFFS",
+   "qty": 4,
+   "refs": "",
+   "desc": "(This isn't 11mm, but will work)",
+   "section": "I/O Board: LGE085C"
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": "I/O Board: LGE085C"
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": "I/O Board: LGE085C"
+  }
+ ]
+}

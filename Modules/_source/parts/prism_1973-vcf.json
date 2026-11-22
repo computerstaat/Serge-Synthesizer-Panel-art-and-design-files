@@ -1,0 +1,348 @@
+{
+ "source": "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=e3c77d4b9a",
+ "maker": "prism",
+ "kind": "mouser_cart",
+ "board": "Prism 1973 VCF",
+ "parts": [
+  {
+   "type": "Resistor",
+   "value": "22M",
+   "qty": 2,
+   "desc": "R 22M ohm 5%",
+   "mfr": "KOA Speer",
+   "mfr_pn": "CF1/4CT52R226J",
+   "mouser": "660-CF1/4CT52R226J",
+   "price": 0.14
+  },
+  {
+   "type": "Transistor",
+   "value": "MMBFJ201",
+   "qty": 2,
+   "desc": "JFETs N-Channel Transistor General Purpose",
+   "mfr": "onsemi",
+   "mfr_pn": "MMBFJ201",
+   "mouser": "512-MMBFJ201",
+   "price": 0.57
+  },
+  {
+   "type": "Hardware",
+   "value": "640456-4",
+   "qty": 1,
+   "desc": "Headers & Wire Housings FRICTION LCK HDR 4P Stra",
+   "mfr": "TE Connectivity",
+   "mfr_pn": "640456-4",
+   "mouser": "571-6404564",
+   "price": 0.27
+  },
+  {
+   "type": "Potentiometer",
+   "value": "50k",
+   "qty": 4,
+   "desc": "Potentiometers 9mm 50K ohm",
+   "mfr": "TT Electronics",
+   "mfr_pn": "P0915N-FC20BR50K",
+   "mouser": "858-P0915NFC20BR50K",
+   "price": 2.76
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 2,
+   "desc": "Film .1uF 5% 63volts",
+   "mfr": "Vishay",
+   "mfr_pn": "BFC247076104",
+   "mouser": "594-2222-470-76104",
+   "price": 1.59
+  },
+  {
+   "type": "Capacitor",
+   "value": "100pF",
+   "qty": 2,
+   "desc": "Film 100V 100 pF 20% LS=5 mm",
+   "mfr": "KEMET",
+   "mfr_pn": "RSBEC0100ZA00M",
+   "mouser": "80-RSBEC0100ZA00M",
+   "price": 0.61
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Blue",
+   "qty": 1,
+   "desc": "Jack BANANA JACK BLUE",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0910-001",
+   "mouser": "530-108-0910-1",
+   "price": 1.71
+  },
+  {
+   "type": "Jack",
+   "value": "Black Banana Jack",
+   "qty": 7,
+   "desc": "Jack Black Banana Jack",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0903-001",
+   "mouser": "530-108-0903-1",
+   "price": 1.43
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.01uF",
+   "qty": 3,
+   "desc": "Film 50V 0.01uF 5% LS 5mm",
+   "mfr": "KEMET",
+   "mfr_pn": "MMK5103J50J01L4BULK",
+   "mouser": "80-MMK5103J50J01L4",
+   "price": 0.45
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 4,
+   "desc": "MLCC RAD 50V 0.1uF C0G 5% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG26C0G1H104JNT06",
+   "mouser": "810-FG26C0G1H104JNT6",
+   "price": 0.85
+  },
+  {
+   "type": "Capacitor",
+   "value": "47pF",
+   "qty": 1,
+   "desc": "MLCC RAD 50V 47pF C0G 5% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28C0G1H470JNT00",
+   "mouser": "810-FG28C0G1H470JNT0",
+   "price": 0.23
+  },
+  {
+   "type": "Capacitor",
+   "value": "220pF",
+   "qty": 1,
+   "desc": "Film STYRENE 50V 220P",
+   "mfr": "Xicon",
+   "mfr_pn": "23PS122",
+   "mouser": "",
+   "price": null
+  },
+  {
+   "type": "Trimmer",
+   "value": "25k",
+   "qty": 1,
+   "desc": "Trimmer 1/4\"SQ 25KOHMS",
+   "mfr": "Bourns",
+   "mfr_pn": "3362P-1-253LF",
+   "mouser": "652-3362P-1-253LF",
+   "price": 1.3
+  },
+  {
+   "type": "Resistor",
+   "value": "68k",
+   "qty": 8,
+   "desc": "R 68K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-68K",
+   "mouser": "603-CFR-25JR-52-68K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "22k",
+   "qty": 5,
+   "desc": "R 22K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-22K",
+   "mouser": "603-CFR-25JR-5222K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "470R",
+   "qty": 4,
+   "desc": "R 470ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-470R",
+   "mouser": "603-CFR-25JR-52470R",
+   "price": 0.1
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3906BU",
+   "qty": 4,
+   "desc": "BJT PNP Transistor General",
+   "mfr": "onsemi",
+   "mfr_pn": "2N3906BU",
+   "mouser": "512-2N3906BU",
+   "price": 0.27
+  },
+  {
+   "type": "Resistor",
+   "value": "33k",
+   "qty": 3,
+   "desc": "R 33K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-33K",
+   "mouser": "603-CFR-25JR-52-33K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 3,
+   "desc": "R 330ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-330R",
+   "mouser": "603-CFR-25JR-52330R",
+   "price": 0.11
+  },
+  {
+   "type": "Transistor",
+   "value": "J201",
+   "qty": 2,
+   "desc": "JFETs JFET N-Channel -40V Low Ciss",
+   "mfr": "InterFET",
+   "mfr_pn": "J201",
+   "mouser": "106-J201",
+   "price": 5.81
+  },
+  {
+   "type": "Resistor",
+   "value": "470k",
+   "qty": 2,
+   "desc": "R 470K OHM 5%TR 1/4W",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-470K",
+   "mouser": "603-CFR-25JR-52470K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "3k3",
+   "qty": 2,
+   "desc": "R 3.3K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-3K3",
+   "mouser": "603-CFR-25JR-523K3",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "330k",
+   "qty": 2,
+   "desc": "R 330K ohm 5%",
+   "mfr": "KOA Speer",
+   "mfr_pn": "CF1/4CT52R334J",
+   "mouser": "660-CF1/4CT52R334J",
+   "price": 0.14
+  },
+  {
+   "type": "Resistor",
+   "value": "2k2",
+   "qty": 2,
+   "desc": "R 2.2K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-2K2",
+   "mouser": "603-CFR-25JR-522K2",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 2,
+   "desc": "R 1M ohm 5%",
+   "mfr": "KOA Speer",
+   "mfr_pn": "CF1/4CT52R105J",
+   "mouser": "660-CF1/4CT52R105J",
+   "price": 0.15
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF",
+   "qty": 2,
+   "desc": "Elec 10UF 25V KS RADIAL",
+   "mfr": "Panasonic",
+   "mfr_pn": "ECE-A1EKS100",
+   "mouser": "667-ECE-A1EKS100",
+   "price": 0.35
+  },
+  {
+   "type": "IC",
+   "value": "TL071CP",
+   "qty": 1,
+   "desc": "OpAmp JFET Input Low Noise",
+   "mfr": "TI",
+   "mfr_pn": "TL071CP",
+   "mouser": "595-TL071CP",
+   "price": 0.53
+  },
+  {
+   "type": "IC",
+   "value": "LM3900N",
+   "qty": 1,
+   "desc": "OpAmp Quad",
+   "mfr": "TI",
+   "mfr_pn": "LM3900N",
+   "mouser": "595-LM3900N",
+   "price": 0.85
+  },
+  {
+   "type": "Resistor",
+   "value": "4k7",
+   "qty": 1,
+   "desc": "R 4.7K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-4K7",
+   "mouser": "603-CFR-25JR-524K7",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "3M3",
+   "qty": 1,
+   "desc": "R 3.3M ohm 5%",
+   "mfr": "KOA Speer",
+   "mfr_pn": "CF1/4CT52R335J",
+   "mouser": "660-CF1/4CT52R335J",
+   "price": 0.14
+  },
+  {
+   "type": "Resistor",
+   "value": "18k",
+   "qty": 1,
+   "desc": "R 18K ohm 5%",
+   "mfr": "KOA Speer",
+   "mfr_pn": "CF1/4CT52R183J",
+   "mouser": "660-CF1/4CT52R183J",
+   "price": 0.14
+  },
+  {
+   "type": "Resistor",
+   "value": "15k",
+   "qty": 1,
+   "desc": "R 15K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-15K",
+   "mouser": "603-CFR-25JR-5215K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "11M",
+   "qty": 1,
+   "desc": "R 11Mohms 5%",
+   "mfr": "KOA Speer",
+   "mfr_pn": "CF1/4C116J",
+   "mouser": "660-CF1/4C116J",
+   "price": 0.27
+  },
+  {
+   "type": "Resistor",
+   "value": "100k",
+   "qty": 1,
+   "desc": "R 100K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-100K",
+   "mouser": "603-CFR-25JR-52100K",
+   "price": 0.1
+  }
+ ]
+}

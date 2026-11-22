@@ -1,0 +1,246 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/serge/cgs512/kc-7-cgs512.pdf",
+ "maker": "elby",
+ "kind": "pdf_bom",
+ "board": "Elby CGS512 - VCFQ kit",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "Do",
+   "qty": 1,
+   "refs": "C204",
+   "desc": "Do Not Fit"
+  },
+  {
+   "type": "Capacitor",
+   "value": "22pF",
+   "qty": 2,
+   "refs": "C205,C206",
+   "desc": "22pF 10% Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47pF",
+   "qty": 2,
+   "refs": "C103,C104",
+   "desc": "47pF 5% Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "220pF",
+   "qty": 2,
+   "refs": "C102,C105",
+   "desc": "220pF 5% Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "220pF",
+   "qty": 2,
+   "refs": "C202,C208",
+   "desc": "220pF 2.5% Polystyrene"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1nF",
+   "qty": 1,
+   "refs": "C101",
+   "desc": "1nF 63V Polyester"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF",
+   "qty": 3,
+   "refs": "C201,C203,C207",
+   "desc": "100nF 63V Polyester"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF",
+   "qty": 6,
+   "refs": "C3,C4,C5,C6,C7,C8",
+   "desc": "100nF Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF",
+   "qty": 2,
+   "refs": "C1,C2",
+   "desc": "10uF 35V Electrolytic"
+  },
+  {
+   "type": "Hardware",
+   "value": "KK396 - 3-way Straight - Locking Header",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "KK396 - 3-way Straight - Locking Header"
+  },
+  {
+   "type": "Hardware",
+   "value": "KK396 - 3-way Crimp Housing",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "KK396 - 3-way Crimp Housing"
+  },
+  {
+   "type": "Hardware",
+   "value": "CRIMP - KK396",
+   "qty": 3,
+   "refs": "J3^3",
+   "desc": "CRIMP - KK396"
+  },
+  {
+   "type": "Hardware",
+   "value": "1x8 Pin Receptacle",
+   "qty": 3,
+   "refs": "GC1,GC2,GC3",
+   "desc": "1x8 Pin Receptacle"
+  },
+  {
+   "type": "Hardware",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 3,
+   "refs": "U101,U102,U201",
+   "desc": "8-pin IC Socket 0.3inch"
+  },
+  {
+   "type": "Diode",
+   "value": "5.1V 5% 500mW",
+   "qty": 2,
+   "refs": "D201,D202NB:SeeBuildGuide",
+   "desc": "5.1V 5% 500mW"
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 5,
+   "refs": "D101,D102,D103,D104,D105",
+   "desc": "1N4148"
+  },
+  {
+   "type": "Hardware",
+   "value": "M2.5 x 12mm Spacer Threaded",
+   "qty": 3,
+   "refs": "GC1,GC2,GC3",
+   "desc": "M2.5 x 12mm Spacer Threaded"
+  },
+  {
+   "type": "Hardware",
+   "value": "M2.5 x 6mm Pan Head Bolt",
+   "qty": 6,
+   "refs": "GC1^2,GC2^2,GC3^2",
+   "desc": "M2.5 x 6mm Pan Head Bolt"
+  },
+  {
+   "type": "IC",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 2,
+   "refs": "U101,U201",
+   "desc": "TL072 Dual JFET Opamp"
+  },
+  {
+   "type": "IC",
+   "value": "LT1013CP - Dual Precision Opamp",
+   "qty": 1,
+   "refs": "U102",
+   "desc": "LT1013CP - Dual Precision Opamp"
+  },
+  {
+   "type": "Hardware",
+   "value": "Ferrite Bead - 5A",
+   "qty": 2,
+   "refs": "L1,L2",
+   "desc": "Ferrite Bead - 5A"
+  },
+  {
+   "type": "Resistor",
+   "value": "TEMPCO",
+   "qty": 1,
+   "refs": "R114NB:SeeBuildGuide",
+   "desc": "TEMPCO - 2K 0.17W 5% 3300ppm"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 6,
+   "refs": "R112,R120,R203,R204,R205,R213",
+   "desc": "330R 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K0",
+   "qty": 1,
+   "refs": "R102",
+   "desc": "1K0 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K",
+   "qty": 2,
+   "refs": "R111,R119",
+   "desc": "15K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K",
+   "qty": 2,
+   "refs": "R116,R117",
+   "desc": "22K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K",
+   "qty": 6,
+   "refs": "R101,R110,R113,R206,R210,R212",
+   "desc": "47K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 10,
+   "refs": "R107,R108,R109,R115,R201,R202,R207,R208,R209,R211",
+   "desc": "100K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "110K",
+   "qty": 1,
+   "refs": "R118",
+   "desc": "110K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "150K",
+   "qty": 1,
+   "refs": "R103",
+   "desc": "150K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "220K",
+   "qty": 1,
+   "refs": "R106",
+   "desc": "220K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "330K",
+   "qty": 1,
+   "refs": "R104",
+   "desc": "330K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M5",
+   "qty": 1,
+   "refs": "R105",
+   "desc": "1M5 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Trimmer",
+   "value": "100R MTV Cermet",
+   "qty": 1,
+   "refs": "P104",
+   "desc": "100R MTV Cermet"
+  }
+ ]
+}

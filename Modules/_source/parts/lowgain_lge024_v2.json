@@ -1,0 +1,209 @@
+{
+ "source": "https://drive.google.com/file/d/17VEsGWkG6EvMSoyLsD-_CBE548Th9DRC/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE024 V2",
+ "page": "low-gain-lge024-quad-bi-directional-router-4u-serge-compatible",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "(see maker BOM)",
+   "qty": 9,
+   "refs": "C1,C2,C3,C4,C6,C8,C9,C10,C11",
+   "desc": "",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 15,
+   "refs": "C12,C13,C14,C15,C16,C17",
+   "desc": "MLCC 50V SMT 0805/1206",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10u",
+   "qty": 3,
+   "refs": "C5,C7,C18",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 4,
+   "refs": "D1,D6,D7,D8",
+   "desc": "General Signal Diode",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "Connector",
+   "value": "0.100” (2.54mm) 4P HDR",
+   "qty": 1,
+   "refs": "HDR_1",
+   "desc": "Power Header",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "R1,R2",
+   "desc": "1% Metalfilm 1/4W Resistor",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 8,
+   "refs": "R3,R5,R9,R11,R15,R17,R21,R23",
+   "desc": "1% Metalfilm 1/4W Resistor",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "Resistor",
+   "value": "10M",
+   "qty": 4,
+   "refs": "R4,R10,R16,R22",
+   "desc": "1% Metalfilm 1/4W Resistor",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 4,
+   "refs": "R6,R12,R18,R24",
+   "desc": "1% Metalfilm 1/4W Resistor",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K82",
+   "qty": 4,
+   "refs": "R7,R13,R19,R25",
+   "desc": "1% Metalfilm 1/4W Resistor",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "Resistor",
+   "value": "4K75",
+   "qty": 4,
+   "refs": "R8,R14,R20,R26",
+   "desc": "1% Metalfilm 1/4W Resistor",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "IC",
+   "value": "LM393AN",
+   "qty": 2,
+   "refs": "U1,U5",
+   "desc": "DIP-8",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "IC",
+   "value": "DG419DJ",
+   "qty": 4,
+   "refs": "U2,U3,U4,U6",
+   "desc": "DIP-8",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "IC",
+   "value": "KA78L05",
+   "qty": 1,
+   "refs": "U7",
+   "desc": "TO-92",
+   "section": "Main board: LGE024"
+  },
+  {
+   "type": "Diode",
+   "value": "T1 Dual Color",
+   "qty": 4,
+   "refs": "D9,D10,D11,D12",
+   "desc": "3mm BI COLOR LED",
+   "section": "I/O Board: LGE024C V2 (I/O + Panel related parts)"
+  },
+  {
+   "type": "LED",
+   "value": "Panel",
+   "qty": 4,
+   "refs": "J1,J3,J4,J5,J6,J10",
+   "desc": "Clear 3mm LED Lens",
+   "section": "I/O Board: LGE024C V2 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack",
+   "qty": 1,
+   "refs": "J22,J23,J25,J27,J2C",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE024C V2 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 4,
+   "refs": "R1,R2,R3,R4",
+   "desc": "1% Metalfilm 1/4W Resistor",
+   "section": "I/O Board: LGE024C V2 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Switch",
+   "value": "SPDT ON-OFF-ON",
+   "qty": 4,
+   "refs": "K1,K2,K3,K4",
+   "desc": "SUB-MINIATURE TOGGLE",
+   "section": "I/O Board: LGE024C V2 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Hardware",
+   "value": "Hardware",
+   "qty": 8,
+   "refs": "",
+   "desc": "M3X6mm BUTTON HEAD SCREW",
+   "section": "I/O Board: LGE024C V2 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Hardware",
+   "value": "Hardware",
+   "qty": 8,
+   "refs": "",
+   "desc": "M3 SPLIT WASHER",
+   "section": "I/O Board: LGE024C V2 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Other",
+   "value": "11mm Stand-off",
+   "qty": 0,
+   "refs": "",
+   "desc": "TAYDA: A-3317",
+   "section": "I/O Board: LGE024C V2 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Hardware",
+   "value": "Hardware",
+   "qty": 4,
+   "refs": "",
+   "desc": "M3X11mm F-F HEX STAND OFFS",
+   "section": "I/O Board: LGE024C V2 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Connector",
+   "value": "Board to Board headers",
+   "qty": 1,
+   "refs": "",
+   "desc": "MALE 2.54MM HEADERS 40PIN",
+   "section": "I/O Board: LGE024C V2 (I/O + Panel related parts)"
+  },
+  {
+   "type": "Connector",
+   "value": "Board to Board headers",
+   "qty": 1,
+   "refs": "",
+   "desc": "FEMALE 2.54MM HEADERS 40PIN",
+   "section": "I/O Board: LGE024C V2 (I/O + Panel related parts)"
+  }
+ ]
+}

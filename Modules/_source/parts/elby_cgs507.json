@@ -1,0 +1,281 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/serge/cgs507/kc-7-cgs507.pdf",
+ "maker": "elby",
+ "kind": "pdf_bom",
+ "board": "Elby CGS507 - 1973 VCO kit",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "33pF",
+   "qty": 1,
+   "refs": "C4",
+   "desc": "33pF 5% Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47pF",
+   "qty": 1,
+   "refs": "C2",
+   "desc": "47pF 5% Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "82pF",
+   "qty": 1,
+   "refs": "C8",
+   "desc": "82pF 5% Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1nF",
+   "qty": 1,
+   "refs": "C3",
+   "desc": "1nF 63V Polyester"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF",
+   "qty": 1,
+   "refs": "C1",
+   "desc": "10nF 63V Polyester"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF",
+   "qty": 2,
+   "refs": "C12,C13",
+   "desc": "100nF Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "4.7uF",
+   "qty": 1,
+   "refs": "C7",
+   "desc": "4.7uF 25V Electrolytic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF",
+   "qty": 2,
+   "refs": "C10,C11",
+   "desc": "10uF 35V Electrolytic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47uF",
+   "qty": 2,
+   "refs": "C6,C9",
+   "desc": "47uF Electrolytic"
+  },
+  {
+   "type": "Hardware",
+   "value": "CRIMP - KK396",
+   "qty": 4,
+   "refs": "J9^4",
+   "desc": "CRIMP - KK396"
+  },
+  {
+   "type": "Hardware",
+   "value": "KK396 - 4-way Crimp Housing",
+   "qty": 1,
+   "refs": "J9",
+   "desc": "KK396 - 4-way Crimp Housing"
+  },
+  {
+   "type": "Hardware",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 1,
+   "refs": "U1",
+   "desc": "14-pin IC Socket 0.3inch"
+  },
+  {
+   "type": "Hardware",
+   "value": "KK396 - 4-way Straight - Locking Header",
+   "qty": 1,
+   "refs": "J9",
+   "desc": "KK396 - 4-way Straight - Locking Header"
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 3,
+   "refs": "D1,D2,D3",
+   "desc": "1N4148"
+  },
+  {
+   "type": "IC",
+   "value": "LM3900 - Quad Norton Amplifier",
+   "qty": 1,
+   "refs": "U1",
+   "desc": "LM3900 - Quad Norton Amplifier"
+  },
+  {
+   "type": "Hardware",
+   "value": "Ferrite Bead - 5A",
+   "qty": 2,
+   "refs": "L1,L2",
+   "desc": "Ferrite Bead - 5A"
+  },
+  {
+   "type": "Resistor",
+   "value": "15R",
+   "qty": 1,
+   "refs": "R14",
+   "desc": "15R 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 3,
+   "refs": "R21,R23,R33",
+   "desc": "330R 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "470R",
+   "qty": 1,
+   "refs": "R35",
+   "desc": "470R 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K0",
+   "qty": 2,
+   "refs": "R18,R26",
+   "desc": "1K0 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "3K3",
+   "qty": 2,
+   "refs": "R15,R22",
+   "desc": "3K3 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 3,
+   "refs": "R32,R34,R36",
+   "desc": "10K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K",
+   "qty": 1,
+   "refs": "R12",
+   "desc": "15K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K",
+   "qty": 5,
+   "refs": "R3,R4,R7,R8,R20",
+   "desc": "22K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "30K",
+   "qty": 1,
+   "refs": "R37",
+   "desc": "30K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "33K",
+   "qty": 3,
+   "refs": "R17,R28,R31",
+   "desc": "33K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "82K",
+   "qty": 1,
+   "refs": "R16",
+   "desc": "82K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 2,
+   "refs": "R19,R24",
+   "desc": "100K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "220K",
+   "qty": 1,
+   "refs": "R25",
+   "desc": "220K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "330K",
+   "qty": 4,
+   "refs": "R5,R6,R9,R10",
+   "desc": "330K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "910K",
+   "qty": 1,
+   "refs": "R1",
+   "desc": "910K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M0",
+   "qty": 1,
+   "refs": "R11",
+   "desc": "1M0 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M5",
+   "qty": 2,
+   "refs": "R29,R30",
+   "desc": "1M5 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "3M3",
+   "qty": 1,
+   "refs": "R2",
+   "desc": "3M3 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "4M7",
+   "qty": 1,
+   "refs": "R27",
+   "desc": "4M7 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "10M",
+   "qty": 1,
+   "refs": "R13",
+   "desc": "10M 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904 NPN Transistor",
+   "qty": 3,
+   "refs": "Q1,Q2,Q3",
+   "desc": "2N3904 NPN Transistor"
+  },
+  {
+   "type": "Trimmer",
+   "value": "10K MTV Cermet",
+   "qty": 1,
+   "refs": "P3",
+   "desc": "10K MTV Cermet"
+  },
+  {
+   "type": "Trimmer",
+   "value": "20K MTV Cermet",
+   "qty": 2,
+   "refs": "P5,P6",
+   "desc": "20K MTV Cermet"
+  }
+ ]
+}

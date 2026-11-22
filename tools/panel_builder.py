@@ -70,7 +70,8 @@ def mouser_files(root):
     out = {}
     for k in (json.load(open(p)) if os.path.exists(p) else {}):
         slug, board = k.split("__", 1)
-        out.setdefault(slug, []).append(board)
+        if "_cart" not in board:          # makers' carts would double the parts of the CGS files
+            out.setdefault(slug, []).append(board)
     return out
 
 

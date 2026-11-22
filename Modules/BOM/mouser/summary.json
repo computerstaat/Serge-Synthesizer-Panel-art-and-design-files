@@ -208,5 +208,180 @@
   "cost": 58.31,
   "unverified": 0,
   "boards": 1
+ },
+ "tri-core-vco__lowgain_cart_lge130": {
+  "lines": 44,
+  "elsewhere": 0,
+  "cost": 47.17,
+  "unverified": 0,
+  "boards": 1
+ },
+ "vc-phaser__prism_cart": {
+  "lines": 22,
+  "elsewhere": 0,
+  "cost": 63.94,
+  "unverified": 0,
+  "boards": 1
+ },
+ "wave-multipliers__lowgain_cart_lge113": {
+  "lines": 45,
+  "elsewhere": 0,
+  "cost": 58.17,
+  "unverified": 0,
+  "boards": 1
+ },
+ "oscillator-1973__prism_cart": {
+  "lines": 35,
+  "elsewhere": 0,
+  "cost": 35.38,
+  "unverified": 0,
+  "boards": 1
+ },
+ "filter-1973__prism_cart": {
+  "lines": 33,
+  "elsewhere": 1,
+  "cost": 54.41,
+  "unverified": 0,
+  "boards": 1
+ },
+ "triple-comparator__prism_cart": {
+  "lines": 19,
+  "elsewhere": 0,
+  "cost": 34.24,
+  "unverified": 0,
+  "boards": 1
+ },
+ "triple-wave-shaper__prism_cart": {
+  "lines": 19,
+  "elsewhere": 0,
+  "cost": 75.55,
+  "unverified": 0,
+  "boards": 1
+ },
+ "ring-modulator__prism_cart": {
+  "lines": 22,
+  "elsewhere": 0,
+  "cost": 19.12,
+  "unverified": 0,
+  "boards": 1
+ },
+ "gate-1973__prism_cart": {
+  "lines": 21,
+  "elsewhere": 0,
+  "cost": 26.17,
+  "unverified": 0,
+  "boards": 1
+ },
+ "negative-slew__prism_cart": {
+  "lines": 28,
+  "elsewhere": 0,
+  "cost": 46.81,
+  "unverified": 0,
+  "boards": 1
+ },
+ "positive-slew__prism_cart": {
+  "lines": 27,
+  "elsewhere": 0,
+  "cost": 51.63,
+  "unverified": 0,
+  "boards": 1
+ },
+ "smooth-stepped-generator__prism_cart": {
+  "lines": 35,
+  "elsewhere": 0,
+  "cost": 65.46,
+  "unverified": 0,
+  "boards": 1
+ },
+ "smooth-stepped-generator__lowgain_cart_lge092": {
+  "lines": 38,
+  "elsewhere": 0,
+  "cost": 48.88,
+  "unverified": 0,
+  "boards": 1
+ },
+ "peak-trough__prism_cart": {
+  "lines": 13,
+  "elsewhere": 0,
+  "cost": 28.43,
+  "unverified": 0,
+  "boards": 1
+ },
+ "envelope-generator-1973__prism_cart": {
+  "lines": 39,
+  "elsewhere": 0,
+  "cost": 50.62,
+  "unverified": 0,
+  "boards": 1
+ },
+ "analog-shift-register__prism_cart": {
+  "lines": 25,
+  "elsewhere": 0,
+  "cost": 41.8,
+  "unverified": 0,
+  "boards": 1
+ },
+ "bi-directional-router__prism_cart": {
+  "lines": 15,
+  "elsewhere": 0,
+  "cost": 30.32,
+  "unverified": 0,
+  "boards": 1
+ },
+ "noise-source__prism_cart": {
+  "lines": 41,
+  "elsewhere": 0,
+  "cost": 50.04,
+  "unverified": 0,
+  "boards": 1
+ },
+ "dual-processor__prism_cart": {
+  "lines": 12,
+  "elsewhere": 0,
+  "cost": 44.11,
+  "unverified": 0,
+  "boards": 1
+ },
+ "dual-processor__lowgain_cart_lge012": {
+  "lines": 16,
+  "elsewhere": 0,
+  "cost": 27.23,
+  "unverified": 0,
+  "boards": 1
+ },
+ "dual-mixer__prism_cart": {
+  "lines": 12,
+  "elsewhere": 0,
+  "cost": 52.01,
+  "unverified": 0,
+  "boards": 1
+ },
+ "sequencer-10-stage__prism_cart": {
+  "lines": 20,
+  "elsewhere": 0,
+  "cost": 49.02,
+  "unverified": 0,
+  "boards": 1
+ },
+ "x-fader__prism_cart": {
+  "lines": 23,
+  "elsewhere": 0,
+  "cost": 39.64,
+  "unverified": 0,
+  "boards": 1
+ },
+ "extended-range-vcf__lowgain_cart_lge112": {
+  "lines": 34,
+  "elsewhere": 0,
+  "cost": 46.18,
+  "unverified": 0,
+  "boards": 1
+ },
+ "dual-transient-generator__lowgain_cart_lge114a": {
+  "lines": 41,
+  "elsewhere": 0,
+  "cost": 48.21,
+  "unverified": 0,
+  "boards": 1
  }
 }

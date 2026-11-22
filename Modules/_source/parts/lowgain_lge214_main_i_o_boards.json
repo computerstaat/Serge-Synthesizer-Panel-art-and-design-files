@@ -1,0 +1,401 @@
+{
+ "source": "https://drive.google.com/file/d/12GdzExqjwYCAaojjRU7dDruFrRLCpvkX/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE214 (Main & I/O Boards)",
+ "page": "low-gain-lge214-dual-exponetial-vca-4u-serge-compatible",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 6,
+   "refs": "C1,C2,C3,C5,C6,C7",
+   "desc": "MLCC 50V SMT 0805/1206",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF@50V",
+   "qty": 2,
+   "refs": "C4,C8",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1uF@35V TANT",
+   "qty": 2,
+   "refs": "C9,C10",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Capacitor",
+   "value": "5pF",
+   "qty": 2,
+   "refs": "C11,C13",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1u (470n)",
+   "qty": 2,
+   "refs": "C12,C14",
+   "desc": "Film Cap 5mm LS",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Connector",
+   "value": "0.100” (2.54mm) 4P HDR",
+   "qty": 1,
+   "refs": "HDR_1",
+   "desc": "Power Header",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3906",
+   "qty": 1,
+   "refs": "Q1",
+   "desc": "2N3906",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904",
+   "qty": 1,
+   "refs": "Q2",
+   "desc": "2N3904",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Transistor",
+   "value": "DMMT3904",
+   "qty": 1,
+   "refs": "Q3",
+   "desc": "DMMT3904",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Transistor",
+   "value": "DMMT3906",
+   "qty": 1,
+   "refs": "Q4",
+   "desc": "DMMT3906",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "R1,R2",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 3,
+   "refs": "R3,R9,R10",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "330K",
+   "qty": 1,
+   "refs": "R4",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "8K2",
+   "qty": 2,
+   "refs": "R5,R6",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "75K",
+   "qty": 2,
+   "refs": "R7,R8",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 2,
+   "refs": "R11,R14",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "6K81",
+   "qty": 2,
+   "refs": "R12,R13",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K",
+   "qty": 1,
+   "refs": "R15",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "150K",
+   "qty": 2,
+   "refs": "R16,R21",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "3M3",
+   "qty": 2,
+   "refs": "R17,R20",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K5",
+   "qty": 2,
+   "refs": "R18,R19",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "82K",
+   "qty": 2,
+   "refs": "R22,R31",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K",
+   "qty": 2,
+   "refs": "R23,R32",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "JMPR",
+   "qty": 1,
+   "refs": "R24",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 2,
+   "refs": "R25,R33",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 2,
+   "refs": "R26,R34",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "4K99",
+   "qty": 2,
+   "refs": "R27,R35",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "470K",
+   "qty": 2,
+   "refs": "R28,R36",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "4K7",
+   "qty": 2,
+   "refs": "R29,R37",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Resistor",
+   "value": "DNS",
+   "qty": 1,
+   "refs": "R30",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Other",
+   "value": "100K (3296W)",
+   "qty": 1,
+   "refs": "TR1",
+   "desc": "RESPONSE",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Other",
+   "value": "100K (3296W)",
+   "qty": 1,
+   "refs": "TR2",
+   "desc": "LINEARIZATION",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Other",
+   "value": "100K (3296W)",
+   "qty": 2,
+   "refs": "TR3,TR4",
+   "desc": "OFFSET",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "IC",
+   "value": "LF353",
+   "qty": 1,
+   "refs": "U1",
+   "desc": "LF353",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Other",
+   "value": "AS3280",
+   "qty": 1,
+   "refs": "X1",
+   "desc": "CA3280",
+   "section": "Main board: LGE214"
+  },
+  {
+   "type": "Jack",
+   "value": "VC1",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Jack",
+   "value": "VC2",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Jack",
+   "value": "IN1",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Jack",
+   "value": "IN2",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Jack",
+   "value": "OUT1",
+   "qty": 1,
+   "refs": "J5",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Jack",
+   "value": "OUT2",
+   "qty": 1,
+   "refs": "J6",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 2,
+   "refs": "VR1,VR2",
+   "desc": "9mm Alpha style potentiometer",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Knob",
+   "value": "Knobs",
+   "qty": 2,
+   "refs": "",
+   "desc": "DAVIES 1900H",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Hardware",
+   "value": "Hardware",
+   "qty": 8,
+   "refs": "",
+   "desc": "M3X6mm BUTTON HEAD SCREW",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Hardware",
+   "value": "Hardware",
+   "qty": 8,
+   "refs": "",
+   "desc": "M3 SPLIT WASHER",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Other",
+   "value": "11mm Stand-off",
+   "qty": 0,
+   "refs": "",
+   "desc": "TAYDA: A-3317",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Hardware",
+   "value": "Hardware",
+   "qty": 4,
+   "refs": "",
+   "desc": "M3X11mm F-F HEX STAND OFFS",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Connector",
+   "value": "Board to Board headers",
+   "qty": 1,
+   "refs": "",
+   "desc": "MALE 2.54MM HEADERS 40PIN",
+   "section": "I/O Board: LGE214C"
+  },
+  {
+   "type": "Connector",
+   "value": "Board to Board headers",
+   "qty": 1,
+   "refs": "",
+   "desc": "FEMALE 2.54MM HEADERS 40PIN",
+   "section": "I/O Board: LGE214C"
+  }
+ ]
+}

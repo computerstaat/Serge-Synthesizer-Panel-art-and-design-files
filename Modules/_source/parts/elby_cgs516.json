@@ -1,0 +1,330 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/serge/cgs516/v20/kc-2-cgs516.pdf",
+ "maker": "elby",
+ "kind": "pdf_bom",
+ "board": "Elby CGS516 - Extended ADSR kit",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "10pF",
+   "qty": 1,
+   "refs": "C202",
+   "desc": "10pF 5% Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47pF",
+   "qty": 2,
+   "refs": "C201,C301",
+   "desc": "47pF 5% Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100pF",
+   "qty": 2,
+   "refs": "C402,C518",
+   "desc": "100pF 5% Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "220pF",
+   "qty": 2,
+   "refs": "C102,C103",
+   "desc": "220pF 5% Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1nF",
+   "qty": 1,
+   "refs": "C104",
+   "desc": "1nF 63V Polyester"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF",
+   "qty": 1,
+   "refs": "C511",
+   "desc": "10nF 5% Ceramic, Medium K"
+  },
+  {
+   "type": "Capacitor",
+   "value": "22nF",
+   "qty": 1,
+   "refs": "C101",
+   "desc": "22nF 63V Polyester"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47nF",
+   "qty": 1,
+   "refs": "C401",
+   "desc": "47nF 63V Polyseter"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF",
+   "qty": 7,
+   "refs": "C505,C509,C510,C512,C514,C516,C517",
+   "desc": "100nF Ceramic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF",
+   "qty": 2,
+   "refs": "C501,C502",
+   "desc": "10uF 35V Electrolytic"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF",
+   "qty": 1,
+   "refs": "C105",
+   "desc": "10uF 35V Tantalum"
+  },
+  {
+   "type": "Hardware",
+   "value": "3-way 0.1inch Crimp Housing",
+   "qty": 1,
+   "refs": "J501",
+   "desc": "3-way 0.1inch Crimp Housing"
+  },
+  {
+   "type": "Hardware",
+   "value": "3-way 0.1inch Straight Header",
+   "qty": 1,
+   "refs": "J501",
+   "desc": "3-way 0.1inch Straight Header"
+  },
+  {
+   "type": "Hardware",
+   "value": "CRIMP - KK254",
+   "qty": 3,
+   "refs": "J501^3",
+   "desc": "CRIMP - KK254"
+  },
+  {
+   "type": "Hardware",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 4,
+   "refs": "Q101,U201,U301,U401",
+   "desc": "8-pin IC Socket 0.3inch"
+  },
+  {
+   "type": "Hardware",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 5,
+   "refs": "Q201,U101,U102,U103,U203",
+   "desc": "14-pin IC Socket 0.3inch"
+  },
+  {
+   "type": "Diode",
+   "value": "5.1V 5% 500mW",
+   "qty": 1,
+   "refs": "D103",
+   "desc": "5.1V 5% 500mW"
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 6,
+   "refs": "D101,D102,D201,D202,D301,D302",
+   "desc": "1N4148"
+  },
+  {
+   "type": "IC",
+   "value": "LM324 - Quad opamp",
+   "qty": 1,
+   "refs": "U103",
+   "desc": "LM324 - Quad opamp"
+  },
+  {
+   "type": "IC",
+   "value": "LF353 - Dual JFET Opamp",
+   "qty": 2,
+   "refs": "U201,U401",
+   "desc": "LF353 - Dual JFET Opamp"
+  },
+  {
+   "type": "IC",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 1,
+   "refs": "U301",
+   "desc": "TL072 Dual JFET Opamp"
+  },
+  {
+   "type": "Hardware",
+   "value": "Ferrite Bead - 0.45uH 7A",
+   "qty": 2,
+   "refs": "L501,L502",
+   "desc": "Ferrite Bead - 0.45uH 7A"
+  },
+  {
+   "type": "Logic",
+   "value": "CD4016 - Quad Analogue switch",
+   "qty": 1,
+   "refs": "U203",
+   "desc": "CD4016 - Quad Analogue switch"
+  },
+  {
+   "type": "Logic",
+   "value": "CD4001 - Quad 2-input NOR Gate",
+   "qty": 1,
+   "refs": "U102",
+   "desc": "CD4001 - Quad 2-input NOR Gate"
+  },
+  {
+   "type": "Logic",
+   "value": "CD4069UB - Hex Inverter Unbuffered",
+   "qty": 1,
+   "refs": "U101",
+   "desc": "CD4069UB - Hex Inverter Unbuffered"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 2,
+   "refs": "R403,R409",
+   "desc": "330R 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "680R",
+   "qty": 1,
+   "refs": "R113",
+   "desc": "680R 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K0",
+   "qty": 1,
+   "refs": "R404",
+   "desc": "1K0 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K0",
+   "qty": 6,
+   "refs": "R305,R603,R606,R609,R610,R611",
+   "desc": "2K0 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "3K3",
+   "qty": 2,
+   "refs": "R308,R312",
+   "desc": "3K3 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "8K2",
+   "qty": 1,
+   "refs": "R309",
+   "desc": "8K2 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K",
+   "qty": 3,
+   "refs": "R210,R311,R408",
+   "desc": "22K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "33K",
+   "qty": 5,
+   "refs": "R304,R306,R601,R604,R607",
+   "desc": "33K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K",
+   "qty": 2,
+   "refs": "R205,R206",
+   "desc": "47K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K5",
+   "qty": 3,
+   "refs": "R207,R208,R401",
+   "desc": "47K5 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "51K1",
+   "qty": 1,
+   "refs": "R402",
+   "desc": "51K1 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "82K",
+   "qty": 7,
+   "refs": "R112,R209,R302,R307,R602,R605,R608",
+   "desc": "82K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 8,
+   "refs": "R101,R102,R104,R108,R109,R301,R303,R310",
+   "desc": "100K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "330K",
+   "qty": 5,
+   "refs": "R103,R105,R106,R107,R110",
+   "desc": "330K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "470K",
+   "qty": 1,
+   "refs": "R111",
+   "desc": "470K 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "2M2",
+   "qty": 1,
+   "refs": "R407",
+   "desc": "2M2 1% 0.5W Metal Film"
+  },
+  {
+   "type": "Resistor",
+   "value": "22M",
+   "qty": 1,
+   "refs": "R406",
+   "desc": "22M 5% 0.25W Metal Glazed"
+  },
+  {
+   "type": "Transistor",
+   "value": "BC557B PNP Transistor",
+   "qty": 1,
+   "refs": "Q103",
+   "desc": "BC557B PNP Transistor"
+  },
+  {
+   "type": "Transistor",
+   "value": "LS312 - Dual Matched NPN Transistors",
+   "qty": 1,
+   "refs": "Q101",
+   "desc": "LS312 - Dual Matched NPN Transistors"
+  },
+  {
+   "type": "Transistor",
+   "value": "THAT 340 - Dual NPN - Dual PNP Array",
+   "qty": 1,
+   "refs": "Q201",
+   "desc": "THAT 340 - Dual NPN - Dual PNP Array"
+  },
+  {
+   "type": "Transistor",
+   "value": "BC547B NPN Transistor",
+   "qty": 2,
+   "refs": "Q401,Q402",
+   "desc": "BC547B NPN Transistor"
+  }
+ ]
+}

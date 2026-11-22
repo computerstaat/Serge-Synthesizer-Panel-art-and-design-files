@@ -1,0 +1,321 @@
+{
+ "source": "https://drive.google.com/file/d/12KeLhY_KS4nlIYK9cNpNEWAX5dtD5R5u/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE083C I/O Board",
+ "page": "lge083",
+ "parts": [
+  {
+   "type": "Diode",
+   "value": "5mm LED",
+   "qty": 2,
+   "refs": "D1,D3",
+   "desc": "LED T1.75",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 2,
+   "refs": "D2,D4",
+   "desc": "Diode",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "END OUT",
+   "qty": 2,
+   "refs": "J1,J8",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "START",
+   "qty": 2,
+   "refs": "J2,J9",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "DURATION OUT",
+   "qty": 2,
+   "refs": "J3,J10",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "OUTPUT",
+   "qty": 2,
+   "refs": "J4,J11",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "SUSTAIN",
+   "qty": 2,
+   "refs": "J5,J12",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "INPUT",
+   "qty": 2,
+   "refs": "J6,J13",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "RATE CV",
+   "qty": 2,
+   "refs": "J7,J14",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "PWR",
+   "qty": 1,
+   "refs": "J20",
+   "desc": "HDR-1x3",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904",
+   "qty": 2,
+   "refs": "Q1,Q2",
+   "desc": "2N3904",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "RLED",
+   "qty": 2,
+   "refs": "R1,R5",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "150K",
+   "qty": 2,
+   "refs": "R2,R6",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "221R",
+   "qty": 2,
+   "refs": "R3*,R7*",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "CYCLE",
+   "qty": 2,
+   "refs": "SW1,SW2",
+   "desc": "HDR-1x3",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 4,
+   "refs": "VR1,VR2,VR3,VR4",
+   "desc": "9mm Alpha Style Pot",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "K",
+   "qty": 1,
+   "refs": "W1",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "I",
+   "qty": 1,
+   "refs": "W2",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "R1",
+   "qty": 2,
+   "refs": "W3,W18",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "R2",
+   "qty": 2,
+   "refs": "W4,W19",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "R3",
+   "qty": 2,
+   "refs": "W5,W20",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "H3",
+   "qty": 1,
+   "refs": "W6",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "H1",
+   "qty": 1,
+   "refs": "W7",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "P",
+   "qty": 2,
+   "refs": "W8,W24",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "M",
+   "qty": 1,
+   "refs": "W9",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "L",
+   "qty": 1,
+   "refs": "W10",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "N",
+   "qty": 1,
+   "refs": "W11",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "Q",
+   "qty": 2,
+   "refs": "W12,W25",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "G",
+   "qty": 1,
+   "refs": "W13",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "E",
+   "qty": 1,
+   "refs": "W14",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "F",
+   "qty": 1,
+   "refs": "W15",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "D",
+   "qty": 1,
+   "refs": "W16",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "B",
+   "qty": 1,
+   "refs": "W17",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "C",
+   "qty": 1,
+   "refs": "W21",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "A3",
+   "qty": 1,
+   "refs": "W22",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "A1",
+   "qty": 1,
+   "refs": "W23",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "-P",
+   "qty": 2,
+   "refs": "W26,W27",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "-Q",
+   "qty": 2,
+   "refs": "W28,W29",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "J",
+   "qty": 1,
+   "refs": "W111",
+   "desc": "Wire Point",
+   "section": ""
+  }
+ ]
+}

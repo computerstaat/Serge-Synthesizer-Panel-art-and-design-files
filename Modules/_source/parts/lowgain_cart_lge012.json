@@ -1,0 +1,168 @@
+{
+ "source": "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=989a20fc61",
+ "maker": "lowgain",
+ "kind": "mouser_cart",
+ "board": "Low-Gain LGE012 Mouser cart",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 10,
+   "desc": "MLCC RAD 50V 0.1uF X7R 10% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28X7R1H104KNT06",
+   "mouser": "810-FG28X7R1H104KNT6",
+   "price": 0.27
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF",
+   "qty": 2,
+   "desc": "Elec 50V 10uF Radial",
+   "mfr": "KEMET",
+   "mfr_pn": "ESL106M050AC3AA",
+   "mouser": "80-ESL106M050AC3AA",
+   "price": 0.23
+  },
+  {
+   "type": "Capacitor",
+   "value": "33pF",
+   "qty": 2,
+   "desc": "MLCC RAD 100V 33pF C0G 5% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28C0G2A330JNT06",
+   "mouser": "810-FG28C0G2A330JNT6",
+   "price": 0.3
+  },
+  {
+   "type": "Diode",
+   "value": "BAT48",
+   "qty": 1,
+   "desc": "Schottky Diode 350mA 40V",
+   "mfr": "STMicroelectronics",
+   "mfr_pn": "BAT48",
+   "mouser": "511-BAT48",
+   "price": null
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Blue",
+   "qty": 6,
+   "desc": "Jack BANANA JACK BLUE",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0910-001",
+   "mouser": "530-108-0910-1",
+   "price": 1.71
+  },
+  {
+   "type": "Jack",
+   "value": "Grey Nylon Banana Jack",
+   "qty": 2,
+   "desc": "Jack Grey Nylon Banana Jack",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0913-001",
+   "mouser": "530-108-0913-1",
+   "price": 1.6
+  },
+  {
+   "type": "Switch",
+   "value": "200MSP1T2B3M2QE",
+   "qty": 2,
+   "desc": "Toggle Switch SPDT",
+   "mfr": "E-Switch",
+   "mfr_pn": "200MSP1T2B3M2QE",
+   "mouser": "612-200MSP1T2B3M2QE",
+   "price": 2.76
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "desc": "R 10Ohms 1/4W 1% Metal Film",
+   "mfr": "SEI Stackpole",
+   "mfr_pn": "RNF14FTD10R0",
+   "mouser": "708-RNF14FTD10R0",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "100k",
+   "qty": 12,
+   "desc": "R 100KOhms 1/4W 1% Metal Film",
+   "mfr": "SEI Stackpole",
+   "mfr_pn": "RNF14FTD100K",
+   "mouser": "708-RNF14FTD100K",
+   "price": 0.044
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 2,
+   "desc": "R 330 OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-330R",
+   "mouser": "603-MFR-25FRF52-330R",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "10k",
+   "qty": 2,
+   "desc": "R 10KOhms 1/4W 1% Metal Film",
+   "mfr": "SEI Stackpole",
+   "mfr_pn": "RNF14FTD10K0",
+   "mouser": "708-RNF14FTD10K0",
+   "price": 0.044
+  },
+  {
+   "type": "Resistor",
+   "value": "MFR-25FTF52-220K",
+   "qty": 2,
+   "desc": "R 220K 1/4W 1% Metal Film",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FTF52-220K",
+   "mouser": "603-MFR-25FTF52-220K",
+   "price": 0.1
+  },
+  {
+   "type": "IC",
+   "value": "TL072CP",
+   "qty": 2,
+   "desc": "OpAmp JFET Input Low Noise dual",
+   "mfr": "TI",
+   "mfr_pn": "TL072CP",
+   "mouser": "595-TL072CP",
+   "price": 1.2
+  },
+  {
+   "type": "IC",
+   "value": "LHA-04-TS",
+   "qty": 1,
+   "desc": "4P locking header straight",
+   "mfr": "Adam Tech",
+   "mfr_pn": "LHA-04-TS",
+   "mouser": "737-LHA-04-TS",
+   "price": 0.23
+  },
+  {
+   "type": "IC",
+   "value": "644752-4",
+   "qty": 1,
+   "desc": "04P MTA156 header",
+   "mfr": "TE Connectivity",
+   "mfr_pn": "644752-4",
+   "mouser": "571-644752-4",
+   "price": 0.44
+  },
+  {
+   "type": "Resistor",
+   "value": "MFR25SFTF52-220R",
+   "qty": 2,
+   "desc": "R 220R 1/4W 1% Metal Film",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR25SFTF52-220R",
+   "mouser": "603-MFR25SFTF52-220R",
+   "price": 0.1
+  }
+ ]
+}

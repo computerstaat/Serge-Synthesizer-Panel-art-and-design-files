@@ -1,0 +1,158 @@
+{
+ "source": "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=acac08429e",
+ "maker": "prism",
+ "kind": "mouser_cart",
+ "board": "Prism Bi-Directional Router",
+ "parts": [
+  {
+   "type": "Transistor",
+   "value": "BC557C",
+   "qty": 1,
+   "desc": "BJT PNP TO-92 45V 100mA",
+   "mfr": "Diotec Semiconductor",
+   "mfr_pn": "BC557C",
+   "mouser": "637-BC557C",
+   "price": 0.17
+  },
+  {
+   "type": "Transistor",
+   "value": "BC547C",
+   "qty": 1,
+   "desc": "BJT NPN TO-92 45V 100mA",
+   "mfr": "Diotec Semiconductor",
+   "mfr_pn": "BC547C",
+   "mouser": "637-BC547C",
+   "price": 0.15
+  },
+  {
+   "type": "Trimmer",
+   "value": "10k",
+   "qty": 2,
+   "desc": "Trimmer 3/8\" 10Kohms",
+   "mfr": "Bourns",
+   "mfr_pn": "3296Y-1-103LF",
+   "mouser": "652-3296Y-1-103LF",
+   "price": 2.42
+  },
+  {
+   "type": "Hardware",
+   "value": "640456-4",
+   "qty": 1,
+   "desc": "Headers & Wire Housings FRICTION LCK HDR 4P Stra",
+   "mfr": "TE Connectivity",
+   "mfr_pn": "640456-4",
+   "mouser": "571-6404564",
+   "price": 0.27
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Red",
+   "qty": 3,
+   "desc": "Jack BANANA JACK RED",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0902-001",
+   "mouser": "530-108-0902-1",
+   "price": 1.52
+  },
+  {
+   "type": "Jack",
+   "value": "Black Banana Jack",
+   "qty": 9,
+   "desc": "Jack Black Banana Jack",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0903-001",
+   "mouser": "530-108-0903-1",
+   "price": 1.43
+  },
+  {
+   "type": "Resistor",
+   "value": "1k",
+   "qty": 9,
+   "desc": "R 1K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-1K",
+   "mouser": "603-CFR-25JR-521K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "1M5",
+   "qty": 6,
+   "desc": "R 1.5Mohm 5% 1/4W Carbon Film",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JT-52-1M5",
+   "mouser": "603-CFR-25JT-52-1M5",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "22k",
+   "qty": 3,
+   "desc": "R 22K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-22K",
+   "mouser": "603-CFR-25JR-5222K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "8k2",
+   "qty": 1,
+   "desc": "R 8.2K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-8K2",
+   "mouser": "603-CFR-25JR-52-8K2",
+   "price": 0.1
+  },
+  {
+   "type": "IC",
+   "value": "LM3900N",
+   "qty": 1,
+   "desc": "OpAmp Quad",
+   "mfr": "TI",
+   "mfr_pn": "LM3900N",
+   "mouser": "595-LM3900N",
+   "price": 0.85
+  },
+  {
+   "type": "Resistor",
+   "value": "10k",
+   "qty": 1,
+   "desc": "R 10kOhms 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-10K",
+   "mouser": "603-CFR-25JR-5210K",
+   "price": 0.1
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.01uF",
+   "qty": 1,
+   "desc": "MLCC RAD 50V 0.01uF C0G 5% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28C0G1H103JNT06",
+   "mouser": "810-FG28C0G1H103JNT6",
+   "price": 0.38
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 3,
+   "desc": "MLCC .1UF 50V 10% 5.0MM",
+   "mfr": "Murata",
+   "mfr_pn": "RDER71H104K0K1H03B",
+   "mouser": "81-RDER71H104K0K1H3B",
+   "price": 0.52
+  },
+  {
+   "type": "IC",
+   "value": "CD4007UBE",
+   "qty": 3,
+   "desc": "Dual Comp Pair Plus Inverter",
+   "mfr": "TI",
+   "mfr_pn": "CD4007UBE",
+   "mouser": "595-CD4007UBE",
+   "price": 0.89
+  }
+ ]
+}

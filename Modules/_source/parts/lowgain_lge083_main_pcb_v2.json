@@ -1,0 +1,441 @@
+{
+ "source": "https://drive.google.com/file/d/1D1rt7KFmIlKzIja151qHNZUvTb7O1Eup/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE083 Main PCB (v2)",
+ "page": "lge083",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "CERAMIC CAP 0805 / 1206",
+   "qty": 0,
+   "refs": "",
+   "desc": "0805 OR 1206 CERAMIC 50V CAP",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 8,
+   "refs": "C1,C4,C6,C8,C11,C14,C15,C16",
+   "desc": "50V",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF",
+   "qty": 2,
+   "refs": "C2,C3",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "100uF",
+   "qty": 2,
+   "refs": "C5,C7",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "220pF",
+   "qty": 2,
+   "refs": "C9,C12",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 2,
+   "refs": "C10,C13",
+   "desc": "Ceramic/Film Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 4,
+   "refs": "D1,D2,D3,D4",
+   "desc": "DIODE",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "PWR",
+   "qty": 1,
+   "refs": "HDR_1",
+   "desc": "AMP .100 4P HDR",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "PWR",
+   "qty": 1,
+   "refs": "J20",
+   "desc": "HDR-1x3",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904",
+   "qty": 8,
+   "refs": "Q1,Q4,Q5,Q6,Q7,Q10,Q11,Q12",
+   "desc": "2N3904",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3906",
+   "qty": 4,
+   "refs": "Q2,Q3,Q8,Q9",
+   "desc": "2N3906",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "*note",
+   "qty": 2,
+   "refs": "Q13,Q14",
+   "desc": "DMMT3904",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 10,
+   "refs": "R1,R3,R9,R23,R24,R31,R35,R41,R55,R56",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "221K",
+   "qty": 8,
+   "refs": "R2,R25,R26,R36,R37,R38,R63,R64",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "47K5",
+   "qty": 2,
+   "refs": "R4,R32",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 4,
+   "refs": "R5,R22,R33,R54",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "470K",
+   "qty": 2,
+   "refs": "R6,R34",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "4K75",
+   "qty": 12,
+   "refs": "R7,R10,R11,R15,R16,R30,R39,R42,R43,R47,R48,R60",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "221R",
+   "qty": 6,
+   "refs": "R8,R18,R21,R40,R50,R53",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "3K32",
+   "qty": 2,
+   "refs": "R12,R44",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "33R2",
+   "qty": 2,
+   "refs": "R13,R45",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "18K",
+   "qty": 4,
+   "refs": "R14,R28,R46,R58",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "100R",
+   "qty": 2,
+   "refs": "R17,R49",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 2,
+   "refs": "R19,R51",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "820K",
+   "qty": 2,
+   "refs": "R20,R52",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "475K",
+   "qty": 4,
+   "refs": "R27,R29,R57,R59",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "R61,R62",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Trimmer",
+   "value": "100K",
+   "qty": 2,
+   "refs": "TR1,TR2",
+   "desc": "3362P Style Trimmer",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "LM3900",
+   "qty": 4,
+   "refs": "U1,U2,U5,U6",
+   "desc": "LM3900N",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "78L06",
+   "qty": 1,
+   "refs": "U4",
+   "desc": "L78L06ABZ",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "SUSTAIN 1",
+   "qty": 1,
+   "refs": "",
+   "desc": "K",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "INPUT 1",
+   "qty": 1,
+   "refs": "",
+   "desc": "I",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "RATE POT CCW",
+   "qty": 2,
+   "refs": "",
+   "desc": "R1",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "RATE POT WIPER",
+   "qty": 2,
+   "refs": "",
+   "desc": "R2",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "RATE POT CW",
+   "qty": 2,
+   "refs": "",
+   "desc": "R3",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "CV POT CCW",
+   "qty": 1,
+   "refs": "",
+   "desc": "H3",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "CV POT CW",
+   "qty": 1,
+   "refs": "",
+   "desc": "H1",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "AUX CV",
+   "qty": 1,
+   "refs": "",
+   "desc": "P",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "END OUT 1",
+   "qty": 1,
+   "refs": "",
+   "desc": "M",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "MAIN OUT 1",
+   "qty": 1,
+   "refs": "",
+   "desc": "L",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Pulse Out 1",
+   "qty": 1,
+   "refs": "",
+   "desc": "N",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "Q",
+   "qty": 1,
+   "refs": "W12",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "G",
+   "qty": 1,
+   "refs": "W13",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "MAIN OUT 2",
+   "qty": 1,
+   "refs": "",
+   "desc": "E",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "PULSE OUT 2",
+   "qty": 1,
+   "refs": "",
+   "desc": "F",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "SUSTAIN 2",
+   "qty": 1,
+   "refs": "",
+   "desc": "D",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "INPUT 2",
+   "qty": 1,
+   "refs": "",
+   "desc": "B",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "START 2",
+   "qty": 1,
+   "refs": "",
+   "desc": "C",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "CV POT CCW 2",
+   "qty": 1,
+   "refs": "",
+   "desc": "A3",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "CV POT CW 2",
+   "qty": 1,
+   "refs": "",
+   "desc": "A1",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "AUX -CV",
+   "qty": 1,
+   "refs": "",
+   "desc": "-P",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "START 2",
+   "qty": 1,
+   "refs": "",
+   "desc": "J",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "AUX CV 2",
+   "qty": 1,
+   "refs": "",
+   "desc": "Q",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "AUX -CV 2",
+   "qty": 1,
+   "refs": "",
+   "desc": "-Q",
+   "section": ""
+  }
+ ]
+}

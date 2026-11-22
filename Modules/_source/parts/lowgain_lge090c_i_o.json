@@ -1,0 +1,401 @@
+{
+ "source": "https://drive.google.com/file/d/1BSPGtHvEGDYJ5IKKvUlHygFOE-U4TGHW/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE090C I/O",
+ "page": "lge090",
+ "parts": [
+  {
+   "type": "Jack",
+   "value": "IN 1a",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Emmerson Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "IN 1b",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "Emmerson Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Input 2a",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "Emmerson Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "IN 2b",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "Emmerson Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "MIX OUT 2",
+   "qty": 1,
+   "refs": "J5",
+   "desc": "Emmerson Banana",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "RIGHT ANGLE 2X4 MALE HEADER",
+   "qty": 1,
+   "refs": "J7",
+   "desc": "HDR-2x4H",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "JUMPER",
+   "qty": 1,
+   "refs": "",
+   "desc": "0.100” JUMPER",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "P MIX OUT",
+   "qty": 1,
+   "refs": "J8",
+   "desc": "Emmerson Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "1080 OUT",
+   "qty": 1,
+   "refs": "J9",
+   "desc": "Emmerson Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "720 OUT",
+   "qty": 1,
+   "refs": "J10",
+   "desc": "Emmerson Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "360 OUT",
+   "qty": 1,
+   "refs": "J11",
+   "desc": "Emmerson Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "PHASE CV",
+   "qty": 1,
+   "refs": "J12",
+   "desc": "Emmerson Banana",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "332R",
+   "qty": 8,
+   "refs": "R1,R2,R3,R4,R5,R6,R7,R8",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR1",
+   "desc": "MIX",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR2",
+   "desc": "IN 1a",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR3",
+   "desc": "CV PHASE",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR4",
+   "desc": "PHASE",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR5",
+   "desc": "FDBK",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR6",
+   "desc": "Input 2a",
+   "section": ""
+  },
+  {
+   "type": "Knob",
+   "value": "KNOBS",
+   "qty": 6,
+   "refs": "",
+   "desc": "DAVIES 1900H",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "A",
+   "qty": 1,
+   "refs": "W1",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "F",
+   "qty": 1,
+   "refs": "W2",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "E",
+   "qty": 1,
+   "refs": "W3",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "D",
+   "qty": 1,
+   "refs": "W4",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "C",
+   "qty": 1,
+   "refs": "W5",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "B",
+   "qty": 1,
+   "refs": "W6",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "0V",
+   "qty": 1,
+   "refs": "W7",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "G",
+   "qty": 1,
+   "refs": "W8",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "H",
+   "qty": 1,
+   "refs": "W9",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "J",
+   "qty": 2,
+   "refs": "W10,W23",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "K",
+   "qty": 1,
+   "refs": "W11",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "I",
+   "qty": 1,
+   "refs": "W12",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "IN1",
+   "qty": 1,
+   "refs": "W13",
+   "desc": "IN 1a",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "IN1",
+   "qty": 1,
+   "refs": "W14",
+   "desc": "IN 1b",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "IN1",
+   "qty": 1,
+   "refs": "W15",
+   "desc": "FB",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "X1",
+   "qty": 2,
+   "refs": "W16,W24",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "OUT2",
+   "qty": 1,
+   "refs": "W17",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "OUT1",
+   "qty": 1,
+   "refs": "W18",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "IN2",
+   "qty": 4,
+   "refs": "W19,W20,W21,W28",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "X2",
+   "qty": 2,
+   "refs": "W22,W29",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "V",
+   "qty": 1,
+   "refs": "W25",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "V-",
+   "qty": 1,
+   "refs": "W26",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "GND",
+   "qty": 1,
+   "refs": "W27",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "EXP",
+   "qty": 4,
+   "refs": "W30,W31,W32,W33",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 BUTTON HEAD SCREW",
+   "qty": 8,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 8,
+   "refs": "",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11 F-F HEX STAND OFFS",
+   "qty": 4,
+   "refs": "",
+   "desc": "(12mm not 11mm, but will work)",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": ""
+  }
+ ]
+}

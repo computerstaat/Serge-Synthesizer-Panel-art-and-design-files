@@ -323,6 +323,10 @@
        "Low-Gain Mouser cart: LGE130 Main & I/O Board",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9a71a0a12a"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge130_main_pcb",
+      "lowgain_cart_lge130"
      ]
     }
    ],
@@ -467,6 +471,9 @@
        "sdiy.info wiki: schematics and PCB overlay",
        "https://sdiy.info/wiki/CGS_Serge_phaser_and_audio_mixers"
       ]
+     ],
+     "maker_parts": [
+      "elby_cgs90"
      ]
     },
     {
@@ -492,6 +499,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=a08f9a4b91"
       ]
+     ],
+     "maker_parts": [
+      "prism_vc-phaser"
      ]
     },
     {
@@ -541,6 +551,10 @@
        "LGE090C I/O PCB schematic",
        "https://drive.google.com/file/d/1zZlzRPXpn-1Ad9w2zpnSYek08FAweHZu/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge090c_i_o",
+      "lowgain_lge090n_main_pcb_v2"
      ]
     }
    ]
@@ -634,6 +648,9 @@
        "Elby CGS513 V2.0",
        "https://www.elby-designs.com/webtek/cgs/serge/cgs513/cgs513-v20/cgs513.htm"
       ]
+     ],
+     "maker_parts": [
+      "elby_cgs513"
      ]
     },
     {
@@ -683,6 +700,10 @@
        "Low-Gain Mouser cart: LGE113 (no headers, standoffs, screws, pots or knobs)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ee90a0c981"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge113_main_board",
+      "lowgain_cart_lge113"
      ]
     }
    ]
@@ -851,6 +872,11 @@
        "LGE114C BOM",
        "https://drive.google.com/file/d/1svcFw0ld66nqO1wOvAmF9JpiuvtSX4cO/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge114_v2_main_board",
+      "lowgain_lge114b",
+      "lowgain_lge114c"
      ]
     }
    ]
@@ -945,6 +971,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=f9c0e7fd0d"
       ]
+     ],
+     "maker_parts": [
+      "prism_oscillator"
      ]
     },
     {
@@ -970,6 +999,9 @@
      "notes": [
       "Like the original, the CGS507 has no 1V/octave input: the scalable CV A input together with FREQUENCY gives tonal tracking, and CV B can act as a fine tune.",
       "Ranges per Elby: CV A, CV B and WAVE SHAPER 0 to +5 V; outputs SHAPED and SAW in AC (-2.5 to +2.5 V) and DC (0 to +5 V) versions; 16 Hz to over 16 kHz."
+     ],
+     "maker_parts": [
+      "elby_cgs507"
      ]
     }
    ],
@@ -1053,6 +1085,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=e3c77d4b9a"
       ]
+     ],
+     "maker_parts": [
+      "prism_1973-vcf"
      ]
     },
     {
@@ -1076,7 +1111,10 @@
       "title": "CGS77 Serge 1973 VCF parts list (in the BOM spreadsheet below)",
       "url": "https://open4umodular.github.io/synthpanel/modules/cgs77_vcf.html"
      },
-     "notes": []
+     "notes": [],
+     "maker_parts": [
+      "elby_cgs577"
+     ]
     }
    ],
    "docs": [
@@ -1160,6 +1198,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=17a3dd6fdf"
       ]
+     ],
+     "maker_parts": [
+      "prism_triple-comparator"
      ]
     },
     {
@@ -1266,6 +1307,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=1e130b0e64"
       ]
+     ],
+     "maker_parts": [
+      "prism_triple-wave-shaper"
      ]
     },
     {
@@ -1334,6 +1378,9 @@
        "LGE085C I/O PCB V2 (wiring diagram) schematic",
        "https://drive.google.com/file/d/1qa5pYuNBote9FZHLZu8m9736m_K8leER/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge085_main_i_o_boards_combined"
      ]
     }
    ],
@@ -1429,6 +1476,9 @@
        "Prism calibration notes",
        "https://drive.google.com/file/d/1BqXgflPgfAvT-cHjdjrwmCM2dQXywy0S/view"
       ]
+     ],
+     "maker_parts": [
+      "prism_ring-modulator"
      ]
     },
     {
@@ -1520,6 +1570,11 @@
        "LGE006C panel wiring diagram (Ring / Gate) schematic",
        "https://drive.google.com/file/d/1-Mee5gQVnQyg1-sokB4xH40EX4Lop2ae/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge006_main_board_v2",
+      "lowgain_lge006gc_i_o_board",
+      "lowgain_lge006rc_i_o_board"
      ]
     }
    ],
@@ -1613,6 +1668,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=4089d005e8"
       ]
+     ],
+     "maker_parts": [
+      "prism_gate-vca"
      ]
     }
    ],
@@ -1688,6 +1746,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=52451d7806"
       ]
+     ],
+     "maker_parts": [
+      "prism_negative-slew"
      ]
     },
     {
@@ -1750,6 +1811,10 @@
        "LGE082C I/O Board (wiring diagram) schematic",
        "https://drive.google.com/file/d/1lcJHRGFdSRPY6Vp82mrwJ-C0XJlQQlRS/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge082_main_pcb",
+      "lowgain_lge082c_i_o_board"
      ]
     }
    ],
@@ -1830,6 +1895,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=1957cc6f89"
       ]
+     ],
+     "maker_parts": [
+      "prism_positive-slew"
      ]
     },
     {
@@ -1891,6 +1959,10 @@
        "LGE083C I/O Board (wiring diagram) schematic",
        "https://drive.google.com/file/d/1DBgyc0TDXCikZlU2vGSd1w18OMklV5ux/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge083_main_pcb_v2",
+      "lowgain_lge083c_i_o_board"
      ]
     }
    ],
@@ -1987,6 +2059,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=cbf4baf8f5"
       ]
+     ],
+     "maker_parts": [
+      "prism_smooth-stepped-generator"
      ]
     },
     {
@@ -2069,6 +2144,10 @@
        "Low-Gain Mouser cart: LGE092 V1.3 Main & I/O Board",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=4bada04fee"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge092_v2_main_board",
+      "lowgain_cart_lge092"
      ]
     }
    ],
@@ -2149,6 +2228,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9d3046aab0"
       ]
+     ],
+     "maker_parts": [
+      "prism_peak-trough"
      ]
     },
     {
@@ -2215,6 +2297,9 @@
        "LGE084 V2 error fix",
        "https://drive.google.com/file/d/18_rNzqlTrPeNbQHmcfFmz_rmB6GLIDz1/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge084_v2_1_main_board"
      ]
     }
    ],
@@ -2301,6 +2386,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=b4e80ac614"
       ]
+     ],
+     "maker_parts": [
+      "prism_envelope-generator"
      ]
     },
     {
@@ -2367,6 +2455,10 @@
        "Cycle switch wiring",
        "https://drive.google.com/file/d/1_3q4J6L6B1kLZHuOuJ8kisrgiuU4cCd1/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge076_main_pcb",
+      "lowgain_lge076c_i_o_board"
      ]
     }
    ],
@@ -2455,6 +2547,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=51ae86ccc8"
       ]
+     ],
+     "maker_parts": [
+      "prism_analog-shift-register"
      ]
     },
     {
@@ -2556,6 +2651,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=acac08429e"
       ]
+     ],
+     "maker_parts": [
+      "prism_bi-directional-router"
      ]
     },
     {
@@ -2606,6 +2704,9 @@
        "LGE024 V2 BOM",
        "https://drive.google.com/file/d/17VEsGWkG6EvMSoyLsD-_CBE548Th9DRC/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge024_v2"
      ]
     }
    ],
@@ -2690,6 +2791,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=bb264e41c0"
       ]
+     ],
+     "maker_parts": [
+      "prism_noise-source"
      ]
     },
     {
@@ -2800,6 +2904,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=d3e4977d17"
       ]
+     ],
+     "maker_parts": [
+      "prism_dual-processor"
      ]
     },
     {
@@ -2837,6 +2944,10 @@
        "Low-Gain Mouser cart: LGE012 Main Board",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=989a20fc61"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge012",
+      "lowgain_cart_lge012"
      ]
     },
     {
@@ -2950,6 +3061,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=412c5cd7f7"
       ]
+     ],
+     "maker_parts": [
+      "prism_dual-mixer"
      ]
     },
     {
@@ -2982,6 +3096,9 @@
        "LGE203 schematic",
        "https://drive.google.com/file/d/1kAvOwNoVHF74wu_5gdqfugJUuQxaL7HZ/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge203"
      ]
     }
    ],
@@ -3078,6 +3195,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=92fb38c616"
       ]
+     ],
+     "maker_parts": [
+      "prism_sequencer"
      ]
     }
    ],
@@ -3167,6 +3287,9 @@
        "Prism Mouser cart (the Prism BOM)",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7198b59b1c"
       ]
+     ],
+     "maker_parts": [
+      "prism_x-fade-gate"
      ]
     }
    ],
@@ -3286,6 +3409,10 @@
        "LGE089C I/O PCB (earlier) schematic",
        "https://drive.google.com/file/d/1AFl1S76QIF5F_H3mbqRrEV3674gqeoSv/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge089_main_pcb",
+      "lowgain_lge089c_v2_1_i_o_board"
      ]
     }
    ],
@@ -3373,6 +3500,9 @@
      },
      "notes": [
       "On the CGS516 the GATE input reads as ON when nothing is plugged into it."
+     ],
+     "maker_parts": [
+      "elby_cgs516"
      ]
     },
     {
@@ -3493,6 +3623,9 @@
      "notes": [
       "Elby now supplies the Serge gain cells for the CGS512 only as pre-built, factory-calibrated sub-assemblies with the PCB; they are no longer a DIY kit.",
       "The carrier needs three CGS108 gain cells; the CGS108 parts list below is for one."
+     ],
+     "maker_parts": [
+      "elby_cgs512"
      ]
     },
     {
@@ -3539,6 +3672,10 @@
        "Low-Gain Mouser cart: LGE112 Q Filter",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0ee94f9448"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge112_main_pcb",
+      "lowgain_cart_lge112"
      ]
     }
    ],
@@ -3682,6 +3819,11 @@
        "LGE202 v1.01 & LGE202C power connector clarification",
        "https://drive.google.com/file/d/1fOBByXhGMs68G7wcIyjhPmz9BsKmpPkY/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge202_main_pcb",
+      "lowgain_lge202c_i_o_pcb",
+      "lowgain_lge202c_i_o_pcb_second_version"
      ]
     }
    ],
@@ -4105,6 +4247,12 @@
        "Low-Gain Mouser cart: LGE114B Main & I/O Board",
        "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=b6d8cb299f"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge114_v2_main_board",
+      "lowgain_lge114ac_i_o_board",
+      "lowgain_lge114b",
+      "lowgain_cart_lge114a"
      ]
     }
    ],
@@ -4206,6 +4354,9 @@
        "LGE214C I/O Board (wiring diagram) schematic",
        "https://drive.google.com/file/d/1rwz7qnAJC6BA5r276jiKTvrzv0AtuUQZ/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge214_main_i_o_boards"
      ]
     }
    ],
@@ -4316,6 +4467,10 @@
        "LGE108 Gain Cell schematic",
        "https://drive.google.com/file/d/1h6GW8u0dx7d77EXiS35-6FvLwYdJTq5g/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge111_main_pcb",
+      "lowgain_lge111c_i_o_pcb"
      ]
     }
    ],
@@ -4497,6 +4652,9 @@
        "LGE030C I/O Board (wiring diagram) schematic",
        "https://drive.google.com/file/d/10UxFaC09vUxeQRSNkf1eDN_b22mjzqWx/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge030"
      ]
     }
    ],
@@ -4600,6 +4758,10 @@
        "LGE205C v1.4 schematic",
        "https://drive.google.com/file/d/1_orU9HvX1eQzAEXqao5evs4UXYyrQt50/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge205_v1_3",
+      "lowgain_lge205c_v1_4"
      ]
     }
    ],
@@ -4685,6 +4847,10 @@
        "LGE205D schematic",
        "https://drive.google.com/file/d/1pUzAMcHquVNpq8iK-peFcRMUiAmZsNIo/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge205_dual_comp_config",
+      "lowgain_lge205d"
      ]
     }
    ],
@@ -4782,6 +4948,9 @@
        "LGE201C I/O PCB schematic",
        "https://drive.google.com/file/d/1OSBWZT_Zej1A-7uhS8dVWuGjwexnHssr/view"
       ]
+     ],
+     "maker_parts": [
+      "lowgain_lge201"
      ]
     }
    ],

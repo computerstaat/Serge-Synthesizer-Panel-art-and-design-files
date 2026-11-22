@@ -225,6 +225,25 @@ def main():
             w = csv.writer(f); w.writerow(["Part", "Quantity", "Where to get it"]); w.writerows(x["na"])
         slug, b = base.split("__")
         report.append((slug, b, len(x["lines"]), len(x["na"]), round(sum(l[3] * l[4] for l in x["lines"]), 2), 0, 1))
+    # makers' own Mouser carts (Prism, Low-Gain): upload files built from the cart, one per cart
+    for slug, m in mods.items():
+        for bd in m["builds"]:
+            for k in bd.get("maker_parts", []):
+                pl = json.load(open(os.path.join(HERE, "parts", k + ".json")))
+                if pl.get("kind") != "mouser_cart":
+                    continue
+                cart = "prism_cart" if pl["maker"] == "prism" else k.replace("lowgain_cart_", "lowgain_cart_")
+                base = "%s__%s" % (slug, cart)
+                good = [r for r in pl["parts"] if r.get("mouser")]
+                with open(os.path.join(OUT, base + ".csv"), "w", newline="") as f:
+                    w = csv.writer(f); w.writerow(HEAD)
+                    for r in good:
+                        w.writerow([r["mouser"], r["mfr_pn"], r["mfr"], r["qty"], r["desc"], "%s: %s" % (pl["board"], r["value"])])
+                with open(os.path.join(OUT, base + "_not_at_mouser.csv"), "w", newline="") as f:
+                    w = csv.writer(f); w.writerow(["Part", "Quantity", "Where to get it"])
+                    w.writerows([[r["mfr_pn"], r["qty"], "In the maker's cart without a Mouser number; check the cart"] for r in pl["parts"] if not r.get("mouser")])
+                report.append((slug, cart, len(good), len(pl["parts"]) - len(good),
+                               round(sum(r["qty"] * (r["price"] or 0) for r in good), 2), 0, 1))
     for r in report:
         print("%-32s %-20s %2d Mouser lines (%2d unverified), %d elsewhere, ~$%.2f" % (r[0], r[1], r[2], r[5], r[3], r[4]))
     json.dump({"%s__%s" % (r[0], r[1]): {"lines": r[2], "elsewhere": r[3], "cost": r[4], "unverified": r[5], "boards": r[6]} for r in report},
@@ -258,6 +277,9 @@ def readme(report):
          "Description column notes each one.", "",
          "The Low-Gain files (`__lge…`) include the panel jacks, pots and switches, following Low-Gain's BOM. The CGS files include switches "
          "but leave out banana jacks; their pots and knobs are in the Tayda lists in `../tayda/` (cheaper there).", "",
+         "Files ending `__prism_cart.csv` or `__lowgain_cart_<board>.csv` are made from the maker's own shared Mouser project (cart), "
+         "copied line for line with Mouser and manufacturer part numbers. They follow the maker's board, not Ken Stone's, and the makers "
+         "often leave pots, knobs, jacks or headers out of their carts: check the build page.", "",
          "| File | Mouser lines | Bought elsewhere (lines) | Approx. cost (1 off) |", "|---|---|---|---|"]
     for r in report:
         L.append("| %s__%s.csv | %d | %d | $%.2f |" % (r[0], r[1], r[2], r[3], r[4]))

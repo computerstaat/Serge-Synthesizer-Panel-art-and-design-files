@@ -1,0 +1,193 @@
+{
+ "source": "https://drive.google.com/file/d/1cF_Lauu-0JOIrotw_tD3iaPQ8fo2wC6V/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE205C v1.4",
+ "page": "lge205",
+ "parts": [
+  {
+   "type": "Diode",
+   "value": "(Optional!)",
+   "qty": 1,
+   "refs": "D1",
+   "desc": "3mm LED",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "3mm LED",
+   "qty": 1,
+   "refs": "D2",
+   "desc": "Color = Builders Choice",
+   "section": ""
+  },
+  {
+   "type": "LED",
+   "value": "1⁄2",
+   "qty": 0,
+   "refs": "",
+   "desc": "LED Lens",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "-COMP",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Emerson Banana (Blue)",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "+COMP",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "Emerson Banana (Blue)",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "VC DIV",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "Emerson Banana (Blue)",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "DIV OUT",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "Emerson Banana (Red)",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "STEP OUT",
+   "qty": 1,
+   "refs": "J5",
+   "desc": "Emerson Banana (Gray)",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "OUT",
+   "qty": 1,
+   "refs": "J6,COMP1",
+   "desc": "Emerson Banana (Red)",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904",
+   "qty": 1,
+   "refs": "Q1",
+   "desc": "2N3904",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "2K21",
+   "qty": 1,
+   "refs": "R1",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "RLED",
+   "qty": 1,
+   "refs": "R42",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 1,
+   "refs": "R43",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR1",
+   "desc": "COMP",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR2",
+   "desc": "DIVIDE",
+   "section": ""
+  },
+  {
+   "type": "Knob",
+   "value": "KNOB",
+   "qty": 2,
+   "refs": "",
+   "desc": "DAVIES 1900H KNOB",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 BUTTON HEAD SCREW",
+   "qty": 6,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 6,
+   "refs": "",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11 F-F HEX STAND OFFS",
+   "qty": 4,
+   "refs": "",
+   "desc": "(12mm not 11mm, but will work)",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3x11 F-M Hex STAND OFFS",
+   "qty": 2,
+   "refs": "",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 HEX HEAD SCREW (BLACK OXIDE)",
+   "qty": 2,
+   "refs": "",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": ""
+  }
+ ]
+}

@@ -1,0 +1,441 @@
+{
+ "source": "https://drive.google.com/file/d/18if0O48smW4wxyMRGW36NnRC-E_nM0zw/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE114 V2 Main Board",
+ "page": "lge114a",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "47p",
+   "qty": 4,
+   "refs": "C1,C8,C11,C18",
+   "desc": "Ceramic Capacitor 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "10n",
+   "qty": 2,
+   "refs": "C2,C12",
+   "desc": "Ceramic Capacitor 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 14,
+   "refs": "C3,C4,C5,C6,C7,C13,C14,C15,C16,C17,C21,C22,C25,C26",
+   "desc": "Ceramic Cap 0805/1206",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "47u",
+   "qty": 2,
+   "refs": "C9,C19",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "**10nF",
+   "qty": 2,
+   "refs": "C10,C20",
+   "desc": "Film Capacitor 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF@50V",
+   "qty": 4,
+   "refs": "C23,C24,C27,C28",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 6,
+   "refs": "D1,D2,D4,D6,D7,D9",
+   "desc": "General Purpose Diode",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N5232",
+   "qty": 2,
+   "refs": "D3,D8",
+   "desc": "5V6 Zener Diode",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3906",
+   "qty": 6,
+   "refs": "Q1,Q3,Q4,Q7,Q9,Q10",
+   "desc": "2N3906",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904",
+   "qty": 4,
+   "refs": "Q2,Q5,Q8,Q11",
+   "desc": "2N3904",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "820K",
+   "qty": 6,
+   "refs": "R1,R2,R25,R44,R45,R68",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 12,
+   "refs": "R4,R5,R11,R16,R29,R32,R47,R48,R54,R59,R72,R75",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 2,
+   "refs": "R5,R48",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Trimmer",
+   "value": "100K",
+   "qty": 2,
+   "refs": "R6,R49",
+   "desc": "Trimmer",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "220K",
+   "qty": 8,
+   "refs": "R7,R12,R19,R22,R50,R55,R62,R65",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10M",
+   "qty": 4,
+   "refs": "R8,R10,R51,R53",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "68K",
+   "qty": 6,
+   "refs": "R9,R21,R38,R52,R64,R81",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "330K",
+   "qty": 2,
+   "refs": "R13,R56",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "2.2K",
+   "qty": 6,
+   "refs": "R14,R30,R39,R57,R73,R82",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "1K",
+   "qty": 2,
+   "refs": "R15,R58",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "8.2K",
+   "qty": 2,
+   "refs": "R17,R60",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 10,
+   "refs": "R18,R20,R23,R24,R34,R61,R63,R66,R67,R77",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "33K",
+   "qty": 6,
+   "refs": "R3,R46,R26,R35,R69,R78",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "47K",
+   "qty": 4,
+   "refs": "R27,R36,R70,R79",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "453K",
+   "qty": 2,
+   "refs": "R28,R71",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "470K",
+   "qty": 2,
+   "refs": "R31,R74",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 2,
+   "refs": "R33,R76",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "220R",
+   "qty": 2,
+   "refs": "R37,R80",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "75K",
+   "qty": 2,
+   "refs": "R41,R84",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "1.5K",
+   "qty": 2,
+   "refs": "R43,R86",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 4,
+   "refs": "R87,R88,R89,R90",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "LM3900N",
+   "qty": 2,
+   "refs": "U1,U4",
+   "desc": "LM3900N",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "TL072",
+   "qty": 2,
+   "refs": "U2,U5",
+   "desc": "RC4558",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "TL072",
+   "qty": 2,
+   "refs": "U3,U6",
+   "desc": "LF353N",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "PWR",
+   "qty": 2,
+   "refs": "U7,U8",
+   "desc": "MOLEX_156_4P",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Signal In",
+   "qty": 2,
+   "refs": "",
+   "desc": "C",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "Fall Pot Wiper",
+   "qty": 2,
+   "refs": "",
+   "desc": "H",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "CV Input “VC IN”",
+   "qty": 4,
+   "refs": "",
+   "desc": "F",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "“VC IN” Pot CCW",
+   "qty": 2,
+   "refs": "",
+   "desc": "FA",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "“VC IN” Pot Wiper",
+   "qty": 4,
+   "refs": "",
+   "desc": "FB",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "“VC IN” Pot CW",
+   "qty": 2,
+   "refs": "",
+   "desc": "FC",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "RISE/FALL/BOTH SW Common",
+   "qty": 2,
+   "refs": "",
+   "desc": "MC",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "RISE/FALL/BOTH SW Fall Contact",
+   "qty": 2,
+   "refs": "",
+   "desc": "MB",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "RISE/FALL/BOTH SW Rise Contact",
+   "qty": 2,
+   "refs": "",
+   "desc": "MA",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "Rise Pot Wiper",
+   "qty": 2,
+   "refs": "",
+   "desc": "K",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Exp CV Input (1V/Oct)",
+   "qty": 2,
+   "refs": "",
+   "desc": "E",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "End or Gate (Output)",
+   "qty": 2,
+   "refs": "",
+   "desc": "M",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Option Bipolar Output",
+   "qty": 2,
+   "refs": "",
+   "desc": "D",
+   "section": ""
+  },
+  {
+   "type": "LED",
+   "value": "AC Coupled Output",
+   "qty": 2,
+   "refs": "",
+   "desc": "BPO",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Main DC Output",
+   "qty": 2,
+   "refs": "",
+   "desc": "DCO",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "+12V",
+   "qty": 2,
+   "refs": "",
+   "desc": "V+",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "0V Ground",
+   "qty": 2,
+   "refs": "",
+   "desc": "GND",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Trigger Input",
+   "qty": 2,
+   "refs": "",
+   "desc": "A",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "-12V",
+   "qty": 2,
+   "refs": "",
+   "desc": "V-",
+   "section": ""
+  }
+ ]
+}

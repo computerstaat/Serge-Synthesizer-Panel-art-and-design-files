@@ -1,0 +1,425 @@
+{
+ "source": "https://drive.google.com/file/d/1v1yAkfcjfmhtsPAM17l9FFsf1v1S7-L_/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE111 Main PCB",
+ "page": "lge111",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "10u",
+   "qty": 2,
+   "refs": "C1,C7",
+   "desc": "Electrolytic Capacitor 2mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "0805/1206 50V Ceramic",
+   "qty": 6,
+   "refs": "C2,C3,C4,C5,C6,C8",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 10,
+   "refs": "C9,C10,C11,C12",
+   "desc": "CERAMIC CAP_1206",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "220p",
+   "qty": 1,
+   "refs": "C13",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "220p POLY",
+   "qty": 2,
+   "refs": "C14,C18",
+   "desc": "Polypropylene OR Film",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "10pF",
+   "qty": 2,
+   "refs": "C15,C17",
+   "desc": "FILM Capacitor 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "220nF/1uF",
+   "qty": 1,
+   "refs": "C16",
+   "desc": "FILM Capacitor 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 3,
+   "refs": "D1,D2,D3",
+   "desc": "1N4148",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "PWR",
+   "qty": 1,
+   "refs": "HDR_1",
+   "desc": "AMP .100 4P HDR",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "DMMT3904",
+   "qty": 1,
+   "refs": "Q1",
+   "desc": "DMMT3904",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904",
+   "qty": 1,
+   "refs": "Q2",
+   "desc": "2N3904",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "R1,R2",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "82K",
+   "qty": 1,
+   "refs": "R3",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "2K",
+   "qty": 1,
+   "refs": "R4",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "22K",
+   "qty": 5,
+   "refs": "R5,R6,R7,R15,R17",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "390R",
+   "qty": 1,
+   "refs": "R8",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "475R",
+   "qty": 2,
+   "refs": "R9,R10",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "330K",
+   "qty": 4,
+   "refs": "R11,R21,R22,R24",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 1,
+   "refs": "R12",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 2,
+   "refs": "R13,R20",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "33K",
+   "qty": 2,
+   "refs": "R14,R16",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "6K8",
+   "qty": 2,
+   "refs": "R18,R19",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "470K",
+   "qty": 1,
+   "refs": "R23",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "47K",
+   "qty": 3,
+   "refs": "R25,R34,R35",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "820R",
+   "qty": 1,
+   "refs": "R26",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "220K",
+   "qty": 6,
+   "refs": "R27,R31,R32,R33,R30,R36",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "15K",
+   "qty": 2,
+   "refs": "R28,R29",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 3,
+   "refs": "R37,R38,R39",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "RC4558",
+   "qty": 4,
+   "refs": "U1,U2,U3,U5",
+   "desc": "RC4558P",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "LGE108",
+   "qty": 2,
+   "refs": "U4,U6",
+   "desc": "LGE108 GAIN CELL",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "10K",
+   "qty": 1,
+   "refs": "VR1",
+   "desc": "V/OCT",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "H2",
+   "qty": 1,
+   "refs": "W1",
+   "desc": "FREQ W",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "0V",
+   "qty": 1,
+   "refs": "W2",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "H",
+   "qty": 1,
+   "refs": "W3",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "V+",
+   "qty": 1,
+   "refs": "W4",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "V-",
+   "qty": 1,
+   "refs": "W5",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "GND",
+   "qty": 1,
+   "refs": "W6",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "B",
+   "qty": 1,
+   "refs": "W7",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "A",
+   "qty": 1,
+   "refs": "W8",
+   "desc": "V/OCT",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "G",
+   "qty": 1,
+   "refs": "W9",
+   "desc": "N/C",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "C",
+   "qty": 1,
+   "refs": "W10",
+   "desc": "N/C",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "D",
+   "qty": 1,
+   "refs": "W11",
+   "desc": "SLOPE",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "E",
+   "qty": 1,
+   "refs": "W12",
+   "desc": "VC SLOPE CW",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "F",
+   "qty": 1,
+   "refs": "W13",
+   "desc": "VC SLOPE CCW",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "K",
+   "qty": 1,
+   "refs": "W14",
+   "desc": "IN1",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "N",
+   "qty": 1,
+   "refs": "W15",
+   "desc": "IN2",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "J",
+   "qty": 1,
+   "refs": "W16",
+   "desc": "LP",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "P",
+   "qty": 1,
+   "refs": "W17",
+   "desc": "HP",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "M",
+   "qty": 1,
+   "refs": "W18",
+   "desc": "N/C",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "L",
+   "qty": 1,
+   "refs": "W19",
+   "desc": "BP",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "R",
+   "qty": 1,
+   "refs": "W20",
+   "desc": "RES1",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "R2",
+   "qty": 1,
+   "refs": "W21",
+   "desc": "RES2",
+   "section": ""
+  }
+ ]
+}
