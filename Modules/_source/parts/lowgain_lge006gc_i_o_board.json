@@ -1,0 +1,113 @@
+{
+ "source": "https://drive.google.com/file/d/17cdRf613TVhzfHjYlFCUXc3v62Gb9lrH/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE006GC I/O Board",
+ "page": "lge006",
+ "parts": [
+  {
+   "type": "Jack",
+   "value": "LIN CV",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "LOG CV",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "DC INPUT",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "AC INPUT",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "OUTPUT",
+   "qty": 1,
+   "refs": "J5",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR1",
+   "desc": "GAIN",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR2",
+   "desc": "LIN CV",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR3",
+   "desc": "LOG CV",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 BUTTON HEAD SCREW",
+   "qty": 8,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 8,
+   "refs": "",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11 F-F HEX STAND OFFS",
+   "qty": 4,
+   "refs": "",
+   "desc": "(12mm not 11mm, but will work)",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": ""
+  }
+ ]
+}

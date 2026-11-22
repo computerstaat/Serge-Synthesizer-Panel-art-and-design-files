@@ -1,0 +1,361 @@
+{
+ "source": "https://drive.google.com/file/d/1r8-d1ROGY2dwO0VQFodg0DMpQySmKIQ5/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE205 v1.3",
+ "page": "lge205",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "CERMIC CAP",
+   "qty": 6,
+   "refs": "C1,C3,C4,C6,C7,C8",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 9,
+   "refs": "C10,C13,C14",
+   "desc": "CAP_0805_N",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF@50V",
+   "qty": 3,
+   "refs": "C2,C5,C11",
+   "desc": "ELECTROLITIC 2.5MM LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "47p",
+   "qty": 1,
+   "refs": "C9",
+   "desc": "CERAMIC CAP 5MM LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "1uF@50V",
+   "qty": 1,
+   "refs": "C12",
+   "desc": "ELECTROLITIC 2.5MM LS",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4001",
+   "qty": 2,
+   "refs": "D1,D2",
+   "desc": "RECTIFIER DIODE",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "FB1,FB2",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "PWR",
+   "qty": 1,
+   "refs": "HDR_1",
+   "desc": "AMP .100 4P HDR",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904",
+   "qty": 2,
+   "refs": "Q1,Q2",
+   "desc": "2N3904",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "2K21",
+   "qty": 3,
+   "refs": "R1,R9,R10",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "33K",
+   "qty": 2,
+   "refs": "R2,R11",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "DNS",
+   "qty": 2,
+   "refs": "R3,R12",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "47K",
+   "qty": 4,
+   "refs": "R4,R6,R7,R8",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "110K",
+   "qty": 1,
+   "refs": "R5",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "51K1",
+   "qty": 2,
+   "refs": "R13,R15",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "121K",
+   "qty": 1,
+   "refs": "R14",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "15K",
+   "qty": 1,
+   "refs": "R16",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "6M8",
+   "qty": 1,
+   "refs": "R17",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "249K",
+   "qty": 7,
+   "refs": "R18,R22,R23,R24,R25,R26,R27",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "499K",
+   "qty": 1,
+   "refs": "R19",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "0R (DNS)",
+   "qty": 1,
+   "refs": "R20",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 1,
+   "refs": "R21",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "100R",
+   "qty": 1,
+   "refs": "R28",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "200R",
+   "qty": 1,
+   "refs": "R29",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "332R",
+   "qty": 1,
+   "refs": "R31",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Trimmer",
+   "value": "200R",
+   "qty": 1,
+   "refs": "TR1",
+   "desc": "Trimpot Multi-Turn",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "CD4093BE",
+   "qty": 1,
+   "refs": "U1",
+   "desc": "CD4093B",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "CD4520BE",
+   "qty": 1,
+   "refs": "U2",
+   "desc": "CD4520",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "RC4558P",
+   "qty": 2,
+   "refs": "U3,U5",
+   "desc": "RC4558P",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "LM317L (TO-92 package)",
+   "qty": 1,
+   "refs": "U4",
+   "desc": "LM317LZX",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "K",
+   "qty": 1,
+   "refs": "W1",
+   "desc": "(K to V+ for NCOM)",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "VDD, 0V",
+   "qty": 1,
+   "refs": "W2,W6",
+   "desc": "TP1 & TP 2",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "D",
+   "qty": 1,
+   "refs": "W3",
+   "desc": "Comp 1 Negative Input",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "C",
+   "qty": 1,
+   "refs": "W4",
+   "desc": "Comp 1 Wiper",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "B",
+   "qty": 1,
+   "refs": "W5",
+   "desc": "Comp 1 Positive Input",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "W",
+   "qty": 1,
+   "refs": "W8",
+   "desc": "0V",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "A",
+   "qty": 1,
+   "refs": "W9",
+   "desc": "Comp 1 Output",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "F",
+   "qty": 1,
+   "refs": "W10",
+   "desc": "Divide / Comp 2 Output",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "X",
+   "qty": 1,
+   "refs": "W13",
+   "desc": "V+",
+   "section": ""
+  },
+  {
+   "type": "LED",
+   "value": "E",
+   "qty": 1,
+   "refs": "W14",
+   "desc": "Comp 2 Output LED)",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "J",
+   "qty": 1,
+   "refs": "W16",
+   "desc": "Step Output",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "G",
+   "qty": 1,
+   "refs": "W17",
+   "desc": "VC Divide (Comp 2 Positive Input)",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "H",
+   "qty": 1,
+   "refs": "W18",
+   "desc": "Divide Wiper (Comp 2 Wiper)",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "4V7",
+   "qty": 2,
+   "refs": "Z1*,Z2*",
+   "desc": "1N5230",
+   "section": ""
+  }
+ ]
+}

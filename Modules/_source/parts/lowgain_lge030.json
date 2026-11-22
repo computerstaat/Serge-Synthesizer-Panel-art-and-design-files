@@ -1,0 +1,329 @@
+{
+ "source": "https://drive.google.com/file/d/1S_hEsqWrdIF2gl8x1-9m7G30VxyRpVPa/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE030",
+ "page": "lge030",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "10uF@35V",
+   "qty": 3,
+   "refs": "C1,C2,C5",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 2,
+   "refs": "C3,C4",
+   "desc": "Ceramic/Film Cap 5mm LS",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Capacitor",
+   "value": "(see maker BOM)",
+   "qty": 7,
+   "refs": "C6,C10,C11,C8,C9,C17,C18",
+   "desc": "",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 13,
+   "refs": "C19,C20,C21,C22,C25,C26",
+   "desc": "MLCC 50V SMT 0805/1206",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Capacitor",
+   "value": "33pF",
+   "qty": 6,
+   "refs": "C7,C12,C13,C14,C23,C24",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Diode",
+   "value": "BAT48",
+   "qty": 2,
+   "refs": "D1,D2",
+   "desc": "DIODE",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Diode",
+   "value": "LM4040DIZ5.0",
+   "qty": 1,
+   "refs": "D3",
+   "desc": "LM4040DIZ5.0",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 4,
+   "refs": "D4,D5,D6,D7",
+   "desc": "General Signal Diode",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Connector",
+   "value": "PWR",
+   "qty": 1,
+   "refs": "",
+   "desc": "0.100” (2.54mm) 4P HDR",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "R1,R2",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 18,
+   "refs": "R3,R4,R5,R6,R8,R9,R17,R18,R20,R21,R22,R23,R24,R32,R33,R34,R35,R36",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Resistor",
+   "value": "332R",
+   "qty": 6,
+   "refs": "R7,R16,R19,R26,R31,R39",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Resistor",
+   "value": "220K",
+   "qty": 1,
+   "refs": "R10",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Resistor",
+   "value": "4K75",
+   "qty": 1,
+   "refs": "R11",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Resistor",
+   "value": "27K",
+   "qty": 4,
+   "refs": "R12,R13,R14,R15",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 9,
+   "refs": "R25,R27,R28,R29,R30,R37,R38,R40,R41",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Other",
+   "value": "10K",
+   "qty": 1,
+   "refs": "TR1",
+   "desc": "OFFSET(3296W)",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "IC",
+   "value": "LM358N",
+   "qty": 1,
+   "refs": "U2",
+   "desc": "LM358N",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "IC",
+   "value": "TL072",
+   "qty": 1,
+   "refs": "U3",
+   "desc": "TL072",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "IC",
+   "value": "TL074",
+   "qty": 3,
+   "refs": "U4,U5,U6",
+   "desc": "TL074",
+   "section": "Main board: LGE030"
+  },
+  {
+   "type": "Jack",
+   "value": "MIXA 1",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Jack",
+   "value": "MIXA 2",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Jack",
+   "value": "MIXB 1",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Jack",
+   "value": "MIXB 2",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Jack",
+   "value": "MIXC 1",
+   "qty": 1,
+   "refs": "J5",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Jack",
+   "value": "MIXC 2",
+   "qty": 1,
+   "refs": "J6",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Jack",
+   "value": "MAX",
+   "qty": 1,
+   "refs": "J7",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Jack",
+   "value": "MIN",
+   "qty": 1,
+   "refs": "J8",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Jack",
+   "value": "OUT 3",
+   "qty": 1,
+   "refs": "J9",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Jack",
+   "value": "5V",
+   "qty": 1,
+   "refs": "J10",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Jack",
+   "value": "OUT 2",
+   "qty": 1,
+   "refs": "J11",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Jack",
+   "value": "OUT 1",
+   "qty": 1,
+   "refs": "J12",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 4,
+   "refs": "R1,R2,R3,R8",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 5,
+   "refs": "VR1,VR2,VR3,VR4,VR5",
+   "desc": "9mm Alpha style potentiometer",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Knob",
+   "value": "Knobs",
+   "qty": 5,
+   "refs": "",
+   "desc": "DAVIES 1900H",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 BUTTON HEAD SCREW",
+   "qty": 8,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 8,
+   "refs": "",
+   "desc": "",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11 F-F HEX STAND OFFS",
+   "qty": 4,
+   "refs": "",
+   "desc": "(These are 12mm not 11mm, but will work)",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 2,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": "I/O Board: LGE030C"
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 2,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": "I/O Board: LGE030C"
+  }
+ ]
+}

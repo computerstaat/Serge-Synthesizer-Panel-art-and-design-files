@@ -1,0 +1,481 @@
+{
+ "source": "https://drive.google.com/file/d/1WrbsP2Znqw2UtONTr-WNXFqn_RPVwEFb/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE082 Main PCB",
+ "page": "lge082",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "330n",
+   "qty": 2,
+   "refs": "C1,C9",
+   "desc": "Capacitor(5.08mm LS)",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "120p",
+   "qty": 2,
+   "refs": "C2,C10",
+   "desc": "Capacitor(5.08mm LS)",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "10u @ 35V",
+   "qty": 3,
+   "refs": "C3,C4,C7",
+   "desc": "Electrolytic (2.54mm)",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 6,
+   "refs": "C5,C6,C8,C11,C12,C14",
+   "desc": "CAP_0805_N",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 10,
+   "refs": "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10",
+   "desc": "DIODE",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "LM78L06",
+   "qty": 1,
+   "refs": "IC1",
+   "desc": "LM78L06",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "MTA-156-4",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "BC547",
+   "qty": 2,
+   "refs": "Q1,Q3",
+   "desc": "BC547",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3906",
+   "qty": 2,
+   "refs": "Q2,Q4",
+   "desc": "2N3906",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904",
+   "qty": 2,
+   "refs": "Q5,Q6",
+   "desc": "2N3904",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 2,
+   "refs": "R1,R29",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "6.8K",
+   "qty": 4,
+   "refs": "R2,R14,R30,R42",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "18K",
+   "qty": 4,
+   "refs": "R3,R22,R31,R50",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "4.7K",
+   "qty": 4,
+   "refs": "R4,R23,R32,R51",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 6,
+   "refs": "R5,R6,R7,R33,R34,R35",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "220K",
+   "qty": 6,
+   "refs": "R8,R16,R18,R36,R44,R46",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "33",
+   "qty": 2,
+   "refs": "R9,R37",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "330K",
+   "qty": 2,
+   "refs": "R10,R38",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "470K",
+   "qty": 8,
+   "refs": "R11,R13,R15,R21,R39,R41,R43,R49",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "220",
+   "qty": 6,
+   "refs": "R12,R26,R40,R54,RLED1,RLED2",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "22K",
+   "qty": 4,
+   "refs": "R17,R19,R45,R47",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Trimmer",
+   "value": "25K",
+   "qty": 2,
+   "refs": "R20,R48",
+   "desc": "Trimmer",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "820K",
+   "qty": 2,
+   "refs": "R24,R52",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 2,
+   "refs": "R25,R53",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "2K21",
+   "qty": 5,
+   "refs": "R27,R28,R58,R59,R61",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "R55,R56",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "221K",
+   "qty": 1,
+   "refs": "R57",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "15K",
+   "qty": 1,
+   "refs": "R60",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "150K",
+   "qty": 1,
+   "refs": "R62",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "CA3086",
+   "qty": 2,
+   "refs": "U1,U3",
+   "desc": "CA3086",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "LM3900",
+   "qty": 2,
+   "refs": "U2,U4",
+   "desc": "MC3401P (LM3900)",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Input",
+   "qty": 1,
+   "refs": "LGE082",
+   "desc": "A",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "SLOPE OUTPUT",
+   "qty": 1,
+   "refs": "",
+   "desc": "B",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "RATE PIN 1",
+   "qty": 2,
+   "refs": "",
+   "desc": "R1",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "RATE WIPER",
+   "qty": 2,
+   "refs": "",
+   "desc": "R2",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "RATE PIN 3",
+   "qty": 2,
+   "refs": "",
+   "desc": "R3",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Trough Input 1",
+   "qty": 1,
+   "refs": "",
+   "desc": "T1",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "CV PIN 1",
+   "qty": 2,
+   "refs": "",
+   "desc": "CV1",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "CV WIPER",
+   "qty": 0,
+   "refs": "",
+   "desc": "GND",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "CV PIN 3",
+   "qty": 2,
+   "refs": "",
+   "desc": "CV3",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Trough Input 2",
+   "qty": 1,
+   "refs": "",
+   "desc": "T2",
+   "section": ""
+  },
+  {
+   "type": "LED",
+   "value": "LED ANODE",
+   "qty": 2,
+   "refs": "",
+   "desc": "LA",
+   "section": ""
+  },
+  {
+   "type": "LED",
+   "value": "LED CATHODE",
+   "qty": 2,
+   "refs": "",
+   "desc": "LK",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "END PULSE OUT",
+   "qty": 1,
+   "refs": "",
+   "desc": "D",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "V+",
+   "qty": 1,
+   "refs": "",
+   "desc": "V+",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "+6V",
+   "qty": 1,
+   "refs": "",
+   "desc": "+6V",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "V-",
+   "qty": 1,
+   "refs": "",
+   "desc": "V-",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "0V = GND",
+   "qty": 3,
+   "refs": "",
+   "desc": "GND",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Input",
+   "qty": 1,
+   "refs": "",
+   "desc": "E",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "SLOPE OUTPUT",
+   "qty": 1,
+   "refs": "",
+   "desc": "F",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Trough Input 3",
+   "qty": 1,
+   "refs": "",
+   "desc": "T3",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Trough Input 4",
+   "qty": 1,
+   "refs": "",
+   "desc": "T4",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "END PULSE OUT",
+   "qty": 1,
+   "refs": "",
+   "desc": "H",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Peak Input 1",
+   "qty": 1,
+   "refs": "",
+   "desc": "P1",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Peak Input 2",
+   "qty": 1,
+   "refs": "",
+   "desc": "P2",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Peak Input 3",
+   "qty": 1,
+   "refs": "",
+   "desc": "P3",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Peak Input 4",
+   "qty": 1,
+   "refs": "",
+   "desc": "P4",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Peak Output",
+   "qty": 1,
+   "refs": "",
+   "desc": "POUT",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Trough Output",
+   "qty": 1,
+   "refs": "",
+   "desc": "TOUT",
+   "section": ""
+  }
+ ]
+}

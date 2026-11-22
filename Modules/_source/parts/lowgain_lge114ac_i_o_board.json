@@ -1,0 +1,257 @@
+{
+ "source": "https://drive.google.com/file/d/1QiVtjnEZb9puZgteW5MuQ0mOwMcfzs6D/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE114AC I/O Board",
+ "page": "lge114a",
+ "parts": [
+  {
+   "type": "Diode",
+   "value": "5MM LED",
+   "qty": 2,
+   "refs": "D1,D3",
+   "desc": "LED T1.75",
+   "section": ""
+  },
+  {
+   "type": "LED",
+   "value": "LENS",
+   "qty": 2,
+   "refs": "",
+   "desc": "5mm LED Lens",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 2,
+   "refs": "D4,D5",
+   "desc": "1N4148",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "INPUT1",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "CV1",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "DC1",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "TRIG1",
+   "qty": 1,
+   "refs": "J6",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "END1",
+   "qty": 1,
+   "refs": "J7",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "DC2",
+   "qty": 1,
+   "refs": "J9",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "CV2",
+   "qty": 1,
+   "refs": "J11",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "INPUT2",
+   "qty": 1,
+   "refs": "J12",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "TRIG2",
+   "qty": 1,
+   "refs": "J13",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "END2",
+   "qty": 1,
+   "refs": "J14",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "BC547",
+   "qty": 2,
+   "refs": "Q1,Q6",
+   "desc": "If using 2N3904)",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "RLED",
+   "qty": 2,
+   "refs": "R5,R42",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "150K",
+   "qty": 2,
+   "refs": "R6,R43",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR1",
+   "desc": "RISE1",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR2",
+   "desc": "FALL1",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR3",
+   "desc": "CV1",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR5",
+   "desc": "RISE2",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR6",
+   "desc": "FALL2",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR7",
+   "desc": "CV2",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "CYCLE 1 SW",
+   "qty": 1,
+   "refs": "",
+   "desc": "S1A, S1B, S1C",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "VC 1 SW",
+   "qty": 1,
+   "refs": "",
+   "desc": "S2A, S2B, S2C",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "CYCLE 2 SW",
+   "qty": 1,
+   "refs": "",
+   "desc": "S3A, S3B, S3C",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "VC 2 SW",
+   "qty": 1,
+   "refs": "",
+   "desc": "S4A, S4B, S4C",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 BUTTON HEAD SCREW",
+   "qty": 8,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 8,
+   "refs": "",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11 F-F HEX STAND OFFS",
+   "qty": 4,
+   "refs": "",
+   "desc": "(12mm not 11mm, but will work)",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": ""
+  }
+ ]
+}

@@ -1,0 +1,418 @@
+{
+ "source": "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=bb264e41c0",
+ "maker": "prism",
+ "kind": "mouser_cart",
+ "board": "Prism Noise/Random",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "1uF",
+   "qty": 3,
+   "desc": "Elec 50V 1uF Radial",
+   "mfr": "KEMET",
+   "mfr_pn": "ESS105M050AB2AA",
+   "mouser": "80-ESS105M050AB2AA",
+   "price": 0.2
+  },
+  {
+   "type": "Capacitor",
+   "value": "47uF",
+   "qty": 3,
+   "desc": "Elec 16V 47uF Radial",
+   "mfr": "KEMET",
+   "mfr_pn": "ESS476M016AC2AA",
+   "mouser": "80-ESS476M016AC2AA",
+   "price": 0.21
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.01uF",
+   "qty": 5,
+   "desc": "Film 100V 0.01 uF 10% LS=5 mm",
+   "mfr": "KEMET",
+   "mfr_pn": "R82EC2100AA50K",
+   "mouser": "80-R82EC2100AA50K",
+   "price": 0.23
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 3,
+   "desc": "MLCC .1UF 50V 10% 5.0MM",
+   "mfr": "Murata",
+   "mfr_pn": "RDER71H104K0K1H03B",
+   "mouser": "81-RDER71H104K0K1H3B",
+   "price": 0.52
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 1,
+   "desc": "Film .1uF 5% 63volts",
+   "mfr": "Vishay",
+   "mfr_pn": "BFC247076104",
+   "mouser": "594-2222-470-76104",
+   "price": 1.59
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.0022uF",
+   "qty": 1,
+   "desc": "Film 100V 0.0022 uF 5% LS=5 mm",
+   "mfr": "KEMET",
+   "mfr_pn": "R82EC1220Z350J",
+   "mouser": "80-R82EC1220Z350J",
+   "price": 0.41
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.001uF",
+   "qty": 2,
+   "desc": "Film 100V 0.001 uF 5% LS=5 mm",
+   "mfr": "KEMET",
+   "mfr_pn": "R82EC1100DQ50J",
+   "mouser": "80-R82EC1100DQ50J",
+   "price": 0.32
+  },
+  {
+   "type": "Resistor",
+   "value": "1k5",
+   "qty": 1,
+   "desc": "R 1.5K ohm 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-1K5",
+   "mouser": "603-MFR-25FRF521K5",
+   "price": 0.1
+  },
+  {
+   "type": "Hardware",
+   "value": "640456-4",
+   "qty": 1,
+   "desc": "Headers & Wire Housings FRICTION LCK HDR 4P Stra",
+   "mfr": "TE Connectivity",
+   "mfr_pn": "640456-4",
+   "mouser": "571-6404564",
+   "price": 0.27
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Blue",
+   "qty": 2,
+   "desc": "Jack BANANA JACK BLUE",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0910-001",
+   "mouser": "530-108-0910-1",
+   "price": 1.71
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Red",
+   "qty": 1,
+   "desc": "Jack BANANA JACK RED",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0902-001",
+   "mouser": "530-108-0902-1",
+   "price": 1.52
+  },
+  {
+   "type": "Jack",
+   "value": "Black Banana Jack",
+   "qty": 6,
+   "desc": "Jack Black Banana Jack",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0903-001",
+   "mouser": "530-108-0903-1",
+   "price": 1.43
+  },
+  {
+   "type": "Switch",
+   "value": "801803000",
+   "qty": 1,
+   "desc": "Switch Cap .310\" RED P.B. CAP",
+   "mfr": "C&K Switches",
+   "mfr_pn": "801803000",
+   "mouser": "611-801803000",
+   "price": null
+  },
+  {
+   "type": "Switch",
+   "value": "702501201",
+   "qty": 1,
+   "desc": "Switch Hardware NICKEL DRESS NUT",
+   "mfr": "C&K Switches",
+   "mfr_pn": "702501201",
+   "mouser": "611-702501201",
+   "price": 2.47
+  },
+  {
+   "type": "Switch",
+   "value": "8125SHCBE",
+   "qty": 1,
+   "desc": "Pushbutton Switch ON-MOM SPDT PC",
+   "mfr": "C&K Switches",
+   "mfr_pn": "8125SHCBE",
+   "mouser": "611-8125-222",
+   "price": 10.91
+  },
+  {
+   "type": "Transistor",
+   "value": "PN4250A PBFREE",
+   "qty": 4,
+   "desc": "BJT PNP Low Noise",
+   "mfr": "Central Semiconductor",
+   "mfr_pn": "PN4250A PBFREE",
+   "mouser": "610-PN4250A",
+   "price": 1.61
+  },
+  {
+   "type": "IC",
+   "value": "LM3900N",
+   "qty": 1,
+   "desc": "OpAmp Quad",
+   "mfr": "TI",
+   "mfr_pn": "LM3900N",
+   "mouser": "595-LM3900N",
+   "price": 0.85
+  },
+  {
+   "type": "IC",
+   "value": "CD4007UBE",
+   "qty": 1,
+   "desc": "Dual Comp Pair Plus Inverter",
+   "mfr": "TI",
+   "mfr_pn": "CD4007UBE",
+   "mouser": "595-CD4007UBE",
+   "price": 0.89
+  },
+  {
+   "type": "Transistor",
+   "value": "BC557BTA",
+   "qty": 4,
+   "desc": "BJT TO-92 PNP GP AMP",
+   "mfr": "onsemi",
+   "mfr_pn": "BC557BTA",
+   "mouser": "512-BC557BTA",
+   "price": 0.28
+  },
+  {
+   "type": "Transistor",
+   "value": "BC547CTA",
+   "qty": 2,
+   "desc": "BJT NPN 45V 100mA",
+   "mfr": "onsemi",
+   "mfr_pn": "BC547CTA",
+   "mouser": "512-BC547CTA",
+   "price": 0.29
+  },
+  {
+   "type": "Switch",
+   "value": "1N4148",
+   "qty": 2,
+   "desc": "Small Signal Switching Diode",
+   "mfr": "onsemi",
+   "mfr_pn": "1N4148",
+   "mouser": "512-1N4148",
+   "price": 0.1
+  },
+  {
+   "type": "Capacitor",
+   "value": "22pF",
+   "qty": 1,
+   "desc": "MLCC RAD 100V 22pF C0G 5% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28C0G2A220JNT00",
+   "mouser": "810-FG28C0G2A220JNT0",
+   "price": 0.26
+  },
+  {
+   "type": "Capacitor",
+   "value": "10pF",
+   "qty": 1,
+   "desc": "MLCC 10PF 50V 5% 5.0MM",
+   "mfr": "Murata",
+   "mfr_pn": "RDE5C1H100J0K1H03B",
+   "mouser": "81-RDE5C1H100J0K1H3B",
+   "price": 0.53
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.01uF",
+   "qty": 5,
+   "desc": "Film 100V 0.01 uF 5% LS=5 mm",
+   "mfr": "KEMET",
+   "mfr_pn": "R82EC2100SH50J",
+   "mouser": "80-R82EC2100SH50J",
+   "price": 0.35
+  },
+  {
+   "type": "Resistor",
+   "value": "33k",
+   "qty": 3,
+   "desc": "R 33K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-33K",
+   "mouser": "603-MFR-25FRF52-33K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "47k",
+   "qty": 2,
+   "desc": "R 47K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-47K",
+   "mouser": "603-MFR-25FRF52-47K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 2,
+   "desc": "R 330 OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-330R",
+   "mouser": "603-MFR-25FRF52-330R",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "2M2",
+   "qty": 2,
+   "desc": "R 2.2 MOhms 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-2M2",
+   "mouser": "603-MFR-25FRF52-2M2",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "220k",
+   "qty": 2,
+   "desc": "R 220K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-220K",
+   "mouser": "603-MFR-25FRF52-220K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 2,
+   "desc": "R 1M ohm 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-1M",
+   "mouser": "603-MFR-25FRF521M",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "8k2",
+   "qty": 1,
+   "desc": "R 8.2K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-8K2",
+   "mouser": "603-MFR-25FRF52-8K2",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "820R",
+   "qty": 1,
+   "desc": "R 820 OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-820R",
+   "mouser": "603-MFR-25FRF52-820R",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "470k",
+   "qty": 1,
+   "desc": "R 470K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-470K",
+   "mouser": "603-MFR-25FRF52-470K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "3k3",
+   "qty": 1,
+   "desc": "R 3.3K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-3K3",
+   "mouser": "603-MFR-25FRF52-3K3",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "330k",
+   "qty": 1,
+   "desc": "R 330K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-330K",
+   "mouser": "603-MFR-25FRF52-330K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "22k",
+   "qty": 1,
+   "desc": "R 22K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-22K",
+   "mouser": "603-MFR-25FRF52-22K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "1k",
+   "qty": 2,
+   "desc": "R 1K ohm 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-1K",
+   "mouser": "603-MFR-25FRF521K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "18k",
+   "qty": 1,
+   "desc": "R 18K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-18K",
+   "mouser": "603-MFR-25FRF52-18K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "15k",
+   "qty": 1,
+   "desc": "R 15K ohm 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-15K",
+   "mouser": "603-MFR-25FRF5215K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "100k",
+   "qty": 9,
+   "desc": "R 100K ohm 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-100K",
+   "mouser": "603-MFR-25FRF52100K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "10k",
+   "qty": 2,
+   "desc": "R 10 kOhms 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FRF52-10K",
+   "mouser": "603-MFR-25FRF5210K",
+   "price": 0.1
+  }
+ ]
+}

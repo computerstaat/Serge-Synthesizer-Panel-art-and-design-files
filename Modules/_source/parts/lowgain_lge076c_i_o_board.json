@@ -1,0 +1,193 @@
+{
+ "source": "https://drive.google.com/file/d/1vzvL2_fP4aBqukrMWK4KCLfEry4aXzPC/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE076C I/O Board",
+ "page": "lge076",
+ "parts": [
+  {
+   "type": "Diode",
+   "value": "LED",
+   "qty": 1,
+   "refs": "D1",
+   "desc": "WINDOW",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "LED",
+   "qty": 1,
+   "refs": "D2",
+   "desc": "OUT",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 2,
+   "refs": "D3,D4",
+   "desc": "DIODE",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "DUR CV",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "DUR CV",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "ENV OUT",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "ENV OUT",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "HOLD",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "HOLD",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "WIN CV",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "WIN CV",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "END",
+   "qty": 1,
+   "refs": "J5",
+   "desc": "END",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "START",
+   "qty": 1,
+   "refs": "J6",
+   "desc": "START",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "CYCLE",
+   "qty": 1,
+   "refs": "J7",
+   "desc": "HOLD",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "WINDOW GATE",
+   "qty": 1,
+   "refs": "J8",
+   "desc": "WINDOW GATE",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "470K",
+   "qty": 4,
+   "refs": "R1,R2,R5,R6",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 4,
+   "refs": "R3,R4,R7,R8",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "1K",
+   "qty": 1,
+   "refs": "R9",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 3,
+   "refs": "R10,R11,R12",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "470R",
+   "qty": 1,
+   "refs": "R47",
+   "desc": "1% 1/4W Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR1",
+   "desc": "FALL",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR2",
+   "desc": "RISE",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR3",
+   "desc": "WINDOW",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR4",
+   "desc": "DURATION",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR5",
+   "desc": "SHAPE",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "SA,SB,SC",
+   "qty": 1,
+   "refs": "W30",
+   "desc": "SPDT ON-ON",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "S2A,S2B",
+   "qty": 1,
+   "refs": "W34",
+   "desc": "SPDT ON-(ON)",
+   "section": ""
+  }
+ ]
+}

@@ -1,0 +1,288 @@
+{
+ "source": "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=52451d7806",
+ "maker": "prism",
+ "kind": "mouser_cart",
+ "board": "Prism Negative Slew",
+ "parts": [
+  {
+   "type": "Trimmer",
+   "value": "100k",
+   "qty": 2,
+   "desc": "Trimmer 1/4\"SQ 100KOHMS",
+   "mfr": "Bourns",
+   "mfr_pn": "3362P-1-104LF",
+   "mouser": "652-3362P-1-104LF",
+   "price": 1.28
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Red",
+   "qty": 4,
+   "desc": "Jack BANANA JACK RED",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0902-001",
+   "mouser": "530-108-0902-1",
+   "price": 1.52
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Blue",
+   "qty": 8,
+   "desc": "Jack BANANA JACK BLUE",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0910-001",
+   "mouser": "530-108-0910-1",
+   "price": 1.71
+  },
+  {
+   "type": "Capacitor",
+   "value": "120pF",
+   "qty": 2,
+   "desc": "MLCC 50V 120pF C0G 5% RAD LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FA28C0G1H121JNU00",
+   "mouser": "810-FA28C0G1H12100",
+   "price": 0.27
+  },
+  {
+   "type": "Potentiometer",
+   "value": "50k",
+   "qty": 4,
+   "desc": "Potentiometers 9mm 50K ohm",
+   "mfr": "TT Electronics",
+   "mfr_pn": "P0915N-FC20BR50K",
+   "mouser": "858-P0915NFC20BR50K",
+   "price": 2.76
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 5,
+   "desc": "MLCC RAD 50V 0.1uF X7R 10% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28X7R1H104KNT06",
+   "mouser": "810-FG28X7R1H104KNT6",
+   "price": 0.27
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.33uF",
+   "qty": 1,
+   "desc": "MLCC .33UF 50V 10% 5.0MM",
+   "mfr": "Murata",
+   "mfr_pn": "RDER71H334K1K1H03B",
+   "mouser": "81-RDER71H334K1K1H3B",
+   "price": 0.58
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.33uF",
+   "qty": 2,
+   "desc": "Film 0.33 uF 63 VDC 10%",
+   "mfr": "WIMA",
+   "mfr_pn": "MKS2C033301C00KI00",
+   "mouser": "505-MKS2C033301CKI00",
+   "price": 0.75
+  },
+  {
+   "type": "Hardware",
+   "value": "640456-4",
+   "qty": 1,
+   "desc": "Headers & Wire Housings FRICTION LCK HDR 4P Stra",
+   "mfr": "TE Connectivity",
+   "mfr_pn": "640456-4",
+   "mouser": "571-6404564",
+   "price": 0.27
+  },
+  {
+   "type": "IC",
+   "value": "MC78M06CTG",
+   "qty": 1,
+   "desc": "Linear Voltage Regulator 6V 500mA Positive",
+   "mfr": "onsemi",
+   "mfr_pn": "MC78M06CTG",
+   "mouser": "863-MC78M06CTG",
+   "price": null
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF",
+   "qty": 3,
+   "desc": "Elec 10UF 25V KS RADIAL",
+   "mfr": "Panasonic",
+   "mfr_pn": "ECE-A1EKS100",
+   "mouser": "667-ECE-A1EKS100",
+   "price": 0.35
+  },
+  {
+   "type": "IC",
+   "value": "LM3900N",
+   "qty": 2,
+   "desc": "OpAmp Quad",
+   "mfr": "TI",
+   "mfr_pn": "LM3900N",
+   "mouser": "595-LM3900N",
+   "price": 0.85
+  },
+  {
+   "type": "Transistor",
+   "value": "BC547BTA",
+   "qty": 2,
+   "desc": "BJT NPN 45V 100mA",
+   "mfr": "onsemi",
+   "mfr_pn": "BC547BTA",
+   "mouser": "512-BC547BTA",
+   "price": 0.27
+  },
+  {
+   "type": "Switch",
+   "value": "1N4148",
+   "qty": 2,
+   "desc": "Small Signal Switching Diode",
+   "mfr": "onsemi",
+   "mfr_pn": "1N4148",
+   "mouser": "512-1N4148",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "820k",
+   "qty": 2,
+   "desc": "R 820Kohm 5% 1/4W Carbon Film",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-820K",
+   "mouser": "603-CFR-25JB-52-820K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "6k8",
+   "qty": 4,
+   "desc": "R 1/4W 6.8K Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-6K8",
+   "mouser": "603-CFR-25JB-52-6K8",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "4k7",
+   "qty": 4,
+   "desc": "R 1/4W 4.7K Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-4K7",
+   "mouser": "603-CFR-25JB-52-4K7",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "470k",
+   "qty": 8,
+   "desc": "R 1/4W 470K Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-470K",
+   "mouser": "603-CFR-25JB-52-470K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "330k",
+   "qty": 2,
+   "desc": "R 1/4W 330K Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-330K",
+   "mouser": "603-CFR-25JB-52-330K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "33R",
+   "qty": 2,
+   "desc": "R 1/4W 33 Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-33R",
+   "mouser": "603-CFR-25JB-52-33R",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "22k",
+   "qty": 4,
+   "desc": "R 1/4W 22K Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-22K",
+   "mouser": "603-CFR-25JB-52-22K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "220k",
+   "qty": 6,
+   "desc": "R 1/4W 220K Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-220K",
+   "mouser": "603-CFR-25JB-52-220K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "220R",
+   "qty": 4,
+   "desc": "R 1/4W 220 Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-220R",
+   "mouser": "603-CFR-25JB-52-220R",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "1k",
+   "qty": 4,
+   "desc": "R 1 kOhms 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-1K0",
+   "mouser": "603-CFR-25JB-1K0",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 2,
+   "desc": "R 1/4W 1M Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-1M",
+   "mouser": "603-CFR-25JB-52-1M",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "18k",
+   "qty": 4,
+   "desc": "R 1/4W 18K Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-18K",
+   "mouser": "603-CFR-25JB-52-18K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "10k",
+   "qty": 6,
+   "desc": "R 10kOhms 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-10K",
+   "mouser": "603-CFR-25JR-5210K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "100k",
+   "qty": 4,
+   "desc": "R 100K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-100K",
+   "mouser": "603-CFR-25JR-52100K",
+   "price": 0.1
+  }
+ ]
+}

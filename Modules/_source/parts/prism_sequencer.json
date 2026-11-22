@@ -1,0 +1,208 @@
+{
+ "source": "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=92fb38c616",
+ "maker": "prism",
+ "kind": "mouser_cart",
+ "board": "Prism Sequencer",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "0.22uF",
+   "qty": 1,
+   "desc": "Film 63V 0.22 uF 10% LS=5 mm",
+   "mfr": "KEMET",
+   "mfr_pn": "R82DC3220Z360K",
+   "mouser": "80-82DC3220Z360K",
+   "price": 0.32
+  },
+  {
+   "type": "Resistor",
+   "value": "2k2",
+   "qty": 10,
+   "desc": "R 2.2K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-2K2",
+   "mouser": "603-CFR-25JR-522K2",
+   "price": 0.11
+  },
+  {
+   "type": "Hardware",
+   "value": "640456-4",
+   "qty": 1,
+   "desc": "Headers & Wire Housings FRICTION LCK HDR 4P Stra",
+   "mfr": "TE Connectivity",
+   "mfr_pn": "640456-4",
+   "mouser": "571-6404564",
+   "price": 0.27
+  },
+  {
+   "type": "Resistor",
+   "value": "10k",
+   "qty": 25,
+   "desc": "R 10kOhms 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-10K",
+   "mouser": "603-CFR-25JR-5210K",
+   "price": 0.1
+  },
+  {
+   "type": "Switch",
+   "value": "1N4148",
+   "qty": 15,
+   "desc": "Small Signal Switching Diode",
+   "mfr": "onsemi",
+   "mfr_pn": "1N4148",
+   "mouser": "512-1N4148",
+   "price": 0.1
+  },
+  {
+   "type": "Transistor",
+   "value": "BC547B",
+   "qty": 1,
+   "desc": "BJT NPN Epitaxial Silicon",
+   "mfr": "onsemi",
+   "mfr_pn": "BC547B",
+   "mouser": "512-BC547B",
+   "price": null
+  },
+  {
+   "type": "Resistor",
+   "value": "220k",
+   "qty": 7,
+   "desc": "R 220 kOhms 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-220K",
+   "mouser": "603-CFR-25JR-52220K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "100k",
+   "qty": 4,
+   "desc": "R 100K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-100K",
+   "mouser": "603-CFR-25JR-52100K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "1k",
+   "qty": 2,
+   "desc": "R 1K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-1K",
+   "mouser": "603-CFR-25JR-521K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 2,
+   "desc": "R 1M ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-1M",
+   "mouser": "603-CFR-25JR-521M",
+   "price": 0.036
+  },
+  {
+   "type": "IC",
+   "value": "LM339N/NOPB",
+   "qty": 1,
+   "desc": "Quad comparator",
+   "mfr": "TI",
+   "mfr_pn": "LM339N/NOPB",
+   "mouser": "926-LM339N/NOPB",
+   "price": 1.51
+  },
+  {
+   "type": "IC",
+   "value": "CD4017BE",
+   "qty": 1,
+   "desc": "Counter ICs 10 Decade/Divider",
+   "mfr": "TI",
+   "mfr_pn": "CD4017BE",
+   "mouser": "595-CD4017BE",
+   "price": 1.39
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 3,
+   "desc": "MLCC .1UF 50V 10% 5.0MM",
+   "mfr": "Murata",
+   "mfr_pn": "RDER71H104K0K1H03B",
+   "mouser": "81-RDER71H104K0K1H3B",
+   "price": 0.52
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.01uF",
+   "qty": 1,
+   "desc": "Film .01uF 63 Volts 5%",
+   "mfr": "WIMA",
+   "mfr_pn": "MKS2C021001A00JI00",
+   "mouser": "505-MKS2C021001AJI00",
+   "price": 0.63
+  },
+  {
+   "type": "Resistor",
+   "value": "15k",
+   "qty": 1,
+   "desc": "R 15K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-15K",
+   "mouser": "603-CFR-25JR-5215K",
+   "price": 0.1
+  },
+  {
+   "type": "Trimmer",
+   "value": "10k",
+   "qty": 1,
+   "desc": "Trimmer 1/4\"SQ 10KOHMS",
+   "mfr": "Bourns",
+   "mfr_pn": "3362P-1-103LF",
+   "mouser": "652-3362P-1-103LF",
+   "price": 1.16
+  },
+  {
+   "type": "Switch",
+   "value": "801803000",
+   "qty": 1,
+   "desc": "Switch Cap .310\" RED P.B. CAP",
+   "mfr": "C&K Switches",
+   "mfr_pn": "801803000",
+   "mouser": "611-801803000",
+   "price": null
+  },
+  {
+   "type": "Switch",
+   "value": "702501201",
+   "qty": 2,
+   "desc": "Switch Hardware NICKEL DRESS NUT",
+   "mfr": "C&K Switches",
+   "mfr_pn": "702501201",
+   "mouser": "611-702501201",
+   "price": 2.47
+  },
+  {
+   "type": "Switch",
+   "value": "8125SHCBE",
+   "qty": 1,
+   "desc": "Pushbutton Switch ON-MOM SPDT PC",
+   "mfr": "C&K Switches",
+   "mfr_pn": "8125SHCBE",
+   "mouser": "611-8125-222",
+   "price": 10.91
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Red",
+   "qty": 13,
+   "desc": "Jack BANANA JACK RED",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0902-001",
+   "mouser": "530-108-0902-1",
+   "price": 1.52
+  }
+ ]
+}

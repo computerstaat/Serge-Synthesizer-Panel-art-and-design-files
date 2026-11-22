@@ -1,0 +1,289 @@
+{
+ "source": "https://drive.google.com/file/d/1svcFw0ld66nqO1wOvAmF9JpiuvtSX4cO/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE114C",
+ "page": "lge114",
+ "parts": [
+  {
+   "type": "Diode",
+   "value": "5MM LED",
+   "qty": 2,
+   "refs": "D1,D3",
+   "desc": "LED T1.75",
+   "section": ""
+  },
+  {
+   "type": "LED",
+   "value": "LENS",
+   "qty": 2,
+   "refs": "",
+   "desc": "5mm LED Lens",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 2,
+   "refs": "D4,D5",
+   "desc": "1N4148",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "INPUT1",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "CV1",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "1V/OCT1",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "DC1",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "BP1",
+   "qty": 1,
+   "refs": "J5",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "TRIG1",
+   "qty": 1,
+   "refs": "J6",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "END1",
+   "qty": 1,
+   "refs": "J7",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "1V/OCT2",
+   "qty": 1,
+   "refs": "J8",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "DC2",
+   "qty": 1,
+   "refs": "J9",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "BP2",
+   "qty": 1,
+   "refs": "J10",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "CV2",
+   "qty": 1,
+   "refs": "J11",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "INPUT2",
+   "qty": 1,
+   "refs": "J12",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "TRIG2",
+   "qty": 1,
+   "refs": "J13",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "END2",
+   "qty": 1,
+   "refs": "J14",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "BC547",
+   "qty": 2,
+   "refs": "Q1,Q6",
+   "desc": "If using 2N3904)",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "56K",
+   "qty": 4,
+   "refs": "R1,R2,R3,R4",
+   "desc": "RES400",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "RLED",
+   "qty": 2,
+   "refs": "R5,R42",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "150K",
+   "qty": 2,
+   "refs": "R6,R43",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (tbd)",
+   "qty": 2,
+   "refs": "R7,R8",
+   "desc": "V/OCT",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "270K",
+   "qty": 2,
+   "refs": "R9,R10",
+   "desc": "1% Metal Film Resistor 1/4W",
+   "section": ""
+  },
+  {
+   "type": "Switch",
+   "value": "CYCLE",
+   "qty": 2,
+   "refs": "SW1,SW6",
+   "desc": "Miniature Toggle SPDT (ON-ON)",
+   "section": ""
+  },
+  {
+   "type": "Switch",
+   "value": "CV1",
+   "qty": 2,
+   "refs": "SW2,SW5",
+   "desc": "(ON-OFF-ON)",
+   "section": ""
+  },
+  {
+   "type": "Switch",
+   "value": "SHAPE",
+   "qty": 2,
+   "refs": "SW3,SW4",
+   "desc": "(ON-OFF-ON)",
+   "section": ""
+  },
+  {
+   "type": "Switch",
+   "value": "RNG2",
+   "qty": 2,
+   "refs": "SW7,SW8",
+   "desc": "(ON-ON)",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR1",
+   "desc": "RISE1",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR2",
+   "desc": "FALL1",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR3",
+   "desc": "CV1",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR4",
+   "desc": "SHAPE1",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR5",
+   "desc": "RISE2",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR6",
+   "desc": "FALL2",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR7",
+   "desc": "CV2",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR8",
+   "desc": "SHAPE2",
+   "section": ""
+  }
+ ]
+}

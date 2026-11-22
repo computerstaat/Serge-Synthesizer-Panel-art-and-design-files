@@ -1,0 +1,225 @@
+{
+ "source": "https://drive.google.com/file/d/1wcF1HQNc6Vuv1t32s5FDpQUEefi86WBG/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE084 V2.1 Main Board",
+ "page": "lge084",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "10u",
+   "qty": 3,
+   "refs": "C1,C3,C6",
+   "desc": "Electrolytic Cap 2.5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 4,
+   "refs": "C2,C7,C8,C14",
+   "desc": "CAP_0805_N",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "OMIT D7 & D18 if",
+   "qty": 6,
+   "refs": "D1,D3,D5,D7,D9,D10",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 10,
+   "refs": "D12,D14,D16,D18",
+   "desc": "DIODE",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "PWR",
+   "qty": 1,
+   "refs": "HDR_2",
+   "desc": "AMP .100 4P HDR",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "78L06",
+   "qty": 1,
+   "refs": "IC1",
+   "desc": "78L06",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack P1",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Pick Your Color",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack T1",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "Pick Your Color",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack P2",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "Pick Your Color",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack POUT",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "Pick Your Color",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack T2",
+   "qty": 1,
+   "refs": "J5",
+   "desc": "Pick Your Color",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack P3",
+   "qty": 1,
+   "refs": "J6",
+   "desc": "Pick Your Color",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack T3",
+   "qty": 1,
+   "refs": "J7",
+   "desc": "Pick Your Color",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack TOUT",
+   "qty": 1,
+   "refs": "J8",
+   "desc": "Pick Your Color",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3906",
+   "qty": 2,
+   "refs": "Q1,Q2",
+   "desc": "2N3906",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904",
+   "qty": 2,
+   "refs": "Q13,Q14",
+   "desc": "2N3904",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "2K21",
+   "qty": 5,
+   "refs": "R1,R2,R6,R15,R18",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "221K",
+   "qty": 1,
+   "refs": "R5",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "R9,R10",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "150K",
+   "qty": 1,
+   "refs": "R13",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "15K",
+   "qty": 1,
+   "refs": "R19",
+   "desc": "1% Metal Film Resistor",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "P4",
+   "qty": 1,
+   "refs": "W1",
+   "desc": "P4",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "T4",
+   "qty": 1,
+   "refs": "W2",
+   "desc": "T4",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "Split Washer",
+   "qty": 2,
+   "refs": "",
+   "desc": "M3 or #4",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "Button Head Machine Screw",
+   "qty": 2,
+   "refs": "",
+   "desc": "M3",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "Hex Head Machine Screw (Black)",
+   "qty": 2,
+   "refs": "",
+   "desc": "M3",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "Female – Female – M3x11mm Stand off",
+   "qty": 2,
+   "refs": "",
+   "desc": "M3/Brass",
+   "section": ""
+  }
+ ]
+}

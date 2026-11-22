@@ -1,0 +1,97 @@
+{
+ "source": "https://drive.google.com/file/d/10DKDwwz4Sw2rlqlia1bBrpZKuw2glxxS/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE006RC I/O Board",
+ "page": "lge006",
+ "parts": [
+  {
+   "type": "Jack",
+   "value": "X CV",
+   "qty": 1,
+   "refs": "J6",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Y CV",
+   "qty": 1,
+   "refs": "J7",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "X INPUT",
+   "qty": 1,
+   "refs": "J8",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "OUTPUT",
+   "qty": 1,
+   "refs": "J9",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Y INPUT",
+   "qty": 1,
+   "refs": "J10",
+   "desc": "Emmerson_Banana",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 3,
+   "refs": "VR1,VR2,VR3",
+   "desc": "9mm Alpha/Bourns Pot",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 BUTTON HEAD SCREW",
+   "qty": 8,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 8,
+   "refs": "",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11 F-F HEX STAND OFFS",
+   "qty": 4,
+   "refs": "",
+   "desc": "(12mm not 11mm, but will work)",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": ""
+  }
+ ]
+}

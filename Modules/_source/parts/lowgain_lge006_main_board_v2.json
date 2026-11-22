@@ -1,0 +1,313 @@
+{
+ "source": "https://drive.google.com/file/d/1W3DQj-ufHfAtSaIw01AfS8mAzSGBGGDk/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE006 Main Board V2",
+ "page": "lge006",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "470n",
+   "qty": 2,
+   "refs": "C1,C3",
+   "desc": "Film Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "47p",
+   "qty": 1,
+   "refs": "C2",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "10u @35V",
+   "qty": 3,
+   "refs": "C4,C5,C10",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "10n",
+   "qty": 2,
+   "refs": "C6,C7",
+   "desc": "Capacitor(5.08mm)",
+   "section": ""
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 2,
+   "refs": "C8,C9",
+   "desc": "Ceramic Cap SMD 0805 – 1206",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 1,
+   "refs": "D1",
+   "desc": "Diode(10.16mm)",
+   "section": ""
+  },
+  {
+   "type": "Ferrite bead or 10R",
+   "value": "10R",
+   "qty": 2,
+   "refs": "FB1,FB2",
+   "desc": "Bead(10.16mm)",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "0.156 HDR",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "MTA-156-4",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "BC557",
+   "qty": 3,
+   "refs": "Q1,Q2,Q3",
+   "desc": "BC557",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "15K",
+   "qty": 2,
+   "refs": "R1,R10",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "220K",
+   "qty": 4,
+   "refs": "R2,R3,R7,R11",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "2.2K",
+   "qty": 2,
+   "refs": "R4,R25",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": ""
+  },
+  {
+   "type": "Trimmer",
+   "value": "25K",
+   "qty": 3,
+   "refs": "R5,R9,R12",
+   "desc": "3362P Series Trimmer",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "47K / 22K",
+   "qty": 2,
+   "refs": "R6,R22",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "47K",
+   "qty": 2,
+   "refs": "R23,R24",
+   "desc": "OMIT R23-R24 FOR Gate/VCA",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "1K",
+   "qty": 2,
+   "refs": "R8,R21",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "150K / 68K",
+   "qty": 1,
+   "refs": "R13",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "68K",
+   "qty": 2,
+   "refs": "R14,R19",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "22K",
+   "qty": 2,
+   "refs": "R15,R16",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 3,
+   "refs": "R17,R18,R20",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "33K",
+   "qty": 1,
+   "refs": "R26",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "AS3080",
+   "qty": 1,
+   "refs": "U1",
+   "desc": "CA3080AE",
+   "section": ""
+  },
+  {
+   "type": "IC",
+   "value": "TL071",
+   "qty": 1,
+   "refs": "U2",
+   "desc": "LM307",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack (Blue)",
+   "qty": 1,
+   "refs": "",
+   "desc": "A",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack (Blue)",
+   "qty": 1,
+   "refs": "",
+   "desc": "B",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack (Blue)",
+   "qty": 1,
+   "refs": "",
+   "desc": "D",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack (Blue)",
+   "qty": 1,
+   "refs": "",
+   "desc": "E",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack (Black)",
+   "qty": 1,
+   "refs": "",
+   "desc": "F",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "B25K",
+   "qty": 1,
+   "refs": "W6",
+   "desc": "Gain W",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "B25K",
+   "qty": 1,
+   "refs": "W7",
+   "desc": "Gain CW",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "B25K",
+   "qty": 1,
+   "refs": "W8",
+   "desc": "Gain CCW",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack (Blue)",
+   "qty": 1,
+   "refs": "",
+   "desc": "G",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Jack (Black)",
+   "qty": 1,
+   "refs": "",
+   "desc": "C",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "0V",
+   "qty": 1,
+   "refs": "W11",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "V-",
+   "qty": 1,
+   "refs": "W12",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Wire point",
+   "value": "V+",
+   "qty": 1,
+   "refs": "W13",
+   "desc": "Wire Point",
+   "section": ""
+  },
+  {
+   "type": "Diode",
+   "value": "1N5995B",
+   "qty": 1,
+   "refs": "Z1",
+   "desc": "6.2V .5W Zener Diode",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Blue Values = Ring",
+   "qty": 0,
+   "refs": "",
+   "desc": "RING / GATE JUMPER SETTING:",
+   "section": ""
+  }
+ ]
+}

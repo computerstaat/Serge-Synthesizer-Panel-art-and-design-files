@@ -1,0 +1,238 @@
+{
+ "source": "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7198b59b1c",
+ "maker": "prism",
+ "kind": "mouser_cart",
+ "board": "Prism X-Fade/Gate",
+ "parts": [
+  {
+   "type": "Resistor",
+   "value": "22k",
+   "qty": 1,
+   "desc": "R 1/4W 22K Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-22K",
+   "mouser": "603-CFR-25JB-52-22K",
+   "price": 0.11
+  },
+  {
+   "type": "Switch",
+   "value": "M2022S2A1W03",
+   "qty": 1,
+   "desc": "Toggle Switch ON-ON PC",
+   "mfr": "NKK Switches",
+   "mfr_pn": "M2022S2A1W03",
+   "mouser": "633-M2022S2A1W03",
+   "price": null
+  },
+  {
+   "type": "Hardware",
+   "value": "1-2199298-4",
+   "qty": 1,
+   "desc": "IC socket 16P DIP",
+   "mfr": "TE Connectivity",
+   "mfr_pn": "1-2199298-4",
+   "mouser": "571-1-2199298-4",
+   "price": 0.3
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Blue",
+   "qty": 2,
+   "desc": "Jack BANANA JACK BLUE",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0910-001",
+   "mouser": "530-108-0910-1",
+   "price": 1.71
+  },
+  {
+   "type": "Capacitor",
+   "value": "10pF",
+   "qty": 3,
+   "desc": "MLCC RAD 50V 10pF C0G LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28C0G1H100DNT00",
+   "mouser": "810-FG28C0G1H100DNT0",
+   "price": 0.22
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.22uF",
+   "qty": 2,
+   "desc": "Film 63V 0.22 uF 5% LS=5 mm",
+   "mfr": "KEMET",
+   "mfr_pn": "R82DC3220AA60J",
+   "mouser": "80-R82DC3220AA60J",
+   "price": 0.33
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 10,
+   "desc": "MLCC RAD 50V 0.1uF X7R 10% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28X7R1H104KNT00",
+   "mouser": "810-FG28X7R1H104KNT0",
+   "price": 0.098
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF",
+   "qty": 2,
+   "desc": "Elec 10UF 25V KS RADIAL",
+   "mfr": "Panasonic",
+   "mfr_pn": "ECE-A1EKS100",
+   "mouser": "667-ECE-A1EKS100",
+   "price": 0.35
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3906BU",
+   "qty": 2,
+   "desc": "BJT PNP Transistor General",
+   "mfr": "onsemi",
+   "mfr_pn": "2N3906BU",
+   "mouser": "512-2N3906BU",
+   "price": 0.27
+  },
+  {
+   "type": "IC",
+   "value": "LM13700N",
+   "qty": 1,
+   "desc": "Transconductance Amplifier (obsolete)",
+   "mfr": "TI",
+   "mfr_pn": "LM13700N",
+   "mouser": "926-LM13700N",
+   "price": null
+  },
+  {
+   "type": "Trimmer",
+   "value": "100k",
+   "qty": 4,
+   "desc": "Trimmer 1/4\"SQ 100KOHMS",
+   "mfr": "Bourns",
+   "mfr_pn": "3362P-1-104LF",
+   "mouser": "652-3362P-1-104LF",
+   "price": 1.28
+  },
+  {
+   "type": "Resistor",
+   "value": "100k",
+   "qty": 11,
+   "desc": "R 1/4W 100K Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-100K",
+   "mouser": "603-CFR-25JB-52-100K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "220R",
+   "qty": 4,
+   "desc": "R 1/4W 220 Ohm 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JB-52-220R",
+   "mouser": "603-CFR-25JB-52-220R",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "270k",
+   "qty": 2,
+   "desc": "R 270Kohm 5% 1/4W Carbon Film",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JT-52-270K",
+   "mouser": "603-CFR-25JT-52-270K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "10k",
+   "qty": 1,
+   "desc": "R 10kOhms 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-10K",
+   "mouser": "603-CFR-25JR-5210K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "4k7",
+   "qty": 1,
+   "desc": "R 4.7K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-4K7",
+   "mouser": "603-CFR-25JR-524K7",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "330k",
+   "qty": 1,
+   "desc": "R 330Kohm 5% 1/4W Carbon Film",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-330K",
+   "mouser": "603-CFR-25JR-52-330K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 1,
+   "desc": "R 330ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-330R",
+   "mouser": "603-CFR-25JR-52330R",
+   "price": 0.11
+  },
+  {
+   "type": "Hardware",
+   "value": "640456-4",
+   "qty": 1,
+   "desc": "Headers & Wire Housings FRICTION LCK HDR 4P Stra",
+   "mfr": "TE Connectivity",
+   "mfr_pn": "640456-4",
+   "mouser": "571-6404564",
+   "price": 0.27
+  },
+  {
+   "type": "IC",
+   "value": "TL072IP",
+   "qty": 3,
+   "desc": "OpAmp Dual JFET In Low N",
+   "mfr": "TI",
+   "mfr_pn": "TL072IP",
+   "mouser": "595-TL072IP",
+   "price": 1.0
+  },
+  {
+   "type": "Jack",
+   "value": "Black Banana Jack",
+   "qty": 3,
+   "desc": "Jack Black Banana Jack",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0903-001",
+   "mouser": "530-108-0903-1",
+   "price": 1.43
+  },
+  {
+   "type": "Potentiometer",
+   "value": "100k",
+   "qty": 6,
+   "desc": "Potentiometers 9mm 100K ohm",
+   "mfr": "TT Electronics",
+   "mfr_pn": "P0915N-FC20BR100K",
+   "mouser": "858-P0915NFC20BR100K",
+   "price": 2.76
+  },
+  {
+   "type": "Hardware",
+   "value": "1-2199298-2",
+   "qty": 3,
+   "desc": "IC socket 8P DIP",
+   "mfr": "TE Connectivity",
+   "mfr_pn": "1-2199298-2",
+   "mouser": "571-1-2199298-2",
+   "price": 0.27
+  }
+ ]
+}

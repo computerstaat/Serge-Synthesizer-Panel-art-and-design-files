@@ -1,0 +1,228 @@
+{
+ "source": "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=a08f9a4b91",
+ "maker": "prism",
+ "kind": "mouser_cart",
+ "board": "Prism VC Phaser",
+ "parts": [
+  {
+   "type": "Vactrol / LDR",
+   "value": "NSL-37V5C3/2",
+   "qty": 3,
+   "desc": "Photoresistors",
+   "mfr": "Advanced Photonix",
+   "mfr_pn": "NSL-37V5C3/2",
+   "mouser": "846-NSL-37V5C3/2",
+   "price": 9.8
+  },
+  {
+   "type": "IC",
+   "value": "TL074ACN",
+   "qty": 2,
+   "desc": "OpAmp Quad Low Noise JFET",
+   "mfr": "TI",
+   "mfr_pn": "TL074ACN",
+   "mouser": "595-TL074ACN",
+   "price": 1.22
+  },
+  {
+   "type": "Potentiometer",
+   "value": "50k",
+   "qty": 3,
+   "desc": "Potentiometers 9mm 50K ohm",
+   "mfr": "TT Electronics",
+   "mfr_pn": "P0915N-FC20BR50K",
+   "mouser": "858-P0915NFC20BR50K",
+   "price": 2.76
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Blue",
+   "qty": 1,
+   "desc": "Jack BANANA JACK BLUE",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0910-001",
+   "mouser": "530-108-0910-1",
+   "price": 1.71
+  },
+  {
+   "type": "Jack",
+   "value": "Black Banana Jack",
+   "qty": 6,
+   "desc": "Jack Black Banana Jack",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0903-001",
+   "mouser": "530-108-0903-1",
+   "price": 1.43
+  },
+  {
+   "type": "Capacitor",
+   "value": "2200pF",
+   "qty": 6,
+   "desc": "Film 63volts 2200pF 10%",
+   "mfr": "KEMET",
+   "mfr_pn": "MMK5222K63J01L4BULK",
+   "mouser": "80-MMK5222K63J01L4",
+   "price": 0.49
+  },
+  {
+   "type": "Capacitor",
+   "value": "10pF",
+   "qty": 6,
+   "desc": "MLCC 10pF",
+   "mfr": "Murata",
+   "mfr_pn": "RCE5C1H100J0M1H03A",
+   "mouser": "81-RCE5C1H100J0M1H3A",
+   "price": 0.56
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.01uF",
+   "qty": 3,
+   "desc": "Film 63volts 0.01uF 5% 5mm",
+   "mfr": "KEMET",
+   "mfr_pn": "MMK5103J63J01L4",
+   "mouser": "80-MMK5103J63J01L4",
+   "price": 0.49
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF",
+   "qty": 2,
+   "desc": "Elec 10UF 25V KS RADIAL",
+   "mfr": "Panasonic",
+   "mfr_pn": "ECE-A1EKS100",
+   "mouser": "667-ECE-A1EKS100",
+   "price": 0.35
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 2,
+   "desc": "MLCC RAD 50V 0.1uF X7R 10% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28X7R1H104KNT06",
+   "mouser": "810-FG28X7R1H104KNT6",
+   "price": 0.27
+  },
+  {
+   "type": "Capacitor",
+   "value": "47pF",
+   "qty": 1,
+   "desc": "MLCC RAD 50V 47pF C0G 5% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28C0G1H470JNT00",
+   "mouser": "810-FG28C0G1H470JNT0",
+   "price": 0.23
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.47uF",
+   "qty": 1,
+   "desc": "Film 50volts 0.47uF 10% LS 5mm",
+   "mfr": "KEMET",
+   "mfr_pn": "MMK5474K50J01L4BULK",
+   "mouser": "80-MMK5474K50J01L4",
+   "price": 1.51
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 18,
+   "desc": "R 1M ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-1M",
+   "mouser": "603-CFR-25JR-521M",
+   "price": 0.036
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 4,
+   "desc": "R 330ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-330R",
+   "mouser": "603-CFR-25JR-52330R",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "1k5",
+   "qty": 4,
+   "desc": "R 1.5K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-1K5",
+   "mouser": "603-CFR-25JR-52-1K5",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "15k",
+   "qty": 3,
+   "desc": "R 15K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-15K",
+   "mouser": "603-CFR-25JR-5215K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "68k",
+   "qty": 2,
+   "desc": "R 68K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-68K",
+   "mouser": "603-CFR-25JR-52-68K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "22k",
+   "qty": 2,
+   "desc": "R 22K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-22K",
+   "mouser": "603-CFR-25JR-5222K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "47k",
+   "qty": 1,
+   "desc": "R 47K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-47K",
+   "mouser": "603-CFR-25JR-5247K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "220R",
+   "qty": 1,
+   "desc": "R 220ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-220R",
+   "mouser": "603-CFR-25JR-52220R",
+   "price": 0.1
+  },
+  {
+   "type": "Hardware",
+   "value": "640456-4",
+   "qty": 1,
+   "desc": "Headers & Wire Housings FRICTION LCK HDR 4P Stra",
+   "mfr": "TE Connectivity",
+   "mfr_pn": "640456-4",
+   "mouser": "571-6404564",
+   "price": 0.27
+  },
+  {
+   "type": "Resistor",
+   "value": "150k",
+   "qty": 1,
+   "desc": "R 150K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-150K",
+   "mouser": "603-CFR-25JR-52150K",
+   "price": 0.1
+  }
+ ]
+}

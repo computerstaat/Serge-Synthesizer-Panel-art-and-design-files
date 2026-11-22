@@ -1,0 +1,369 @@
+{
+ "source": "https://drive.google.com/file/d/1hv0hqRm7njWdRTHyuiYpvndFrvygZQ3S/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE082C I/O Board",
+ "page": "lge082",
+ "parts": [
+  {
+   "type": "Diode",
+   "value": "5MM LED",
+   "qty": 2,
+   "refs": "D1,D2",
+   "desc": "LED T1",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "INPUT 1",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "BLACK EMMERSON/CINCH BANANA",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "OUTPUT 1",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "BLUE EMMERSON/CINCH BANANA",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "END 1",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "RED EMMERSON/CINCH BANANA",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "INPUT 2",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "BLACK EMMERSON/CINCH BANANA",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "OUTPUT 2",
+   "qty": 1,
+   "refs": "J5",
+   "desc": "BLUE EMMERSON/CINCH BANANA",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "END 2",
+   "qty": 1,
+   "refs": "J6",
+   "desc": "RED EMMERSON/CINCH BANANA",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "Emmerson_Banana",
+   "qty": 8,
+   "refs": "J7,J8,J9,J11,J12,J13,J14,J16",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "CV 1",
+   "qty": 1,
+   "refs": "J10",
+   "desc": "BLUE EMMERSON/CINCH BANANA",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "CV 2",
+   "qty": 1,
+   "refs": "J15",
+   "desc": "BLUE EMMERSON/CINCH BANANA",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B50-B100K",
+   "qty": 2,
+   "refs": "VR1,VR3",
+   "desc": "9mm Alpha/Bourns Pot",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B50K-B100K",
+   "qty": 2,
+   "refs": "VR2,VR4",
+   "desc": "9mm Alpha/Bourns Pot",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "A",
+   "qty": 1,
+   "refs": "W1",
+   "desc": "INPUT A",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "B",
+   "qty": 1,
+   "refs": "W2",
+   "desc": "OUTPUT A",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "R1",
+   "qty": 2,
+   "refs": "W3,W20",
+   "desc": "RATE A POT CW",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "R2",
+   "qty": 2,
+   "refs": "W4,W21",
+   "desc": "RATE A POT WIPER",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "R3",
+   "qty": 2,
+   "refs": "W5,W22",
+   "desc": "RATE A POT CCW (GND)",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "T1",
+   "qty": 1,
+   "refs": "W6",
+   "desc": "VALLEYS (TROUGH) INPUT 1",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "CV1",
+   "qty": 2,
+   "refs": "W7,W24",
+   "desc": "CV INPUT CCW",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "CV3",
+   "qty": 2,
+   "refs": "W8,W25",
+   "desc": "CV INPUT CW",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "T2",
+   "qty": 1,
+   "refs": "W9",
+   "desc": "VALLEYS (TROUGH) INPUT 2",
+   "section": ""
+  },
+  {
+   "type": "LED",
+   "value": "LA",
+   "qty": 2,
+   "refs": "W10,W27",
+   "desc": "LED ANODE",
+   "section": ""
+  },
+  {
+   "type": "LED",
+   "value": "LK",
+   "qty": 2,
+   "refs": "W11,W28",
+   "desc": "LED CATHODE",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "D",
+   "qty": 1,
+   "refs": "W12",
+   "desc": "PULSE (END) A OUTPUT",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "V+",
+   "qty": 1,
+   "refs": "W13",
+   "desc": "+12V",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "+6V",
+   "qty": 1,
+   "refs": "W14",
+   "desc": "+6V",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "V-",
+   "qty": 1,
+   "refs": "W15",
+   "desc": "-12V",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "GND",
+   "qty": 3,
+   "refs": "W16,W17,W30",
+   "desc": "0V",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "E",
+   "qty": 1,
+   "refs": "W18",
+   "desc": "INPUT B",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "F",
+   "qty": 1,
+   "refs": "W19",
+   "desc": "OUTPUT B",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "T3",
+   "qty": 1,
+   "refs": "W23",
+   "desc": "VALLEYS (TROUGH) INPUT 3",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "T4",
+   "qty": 1,
+   "refs": "W26",
+   "desc": "VALLEYS (TROUGH) INPUT 4",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "H",
+   "qty": 1,
+   "refs": "W29",
+   "desc": "PULSE (END) B OUTPUT",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "P1",
+   "qty": 1,
+   "refs": "W31",
+   "desc": "HILLS (PEAK) INPUT 1",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "P2",
+   "qty": 1,
+   "refs": "W32",
+   "desc": "HILLS (PEAK) INPUT 2",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "P3",
+   "qty": 1,
+   "refs": "W33",
+   "desc": "HILLS (PEAK) INPUT 3",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "P4",
+   "qty": 1,
+   "refs": "W34",
+   "desc": "HILLS (PEAK) INPUT 4",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "POUT",
+   "qty": 1,
+   "refs": "W35",
+   "desc": "HILLS (PEAK) OUTPUT",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "TOUT",
+   "qty": 1,
+   "refs": "W36",
+   "desc": "VALLEYS (TROUGH) OUTPUT",
+   "section": ""
+  },
+  {
+   "type": "Switch",
+   "value": "LOOP SWITCH (SPDT ON-ON)",
+   "qty": 1,
+   "refs": "",
+   "desc": "SW1a",
+   "section": ""
+  },
+  {
+   "type": "Switch",
+   "value": "LOOP SWITCH (SPDT ON-ON)",
+   "qty": 0,
+   "refs": "",
+   "desc": "SW1C",
+   "section": ""
+  },
+  {
+   "type": "Switch",
+   "value": "LOOP SWITCH (SPDT ON-ON)",
+   "qty": 0,
+   "refs": "",
+   "desc": "SW1b",
+   "section": ""
+  },
+  {
+   "type": "Switch",
+   "value": "LOOP SWITCH (SPDT ON-ON)",
+   "qty": 1,
+   "refs": "",
+   "desc": "SW2a",
+   "section": ""
+  },
+  {
+   "type": "Switch",
+   "value": "LOOP SWITCH (SPDT ON-ON)",
+   "qty": 0,
+   "refs": "",
+   "desc": "SW2C",
+   "section": ""
+  },
+  {
+   "type": "Switch",
+   "value": "LOOP SWITCH (SPDT ON-ON)",
+   "qty": 0,
+   "refs": "",
+   "desc": "SW2b",
+   "section": ""
+  }
+ ]
+}

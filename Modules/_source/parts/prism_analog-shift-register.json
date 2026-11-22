@@ -1,0 +1,258 @@
+{
+ "source": "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=51ae86ccc8",
+ "maker": "prism",
+ "kind": "mouser_cart",
+ "board": "Prism ASR",
+ "parts": [
+  {
+   "type": "IC",
+   "value": "LF356N/NOPB",
+   "qty": 4,
+   "desc": "OpAmp JFET INPUT OP AMP",
+   "mfr": "TI",
+   "mfr_pn": "LF356N/NOPB",
+   "mouser": "926-LF356N/NOPB",
+   "price": 1.25
+  },
+  {
+   "type": "Trimmer",
+   "value": "100k",
+   "qty": 3,
+   "desc": "Trimmer 3/8\" 100Kohms",
+   "mfr": "Bourns",
+   "mfr_pn": "3296W-1-104LF",
+   "mouser": "652-3296W-1-104LF",
+   "price": 2.46
+  },
+  {
+   "type": "Switch",
+   "value": "CD4052BE",
+   "qty": 2,
+   "desc": "Multiplexer Switch ICs 4-Ch. Analog",
+   "mfr": "TI",
+   "mfr_pn": "CD4052BE",
+   "mouser": "595-CD4052BE",
+   "price": 0.89
+  },
+  {
+   "type": "Switch",
+   "value": "1N4148",
+   "qty": 2,
+   "desc": "Small Signal Switching Diode",
+   "mfr": "onsemi",
+   "mfr_pn": "1N4148",
+   "mouser": "512-1N4148",
+   "price": 0.1
+  },
+  {
+   "type": "IC",
+   "value": "TL074CN",
+   "qty": 1,
+   "desc": "OpAmp JFET Input Low Noise quad",
+   "mfr": "TI",
+   "mfr_pn": "TL074CN",
+   "mouser": "595-TL074CN",
+   "price": 1.1
+  },
+  {
+   "type": "IC",
+   "value": "TL072IP",
+   "qty": 1,
+   "desc": "OpAmp Dual JFET In Low N",
+   "mfr": "TI",
+   "mfr_pn": "TL072IP",
+   "mouser": "595-TL072IP",
+   "price": 1.0
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Red",
+   "qty": 2,
+   "desc": "Jack BANANA JACK RED",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0902-001",
+   "mouser": "530-108-0902-1",
+   "price": 1.52
+  },
+  {
+   "type": "Jack",
+   "value": "Banana Blue",
+   "qty": 4,
+   "desc": "Jack BANANA JACK BLUE",
+   "mfr": "Cinch",
+   "mfr_pn": "108-0910-001",
+   "mouser": "530-108-0910-1",
+   "price": 1.71
+  },
+  {
+   "type": "IC",
+   "value": "CD4024BE",
+   "qty": 1,
+   "desc": "Counter ICs 7-Bit Ripple-Carry",
+   "mfr": "TI",
+   "mfr_pn": "CD4024BE",
+   "mouser": "595-CD4024BE",
+   "price": 1.02
+  },
+  {
+   "type": "Trimmer",
+   "value": "5k",
+   "qty": 1,
+   "desc": "Trimmer 1/4\"SQ 5KOHMS",
+   "mfr": "Bourns",
+   "mfr_pn": "3362P-1-502LF",
+   "mouser": "652-3362P-1-502LF",
+   "price": 1.18
+  },
+  {
+   "type": "Hardware",
+   "value": "640456-4",
+   "qty": 1,
+   "desc": "Headers & Wire Housings FRICTION LCK HDR 4P Stra",
+   "mfr": "TE Connectivity",
+   "mfr_pn": "640456-4",
+   "mouser": "571-6404564",
+   "price": 0.27
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 13,
+   "desc": "MLCC 50V 0.1uF X7R 10% RAD LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FA28X7R1H104KNU00",
+   "mouser": "810-FA28X7R1H10400",
+   "price": 0.126
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.1uF",
+   "qty": 4,
+   "desc": "Film .1uF 5% 63volts",
+   "mfr": "Vishay",
+   "mfr_pn": "BFC247076104",
+   "mouser": "594-2222-470-76104",
+   "price": 1.59
+  },
+  {
+   "type": "Capacitor",
+   "value": "47pF",
+   "qty": 4,
+   "desc": "MLCC RAD 50V 47pF C0G 5% LS:5mm",
+   "mfr": "TDK",
+   "mfr_pn": "FG28C0G1H470JNT00",
+   "mouser": "810-FG28C0G1H470JNT0",
+   "price": 0.23
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF",
+   "qty": 2,
+   "desc": "Elec 10UF 25V KS RADIAL",
+   "mfr": "Panasonic",
+   "mfr_pn": "ECE-A1EKS100",
+   "mouser": "667-ECE-A1EKS100",
+   "price": 0.35
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.01uF",
+   "qty": 1,
+   "desc": "Film 100V 0.01 uF 10% LS=5 mm",
+   "mfr": "KEMET",
+   "mfr_pn": "R82EC2100AA50K",
+   "mouser": "80-R82EC2100AA50K",
+   "price": 0.23
+  },
+  {
+   "type": "Resistor",
+   "value": "10k",
+   "qty": 7,
+   "desc": "R 10Kohms 5%",
+   "mfr": "KOA Speer",
+   "mfr_pn": "CF1/4C103J",
+   "mouser": "660-CF1/4C103J",
+   "price": 0.14
+  },
+  {
+   "type": "Resistor",
+   "value": "100k",
+   "qty": 4,
+   "desc": "R 100K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-100K",
+   "mouser": "603-CFR-25JR-52100K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 3,
+   "desc": "R 330ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-330R",
+   "mouser": "603-CFR-25JR-52330R",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 3,
+   "desc": "R 1M ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-1M",
+   "mouser": "603-CFR-25JR-521M",
+   "price": 0.036
+  },
+  {
+   "type": "Resistor",
+   "value": "15k",
+   "qty": 3,
+   "desc": "R 15K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-15K",
+   "mouser": "603-CFR-25JR-5215K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "22k",
+   "qty": 7,
+   "desc": "R 22K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-22K",
+   "mouser": "603-CFR-25JR-5222K",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "20k",
+   "qty": 1,
+   "desc": "R 20K OHM 5%TR 1/4W",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-20K",
+   "mouser": "603-CFR-25JR-5220K",
+   "price": 0.11
+  },
+  {
+   "type": "Resistor",
+   "value": "8k2",
+   "qty": 1,
+   "desc": "R 8.2K ohm 1/4W 5%",
+   "mfr": "YAGEO",
+   "mfr_pn": "CFR-25JR-52-8K2",
+   "mouser": "603-CFR-25JR-52-8K2",
+   "price": 0.1
+  },
+  {
+   "type": "Resistor",
+   "value": "20k",
+   "qty": 1,
+   "desc": "R 20K OHM 1/4W 1%",
+   "mfr": "YAGEO",
+   "mfr_pn": "MFR-25FBF52-20K",
+   "mouser": "603-MFR-25FBF52-20K",
+   "price": 0.11
+  }
+ ]
+}

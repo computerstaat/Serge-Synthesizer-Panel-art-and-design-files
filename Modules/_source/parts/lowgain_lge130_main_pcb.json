@@ -1,0 +1,657 @@
+{
+ "source": "https://drive.google.com/file/d/1DSNTe8xV0Ss0ZZWt7UMekMEmWQ0sZkOJ/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE130 Main PCB",
+ "page": "low-gain-lge130-tri-core-oscillator-4u-serge-compatible",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "(see maker BOM)",
+   "qty": 8,
+   "refs": "C1,C2,C3,C4,C6,C8,C9,C10",
+   "desc": "",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 14,
+   "refs": "C11,C12,C13,C15,C23,C24",
+   "desc": "MLCC 50V SMT 0805/1206",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF@50V",
+   "qty": 4,
+   "refs": "C5,C7,C14,C17",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1nF",
+   "qty": 1,
+   "refs": "C16",
+   "desc": "C0G Ceramic or Film Cap 5mm LS",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Capacitor",
+   "value": "220nF",
+   "qty": 1,
+   "refs": "C18",
+   "desc": "Film Cap 5mm LS",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1nF POLY",
+   "qty": 1,
+   "refs": "C19",
+   "desc": "C0G Ceramic or Film Cap 5mm LS",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47pF",
+   "qty": 1,
+   "refs": "C20",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF",
+   "qty": 1,
+   "refs": "C21",
+   "desc": "C0G Ceramic or Film Cap 5mm LS",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K",
+   "qty": 1,
+   "refs": "C22",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 1,
+   "refs": "D1",
+   "desc": "General Signal Diode",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 1,
+   "refs": "D5",
+   "desc": "General Signal Diode",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Transistor",
+   "value": "DMMT3906",
+   "qty": 1,
+   "refs": "Q1",
+   "desc": "DMMT3906",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Transistor",
+   "value": "DMMT3904",
+   "qty": 1,
+   "refs": "Q2",
+   "desc": "DMMT3904",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904",
+   "qty": 4,
+   "refs": "Q3,Q6,Q7,Q8",
+   "desc": "2N3904",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3906",
+   "qty": 2,
+   "refs": "Q4,Q5",
+   "desc": "2N3906",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Transistor",
+   "value": "MPF102",
+   "qty": 1,
+   "refs": "Q9",
+   "desc": "MPF102",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "R1,R2",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K 0.1%",
+   "qty": 2,
+   "refs": "R3,R4",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 7,
+   "refs": "R5,R6,R7,R14,R17,R35,R42",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "2M4",
+   "qty": 1,
+   "refs": "R8",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "2M2",
+   "qty": 2,
+   "refs": "R9,R38",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K TEMPCO",
+   "qty": 1,
+   "refs": "R10",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M2",
+   "qty": 1,
+   "refs": "R11",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "16K",
+   "qty": 1,
+   "refs": "R12",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "470K",
+   "qty": 1,
+   "refs": "R13",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "47R",
+   "qty": 1,
+   "refs": "R15",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "820R",
+   "qty": 1,
+   "refs": "R16",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 3,
+   "refs": "R18,R20,R25",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "27K",
+   "qty": 1,
+   "refs": "R19",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "110K",
+   "qty": 1,
+   "refs": "R21",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "18K",
+   "qty": 1,
+   "refs": "R22",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "24K",
+   "qty": 1,
+   "refs": "R23",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "3K92",
+   "qty": 1,
+   "refs": "R24",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 2,
+   "refs": "R26,R27",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K21",
+   "qty": 3,
+   "refs": "R28,R29,R41",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "390R",
+   "qty": 1,
+   "refs": "R30",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "18K",
+   "qty": 1,
+   "refs": "R31",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "14K",
+   "qty": 2,
+   "refs": "R32,R33",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K",
+   "qty": 2,
+   "refs": "R34,R61",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "360K",
+   "qty": 1,
+   "refs": "R36",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "150K",
+   "qty": 1,
+   "refs": "R37",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K",
+   "qty": 2,
+   "refs": "R39,R40",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Other",
+   "value": "100R",
+   "qty": 1,
+   "refs": "TR1",
+   "desc": "V/OCT (3296W)",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Other",
+   "value": "100K",
+   "qty": 1,
+   "refs": "TR2",
+   "desc": "HI FREQ (3296W)",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Other",
+   "value": "100K",
+   "qty": 1,
+   "refs": "TR3",
+   "desc": "SINE RND (3296W)",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Other",
+   "value": "50K",
+   "qty": 1,
+   "refs": "TR4",
+   "desc": "SINE SYM (3296W)",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "IC",
+   "value": "PWR",
+   "qty": 1,
+   "refs": "U1",
+   "desc": "MOLEX_156_4P",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "IC",
+   "value": "TL072",
+   "qty": 3,
+   "refs": "U2,U3,U4",
+   "desc": "TL072",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "IC",
+   "value": "LM78L05ACZXA",
+   "qty": 1,
+   "refs": "U5",
+   "desc": "LM78L05ACZXA",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "IC",
+   "value": "L79L05ACZ",
+   "qty": 1,
+   "refs": "U6",
+   "desc": "L79L05ACZ",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "IC",
+   "value": "CA3080E",
+   "qty": 1,
+   "refs": "U7",
+   "desc": "CA3080E",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "IC",
+   "value": "TL071",
+   "qty": 1,
+   "refs": "U8",
+   "desc": "TL071",
+   "section": "Main board: LGE130"
+  },
+  {
+   "type": "Capacitor",
+   "value": "33pF",
+   "qty": 1,
+   "refs": "C1",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF",
+   "qty": 4,
+   "refs": "C2,C3,C4,C5",
+   "desc": "Ceramic Cap 0805-1206",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Capacitor",
+   "value": "220nF",
+   "qty": 1,
+   "refs": "C18",
+   "desc": "Film Cap 5mm LS",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "LED",
+   "value": "T1 Bi-Color LED",
+   "qty": 0,
+   "refs": "",
+   "desc": "TAYDA: A-1076 (3MM)",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Diode",
+   "value": "5MM LED",
+   "qty": 1,
+   "refs": "D1",
+   "desc": "(BLUE PANEL USES 5MM)",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "LED",
+   "value": "LED LENS",
+   "qty": 0,
+   "refs": "",
+   "desc": "TAYDA: A-6580 (3MM)",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Other",
+   "value": "LENS",
+   "qty": 1,
+   "refs": "",
+   "desc": "(BLUE PANEL USES 5MM)",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Jack",
+   "value": "V/OCT",
+   "qty": 2,
+   "refs": "J6,J7",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Jack",
+   "value": "LIN FM",
+   "qty": 1,
+   "refs": "J8",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Jack",
+   "value": "TRI",
+   "qty": 1,
+   "refs": "J10",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Jack",
+   "value": "SINE",
+   "qty": 1,
+   "refs": "J11",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Jack",
+   "value": "PULSE",
+   "qty": 1,
+   "refs": "J12",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Jack",
+   "value": "EXP FM",
+   "qty": 1,
+   "refs": "J13",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Jack",
+   "value": "PWM",
+   "qty": 1,
+   "refs": "J14",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Jack",
+   "value": "SYNC",
+   "qty": 1,
+   "refs": "J15",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 4,
+   "refs": "R1,R2,R3,R4",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K",
+   "qty": 2,
+   "refs": "R6,R7",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Resistor",
+   "value": "5K62",
+   "qty": 1,
+   "refs": "R5",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "IC",
+   "value": "TL072",
+   "qty": 1,
+   "refs": "U1",
+   "desc": "TL072ACN",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "IC",
+   "value": "TL071",
+   "qty": 1,
+   "refs": "U3",
+   "desc": "TL071ACP",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 6,
+   "refs": "VR1,VR2,VR3,VR4,VR5,VR6",
+   "desc": "9mm Alpha style potentiometer",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Knob",
+   "value": "Knob",
+   "qty": 6,
+   "refs": "",
+   "desc": "Davies 1900H",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Switch",
+   "value": "SPDT",
+   "qty": 1,
+   "refs": "",
+   "desc": "SPDT Miniature On-On Toggle Switch",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Knob",
+   "value": "Knobs",
+   "qty": 6,
+   "refs": "",
+   "desc": "DAVIES 1900H",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 BUTTON HEAD SCREW",
+   "qty": 8,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 8,
+   "refs": "",
+   "desc": "",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11 F-F HEX STAND OFFS",
+   "qty": 4,
+   "refs": "",
+   "desc": "(12mm not 11mm, but will work)",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": "I/O Board: LGE130C"
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": "I/O Board: LGE130C"
+  }
+ ]
+}

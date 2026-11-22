@@ -1,0 +1,649 @@
+{
+ "source": "https://drive.google.com/file/d/1ZYqkpaGN5EQzdBGNyv7ZAQPgE23pwPHy/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE113 Main Board",
+ "page": "low-gain-lge113-wave-multipliers-vcm-4u-serge-compatible",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "10uF@50V",
+   "qty": 2,
+   "refs": "C1,C2",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100n",
+   "qty": 8,
+   "refs": "C3,C4,C5,C6,C7,C8,C32,C33",
+   "desc": "MLCC 50V SMT 0805/1206",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Capacitor",
+   "value": "220n",
+   "qty": 2,
+   "refs": "C9,C11",
+   "desc": "Film/Ceramic Cap 5mm LS",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47p or 33p",
+   "qty": 2,
+   "refs": "C10,C20",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Capacitor",
+   "value": "150p",
+   "qty": 1,
+   "refs": "C12",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Capacitor",
+   "value": "*1",
+   "qty": 6,
+   "refs": "C13,C14,C15,C16,C17,C18",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47n",
+   "qty": 4,
+   "refs": "C19,C23,C26,C30",
+   "desc": "Film/Ceramic Cap 5mm LS",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Capacitor",
+   "value": "33p",
+   "qty": 4,
+   "refs": "C21,C24,C27,C31",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1u BP",
+   "qty": 3,
+   "refs": "C22,C25,C28",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47u",
+   "qty": 1,
+   "refs": "C29",
+   "desc": "Electrolytic Cap 2mm LS",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Diode",
+   "value": "1N4148",
+   "qty": 22,
+   "refs": "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22",
+   "desc": "General Signal Diode",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Connector",
+   "value": "0.156” 4P Header",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Power Header",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Transistor",
+   "value": "BC557",
+   "qty": 2,
+   "refs": "Q1,Q2",
+   "desc": "BC557",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "10R",
+   "qty": 2,
+   "refs": "FB1,FB2",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "330K",
+   "qty": 3,
+   "refs": "R1,R8,R61",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K",
+   "qty": 1,
+   "refs": "R2",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "3.3M",
+   "qty": 2,
+   "refs": "R4,R17",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "1.5K",
+   "qty": 4,
+   "refs": "R5,R6,R15,R19",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 20,
+   "refs": "R7,R16,R20,R22,R24,R25,R27,R28,R30,R31,R33,R34,R36,R37,R39,R42,R43,R54,R69,R70",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R",
+   "qty": 2,
+   "refs": "R9,R41",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "3.3K",
+   "qty": 2,
+   "refs": "R10,R71",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 2,
+   "refs": "R11,R40",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K",
+   "qty": 1,
+   "refs": "R12",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K",
+   "qty": 1,
+   "refs": "R13",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "6.8M",
+   "qty": 1,
+   "refs": "R14",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "82K",
+   "qty": 1,
+   "refs": "R21",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "33K",
+   "qty": 6,
+   "refs": "R23,R26,R29,R32,R35,R38",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M",
+   "qty": 5,
+   "refs": "R44,R45,R50,R55,R62",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "2.2M",
+   "qty": 4,
+   "refs": "R46,R56,R63,R67",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "10M",
+   "qty": 6,
+   "refs": "R47,R48,R57,R58,R64,R65",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "820K",
+   "qty": 3,
+   "refs": "R49,R59,R66",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "220K",
+   "qty": 2,
+   "refs": "R51,R53",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "150K",
+   "qty": 1,
+   "refs": "R52",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "1.5M",
+   "qty": 1,
+   "refs": "R60",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "470K",
+   "qty": 1,
+   "refs": "R68",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Trimmer",
+   "value": "100K",
+   "qty": 2,
+   "refs": "R3,R18",
+   "desc": "3362P Series Trimmer",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "IC",
+   "value": "AS3080",
+   "qty": 2,
+   "refs": "U1,U3",
+   "desc": "CA3080E",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "IC",
+   "value": "TL072",
+   "qty": 4,
+   "refs": "U2,U4,U5,U6",
+   "desc": "TL072CP",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "IC",
+   "value": "LM3900N",
+   "qty": 2,
+   "refs": "U7,U8",
+   "desc": "LM3900N",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Diode",
+   "value": "1N5229B",
+   "qty": 1,
+   "refs": "Z1",
+   "desc": "Zener Diode",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Jack",
+   "value": "INPUT",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Jack",
+   "value": "OUTPUT",
+   "qty": 2,
+   "refs": "J2,J4",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Jack",
+   "value": "VC",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Jack",
+   "value": "AC INPUT",
+   "qty": 1,
+   "refs": "J5",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Jack",
+   "value": "DC INPUT",
+   "qty": 2,
+   "refs": "J6,J8",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Jack",
+   "value": "CV",
+   "qty": 1,
+   "refs": "J7",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Jack",
+   "value": "DC INPUT 2",
+   "qty": 1,
+   "refs": "J9",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Jack",
+   "value": "DC OUTPUT",
+   "qty": 1,
+   "refs": "J10",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Jack",
+   "value": "AC OUTPUT",
+   "qty": 1,
+   "refs": "J11",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Jack",
+   "value": "VC INPUT",
+   "qty": 1,
+   "refs": "J12",
+   "desc": "Cinch Connectivity 108 Series Banana Jack Pick your color",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Resistor",
+   "value": "330K",
+   "qty": 1,
+   "refs": "R1",
+   "desc": "1% Metal-Film 1/4W Resistor",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 5,
+   "refs": "VR1,VR2,VR3,VR4,VR5",
+   "desc": "9mm Alpha style potentiometer",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Knob",
+   "value": "Knobs",
+   "qty": 5,
+   "refs": "",
+   "desc": "DAVIES 1900H",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Switch",
+   "value": "DPDT TOGGLE SWITCH (ON-ON) (WIRED BACKWARDS*)",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-3188",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 BUTTON HEAD SCREW",
+   "qty": 8,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 8,
+   "refs": "",
+   "desc": "",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11 F-F HEX STAND OFFS",
+   "qty": 4,
+   "refs": "",
+   "desc": "(12mm not 11mm, but will work)",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 2,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 2,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": "Main board: LGE113"
+  },
+  {
+   "type": "Capacitor",
+   "value": "33pF",
+   "qty": 2,
+   "refs": "C1,C4",
+   "desc": "Ceramic Cap 5mm LS",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF",
+   "qty": 4,
+   "refs": "C2,C3,C5,C6",
+   "desc": "MLCC 50V SMT 0805/1206",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Jack",
+   "value": "VC",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "Emmerson_Banana",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Jack",
+   "value": "INPUT",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "Emmerson_Banana",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Jack",
+   "value": "OUTPUT",
+   "qty": 2,
+   "refs": "J3,J6",
+   "desc": "Emmerson_Banana",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Jack",
+   "value": "AC INPUT",
+   "qty": 1,
+   "refs": "J4",
+   "desc": "Emmerson_Banana",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Jack",
+   "value": "DC INPUT",
+   "qty": 2,
+   "refs": "J5,J8",
+   "desc": "Emmerson_Banana",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Jack",
+   "value": "VC INPUT",
+   "qty": 2,
+   "refs": "J7,J12",
+   "desc": "Emmerson_Banana",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Jack",
+   "value": "AC OUTPUT",
+   "qty": 1,
+   "refs": "J9",
+   "desc": "Emmerson_Banana",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Jack",
+   "value": "DC INPUT 2",
+   "qty": 1,
+   "refs": "J10",
+   "desc": "Emmerson_Banana",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Jack",
+   "value": "DC OUTPUT",
+   "qty": 1,
+   "refs": "J11",
+   "desc": "Emmerson_Banana",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Resistor",
+   "value": "330K",
+   "qty": 1,
+   "refs": "R1",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K",
+   "qty": 8,
+   "refs": "R2,R3,R4,R5,R6,R7,R8,R9",
+   "desc": "1% Metal Film 1/4W Resistor",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Switch",
+   "value": "Sub Miniature Toggle",
+   "qty": 1,
+   "refs": "SW_1",
+   "desc": "DPDT ON-ON",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "IC",
+   "value": "TL072",
+   "qty": 2,
+   "refs": "U1,U2",
+   "desc": "TL072",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 7,
+   "refs": "VR1,VR2,VR3,VR4,VR5,VR6,VR7",
+   "desc": "9mm Alpha style potentiometer",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 BUTTON HEAD SCREW",
+   "qty": 8,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 8,
+   "refs": "",
+   "desc": "",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11 F-F HEX STAND OFFS",
+   "qty": 4,
+   "refs": "",
+   "desc": "(These are 12mm not 11mm, but will work)",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 2,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 2,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": "I/O Board: LGE113C V2 (I/O + Panel related parts)(Bipolar CV Attenuator Version)"
+  }
+ ]
+}

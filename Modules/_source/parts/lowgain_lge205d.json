@@ -1,0 +1,297 @@
+{
+ "source": "https://drive.google.com/file/d/1XmsXUp3T4XscxDz_4qT7Q7DV9ukO9eOu/view",
+ "maker": "lowgain",
+ "kind": "pdf_bom",
+ "board": "Low-Gain LGE205D",
+ "page": "lge205d",
+ "parts": [
+  {
+   "type": "Diode",
+   "value": "3MM LED",
+   "qty": 2,
+   "refs": "D2,D3",
+   "desc": "LED T1.75",
+   "section": ""
+  },
+  {
+   "type": "LED",
+   "value": "LED LENS",
+   "qty": 2,
+   "refs": "",
+   "desc": "3MM",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "-COMP1",
+   "qty": 1,
+   "refs": "J1",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "+COMP1",
+   "qty": 1,
+   "refs": "J2",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "+COMP2",
+   "qty": 1,
+   "refs": "J3",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "OUT",
+   "qty": 1,
+   "refs": "J6,COMP1",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "-COMP2",
+   "qty": 1,
+   "refs": "J7",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Jack",
+   "value": "OUT",
+   "qty": 1,
+   "refs": "J8,COMP2",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Transistor",
+   "value": "2N3904",
+   "qty": 2,
+   "refs": "Q1,Q2",
+   "desc": "2N3904",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "2K21",
+   "qty": 2,
+   "refs": "R1,R2",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "RLED",
+   "qty": 2,
+   "refs": "R3,R42",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Resistor",
+   "value": "10K",
+   "qty": 2,
+   "refs": "R4,R43",
+   "desc": "1/4W 1% METAL FILM RESISTOR",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR1",
+   "desc": "9MM POTENTIOMETER",
+   "section": ""
+  },
+  {
+   "type": "Potentiometer",
+   "value": "B100K",
+   "qty": 1,
+   "refs": "VR2",
+   "desc": "9MM POTENTIOMETER",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "K",
+   "qty": 1,
+   "refs": "W1",
+   "desc": "COMP 2 NEGATIVE IN",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "D",
+   "qty": 1,
+   "refs": "W3",
+   "desc": "COMP 1 NEGATIVE IN",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "C",
+   "qty": 1,
+   "refs": "W4",
+   "desc": "COMP 1 WIPER",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "B",
+   "qty": 1,
+   "refs": "W5",
+   "desc": "COMP 1 POSITIVE IN",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "W",
+   "qty": 1,
+   "refs": "W8",
+   "desc": "0V",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "A",
+   "qty": 1,
+   "refs": "W9",
+   "desc": "COMP 1 OUT",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "F",
+   "qty": 1,
+   "refs": "W10",
+   "desc": "DIVIDE OUT (NOT USED)",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "Y",
+   "qty": 1,
+   "refs": "W11",
+   "desc": "V-",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "X",
+   "qty": 1,
+   "refs": "W13",
+   "desc": "V+",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "E",
+   "qty": 1,
+   "refs": "W14",
+   "desc": "COMP 2 OUT",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "J",
+   "qty": 1,
+   "refs": "W16",
+   "desc": "STEP OUT (NOT USED)",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "G",
+   "qty": 1,
+   "refs": "W17",
+   "desc": "COMP 2 POSITIVE IN",
+   "section": ""
+  },
+  {
+   "type": "Other",
+   "value": "H",
+   "qty": 1,
+   "refs": "W18",
+   "desc": "COMP 2 WIPER",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 BUTTON HEAD SCREW",
+   "qty": 6,
+   "refs": "",
+   "desc": "TAYDA: A-4372",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3 SPLIT WASHER",
+   "qty": 6,
+   "refs": "",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X11 F-F HEX STAND OFFS",
+   "qty": 4,
+   "refs": "",
+   "desc": "(12mm not 11mm, but will work)",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3x11 F-M Hex STAND OFFS",
+   "qty": 2,
+   "refs": "",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3X6 HEX HEAD SCREW (BLACK OXIDE)",
+   "qty": 2,
+   "refs": "",
+   "desc": "",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "M3x11 F-M Hex STAND OFFS",
+   "qty": 1,
+   "refs": "",
+   "desc": "I/O board",
+   "section": ""
+  },
+  {
+   "type": "Hardware",
+   "value": "m3x8 button head black oxide",
+   "qty": 1,
+   "refs": "",
+   "desc": "(panel screw)",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "MALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-197",
+   "section": ""
+  },
+  {
+   "type": "Connector",
+   "value": "FEMALE 2.54MM HEADERS 40PIN",
+   "qty": 1,
+   "refs": "",
+   "desc": "TAYDA: A-196",
+   "section": ""
+  }
+ ]
+}
