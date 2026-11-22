@@ -240,15 +240,35 @@ def main():
                     continue
                 cart = "prism_cart" if pl["maker"] == "prism" else k.replace("lowgain_cart_", "lowgain_cart_")
                 base = "%s__%s" % (slug, cart)
-                good = [r for r in pl["parts"] if r.get("mouser")]
+                SUB = json.load(open(os.path.join(HERE, "cart_substitutions.json")))
+                NAREASON = {"926-LM13700N": "LM13700: obsolete at Mouser; synth-parts shops sell the LM13700 / AS13700",
+                            "611-801803000": "Pushbutton cap: out of stock at Mouser; optional",
+                            "611-702501201": "Dress nut for the pushbutton: out of stock at Mouser; the switch comes with a nut"}
+                good, gone = [], []
+                for r0 in pl["parts"]:
+                    r = dict(r0)
+                    kk = r.get("mouser") or r.get("mfr_pn")
+                    if kk in SUB:
+                        s = SUB[kk]
+                        if s is None:
+                            gone.append([r["mfr_pn"], r["qty"], NAREASON.get(r["mouser"], "Out of stock at Mouser")]); continue
+                        r.update(mouser=s[0], mfr_pn=s[1], mfr=s[2], price=s[3], desc=r["desc"] + " (replaces %s: %s)" % (kk, s[4]))
+                    (good if r.get("mouser") else gone).append(r if r.get("mouser") else [r["mfr_pn"], r["qty"], "In the maker's cart without a Mouser number; check the cart"])
+                merged = {}
+                for r in good:
+                    if r["mouser"] in merged:
+                        merged[r["mouser"]]["qty"] += r["qty"]; merged[r["mouser"]]["value"] += " / " + r["value"]
+                    else:
+                        merged[r["mouser"]] = dict(r)
+                good = list(merged.values())
                 with open(os.path.join(OUT, base + ".csv"), "w", newline="") as f:
                     w = csv.writer(f); w.writerow(HEAD)
                     for r in good:
                         w.writerow([r["mouser"], r["mfr_pn"], r["mfr"], r["qty"], r["desc"], "%s: %s" % (pl["board"], r["value"])])
                 with open(os.path.join(OUT, base + "_not_at_mouser.csv"), "w", newline="") as f:
                     w = csv.writer(f); w.writerow(["Part", "Quantity", "Where to get it"])
-                    w.writerows([[r["mfr_pn"], r["qty"], "In the maker's cart without a Mouser number; check the cart"] for r in pl["parts"] if not r.get("mouser")])
-                report.append((slug, cart, len(good), len(pl["parts"]) - len(good),
+                    w.writerows(gone)
+                report.append((slug, cart, len(good), len(gone),
                                round(sum(r["qty"] * (r["price"] or 0) for r in good), 2), 0, 1))
     for r in report:
         print("%-32s %-20s %2d Mouser lines (%2d unverified), %d elsewhere, ~$%.2f" % (r[0], r[1], r[2], r[5], r[3], r[4]))
@@ -287,7 +307,9 @@ def readme(report):
          "The Low-Gain files (`__lge…`) include the panel jacks, pots and switches, following Low-Gain's BOM. The CGS files include switches "
          "but leave out banana jacks; their pots and knobs are in the Tayda lists in `../tayda/` (cheaper there).", "",
          "Files ending `__prism_cart.csv` or `__lowgain_cart_<board>.csv` are made from the maker's own shared Mouser project (cart), "
-         "copied line for line with Mouser and manufacturer part numbers. They follow the maker's board, not Ken Stone's, and the makers "
+         "copied line for line with Mouser and manufacturer part numbers, except that parts which were out of stock, backordered or "
+         "obsolete on mouser.com on 2026-11-21 are swapped for in-stock equivalents (see `../../_source/cart_substitutions.json`; "
+         "each swapped line says what it replaces). They follow the maker's board, not Ken Stone's, and the makers "
          "often leave pots, knobs, jacks or headers out of their carts: check the build page.", "",
          "| File | Mouser lines | Bought elsewhere (lines) | Approx. cost (1 off) |", "|---|---|---|---|"]
     for r in report:

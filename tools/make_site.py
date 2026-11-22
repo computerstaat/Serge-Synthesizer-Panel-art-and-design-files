@@ -460,7 +460,8 @@ def main():
         '<div class="note"><b>Stock changes.</b> Every part number in these files was checked on mouser.com for stock and price on 20 and 21 Nov 2026. '
         'The BOM tool flags anything that has since gone out of stock, so you can pick an equivalent there.</div>'
         '<h2>Makers\' Mouser carts</h2><p>Low-Gain and Prism keep their own BOMs as shared Mouser projects. Open one and choose "Buy selected items". '
-        'They follow the maker\'s current board and often leave out pots, knobs, jacks and headers, so check the build page too.</p>%s'
+        'They follow the maker\'s current board and often leave out pots, knobs, jacks and headers, so check the build page too. '
+        'Some cart parts were sold out or obsolete on 21 Nov 2026: the <code>_cart</code> upload files in the table above have them swapped for in-stock equivalents.</p>%s'
         "<h2>Every module</h2><p>Which builds exist, whether a schematic is published, and the BOM spreadsheet for each module.</p>%s" % ("".join(brows), carts_table(), matrix()),
         0, "Parts & BOMs"))
 

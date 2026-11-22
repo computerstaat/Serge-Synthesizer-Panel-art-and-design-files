@@ -1,5 +1,5 @@
 Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
-652-3362P-1-104LF,3362P-1-104LF,Bourns,2,"Trimmer 1/4""SQ 100KOHMS",Prism Negative Slew: 100k
+652-3362P-1-104RLF,3362P-1-104RLF,Bourns,2,"Trimmer 1/4""SQ 100KOHMS (replaces 652-3362P-1-104LF: 100k trimmer: the -LF version was backordered; the -RLF is the same trimmer)",Prism Negative Slew: 100k
 530-108-0902-1,108-0902-001,Cinch,4,Jack BANANA JACK RED,Prism Negative Slew: Banana Red
 530-108-0910-1,108-0910-001,Cinch,8,Jack BANANA JACK BLUE,Prism Negative Slew: Banana Blue
 810-FA28C0G1H12100,FA28C0G1H121JNU00,TDK,2,MLCC 50V 120pF C0G 5% RAD LS:5mm,Prism Negative Slew: 120pF
@@ -8,7 +8,7 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 81-RDER71H334K1K1H3B,RDER71H334K1K1H03B,Murata,1,MLCC .33UF 50V 10% 5.0MM,Prism Negative Slew: 0.33uF
 505-MKS2C033301CKI00,MKS2C033301C00KI00,WIMA,2,Film 0.33 uF 63 VDC 10%,Prism Negative Slew: 0.33uF
 571-6404564,640456-4,TE Connectivity,1,Headers & Wire Housings FRICTION LCK HDR 4P Stra,Prism Negative Slew: 640456-4
-863-MC78M06CTG,MC78M06CTG,onsemi,1,Linear Voltage Regulator 6V 500mA Positive,Prism Negative Slew: MC78M06CTG
+513-NJM78M06FA,NJM78M06FA,Nisshinbo,1,Linear Voltage Regulator 6V 500mA Positive (replaces 863-MC78M06CTG: 78M06 6V regulator: the onsemi part was out of stock; same TO-220 pinout),Prism Negative Slew: MC78M06CTG
 667-ECE-A1EKS100,ECE-A1EKS100,Panasonic,3,Elec 10UF 25V KS RADIAL,Prism Negative Slew: 10uF
 595-LM3900N,LM3900N,TI,2,OpAmp Quad,Prism Negative Slew: LM3900N
 512-BC547BTA,BC547BTA,onsemi,2,BJT NPN 45V 100mA,Prism Negative Slew: BC547BTA
@@ -20,7 +20,7 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 603-CFR-25JB-52-330K,CFR-25JB-52-330K,YAGEO,2,R 1/4W 330K Ohm 5%,Prism Negative Slew: 330k
 603-CFR-25JB-52-33R,CFR-25JB-52-33R,YAGEO,2,R 1/4W 33 Ohm 5%,Prism Negative Slew: 33R
 603-CFR-25JB-52-22K,CFR-25JB-52-22K,YAGEO,4,R 1/4W 22K Ohm 5%,Prism Negative Slew: 22k
-603-CFR-25JB-52-220K,CFR-25JB-52-220K,YAGEO,6,R 1/4W 220K Ohm 5%,Prism Negative Slew: 220k
+603-CFR-25JR-52220K,CFR-25JR-52-220K,YAGEO,6,R 1/4W 220K Ohm 5% (replaces 603-CFR-25JB-52-220K: 220k: the JB packing was backordered; JR is the same resistor),Prism Negative Slew: 220k
 603-CFR-25JB-52-220R,CFR-25JB-52-220R,YAGEO,4,R 1/4W 220 Ohm 5%,Prism Negative Slew: 220R
 603-CFR-25JB-1K0,CFR-25JB-1K0,YAGEO,4,R 1 kOhms 1/4W 5%,Prism Negative Slew: 1k
 603-CFR-25JB-52-1M,CFR-25JB-52-1M,YAGEO,2,R 1/4W 1M Ohm 5%,Prism Negative Slew: 1M

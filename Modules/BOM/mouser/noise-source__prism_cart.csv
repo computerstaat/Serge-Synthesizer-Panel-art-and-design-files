@@ -11,8 +11,6 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 530-108-0910-1,108-0910-001,Cinch,2,Jack BANANA JACK BLUE,Prism Noise/Random: Banana Blue
 530-108-0902-1,108-0902-001,Cinch,1,Jack BANANA JACK RED,Prism Noise/Random: Banana Red
 530-108-0903-1,108-0903-001,Cinch,6,Jack Black Banana Jack,Prism Noise/Random: Black Banana Jack
-611-801803000,801803000,C&K Switches,1,"Switch Cap .310"" RED P.B. CAP",Prism Noise/Random: 801803000
-611-702501201,702501201,C&K Switches,1,Switch Hardware NICKEL DRESS NUT,Prism Noise/Random: 702501201
 611-8125-222,8125SHCBE,C&K Switches,1,Pushbutton Switch ON-MOM SPDT PC,Prism Noise/Random: 8125SHCBE
 610-PN4250A,PN4250A PBFREE,Central Semiconductor,4,BJT PNP Low Noise,Prism Noise/Random: PN4250A PBFREE
 595-LM3900N,LM3900N,TI,1,OpAmp Quad,Prism Noise/Random: LM3900N
@@ -36,7 +34,7 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 603-MFR-25FRF52-330K,MFR-25FRF52-330K,YAGEO,1,R 330K OHM 1/4W 1%,Prism Noise/Random: 330k
 603-MFR-25FRF52-22K,MFR-25FRF52-22K,YAGEO,1,R 22K OHM 1/4W 1%,Prism Noise/Random: 22k
 603-MFR-25FRF521K,MFR-25FRF52-1K,YAGEO,2,R 1K ohm 1/4W 1%,Prism Noise/Random: 1k
-603-MFR-25FRF52-18K,MFR-25FRF52-18K,YAGEO,1,R 18K OHM 1/4W 1%,Prism Noise/Random: 18k
+603-MFR-25FBF52-18K,MFR-25FBF52-18K,YAGEO,1,R 18K OHM 1/4W 1% (replaces 603-MFR-25FRF52-18K: 18k 1%: the FRF packing was backordered),Prism Noise/Random: 18k
 603-MFR-25FRF5215K,MFR-25FRF52-15K,YAGEO,1,R 15K ohm 1/4W 1%,Prism Noise/Random: 15k
 603-MFR-25FRF52100K,MFR-25FRF52-100K,YAGEO,9,R 100K ohm 1/4W 1%,Prism Noise/Random: 100k
 603-MFR-25FRF5210K,MFR-25FRF52-10K,YAGEO,2,R 10 kOhms 1/4W 1%,Prism Noise/Random: 10k

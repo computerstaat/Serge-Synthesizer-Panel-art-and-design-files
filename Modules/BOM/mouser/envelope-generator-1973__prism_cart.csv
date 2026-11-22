@@ -1,7 +1,7 @@
 Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
 633-MN12SS1W01,MN12SS1W01,NKK Switches,1,Toggle Switch miniature bushing mount,Prism Envelope Generator: MN12SS1W01
 513-NJM78M06FA,NJM78M06FA,Nisshinbo,1,Linear Voltage Regulator 6V .5A,Prism Envelope Generator: NJM78M06FA
-512-BC547B,BC547B,onsemi,1,BJT NPN Epitaxial Silicon,Prism Envelope Generator: BC547B
+512-BC547BTA,BC547BTA,onsemi,1,BJT NPN Epitaxial Silicon (replaces 512-BC547B: BC547B: the bulk part is no longer listed),Prism Envelope Generator: BC547B
 603-CFR-25JR-521K,CFR-25JR-52-1K,YAGEO,1,R 1K ohm 1/4W 5%,Prism Envelope Generator: 1k
 512-1N4148,1N4148,onsemi,8,Small Signal Switching Diode,Prism Envelope Generator: 1N4148
 571-6404564,640456-4,TE Connectivity,1,Headers & Wire Housings FRICTION LCK HDR 4P Stra,Prism Envelope Generator: 640456-4
