@@ -185,12 +185,14 @@ async function bom(){const cnt={};for(const i of all()){const b=M[i].b;if(b)cnt[
  f.unshift({name:n+'_Mouser_upload.csv',data:te.encode(head+'\r\n'+Object.values(mouser).map(r=>r.map(v=>csvq(String(v))).join(',')).join('\r\n')+'\r\n')});
  const tv=Object.values(tay);
  if(tv.length)f.splice(1,0,{name:n+'_Tayda_pots_and_knobs.csv',data:out([['Tayda SKU','Quantity','Description','Unit price (USD)','Link','Board / values']].concat(tv))});
+ const kn=tay['A-932'];if(kn)f.splice(2,0,{name:n+'_Mouser_Davies_knobs_option.csv',data:te.encode(head+'\r\n'+['5164-1900-H','1900-H','Davies Molding',kn[1],'Knob, genuine Davies 1900-H (5164-1900-L has an indicator line)','Panel knobs'].map(v=>csvq(String(v))).join(',')+'\r\n')});
  if(other.length)f.push({name:n+'_other_parts.csv',data:out(other)});
  f.push({name:'README.txt',data:te.encode(['Parts for '+n.replace(/_/g,' ')+', made with Build a panel on the Serge DIY site.','',
   'Boards included (quantities multiplied by how many of each module are on the panel):',...used.map(u=>'  '+u),'',
   none.length?'No parts files yet for: '+none.join(', ')+' (see their build pages for BOMs).\r\n':'',
   n+'_Mouser_upload.csv: every board added up. Upload at mouser.com/bomtool. Part numbers were checked for stock and price in Nov 2026; the BOM tool flags anything out of stock.',
   n+'_Tayda_pots_and_knobs.csv: front-panel pots and Davies 1900H-style knobs, cheaper at taydaelectronics.com. Each line has the SKU and a link.',
+  n+'_Mouser_Davies_knobs_option.csv: the same knobs as genuine Davies Molding 1900-H from Mouser (about $4.36 each). Upload it at mouser.com/bomtool if you prefer them, and leave the knob line out of the Tayda order.',
   n+'_other_parts.csv: jacks, PCBs and parts neither shop stocks.','',
   'per module/: the same files for each module on its own, so you can check one module at a time.','',
   'Banana jacks and switches on the panel are listed per module in each module\'s BOM spreadsheet on its build page.'].join('\r\n'))});

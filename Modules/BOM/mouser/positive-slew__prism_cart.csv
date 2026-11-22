@@ -1,12 +1,12 @@
 Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
-637-BC547B,BC547B,Diotec Semiconductor,8,BJT NPN TO-92 45V 100mA,Prism Positive Slew: BC547B
+512-BC547BTA,BC547BTA,onsemi,8,BJT NPN TO-92 45V 100mA (replaces 637-BC547B: BC547B: the Diotec part was backordered),Prism Positive Slew: BC547B
 637-BC557B,BC557B,Diotec Semiconductor,4,BJT PNP TO-92 45V 100mA,Prism Positive Slew: BC557B
 571-6404564,640456-4,TE Connectivity,1,Headers & Wire Housings FRICTION LCK HDR 4P Stra,Prism Positive Slew: 640456-4
 810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,4,MLCC RAD 50V 0.1uF X7R 10% LS:5mm,Prism Positive Slew: 0.1uF
 594-2222-470-76104,BFC247076104,Vishay,2,Film .1uF 5% 63volts,Prism Positive Slew: 0.1uF
 530-108-0910-1,108-0910-001,Cinch,6,Jack BANANA JACK BLUE,Prism Positive Slew: Banana Blue
 530-108-0902-1,108-0902-001,Cinch,8,Jack BANANA JACK RED,Prism Positive Slew: Banana Red
-863-MC78M06CTG,MC78M06CTG,onsemi,1,Linear Voltage Regulator 6V 500mA Positive,Prism Positive Slew: MC78M06CTG
+513-NJM78M06FA,NJM78M06FA,Nisshinbo,1,Linear Voltage Regulator 6V 500mA Positive (replaces 863-MC78M06CTG: 78M06 6V regulator: the onsemi part was out of stock; same TO-220 pinout),Prism Positive Slew: MC78M06CTG
 603-CFR-25JR-524K7,CFR-25JR-52-4K7,YAGEO,12,R 4.7K ohm 1/4W 5%,Prism Positive Slew: 4k7
 603-CFR-25JR-52100K,CFR-25JR-52-100K,YAGEO,10,R 100K ohm 1/4W 5%,Prism Positive Slew: 100k
 603-CFR-25JR-52470K,CFR-25JR-52-470K,YAGEO,6,R 470K OHM 5%TR 1/4W,Prism Positive Slew: 470k

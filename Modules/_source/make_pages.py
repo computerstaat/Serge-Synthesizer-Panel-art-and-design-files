@@ -126,6 +126,9 @@ def mouser_files(slug):
     return sorted(f for f in os.listdir(d) if f.startswith(slug + "__") and f.endswith(".csv") and "not_at" not in f) if os.path.isdir(d) else []
 
 
+SUBS = json.load(open(os.path.join(HERE, "cart_substitutions.json")))
+
+
 def bom_rows(m):
     """Rows of the module's BOM spreadsheet: front-panel hardware, then each build option's board parts."""
     rows = []
@@ -162,9 +165,15 @@ def bom_rows(m):
                 by = "Low-Gain's Mouser cart" if pl["maker"] == "lowgain" else by
             for r in pl["parts"]:
                 note = "; ".join(x for x in [r.get("refs", ""), r.get("desc", "") if r.get("desc") != r["value"] else "", r.get("section", "")] if x)
-                mp = r.get("mouser", "")
+                mp, price = r.get("mouser", ""), r.get("price") or ""
+                kk = mp or r.get("mfr_pn", "")
+                if pl["kind"] == "mouser_cart" and kk in SUBS:
+                    sb = SUBS[kk]
+                    note += "; " if note else ""
+                    note += ("in-stock replacement for %s (%s)" % (kk, sb[4])) if sb else ("%s not available at Mouser" % kk)
+                    mp, price = (sb[0], sb[3]) if sb else ("", "")
                 rows.append([b["name"], pl["board"], r["type"], r["value"], r["qty"], (note + "; " if note else "") + "from " + by + ": " + pl["source"],
-                             mp, "https://www.mouser.com/ProductDetail/" + mp if mp else "", r.get("price") or ""])
+                             mp, "https://www.mouser.com/ProductDetail/" + mp if mp else "", price])
         if b.get("maker_parts") and not keys:
             continue
         if not keys and not b.get("explicit"):
@@ -295,7 +304,9 @@ def page(m):
     carts = [(b, t, u) for b in m["builds"] for t, u in b.get("cart", [])]
     if carts:
         out.append('<p class="note"><b>Makers\' Mouser carts:</b> %s. Each opens the maker\'s shared Mouser project, where you can add the '
-                   'whole list to your cart. They are kept by the makers, so they follow the current board revision.</p>' % "; ".join(
+                   'whole list to your cart. They are kept by the makers, so they follow the current board revision, but some of their parts '
+                   'were out of stock or obsolete on 21 Nov 2026. The <code>_cart</code> upload files above are the same lists with those parts '
+                   'swapped for in-stock equivalents, so use them if Mouser shows a part as backordered.</p>' % "; ".join(
                        "%s: %s" % (e(b["name"]), link(t.split(": ", 1)[-1], u)) for b, t, u in carts))
     tf = [f for f in mouser_files(m["slug"]) if os.path.exists(os.path.join(OUT, "BOM", "tayda", f))]
     if tf:
@@ -305,6 +316,12 @@ def page(m):
                    'with a link to each Tayda product instead of in the Mouser file.</p>' % ", ".join(
                        '<a href="%s">%s</a> (%d lines, about $%.2f)' % (quote("BOM/tayda/" + f), e(f), ts[f[:-4]]["lines"], ts[f[:-4]]["cost"])
                        for f in tf if f[:-4] in ts))
+        kf = [f for f in tf if os.path.exists(os.path.join(OUT, "BOM", "mouser", "knobs", f))]
+        if kf:
+            out.append('<p class="note"><b>Or genuine Davies knobs from Mouser:</b> the Tayda knob is a Davies 1900H clone ($0.42). If you want '
+                       'the real Davies Molding 1900-H (Mouser 5164-1900-H, about $4.36 each; 5164-1900-L has an indicator line), upload %s '
+                       'at Mouser\'s BOM tool instead and leave the knob line out of the Tayda order.</p>' % ", ".join(
+                           '<a href="%s">%s</a> (%d knobs)' % (quote("BOM/mouser/knobs/" + f), e("knobs/" + f), ts[f[:-4]].get("knobs", 0)) for f in kf))
     groups = collections.OrderedDict()
     for r in rows:
         groups.setdefault(r[0], []).append(r)

@@ -1,11 +1,11 @@
 Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
 810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,10,MLCC RAD 50V 0.1uF X7R 10% LS:5mm,Low-Gain LGE012 Mouser cart: 0.1uF
-80-ESL106M050AC3AA,ESL106M050AC3AA,KEMET,2,Elec 50V 10uF Radial,Low-Gain LGE012 Mouser cart: 10uF
+667-ECE-A1HKA100,ECE-A1HKA100,Panasonic,2,Elec 50V 10uF Radial (replaces 80-ESL106M050AC3AA: 10uF 50V: the KEMET part was backordered with a long lead time),Low-Gain LGE012 Mouser cart: 10uF
 810-FG28C0G2A330JNT6,FG28C0G2A330JNT06,TDK,2,MLCC RAD 100V 33pF C0G 5% LS:5mm,Low-Gain LGE012 Mouser cart: 33pF
-511-BAT48,BAT48,STMicroelectronics,1,Schottky Diode 350mA 40V,Low-Gain LGE012 Mouser cart: BAT48
+78-BAT85S,BAT85S-TR,Vishay,1,Schottky Diode 350mA 40V (replaces 511-BAT48: Schottky diode: the BAT48 is no longer listed; the BAT85 is a small-signal Schottky in the same DO-35 package),Low-Gain LGE012 Mouser cart: BAT48
 530-108-0910-1,108-0910-001,Cinch,6,Jack BANANA JACK BLUE,Low-Gain LGE012 Mouser cart: Banana Blue
 530-108-0913-1,108-0913-001,Cinch,2,Jack Grey Nylon Banana Jack,Low-Gain LGE012 Mouser cart: Grey Nylon Banana Jack
-612-200MSP1T2B3M2QE,200MSP1T2B3M2QE,E-Switch,2,Toggle Switch SPDT,Low-Gain LGE012 Mouser cart: 200MSP1T2B3M2QE
+612-200MSP1T2B1M2QE,200MSP1T2B1M2QEH,E-Switch,2,"Toggle Switch SPDT (replaces 612-200MSP1T2B3M2QE: SPDT toggle: this bushing option was backordered; same switch, standard bushing)",Low-Gain LGE012 Mouser cart: 200MSP1T2B3M2QE
 708-RNF14FTD10R0,RNF14FTD10R0,SEI Stackpole,2,R 10Ohms 1/4W 1% Metal Film,Low-Gain LGE012 Mouser cart: 10R
 708-RNF14FTD100K,RNF14FTD100K,SEI Stackpole,12,R 100KOhms 1/4W 1% Metal Film,Low-Gain LGE012 Mouser cart: 100k
 603-MFR-25FRF52-330R,MFR-25FRF52-330R,YAGEO,2,R 330 OHM 1/4W 1%,Low-Gain LGE012 Mouser cart: 330R

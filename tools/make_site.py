@@ -452,14 +452,16 @@ def main():
         '<div class="step"><h3>Open the Mouser BOM tool</h3><p>Go to <a href="https://www.mouser.com/bomtool/">mouser.com/bomtool</a> and upload the CSV. The columns map automatically.</p></div>'
         '<div class="step"><h3>Check stock and quantities</h3><p>Prices and stock change daily. Multiply quantities if you are building more than one.</p></div>'
         '<div class="step"><h3>Pots and knobs from Tayda</h3><p>Front-panel pots and Davies 1900H-style knobs are cheaper at <a href="https://www.taydaelectronics.com">Tayda</a>: '
-        'each board with pots has a "Tayda pots &amp; knobs" list with SKUs and links. Banana jacks and anything else Mouser does not stock is in the "Other parts" file.</p></div></div>'
+        'each board with pots has a "Tayda pots &amp; knobs" list with SKUs and links. Prefer genuine Davies 1900-H knobs? Each board also has a '
+        'Mouser knob file (Davies Molding 1900-H, Mouser 5164-1900-H, about $4.36 each) in <code>Modules/BOM/mouser/knobs/</code>, linked from its build page. Banana jacks and anything else Mouser does not stock is in the "Other parts" file.</p></div></div>'
         '<h2>Mouser upload files</h2><div class="scroll"><table class="mx"><tr><th>Module</th><th>Board</th><th class="c">Mouser lines</th>'
         '<th class="c">Bought elsewhere</th><th class="c">Approx. cost</th><th>Files</th></tr>%s</table></div>'
         '<p class="muted">Costs are Mouser\'s single-unit prices when the file was made, before tax and shipping, for one board, without the PCB or panel.</p>'
         '<div class="note"><b>Stock changes.</b> Every part number in these files was checked on mouser.com for stock and price on 20 and 21 Nov 2026. '
         'The BOM tool flags anything that has since gone out of stock, so you can pick an equivalent there.</div>'
         '<h2>Makers\' Mouser carts</h2><p>Low-Gain and Prism keep their own BOMs as shared Mouser projects. Open one and choose "Buy selected items". '
-        'They follow the maker\'s current board and often leave out pots, knobs, jacks and headers, so check the build page too.</p>%s'
+        'They follow the maker\'s current board and often leave out pots, knobs, jacks and headers, so check the build page too. '
+        'Some cart parts were sold out or obsolete on 21 Nov 2026: the <code>_cart</code> upload files in the table above have them swapped for in-stock equivalents.</p>%s'
         "<h2>Every module</h2><p>Which builds exist, whether a schematic is published, and the BOM spreadsheet for each module.</p>%s" % ("".join(brows), carts_table(), matrix()),
         0, "Parts & BOMs"))
 

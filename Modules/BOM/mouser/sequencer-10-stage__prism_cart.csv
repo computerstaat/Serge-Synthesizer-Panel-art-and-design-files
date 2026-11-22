@@ -4,7 +4,7 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 571-6404564,640456-4,TE Connectivity,1,Headers & Wire Housings FRICTION LCK HDR 4P Stra,Prism Sequencer: 640456-4
 603-CFR-25JR-5210K,CFR-25JR-52-10K,YAGEO,25,R 10kOhms 1/4W 5%,Prism Sequencer: 10k
 512-1N4148,1N4148,onsemi,15,Small Signal Switching Diode,Prism Sequencer: 1N4148
-512-BC547B,BC547B,onsemi,1,BJT NPN Epitaxial Silicon,Prism Sequencer: BC547B
+512-BC547BTA,BC547BTA,onsemi,1,BJT NPN Epitaxial Silicon (replaces 512-BC547B: BC547B: the bulk part is no longer listed),Prism Sequencer: BC547B
 603-CFR-25JR-52220K,CFR-25JR-52-220K,YAGEO,7,R 220 kOhms 1/4W 5%,Prism Sequencer: 220k
 603-CFR-25JR-52100K,CFR-25JR-52-100K,YAGEO,4,R 100K ohm 1/4W 5%,Prism Sequencer: 100k
 603-CFR-25JR-521K,CFR-25JR-52-1K,YAGEO,2,R 1K ohm 1/4W 5%,Prism Sequencer: 1k
@@ -12,10 +12,8 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 926-LM339N/NOPB,LM339N/NOPB,TI,1,Quad comparator,Prism Sequencer: LM339N/NOPB
 595-CD4017BE,CD4017BE,TI,1,Counter ICs 10 Decade/Divider,Prism Sequencer: CD4017BE
 81-RDER71H104K0K1H3B,RDER71H104K0K1H03B,Murata,3,MLCC .1UF 50V 10% 5.0MM,Prism Sequencer: 0.1uF
-505-MKS2C021001AJI00,MKS2C021001A00JI00,WIMA,1,Film .01uF 63 Volts 5%,Prism Sequencer: 0.01uF
+80-MMK5103J63J01L4,MMK5103J63J01L4,KEMET,1,Film .01uF 63 Volts 5% (replaces 505-MKS2C021001AJI00: 10nF film: the WIMA part was backordered with a long lead time),Prism Sequencer: 0.01uF
 603-CFR-25JR-5215K,CFR-25JR-52-15K,YAGEO,1,R 15K ohm 1/4W 5%,Prism Sequencer: 15k
 652-3362P-1-103LF,3362P-1-103LF,Bourns,1,"Trimmer 1/4""SQ 10KOHMS",Prism Sequencer: 10k
-611-801803000,801803000,C&K Switches,1,"Switch Cap .310"" RED P.B. CAP",Prism Sequencer: 801803000
-611-702501201,702501201,C&K Switches,2,Switch Hardware NICKEL DRESS NUT,Prism Sequencer: 702501201
 611-8125-222,8125SHCBE,C&K Switches,1,Pushbutton Switch ON-MOM SPDT PC,Prism Sequencer: 8125SHCBE
 530-108-0902-1,108-0902-001,Cinch,13,Jack BANANA JACK RED,Prism Sequencer: Banana Red

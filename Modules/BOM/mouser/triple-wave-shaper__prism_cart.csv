@@ -11,7 +11,7 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 512-1N4148,1N4148,onsemi,12,Small Signal Switching Diode,Prism Triple Waveshaper: 1N4148
 660-CF1/4CT52R155J,CF1/4CT52R155J,KOA Speer,9,R 1.5M ohm 5%,Prism Triple Waveshaper: 1M5
 603-CFR-25JR-52220K,CFR-25JR-52-220K,YAGEO,5,R 220 kOhms 1/4W 5%,Prism Triple Waveshaper: 220k
-667-ECE-A1CKA470I,ECE-A1CKA470I,Panasonic,3,Elec 16VDC 47uF SU,Prism Triple Waveshaper: 47uF
+80-ESS476M016AC2AA,ESS476M016AC2AA,KEMET,3,Elec 16VDC 47uF SU (replaces 667-ECE-A1CKA470I: 47uF 16V: the Panasonic part was backordered with a long lead time),Prism Triple Waveshaper: 47uF
 80-R82DC3470SH60J,R82DC3470SH60J,KEMET,3,Film 63V 0.47 uF 5% LS=5 mm,Prism Triple Waveshaper: 0.47uF
 652-3362P-1-253LF,3362P-1-253LF,Bourns,3,"Trimmer 1/4""SQ 25KOHMS",Prism Triple Waveshaper: 25k
 603-CFR-25JR-52150K,CFR-25JR-52-150K,YAGEO,3,R 150K ohm 1/4W 5%,Prism Triple Waveshaper: 150k

@@ -3,8 +3,8 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 80-MMK5102K100J01L4,MMK5102K100J01L4BULK,KEMET,1,Film 100volts 1000pF 10% LS 5mm,Low-Gain LGE114A Mouser cart: 1000pF
 80-C0805C104M5R,C0805C104M5RACTU,KEMET,10,MLCC SMD 0805 0.1uF 50V,Low-Gain LGE114A Mouser cart: 0.1uF
 667-EEU-EB1E470S,EEU-EB1E470S,Panasonic,1,Elec 47uF 25volts,Low-Gain LGE114A Mouser cart: 47uF
-505-MKS2.01/63/10,MKS2C021001A00KSSD,WIMA,1,Film 63V .01uF 10%,Low-Gain LGE114A Mouser cart: 0.01uF
-80-ESL106M050AC3AA,ESL106M050AC3AA,KEMET,2,Elec 50V 10uF Radial,Low-Gain LGE114A Mouser cart: 10uF
+80-MMK5103J63J01L4,MMK5103J63J01L4,KEMET,1,Film 63V .01uF 10% (replaces 505-MKS2.01/63/10: 10nF film: the WIMA part was backordered with a long lead time),Low-Gain LGE114A Mouser cart: 0.01uF
+667-ECE-A1HKA100,ECE-A1HKA100,Panasonic,2,Elec 50V 10uF Radial (replaces 80-ESL106M050AC3AA: 10uF 50V: the KEMET part was backordered with a long lead time),Low-Gain LGE114A Mouser cart: 10uF
 512-1N4148,1N4148,onsemi,4,Small Signal Switching Diode,Low-Gain LGE114A Mouser cart: 1N4148
 78-1N5232B,1N5232B-TR,Vishay,1,Zener Diode 5.6 Volt 0.5 Watt,Low-Gain LGE114A Mouser cart: 1N5232B-TR
 737-LHA-04-TS,LHA-04-TS,Adam Tech,1,4P locking header straight,Low-Gain LGE114A Mouser cart: LHA-04-TS
@@ -33,10 +33,10 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 595-OPA2134PA,OPA2134PA,TI,2,Audio op-amp dual,Low-Gain LGE114A Mouser cart: OPA2134PA
 710-970110321,970110321,Wurth Elektronik,4,Standoff M3 x 11mm,Low-Gain LGE114A Mouser cart: 970110321
 696-SSL-LX3054IGW,SSL-LX3054IGW,Lumex,1,LED bicolour Red/Green,Low-Gain LGE114A Mouser cart: SSL-LX3054IGW
-637-BC547B,BC547B,Diotec Semiconductor,1,BJT NPN TO-92 45V 100mA,Low-Gain LGE114A Mouser cart: BC547B
+512-BC547BTA,BC547BTA,onsemi,1,BJT NPN TO-92 45V 100mA (replaces 637-BC547B: BC547B: the Diotec part was backordered),Low-Gain LGE114A Mouser cart: BC547B
 593-2000C,SMB_200_CTP,VCC,1,LED Lens Clear Fresnel,Low-Gain LGE114A Mouser cart: SMB_200_CTP
 530-108-0910-1,108-0910-001,Cinch,3,Jack BANANA JACK BLUE,Low-Gain LGE114A Mouser cart: Banana Blue
 530-108-0913-1,108-0913-001,Cinch,2,Jack Grey Nylon Banana Jack,Low-Gain LGE114A Mouser cart: Grey Nylon Banana Jack
-612-200MSP1T2B3M2QE,200MSP1T2B3M2QE,E-Switch,1,Toggle Switch SPDT,Low-Gain LGE114A Mouser cart: 200MSP1T2B3M2QE
+612-200MSP1T2B1M2QE,200MSP1T2B1M2QEH,E-Switch,1,"Toggle Switch SPDT (replaces 612-200MSP1T2B3M2QE: SPDT toggle: this bushing option was backordered; same switch, standard bushing)",Low-Gain LGE114A Mouser cart: 200MSP1T2B3M2QE
 612-200MS3T2B1M2QE,200MSP3T2B1M2QE,E-Switch,1,Toggle Switch SPDT On-Off-On,Low-Gain LGE114A Mouser cart: 200MSP3T2B1M2QE
 512-2N3906TFR,2N3906TFR,onsemi,1,BJT PNP Transistor General,Low-Gain LGE114A Mouser cart: 2N3906TFR

@@ -1,11 +1,11 @@
 Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
 80-C0805C104M5R,C0805C104M5RACTU,KEMET,5,MLCC SMD 0805 0.1uF 50V,Low-Gain LGE112 Mouser cart: 0.1uF
-80-ESL106M050AC3AA,ESL106M050AC3AA,KEMET,2,Elec 50V 10uF Radial,Low-Gain LGE112 Mouser cart: 10uF
+667-ECE-A1HKA100,ECE-A1HKA100,Panasonic,2,Elec 50V 10uF Radial (replaces 80-ESL106M050AC3AA: 10uF 50V: the KEMET part was backordered with a long lead time),Low-Gain LGE112 Mouser cart: 10uF
 810-FG28C0G2A221JNT6,FG28C0G2A221JNT06,TDK,4,MLCC RAD 100V 220pF C0G 5% LS:5mm,Low-Gain LGE112 Mouser cart: 220pF
 80-MMK5102K100J01L4,MMK5102K100J01L4BULK,KEMET,1,Film 100volts 1000pF 10% LS 5mm,Low-Gain LGE112 Mouser cart: 1000pF
 810-FG26C0G2A104JRT6,FG26C0G2A104JRT06,TDK,3,MLCC RAD 100V 0.1uF C0G 5% LS:5mm,Low-Gain LGE112 Mouser cart: 0.1uF
 810-FG28C0G2A330JNT6,FG28C0G2A330JNT06,TDK,3,MLCC RAD 100V 33pF C0G 5% LS:5mm,Low-Gain LGE112 Mouser cart: 33pF
-810-FG28C0G2A220JNT6,FG28C0G2A220JNT06,TDK,2,MLCC RAD 100V 22pF C0G 5% LS:5mm,Low-Gain LGE112 Mouser cart: 22pF
+810-FG28C0G2A220JNT0,FG28C0G2A220JNT00,TDK,2,MLCC RAD 100V 22pF C0G 5% LS:5mm (replaces 810-FG28C0G2A220JNT6: 22pF: the JNT06 packing was out of stock; JNT00 is the same part),Low-Gain LGE112 Mouser cart: 22pF
 512-1N4148,1N4148,onsemi,5,Small Signal Switching Diode,Low-Gain LGE112 Mouser cart: 1N4148
 512-1N4733A,1N4733A,onsemi,2,Zener Diode 5.1V 1W,Low-Gain LGE112 Mouser cart: 1N4733A
 737-LHA-04-TS,LHA-04-TS,Adam Tech,1,4P locking header straight,Low-Gain LGE112 Mouser cart: LHA-04-TS
@@ -31,5 +31,5 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 530-108-0910-1,108-0910-001,Cinch,6,Jack BANANA JACK BLUE,Low-Gain LGE112 Mouser cart: Banana Blue
 530-108-0913-1,108-0913-001,Cinch,4,Jack Grey Nylon Banana Jack,Low-Gain LGE112 Mouser cart: Grey Nylon Banana Jack
 612-200MDP1T1B1M2RE,200MDP1T1B1M2RE,E-Switch,1,Toggle Switch DPDT On-None-On PC,Low-Gain LGE112 Mouser cart: 200MDP1T1B1M2RE
-652-3362P-1-104LF,3362P-1-104LF,Bourns,3,"Trimmer 1/4""SQ 100KOHMS",Low-Gain LGE112 Mouser cart: 100k
+652-3362P-1-104RLF,3362P-1-104RLF,Bourns,3,"Trimmer 1/4""SQ 100KOHMS (replaces 652-3362P-1-104LF: 100k trimmer: the -LF version was backordered; the -RLF is the same trimmer)",Low-Gain LGE112 Mouser cart: 100k
 710-970110321,970110321,Wurth Elektronik,4,Standoff M3 x 11mm,Low-Gain LGE112 Mouser cart: 970110321

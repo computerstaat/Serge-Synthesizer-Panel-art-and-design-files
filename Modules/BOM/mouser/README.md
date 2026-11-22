@@ -10,6 +10,8 @@ Substitutions: obsolete transistors (2N3391A, 2N3565, 2N3566 / 2N3638, 2N4248, 2
 
 The Low-Gain files (`__lge…`) include the panel jacks, pots and switches, following Low-Gain's BOM. The CGS files include switches but leave out banana jacks; their pots and knobs are in the Tayda lists in `../tayda/` (cheaper there).
 
+Files ending `__prism_cart.csv` or `__lowgain_cart_<board>.csv` are made from the maker's own shared Mouser project (cart), copied line for line with Mouser and manufacturer part numbers, except that parts which were out of stock, backordered or obsolete on mouser.com on 2026-11-21 are swapped for in-stock equivalents (see `../../_source/cart_substitutions.json`; each swapped line says what it replaces). They follow the maker's board, not Ken Stone's, and the makers often leave pots, knobs, jacks or headers out of their carts: check the build page.
+
 | File | Mouser lines | Bought elsewhere (lines) | Approx. cost (1 off) |
 |---|---|---|---|
 | triple-comparator__cgs96_comp.csv | 19 | 1 | $11.00 |
@@ -42,30 +44,30 @@ The Low-Gain files (`__lge…`) include the panel jacks, pots and switches, foll
 | vc-slope__cgs75_vcs.csv | 40 | 1 | $53.54 |
 | tri-core-vco__lge130.csv | 51 | 6 | $69.94 |
 | triple-wave-shaper__lge085.csv | 21 | 4 | $58.31 |
-| tri-core-vco__lowgain_cart_lge130.csv | 44 | 0 | $47.17 |
-| vc-phaser__prism_cart.csv | 22 | 0 | $63.94 |
-| wave-multipliers__lowgain_cart_lge113.csv | 45 | 0 | $58.17 |
-| oscillator-1973__prism_cart.csv | 35 | 0 | $35.38 |
-| filter-1973__prism_cart.csv | 33 | 1 | $54.41 |
-| triple-comparator__prism_cart.csv | 19 | 0 | $34.24 |
-| triple-wave-shaper__prism_cart.csv | 19 | 0 | $75.55 |
+| tri-core-vco__lowgain_cart_lge130.csv | 44 | 0 | $47.15 |
+| vc-phaser__prism_cart.csv | 22 | 0 | $62.84 |
+| wave-multipliers__lowgain_cart_lge113.csv | 45 | 0 | $59.05 |
+| oscillator-1973__prism_cart.csv | 35 | 0 | $35.20 |
+| filter-1973__prism_cart.csv | 34 | 0 | $54.71 |
+| triple-comparator__prism_cart.csv | 18 | 0 | $35.69 |
+| triple-wave-shaper__prism_cart.csv | 19 | 0 | $75.28 |
 | ring-modulator__prism_cart.csv | 22 | 0 | $19.12 |
 | gate-1973__prism_cart.csv | 21 | 0 | $26.17 |
-| negative-slew__prism_cart.csv | 28 | 0 | $46.81 |
-| positive-slew__prism_cart.csv | 27 | 0 | $51.63 |
-| smooth-stepped-generator__prism_cart.csv | 35 | 0 | $65.46 |
-| smooth-stepped-generator__lowgain_cart_lge092.csv | 38 | 0 | $48.88 |
+| negative-slew__prism_cart.csv | 28 | 0 | $49.00 |
+| positive-slew__prism_cart.csv | 27 | 0 | $54.04 |
+| smooth-stepped-generator__prism_cart.csv | 35 | 0 | $65.42 |
+| smooth-stepped-generator__lowgain_cart_lge092.csv | 38 | 0 | $50.40 |
 | peak-trough__prism_cart.csv | 13 | 0 | $28.43 |
-| envelope-generator-1973__prism_cart.csv | 39 | 0 | $50.62 |
-| analog-shift-register__prism_cart.csv | 25 | 0 | $41.80 |
+| envelope-generator-1973__prism_cart.csv | 39 | 0 | $50.89 |
+| analog-shift-register__prism_cart.csv | 25 | 0 | $45.05 |
 | bi-directional-router__prism_cart.csv | 15 | 0 | $30.32 |
-| noise-source__prism_cart.csv | 41 | 0 | $50.04 |
-| dual-processor__prism_cart.csv | 12 | 0 | $44.11 |
-| dual-processor__lowgain_cart_lge012.csv | 16 | 0 | $27.23 |
+| noise-source__prism_cart.csv | 39 | 2 | $47.56 |
+| dual-processor__prism_cart.csv | 12 | 0 | $44.31 |
+| dual-processor__lowgain_cart_lge012.csv | 16 | 0 | $28.51 |
 | dual-mixer__prism_cart.csv | 12 | 0 | $52.01 |
-| sequencer-10-stage__prism_cart.csv | 20 | 0 | $49.02 |
-| x-fader__prism_cart.csv | 23 | 0 | $39.64 |
-| extended-range-vcf__lowgain_cart_lge112.csv | 34 | 0 | $46.18 |
-| dual-transient-generator__lowgain_cart_lge114a.csv | 41 | 0 | $48.21 |
+| sequencer-10-stage__prism_cart.csv | 18 | 2 | $44.21 |
+| x-fader__prism_cart.csv | 22 | 1 | $45.56 |
+| extended-range-vcf__lowgain_cart_lge112.csv | 34 | 0 | $47.42 |
+| dual-transient-generator__lowgain_cart_lge114a.csv | 41 | 0 | $48.64 |
 
 To add a module, map its values in `../../_source/mouser_parts.json`, add it to `TARGETS` in `../../_source/make_mouser.py`, and run that script and `make_pages.py`. Values still without a Mouser part are listed in `../../_source/mouser_pending.md`.

@@ -8,9 +8,9 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 530-108-0902-1,108-0902-001,Cinch,2,Jack BANANA JACK RED,Prism ASR: Banana Red
 530-108-0910-1,108-0910-001,Cinch,4,Jack BANANA JACK BLUE,Prism ASR: Banana Blue
 595-CD4024BE,CD4024BE,TI,1,Counter ICs 7-Bit Ripple-Carry,Prism ASR: CD4024BE
-652-3362P-1-502LF,3362P-1-502LF,Bourns,1,"Trimmer 1/4""SQ 5KOHMS",Prism ASR: 5k
+652-3362P-1-502TLF,3362P-1-502TLF,Bourns,1,"Trimmer 1/4""SQ 5KOHMS (replaces 652-3362P-1-502LF: 5k trimmer: the -LF version was backordered; the -TLF is the same trimmer)",Prism ASR: 5k
 571-6404564,640456-4,TE Connectivity,1,Headers & Wire Housings FRICTION LCK HDR 4P Stra,Prism ASR: 640456-4
-810-FA28X7R1H10400,FA28X7R1H104KNU00,TDK,13,MLCC 50V 0.1uF X7R 10% RAD LS:5mm,Prism ASR: 0.1uF
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,13,MLCC 50V 0.1uF X7R 10% RAD LS:5mm (replaces 810-FA28X7R1H10400: 100nF: the automotive FA28 version was backordered),Prism ASR: 0.1uF
 594-2222-470-76104,BFC247076104,Vishay,4,Film .1uF 5% 63volts,Prism ASR: 0.1uF
 810-FG28C0G1H470JNT0,FG28C0G1H470JNT00,TDK,4,MLCC RAD 50V 47pF C0G 5% LS:5mm,Prism ASR: 47pF
 667-ECE-A1EKS100,ECE-A1EKS100,Panasonic,2,Elec 10UF 25V KS RADIAL,Prism ASR: 10uF

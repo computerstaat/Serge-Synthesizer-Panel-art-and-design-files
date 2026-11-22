@@ -1,6 +1,6 @@
 Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
 603-CFR-25JB-52-22K,CFR-25JB-52-22K,YAGEO,1,R 1/4W 22K Ohm 5%,Prism X-Fade/Gate: 22k
-633-M2022S2A1W03,M2022S2A1W03,NKK Switches,1,Toggle Switch ON-ON PC,Prism X-Fade/Gate: M2022S2A1W03
+612-200-F1122,200MDP1T1B1M2REH,E-Switch,1,Toggle Switch ON-ON PC (replaces 633-M2022S2A1W03: DPDT on-on PC toggle: the NKK part is no longer listed; check the footprint),Prism X-Fade/Gate: M2022S2A1W03
 571-1-2199298-4,1-2199298-4,TE Connectivity,1,IC socket 16P DIP,Prism X-Fade/Gate: 1-2199298-4
 530-108-0910-1,108-0910-001,Cinch,2,Jack BANANA JACK BLUE,Prism X-Fade/Gate: Banana Blue
 810-FG28C0G1H100DNT0,FG28C0G1H100DNT00,TDK,3,MLCC RAD 50V 10pF C0G LS:5mm,Prism X-Fade/Gate: 10pF
@@ -8,9 +8,8 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Cu
 810-FG28X7R1H104KNT0,FG28X7R1H104KNT00,TDK,10,MLCC RAD 50V 0.1uF X7R 10% LS:5mm,Prism X-Fade/Gate: 0.1uF
 667-ECE-A1EKS100,ECE-A1EKS100,Panasonic,2,Elec 10UF 25V KS RADIAL,Prism X-Fade/Gate: 10uF
 512-2N3906BU,2N3906BU,onsemi,2,BJT PNP Transistor General,Prism X-Fade/Gate: 2N3906BU
-926-LM13700N,LM13700N,TI,1,Transconductance Amplifier (obsolete),Prism X-Fade/Gate: LM13700N
-652-3362P-1-104LF,3362P-1-104LF,Bourns,4,"Trimmer 1/4""SQ 100KOHMS",Prism X-Fade/Gate: 100k
-603-CFR-25JB-52-100K,CFR-25JB-52-100K,YAGEO,11,R 1/4W 100K Ohm 5%,Prism X-Fade/Gate: 100k
+652-3362P-1-104RLF,3362P-1-104RLF,Bourns,4,"Trimmer 1/4""SQ 100KOHMS (replaces 652-3362P-1-104LF: 100k trimmer: the -LF version was backordered; the -RLF is the same trimmer)",Prism X-Fade/Gate: 100k
+603-CFR-25JR-52100K,CFR-25JR-52-100K,YAGEO,11,R 1/4W 100K Ohm 5% (replaces 603-CFR-25JB-52-100K: 100k: the JB packing was backordered; JR is the same resistor),Prism X-Fade/Gate: 100k
 603-CFR-25JB-52-220R,CFR-25JB-52-220R,YAGEO,4,R 1/4W 220 Ohm 5%,Prism X-Fade/Gate: 220R
 603-CFR-25JT-52-270K,CFR-25JT-52-270K,YAGEO,2,R 270Kohm 5% 1/4W Carbon Film,Prism X-Fade/Gate: 270k
 603-CFR-25JR-5210K,CFR-25JR-52-10K,YAGEO,1,R 10kOhms 1/4W 5%,Prism X-Fade/Gate: 10k

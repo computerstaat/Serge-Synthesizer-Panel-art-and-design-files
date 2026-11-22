@@ -213,6 +213,12 @@ def main():
                         w.writerow([t[0], T["qty"], t[1], "%.2f" % t[2], t[3],
                                     "%s%s: %s" % (pl["board"], " x%d" % mult if mult > 1 else "", " / ".join(T["vals"]) if T["vals"] else "one per pot")])
                 treport[base] = {"lines": len(tay), "cost": round(sum(T["qty"] * TY["parts"][kk][2] for kk, T in tay.items()), 2)}
+                if "KNOB" in tay:                      # the same knobs as genuine Davies 1900-H from Mouser, for those who prefer them
+                    mk = TY["mouser_knob"]; os.makedirs(os.path.join(OUT, "knobs"), exist_ok=True)
+                    with open(os.path.join(OUT, "knobs", base + ".csv"), "w", newline="") as f:
+                        w = csv.writer(f); w.writerow(HEAD)
+                        w.writerow([mk[0], mk[1], mk[2], tay["KNOB"]["qty"], mk[4], "%s: knobs" % pl["board"]])
+                    treport[base]["knobs"] = tay["KNOB"]["qty"]
             total = sum(L["qty"] * L["p"][3] for L in lines.values())
             report.append((slug, b, len(lines), len(na), round(total, 2), sum(L["unv"] for L in lines.values()), mult))
     for base, x in EXPLICIT.items():
@@ -234,15 +240,35 @@ def main():
                     continue
                 cart = "prism_cart" if pl["maker"] == "prism" else k.replace("lowgain_cart_", "lowgain_cart_")
                 base = "%s__%s" % (slug, cart)
-                good = [r for r in pl["parts"] if r.get("mouser")]
+                SUB = json.load(open(os.path.join(HERE, "cart_substitutions.json")))
+                NAREASON = {"926-LM13700N": "LM13700: obsolete at Mouser; synth-parts shops sell the LM13700 / AS13700",
+                            "611-801803000": "Pushbutton cap: out of stock at Mouser; optional",
+                            "611-702501201": "Dress nut for the pushbutton: out of stock at Mouser; the switch comes with a nut"}
+                good, gone = [], []
+                for r0 in pl["parts"]:
+                    r = dict(r0)
+                    kk = r.get("mouser") or r.get("mfr_pn")
+                    if kk in SUB:
+                        s = SUB[kk]
+                        if s is None:
+                            gone.append([r["mfr_pn"], r["qty"], NAREASON.get(r["mouser"], "Out of stock at Mouser")]); continue
+                        r.update(mouser=s[0], mfr_pn=s[1], mfr=s[2], price=s[3], desc=r["desc"] + " (replaces %s: %s)" % (kk, s[4]))
+                    (good if r.get("mouser") else gone).append(r if r.get("mouser") else [r["mfr_pn"], r["qty"], "In the maker's cart without a Mouser number; check the cart"])
+                merged = {}
+                for r in good:
+                    if r["mouser"] in merged:
+                        merged[r["mouser"]]["qty"] += r["qty"]; merged[r["mouser"]]["value"] += " / " + r["value"]
+                    else:
+                        merged[r["mouser"]] = dict(r)
+                good = list(merged.values())
                 with open(os.path.join(OUT, base + ".csv"), "w", newline="") as f:
                     w = csv.writer(f); w.writerow(HEAD)
                     for r in good:
                         w.writerow([r["mouser"], r["mfr_pn"], r["mfr"], r["qty"], r["desc"], "%s: %s" % (pl["board"], r["value"])])
                 with open(os.path.join(OUT, base + "_not_at_mouser.csv"), "w", newline="") as f:
                     w = csv.writer(f); w.writerow(["Part", "Quantity", "Where to get it"])
-                    w.writerows([[r["mfr_pn"], r["qty"], "In the maker's cart without a Mouser number; check the cart"] for r in pl["parts"] if not r.get("mouser")])
-                report.append((slug, cart, len(good), len(pl["parts"]) - len(good),
+                    w.writerows(gone)
+                report.append((slug, cart, len(good), len(gone),
                                round(sum(r["qty"] * (r["price"] or 0) for r in good), 2), 0, 1))
     for r in report:
         print("%-32s %-20s %2d Mouser lines (%2d unverified), %d elsewhere, ~$%.2f" % (r[0], r[1], r[2], r[5], r[3], r[4]))
@@ -257,6 +283,9 @@ def main():
         "Pots: Alpha-type 16 mm, solder lugs, 6.35 mm (1/4\") round shaft, so they take 1/4\" knobs such as the Davies 1900H clone listed "
         "with them (one knob per pot). Values Tayda doesn't stock in that style (20K linear) stay in the Mouser file, with the knob still "
         "listed here. Prices were checked on 2026-11-21 and change; check stock before ordering.", "",
+        "Prefer genuine Davies knobs? `../mouser/knobs/<module>__<board>.csv` is a Mouser upload file with the same number of "
+        "Davies Molding 1900-H knobs (Mouser 5164-1900-H, about $4.36 each on 2026-11-21; 5164-1900-L is the version with an "
+        "indicator line). Use it instead of the knob line here.", "",
         "| File | Lines | Approx. cost |", "|---|---|---|"] + ["| %s.csv | %d | $%.2f |" % (b, x["lines"], x["cost"]) for b, x in sorted(treport.items())] + [""]))
     readme(report)
 
@@ -278,7 +307,9 @@ def readme(report):
          "The Low-Gain files (`__lge…`) include the panel jacks, pots and switches, following Low-Gain's BOM. The CGS files include switches "
          "but leave out banana jacks; their pots and knobs are in the Tayda lists in `../tayda/` (cheaper there).", "",
          "Files ending `__prism_cart.csv` or `__lowgain_cart_<board>.csv` are made from the maker's own shared Mouser project (cart), "
-         "copied line for line with Mouser and manufacturer part numbers. They follow the maker's board, not Ken Stone's, and the makers "
+         "copied line for line with Mouser and manufacturer part numbers, except that parts which were out of stock, backordered or "
+         "obsolete on mouser.com on 2026-11-21 are swapped for in-stock equivalents (see `../../_source/cart_substitutions.json`; "
+         "each swapped line says what it replaces). They follow the maker's board, not Ken Stone's, and the makers "
          "often leave pots, knobs, jacks or headers out of their carts: check the build page.", "",
          "| File | Mouser lines | Bought elsewhere (lines) | Approx. cost (1 off) |", "|---|---|---|---|"]
     for r in report:
