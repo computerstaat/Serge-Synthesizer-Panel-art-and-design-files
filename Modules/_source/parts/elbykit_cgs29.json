@@ -1,0 +1,196 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs/cgs29/kc-2-cgs29.pdf",
+ "board": "CGS29 (Elby kit BOM)",
+ "title": "CGS29 - Wave Multiplier Component Kit V2.1",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "47pF (5% Ceramic)",
+   "qty": 6
+  },
+  {
+   "type": "Capacitor",
+   "value": "5n6 (63V Polyester)",
+   "qty": 1
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (63V Polyester)",
+   "qty": 1
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 6
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (63V Polyester)",
+   "qty": 1,
+   "refs": "NB: AC input on Lockhart"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1uF bipolar (35V Bipolar Electrolytic)",
+   "qty": 1,
+   "refs": "NB: In series with OUT"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 2
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 4
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK396",
+   "qty": 4
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Straight - Locking Header",
+   "qty": 1
+  },
+  {
+   "type": "Misc",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 3
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Crimp Housing",
+   "qty": 1
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 14
+  },
+  {
+   "type": "Semiconductor",
+   "value": "4.7V 5% 500mW",
+   "qty": 4
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 2
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL074 Quad JFET Opamp",
+   "qty": 3
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CA3080 - Transconductance Opamp",
+   "qty": 1
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LM358 - Dual Opamp",
+   "qty": 1
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2
+  },
+  {
+   "type": "Resistor",
+   "value": "220R (1% 0.5W Metal Film)",
+   "qty": 4,
+   "refs": "NB: 2x LM13700_13_14"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R (1% 0.5W Metal Film)",
+   "qty": 1
+  },
+  {
+   "type": "Resistor",
+   "value": "470R (1% 0.5W Metal Film)",
+   "qty": 1
+  },
+  {
+   "type": "Resistor",
+   "value": "1K (1% 0.5W Metal Film)",
+   "qty": 6
+  },
+  {
+   "type": "Resistor",
+   "value": "1K8 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "LPOL, POL"
+  },
+  {
+   "type": "Resistor",
+   "value": "3K9 (1% 0.5W Metal Film)",
+   "qty": 1
+  },
+  {
+   "type": "Resistor",
+   "value": "4K7 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "NB: FOL"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 21
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 2
+  },
+  {
+   "type": "Resistor",
+   "value": "39K (1% 0.5W Metal Film)",
+   "qty": 1
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "FCV, PWS"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 15,
+   "refs": "NB: MFL"
+  },
+  {
+   "type": "Resistor",
+   "value": "120K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "PWR"
+  },
+  {
+   "type": "Resistor",
+   "value": "220K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "LHL"
+  },
+  {
+   "type": "Resistor",
+   "value": "270K (1% 0.5W Metal Film)",
+   "qty": 1
+  },
+  {
+   "type": "Semiconductor",
+   "value": "2N3906 PNP Transistor",
+   "qty": 1
+  },
+  {
+   "type": "Semiconductor",
+   "value": "2N3904 NPN Transistor",
+   "qty": 1
+  }
+ ]
+}

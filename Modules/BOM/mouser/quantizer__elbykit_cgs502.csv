@@ -1,0 +1,38 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H100DNT0,FG28C0G1H100DNT00,TDK,1,"Ceramic 10pF C0G 50V, 5mm",CGS502 (Elby kit BOM): 10pF (5% Ceramic)
+810-FG28C0G1H820JNT0,FG28C0G1H820JNT00,TDK,6,"Ceramic 82pF C0G 50V, 5mm",CGS502 (Elby kit BOM): 82pF (5% Ceramic)
+810-FG28C0G1H221JNT0,FG28C0G1H221JNT00,TDK,2,"Ceramic 220pF C0G 50V, 5mm",CGS502 (Elby kit BOM): 220pF (5% Ceramic)
+810-FG28X7R1H103KNT6,FG28X7R1H103KNT06,TDK,10,"Ceramic 10nF X7R 50V, 5mm",CGS502 (Elby kit BOM): 10nF (63V Polyester) / 10nF (5% Ceramic)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,13,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS502 (Elby kit BOM): 100nF (Ceramic)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,3,Electrolytic 10uF 25V,CGS502 (Elby kit BOM): 10uF (35V Tantalum) / 10uF (35V Electrolytic)
+571-1-2199298-3,1-2199298-3,TE Connectivity,1,IC socket DIP-14 [UNVERIFIED: check stock and price],CGS502 (Elby kit BOM): 14-pin IC Socket 0.3inch
+538-08-50-0114,08-50-0114,Molex,3,KK254 crimp terminal [UNVERIFIED: check stock and price],CGS502 (Elby kit BOM): CRIMP - KK254
+538-22-01-3037,22-01-3037,Molex,1,KK254 3-way crimp housing [UNVERIFIED: check stock and price],CGS502 (Elby kit BOM): 3-way 0.1inch Crimp Housing
+538-22-27-2031,22-27-2031,Molex,1,KK254 3-pin header (power) [UNVERIFIED: check stock and price],CGS502 (Elby kit BOM): 3-way 0.1inch Straight Header
+571-1-2199298-2,1-2199298-2,TE Connectivity,4,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS502 (Elby kit BOM): 8-pin IC Socket 0.3inch
+571-1-2199298-4,1-2199298-4,TE Connectivity,6,IC socket DIP-16 [UNVERIFIED: check stock and price],CGS502 (Elby kit BOM): 16-pin IC Socket 0.3inch
+512-1N4148,1N4148,onsemi,1,Small-signal diode,CGS502 (Elby kit BOM): 1N4148
+595-TL431ACLP,TL431ACLP,Texas Instruments,1,"Adjustable shunt reference, TO-92 [UNVERIFIED: check stock and price]",CGS502 (Elby kit BOM): TL431 - 2.5V Adjustable Reference Diode
+595-LM311P,LM311P,Texas Instruments,1,"Comparator LM311, DIP-8 [UNVERIFIED: check stock and price]",CGS502 (Elby kit BOM): LM311 - Comparator
+595-TLC7524CN,TLC7524CN,Texas Instruments,1,"8-bit DAC TLC7524, DIP-16 [UNVERIFIED: check stock and price]",CGS502 (Elby kit BOM): TLC7524 - 8-bit D/A Converter
+926-LF353N/NOPB,LF353N/NOPB,Texas Instruments,3,"Dual JFET op-amp LF353, DIP-8 [UNVERIFIED: check stock and price]",CGS502 (Elby kit BOM): LF353 - Dual JFET Opamp
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS502 (Elby kit BOM): Ferrite bead (Ferrite Bead - 5A)
+595-CD4051BE,CD4051BE,Texas Instruments,2,"CMOS CD4051B, DIP-16 [UNVERIFIED: check stock and price]",CGS502 (Elby kit BOM): CD4051 - Single 8-channel Multiplexer
+595-CD4093BE,CD4093BE,Texas Instruments,1,"CMOS CD4093B, DIP-14 [UNVERIFIED: check stock and price]",CGS502 (Elby kit BOM): CD4093 - Quad 2-input NAND Schmitt trigger
+595-CD4520BE,CD4520BE,Texas Instruments,3,"CMOS CD4520B, DIP-16 [UNVERIFIED: check stock and price]",CGS502 (Elby kit BOM): CD4520 - Dual Binary Up-Counter
+603-MFR-25FBF52-10R,MFR-25FBF52-10R,YAGEO,1,Metal film resistor 10R 1/4W 1%,CGS502 (Elby kit BOM): 10R (1% 0.5W Metal Film)
+603-MFR-25FBF52-330R,MFR-25FBF52-330R,YAGEO,5,Metal film resistor 330R 1/4W 1%,CGS502 (Elby kit BOM): 330R (1% 0.5W Metal Film)
+603-MFR-25FBF52-6K8,MFR-25FBF52-6K8,YAGEO,1,Metal film resistor 6k8 1/4W 1%,CGS502 (Elby kit BOM): 6K8 (1% 0.5W Metal Film)
+603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,4,Metal film resistor 15k 1/4W 1%,CGS502 (Elby kit BOM): 15K (1% 0.5W Metal Film)
+603-MFR-25FBF52-22K,MFR-25FBF52-22K,YAGEO,4,Metal film resistor 22k 1/4W 1%,CGS502 (Elby kit BOM): 22K (1% 0.5W Metal Film)
+603-MFR-25FBF52-33K,MFR-25FBF52-33K,YAGEO,7,Metal film resistor 33k 1/4W 1%,CGS502 (Elby kit BOM): 33K (1% 0.5W Metal Film)
+603-MFR-25FBF52-41K2,MFR-25FBF52-41K2,YAGEO,1,Metal film resistor 41k2 1/4W 1%,CGS502 (Elby kit BOM): 41K2 (1% 0.5W Metal Film)
+603-MFR-25FBF52-43K,MFR-25FBF52-43K,YAGEO,2,Metal film resistor 43k 1/4W 1%,CGS502 (Elby kit BOM): 43K (1% 0.5W Metal Film)
+603-MFR-25FBF52-47K,MFR-25FBF52-47K,YAGEO,1,Metal film resistor 47k 1/4W 1%,CGS502 (Elby kit BOM): 47K (1% 0.5W Metal Film)
+603-MFR-25FBF52-82K5,MFR-25FBF52-82K5,YAGEO,1,Metal film resistor 82k5 1/4W 1%,CGS502 (Elby kit BOM): 82K5 (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,5,Metal film resistor 100k 1/4W 1%,CGS502 (Elby kit BOM): 100K (1% 0.5W Metal Film)
+603-MFR-25FBF52-280K,MFR-25FBF52-280K,YAGEO,1,Metal film resistor 280k 1/4W 1%,CGS502 (Elby kit BOM): 280K (1% 0.5W Metal Film)
+603-MFR-25FBF52-1M,MFR-25FBF52-1M,YAGEO,1,Metal film resistor 1M 1/4W 1%,CGS502 (Elby kit BOM): 1M (1% 0.5W Metal Film)
+603-CFR-25JB-52-3M3,CFR-25JB-52-3M3,YAGEO,1,Carbon film resistor 3M3 1/4W 5%,CGS502 (Elby kit BOM): 3M3 (1% 0.5W Metal Film)
+512-2N3904BU,2N3904BU,onsemi,2,"NPN transistor 2N3904, TO-92 (EBC)",CGS502 (Elby kit BOM): 2N3904 NPN Transistor
+652-3362P-1-503LF,3362P-1-503LF,Bourns,1,"Trimmer 50k, 1/4in square [UNVERIFIED: check stock and price]",CGS502 (Elby kit BOM): 50K trimmer (MTV Cermet)

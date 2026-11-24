@@ -26,8 +26,15 @@ TARGETS = {"triple-comparator": ["cgs96_comp"], "triple-wave-shaper": ["cgs85_tw
            "wave-multipliers": ["cgs113_vcm"], "dual-universal-slope-generator": ["cgs114_dusg"], "extended-adsr": ["cgs116_env"],
            "resonant-equalizer": ["cgs202_reseq"], "dual-channel-stereo-mixer": ["cgs101_dcsm", "cgs108_vca", "cgs102_epp"],
            "programmer-sequencer": ["cgs87s_prog", "cgs87_prog"], "vc-slope": ["cgs75_vcs"]}
+# Elby kit BOMs (parts/elbykit_*.json) on any page that uses one
+for _m in json.load(open(os.path.join(HERE, "modules.json")))["modules"]:
+    for _b in _m["builds"]:
+        for _k in _b.get("parts") or []:
+            if _k.startswith("elbykit_") and _k not in TARGETS.setdefault(_m["slug"], []):
+                TARGETS[_m["slug"]].append(_k)
 # boards needed more than once per module: gain cells and panner drivers on the carrier boards
-MULT = {("universal-audio-processor", "cgs108_vca"): 2, ("extended-range-vcf", "cgs108_vca"): 3,
+MULT = {("band-pass-filters", "elbykit_cgs330"): 2, ("dual-cmos-filter", "elbykit_cgs349"): 2,
+        ("universal-audio-processor", "cgs108_vca"): 2, ("extended-range-vcf", "cgs108_vca"): 3,
         ("dual-channel-stereo-mixer", "cgs108_vca"): 4, ("dual-channel-stereo-mixer", "cgs102_epp"): 2}
 # BOMs written out line by line from a maker's own BOM and Mouser cart (Low-Gain), not from a parts list
 EXPLICIT = json.load(open(os.path.join(HERE, "mouser_explicit.json")))
@@ -78,7 +85,23 @@ def key(t, v):
     if t == "Off-board":
         if any(w in lv for w in ("jack", "knob", "position switch")): return ("NA", "Panel")
         t = "Misc" if "switch" in lv else "Semiconductor"
-    if t == "Misc":
+    if t == "Misc":   # Elby kit BOM lines first (sockets, KK254/KK396 power connectors, headers, networks)
+        if "ic socket" in lv:
+            m = re.match(r"(\d+)-pin", lv)
+            return "M:Socket %s" % m.group(1) if m else ("NA", "unmapped")
+        if "kk254" in lv or "0.1inch" in lv:
+            if "crimp housing" in lv: return "M:KK254 housing 3"
+            if "crimp" in lv: return "M:KK254 crimp"
+            return "M:KK254 header 3"
+        if "kk396" in lv:
+            if "crimp housing" in lv: return "M:MTA156 housing"
+            if "crimp" in lv: return ("NA", "Not needed (IDC housing)")
+            return "M:MTA156 header"
+        if "9mm header" in lv: return "M:Header 1x3" if "1x3" in lv else "M:Header 1x2"
+        if "jumper shunt" in lv: return "M:Shunt"
+        if "2x8 open pin header" in lv: return "M:Header 2x8"
+        if "resistor network" in lv: return "M:RN 8x1k" if "x 1k " in lv else "M:RN 8x4k7"
+        if "tempco" in lv: return ("NA", "Tempco")
         if "pcb" in lv: return ("NA", "PCB")
         if "submodule" in lv: return ("NA", "Submodule")
         if "header strip" in lv: return ("NA", "Header")
@@ -123,8 +146,16 @@ def key(t, v):
                        ("ca3046", ("NA", "CA3046")), ("ca3086", ("NA", "CA3046")), ("lm3080", ("NA", "LM3080")), ("ca3080", ("NA", "LM3080")),
                        ("lm307", ("NA", "LM307")), ("vtl5c", ("NA", "Vactrol")), ("ca3140", "S:CA3140"), ("ca3130", "S:CA3130"),
                        ("lm324", "S:LM324"), ("lm339", "S:LM339"), ("lm393", "S:LM393"), ("78l12", "S:78L12"), ("79l12", "S:79L12"),
-                       ("j201", "S:J201")) + OBSOLETE:
+                       ("j201", "S:J201"), ("lm358", "S:LM358"), ("lf353", "S:LF353"), ("tl082", "S:TL082"), ("ne5532", "S:NE5532"),
+                       ("lm311", "S:LM311"), ("lm13700", "S:LM13700"), ("lm317lz", "S:LM317LZ"), ("lm337lz", "S:LM337LZ"),
+                       ("7805", "S:7805"), ("79l05", "S:79L05"), ("1n4004", "S:1N4004"), ("bat42", "S:BAT42"), ("bat48", "S:BAT85"),
+                       ("7555", "S:7555"), ("tl431", "S:TL431"), ("tlc7524", "S:TLC7524"), ("opa134", "S:OPA134"), ("lt1013", "S:LT1013"),
+                       ("j108", "S:J108"), ("pn2222", "S:PN2222A"), ("pn2907", "S:PN2907A"), ("pn3565", "S:2N3904"), ("4.7v 5%", "S:4V7"),
+                       ("ls312", ("NA", "Matched pair")), ("ls358", ("NA", "Matched pair")), ("matched pnp sub", ("NA", "Matched pair")),
+                       ("cd4030", "S:4070")) + OBSOLETE:
             if pat in lv: return k
+        m = re.match(r"^(?:cd)?(4006|4011|4015|4046|4051|4093|40106|4516|4520)\b", lv)
+        if m: return {"4516": "S:40516", "4520": "S:40520"}.get(m.group(1), "S:" + m.group(1))
         m = re.match(r"^(?:cd)?40(01|07|13|16|17|24|52|66|69|81)", lv)
         if m: return "S:40" + ("66" if m.group(1) == "16" else m.group(1))
         if re.match(r"^(lm|ua)?741\b", lv): return "S:741"

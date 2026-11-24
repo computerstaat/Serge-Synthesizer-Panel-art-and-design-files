@@ -1,0 +1,35 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H680JNT0,FG28C0G1H680JNT00,TDK,2,"Ceramic 68pF C0G 50V, 5mm [UNVERIFIED: check stock and price]",CGS349 (Elby kit BOM) x2: 68pF (5% Ceramic)
+810-FG28C0G1H102JNT0,FG28C0G1H102JNT06,TDK,8,"Ceramic 1nF C0G 50V, 5mm",CGS349 (Elby kit BOM) x2: 1nF (63V Polyester)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,14,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS349 (Elby kit BOM) x2: 100nF (Ceramic) / 100nF (63V Polyester)
+505-MKS2.22/63/5T,MKS2-.22/63/5T,WIMA,6,"Film capacitor 220nF 63V, 5mm",CGS349 (Elby kit BOM) x2: 220nF (63V Polyester)
+80-ESK105M050AC3AA,ESK105M050AC3AA,KEMET,2,Electrolytic 1uF 50V,CGS349 (Elby kit BOM) x2: 1uF (35V Tantalum)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,8,Electrolytic 10uF 25V,CGS349 (Elby kit BOM) x2: 10uF (35V Electrolytic)
+571-1-2199298-2,1-2199298-2,TE Connectivity,4,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS349 (Elby kit BOM) x2: 8-pin IC Socket 0.3inch
+538-22-27-2031,22-27-2031,Molex,2,KK254 3-pin header (power) [UNVERIFIED: check stock and price],CGS349 (Elby kit BOM) x2: 3-way 0.1inch Straight Header
+538-08-50-0114,08-50-0114,Molex,6,KK254 crimp terminal [UNVERIFIED: check stock and price],CGS349 (Elby kit BOM) x2: CRIMP - KK254
+538-22-01-3037,22-01-3037,Molex,2,KK254 3-way crimp housing [UNVERIFIED: check stock and price],CGS349 (Elby kit BOM) x2: 3-way 0.1inch Crimp Housing
+571-1-2199298-4,1-2199298-4,TE Connectivity,2,IC socket DIP-16 [UNVERIFIED: check stock and price],CGS349 (Elby kit BOM) x2: 16-pin IC Socket 0.3inch
+571-1-2199298-3,1-2199298-3,TE Connectivity,2,IC socket DIP-14 [UNVERIFIED: check stock and price],CGS349 (Elby kit BOM) x2: 14-pin IC Socket 0.3inch
+512-1N4004,1N4004,onsemi,2,Rectifier diode 400V 1A [UNVERIFIED: check stock and price],CGS349 (Elby kit BOM) x2: 1N4004 200V 1A
+512-1N4148,1N4148,onsemi,4,Small-signal diode,CGS349 (Elby kit BOM) x2: 1N4148
+78-BAT42,BAT42-TR,Vishay,4,Schottky diode 30V 200mA [UNVERIFIED: check stock and price],CGS349 (Elby kit BOM) x2: BAT42 Schottky Diode
+926-LM79L05ACZ/NOPB,LM79L05ACZ/NOPB,Texas Instruments,2,"-5V 100mA regulator, TO-92 [UNVERIFIED: check stock and price]",CGS349 (Elby kit BOM) x2: 79L05 -5V 100mA Fixed Voltage Regulator
+595-TL071IP,TL071IP,Texas Instruments,4,"JFET op-amp, single",CGS349 (Elby kit BOM) x2: TL071 JFET Opamp
+926-LM13700N/NOPB,LM13700N/NOPB,Texas Instruments,2,"Dual OTA LM13700, DIP-16 [UNVERIFIED: check stock and price]",CGS349 (Elby kit BOM) x2: LM13700 - Dual OTA
+875-28L0138-70R-10,28L0138-70R-10,Laird,4,"Ferrite bead, through hole",CGS349 (Elby kit BOM) x2: Ferrite bead (Ferrite Bead - 5A)
+595-CD4069UBE,CD4069UBE,Texas Instruments,2,"CMOS CD4069UB, DIP",CGS349 (Elby kit BOM) x2: CD4069UB - Hex Inverter Unbuffered
+603-MFR-25FBF52-1K,MFR-25FBF52-1K,YAGEO,6,Metal film resistor 1k 1/4W 1%,CGS349 (Elby kit BOM) x2: 1K (1% 0.5W Metal Film)
+603-MFR-25FBF52-2K2,MFR-25FBF52-2K2,YAGEO,4,Metal film resistor 2k2 1/4W 1%,CGS349 (Elby kit BOM) x2: 2K2 (1% 0.5W Metal Film)
+603-MFR-25FBF52-4K7,MFR-25FBF52-4K7,YAGEO,4,Metal film resistor 4k7 1/4W 1%,CGS349 (Elby kit BOM) x2: 4K7 (1% 0.5W Metal Film)
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,2,Metal film resistor 10k 1/4W 1%,CGS349 (Elby kit BOM) x2: 10K (1% 0.5W Metal Film)
+603-MFR-25FBF52-33K,MFR-25FBF52-33K,YAGEO,18,Metal film resistor 33k 1/4W 1%,CGS349 (Elby kit BOM) x2: 33K (1% 0.5W Metal Film)
+603-MFR-25FBF52-47K,MFR-25FBF52-47K,YAGEO,4,Metal film resistor 47k 1/4W 1%,CGS349 (Elby kit BOM) x2: 47K (1% 0.5W Metal Film)
+603-MFR-25FBF52-51K,MFR-25FBF52-51K,YAGEO,6,Metal film resistor 51k 1/4W 1%,CGS349 (Elby kit BOM) x2: 51K (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,28,Metal film resistor 100k 1/4W 1%,CGS349 (Elby kit BOM) x2: 100K (1% 0.5W Metal Film)
+603-MFR-25FBF52-270K,MFR-25FBF52-270K,YAGEO,2,Metal film resistor 270k 1/4W 1%,CGS349 (Elby kit BOM) x2: 270K (1% 0.5W Metal Film)
+603-MFR-25FBF52-1M,MFR-25FBF52-1M,YAGEO,2,Metal film resistor 1M 1/4W 1%,CGS349 (Elby kit BOM) x2: 1M (1% 0.5W Metal Film)
+512-BC547BTA,BC547BTA,onsemi,2,NPN transistor (BC547B),CGS349 (Elby kit BOM) x2: BC547B NPN Transistor
+512-2N3906BU,2N3906BU,onsemi,4,"PNP transistor 2N3906, TO-92 (EBC)",CGS349 (Elby kit BOM) x2: 2N3906 PNP Transistor
+652-3362P-1-102LF,3362P-1-102LF,Bourns,2,"Trimmer 1k, 1/4in square [UNVERIFIED: check stock and price]",CGS349 (Elby kit BOM) x2: 1K trimmer (MTV Cermet)
+652-3296W-1-104LF,3296W-1-104LF,Bourns,2,"Trimmer 100k, 3296W multi-turn (3362P 100k out of stock)",CGS349 (Elby kit BOM) x2: 100K trimmer (MTV Cermet)

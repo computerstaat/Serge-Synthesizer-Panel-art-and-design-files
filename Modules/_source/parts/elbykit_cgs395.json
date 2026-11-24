@@ -1,0 +1,139 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs3xx/cgs395/kc-2-cgs395.pdf",
+ "board": "CGS395 (Elby kit BOM)",
+ "title": "CGS395 - Digital Reverb Component Kit V1.0",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "22pF (10% Ceramic)",
+   "qty": 2,
+   "refs": "C105, C205"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47pF (5% Ceramic)",
+   "qty": 6,
+   "refs": "C101, C104, C106, C201, C204, C206"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (63V Polyester)",
+   "qty": 2,
+   "refs": "C102, C202"
+  },
+  {
+   "type": "Capacitor",
+   "value": "22nF (63V Polyester)",
+   "qty": 2,
+   "refs": "C103, C203"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 8,
+   "refs": "C303, C304, C305, C306, C307, C308, C309, C310"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1uF (35V Tantalum)",
+   "qty": 1,
+   "refs": "C311"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 2,
+   "refs": "C301, C302"
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Crimp Housing",
+   "qty": 1,
+   "refs": "J301"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 4,
+   "refs": "U101, U103, U201, U203"
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Straight - Locking Header",
+   "qty": 1,
+   "refs": "J301"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK396",
+   "qty": 4,
+   "refs": "J301^4"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4004 200V 1A",
+   "qty": 1,
+   "refs": "D301"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 4,
+   "refs": "U101, U103, U201, U203"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "7805 +5V 1A Fixed Voltage Regulator",
+   "qty": 1,
+   "refs": "U301"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2,
+   "refs": "L301, L302"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R (1% 0.5W Metal Film)",
+   "qty": 4,
+   "refs": "R111, R115, R211, R215"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R105, R205"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K (1% 0.5W Metal Film)",
+   "qty": 4,
+   "refs": "R112, R113, R212, R213"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 18,
+   "refs": "R101, R102, R103, R104, R106, R107, R108, R109, R114, R201, R202, R203, R204, R206, R207, R208, R209, R214"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M2 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R110, R210"
+  },
+  {
+   "type": "Potentiometer / trimmer",
+   "value": "10K trimmer (1TV Cermet)",
+   "qty": 2,
+   "refs": "P103, P203"
+  },
+  {
+   "type": "Potentiometer / trimmer",
+   "value": "20K trimmer (1TV Cermet)",
+   "qty": 2,
+   "refs": "P101, P201"
+  }
+ ]
+}

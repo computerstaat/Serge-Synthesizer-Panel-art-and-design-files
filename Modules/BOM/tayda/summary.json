@@ -84,9 +84,99 @@
   "cost": 3.24,
   "knobs": 4
  },
+ "programmer-sequencer__cgs87s_prog": {
+  "lines": 1,
+  "cost": 6.72,
+  "knobs": 16
+ },
  "vc-slope__cgs75_vcs": {
   "lines": 3,
   "cost": 3.66,
   "knobs": 5
+ },
+ "quadrature-oscillator__elbykit_cgs414": {
+  "lines": 1,
+  "cost": 2.1,
+  "knobs": 5
+ },
+ "gated-comparator__elbykit_cgs313": {
+  "lines": 1,
+  "cost": 4.62,
+  "knobs": 11
+ },
+ "vc-divider__elbykit_cgs309": {
+  "lines": 1,
+  "cost": 0.84,
+  "knobs": 2
+ },
+ "infinite-melody__elbykit_cgs32": {
+  "lines": 1,
+  "cost": 4.2,
+  "knobs": 10
+ },
+ "modulo-magic__elbykit_cgs340": {
+  "lines": 1,
+  "cost": 3.36,
+  "knobs": 8
+ },
+ "slope-detector__elbykit_cgs362": {
+  "lines": 1,
+  "cost": 0.42,
+  "knobs": 1
+ },
+ "wave-multiplier-cgs29__elbykit_cgs29": {
+  "lines": 1,
+  "cost": 0.84,
+  "knobs": 2
+ },
+ "sub-oscillator__elbykit_cgs301": {
+  "lines": 1,
+  "cost": 3.78,
+  "knobs": 9
+ },
+ "utility-lfo__elbykit_cgs58": {
+  "lines": 1,
+  "cost": 2.52,
+  "knobs": 6
+ },
+ "dual-cmos-filter__elbykit_cgs349": {
+  "lines": 1,
+  "cost": 4.2,
+  "knobs": 10
+ },
+ "drum-simulator__elbykit_cgs318": {
+  "lines": 1,
+  "cost": 1.68,
+  "knobs": 4
+ },
+ "chime-simulator__elbykit_cgs419": {
+  "lines": 1,
+  "cost": 4.2,
+  "knobs": 10
+ },
+ "digital-noise__elbykit_cgs331": {
+  "lines": 1,
+  "cost": 0.42,
+  "knobs": 1
+ },
+ "preamp-detector__elbykit_cgs504": {
+  "lines": 1,
+  "cost": 0.84,
+  "knobs": 2
+ },
+ "compact-vco__elbykit_cgs348": {
+  "lines": 1,
+  "cost": 2.94,
+  "knobs": 7
+ },
+ "extended-function-vco__elbykit_cgs348full": {
+  "lines": 1,
+  "cost": 3.78,
+  "knobs": 9
+ },
+ "cynare-drum-simulator__elbykit_cgs47": {
+  "lines": 1,
+  "cost": 5.46,
+  "knobs": 13
  }
 }

@@ -1,0 +1,525 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs3xx/cgs318/kc-2-cgs318.pdf",
+ "board": "CGS318 (Elby kit BOM)",
+ "title": "CGS318 - Quad Drum Simulator Component Kit V2.0",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "1nF (63V Polyester)",
+   "qty": 2,
+   "refs": "C102, C103",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (63V Polyester)",
+   "qty": 2,
+   "refs": "C101, C104",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 1,
+   "refs": "U101",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 1,
+   "refs": "U101",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LED 3mm HE-Red LED",
+   "qty": 1,
+   "refs": "D101",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Resistor",
+   "value": "680R (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R106",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Resistor",
+   "value": "6K8 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R111",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R105",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R102",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R101, R103",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Resistor",
+   "value": "470K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R107",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M5 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R108, R109",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Resistor",
+   "value": "2M2 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R110",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Resistor",
+   "value": "4M7 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R104",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Potentiometer / trimmer",
+   "value": "100K trimmer (MTV Cermet)",
+   "qty": 1,
+   "refs": "P102",
+   "section": "Drum 1"
+  },
+  {
+   "type": "Capacitor",
+   "value": "470pF (10% Ceramic)",
+   "qty": 2,
+   "refs": "C202, C203",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1nF (63V Polyester)",
+   "qty": 2,
+   "refs": "C402, C403",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Capacitor",
+   "value": "4n7 (63V Polyester)",
+   "qty": 1,
+   "refs": "C204",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C201",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 1,
+   "refs": "U201",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 1,
+   "refs": "U201",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LED 3mm HE-Red LED",
+   "qty": 1,
+   "refs": "D201",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Resistor",
+   "value": "680R (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R206",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Resistor",
+   "value": "6K8 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R211",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R205",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R202",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R201, R203",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Resistor",
+   "value": "470K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R207",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M5 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R208, R209",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Resistor",
+   "value": "2M2 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R210",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Resistor",
+   "value": "4M7 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R204",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Potentiometer / trimmer",
+   "value": "100K trimmer (MTV Cermet)",
+   "qty": 1,
+   "refs": "P202",
+   "section": "Drum 2"
+  },
+  {
+   "type": "Capacitor",
+   "value": "4n7 (63V Polyester)",
+   "qty": 2,
+   "refs": "C302, C303",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (63V Polyester)",
+   "qty": 2,
+   "refs": "C301, C304",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 1,
+   "refs": "U301",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 1,
+   "refs": "U301",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LED 3mm HE-Red LED",
+   "qty": 1,
+   "refs": "D301",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Resistor",
+   "value": "680R (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R306",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Resistor",
+   "value": "6K8 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R311",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R307",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R305",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R302",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R301, R303",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Resistor",
+   "value": "2M2 (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R308, R309, R310",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Resistor",
+   "value": "4M7 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R304",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Potentiometer / trimmer",
+   "value": "100K trimmer (MTV Cermet)",
+   "qty": 1,
+   "refs": "P302",
+   "section": "Bass Drum"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (63V Polyester)",
+   "qty": 2,
+   "refs": "C401, C404",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 1,
+   "refs": "U401",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 1,
+   "refs": "U401",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LED 3mm HE-Red LED",
+   "qty": 1,
+   "refs": "D401",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Resistor",
+   "value": "680R (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R406",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Resistor",
+   "value": "6K8 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R411",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R407",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R405",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R402",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R401, R403",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Resistor",
+   "value": "2M2 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R408, R409",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Resistor",
+   "value": "3M9 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R410",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Resistor",
+   "value": "4M7 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R404",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Potentiometer / trimmer",
+   "value": "100K trimmer (MTV Cermet)",
+   "qty": 1,
+   "refs": "P402",
+   "section": "Wood Block"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47pF (5% Ceramic)",
+   "qty": 1,
+   "refs": "C501",
+   "section": "Mixer"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF bipolar (Bipolar Electrolytic)",
+   "qty": 1,
+   "refs": "C502",
+   "section": "Mixer"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 1,
+   "refs": "U501",
+   "section": "Mixer"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL071 JFET Opamp",
+   "qty": 1,
+   "refs": "U501",
+   "section": "Mixer"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R506",
+   "section": "Mixer"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 6,
+   "refs": "R501, R502, R503, R504, R505, R507",
+   "section": "Mixer"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 8,
+   "refs": "C3, C4, C5, C6, C7, C8, C9, C10",
+   "section": "Power Supply"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 2,
+   "refs": "C1, C2",
+   "section": "Power Supply"
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Straight - Locking Header",
+   "qty": 1,
+   "refs": "J1",
+   "section": "Power Supply"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK396",
+   "qty": 4,
+   "refs": "J1^4",
+   "section": "Power Supply"
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Crimp Housing",
+   "qty": 1,
+   "refs": "J1",
+   "section": "Power Supply"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2,
+   "refs": "L1, L2",
+   "section": "Power Supply"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R2",
+   "section": "Power Supply"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R1",
+   "section": "Power Supply"
+  }
+ ]
+}

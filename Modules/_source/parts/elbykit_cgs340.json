@@ -1,0 +1,127 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs3xx/cgs340/kc-2-cgs340.pdf",
+ "board": "CGS340 (Elby kit BOM)",
+ "title": "CGS340 - Modulo Magic Component Kit V2.0",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "47pF (5% Ceramic)",
+   "qty": 6,
+   "refs": "C101, C102, C103, C104, C105, C201"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 8,
+   "refs": "C404, C405, C406, C407, C408, C409, C410, C411"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 3,
+   "refs": "C401, C402, C403"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Straight Header",
+   "qty": 1,
+   "refs": "J401"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Crimp Housing",
+   "qty": 1,
+   "refs": "J401"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK254",
+   "qty": 3,
+   "refs": "J401^3"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 7,
+   "refs": "U101, U102, U103, U202, U203, U302, U303"
+  },
+  {
+   "type": "Misc",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 2,
+   "refs": "U201, U301"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 11,
+   "refs": "D101, D211, D221, D231, D241, D301, D311, D321, D331, D401, D402"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LM393 - Dual Comparator",
+   "qty": 4,
+   "refs": "U202, U203, U302, U303"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 3,
+   "refs": "U101, U102, U103"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2,
+   "refs": "L401, L402"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4066 - Quad Analogue switch",
+   "qty": 2,
+   "refs": "U201, U301"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R106, R114"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K2 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R401, R402"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 16,
+   "refs": "R214, R216, R224, R226, R234, R236, R244, R246, R304, R306, R314, R316, R324, R326, R334, R336"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 38,
+   "refs": "R101, R103, R104, R105, R107, R108, R110, R111, R113, R115, R116, R117, R118, R201, R211, R212, R213, R221, R222, R223, R231, R232, R233, R241, R242, R243, R301, R302, R303, R311, R312, R313, R321, R322, R323, R331, R332, R333"
+  },
+  {
+   "type": "Resistor",
+   "value": "470K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R109, R202, R203"
+  },
+  {
+   "type": "Resistor",
+   "value": "560K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R102"
+  },
+  {
+   "type": "Resistor",
+   "value": "4M7 (1% 0.5W Metal Film)",
+   "qty": 8,
+   "refs": "R215, R225, R235, R245, R305, R315, R325, R335"
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs3xx/cgs301/kc-2-cgs301.pdf",
+ "board": "CGS301 (Elby kit BOM)",
+ "title": "CGS301 - Sub-Oscillator Component Kit",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "47pF (5% Ceramic)",
+   "qty": 2
+  },
+  {
+   "type": "Capacitor",
+   "value": "1.5nF (63V Polyester)",
+   "qty": 4
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 9
+  },
+  {
+   "type": "Capacitor",
+   "value": "1uF (50V Electrolytic)",
+   "qty": 2
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 2
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Straight - Locking Header",
+   "qty": 1
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Crimp Housing",
+   "qty": 1
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK396",
+   "qty": 4
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 3
+  },
+  {
+   "type": "Misc",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 5
+  },
+  {
+   "type": "Misc",
+   "value": "16-pin IC Socket 0.3inch",
+   "qty": 2
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 6
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 3
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4017 - Decade Counter/Divider",
+   "qty": 1
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4011 - Quad 2-input NAND Gate",
+   "qty": 2
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4024 - 7-stage Binary Counter",
+   "qty": 2
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4030 - Quad EXOR",
+   "qty": 1
+  },
+  {
+   "type": "Resistor",
+   "value": "330R (1% 0.5W Metal Film)",
+   "qty": 2
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 7
+  },
+  {
+   "type": "Resistor",
+   "value": "22K (1% 0.5W Metal Film)",
+   "qty": 1
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 21
+  },
+  {
+   "type": "Resistor",
+   "value": "4M7 (1% 0.5W Metal Film)",
+   "qty": 2
+  }
+ ]
+}

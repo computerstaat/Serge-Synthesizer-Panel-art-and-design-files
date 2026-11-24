@@ -1,0 +1,34 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H470JNT0,FG28C0G1H470JNT00,TDK,2,"Ceramic 47pF C0G 50V, 5mm",CGS331 (Elby kit BOM): 47pF (5% Ceramic) / 47pF (Ceramic)
+810-FG28C0G1H102JNT0,FG28C0G1H102JNT06,TDK,1,"Ceramic 1nF C0G 50V, 5mm",CGS331 (Elby kit BOM): 1nF (63V Polyester)
+810-FG28C0G1H222JNT0,FG28C0G1H222JNT06,TDK,2,"Ceramic 2.2nF C0G 50V, 5mm",CGS331 (Elby kit BOM): 2.2nF (63V Polyester)
+810-FG28C0G1H472JNT0,FG28C0G1H472JNT06,TDK,1,"Ceramic 4.7nF C0G 50V, 5mm",CGS331 (Elby kit BOM): 4n7 (63V Polyester)
+505-MKS2.015/63/5T,MKS2-.015/63/5T,WIMA,1,"Film capacitor 15nF 63V, 5mm [UNVERIFIED: check stock and price]",CGS331 (Elby kit BOM): 15nF (63V Polyester)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,9,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS331 (Elby kit BOM): 100nF (Ceramic)
+505-MKS2.47/63/5T,MKS2-.47/63/5T,WIMA,1,"Film capacitor 470nF 63V, 5mm",CGS331 (Elby kit BOM): 0.47uF (35V Electrolytic)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,4,Electrolytic 10uF 25V,CGS331 (Elby kit BOM): 10uF (35V Electrolytic)
+538-22-27-2031,22-27-2031,Molex,1,KK254 3-pin header (power) [UNVERIFIED: check stock and price],CGS331 (Elby kit BOM): 3-way 0.1inch Straight Header
+538-08-50-0114,08-50-0114,Molex,3,KK254 crimp terminal [UNVERIFIED: check stock and price],CGS331 (Elby kit BOM): CRIMP - KK254
+538-22-01-3037,22-01-3037,Molex,1,KK254 3-way crimp housing [UNVERIFIED: check stock and price],CGS331 (Elby kit BOM): 3-way 0.1inch Crimp Housing
+571-1-2199298-2,1-2199298-2,TE Connectivity,3,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS331 (Elby kit BOM): 8-pin IC Socket 0.3inch
+571-1-2199298-3,1-2199298-3,TE Connectivity,2,IC socket DIP-14 [UNVERIFIED: check stock and price],CGS331 (Elby kit BOM): 14-pin IC Socket 0.3inch
+571-1-2199298-4,1-2199298-4,TE Connectivity,1,IC socket DIP-16 [UNVERIFIED: check stock and price],CGS331 (Elby kit BOM): 16-pin IC Socket 0.3inch
+512-1N4148,1N4148,onsemi,3,Small-signal diode,CGS331 (Elby kit BOM): 1N4148
+78-BAT85,BAT85-TR,Vishay,1,Schottky diode 30V 200mA (for the obsolete BAT48) [UNVERIFIED: check stock and price],CGS331 (Elby kit BOM): BAT48 Schottky Diode
+595-TL072CP,TL072CP,Texas Instruments,3,"JFET op-amp, dual",CGS331 (Elby kit BOM): TL072 Dual JFET Opamp
+875-28L0138-70R-10,28L0138-70R-10,Laird,1,"Ferrite bead, through hole",CGS331 (Elby kit BOM): Ferrite bead (Ferrite Bead - 5A)
+595-CD4006BE,CD4006BE,Texas Instruments,1,"CMOS CD4006B, DIP-14 [UNVERIFIED: check stock and price]",CGS331 (Elby kit BOM): CD4006 - 18-Stage Static Shift Register
+595-CD4046BE,CD4046BE,Texas Instruments,1,"CMOS CD4046B PLL, DIP-16 [UNVERIFIED: check stock and price]",CGS331 (Elby kit BOM): CD4046 - PLL
+595-CD4070BE,CD4070BE,Texas Instruments,1,CMOS CD4070B quad XOR (pin-compatible replacement for the CD4030) [UNVERIFIED: check stock and price],CGS331 (Elby kit BOM): CD4030 - Quad EXOR
+603-MFR-25FBF52-330R,MFR-25FBF52-330R,YAGEO,2,Metal film resistor 330R 1/4W 1%,CGS331 (Elby kit BOM): 330R (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K,MFR-25FBF52-1K,YAGEO,4,Metal film resistor 1k 1/4W 1%,CGS331 (Elby kit BOM): 1K (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K3,MFR-25FBF52-1K3,YAGEO,2,Metal film resistor 1k3 1/4W 1%,CGS331 (Elby kit BOM): 1K3 (1% 0.5W Metal Film)
+603-MFR-25FBF52-2K2,MFR-25FBF52-2K2,YAGEO,2,Metal film resistor 2k2 1/4W 1%,CGS331 (Elby kit BOM): 2K2 (1% 0.5W Metal Film)
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,10,Metal film resistor 10k 1/4W 1%,CGS331 (Elby kit BOM): 10K (1% 0.5W Metal Film)
+603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,2,Metal film resistor 15k 1/4W 1%,CGS331 (Elby kit BOM): 15K (1% 0.5W Metal Film)
+603-MFR-25FBF52-21K,MFR-25FBF52-21K,YAGEO,1,Metal film resistor 21k 1/4W 1%,CGS331 (Elby kit BOM): 21K (1% 0.5W Metal Film)
+603-MFR-25FBF52-75K,MFR-25FBF52-75K,YAGEO,1,Metal film resistor 75k 1/4W 1%,CGS331 (Elby kit BOM): 75K (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,13,Metal film resistor 100k 1/4W 1%,CGS331 (Elby kit BOM): 100K (1% 0.5W Metal Film)
+603-MFR-25FBF52-1M,MFR-25FBF52-1M,YAGEO,1,Metal film resistor 1M 1/4W 1%,CGS331 (Elby kit BOM): 1M (1% 0.5W Metal Film)
+603-CFR-25JB-52-4M7,CFR-25JB-52-4M7,YAGEO,1,Carbon film resistor 4M7 1/4W 5%,CGS331 (Elby kit BOM): 4M7 (1% 0.5W Metal Film)
+512-BC547BTA,BC547BTA,onsemi,2,NPN transistor (BC547B),CGS331 (Elby kit BOM): BC547B NPN Transistor

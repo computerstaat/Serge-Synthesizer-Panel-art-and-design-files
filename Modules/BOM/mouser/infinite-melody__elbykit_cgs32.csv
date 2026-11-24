@@ -1,0 +1,30 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H470JNT0,FG28C0G1H470JNT00,TDK,8,"Ceramic 47pF C0G 50V, 5mm",CGS32 (Elby kit BOM): 47pF (5% Ceramic)
+810-FG28C0G1H102JNT0,FG28C0G1H102JNT06,TDK,1,"Ceramic 1nF C0G 50V, 5mm",CGS32 (Elby kit BOM): 1nF (63V Polyester)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,13,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS32 (Elby kit BOM): 100nF (Ceramic)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,4,Electrolytic 10uF 25V,CGS32 (Elby kit BOM): 10uF (35V Electrolytic)
+571-1-2199298-2,1-2199298-2,TE Connectivity,6,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS32 (Elby kit BOM): 8-pin IC Socket 0.3inch
+571-3-640426-4,3-640426-4,TE Connectivity,1,"MTA-156 housing, 4 pos (for the power cable)",CGS32 (Elby kit BOM): KK396 - 4-way Crimp Housing
+571-6404454,640445-4,TE Connectivity,1,"MTA-156 header, 4 pin",CGS32 (Elby kit BOM): KK396 - 4-way Straight - Locking Header
+571-1-2199298-3,1-2199298-3,TE Connectivity,3,IC socket DIP-14 [UNVERIFIED: check stock and price],CGS32 (Elby kit BOM): 14-pin IC Socket 0.3inch
+571-1-2199298-4,1-2199298-4,TE Connectivity,4,IC socket DIP-16 [UNVERIFIED: check stock and price],CGS32 (Elby kit BOM): 16-pin IC Socket 0.3inch
+512-1N4148,1N4148,onsemi,3,Small-signal diode,CGS32 (Elby kit BOM): 1N4148
+595-TL072CP,TL072CP,Texas Instruments,6,"JFET op-amp, dual",CGS32 (Elby kit BOM): TL072 Dual JFET Opamp
+875-28L0138-70R-10,28L0138-70R-10,Laird,3,"Ferrite bead, through hole",CGS32 (Elby kit BOM): Ferrite bead (Ferrite Bead - 0.45uH 7A)
+595-CD4024BE,CD4024BE,Texas Instruments,1,"CMOS CD4024B, DIP",CGS32 (Elby kit BOM): CD4024 - 7-stage Binary Counter
+595-CD4070BE,CD4070BE,Texas Instruments,2,CMOS CD4070B quad XOR (pin-compatible replacement for the CD4030) [UNVERIFIED: check stock and price],CGS32 (Elby kit BOM): CD4030 - Quad EXOR
+595-CD4015BE,CD4015BE,Texas Instruments,4,"CMOS CD4015B, DIP-16 [UNVERIFIED: check stock and price]",CGS32 (Elby kit BOM): CD4015 - Dual 4-bit Static Shift-register
+603-MFR-25FBF52-330R,MFR-25FBF52-330R,YAGEO,4,Metal film resistor 330R 1/4W 1%,CGS32 (Elby kit BOM): 330R (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K,MFR-25FBF52-1K,YAGEO,2,Metal film resistor 1k 1/4W 1%,CGS32 (Elby kit BOM): 1K (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K8,MFR-25FBF52-1K8,YAGEO,1,Metal film resistor 1k8 1/4W 1%,CGS32 (Elby kit BOM): 1K8 (1% 0.5W Metal Film)
+603-MFR-25FBF52-4K7,MFR-25FBF52-4K7,YAGEO,5,Metal film resistor 4k7 1/4W 1%,CGS32 (Elby kit BOM): 4K7 (1% 0.5W Metal Film)
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,7,Metal film resistor 10k 1/4W 1%,CGS32 (Elby kit BOM): 10K (1% 0.5W Metal Film)
+603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,1,Metal film resistor 15k 1/4W 1%,CGS32 (Elby kit BOM): 15K (1% 0.5W Metal Film)
+603-MFR-25FBF52-22K,MFR-25FBF52-22K,YAGEO,2,Metal film resistor 22k 1/4W 1%,CGS32 (Elby kit BOM): 22K (1% 0.5W Metal Film)
+603-MFR-25FBF52-27K,MFR-25FBF52-27K,YAGEO,1,Metal film resistor 27k 1/4W 1%,CGS32 (Elby kit BOM): 27K (1% 0.5W Metal Film)
+603-MFR-25FBF52-33K,MFR-25FBF52-33K,YAGEO,1,Metal film resistor 33k 1/4W 1%,CGS32 (Elby kit BOM): 33K (1% 0.5W Metal Film)
+603-MFR-25FBF52-47K,MFR-25FBF52-47K,YAGEO,1,Metal film resistor 47k 1/4W 1%,CGS32 (Elby kit BOM): 47K (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,48,Metal film resistor 100k 1/4W 1%,CGS32 (Elby kit BOM): 100K (1% 0.5W Metal Film)
+603-MFR-25FBF52-200K,MFR-25FBF52-200K,YAGEO,24,Metal film resistor 200k 1/4W 1%,CGS32 (Elby kit BOM): 200K (1% 0.5W Metal Film)
+603-CFR-25JB-52-4M7,CFR-25JB-52-4M7,YAGEO,4,Carbon film resistor 4M7 1/4W 5%,CGS32 (Elby kit BOM): 4M7 (1% 0.5W Metal Film)
+512-BC547BTA,BC547BTA,onsemi,1,NPN transistor (BC547B),CGS32 (Elby kit BOM): BC547B NPN Transistor

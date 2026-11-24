@@ -1,0 +1,139 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs3xx/cgs330/kc-2-cgs330.pdf",
+ "board": "CGS330 (Elby kit BOM)",
+ "title": "CGS330 - 3-Stage Bandpass Filter Component Kit V2.0",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "47pF (5% Ceramic)",
+   "qty": 2,
+   "refs": "C41, C42"
+  },
+  {
+   "type": "Capacitor",
+   "value": "22nF (63V Polyester)",
+   "qty": 6,
+   "refs": "C101, C102, C201, C202, C301, C302"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 2,
+   "refs": "C1, C2"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Straight Header",
+   "qty": 1,
+   "refs": "J1"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK254",
+   "qty": 3,
+   "refs": "J1^3"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Crimp Housing",
+   "qty": 1,
+   "refs": "J1"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 1,
+   "refs": "U41"
+  },
+  {
+   "type": "Misc",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 3,
+   "refs": "U101, U201, U301"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 6,
+   "refs": "D101, D102, D201, D202, D301, D302"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL074 Quad JFET Opamp",
+   "qty": 3,
+   "refs": "U101, U201, U301"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 1,
+   "refs": "U41"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2,
+   "refs": "L1, L602"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R44"
+  },
+  {
+   "type": "Resistor",
+   "value": "680R (1% 0.5W Metal Film)",
+   "qty": 6,
+   "refs": "R107, R108, R207, R208, R307, R308"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R109, R209, R309"
+  },
+  {
+   "type": "Resistor",
+   "value": "4K7 (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R112, R212, R312"
+  },
+  {
+   "type": "Resistor",
+   "value": "6K8 (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R111, R211, R311"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 10,
+   "refs": "R41, R104, R105, R106, R204, R205, R206, R304, R305, R306"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R113, R213, R313"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R114, R214, R314"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 12,
+   "refs": "R101, R102, R103, R110, R201, R202, R203, R210, R301, R302, R303, R310"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R42, R43"
+  }
+ ]
+}

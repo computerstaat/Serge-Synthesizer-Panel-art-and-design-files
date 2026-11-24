@@ -1,0 +1,157 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs/cgs32/kc-2-cgs32.pdf",
+ "board": "CGS32 (Elby kit BOM)",
+ "title": "CGS32 - Infinite Melody Component Kit V2.0",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "47pF (5% Ceramic)",
+   "qty": 8
+  },
+  {
+   "type": "Capacitor",
+   "value": "1nF (63V Polyester)",
+   "qty": 1
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 13
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 4
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 6
+  },
+  {
+   "type": "Misc",
+   "value": "Crimp - KK396",
+   "qty": 4
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Crimp Housing",
+   "qty": 1
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Straight - Locking Header",
+   "qty": 1
+  },
+  {
+   "type": "Misc",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 3
+  },
+  {
+   "type": "Misc",
+   "value": "16-pin IC Socket 0.3inch",
+   "qty": 4
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 3
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 6
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 0.45uH 7A)",
+   "qty": 3
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4024 - 7-stage Binary Counter",
+   "qty": 1
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4030 - Quad EXOR",
+   "qty": 2
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4015 - Dual 4-bit Static Shift-register",
+   "qty": 4
+  },
+  {
+   "type": "Resistor",
+   "value": "330R (1% 0.5W Metal Film)",
+   "qty": 4
+  },
+  {
+   "type": "Resistor",
+   "value": "1K (1% 0.5W Metal Film)",
+   "qty": 2
+  },
+  {
+   "type": "Resistor",
+   "value": "1K8 (1% 0.5W Metal Film)",
+   "qty": 1
+  },
+  {
+   "type": "Resistor",
+   "value": "4K7 (1% 0.5W Metal Film)",
+   "qty": 5
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 7
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 1
+  },
+  {
+   "type": "Resistor",
+   "value": "22K (1% 0.5W Metal Film)",
+   "qty": 2
+  },
+  {
+   "type": "Resistor",
+   "value": "27K (1% 0.5W Metal Film)",
+   "qty": 1
+  },
+  {
+   "type": "Resistor",
+   "value": "33K (1% 0.5W Metal Film)",
+   "qty": 1
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 1
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 48
+  },
+  {
+   "type": "Resistor",
+   "value": "200K (1% 0.5W Metal Film)",
+   "qty": 24
+  },
+  {
+   "type": "Resistor",
+   "value": "4M7 (1% 0.5W Metal Film)",
+   "qty": 4
+  },
+  {
+   "type": "Semiconductor",
+   "value": "BC547B NPN Transistor",
+   "qty": 1
+  }
+ ]
+}

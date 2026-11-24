@@ -1,0 +1,27 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H102JNT0,FG28C0G1H102JNT06,TDK,2,"Ceramic 1nF C0G 50V, 5mm",CGS313 (Elby kit BOM): 1nF (63V Polyester) / 1nF (5% Ceramic)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,8,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS313 (Elby kit BOM): 100nF (Ceramic) / 100nF (10% Ceramic)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,2,Electrolytic 10uF 25V,CGS313 (Elby kit BOM): 10uF (35V Electrolytic)
+649-68786-202LF,68786-202LF,Amphenol FCI,8,Jumper shunt 0.1in [UNVERIFIED: check stock and price],CGS313 (Elby kit BOM): Jumper Shunt
+649-67996-416HLF,67996-416HLF,Amphenol FCI,1,2x8 0.1in header [UNVERIFIED: check stock and price],CGS313 (Elby kit BOM): 2x8 Open Pin Header
+571-6404454,640445-4,TE Connectivity,1,"MTA-156 header, 4 pin",CGS313 (Elby kit BOM): KK396 - 4-way Straight - Locking Header
+571-3-640426-4,3-640426-4,TE Connectivity,1,"MTA-156 housing, 4 pos (for the power cable)",CGS313 (Elby kit BOM): KK396 - 4-way Crimp Housing
+571-1-2199298-2,1-2199298-2,TE Connectivity,3,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS313 (Elby kit BOM): 8-pin IC Socket 0.3inch
+571-1-2199298-4,1-2199298-4,TE Connectivity,1,IC socket DIP-16 [UNVERIFIED: check stock and price],CGS313 (Elby kit BOM): 16-pin IC Socket 0.3inch
+512-1N4148,1N4148,onsemi,2,Small-signal diode,CGS313 (Elby kit BOM): 1N4148
+595-LM393P,LM393P,Texas Instruments,1,"Dual comparator, DIP-8",CGS313 (Elby kit BOM): LM393 - Dual Comparator
+595-TL072CP,TL072CP,Texas Instruments,2,"JFET op-amp, dual",CGS313 (Elby kit BOM): TL072 Dual JFET Opamp
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS313 (Elby kit BOM): Ferrite bead (Ferrite Bead - 5A)
+595-CD4015BE,CD4015BE,Texas Instruments,1,"CMOS CD4015B, DIP-16 [UNVERIFIED: check stock and price]",CGS313 (Elby kit BOM): CD4015 - Dual 4-bit Static Shift-register
+603-MFR-25FBF52-1K,MFR-25FBF52-1K,YAGEO,12,Metal film resistor 1k 1/4W 1%,CGS313 (Elby kit BOM): 1K (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K5,MFR-25FBF52-1K5,YAGEO,9,Metal film resistor 1k5 1/4W 1%,CGS313 (Elby kit BOM): 1K5 (1% 0.5W Metal Film)
+603-MFR-25FBF52-2K2,MFR-25FBF52-2K2,YAGEO,9,Metal film resistor 2k2 1/4W 1%,CGS313 (Elby kit BOM): 2K2 (1% 0.5W Metal Film)
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,8,Metal film resistor 10k 1/4W 1%,CGS313 (Elby kit BOM): 10K (1% 0.5W Metal Film)
+603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,3,Metal film resistor 15k 1/4W 1%,CGS313 (Elby kit BOM): 15K (1% 0.5W Metal Film)
+603-MFR-25FBF52-47K,MFR-25FBF52-47K,YAGEO,3,Metal film resistor 47k 1/4W 1%,CGS313 (Elby kit BOM): 47K (1% 0.5W Metal Film)
+603-MFR-25FBF52-75K,MFR-25FBF52-75K,YAGEO,1,Metal film resistor 75k 1/4W 1%,CGS313 (Elby kit BOM): 75K (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,14,Metal film resistor 100k 1/4W 1%,CGS313 (Elby kit BOM): 100K (1% 0.5W Metal Film)
+603-MFR-25FBF52-200K,MFR-25FBF52-200K,YAGEO,10,Metal film resistor 200k 1/4W 1%,CGS313 (Elby kit BOM): 200K (1% 0.5W Metal Film)
+603-MFR-25FBF52-220K,MFR-25FBF52-220K,YAGEO,1,Metal film resistor 220k 1/4W 1%,CGS313 (Elby kit BOM): 220K (1% 0.5W Metal Film)
+512-2N3904BU,2N3904BU,onsemi,9,"NPN transistor 2N3904, TO-92 (EBC)",CGS313 (Elby kit BOM): 2N3904 NPN Transistor
+512-2N3906BU,2N3906BU,onsemi,1,"PNP transistor 2N3906, TO-92 (EBC)",CGS313 (Elby kit BOM): 2N3906 PNP Transistor

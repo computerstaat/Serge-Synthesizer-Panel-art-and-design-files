@@ -1,0 +1,118 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs/cgs26/kc-2-cgs26.pdf",
+ "board": "CGS26 (Elby kit BOM)",
+ "title": "CGS26 - Analog Logic Component Kit V0.0",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "47pF (5% Ceramic)",
+   "qty": 8
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 7
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 2
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 4
+  },
+  {
+   "type": "Misc",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 2
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Straight - Locking Header",
+   "qty": 1
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Crimp Housing",
+   "qty": 1
+  },
+  {
+   "type": "Misc",
+   "value": "Crimp - KK396",
+   "qty": 4
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 14
+  },
+  {
+   "type": "Semiconductor",
+   "value": "BAT48 Schottky Diode",
+   "qty": 4
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 4
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL074 Quad JFET Opamp",
+   "qty": 2
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 0.45uH 7A)",
+   "qty": 2
+  },
+  {
+   "type": "Resistor",
+   "value": "330R (1% 0.5W Metal Film)",
+   "qty": 8
+  },
+  {
+   "type": "Resistor",
+   "value": "2K2 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "NB: For +/-12V supply"
+  },
+  {
+   "type": "Resistor",
+   "value": "4K7 (1% 0.5W Metal Film)",
+   "qty": 4
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 24
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 18
+  },
+  {
+   "type": "Resistor",
+   "value": "270K (1% 0.5W Metal Film)",
+   "qty": 2
+  },
+  {
+   "type": "Semiconductor",
+   "value": "BC547B NPN Transistor",
+   "qty": 1
+  },
+  {
+   "type": "Semiconductor",
+   "value": "BC557B PNP Transistor",
+   "qty": 1
+  },
+  {
+   "type": "Potentiometer / trimmer",
+   "value": "10K trimmer (25TV Cermet)",
+   "qty": 2
+  }
+ ]
+}

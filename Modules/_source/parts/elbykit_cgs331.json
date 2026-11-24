@@ -1,0 +1,211 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs3xx/cgs331/kc-2-cgs331.pdf",
+ "board": "CGS331 (Elby kit BOM)",
+ "title": "CGS331 - Digital Noise Component Kit V2.0",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "47pF (5% Ceramic)",
+   "qty": 1,
+   "refs": "C101"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C202"
+  },
+  {
+   "type": "Capacitor",
+   "value": "2.2nF (63V Polyester)",
+   "qty": 2,
+   "refs": "C203, C205"
+  },
+  {
+   "type": "Capacitor",
+   "value": "4n7 (63V Polyester)",
+   "qty": 1,
+   "refs": "C102"
+  },
+  {
+   "type": "Capacitor",
+   "value": "15nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C204"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 9,
+   "refs": "C4, C5, C303, C304, C305, C306, C307, C308, C309"
+  },
+  {
+   "type": "Capacitor",
+   "value": "0.47uF (35V Electrolytic)",
+   "qty": 1,
+   "refs": "C201"
+  },
+  {
+   "type": "Capacitor",
+   "value": "47pF (Ceramic)",
+   "qty": 1,
+   "refs": "C1"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 4,
+   "refs": "C2, C3, C301, C302"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Straight Header",
+   "qty": 1,
+   "refs": "J401"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK254",
+   "qty": 3,
+   "refs": "J401^3"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Crimp Housing",
+   "qty": 1,
+   "refs": "J401"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 3,
+   "refs": "U1, U101, U203"
+  },
+  {
+   "type": "Misc",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 2,
+   "refs": "U201, U202"
+  },
+  {
+   "type": "Misc",
+   "value": "16-pin IC Socket 0.3inch",
+   "qty": 1,
+   "refs": "U102"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 3,
+   "refs": "D102, D103, D201"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "BAT48 Schottky Diode",
+   "qty": 1,
+   "refs": "D101"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 3,
+   "refs": "U1, U101, U203"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 1,
+   "refs": "L401-L404"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4006 - 18-Stage Static Shift Register",
+   "qty": 1,
+   "refs": "U201"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4046 - PLL",
+   "qty": 1,
+   "refs": "U102"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4030 - Quad EXOR",
+   "qty": 1,
+   "refs": "U202"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R10, R13"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K (1% 0.5W Metal Film)",
+   "qty": 4,
+   "refs": "R210, R214, R217, R220"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K3 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R215, R218"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K2 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R216, R219"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 10,
+   "refs": "R102, R103, R104, R106, R201, R205, R209, R211, R212, R213"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R204, R208"
+  },
+  {
+   "type": "Resistor",
+   "value": "21K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R207"
+  },
+  {
+   "type": "Resistor",
+   "value": "75K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R203"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 13,
+   "refs": "R1, R2, R3, R4, R5, R6, R7, R8, R9, R11, R12, R101, R202"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R206"
+  },
+  {
+   "type": "Resistor",
+   "value": "4M7 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R105"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "BC547B NPN Transistor",
+   "qty": 2,
+   "refs": "Q201, Q202"
+  }
+ ]
+}

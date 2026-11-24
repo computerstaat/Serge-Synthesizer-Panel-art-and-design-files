@@ -1,0 +1,65 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H180JNT0,FG28C0G1H180JNT00,TDK,1,"Ceramic 18pF C0G 50V, 5mm [UNVERIFIED: check stock and price]",CGS348 (Elby kit BOM): 18pF (5% Ceramic)
+810-FG28C0G1H680JNT0,FG28C0G1H680JNT00,TDK,1,"Ceramic 68pF C0G 50V, 5mm [UNVERIFIED: check stock and price]",CGS348 (Elby kit BOM): 68pF (5% Ceramic)
+810-FG28C0G1H820JNT0,FG28C0G1H820JNT00,TDK,2,"Ceramic 82pF C0G 50V, 5mm",CGS348 (Elby kit BOM): 82pF (5% Ceramic)
+810-FG28C0G1H101JNT0,FG28C0G1H101JNT00,TDK,2,"Ceramic 100pF C0G 50V, 5mm",CGS348 (Elby kit BOM): 100pF (5% Ceramic)
+810-FG28C0G1H221JNT0,FG28C0G1H221JNT00,TDK,1,"Ceramic 220pF C0G 50V, 5mm",CGS348 (Elby kit BOM): 220pF (5% Ceramic)
+810-FG28C0G1H331JNT0,FG28C0G1H331JNT00,TDK,1,"Ceramic 330pF C0G 50V, 5mm [UNVERIFIED: check stock and price]",CGS348 (Elby kit BOM): 330pF (5% Ceramic)
+810-FG28C0G1H222JNT0,FG28C0G1H222JNT06,TDK,1,"Ceramic 2.2nF C0G 50V, 5mm",CGS348 (Elby kit BOM): 2200pF (2.5% Polystyrene)
+810-FG28C0G1H472JNT0,FG28C0G1H472JNT06,TDK,1,"Ceramic 4.7nF C0G 50V, 5mm",CGS348 (Elby kit BOM): 4n7 (63V Polyester)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,5,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS348 (Elby kit BOM): 100nF (Ceramic)
+667-ECE-A1HKA4R7,ECE-A1HKA4R7,Panasonic,2,Electrolytic 4.7uF 50V,CGS348 (Elby kit BOM): 4.7uF (25V Electrolytic)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,2,Electrolytic 10uF 25V,CGS348 (Elby kit BOM): 10uF (35V Electrolytic)
+667-ECE-A1EKA470,ECE-A1EKA470,Panasonic,2,Electrolytic 47uF 25V,CGS348 (Elby kit BOM): 47uF (Electrolytic)
+538-22-27-2031,22-27-2031,Molex,1,KK254 3-pin header (power) [UNVERIFIED: check stock and price],CGS348 (Elby kit BOM): 3-way 0.1inch Straight Header
+649-68786-202LF,68786-202LF,Amphenol FCI,2,Jumper shunt 0.1in [UNVERIFIED: check stock and price],CGS348 (Elby kit BOM): Jumper Shunt
+538-22-01-3037,22-01-3037,Molex,1,KK254 3-way crimp housing [UNVERIFIED: check stock and price],CGS348 (Elby kit BOM): 3-way 0.1inch Crimp Housing
+649-68001-102HLF,68001-102HLF,Amphenol FCI,2,2-pin 0.1in header [UNVERIFIED: check stock and price],CGS348 (Elby kit BOM): 1x2 Pin 9mm Header
+538-08-50-0114,08-50-0114,Molex,3,KK254 crimp terminal [UNVERIFIED: check stock and price],CGS348 (Elby kit BOM): CRIMP - KK254
+571-1-2199298-2,1-2199298-2,TE Connectivity,6,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS348 (Elby kit BOM): 8-pin IC Socket 0.3inch
+571-1-2199298-3,1-2199298-3,TE Connectivity,1,IC socket DIP-14 [UNVERIFIED: check stock and price],CGS348 (Elby kit BOM): 14-pin IC Socket 0.3inch
+512-1N4148,1N4148,onsemi,11,Small-signal diode,CGS348 (Elby kit BOM): 1N4148
+595-LM3900N,LM3900N,Texas Instruments,1,Quad Norton amplifier (also replaces MC3401),CGS348 (Elby kit BOM): LM3900 - Quad Norton Amplifier
+968-CA3140EZ,CA3140EZ,Renesas,1,"MOSFET-input op-amp, DIP-8",CGS348 (Elby kit BOM): CA3140 Opamp
+595-LM311P,LM311P,Texas Instruments,1,"Comparator LM311, DIP-8 [UNVERIFIED: check stock and price]",CGS348 (Elby kit BOM): LM311 - Comparator
+926-LM317LZ/NOPB,LM317LZ/NOPB,Texas Instruments,1,"Adjustable +V regulator 100mA, TO-92 [UNVERIFIED: check stock and price]",CGS348 (Elby kit BOM): LM317LZ - Adjustable Positive Voltage Regulator
+595-TL072CP,TL072CP,Texas Instruments,3,"JFET op-amp, dual",CGS348 (Elby kit BOM): TL072 Dual JFET Opamp
+512-LM337LZ,LM337LZ,onsemi,1,"Adjustable -V regulator 100mA, TO-92 [UNVERIFIED: check stock and price]",CGS348 (Elby kit BOM): LM337LZ - Adjustable Negative Voltage Regulator
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS348 (Elby kit BOM): Ferrite bead (Ferrite Bead - 5A)
+603-MFR-25FBF52-47R,MFR-25FBF52-47R,YAGEO,1,Metal film resistor 47R 1/4W 1%,CGS348 (Elby kit BOM): 47R (1% 0.5W Metal Film)
+603-MFR-25FBF52-240R,MFR-25FBF52-240R,YAGEO,2,Metal film resistor 240R 1/4W 1%,CGS348 (Elby kit BOM): 240R (1% 0.5W Metal Film)
+603-MFR-25FBF52-330R,MFR-25FBF52-330R,YAGEO,5,Metal film resistor 330R 1/4W 1%,CGS348 (Elby kit BOM): 330R (1% 0.5W Metal Film)
+603-MFR-25FBF52-470R,MFR-25FBF52-470R,YAGEO,1,Metal film resistor 470R 1/4W 1%,CGS348 (Elby kit BOM): 470R (1% 0.5W Metal Film)
+603-MFR-25FBF52-680R,MFR-25FBF52-680R,YAGEO,1,Metal film resistor 680R 1/4W 1%,CGS348 (Elby kit BOM): 680R (1% 0.5W Metal Film)
+603-MFR-25FBF52-820R,MFR-25FBF52-820R,YAGEO,1,Metal film resistor 820R 1/4W 1%,CGS348 (Elby kit BOM): 820R (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K,MFR-25FBF52-1K,YAGEO,2,Metal film resistor 1k 1/4W 1%,CGS348 (Elby kit BOM): 1K (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K5,MFR-25FBF52-1K5,YAGEO,3,Metal film resistor 1k5 1/4W 1%,CGS348 (Elby kit BOM): 1K5 (1% 0.5W Metal Film)
+603-MFR-25FBF52-2K2,MFR-25FBF52-2K2,YAGEO,1,Metal film resistor 2k2 1/4W 1%,CGS348 (Elby kit BOM): 2K2 (1% 0.5W Metal Film)
+603-MFR-25FBF52-3K3,MFR-25FBF52-3K3,YAGEO,1,Metal film resistor 3k3 1/4W 1%,CGS348 (Elby kit BOM): 3K3 (1% 0.5W Metal Film)
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,6,Metal film resistor 10k 1/4W 1%,CGS348 (Elby kit BOM): 10K (1% 0.5W Metal Film)
+603-MFR-25FBF52-13K,MFR-25FBF52-13K,YAGEO,1,Metal film resistor 13k 1/4W 1%,CGS348 (Elby kit BOM): 13K (1% 0.5W Metal Film)
+603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,2,Metal film resistor 15k 1/4W 1%,CGS348 (Elby kit BOM): 15K (1% 0.5W Metal Film)
+603-MFR-25FBF52-22K,MFR-25FBF52-22K,YAGEO,1,Metal film resistor 22k 1/4W 1%,CGS348 (Elby kit BOM): 22K (1% 0.5W Metal Film)
+603-MFR-25FBF52-30K,MFR-25FBF52-30K,YAGEO,2,Metal film resistor 30k 1/4W 1%,CGS348 (Elby kit BOM): 30K (1% 0.5W Metal Film)
+603-MFR-25FBF52-33K,MFR-25FBF52-33K,YAGEO,2,Metal film resistor 33k 1/4W 1%,CGS348 (Elby kit BOM): 33K (1% 0.5W Metal Film)
+603-MFR-25FBF52-47K,MFR-25FBF52-47K,YAGEO,3,Metal film resistor 47k 1/4W 1%,CGS348 (Elby kit BOM): 47K (1% 0.5W Metal Film)
+603-MFR-25FBF52-56K,MFR-25FBF52-56K,YAGEO,1,Metal film resistor 56k 1/4W 1%,CGS348 (Elby kit BOM): 56K (1% 0.5W Metal Film)
+603-MFR-25FBF52-91K,MFR-25FBF52-91K,YAGEO,1,Metal film resistor 91k 1/4W 1%,CGS348 (Elby kit BOM): 91K (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,14,Metal film resistor 100k 1/4W 1%,CGS348 (Elby kit BOM): 100K (0.1% Metal Film) / 100K (1% 0.5W Metal Film)
+603-MFR-25FBF52-200K,MFR-25FBF52-200K,YAGEO,1,Metal film resistor 200k 1/4W 1%,CGS348 (Elby kit BOM): 200K (1% 0.5W Metal Film)
+603-MFR-25FBF52-220K,MFR-25FBF52-220K,YAGEO,1,Metal film resistor 220k 1/4W 1%,CGS348 (Elby kit BOM): 220K (1% 0.5W Metal Film)
+603-MFR-25FBF52-330K,MFR-25FBF52-330K,YAGEO,3,Metal film resistor 330k 1/4W 1%,CGS348 (Elby kit BOM): 330K (1% 0.5W Metal Film)
+603-MFR-25FBF52-510K,MFR-25FBF52-510K,YAGEO,1,Metal film resistor 510k 1/4W 1%,CGS348 (Elby kit BOM): 510K (1% 0.5W Metal Film)
+603-MFR-25FBF52-887K,MFR-25FBF52-887K,YAGEO,1,Metal film resistor 887k 1/4W 1%,CGS348 (Elby kit BOM): 887K (1% 0.5W Metal Film)
+603-MFR-25FBF52-1M,MFR-25FBF52-1M,YAGEO,2,Metal film resistor 1M 1/4W 1%,CGS348 (Elby kit BOM): 1M (1% 0.5W Metal Film)
+660-MFS1/4DCT52R1504,MFS1/4DCT52R1504F,KOA Speer,3,Metal film resistor 1M5 1/4W 1%,CGS348 (Elby kit BOM): 1M5 (1% 0.5W Metal Film)
+603-CFR-25JB-52-4M7,CFR-25JB-52-4M7,YAGEO,1,Carbon film resistor 4M7 1/4W 5%,CGS348 (Elby kit BOM): 4M7 (1% 0.5W Metal Film)
+660-RK1/4DCT52R1005F,RK1/4DCT52R1005F,KOA Speer,1,Metal film resistor 10M 1/4W 1%,CGS348 (Elby kit BOM): 10M (1% 0.5W Metal Film)
+660-RK1/4LCT52R226G,RK1/4LCT52R226G,KOA Speer,1,Metal film resistor 22M 1/4W 2%,CGS348 (Elby kit BOM): 22M (5% 0.25W Metal Glazed)
+106-J108,J108,InterFET,1,"N-channel JFET J108, TO-92 [UNVERIFIED: check stock and price]",CGS348 (Elby kit BOM): J108 JFET
+512-2N3904BU,2N3904BU,onsemi,1,"NPN transistor 2N3904, TO-92 (EBC)",CGS348 (Elby kit BOM): 2N3904 NPN Transistor
+652-3362P-1-103LF,3362P-1-103LF,Bourns,1,"Trimmer 10k, 1/4in square",CGS348 (Elby kit BOM): 10K trimmer (MTV Cermet)
+652-3362P-1-203LF,3362P-1-203LF,Bourns,3,"Trimmer 20k, 1/4in square",CGS348 (Elby kit BOM): 20K trimmer (MTV Cermet)
+652-3362P-1-503LF,3362P-1-503LF,Bourns,1,"Trimmer 50k, 1/4in square [UNVERIFIED: check stock and price]",CGS348 (Elby kit BOM): 50K trimmer (MTV Cermet)
+652-3296W-1-104LF,3296W-1-104LF,Bourns,2,"Trimmer 100k, 3296W multi-turn (3362P 100k out of stock)",CGS348 (Elby kit BOM): 100K trimmer (MTV Cermet)
+652-3362P-1-204LF,3362P-1-204LF,Bourns,1,"Trimmer 200k, 1/4in square [UNVERIFIED: check stock and price]",CGS348 (Elby kit BOM): 200K trimmer (MTV Cermet)

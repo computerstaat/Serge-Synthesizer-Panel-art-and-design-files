@@ -1,0 +1,22 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H470JNT0,FG28C0G1H470JNT00,TDK,8,"Ceramic 47pF C0G 50V, 5mm",CGS26 (Elby kit BOM): 47pF (5% Ceramic)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,7,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS26 (Elby kit BOM): 100nF (Ceramic)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,2,Electrolytic 10uF 25V,CGS26 (Elby kit BOM): 10uF (35V Electrolytic)
+571-1-2199298-2,1-2199298-2,TE Connectivity,4,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS26 (Elby kit BOM): 8-pin IC Socket 0.3inch
+571-1-2199298-3,1-2199298-3,TE Connectivity,2,IC socket DIP-14 [UNVERIFIED: check stock and price],CGS26 (Elby kit BOM): 14-pin IC Socket 0.3inch
+571-6404454,640445-4,TE Connectivity,1,"MTA-156 header, 4 pin",CGS26 (Elby kit BOM): KK396 - 4-way Straight - Locking Header
+571-3-640426-4,3-640426-4,TE Connectivity,1,"MTA-156 housing, 4 pos (for the power cable)",CGS26 (Elby kit BOM): KK396 - 4-way Crimp Housing
+512-1N4148,1N4148,onsemi,14,Small-signal diode,CGS26 (Elby kit BOM): 1N4148
+78-BAT85,BAT85-TR,Vishay,4,Schottky diode 30V 200mA (for the obsolete BAT48) [UNVERIFIED: check stock and price],CGS26 (Elby kit BOM): BAT48 Schottky Diode
+595-TL072CP,TL072CP,Texas Instruments,4,"JFET op-amp, dual",CGS26 (Elby kit BOM): TL072 Dual JFET Opamp
+595-TL074CN,TL074CN,Texas Instruments,2,"JFET op-amp, quad",CGS26 (Elby kit BOM): TL074 Quad JFET Opamp
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS26 (Elby kit BOM): Ferrite bead (Ferrite Bead - 0.45uH 7A)
+603-MFR-25FBF52-330R,MFR-25FBF52-330R,YAGEO,8,Metal film resistor 330R 1/4W 1%,CGS26 (Elby kit BOM): 330R (1% 0.5W Metal Film)
+603-MFR-25FBF52-2K2,MFR-25FBF52-2K2,YAGEO,2,Metal film resistor 2k2 1/4W 1%,CGS26 (Elby kit BOM): 2K2 (1% 0.5W Metal Film)
+603-MFR-25FBF52-4K7,MFR-25FBF52-4K7,YAGEO,4,Metal film resistor 4k7 1/4W 1%,CGS26 (Elby kit BOM): 4K7 (1% 0.5W Metal Film)
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,24,Metal film resistor 10k 1/4W 1%,CGS26 (Elby kit BOM): 10K (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,18,Metal film resistor 100k 1/4W 1%,CGS26 (Elby kit BOM): 100K (1% 0.5W Metal Film)
+603-MFR-25FBF52-270K,MFR-25FBF52-270K,YAGEO,2,Metal film resistor 270k 1/4W 1%,CGS26 (Elby kit BOM): 270K (1% 0.5W Metal Film)
+512-BC547BTA,BC547BTA,onsemi,1,NPN transistor (BC547B),CGS26 (Elby kit BOM): BC547B NPN Transistor
+512-BC557BTA,BC557BTA,onsemi,1,PNP transistor (BC557B),CGS26 (Elby kit BOM): BC557B PNP Transistor
+652-3362P-1-103LF,3362P-1-103LF,Bourns,2,"Trimmer 10k, 1/4in square",CGS26 (Elby kit BOM): 10K trimmer (25TV Cermet)

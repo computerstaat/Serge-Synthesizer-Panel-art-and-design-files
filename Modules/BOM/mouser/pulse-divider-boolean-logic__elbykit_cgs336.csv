@@ -1,0 +1,21 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28X7R1H103KNT6,FG28X7R1H103KNT06,TDK,2,"Ceramic 10nF X7R 50V, 5mm",CGS336 (Elby kit BOM): 10nF (63V Polyester) / 10nF (5% Ceramic)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,6,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS336 (Elby kit BOM): 100nF (Ceramic)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,2,Electrolytic 10uF 25V,CGS336 (Elby kit BOM): 10uF (35V Electrolytic)
+538-22-27-2031,22-27-2031,Molex,1,KK254 3-pin header (power) [UNVERIFIED: check stock and price],CGS336 (Elby kit BOM): 3-way 0.1inch Straight Header
+538-08-50-0114,08-50-0114,Molex,3,KK254 crimp terminal [UNVERIFIED: check stock and price],CGS336 (Elby kit BOM): CRIMP - KK254
+538-22-01-3037,22-01-3037,Molex,1,KK254 3-way crimp housing [UNVERIFIED: check stock and price],CGS336 (Elby kit BOM): 3-way 0.1inch Crimp Housing
+571-1-2199298-2,1-2199298-2,TE Connectivity,1,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS336 (Elby kit BOM): 8-pin IC Socket 0.3inch
+571-1-2199298-4,1-2199298-4,TE Connectivity,4,IC socket DIP-16 [UNVERIFIED: check stock and price],CGS336 (Elby kit BOM): 16-pin IC Socket 0.3inch
+512-1N4148,1N4148,onsemi,17,Small-signal diode,CGS336 (Elby kit BOM): 1N4148
+595-TL072CP,TL072CP,Texas Instruments,1,"JFET op-amp, dual",CGS336 (Elby kit BOM): TL072 Dual JFET Opamp
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS336 (Elby kit BOM): Ferrite bead (Ferrite Bead - 5A)
+595-CD4017BE,CD4017BE,Texas Instruments,4,"CMOS CD4017B, DIP",CGS336 (Elby kit BOM): CD4017 - Decade Counter/Divider
+603-MFR-25FBF52-1K,MFR-25FBF52-1K,YAGEO,7,Metal film resistor 1k 1/4W 1%,CGS336 (Elby kit BOM): 1K (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K5,MFR-25FBF52-1K5,YAGEO,7,Metal film resistor 1k5 1/4W 1%,CGS336 (Elby kit BOM): 1K5 (1% 0.5W Metal Film)
+603-MFR-25FBF52-4K7,MFR-25FBF52-4K7,YAGEO,7,Metal film resistor 4k7 1/4W 1%,CGS336 (Elby kit BOM): 4K7 (1% 0.5W Metal Film)
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,2,Metal film resistor 10k 1/4W 1%,CGS336 (Elby kit BOM): 10K (1% 0.5W Metal Film)
+603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,1,Metal film resistor 15k 1/4W 1%,CGS336 (Elby kit BOM): 15K (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,12,Metal film resistor 100k 1/4W 1%,CGS336 (Elby kit BOM): 100K (1% 0.5W Metal Film)
+603-CFR-25JB-52-4M7,CFR-25JB-52-4M7,YAGEO,2,Carbon film resistor 4M7 1/4W 5%,CGS336 (Elby kit BOM): 4M7 (1% 0.5W Metal Film)
+512-BC547BTA,BC547BTA,onsemi,7,NPN transistor (BC547B),CGS336 (Elby kit BOM): BC547B NPN Transistor

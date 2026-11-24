@@ -1,0 +1,241 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/serge/cgs502/kc-7-cgs502.pdf",
+ "board": "CGS502 (Elby kit BOM)",
+ "title": "CGS502 - Quantizer Component Kit V0.2",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "10pF (5% Ceramic)",
+   "qty": 1,
+   "refs": "C204"
+  },
+  {
+   "type": "Capacitor",
+   "value": "82pF (5% Ceramic)",
+   "qty": 6,
+   "refs": "C101, C203, C502, C504, C506, C508"
+  },
+  {
+   "type": "Capacitor",
+   "value": "220pF (5% Ceramic)",
+   "qty": 2,
+   "refs": "C201, C202"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (63V Polyester)",
+   "qty": 4,
+   "refs": "C501, C503, C505, C507"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (5% Ceramic)",
+   "qty": 6,
+   "refs": "C317, C401, C402, C403, C404, C410"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 13,
+   "refs": "C305, C306, C311, C312, C313, C314, C315, C409, C509, C510, C511, C512, C513"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Tantalum)",
+   "qty": 1,
+   "refs": "C316"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 2,
+   "refs": "C301, C302"
+  },
+  {
+   "type": "Misc",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 1,
+   "refs": "U101"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK254",
+   "qty": 3,
+   "refs": "J301^3"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Crimp Housing",
+   "qty": 1,
+   "refs": "J301"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Straight Header",
+   "qty": 1,
+   "refs": "J301"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 4,
+   "refs": "U202, U203, U502, U503"
+  },
+  {
+   "type": "Misc",
+   "value": "16-pin IC Socket 0.3inch",
+   "qty": 6,
+   "refs": "U102, U103, U104, U201, U401, U501"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 1,
+   "refs": "D201"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL431 - 2.5V Adjustable Reference Diode",
+   "qty": 1,
+   "refs": "D301"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LM311 - Comparator",
+   "qty": 1,
+   "refs": "U202"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TLC7524 - 8-bit D/A Converter",
+   "qty": 1,
+   "refs": "U201"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LF353 - Dual JFET Opamp",
+   "qty": 3,
+   "refs": "U502, U503, U203"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2,
+   "refs": "L301, L302"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4051 - Single 8-channel Multiplexer",
+   "qty": 2,
+   "refs": "U401, U501"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4093 - Quad 2-input NAND Schmitt trigger",
+   "qty": 1,
+   "refs": "U101"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4520 - Dual Binary Up-Counter",
+   "qty": 3,
+   "refs": "U102, U103, U104"
+  },
+  {
+   "type": "Resistor",
+   "value": "10R (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R305"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R (1% 0.5W Metal Film)",
+   "qty": 5,
+   "refs": "R206, R502, R504, R506, R508"
+  },
+  {
+   "type": "Resistor",
+   "value": "6K8 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R301"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 4,
+   "refs": "R201, R202, R415, R511"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K (1% 0.5W Metal Film)",
+   "qty": 4,
+   "refs": "R501, R503, R505, R507"
+  },
+  {
+   "type": "Resistor",
+   "value": "33K (1% 0.5W Metal Film)",
+   "qty": 7,
+   "refs": "R101, R402, R404, R406, R408, R414, R510"
+  },
+  {
+   "type": "Resistor",
+   "value": "41K2 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R302"
+  },
+  {
+   "type": "Resistor",
+   "value": "43K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R413, R509"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R205"
+  },
+  {
+   "type": "Resistor",
+   "value": "82K5 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R304"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 5,
+   "refs": "R102, R401, R403, R405, R407"
+  },
+  {
+   "type": "Resistor",
+   "value": "280K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R303"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R204"
+  },
+  {
+   "type": "Resistor",
+   "value": "3M3 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R203"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "2N3904 NPN Transistor",
+   "qty": 2,
+   "refs": "Q401, Q501"
+  },
+  {
+   "type": "Potentiometer / trimmer",
+   "value": "50K trimmer (MTV Cermet)",
+   "qty": 1,
+   "refs": "P301"
+  }
+ ]
+}

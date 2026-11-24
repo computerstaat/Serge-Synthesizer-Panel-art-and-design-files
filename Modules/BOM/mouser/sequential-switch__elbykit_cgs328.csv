@@ -1,0 +1,30 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H470JNT0,FG28C0G1H470JNT00,TDK,2,"Ceramic 47pF C0G 50V, 5mm",CGS328 (Elby kit BOM): 47pF (5% Ceramic)
+810-FG28X7R1H103KNT6,FG28X7R1H103KNT06,TDK,1,"Ceramic 10nF X7R 50V, 5mm",CGS328 (Elby kit BOM): 10nF (5% Ceramic)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,4,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS328 (Elby kit BOM): 100nF (Ceramic)
+505-MKS2.22/63/5T,MKS2-.22/63/5T,WIMA,1,"Film capacitor 220nF 63V, 5mm",CGS328 (Elby kit BOM): 220nF (5% Ceramic)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,3,Electrolytic 10uF 25V,CGS328 (Elby kit BOM): 10uF (35V Electrolytic)
+538-22-01-3037,22-01-3037,Molex,1,KK254 3-way crimp housing [UNVERIFIED: check stock and price],CGS328 (Elby kit BOM): 3-way 0.1inch Crimp Housing
+538-08-50-0114,08-50-0114,Molex,3,KK254 crimp terminal [UNVERIFIED: check stock and price],CGS328 (Elby kit BOM): CRIMP - KK254
+538-22-27-2031,22-27-2031,Molex,1,KK254 3-pin header (power) [UNVERIFIED: check stock and price],CGS328 (Elby kit BOM): 3-way 0.1inch Straight Header
+571-1-2199298-2,1-2199298-2,TE Connectivity,1,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS328 (Elby kit BOM): 8-pin IC Socket 0.3inch
+571-1-2199298-3,1-2199298-3,TE Connectivity,1,IC socket DIP-14 [UNVERIFIED: check stock and price],CGS328 (Elby kit BOM): 14-pin IC Socket 0.3inch
+571-1-2199298-4,1-2199298-4,TE Connectivity,3,IC socket DIP-16 [UNVERIFIED: check stock and price],CGS328 (Elby kit BOM): 16-pin IC Socket 0.3inch
+512-1N4148,1N4148,onsemi,19,Small-signal diode,CGS328 (Elby kit BOM): 1N4148
+595-LM339N,LM339N,Texas Instruments,1,"Quad comparator, DIP-14",CGS328 (Elby kit BOM): LM339 - Quad Comparator
+595-TL072CP,TL072CP,Texas Instruments,1,"JFET op-amp, dual",CGS328 (Elby kit BOM): TL072 Dual JFET Opamp
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS328 (Elby kit BOM): Ferrite bead (Ferrite Bead - 5A)
+595-CD4051BE,CD4051BE,Texas Instruments,2,"CMOS CD4051B, DIP-16 [UNVERIFIED: check stock and price]",CGS328 (Elby kit BOM): CD4051 - Single 8-channel Multiplexer
+595-CD4516BE,CD4516BE,Texas Instruments,1,"CMOS CD4516B, DIP-16 [UNVERIFIED: check stock and price]",CGS328 (Elby kit BOM): CD4516 - Pre-set Up/Down Counter
+603-MFR-25FBF52-330R,MFR-25FBF52-330R,YAGEO,2,Metal film resistor 330R 1/4W 1%,CGS328 (Elby kit BOM): 330R (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K,MFR-25FBF52-1K,YAGEO,8,Metal film resistor 1k 1/4W 1%,CGS328 (Elby kit BOM): 1K (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K2,MFR-25FBF52-1K2,YAGEO,8,Metal film resistor 1k2 1/4W 1%,CGS328 (Elby kit BOM): 1K2 (1% 0.5W Metal Film)
+603-MFR-25FBF52-2K2,MFR-25FBF52-2K2,YAGEO,9,Metal film resistor 2k2 1/4W 1%,CGS328 (Elby kit BOM): 2K2 (1% 0.5W Metal Film)
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,7,Metal film resistor 10k 1/4W 1%,CGS328 (Elby kit BOM): 10K (1% 1/8W Metal Film) / 10K (1% 0.5W Metal Film)
+603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,1,Metal film resistor 15k 1/4W 1%,CGS328 (Elby kit BOM): 15K (1% 0.5W Metal Film)
+603-MFR-25FBF52-47K,MFR-25FBF52-47K,YAGEO,1,Metal film resistor 47k 1/4W 1%,CGS328 (Elby kit BOM): 47K (1% 0.5W Metal Film)
+603-MFR-25FBF52-97K6,MFR-25FBF52-97K6,YAGEO,1,Metal film resistor 97k6 1/4W 1%,CGS328 (Elby kit BOM): 97K6 (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,22,Metal film resistor 100k 1/4W 1%,CGS328 (Elby kit BOM): 100K (1% 0.5W Metal Film) / 100K (1% 1/8W Metal Film)
+603-MFR-25FBF52-220K,MFR-25FBF52-220K,YAGEO,5,Metal film resistor 220k 1/4W 1%,CGS328 (Elby kit BOM): 220K (1% 0.5W Metal Film)
+603-MFR-25FBF52-1M,MFR-25FBF52-1M,YAGEO,4,Metal film resistor 1M 1/4W 1%,CGS328 (Elby kit BOM): 1M (1% 0.5W Metal Film)
+512-BC547BTA,BC547BTA,onsemi,9,NPN transistor (BC547B),CGS328 (Elby kit BOM): BC547B NPN Transistor

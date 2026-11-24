@@ -1,0 +1,23 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28X7R1H103KNT6,FG28X7R1H103KNT06,TDK,1,"Ceramic 10nF X7R 50V, 5mm",CGS322 (Elby kit BOM): 10nF (63V Polyester)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,10,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS322 (Elby kit BOM): 100nF (Ceramic)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,3,Electrolytic 10uF 25V,CGS322 (Elby kit BOM): 10uF (35V Electrolytic)
+667-ECE-A1EKA101,ECE-A1EKA101,Panasonic,1,Electrolytic 100uF 25V [UNVERIFIED: check stock and price],CGS322 (Elby kit BOM): 100uF (25V Electrolytic)
+538-08-50-0114,08-50-0114,Molex,3,KK254 crimp terminal [UNVERIFIED: check stock and price],CGS322 (Elby kit BOM): CRIMP - KK254
+538-22-01-3037,22-01-3037,Molex,1,KK254 3-way crimp housing [UNVERIFIED: check stock and price],CGS322 (Elby kit BOM): 3-way 0.1inch Crimp Housing
+538-22-27-2031,22-27-2031,Molex,1,KK254 3-pin header (power) [UNVERIFIED: check stock and price],CGS322 (Elby kit BOM): 3-way 0.1inch Straight Header
+571-1-2199298-2,1-2199298-2,TE Connectivity,1,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS322 (Elby kit BOM): 8-pin IC Socket 0.3inch
+571-1-2199298-3,1-2199298-3,TE Connectivity,5,IC socket DIP-14 [UNVERIFIED: check stock and price],CGS322 (Elby kit BOM): 14-pin IC Socket 0.3inch
+512-1N4148,1N4148,onsemi,2,Small-signal diode,CGS322 (Elby kit BOM): 1N4148
+595-TL072CP,TL072CP,Texas Instruments,1,"JFET op-amp, dual",CGS322 (Elby kit BOM): TL072 Dual JFET Opamp
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS322 (Elby kit BOM): Ferrite bead (Ferrite Bead - 5A)
+595-CD4024BE,CD4024BE,Texas Instruments,1,"CMOS CD4024B, DIP",CGS322 (Elby kit BOM): CD4024 - 7-stage Binary Counter
+595-CD4070BE,CD4070BE,Texas Instruments,4,CMOS CD4070B quad XOR (pin-compatible replacement for the CD4030) [UNVERIFIED: check stock and price],CGS322 (Elby kit BOM): CD4030 - Quad EXOR
+603-MFR-25FBF52-10R,MFR-25FBF52-10R,YAGEO,1,Metal film resistor 10R 1/4W 1%,CGS322 (Elby kit BOM): 10R (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K5,MFR-25FBF52-1K5,YAGEO,16,Metal film resistor 1k5 1/4W 1%,CGS322 (Elby kit BOM): 1K5 (1% 0.5W Metal Film)
+603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,2,Metal film resistor 15k 1/4W 1%,CGS322 (Elby kit BOM): 15K (1% 0.5W Metal Film)
+603-MFR-25FBF52-20K,MFR-25FBF52-20K,YAGEO,1,Metal film resistor 20k 1/4W 1%,CGS322 (Elby kit BOM): 20K (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,6,Metal film resistor 100k 1/4W 1%,CGS322 (Elby kit BOM): 100K (1% 0.5W Metal Film)
+652-4609X-1LF-1K,4609X-101-102LF,Bourns,2,"Resistor network 8 x 1k, bussed SIP-9 [UNVERIFIED: check stock and price]",CGS322 (Elby kit BOM): 8 x 1K Commoned Resistor Network
+652-4609X-1LF-4.7K,4609X-101-472LF,Bourns,2,"Resistor network 8 x 4k7, bussed SIP-9 [UNVERIFIED: check stock and price]",CGS322 (Elby kit BOM): 8 x 4K7 Commoned Resistor Network
+512-BC547BTA,BC547BTA,onsemi,16,NPN transistor (BC547B),CGS322 (Elby kit BOM): BC547B NPN Transistor

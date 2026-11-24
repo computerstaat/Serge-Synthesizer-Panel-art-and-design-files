@@ -1,0 +1,139 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs3xx/cgs322/kc-2-cgs322.pdf",
+ "board": "CGS322 (Elby kit BOM)",
+ "title": "CGS322 - Master Divider Component Kit V3.0",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "10nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C11"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 10,
+   "refs": "C54, C55, C56, C57, C58, C59, C60, C61, C62, C63"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 3,
+   "refs": "C12, C51, C52"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100uF (25V Electrolytic)",
+   "qty": 1,
+   "refs": "C53"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK254",
+   "qty": 3,
+   "refs": "J51^3"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Crimp Housing",
+   "qty": 1,
+   "refs": "J51"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Straight Header",
+   "qty": 1,
+   "refs": "J51"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 1,
+   "refs": "U11"
+  },
+  {
+   "type": "Misc",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 5,
+   "refs": "U12, U21, U22, U23, U24"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 2,
+   "refs": "D11, D12"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 1,
+   "refs": "U11"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2,
+   "refs": "L51, L52"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4024 - 7-stage Binary Counter",
+   "qty": 1,
+   "refs": "U12"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4030 - Quad EXOR",
+   "qty": 4,
+   "refs": "U21, U22, U23, U24"
+  },
+  {
+   "type": "Resistor",
+   "value": "10R (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R51"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K5 (1% 0.5W Metal Film)",
+   "qty": 16,
+   "refs": "R31, R32, R33, R34, R35, R36, R37, R38, R41, R42, R43, R44, R45, R46, R47, R48"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R11, R14"
+  },
+  {
+   "type": "Resistor",
+   "value": "20K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R19"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 6,
+   "refs": "R12, R13, R15, R16, R17, R18"
+  },
+  {
+   "type": "Misc",
+   "value": "8 x 1K Commoned Resistor Network",
+   "qty": 2,
+   "refs": "RN32, RN42"
+  },
+  {
+   "type": "Misc",
+   "value": "8 x 4K7 Commoned Resistor Network",
+   "qty": 2,
+   "refs": "RN31, RN41"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "BC547B NPN Transistor",
+   "qty": 16,
+   "refs": "Q31, Q32, Q33, Q34, Q35, Q36, Q37, Q38, Q41, Q42, Q43, Q44, Q45, Q46, Q47, Q48"
+  }
+ ]
+}

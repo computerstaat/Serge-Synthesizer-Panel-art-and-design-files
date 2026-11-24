@@ -1,0 +1,181 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs3xx/cgs313/kc-2-cgs313.pdf",
+ "board": "CGS313 (Elby kit BOM)",
+ "title": "CGS313 - Gated Comparator Component Kit V3.0",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "1nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C101"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1nF (5% Ceramic)",
+   "qty": 1,
+   "refs": "C201"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 3,
+   "refs": "C503, C504, C505"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (10% Ceramic)",
+   "qty": 5,
+   "refs": "C506, C507, C508, C509, C510"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 2,
+   "refs": "C501, C502"
+  },
+  {
+   "type": "Misc",
+   "value": "Jumper Shunt",
+   "qty": 8,
+   "refs": "JP301^8 NB: See Build Guide"
+  },
+  {
+   "type": "Misc",
+   "value": "2x8 Open Pin Header",
+   "qty": 1,
+   "refs": "JP301 NB: See Build Guide"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK396",
+   "qty": 4,
+   "refs": "J501^4"
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Straight - Locking Header",
+   "qty": 1,
+   "refs": "J501"
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Crimp Housing",
+   "qty": 1,
+   "refs": "J501"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 3,
+   "refs": "U101, U201, U301"
+  },
+  {
+   "type": "Misc",
+   "value": "16-pin IC Socket 0.3inch",
+   "qty": 1,
+   "refs": "U202"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 2,
+   "refs": "D201, D202"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LM393 - Dual Comparator",
+   "qty": 1,
+   "refs": "U101"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 2,
+   "refs": "U201, U301"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2,
+   "refs": "L501, L502"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4015 - Dual 4-bit Static Shift-register",
+   "qty": 1,
+   "refs": "U202"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K (1% 0.5W Metal Film)",
+   "qty": 12,
+   "refs": "R104, R321, R322, R402, R405, R408, R411, R414, R417, R420, R423, R426"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K5 (1% 0.5W Metal Film)",
+   "qty": 9,
+   "refs": "R403, R406, R409, R412, R415, R418, R421, R424, R427"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K2 (1% 0.5W Metal Film)",
+   "qty": 9,
+   "refs": "R401, R404, R407, R410, R413, R416, R419, R422, R425"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 8,
+   "refs": "R106, R107, R202, R203, R204, R205, R206, R208"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R101, R209, R502"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R103, R319, R320"
+  },
+  {
+   "type": "Resistor",
+   "value": "75K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R501"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 14,
+   "refs": "R102, R105, R201, R207, R210, R212, R303, R305, R307, R309, R311, R313, R315, R317 NB: R212 Not On PCB"
+  },
+  {
+   "type": "Resistor",
+   "value": "200K (1% 0.5W Metal Film)",
+   "qty": 10,
+   "refs": "R301, R302, R304, R306, R308, R310, R312, R314, R316, R318"
+  },
+  {
+   "type": "Resistor",
+   "value": "220K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R211"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "2N3904 NPN Transistor",
+   "qty": 9,
+   "refs": "Q401, Q402, Q403, Q404, Q405, Q406, Q407, Q408, Q409"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "2N3906 PNP Transistor",
+   "qty": 1,
+   "refs": "Q101"
+  }
+ ]
+}

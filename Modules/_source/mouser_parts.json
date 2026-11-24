@@ -1029,6 +1029,629 @@
    "C&K",
    11.63,
    "Mini toggle SPDT on-off-on, solder lugs"
+  ],
+  "R:10R": [
+   "603-MFR-25FBF52-10R",
+   "MFR-25FBF52-10R",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 10R 1/4W 1%"
+  ],
+  "R:120k": [
+   "603-MFR-25FBF52-120K",
+   "MFR-25FBF52-120K",
+   "YAGEO",
+   0.21,
+   "Metal film resistor 120k 1/4W 1%"
+  ],
+  "R:124k": [
+   "603-MFR-25FBF52-124K",
+   "MFR-25FBF52-124K",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 124k 1/4W 1%"
+  ],
+  "R:12k": [
+   "603-MFR-25FBF52-12K",
+   "MFR-25FBF52-12K",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 12k 1/4W 1%"
+  ],
+  "R:150R": [
+   "603-MFR-25FBF52-150R",
+   "MFR-25FBF52-150R",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 150R 1/4W 1%"
+  ],
+  "R:180k": [
+   "603-MFR-25FBF52-180K",
+   "MFR-25FBF52-180K",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 180k 1/4W 1%"
+  ],
+  "R:182k": [
+   "603-MFR-25FBF52-182K",
+   "MFR-25FBF52-182K",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 182k 1/4W 1%"
+  ],
+  "R:1k2": [
+   "603-MFR-25FBF52-1K2",
+   "MFR-25FBF52-1K2",
+   "YAGEO",
+   0.12,
+   "Metal film resistor 1k2 1/4W 1%"
+  ],
+  "R:1k3": [
+   "603-MFR-25FBF52-1K3",
+   "MFR-25FBF52-1K3",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 1k3 1/4W 1%"
+  ],
+  "R:21k": [
+   "603-MFR-25FBF52-21K",
+   "MFR-25FBF52-21K",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 21k 1/4W 1%"
+  ],
+  "R:240R": [
+   "603-MFR-25FBF52-240R",
+   "MFR-25FBF52-240R",
+   "YAGEO",
+   0.11,
+   "Metal film resistor 240R 1/4W 1%"
+  ],
+  "R:270R": [
+   "603-MFR-25FBF52-270R",
+   "MFR-25FBF52-270R",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 270R 1/4W 1%"
+  ],
+  "R:270k": [
+   "603-MFR-25FBF52-270K",
+   "MFR-25FBF52-270K",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 270k 1/4W 1%"
+  ],
+  "R:280k": [
+   "603-MFR-25FBF52-280K",
+   "MFR-25FBF52-280K",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 280k 1/4W 1%"
+  ],
+  "R:2k7": [
+   "603-MFR-25FBF52-2K7",
+   "MFR-25FBF52-2K7",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 2k7 1/4W 1%"
+  ],
+  "R:390k": [
+   "603-MFR-25FBF52-390K",
+   "MFR-25FBF52-390K",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 390k 1/4W 1%"
+  ],
+  "R:3k32": [
+   "603-MFR-25FBF52-3K32",
+   "MFR-25FBF52-3K32",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 3k32 1/4W 1%"
+  ],
+  "R:3k9": [
+   "603-MFR-25FBF52-3K9",
+   "MFR-25FBF52-3K9",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 3k9 1/4W 1%"
+  ],
+  "R:41k2": [
+   "603-MFR-25FBF52-41K2",
+   "MFR-25FBF52-41K2",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 41k2 1/4W 1%"
+  ],
+  "R:475R": [
+   "603-MFR-25FBF52-475R",
+   "MFR-25FBF52-475R",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 475R 1/4W 1%"
+  ],
+  "R:56k": [
+   "603-MFR-25FBF52-56K",
+   "MFR-25FBF52-56K",
+   "YAGEO",
+   0.11,
+   "Metal film resistor 56k 1/4W 1%"
+  ],
+  "R:75k": [
+   "603-MFR-25FBF52-75K",
+   "MFR-25FBF52-75K",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 75k 1/4W 1%"
+  ],
+  "R:7k5": [
+   "603-MFR-25FBF52-7K5",
+   "MFR-25FBF52-7K5",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 7k5 1/4W 1%"
+  ],
+  "R:82k5": [
+   "603-MFR-25FBF52-82K5",
+   "MFR-25FBF52-82K5",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 82k5 1/4W 1%"
+  ],
+  "R:887k": [
+   "603-MFR-25FBF52-887K",
+   "MFR-25FBF52-887K",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 887k 1/4W 1%"
+  ],
+  "R:97k6": [
+   "603-MFR-25FBF52-97K6",
+   "MFR-25FBF52-97K6",
+   "YAGEO",
+   0.1,
+   "Metal film resistor 97k6 1/4W 1%"
+  ],
+  "R:1M2": [
+   "660-MFS1/4DCT52R1204",
+   "MFS1/4DCT52R1204F",
+   "KOA Speer",
+   0.47,
+   "Metal film resistor 1M2 1/4W 1%"
+  ],
+  "R:3M9": [
+   "603-CFR-25JB-52-3M9",
+   "CFR-25JB-52-3M9",
+   "YAGEO",
+   0.1,
+   "Carbon film resistor 3M9 1/4W 5%"
+  ],
+  "R:15M": [
+   "660-RK1/4DCT52R1505F",
+   "RK1/4DCT52R1505F",
+   "KOA Speer",
+   0.9,
+   "Metal film resistor 15M 1/4W 1%"
+  ],
+  "C:100uF": [
+   "667-ECE-A1EKA101",
+   "ECE-A1EKA101",
+   "Panasonic",
+   0.35,
+   "Electrolytic 100uF 25V"
+  ],
+  "C:15n": [
+   "505-MKS2.015/63/5T",
+   "MKS2-.015/63/5T",
+   "WIMA",
+   0.9,
+   "Film capacitor 15nF 63V, 5mm"
+  ],
+  "C:18pF": [
+   "810-FG28C0G1H180JNT0",
+   "FG28C0G1H180JNT00",
+   "TDK",
+   0.22,
+   "Ceramic 18pF C0G 50V, 5mm"
+  ],
+  "C:1n5": [
+   "810-FG28C0G1H152JNT0",
+   "FG28C0G1H152JNT06",
+   "TDK",
+   0.27,
+   "Ceramic 1.5nF C0G 50V, 5mm"
+  ],
+  "C:2.2uF": [
+   "667-ECE-A1HKA2R2",
+   "ECE-A1HKA2R2",
+   "Panasonic",
+   0.27,
+   "Electrolytic 2.2uF 50V"
+  ],
+  "C:22uF": [
+   "667-ECE-A1HKA220",
+   "ECE-A1HKA220",
+   "Panasonic",
+   0.29,
+   "Electrolytic 22uF 50V"
+  ],
+  "C:330pF": [
+   "810-FG28C0G1H331JNT0",
+   "FG28C0G1H331JNT00",
+   "TDK",
+   0.23,
+   "Ceramic 330pF C0G 50V, 5mm"
+  ],
+  "C:33pF": [
+   "810-FG28C0G1H330JNT0",
+   "FG28C0G1H330JNT00",
+   "TDK",
+   0.22,
+   "Ceramic 33pF C0G 50V, 5mm"
+  ],
+  "C:3n3": [
+   "810-FG28C0G1H332JNT0",
+   "FG28C0G1H332JNT06",
+   "TDK",
+   0.3,
+   "Ceramic 3.3nF C0G 50V, 5mm"
+  ],
+  "C:5n6": [
+   "810-FG28C0G1H562JNT0",
+   "FG28C0G1H562JNT06",
+   "TDK",
+   0.4,
+   "Ceramic 5.6nF C0G 50V, 5mm"
+  ],
+  "C:68n": [
+   "505-MKS2.068/63/5T",
+   "MKS2-.068/63/5T",
+   "WIMA",
+   0.95,
+   "Film capacitor 68nF 63V, 5mm"
+  ],
+  "C:68pF": [
+   "810-FG28C0G1H680JNT0",
+   "FG28C0G1H680JNT00",
+   "TDK",
+   0.22,
+   "Ceramic 68pF C0G 50V, 5mm"
+  ],
+  "T:1k": [
+   "652-3362P-1-102LF",
+   "3362P-1-102LF",
+   "Bourns",
+   1.16,
+   "Trimmer 1k, 1/4in square"
+  ],
+  "T:200k": [
+   "652-3362P-1-204LF",
+   "3362P-1-204LF",
+   "Bourns",
+   1.16,
+   "Trimmer 200k, 1/4in square"
+  ],
+  "T:2k": [
+   "652-3362P-1-202LF",
+   "3362P-1-202LF",
+   "Bourns",
+   1.16,
+   "Trimmer 2k, 1/4in square"
+  ],
+  "T:50k": [
+   "652-3362P-1-503LF",
+   "3362P-1-503LF",
+   "Bourns",
+   1.16,
+   "Trimmer 50k, 1/4in square"
+  ],
+  "S:LM358": [
+   "595-LM358P",
+   "LM358P",
+   "Texas Instruments",
+   0.45,
+   "Dual op-amp LM358, DIP-8"
+  ],
+  "S:LF353": [
+   "926-LF353N/NOPB",
+   "LF353N/NOPB",
+   "Texas Instruments",
+   1.5,
+   "Dual JFET op-amp LF353, DIP-8"
+  ],
+  "S:TL082": [
+   "595-TL082CP",
+   "TL082CP",
+   "Texas Instruments",
+   0.6,
+   "Dual JFET op-amp TL082, DIP-8"
+  ],
+  "S:NE5532": [
+   "595-NE5532P",
+   "NE5532P",
+   "Texas Instruments",
+   0.9,
+   "Dual low-noise op-amp NE5532, DIP-8"
+  ],
+  "S:LM311": [
+   "595-LM311P",
+   "LM311P",
+   "Texas Instruments",
+   0.7,
+   "Comparator LM311, DIP-8"
+  ],
+  "S:LM13700": [
+   "926-LM13700N/NOPB",
+   "LM13700N/NOPB",
+   "Texas Instruments",
+   1.9,
+   "Dual OTA LM13700, DIP-16"
+  ],
+  "S:LM317LZ": [
+   "926-LM317LZ/NOPB",
+   "LM317LZ/NOPB",
+   "Texas Instruments",
+   0.6,
+   "Adjustable +V regulator 100mA, TO-92"
+  ],
+  "S:LM337LZ": [
+   "512-LM337LZ",
+   "LM337LZ",
+   "onsemi",
+   0.7,
+   "Adjustable -V regulator 100mA, TO-92"
+  ],
+  "S:7805": [
+   "926-LM7805CT/NOPB",
+   "LM7805CT/NOPB",
+   "Texas Instruments",
+   0.9,
+   "+5V 1A regulator, TO-220"
+  ],
+  "S:79L05": [
+   "926-LM79L05ACZ/NOPB",
+   "LM79L05ACZ/NOPB",
+   "Texas Instruments",
+   0.6,
+   "-5V 100mA regulator, TO-92"
+  ],
+  "S:1N4004": [
+   "512-1N4004",
+   "1N4004",
+   "onsemi",
+   0.12,
+   "Rectifier diode 400V 1A"
+  ],
+  "S:BAT42": [
+   "78-BAT42",
+   "BAT42-TR",
+   "Vishay",
+   0.3,
+   "Schottky diode 30V 200mA"
+  ],
+  "S:BAT85": [
+   "78-BAT85",
+   "BAT85-TR",
+   "Vishay",
+   0.3,
+   "Schottky diode 30V 200mA (for the obsolete BAT48)"
+  ],
+  "S:7555": [
+   "968-ICM7555IPAZ",
+   "ICM7555IPAZ",
+   "Renesas",
+   1.4,
+   "CMOS 555 timer, DIP-8"
+  ],
+  "S:TL431": [
+   "595-TL431ACLP",
+   "TL431ACLP",
+   "Texas Instruments",
+   0.5,
+   "Adjustable shunt reference, TO-92"
+  ],
+  "S:TLC7524": [
+   "595-TLC7524CN",
+   "TLC7524CN",
+   "Texas Instruments",
+   3.5,
+   "8-bit DAC TLC7524, DIP-16"
+  ],
+  "S:OPA134": [
+   "595-OPA134PA",
+   "OPA134PA",
+   "Texas Instruments",
+   2.9,
+   "Audio op-amp OPA134, DIP-8"
+  ],
+  "S:LT1013": [
+   "584-LT1013CN8#PBF",
+   "LT1013CN8#PBF",
+   "Analog Devices",
+   5.0,
+   "Dual precision op-amp LT1013, DIP-8"
+  ],
+  "S:J108": [
+   "106-J108",
+   "J108",
+   "InterFET",
+   2.5,
+   "N-channel JFET J108, TO-92"
+  ],
+  "S:PN2222A": [
+   "512-PN2222ABU",
+   "PN2222ABU",
+   "onsemi",
+   0.2,
+   "NPN transistor PN2222A, TO-92"
+  ],
+  "S:PN2907A": [
+   "512-PN2907ABU",
+   "PN2907ABU",
+   "onsemi",
+   0.2,
+   "PNP transistor PN2907A, TO-92"
+  ],
+  "S:4V7": [
+   "78-BZX55C4V7",
+   "BZX55C4V7-TR",
+   "Vishay",
+   0.1,
+   "Zener 4.7V 0.5W"
+  ],
+  "S:4006": [
+   "595-CD4006BE",
+   "CD4006BE",
+   "Texas Instruments",
+   1.2,
+   "CMOS CD4006B, DIP-14"
+  ],
+  "S:4011": [
+   "595-CD4011BE",
+   "CD4011BE",
+   "Texas Instruments",
+   0.6,
+   "CMOS CD4011B, DIP-14"
+  ],
+  "S:4015": [
+   "595-CD4015BE",
+   "CD4015BE",
+   "Texas Instruments",
+   0.9,
+   "CMOS CD4015B, DIP-16"
+  ],
+  "S:4070": [
+   "595-CD4070BE",
+   "CD4070BE",
+   "Texas Instruments",
+   0.6,
+   "CMOS CD4070B quad XOR (pin-compatible replacement for the CD4030)"
+  ],
+  "S:4046": [
+   "595-CD4046BE",
+   "CD4046BE",
+   "Texas Instruments",
+   1.0,
+   "CMOS CD4046B PLL, DIP-16"
+  ],
+  "S:4051": [
+   "595-CD4051BE",
+   "CD4051BE",
+   "Texas Instruments",
+   0.7,
+   "CMOS CD4051B, DIP-16"
+  ],
+  "S:40106": [
+   "595-CD40106BE",
+   "CD40106BE",
+   "Texas Instruments",
+   0.6,
+   "CMOS CD40106B, DIP-14"
+  ],
+  "S:4093": [
+   "595-CD4093BE",
+   "CD4093BE",
+   "Texas Instruments",
+   0.6,
+   "CMOS CD4093B, DIP-14"
+  ],
+  "S:40516": [
+   "595-CD4516BE",
+   "CD4516BE",
+   "Texas Instruments",
+   1.0,
+   "CMOS CD4516B, DIP-16"
+  ],
+  "S:40520": [
+   "595-CD4520BE",
+   "CD4520BE",
+   "Texas Instruments",
+   0.9,
+   "CMOS CD4520B, DIP-16"
+  ],
+  "M:Socket 8": [
+   "571-1-2199298-2",
+   "1-2199298-2",
+   "TE Connectivity",
+   0.25,
+   "IC socket DIP-8"
+  ],
+  "M:Socket 14": [
+   "571-1-2199298-3",
+   "1-2199298-3",
+   "TE Connectivity",
+   0.3,
+   "IC socket DIP-14"
+  ],
+  "M:Socket 16": [
+   "571-1-2199298-4",
+   "1-2199298-4",
+   "TE Connectivity",
+   0.35,
+   "IC socket DIP-16"
+  ],
+  "M:KK254 header 3": [
+   "538-22-27-2031",
+   "22-27-2031",
+   "Molex",
+   0.3,
+   "KK254 3-pin header (power)"
+  ],
+  "M:KK254 housing 3": [
+   "538-22-01-3037",
+   "22-01-3037",
+   "Molex",
+   0.2,
+   "KK254 3-way crimp housing"
+  ],
+  "M:KK254 crimp": [
+   "538-08-50-0114",
+   "08-50-0114",
+   "Molex",
+   0.12,
+   "KK254 crimp terminal"
+  ],
+  "M:Header 1x2": [
+   "649-68001-102HLF",
+   "68001-102HLF",
+   "Amphenol FCI",
+   0.15,
+   "2-pin 0.1in header"
+  ],
+  "M:Header 1x3": [
+   "649-68001-103HLF",
+   "68001-103HLF",
+   "Amphenol FCI",
+   0.15,
+   "3-pin 0.1in header"
+  ],
+  "M:Header 2x8": [
+   "649-67996-416HLF",
+   "67996-416HLF",
+   "Amphenol FCI",
+   0.5,
+   "2x8 0.1in header"
+  ],
+  "M:Shunt": [
+   "649-68786-202LF",
+   "68786-202LF",
+   "Amphenol FCI",
+   0.2,
+   "Jumper shunt 0.1in"
+  ],
+  "M:RN 8x1k": [
+   "652-4609X-1LF-1K",
+   "4609X-101-102LF",
+   "Bourns",
+   0.4,
+   "Resistor network 8 x 1k, bussed SIP-9"
+  ],
+  "M:RN 8x4k7": [
+   "652-4609X-1LF-4.7K",
+   "4609X-101-472LF",
+   "Bourns",
+   0.4,
+   "Resistor network 8 x 4k7, bussed SIP-9"
   ]
  },
  "not_at_mouser": {
@@ -1041,9 +1664,76 @@
   "Vactrol": "VTL5C3/2 vactrol: obsolete, not at Mouser. Synth-parts suppliers sell Xvive VTL5C3/2 replacements.",
   "Panel": "Front-panel hardware (jacks, knobs, rotary switch): buy to match your panel; see the panel hardware list on the module page.",
   "Submodule": "Separate sub-board: its parts are in this module's other upload file(s), with quantities already multiplied.",
-  "See text": "Value depends on the build; see Ken Stone's construction notes before choosing it."
+  "See text": "Value depends on the build; see Ken Stone's construction notes before choosing it.",
+  "Matched pair": "Matched transistor pair or sub-assembly: Elby includes it in the kit",
+  "Tempco": "PT146 1k 3500ppm tempco resistor: from Elby (or Tayda)",
+  "Not needed (IDC housing)": "The MTA-156 housing is IDC, so no crimp terminals are needed"
  },
- "unverified": {},
+ "unverified": {
+  "R:1M2": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "R:3M9": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "R:15M": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "C:100uF": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "C:15n": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "C:18pF": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "C:1n5": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "C:2.2uF": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "C:22uF": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "C:330pF": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "C:33pF": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "C:3n3": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "C:5n6": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "C:68n": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "C:68pF": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "T:1k": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "T:200k": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "T:2k": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "T:50k": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:LM358": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:LF353": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:TL082": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:NE5532": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:LM311": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:LM13700": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:LM317LZ": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:LM337LZ": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:7805": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:79L05": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:1N4004": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:BAT42": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:BAT85": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:7555": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:TL431": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:TLC7524": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:OPA134": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:LT1013": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:J108": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:PN2222A": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:PN2907A": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:4V7": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:4006": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:4011": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:4015": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:4070": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:4046": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:4051": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:40106": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:4093": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:40516": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "S:40520": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "M:Socket 8": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "M:Socket 14": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "M:Socket 16": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "M:KK254 header 3": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "M:KK254 housing 3": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "M:KK254 crimp": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "M:Header 1x2": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "M:Header 1x3": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "M:Header 2x8": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "M:Shunt": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "M:RN 8x1k": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com",
+  "M:RN 8x4k7": "Added 2026-11-24 for the Elby kit BOMs; not yet checked on mouser.com"
+ },
  "notes": {
   "R:600k": "Ken Stone lists 600k, which is not a standard value; 604k is the nearest 1% (E96) value.",
   "T:4k7": "4k7 trimmers are not made; a 5k trimmer covers the same range. On 2026-11-21 the usual 3362P-1-502LF was out of stock at Mouser, so the file uses the 3362P-1-502TLF (same trimmer, different packing).",

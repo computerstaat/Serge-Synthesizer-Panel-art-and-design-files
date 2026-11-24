@@ -1,0 +1,41 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H470JNT0,FG28C0G1H470JNT00,TDK,1,"Ceramic 47pF C0G 50V, 5mm",CGS47 (Elby kit BOM): 47pF (5% Ceramic)
+810-FG28C0G1H102JNT0,FG28C0G1H102JNT06,TDK,1,"Ceramic 1nF C0G 50V, 5mm",CGS47 (Elby kit BOM): 1nF (63V Polyester)
+810-FG28C0G1H222JNT0,FG28C0G1H222JNT06,TDK,3,"Ceramic 2.2nF C0G 50V, 5mm",CGS47 (Elby kit BOM): 2.2nF (63V Polyester)
+810-FG28X7R1H103KNT6,FG28X7R1H103KNT06,TDK,8,"Ceramic 10nF X7R 50V, 5mm",CGS47 (Elby kit BOM): 10nF (63V Polyester)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,9,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS47 (Elby kit BOM): 100nF (Ceramic) / 100nF (63V Polyester)
+80-ESK105M050AC3AA,ESK105M050AC3AA,KEMET,3,Electrolytic 1uF 50V,CGS47 (Elby kit BOM): 1uF (50V Electrolytic)
+667-ECE-A1HKA2R2,ECE-A1HKA2R2,Panasonic,1,Electrolytic 2.2uF 50V [UNVERIFIED: check stock and price],CGS47 (Elby kit BOM): 2.2uF (Electrolytic)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,3,Electrolytic 10uF 25V,CGS47 (Elby kit BOM): 10uF (35V Electrolytic)
+571-6404454,640445-4,TE Connectivity,1,"MTA-156 header, 4 pin",CGS47 (Elby kit BOM): KK396 - 4-way Straight - Locking Header
+571-3-640426-4,3-640426-4,TE Connectivity,1,"MTA-156 housing, 4 pos (for the power cable)",CGS47 (Elby kit BOM): KK396 - 4-way Crimp Housing
+571-1-2199298-3,1-2199298-3,TE Connectivity,2,IC socket DIP-14 [UNVERIFIED: check stock and price],CGS47 (Elby kit BOM): 14-pin IC Socket 0.3inch
+571-1-2199298-2,1-2199298-2,TE Connectivity,6,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS47 (Elby kit BOM): 8-pin IC Socket 0.3inch
+512-1N4148,1N4148,onsemi,8,Small-signal diode,CGS47 (Elby kit BOM): 1N4148
+595-TL071IP,TL071IP,Texas Instruments,1,"JFET op-amp, single",CGS47 (Elby kit BOM): TL071 JFET Opamp
+595-TL072CP,TL072CP,Texas Instruments,4,"JFET op-amp, dual",CGS47 (Elby kit BOM): TL072 Dual JFET Opamp
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS47 (Elby kit BOM): Ferrite bead (Ferrite Bead - 0.45uH 7A)
+595-CD40106BE,CD40106BE,Texas Instruments,1,"CMOS CD40106B, DIP-14 [UNVERIFIED: check stock and price]",CGS47 (Elby kit BOM): CD40106 - Hex Schmitt Trigger
+595-CD4070BE,CD4070BE,Texas Instruments,1,CMOS CD4070B quad XOR (pin-compatible replacement for the CD4030) [UNVERIFIED: check stock and price],CGS47 (Elby kit BOM): CD4030 - Quad EXOR
+603-MFR-25FBF52-33R,MFR-25FBF52-33R,YAGEO,1,Metal film resistor 33R 1/4W 1%,CGS47 (Elby kit BOM): 33R (1% 0.5W Metal Film)
+603-MFR-25FBF52-220R,MFR-25FBF52-220R,YAGEO,2,Metal film resistor 220R 1/4W 1%,CGS47 (Elby kit BOM): 220R (1% 0.5W Metal Film)
+603-MFR-25FBF52-270R,MFR-25FBF52-270R,YAGEO,1,Metal film resistor 270R 1/4W 1%,CGS47 (Elby kit BOM): 270R (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K,MFR-25FBF52-1K,YAGEO,10,Metal film resistor 1k 1/4W 1%,CGS47 (Elby kit BOM): 1K (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K2,MFR-25FBF52-1K2,YAGEO,1,Metal film resistor 1k2 1/4W 1%,CGS47 (Elby kit BOM): 1K2 (1% 0.5W Metal Film)
+603-MFR-25FBF52-2K2,MFR-25FBF52-2K2,YAGEO,4,Metal film resistor 2k2 1/4W 1%,CGS47 (Elby kit BOM): 2K2 (1% 0.5W Metal Film)
+603-MFR-25FBF52-4K7,MFR-25FBF52-4K7,YAGEO,2,Metal film resistor 4k7 1/4W 1%,CGS47 (Elby kit BOM): 4K7 (1% 0.5W Metal Film)
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,5,Metal film resistor 10k 1/4W 1%,CGS47 (Elby kit BOM): 10K (1% 0.5W Metal Film)
+603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,1,Metal film resistor 15k 1/4W 1%,CGS47 (Elby kit BOM): 15K (1% 0.5W Metal Film)
+603-MFR-25FBF52-22K,MFR-25FBF52-22K,YAGEO,2,Metal film resistor 22k 1/4W 1%,CGS47 (Elby kit BOM): 22K (1% 0.5W Metal Film)
+603-MFR-25FBF52-39K,MFR-25FBF52-39K,YAGEO,1,Metal film resistor 39k 1/4W 1%,CGS47 (Elby kit BOM): 39K (1% 0.5W Metal Film)
+603-MFR-25FBF52-47K,MFR-25FBF52-47K,YAGEO,4,Metal film resistor 47k 1/4W 1%,CGS47 (Elby kit BOM): 47K (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,18,Metal film resistor 100k 1/4W 1%,CGS47 (Elby kit BOM): 100K (1% 0.5W Metal Film)
+603-MFR-25FBF52-180K,MFR-25FBF52-180K,YAGEO,1,Metal film resistor 180k 1/4W 1%,CGS47 (Elby kit BOM): 180K (1% 0.5W Metal Film)
+603-MFR-25FBF52-220K,MFR-25FBF52-220K,YAGEO,4,Metal film resistor 220k 1/4W 1%,CGS47 (Elby kit BOM): 220K (1% 0.5W Metal Film)
+603-MFR-25FBF52-330K,MFR-25FBF52-330K,YAGEO,2,Metal film resistor 330k 1/4W 1%,CGS47 (Elby kit BOM): 330K (1% 0.5W Metal Film)
+603-MFR-25FBF52-390K,MFR-25FBF52-390K,YAGEO,2,Metal film resistor 390k 1/4W 1%,CGS47 (Elby kit BOM): 390K (1% 0.5W Metal Film)
+603-MFR-25FBF52-470K,MFR-25FBF52-470K,YAGEO,1,Metal film resistor 470k 1/4W 1%,CGS47 (Elby kit BOM): 470K (1% 0.5W Metal Film)
+603-CFR-25JB-52-2M2,CFR-25JB-52-2M2,YAGEO,2,Carbon film resistor 2M2 1/4W 5%,CGS47 (Elby kit BOM): 2M2 (1% 0.5W Metal Film)
+512-PN2222ABU,PN2222ABU,onsemi,3,"NPN transistor PN2222A, TO-92 [UNVERIFIED: check stock and price]",CGS47 (Elby kit BOM): PN2222A NPN Transistor
+512-PN2907ABU,PN2907ABU,onsemi,1,"PNP transistor PN2907A, TO-92 [UNVERIFIED: check stock and price]",CGS47 (Elby kit BOM): PN2907 PNP Transistor
+512-BC547BTA,BC547BTA,onsemi,1,NPN transistor (BC547B),CGS47 (Elby kit BOM): BC547B NPN Transistor

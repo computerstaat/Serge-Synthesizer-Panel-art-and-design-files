@@ -1,0 +1,3 @@
+Part,Quantity,Where to get it
+Crimp - KK396,4,"The MTA-156 housing is IDC, so no crimp terminals are needed"
+CA3080 - Transconductance Opamp,1,"LM3080 / CA3080 OTA: obsolete, not stocked at Mouser. Prism Circuits sells CA3080; otherwise buy from synth-parts suppliers."

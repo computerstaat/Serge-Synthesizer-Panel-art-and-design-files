@@ -1,0 +1,247 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs4xx/cgs419/kc-2-cgs419.pdf",
+ "board": "CGS419 (Elby kit BOM)",
+ "title": "CGS419 - Dual Chimes Component Kit V2.1",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "100pF (5% Ceramic)",
+   "qty": 1,
+   "refs": "C306"
+  },
+  {
+   "type": "Capacitor",
+   "value": "2.2nF (63V Polyester)",
+   "qty": 2,
+   "refs": "C204, C208"
+  },
+  {
+   "type": "Capacitor",
+   "value": "3.3nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C304"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (5% Ceramic)",
+   "qty": 2,
+   "refs": "C202, C206"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (63V Polyester)",
+   "qty": 3,
+   "refs": "C101, C103, C305"
+  },
+  {
+   "type": "Capacitor",
+   "value": "15nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C201"
+  },
+  {
+   "type": "Capacitor",
+   "value": "22nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C205"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 8,
+   "refs": "C403, C404, C405, C406, C409, C410, C411, C412"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (63V Polyester)",
+   "qty": 2,
+   "refs": "C303, C310"
+  },
+  {
+   "type": "Capacitor",
+   "value": "470nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C311"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1uF (35V Tantalum)",
+   "qty": 2,
+   "refs": "C407, C408"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1uF (50V Electrolytic)",
+   "qty": 1,
+   "refs": "C307"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 6,
+   "refs": "C102, C104, C203, C207, C401, C402"
+  },
+  {
+   "type": "Misc",
+   "value": "1x3 Pin 9mm Header",
+   "qty": 1,
+   "refs": "JP101"
+  },
+  {
+   "type": "Misc",
+   "value": "1x2 Pin 9mm Header",
+   "qty": 2,
+   "refs": "LK301, LK302"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK254",
+   "qty": 3,
+   "refs": "J401^3"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Crimp Housing",
+   "qty": 1,
+   "refs": "J401"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Straight Header",
+   "qty": 1,
+   "refs": "J401"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 6,
+   "refs": "U101, U102, U201, U202, U301, U302"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 4,
+   "refs": "D101, D102, D201, D203"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LM358 - Dual Opamp",
+   "qty": 2,
+   "refs": "U101, U102"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "7555 CMOS Timer",
+   "qty": 2,
+   "refs": "U201, U202"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 2,
+   "refs": "U301, U302"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2,
+   "refs": "L401, L402"
+  },
+  {
+   "type": "Resistor",
+   "value": "10R (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R104, R109"
+  },
+  {
+   "type": "Resistor",
+   "value": "100R (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R206, R214"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R201, R209, R311"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R403"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K2 (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R204, R212, R304"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K7 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R402"
+  },
+  {
+   "type": "Resistor",
+   "value": "4K7 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R302, R308"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 10,
+   "refs": "R105, R110, R207, R208, R215, R216, R303, R306, R309, R310"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R301, R307"
+  },
+  {
+   "type": "Resistor",
+   "value": "27K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R203, R211"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R102, R107"
+  },
+  {
+   "type": "Resistor",
+   "value": "51K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R202, R210"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 5,
+   "refs": "R101, R103, R106, R108, R401"
+  },
+  {
+   "type": "Resistor",
+   "value": "470K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R205, R213, R305"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "BC547B NPN Transistor",
+   "qty": 2,
+   "refs": "Q101, Q102"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "2N3904 NPN Transistor",
+   "qty": 2,
+   "refs": "Q201, Q202"
+  }
+ ]
+}

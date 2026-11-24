@@ -1,0 +1,211 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/serge/cgs504/kc-7-cgs504.pdf",
+ "board": "CGS504 (Elby kit BOM)",
+ "title": "CGS504 - Preamp-Detector Component Kit V0.2",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "33pF (5% Ceramic)",
+   "qty": 2,
+   "refs": "C202, C205"
+  },
+  {
+   "type": "Capacitor",
+   "value": "82pF (5% Ceramic)",
+   "qty": 1,
+   "refs": "C104"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100pF (5% Ceramic)",
+   "qty": 1,
+   "refs": "C105"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (63V Polyester)",
+   "qty": 2,
+   "refs": "C101, C204"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C201"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 6,
+   "refs": "C303, C304, C305, C306, C307, C308"
+  },
+  {
+   "type": "Capacitor",
+   "value": "470nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C203"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 4,
+   "refs": "C102, C103, C301, C302 NB: 5mm x 11mm"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK254",
+   "qty": 3,
+   "refs": "J301^3 NB: 22-30AWG Insulation = 1.57mm"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Straight Header",
+   "qty": 1,
+   "refs": "J301"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 4,
+   "refs": "Q201, U101, U102, U201"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Crimp Housing",
+   "qty": 1,
+   "refs": "J301"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 2,
+   "refs": "D201, D202"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "NE5532 - Dual Low-Noise Opamp",
+   "qty": 1,
+   "refs": "U101"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LF353 - Dual JFET Opamp",
+   "qty": 2,
+   "refs": "U102, U201"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2,
+   "refs": "L301, L302"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "Dual Matched PNP Sub-Assembly",
+   "qty": 1,
+   "refs": "Q201"
+  },
+  {
+   "type": "Resistor",
+   "value": "47R (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R108"
+  },
+  {
+   "type": "Resistor",
+   "value": "100R (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R112, R116"
+  },
+  {
+   "type": "Resistor",
+   "value": "150R (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R204"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R115, R209"
+  },
+  {
+   "type": "Resistor",
+   "value": "475R (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R101, R104"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R103, R106, R114"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K2 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R207"
+  },
+  {
+   "type": "Resistor",
+   "value": "3K32 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R110"
+  },
+  {
+   "type": "Resistor",
+   "value": "6K8 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R111"
+  },
+  {
+   "type": "Resistor",
+   "value": "7K5 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R102, R105"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R107, R113"
+  },
+  {
+   "type": "Resistor",
+   "value": "12K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R117"
+  },
+  {
+   "type": "Resistor",
+   "value": "33K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R201, R205"
+  },
+  {
+   "type": "Resistor",
+   "value": "68K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R208"
+  },
+  {
+   "type": "Resistor",
+   "value": "4M7 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R109"
+  },
+  {
+   "type": "Resistor",
+   "value": "15M (5% 0.5W Carbon Film)",
+   "qty": 1,
+   "refs": "R206"
+  },
+  {
+   "type": "Resistor",
+   "value": "22M (5% 0.25W Metal Glazed)",
+   "qty": 2,
+   "refs": "R202, R203"
+  }
+ ]
+}

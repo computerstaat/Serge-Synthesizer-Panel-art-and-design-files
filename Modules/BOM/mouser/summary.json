@@ -76,6 +76,13 @@
   "unverified": 0,
   "boards": 1
  },
+ "peak-trough__elbykit_cgs26": {
+  "lines": 21,
+  "elsewhere": 1,
+  "cost": 26.12,
+  "unverified": 3,
+  "boards": 1
+ },
  "bi-directional-router__cgs88_bds": {
   "lines": 15,
   "elsewhere": 1,
@@ -193,6 +200,181 @@
   "elsewhere": 1,
   "cost": 53.54,
   "unverified": 0,
+  "boards": 1
+ },
+ "sequential-switch__elbykit_cgs328": {
+  "lines": 29,
+  "elsewhere": 0,
+  "cost": 22.14,
+  "unverified": 8,
+  "boards": 1
+ },
+ "pulse-divider-boolean-logic__elbykit_cgs336": {
+  "lines": 20,
+  "elsewhere": 0,
+  "cost": 20.44,
+  "unverified": 5,
+  "boards": 1
+ },
+ "pulse-divider-boolean-logic__elbykit_cgs405": {
+  "lines": 16,
+  "elsewhere": 0,
+  "cost": 11.05,
+  "unverified": 4,
+  "boards": 1
+ },
+ "quadrature-oscillator__elbykit_cgs414": {
+  "lines": 45,
+  "elsewhere": 1,
+  "cost": 41.62,
+  "unverified": 11,
+  "boards": 1
+ },
+ "spring-reverb__elbykit_cgs395": {
+  "lines": 21,
+  "elsewhere": 1,
+  "cost": 24.78,
+  "unverified": 4,
+  "boards": 1
+ },
+ "gated-comparator__elbykit_cgs313": {
+  "lines": 26,
+  "elsewhere": 1,
+  "cost": 22.23,
+  "unverified": 5,
+  "boards": 1
+ },
+ "master-divider__elbykit_cgs322": {
+  "lines": 22,
+  "elsewhere": 0,
+  "cost": 21.24,
+  "unverified": 9,
+  "boards": 1
+ },
+ "vc-divider__elbykit_cgs309": {
+  "lines": 31,
+  "elsewhere": 0,
+  "cost": 20.95,
+  "unverified": 10,
+  "boards": 1
+ },
+ "infinite-melody__elbykit_cgs32": {
+  "lines": 29,
+  "elsewhere": 1,
+  "cost": 36.8,
+  "unverified": 5,
+  "boards": 1
+ },
+ "cv-cluster__elbykit_cgs337": {
+  "lines": 13,
+  "elsewhere": 0,
+  "cost": 14.67,
+  "unverified": 4,
+  "boards": 1
+ },
+ "modulo-magic__elbykit_cgs340": {
+  "lines": 20,
+  "elsewhere": 0,
+  "cost": 24.25,
+  "unverified": 5,
+  "boards": 1
+ },
+ "slope-detector__elbykit_cgs362": {
+  "lines": 20,
+  "elsewhere": 0,
+  "cost": 9.9,
+  "unverified": 4,
+  "boards": 1
+ },
+ "wave-multiplier-cgs29__elbykit_cgs29": {
+  "lines": 33,
+  "elsewhere": 2,
+  "cost": 23.54,
+  "unverified": 5,
+  "boards": 1
+ },
+ "band-pass-filters__elbykit_cgs330": {
+  "lines": 22,
+  "elsewhere": 0,
+  "cost": 42.56,
+  "unverified": 5,
+  "boards": 2
+ },
+ "sub-oscillator__elbykit_cgs301": {
+  "lines": 22,
+  "elsewhere": 1,
+  "cost": 22.35,
+  "unverified": 6,
+  "boards": 1
+ },
+ "utility-lfo__elbykit_cgs58": {
+  "lines": 20,
+  "elsewhere": 1,
+  "cost": 14.34,
+  "unverified": 3,
+  "boards": 1
+ },
+ "dual-cmos-filter__elbykit_cgs349": {
+  "lines": 34,
+  "elsewhere": 0,
+  "cost": 46.48,
+  "unverified": 12,
+  "boards": 2
+ },
+ "drum-simulator__elbykit_cgs318": {
+  "lines": 28,
+  "elsewhere": 1,
+  "cost": 33.48,
+  "unverified": 2,
+  "boards": 1
+ },
+ "chime-simulator__elbykit_cgs419": {
+  "lines": 37,
+  "elsewhere": 0,
+  "cost": 25.44,
+  "unverified": 10,
+  "boards": 1
+ },
+ "digital-noise__elbykit_cgs331": {
+  "lines": 33,
+  "elsewhere": 0,
+  "cost": 21.41,
+  "unverified": 11,
+  "boards": 1
+ },
+ "preamp-detector__elbykit_cgs504": {
+  "lines": 32,
+  "elsewhere": 1,
+  "cost": 16.85,
+  "unverified": 8,
+  "boards": 1
+ },
+ "quantizer__elbykit_cgs502": {
+  "lines": 37,
+  "elsewhere": 0,
+  "cost": 33.42,
+  "unverified": 14,
+  "boards": 1
+ },
+ "compact-vco__elbykit_cgs348": {
+  "lines": 64,
+  "elsewhere": 2,
+  "cost": 44.88,
+  "unverified": 16,
+  "boards": 1
+ },
+ "extended-function-vco__elbykit_cgs348full": {
+  "lines": 64,
+  "elsewhere": 2,
+  "cost": 44.6,
+  "unverified": 16,
+  "boards": 1
+ },
+ "cynare-drum-simulator__elbykit_cgs47": {
+  "lines": 40,
+  "elsewhere": 2,
+  "cost": 25.99,
+  "unverified": 7,
   "boards": 1
  },
  "tri-core-vco__lge130": {

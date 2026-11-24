@@ -1,0 +1,133 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs3xx/cgs362/kc-2-cgs362.pdf",
+ "board": "CGS362 (Elby kit BOM)",
+ "title": "CGS362 - Slope Detector Component Kit V2.0",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "100nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C101"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 5,
+   "refs": "C201, C301, C401, C503, C504"
+  },
+  {
+   "type": "Capacitor",
+   "value": "470nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C102"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 2,
+   "refs": "C501, C502"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 1,
+   "refs": "U101"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Straight Header",
+   "qty": 1,
+   "refs": "J501"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK254",
+   "qty": 3,
+   "refs": "J501^3"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Crimp Housing",
+   "qty": 1,
+   "refs": "J501"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 1,
+   "refs": "D401"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 1,
+   "refs": "U101"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2,
+   "refs": "L501, L502"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R205, R305, R408"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K3 (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R204, R304, R407"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R203, R303, R406"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K2 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R101, R103"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 5,
+   "refs": "R102, R202, R302, R403, R404"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R201, R301, R405"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R104, R401, R402"
+  },
+  {
+   "type": "Resistor",
+   "value": "1M (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R105, R106"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "BC547B NPN Transistor",
+   "qty": 1,
+   "refs": "Q401"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "BC557B PNP Transistor",
+   "qty": 3,
+   "refs": "Q201, Q301, Q402"
+  }
+ ]
+}

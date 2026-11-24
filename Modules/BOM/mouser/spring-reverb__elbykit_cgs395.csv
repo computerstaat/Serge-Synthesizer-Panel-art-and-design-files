@@ -1,0 +1,22 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H220JNT0,FG28C0G1H220JNT00,TDK,2,"Ceramic 22pF C0G 50V, 5mm",CGS395 (Elby kit BOM): 22pF (10% Ceramic)
+810-FG28C0G1H470JNT0,FG28C0G1H470JNT00,TDK,6,"Ceramic 47pF C0G 50V, 5mm",CGS395 (Elby kit BOM): 47pF (5% Ceramic)
+810-FG28X7R1H103KNT6,FG28X7R1H103KNT06,TDK,2,"Ceramic 10nF X7R 50V, 5mm",CGS395 (Elby kit BOM): 10nF (63V Polyester)
+505-MKS2.022/63/5T,MKS2-.022/63/5T,WIMA,2,"Film capacitor 22nF 63V, 5mm",CGS395 (Elby kit BOM): 22nF (63V Polyester)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,8,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS395 (Elby kit BOM): 100nF (Ceramic)
+80-ESK105M050AC3AA,ESK105M050AC3AA,KEMET,1,Electrolytic 1uF 50V,CGS395 (Elby kit BOM): 1uF (35V Tantalum)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,2,Electrolytic 10uF 25V,CGS395 (Elby kit BOM): 10uF (35V Electrolytic)
+571-3-640426-4,3-640426-4,TE Connectivity,1,"MTA-156 housing, 4 pos (for the power cable)",CGS395 (Elby kit BOM): KK396 - 4-way Crimp Housing
+571-1-2199298-2,1-2199298-2,TE Connectivity,4,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS395 (Elby kit BOM): 8-pin IC Socket 0.3inch
+571-6404454,640445-4,TE Connectivity,1,"MTA-156 header, 4 pin",CGS395 (Elby kit BOM): KK396 - 4-way Straight - Locking Header
+512-1N4004,1N4004,onsemi,1,Rectifier diode 400V 1A [UNVERIFIED: check stock and price],CGS395 (Elby kit BOM): 1N4004 200V 1A
+595-TL072CP,TL072CP,Texas Instruments,4,"JFET op-amp, dual",CGS395 (Elby kit BOM): TL072 Dual JFET Opamp
+926-LM7805CT/NOPB,LM7805CT/NOPB,Texas Instruments,1,"+5V 1A regulator, TO-220 [UNVERIFIED: check stock and price]",CGS395 (Elby kit BOM): 7805 +5V 1A Fixed Voltage Regulator
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS395 (Elby kit BOM): Ferrite bead (Ferrite Bead - 5A)
+603-MFR-25FBF52-330R,MFR-25FBF52-330R,YAGEO,4,Metal film resistor 330R 1/4W 1%,CGS395 (Elby kit BOM): 330R (1% 0.5W Metal Film)
+603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,2,Metal film resistor 15k 1/4W 1%,CGS395 (Elby kit BOM): 15K (1% 0.5W Metal Film)
+603-MFR-25FBF52-22K,MFR-25FBF52-22K,YAGEO,4,Metal film resistor 22k 1/4W 1%,CGS395 (Elby kit BOM): 22K (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,18,Metal film resistor 100k 1/4W 1%,CGS395 (Elby kit BOM): 100K (1% 0.5W Metal Film)
+660-MFS1/4DCT52R1204,MFS1/4DCT52R1204F,KOA Speer,2,Metal film resistor 1M2 1/4W 1% [UNVERIFIED: check stock and price],CGS395 (Elby kit BOM): 1M2 (1% 0.5W Metal Film)
+652-3362P-1-103LF,3362P-1-103LF,Bourns,2,"Trimmer 10k, 1/4in square",CGS395 (Elby kit BOM): 10K trimmer (1TV Cermet)
+652-3362P-1-203LF,3362P-1-203LF,Bourns,2,"Trimmer 20k, 1/4in square",CGS395 (Elby kit BOM): 20K trimmer (1TV Cermet)

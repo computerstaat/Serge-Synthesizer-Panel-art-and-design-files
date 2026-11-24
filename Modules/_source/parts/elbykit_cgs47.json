@@ -1,0 +1,264 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs/cgs47/kc-2-cgs47.pdf",
+ "board": "CGS47 (Elby kit BOM)",
+ "title": "CGS47 - Cynare Drum Simulator Component Kit V1.0",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "47pF (5% Ceramic)",
+   "qty": 1,
+   "refs": "A48"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1nF (63V Polyester)",
+   "qty": 1,
+   "refs": "A32"
+  },
+  {
+   "type": "Capacitor",
+   "value": "2.2nF (63V Polyester)",
+   "qty": 3,
+   "refs": "A142, A143, A144"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (63V Polyester)",
+   "qty": 8,
+   "refs": "A24, A90, A112, A113, A114, A115, A116, A117"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 8,
+   "refs": "A3, A50, A51, A89, A100, A104, A151, A165"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (63V Polyester)",
+   "qty": 1,
+   "refs": "A127"
+  },
+  {
+   "type": "Capacitor",
+   "value": "1uF (50V Electrolytic)",
+   "qty": 3,
+   "refs": "A132, A146, A147"
+  },
+  {
+   "type": "Capacitor",
+   "value": "2.2uF (Electrolytic)",
+   "qty": 1,
+   "refs": "A34"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 3,
+   "refs": "A160, C1, C2"
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Straight - Locking Header",
+   "qty": 1,
+   "refs": "P1"
+  },
+  {
+   "type": "Misc",
+   "value": "KK396 - 4-way Crimp Housing",
+   "qty": 1,
+   "refs": "P1"
+  },
+  {
+   "type": "Misc",
+   "value": "Crimp - KK396",
+   "qty": 4,
+   "refs": "P1^4"
+  },
+  {
+   "type": "Misc",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 2,
+   "refs": "A1, A99"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 6,
+   "refs": "A12, A38, A62, A123, A159, CA3080"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 8,
+   "refs": "A29, A30, A31, A136, A137, A138A139, A140, A141"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL071 JFET Opamp",
+   "qty": 1,
+   "refs": "A159"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL072 Dual JFET Opamp",
+   "qty": 4,
+   "refs": "A12, A38, A62, A123"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CA3080 - Transconductance Opamp",
+   "qty": 1,
+   "refs": "CA3080"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 0.45uH 7A)",
+   "qty": 2,
+   "refs": "A18, A19"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD40106 - Hex Schmitt Trigger",
+   "qty": 1,
+   "refs": "A1"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "CD4030 - Quad EXOR",
+   "qty": 1,
+   "refs": "A99"
+  },
+  {
+   "type": "Resistor",
+   "value": "33R (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "A26"
+  },
+  {
+   "type": "Resistor",
+   "value": "220R (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "A45, A46"
+  },
+  {
+   "type": "Resistor",
+   "value": "270R (1% 0.5W Metal Film)",
+   "qty": 1
+  },
+  {
+   "type": "Resistor",
+   "value": "1K (1% 0.5W Metal Film)",
+   "qty": 10,
+   "refs": "A39, A40, A79, A95, A97, A133, A148, A149, A158, A161"
+  },
+  {
+   "type": "Resistor",
+   "value": "1K2 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "A150"
+  },
+  {
+   "type": "Resistor",
+   "value": "2K2 (1% 0.5W Metal Film)",
+   "qty": 4,
+   "refs": "A134, A135, A153, A157"
+  },
+  {
+   "type": "Resistor",
+   "value": "4K7 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "A88, A129"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 5,
+   "refs": "A36, A37, A152, A163, A164"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "A25"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "A27, A41"
+  },
+  {
+   "type": "Resistor",
+   "value": "39K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "A47"
+  },
+  {
+   "type": "Resistor",
+   "value": "47K (1% 0.5W Metal Film)",
+   "qty": 4,
+   "refs": "A53, A91, A162, R1"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 18,
+   "refs": "A13, A21, A22, A23, A33, A35, A44, A49, A93, A98, A101, A102, A103, A120, A121, A122, A166, R2"
+  },
+  {
+   "type": "Resistor",
+   "value": "180K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "_180K"
+  },
+  {
+   "type": "Resistor",
+   "value": "220K (1% 0.5W Metal Film)",
+   "qty": 4,
+   "refs": "A5, A7, A128, R3"
+  },
+  {
+   "type": "Resistor",
+   "value": "330K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "A78, R4"
+  },
+  {
+   "type": "Resistor",
+   "value": "390K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "A145, R5"
+  },
+  {
+   "type": "Resistor",
+   "value": "470K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R6"
+  },
+  {
+   "type": "Resistor",
+   "value": "2M2 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "A87, A154"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "PN2222A NPN Transistor",
+   "qty": 3,
+   "refs": "A130, A131, A155"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "PN2907 PNP Transistor",
+   "qty": 1,
+   "refs": "A156"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "BC547B NPN Transistor",
+   "qty": 1,
+   "refs": "A73"
+  }
+ ]
+}

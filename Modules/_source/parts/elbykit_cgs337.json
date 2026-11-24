@@ -1,0 +1,91 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs3xx/cgs337/kc-2-cgs337.pdf",
+ "board": "CGS337 (Elby kit BOM)",
+ "title": "CGS337 - CV Cluster Component Kit V2.1",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "47pF (5% Ceramic)",
+   "qty": 12,
+   "refs": "C1, C2, C3, C4, C101, C102, C103, C104, C201, C202, C203, C204"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (Ceramic)",
+   "qty": 2,
+   "refs": "C7, C8"
+  },
+  {
+   "type": "Capacitor",
+   "value": "100nF (10% Ceramic)",
+   "qty": 4,
+   "refs": "C9, C10, C11, C12"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 2,
+   "refs": "C5, C6"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Straight Header",
+   "qty": 1,
+   "refs": "J4"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK254",
+   "qty": 3,
+   "refs": "J4^3"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Crimp Housing",
+   "qty": 1,
+   "refs": "J4"
+  },
+  {
+   "type": "Misc",
+   "value": "14-pin IC Socket 0.3inch",
+   "qty": 3,
+   "refs": "U1, U101, U201"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL074 Quad JFET Opamp",
+   "qty": 3,
+   "refs": "U1, U101, U201"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2,
+   "refs": "L1, L2"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R (1% 0.5W Metal Film)",
+   "qty": 10,
+   "refs": "R6, R12, R106, R108, R110, R112, R206, R208, R210, R212"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (0.1% Metal Film)",
+   "qty": 16,
+   "refs": "R101, R102, R103, R104, R105, R107, R109, R111, R201, R202, R203, R204, R205, R207, R209, R211"
+  },
+  {
+   "type": "Resistor",
+   "value": "20K (0.1% Metal Film)",
+   "qty": 1,
+   "refs": "R13"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (0.1% Metal Film)",
+   "qty": 10,
+   "refs": "R1, R2, R3, R4, R5, R7, R8, R9, R10, R11"
+  }
+ ]
+}

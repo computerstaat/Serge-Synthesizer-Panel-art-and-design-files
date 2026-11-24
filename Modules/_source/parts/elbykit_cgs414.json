@@ -1,0 +1,295 @@
+{
+ "source": "https://www.elby-designs.com/webtek/cgs/cgs4xx/cgs414/kc-2-cgs414.pdf",
+ "board": "CGS414 (Elby kit BOM)",
+ "title": "CGS414 - VC QLFO Component Kit V0.2",
+ "parts": [
+  {
+   "type": "Capacitor",
+   "value": "10pF (5% Ceramic)",
+   "qty": 1,
+   "refs": "C203"
+  },
+  {
+   "type": "Capacitor",
+   "value": "82pF (5% Ceramic)",
+   "qty": 1,
+   "refs": "C102"
+  },
+  {
+   "type": "Capacitor",
+   "value": "150pF (5% Ceramic)",
+   "qty": 2,
+   "refs": "C301, C401"
+  },
+  {
+   "type": "Capacitor",
+   "value": "4n7 (63V Polyester)",
+   "qty": 1,
+   "refs": "C101"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10000pF (1% Polystyrene)",
+   "qty": 2,
+   "refs": "C201, C202"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10nF (5% Ceramic)",
+   "qty": 16,
+   "refs": "C503, C504, C505, C506, C507, C508, C509, C510, C511, C512, C513, C514, C515, C516, C517, C518"
+  },
+  {
+   "type": "Capacitor",
+   "value": "68nF (63V Polyester)",
+   "qty": 1,
+   "refs": "C204"
+  },
+  {
+   "type": "Capacitor",
+   "value": "10uF (35V Electrolytic)",
+   "qty": 2,
+   "refs": "C501, C502"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Crimp Housing",
+   "qty": 1,
+   "refs": "J501"
+  },
+  {
+   "type": "Misc",
+   "value": "CRIMP - KK254",
+   "qty": 3,
+   "refs": "J501^3"
+  },
+  {
+   "type": "Misc",
+   "value": "16-pin IC Socket 0.3inch",
+   "qty": 2,
+   "refs": "U201, U301"
+  },
+  {
+   "type": "Misc",
+   "value": "8-pin IC Socket 0.3inch",
+   "qty": 7,
+   "refs": "Q101, U101, U102, U202, U203, U302, U303"
+  },
+  {
+   "type": "Misc",
+   "value": "3-way 0.1inch Straight Header",
+   "qty": 1,
+   "refs": "J501"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "1N4148",
+   "qty": 4,
+   "refs": "D201, D202, D301, D401"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LM13700 - Dual OTA",
+   "qty": 2,
+   "refs": "U201, U301"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LF353 - Dual JFET Opamp",
+   "qty": 2,
+   "refs": "U302, U303"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL082 Dual JFET Opamp",
+   "qty": 1,
+   "refs": "U202"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LT1013CP - Dual Precision Opamp",
+   "qty": 1,
+   "refs": "U101"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "TL071 JFET Opamp",
+   "qty": 1,
+   "refs": "U203"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "OPA134 - Audio Opamp",
+   "qty": 1,
+   "refs": "U102"
+  },
+  {
+   "type": "Misc",
+   "value": "Ferrite bead (Ferrite Bead - 5A)",
+   "qty": 2,
+   "refs": "L501, L502"
+  },
+  {
+   "type": "Resistor",
+   "value": "47R (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R305, R405"
+  },
+  {
+   "type": "Resistor",
+   "value": "330R (1% 0.5W Metal Film)",
+   "qty": 4,
+   "refs": "R307, R310, R407, R410"
+  },
+  {
+   "type": "Resistor",
+   "value": "3K32 (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R212, R214"
+  },
+  {
+   "type": "Resistor",
+   "value": "4K7 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R109"
+  },
+  {
+   "type": "Resistor",
+   "value": "10K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R111"
+  },
+  {
+   "type": "Resistor",
+   "value": "15K (1% 0.5W Metal Film)",
+   "qty": 3,
+   "refs": "R113, R304, R404"
+  },
+  {
+   "type": "Resistor",
+   "value": "20K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R207"
+  },
+  {
+   "type": "Resistor",
+   "value": "22K (1% 0.5W Metal Film)",
+   "qty": 6,
+   "refs": "R202, R205, R208, R211, R213, R215"
+  },
+  {
+   "type": "Resistor",
+   "value": "33K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R110"
+  },
+  {
+   "type": "Resistor",
+   "value": "34K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R104, R105"
+  },
+  {
+   "type": "Resistor",
+   "value": "51K1 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R108"
+  },
+  {
+   "type": "Resistor",
+   "value": "68K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R101"
+  },
+  {
+   "type": "Resistor",
+   "value": "82K (1% 0.5W Metal Film)",
+   "qty": 13,
+   "refs": "R203, R204, R209, R301, R302, R306, R308, R309, R401, R402, R406, R408, R409"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R210"
+  },
+  {
+   "type": "Resistor",
+   "value": "100K (0.1% Metal Film)",
+   "qty": 1,
+   "refs": "R103"
+  },
+  {
+   "type": "Resistor",
+   "value": "124K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R107"
+  },
+  {
+   "type": "Resistor",
+   "value": "150K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R303, R403"
+  },
+  {
+   "type": "Resistor",
+   "value": "182K (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R106"
+  },
+  {
+   "type": "Resistor",
+   "value": "330K (1% 0.5W Metal Film)",
+   "qty": 2,
+   "refs": "R201, R206"
+  },
+  {
+   "type": "Resistor",
+   "value": "2M2 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R112"
+  },
+  {
+   "type": "Resistor",
+   "value": "4M7 (1% 0.5W Metal Film)",
+   "qty": 1,
+   "refs": "R102"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "PN4250 PNP Transistor",
+   "qty": 2,
+   "refs": "Q301, Q401"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "PN3565 NPN Transistor",
+   "qty": 1,
+   "refs": "Q102"
+  },
+  {
+   "type": "Semiconductor",
+   "value": "LS358 - Dual Matched PNP Transistors",
+   "qty": 1,
+   "refs": "Q101"
+  },
+  {
+   "type": "Potentiometer / trimmer",
+   "value": "10K trimmer (MTV Cermet)",
+   "qty": 1,
+   "refs": "P104"
+  },
+  {
+   "type": "Potentiometer / trimmer",
+   "value": "20K trimmer (MTV Cermet)",
+   "qty": 2,
+   "refs": "P202, P204"
+  },
+  {
+   "type": "Potentiometer / trimmer",
+   "value": "100K trimmer (MTV Cermet)",
+   "qty": 2,
+   "refs": "P201, P203"
+  }
+ ]
+}

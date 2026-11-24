@@ -1,0 +1,23 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H470JNT0,FG28C0G1H470JNT00,TDK,2,"Ceramic 47pF C0G 50V, 5mm",CGS301 (Elby kit BOM): 47pF (5% Ceramic)
+810-FG28C0G1H152JNT0,FG28C0G1H152JNT06,TDK,4,"Ceramic 1.5nF C0G 50V, 5mm [UNVERIFIED: check stock and price]",CGS301 (Elby kit BOM): 1.5nF (63V Polyester)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,9,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS301 (Elby kit BOM): 100nF (Ceramic)
+80-ESK105M050AC3AA,ESK105M050AC3AA,KEMET,2,Electrolytic 1uF 50V,CGS301 (Elby kit BOM): 1uF (50V Electrolytic)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,2,Electrolytic 10uF 25V,CGS301 (Elby kit BOM): 10uF (35V Electrolytic)
+571-6404454,640445-4,TE Connectivity,1,"MTA-156 header, 4 pin",CGS301 (Elby kit BOM): KK396 - 4-way Straight - Locking Header
+571-3-640426-4,3-640426-4,TE Connectivity,1,"MTA-156 housing, 4 pos (for the power cable)",CGS301 (Elby kit BOM): KK396 - 4-way Crimp Housing
+571-1-2199298-2,1-2199298-2,TE Connectivity,3,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS301 (Elby kit BOM): 8-pin IC Socket 0.3inch
+571-1-2199298-3,1-2199298-3,TE Connectivity,5,IC socket DIP-14 [UNVERIFIED: check stock and price],CGS301 (Elby kit BOM): 14-pin IC Socket 0.3inch
+571-1-2199298-4,1-2199298-4,TE Connectivity,2,IC socket DIP-16 [UNVERIFIED: check stock and price],CGS301 (Elby kit BOM): 16-pin IC Socket 0.3inch
+512-1N4148,1N4148,onsemi,6,Small-signal diode,CGS301 (Elby kit BOM): 1N4148
+595-TL072CP,TL072CP,Texas Instruments,3,"JFET op-amp, dual",CGS301 (Elby kit BOM): TL072 Dual JFET Opamp
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS301 (Elby kit BOM): Ferrite bead (Ferrite Bead - 5A)
+595-CD4017BE,CD4017BE,Texas Instruments,1,"CMOS CD4017B, DIP",CGS301 (Elby kit BOM): CD4017 - Decade Counter/Divider
+595-CD4011BE,CD4011BE,Texas Instruments,2,"CMOS CD4011B, DIP-14 [UNVERIFIED: check stock and price]",CGS301 (Elby kit BOM): CD4011 - Quad 2-input NAND Gate
+595-CD4024BE,CD4024BE,Texas Instruments,2,"CMOS CD4024B, DIP",CGS301 (Elby kit BOM): CD4024 - 7-stage Binary Counter
+595-CD4070BE,CD4070BE,Texas Instruments,1,CMOS CD4070B quad XOR (pin-compatible replacement for the CD4030) [UNVERIFIED: check stock and price],CGS301 (Elby kit BOM): CD4030 - Quad EXOR
+603-MFR-25FBF52-330R,MFR-25FBF52-330R,YAGEO,2,Metal film resistor 330R 1/4W 1%,CGS301 (Elby kit BOM): 330R (1% 0.5W Metal Film)
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,7,Metal film resistor 10k 1/4W 1%,CGS301 (Elby kit BOM): 10K (1% 0.5W Metal Film)
+603-MFR-25FBF52-22K,MFR-25FBF52-22K,YAGEO,1,Metal film resistor 22k 1/4W 1%,CGS301 (Elby kit BOM): 22K (1% 0.5W Metal Film)
+603-MFR-25FBF52-47K,MFR-25FBF52-47K,YAGEO,21,Metal film resistor 47k 1/4W 1%,CGS301 (Elby kit BOM): 47K (1% 0.5W Metal Film)
+603-CFR-25JB-52-4M7,CFR-25JB-52-4M7,YAGEO,2,Carbon film resistor 4M7 1/4W 5%,CGS301 (Elby kit BOM): 4M7 (1% 0.5W Metal Film)

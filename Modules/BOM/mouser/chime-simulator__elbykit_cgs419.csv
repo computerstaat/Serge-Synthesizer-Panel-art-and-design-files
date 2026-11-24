@@ -1,0 +1,38 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Description,Customer Part Number
+810-FG28C0G1H101JNT0,FG28C0G1H101JNT00,TDK,1,"Ceramic 100pF C0G 50V, 5mm",CGS419 (Elby kit BOM): 100pF (5% Ceramic)
+810-FG28C0G1H222JNT0,FG28C0G1H222JNT06,TDK,2,"Ceramic 2.2nF C0G 50V, 5mm",CGS419 (Elby kit BOM): 2.2nF (63V Polyester)
+810-FG28C0G1H332JNT0,FG28C0G1H332JNT06,TDK,1,"Ceramic 3.3nF C0G 50V, 5mm [UNVERIFIED: check stock and price]",CGS419 (Elby kit BOM): 3.3nF (63V Polyester)
+810-FG28X7R1H103KNT6,FG28X7R1H103KNT06,TDK,5,"Ceramic 10nF X7R 50V, 5mm",CGS419 (Elby kit BOM): 10nF (5% Ceramic) / 10nF (63V Polyester)
+505-MKS2.015/63/5T,MKS2-.015/63/5T,WIMA,1,"Film capacitor 15nF 63V, 5mm [UNVERIFIED: check stock and price]",CGS419 (Elby kit BOM): 15nF (63V Polyester)
+505-MKS2.022/63/5T,MKS2-.022/63/5T,WIMA,1,"Film capacitor 22nF 63V, 5mm",CGS419 (Elby kit BOM): 22nF (63V Polyester)
+810-FG28X7R1H104KNT6,FG28X7R1H104KNT06,TDK,10,"Ceramic 100nF X7R 50V, 5mm (decoupling)",CGS419 (Elby kit BOM): 100nF (Ceramic) / 100nF (63V Polyester)
+505-MKS2.47/63/5T,MKS2-.47/63/5T,WIMA,1,"Film capacitor 470nF 63V, 5mm",CGS419 (Elby kit BOM): 470nF (63V Polyester)
+80-ESK105M050AC3AA,ESK105M050AC3AA,KEMET,3,Electrolytic 1uF 50V,CGS419 (Elby kit BOM): 1uF (35V Tantalum) / 1uF (50V Electrolytic)
+667-ECE-A1EKA100,ECE-A1EKA100,Panasonic,6,Electrolytic 10uF 25V,CGS419 (Elby kit BOM): 10uF (35V Electrolytic)
+649-68001-103HLF,68001-103HLF,Amphenol FCI,1,3-pin 0.1in header [UNVERIFIED: check stock and price],CGS419 (Elby kit BOM): 1x3 Pin 9mm Header
+649-68001-102HLF,68001-102HLF,Amphenol FCI,2,2-pin 0.1in header [UNVERIFIED: check stock and price],CGS419 (Elby kit BOM): 1x2 Pin 9mm Header
+538-08-50-0114,08-50-0114,Molex,3,KK254 crimp terminal [UNVERIFIED: check stock and price],CGS419 (Elby kit BOM): CRIMP - KK254
+538-22-01-3037,22-01-3037,Molex,1,KK254 3-way crimp housing [UNVERIFIED: check stock and price],CGS419 (Elby kit BOM): 3-way 0.1inch Crimp Housing
+538-22-27-2031,22-27-2031,Molex,1,KK254 3-pin header (power) [UNVERIFIED: check stock and price],CGS419 (Elby kit BOM): 3-way 0.1inch Straight Header
+571-1-2199298-2,1-2199298-2,TE Connectivity,6,IC socket DIP-8 [UNVERIFIED: check stock and price],CGS419 (Elby kit BOM): 8-pin IC Socket 0.3inch
+512-1N4148,1N4148,onsemi,4,Small-signal diode,CGS419 (Elby kit BOM): 1N4148
+595-LM358P,LM358P,Texas Instruments,2,"Dual op-amp LM358, DIP-8 [UNVERIFIED: check stock and price]",CGS419 (Elby kit BOM): LM358 - Dual Opamp
+968-ICM7555IPAZ,ICM7555IPAZ,Renesas,2,"CMOS 555 timer, DIP-8 [UNVERIFIED: check stock and price]",CGS419 (Elby kit BOM): 7555 CMOS Timer
+595-TL072CP,TL072CP,Texas Instruments,2,"JFET op-amp, dual",CGS419 (Elby kit BOM): TL072 Dual JFET Opamp
+875-28L0138-70R-10,28L0138-70R-10,Laird,2,"Ferrite bead, through hole",CGS419 (Elby kit BOM): Ferrite bead (Ferrite Bead - 5A)
+603-MFR-25FBF52-10R,MFR-25FBF52-10R,YAGEO,2,Metal film resistor 10R 1/4W 1%,CGS419 (Elby kit BOM): 10R (1% 0.5W Metal Film)
+603-MFR-25FBF52-100R,MFR-25FBF52-100R,YAGEO,2,Metal film resistor 100R 1/4W 1%,CGS419 (Elby kit BOM): 100R (1% 0.5W Metal Film)
+603-MFR-25FBF52-1K,MFR-25FBF52-1K,YAGEO,3,Metal film resistor 1k 1/4W 1%,CGS419 (Elby kit BOM): 1K (1% 0.5W Metal Film)
+603-MFR-25FBF52-2K,MFR-25FBF52-2K,YAGEO,1,Metal film resistor 2k 1/4W 1%,CGS419 (Elby kit BOM): 2K (1% 0.5W Metal Film)
+603-MFR-25FBF52-2K2,MFR-25FBF52-2K2,YAGEO,3,Metal film resistor 2k2 1/4W 1%,CGS419 (Elby kit BOM): 2K2 (1% 0.5W Metal Film)
+603-MFR-25FBF52-2K7,MFR-25FBF52-2K7,YAGEO,1,Metal film resistor 2k7 1/4W 1%,CGS419 (Elby kit BOM): 2K7 (1% 0.5W Metal Film)
+603-MFR-25FBF52-4K7,MFR-25FBF52-4K7,YAGEO,2,Metal film resistor 4k7 1/4W 1%,CGS419 (Elby kit BOM): 4K7 (1% 0.5W Metal Film)
+603-MFR-25FBF52-10K,MFR-25FBF52-10K,YAGEO,10,Metal film resistor 10k 1/4W 1%,CGS419 (Elby kit BOM): 10K (1% 0.5W Metal Film)
+603-MFR-25FBF52-15K,MFR-25FBF52-15K,YAGEO,2,Metal film resistor 15k 1/4W 1%,CGS419 (Elby kit BOM): 15K (1% 0.5W Metal Film)
+603-MFR-25FBF52-27K,MFR-25FBF52-27K,YAGEO,2,Metal film resistor 27k 1/4W 1%,CGS419 (Elby kit BOM): 27K (1% 0.5W Metal Film)
+603-MFR-25FBF52-47K,MFR-25FBF52-47K,YAGEO,2,Metal film resistor 47k 1/4W 1%,CGS419 (Elby kit BOM): 47K (1% 0.5W Metal Film)
+603-MFR-25FBF52-51K,MFR-25FBF52-51K,YAGEO,2,Metal film resistor 51k 1/4W 1%,CGS419 (Elby kit BOM): 51K (1% 0.5W Metal Film)
+603-MFR-25FBF52-100K,MFR-25FBF52-100K,YAGEO,5,Metal film resistor 100k 1/4W 1%,CGS419 (Elby kit BOM): 100K (1% 0.5W Metal Film)
+603-MFR-25FBF52-470K,MFR-25FBF52-470K,YAGEO,3,Metal film resistor 470k 1/4W 1%,CGS419 (Elby kit BOM): 470K (1% 0.5W Metal Film)
+512-BC547BTA,BC547BTA,onsemi,2,NPN transistor (BC547B),CGS419 (Elby kit BOM): BC547B NPN Transistor
+512-2N3904BU,2N3904BU,onsemi,2,"NPN transistor 2N3904, TO-92 (EBC)",CGS419 (Elby kit BOM): 2N3904 NPN Transistor
