@@ -1,0 +1,8 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (CGS (Catgirl)),Panel hardware,"Banana jack, black",5,4 mm,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,"Banana jack, blue",6,4 mm,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,"Banana jack, red",37,4 mm,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,LED,16,,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,Potentiometer + knob,64,value from the board BOM,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,Knob,64,one per pot,,,
+Prism Circuits TKB Touch Activated Keyboard Sequencer (DIY),Board,,See the maker's BOM,,BOM linked from the product page - https://prismcircuits.net/products/tkb-serge-modular-diy,,,

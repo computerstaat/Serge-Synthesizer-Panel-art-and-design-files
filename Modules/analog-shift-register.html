@@ -54,7 +54,7 @@ nav.sub{position:sticky;top:0;z-index:5}nav.sub .in{flex-wrap:nowrap;overflow-x:
 <h1>Analog Shift Register</h1>
 <p class="aka">ASR · CGS34</p>
 <p class="summary">A three-stage bucket-brigade sample-and-hold: each clock pulse passes every held voltage on to the next output.</p>
-<dl class="facts"><dt>Design</dt><dd>Serge Tcherepnin; CGS34 by Ken Stone</dd><dt>Function</dt><dd>Sample &amp; hold</dd><dt>Panel widths</dt><dd>2&quot;</dd><dt>Build options</dt><dd>2</dd></dl>
+<dl class="facts"><dt>Design</dt><dd>Serge Tcherepnin; CGS34 by Ken Stone</dd><dt>Function</dt><dd>Sample &amp; hold</dd><dt>Panel widths</dt><dd>1&quot;, 2&quot;</dd><dt>Build options</dt><dd>2</dd></dl>
 <div class="chips"><a class="chip" href="#build-0">Prism Circuits</a><a class="chip" href="#build-1">Ken Stone (CGS)</a></div></div></div>
 <section id="panels"><h2>Panels in this repo</h2><div class="panels">
 <div class="panel">
@@ -63,6 +63,12 @@ nav.sub{position:sticky;top:0;z-index:5}nav.sub .in{flex-wrap:nowrap;overflow-x:
 <div class="panel">
 <a href="../Modern/Images/Module/Dual_Analog_Shift_Register.png"><img src="../Modern/Images/Module/Dual_Analog_Shift_Register.png" alt="SMMS dual"></a>
 <h3>SMMS dual</h3><div class="files"><a href="../Modern/Images/Module/Dual_Analog_Shift_Register.png">PNG</a> · <a href="../Modern/Vector%20Graphics/Module/Dual_Analog_Shift_Register.svg">SVG</a> · <a href="../Modern/Drill%20Templates/Module/Dual_Analog_Shift_Register.pdf">Drill template (1:1 PDF)</a></div></div>
+<div class="panel">
+<a href="../Modern/Images/Module/ASR.png"><img src="../Modern/Images/Module/ASR.png" alt="STS / modern"></a>
+<h3>STS / modern</h3><div class="files"><a href="../Modern/Images/Module/ASR.png">PNG</a> · <a href="../Modern/Vector%20Graphics/Module/ASR.svg">SVG</a> · <a href="../Modern/Drill%20Templates/Module/ASR.pdf">Drill template (1:1 PDF)</a></div></div>
+<div class="panel">
+<a href="../CGS/Images/ASR_HumanComparator.png"><img src="../CGS/Images/ASR_HumanComparator.png" alt="The Human Comparator"></a>
+<h3>The Human Comparator</h3><div class="files"><a href="../CGS/Images/ASR_HumanComparator.png">PNG</a> · <a href="../CGS/Vector%20Graphics/ASR_HumanComparator.svg">SVG</a> · <a href="../CGS/Drill%20Templates/ASR_HumanComparator.pdf">Drill template (1:1 PDF)</a></div></div>
 </div></section>
 <section id="how"><h2>How it works</h2><p>On each clock pulse the first stage samples the input, and each stage hands its held voltage to the next. The outputs give the current value and the two before it, so a single melody turns into a three-part canon.</p><p>A built-in gate-to-trigger converter gives its own pulse output for clocking other modules. Some resistor pairs need matching for accuracy.</p></section>
 <section id="controls"><h2>Controls and jacks</h2><table><tr><th>Name</th><th>Type</th><th>What it does</th></tr><tr><td>SAMPLE IN</td><td>input</td><td>Voltage to be sampled.</td></tr><tr><td>PULSE / clock</td><td>input</td><td>Shifts the register.</td></tr><tr><td>OUTPUTS 1-3</td><td>outputs</td><td>Current and earlier samples.</td></tr><tr><td>PULSE OUT</td><td>output</td><td>Trigger from the clock.</td></tr></table>
@@ -94,6 +100,8 @@ nav.sub{position:sticky;top:0;z-index:5}nav.sub .in{flex-wrap:nowrap;overflow-x:
 <section id="hardware"><h2>Panel hardware</h2><p>Front-panel parts for each panel in this repo, counted from the panel files. Board parts (resistors, ICs, trimmers) are in each build option's own BOM.</p>
 <h3 class="hw">Paperface (1973)</h3><table><tr><th>Part</th><th>Qty</th><th>Note</th></tr><tr><td>Banana jack, colour not recorded</td><td>9</td><td>4 mm</td></tr></table>
 <h3 class="hw">SMMS dual</h3><table><tr><th>Part</th><th>Qty</th><th>Note</th></tr><tr><td>Banana jack, blue</td><td>8</td><td>4 mm</td></tr><tr><td>Banana jack, red</td><td>4</td><td>4 mm</td></tr><tr><td>Mounting screw</td><td>4</td><td>panel to rails</td></tr></table>
+<h3 class="hw">STS / modern</h3><table><tr><th>Part</th><th>Qty</th><th>Note</th></tr><tr><td>Banana jack, blue</td><td>4</td><td>4 mm</td></tr><tr><td>Banana jack, red</td><td>2</td><td>4 mm</td></tr><tr><td>Mounting screw</td><td>2</td><td>panel to rails</td></tr><tr><td>Potentiometer + knob</td><td>1</td><td>value from the board BOM</td></tr></table>
+<h3 class="hw">The Human Comparator</h3><table><tr><th>Part</th><th>Qty</th><th>Note</th></tr><tr><td>Banana jack, black</td><td>6</td><td>4 mm</td></tr><tr><td>Banana jack, red</td><td>1</td><td>4 mm</td></tr><tr><td>Mounting screw</td><td>2</td><td>panel to rails</td></tr><tr><td>Potentiometer + knob</td><td>1</td><td>value from the board BOM</td></tr></table>
 </section>
 <section id="docs"><h2>Original documentation</h2><ul><li><a href="../Documentation/1973_Paper_Face_Modules_First_Users_Guide.pdf">1973 paperface modules: first user&#x27;s guide</a></li></ul></section>
 <footer>Panel artwork is from this repo, drawn after the original Serge panels. Schematics, BOMs and PCBs belong to their designers and sellers and are linked, not copied. Generated by Modules/_source/make_pages.py.</footer></main></body></html>

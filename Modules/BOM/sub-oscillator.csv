@@ -1,0 +1,6 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (CGS),Panel hardware,"Banana jack, black",4,4 mm,,,
+All builds,Front panel (CGS),Panel hardware,Potentiometer + knob,9,value from the board BOM,,,
+All builds,Front panel (CGS),Panel hardware,Toggle switch,2,type from the board BOM,,,
+All builds,Front panel (CGS),Panel hardware,Knob,9,one per pot,,,
+Ken Stone CGS01 Sub-oscillator / harmonic sequencer,Board,,See the maker's BOM,,Parts list on Ken Stone's page and in Elby's datasheet / build guide - https://open4umodular.github.io/synthpanel/modules/cgs01_subosc.html,,,

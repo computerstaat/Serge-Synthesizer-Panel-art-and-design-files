@@ -1,0 +1,8 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (STS / modern),Panel hardware,"Banana jack, black",2,4 mm,,,
+All builds,Front panel (STS / modern),Panel hardware,"Banana jack, blue",5,4 mm,,,
+All builds,Front panel (STS / modern),Panel hardware,"Banana jack, red",3,4 mm,,,
+All builds,Front panel (STS / modern),Panel hardware,LED,1,,,,
+All builds,Front panel (STS / modern),Panel hardware,Potentiometer + knob,2,value from the board BOM,,,
+All builds,Front panel (STS / modern),Panel hardware,Knob,2,one per pot,,,
+Low-Gain LGE009 V2 Random Source Generator (RSG),Board,,See the maker's BOM,,LGE009 V2 Random Source Generator (RSG) Mouser cart - https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=2f59319219,,,

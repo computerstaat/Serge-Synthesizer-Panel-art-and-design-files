@@ -1,0 +1,5 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (STS / modern),Panel hardware,"Banana jack, red",8,4 mm,,,
+All builds,Front panel (STS / modern),Panel hardware,Knob,0,one per pot,,,
+Ken Stone CGS36 Pulse Divider and Boolean Logic,Board,,See the maker's BOM,,Parts list on Ken Stone's page and in Elby's datasheet / build guide - https://open4umodular.github.io/synthpanel/modules/cgs36_pulse_divider.html,,,
+Low-Gain LGE038 Discrete Logic Gates,Board,,See the maker's BOM,,LGE038 Bill of Materials - https://drive.google.com/file/d/1KFuaGHrqsI8GeOYmfV5QxG4BQdWnsAi-/view,,,

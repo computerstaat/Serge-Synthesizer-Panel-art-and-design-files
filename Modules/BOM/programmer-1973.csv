@@ -1,0 +1,6 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour not recorded",8,4 mm,,,
+All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,12,value from the board BOM,,,
+All builds,Front panel (Paperface (1973)),Panel hardware,Push button,4,,,,
+All builds,Front panel (Paperface (1973)),Panel hardware,Knob,12,one per pot,,,
+Prism Circuits Programmer,Board,,See the maker's BOM,,BOM linked from the product page - https://prismcircuits.net/products/serge-modular-programmer,,,

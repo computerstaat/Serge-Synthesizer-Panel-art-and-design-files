@@ -1,0 +1,5 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (STS / modern),Panel hardware,"Banana jack, blue",4,4 mm,,,
+All builds,Front panel (STS / modern),Panel hardware,Potentiometer + knob,4,value from the board BOM,,,
+All builds,Front panel (STS / modern),Panel hardware,Knob,4,one per pot,,,
+Low-Gain LGE011 Mix Pro / Processor,Board,,See the maker's BOM,,LGE011 Bill of Materials - https://drive.google.com/file/d/1C6zveyAaQoRxJZgp-eODINEPem2VaObu/view,,,

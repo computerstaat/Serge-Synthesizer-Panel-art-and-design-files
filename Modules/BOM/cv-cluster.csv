@@ -1,0 +1,4 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (CGS),Panel hardware,"Banana jack, blue",8,4 mm,,,
+All builds,Front panel (CGS),Panel hardware,Knob,0,one per pot,,,
+Ken Stone CGS37 CV Cluster,Board,,See the maker's BOM,,Parts list on Ken Stone's page and in Elby's datasheet / build guide - https://open4umodular.github.io/synthpanel/modules/cgs37_cv_cluster.html,,,

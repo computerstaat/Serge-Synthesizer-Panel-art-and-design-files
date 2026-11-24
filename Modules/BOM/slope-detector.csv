@@ -1,0 +1,7 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (CGS),Panel hardware,"Banana jack, blue",1,4 mm,,,
+All builds,Front panel (CGS),Panel hardware,"Banana jack, red",3,4 mm,,,
+All builds,Front panel (CGS),Panel hardware,LED,3,,,,
+All builds,Front panel (CGS),Panel hardware,Potentiometer + knob,1,value from the board BOM,,,
+All builds,Front panel (CGS),Panel hardware,Knob,1,one per pot,,,
+Ken Stone CGS62 Slope Detector,Board,,See the maker's BOM,,Parts list on Ken Stone's page and in Elby's datasheet / build guide - https://open4umodular.github.io/synthpanel/modules/cgs62_sd.html,,,
