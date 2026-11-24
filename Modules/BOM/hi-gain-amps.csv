@@ -1,0 +1,5 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (Paperface (1973)),Panel hardware,"Banana jack, colour not recorded",10,4 mm,,,
+All builds,Front panel (Paperface (1973)),Panel hardware,Potentiometer + knob,2,value from the board BOM,,,
+All builds,Front panel (Paperface (1973)),Panel hardware,Knob,2,one per pot,,,
+Prism Circuits Preamp,Board,,See the maker's BOM,,BOM linked from the product page - https://prismcircuits.net/products/serge-modular-preamp,,,

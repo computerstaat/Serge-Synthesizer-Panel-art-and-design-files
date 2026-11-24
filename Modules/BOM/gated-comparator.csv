@@ -1,0 +1,8 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (CGS (Catgirl)),Panel hardware,"Banana jack, blue",6,4 mm,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,"Banana jack, red",12,4 mm,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,LED,9,,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,Potentiometer + knob,11,value from the board BOM,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,Toggle switch,2,type from the board BOM,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,Knob,11,one per pot,,,
+Ken Stone CGS13 Gated Comparator,Board,,See the maker's BOM,,Parts list on Ken Stone's page and in Elby's datasheet / build guide - https://open4umodular.github.io/synthpanel/modules/cgs13v2_gated_comparator.html,,,

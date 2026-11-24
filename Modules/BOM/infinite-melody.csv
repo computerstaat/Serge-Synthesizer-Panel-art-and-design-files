@@ -1,0 +1,7 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (CGS),Panel hardware,"Banana jack, blue",9,4 mm,,,
+All builds,Front panel (CGS),Panel hardware,"Banana jack, red",4,4 mm,,,
+All builds,Front panel (CGS),Panel hardware,LED,1,,,,
+All builds,Front panel (CGS),Panel hardware,Potentiometer + knob,10,value from the board BOM,,,
+All builds,Front panel (CGS),Panel hardware,Knob,10,one per pot,,,
+Ken Stone CGS32 Infinite Melody,Board,,See the maker's BOM,,Parts list on Ken Stone's page and in Elby's datasheet / build guide - https://open4umodular.github.io/synthpanel/modules/cgs32_infinite_melody.html,,,

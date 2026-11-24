@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sequential Switch | Serge module build page</title><style>
+:root{--ink:#1d1d1b;--muted:#6b6b66;--line:#e2ded5;--bg:#f6f4ee;--card:#fff;--accent:#b3261e;--ok:#2f7d32;--wait:#9a6a00;--no:#8a8a85}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--accent)}
+header.top{position:sticky;top:0;z-index:5;background:var(--ink);color:#fff}
+header.top .in{max-width:1120px;margin:0 auto;padding:10px 20px;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+header.top a{color:#fff;text-decoration:none;font-size:.9rem;opacity:.85}header.top a:hover{opacity:1}
+header.top .brand{font-weight:700;opacity:1;margin-right:auto}
+nav.sub{background:#fff;border-bottom:1px solid var(--line)}nav.sub .in{max-width:1120px;margin:0 auto;padding:8px 20px;display:flex;gap:18px;flex-wrap:wrap}
+nav.sub a{font-size:.88rem;text-decoration:none}
+main{max-width:1120px;margin:0 auto;padding:28px 20px 64px}
+.hero{display:grid;grid-template-columns:minmax(220px,300px) 1fr;gap:36px;align-items:start}
+.hero .art{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:center}
+.hero .art img{max-width:100%;max-height:640px}
+h1{font-size:2.3rem;line-height:1.15;margin:0 0 6px}.aka{color:var(--muted);margin:0 0 14px}
+.summary{font-size:1.15rem;margin:0 0 18px}
+.facts{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;font-size:.95rem;margin:0 0 18px}
+.facts dt{color:var(--muted)}.facts dd{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:.88rem;text-decoration:none;color:var(--ink)}
+section{margin-top:44px}h2{font-size:1.35rem;margin:0 0 14px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
+.panels{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;width:220px}
+.panel img{display:block;height:300px;max-width:100%;margin:0 auto 10px;object-fit:contain}
+.panel h3{font-size:.95rem;margin:0 0 6px}.files{font-size:.85rem}
+table{border-collapse:collapse;width:100%;background:var(--card);border:1px solid var(--line)}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.82rem;color:var(--muted);background:#faf9f5}
+.builds{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:18px}
+.build{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.build h3{margin:0 0 2px;font-size:1.08rem}.build .maker{color:var(--muted);font-size:.9rem;margin:0 0 12px}
+.build dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 14px;margin:0 0 12px;font-size:.93rem}.build dt{color:var(--muted)}.build dd{margin:0}
+.boards{margin:0 0 12px;padding-left:18px;font-size:.92rem}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:4px;padding:1px 6px;margin-right:6px;color:#fff}
+.pill.available{background:var(--ok)}.pill.listed{background:var(--wait)}.pill.none{background:var(--no)}
+.note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:8px;padding:10px 12px;font-size:.9rem;margin:8px 0 0}
+.licence{font-size:.85rem;color:var(--muted);margin-top:14px}
+h3.hw{font-size:1rem;margin:18px 0 8px}
+footer{margin-top:56px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
+.idx td img{height:110px}
+.find{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0 10px}
+.find input,.find select{font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:#fff}.find input{flex:1;min-width:220px}
+.cnt{color:var(--muted);font-size:.9rem}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.chip{font:inherit;font-size:.85rem;border:1px solid var(--line);background:#fff;border-radius:99px;padding:3px 12px;cursor:pointer}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.mk{display:inline-block;font-size:.78rem;background:#efece4;border-radius:99px;padding:1px 9px;margin:2px 2px 2px 0;white-space:nowrap}
+@media(max-width:760px){.hm{display:none}table.idx td:nth-child(3){display:none}.hero{grid-template-columns:1fr}.hero .art img{max-height:380px}
+.panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.panel{width:auto;min-width:0;padding:8px}.panel img{height:180px;width:100%}.panel b,.panel a{font-size:.85rem}
+nav.sub{position:sticky;top:0;z-index:5}nav.sub .in{flex-wrap:nowrap;overflow-x:auto;gap:16px;white-space:nowrap}}
+</style></head><body>
+<header class="top"><div class="in"><a class="brand" href="../index.html">Serge DIY</a><a href="index.html">Build a module</a><a href="../panel-builder.html">Build a panel</a><a href="../boms.html">Parts &amp; BOMs</a><a href="../sources.html">PCB sources</a><a href="../panels.html">Panel art</a><a href="../systems.html">Systems</a><a href="../documentation.html">Library</a></div></header><nav class="sub"><div class="in"><a href="#panels">Panels</a><a href="#how">How it works</a><a href="#controls">Controls</a><a href="#build">Build options</a><a href="#bom">BOM</a><a href="#hardware">Panel hardware</a><a href="#docs">Documents</a></div></nav>
+<main>
+<div class="hero"><div class="art"><img src="../CGS/Images/Sequential_Switch.png" alt="Sequential Switch panel"></div><div>
+<h1>Sequential Switch</h1>
+<p class="aka">CGS28 · CGS328</p>
+<p class="summary">Steps a common input or output through a set of positions on each clock pulse, for switching between sources or building simple sequences.</p>
+<dl class="facts"><dt>Design</dt><dd>Ken Stone (CGS28); Prism Circuits and Low-Gain versions</dd><dt>Function</dt><dd>Switch / sequencer</dd><dt>Panel widths</dt><dd>2&quot;, 4&quot;</dd><dt>Build options</dt><dd>3</dd></dl>
+<div class="chips"><a class="chip" href="#build-0">Ken Stone (CGS)</a><a class="chip" href="#build-1">Prism Circuits</a><a class="chip" href="#build-2">Low-Gain</a></div></div></div>
+<section id="panels"><h2>Panels in this repo</h2><div class="panels">
+<div class="panel">
+<a href="../CGS/Images/Sequential_Switch.png"><img src="../CGS/Images/Sequential_Switch.png" alt="CGS (Catgirl)"></a>
+<h3>CGS (Catgirl)</h3><div class="files"><a href="../CGS/Images/Sequential_Switch.png">PNG</a> · <a href="../CGS/Vector%20Graphics/Sequential_Switch.svg">SVG</a> · <a href="../CGS/Drill%20Templates/Sequential_Switch.pdf">Drill template (1:1 PDF)</a></div></div>
+<div class="panel">
+<a href="../CGS/Images/Sequential_Switch_CV.png"><img src="../CGS/Images/Sequential_Switch_CV.png" alt="CGS (Catgirl), with CV"></a>
+<h3>CGS (Catgirl), with CV</h3><div class="files"><a href="../CGS/Images/Sequential_Switch_CV.png">PNG</a> · <a href="../CGS/Vector%20Graphics/Sequential_Switch_CV.svg">SVG</a> · <a href="../CGS/Drill%20Templates/Sequential_Switch_CV.pdf">Drill template (1:1 PDF)</a></div></div>
+</div></section>
+<section id="how"><h2>How it works</h2><p>Each clock pulse moves the switch to the next position, like a rotary switch turned by a pulse; it passes audio or control voltages in either direction, so it can pick one of several inputs or send one input to several outputs.</p><p>Reset returns it to the first position and the up/down control sets the direction; an inhibit input stops it stepping. With knobs on the positions and an LFO on the clock it becomes a small voltage sequencer.</p></section>
+<section id="controls"><h2>Controls and jacks</h2><table><tr><th>Name</th><th>Type</th><th>What it does</th></tr><tr><td>1 to 8</td><td>jacks</td><td>Switch positions, with LEDs.</td></tr><tr><td>OUT, INVERTED</td><td>outputs</td><td>Common output and its inverse (CGS panels).</td></tr><tr><td>CLOCK</td><td>input</td><td>Steps the switch.</td></tr><tr><td>RESET</td><td>input / button</td><td>Back to position 1.</td></tr><tr><td>UP / DOWN</td><td>input / switch</td><td>Direction.</td></tr><tr><td>INHIBIT</td><td>input</td><td>Holds the current position.</td></tr></table>
+<p class="note">The CGS panels have eight positions; the Prism and Low-Gain boards switch four, so check the stage count of the board you choose.</p>
+</section>
+<section id="build"><h2>Build options</h2><div class="builds">
+<div class="build" id="build-0"><h3><a href="https://open4umodular.github.io/synthpanel/modules/cgs28_seq_switch.html">Ken Stone CGS28 Sequential Switch</a></h3><p class="maker"><a href="https://open4umodular.github.io/synthpanel/modules/index.html">Ken Stone (CGS)</a></p><dl>
+<dt>Offered as</dt><dd>PCB from Elby Designs; schematic, parts list and construction notes on Ken Stone&#x27;s page and in Elby&#x27;s datasheet</dd>
+<dt>PCB</dt><dd><a href="https://www.elby-designs.com/contents/en-au/d6.html">Elby Designs</a>: <a href="https://www.elby-designs.com/contents/en-au/p1429_CGS328---Sequential-Switch.html">CGS328 Sequential Switch</a></dd>
+<dt>Schematic</dt><dd><span class="pill available">available</span><a href="https://open4umodular.github.io/synthpanel/modules/cgs28_seq_switch.html">CGS28 Sequential Switch schematic</a></dd><dt>BOM</dt><dd><span class="pill available">available</span><a href="https://open4umodular.github.io/synthpanel/modules/cgs28_seq_switch.html">Parts list on Ken Stone&#x27;s page and in Elby&#x27;s datasheet / build guide</a></dd>
+</dl>
+</div>
+<div class="build" id="build-1"><h3><a href="https://prismcircuits.net/products/serge-modular-sequential-switch">Prism Circuits Sequential Switch</a></h3><p class="maker"><a href="https://prismcircuits.net/">Prism Circuits</a></p><dl>
+<dt>Offered as</dt><dd>PCB for a 4U paperface panel</dd>
+<dt>Format</dt><dd>4U Serge, paperface</dd>
+<dt>Schematic</dt><dd><span class="pill none">not published</span>Not published by Prism</dd><dt>BOM</dt><dd><span class="pill available">available</span><a href="https://prismcircuits.net/products/serge-modular-sequential-switch">BOM linked from the product page</a></dd>
+</dl>
+<p class="note">Four inputs/outputs and a common; the stage count can be set to 2, 3 or 4.</p>
+<p class="note">Prism&#x27;s product page also links its own panel art; that artwork is Prism&#x27;s and is not copied here.</p>
+</div>
+<div class="build" id="build-2"><h3><a href="https://www.low-gain.com/shop/p/lge020">Low-Gain LGE020 Sequential Switch (4:1)</a></h3><p class="maker"><a href="https://www.low-gain.com/">Low-Gain</a></p><dl>
+<dt>Offered as</dt><dd>Assembled module or DIY PCBs</dd>
+<dt>Format</dt><dd>4U Serge, Loudest Warning-style mounting</dd>
+<dt>Schematic</dt><dd><span class="pill available">available</span><a href="https://drive.google.com/file/d/1In7rhu0z4xO0MOHpLbiVEx9iazp-fyYg/view">LGE020 V3 Main Board Schematic</a></dd><dt>BOM</dt><dd><span class="pill available">available</span><a href="https://drive.google.com/file/d/1TN6KvSMvGIwF2-DlKiEuIDoNpcUphgWd/view">LGE020 V3 Bill of Materials</a></dd>
+<dt>Documents</dt><dd><a href="https://drive.google.com/file/d/1TN6KvSMvGIwF2-DlKiEuIDoNpcUphgWd/view">LGE020 V3 Bill of Materials</a><br><a href="https://drive.google.com/file/d/1In7rhu0z4xO0MOHpLbiVEx9iazp-fyYg/view">LGE020 V3 Main Board Schematic</a></dd>
+</dl>
+<p class="note">A 1 x 4 bidirectional switch with a stage switch for 2, 3 or 4 positions.</p>
+<p class="note">Low-Gain boards set their own jack positions; check them against the panel you use.</p>
+</div>
+</div><p class="licence">Ken Stone&#x27;s Serge-derived designs may be built for personal use only; Serge Tcherepnin keeps all rights to his circuits. Schematics, parts lists and PCBs belong to their designers and sellers, so these pages link to them rather than copying them.</p></section>
+<section id="bom"><h2>Bill of materials</h2><p>Spreadsheet: <a href="BOM/sequential-switch.csv">sequential-switch.csv</a> (CSV; opens in Excel, Numbers or Google Sheets). It lists the parts for every build option: Ken Stone's parts lists, and the parts data from Low-Gain's, Prism's and Elby's own BOMs where they publish one.</p>
+<details open><summary><b>All builds</b> (6 lines)</summary><table><tr><th>Section</th><th>Type</th><th>Value / part</th><th>Qty</th><th>Notes</th></tr><tr><td>Front panel (CGS (Catgirl))</td><td>Panel hardware</td><td>Banana jack, blue</td><td>2</td><td>4 mm</td></tr><tr><td>Front panel (CGS (Catgirl))</td><td>Panel hardware</td><td>Banana jack, red</td><td>12</td><td>4 mm</td></tr><tr><td>Front panel (CGS (Catgirl))</td><td>Panel hardware</td><td>LED</td><td>8</td><td></td></tr><tr><td>Front panel (CGS (Catgirl))</td><td>Panel hardware</td><td>Push button</td><td>1</td><td></td></tr><tr><td>Front panel (CGS (Catgirl))</td><td>Panel hardware</td><td>Toggle switch</td><td>1</td><td>type from the board BOM</td></tr><tr><td>Front panel (CGS (Catgirl))</td><td>Panel hardware</td><td>Knob</td><td>0</td><td>one per pot</td></tr></table></details>
+<details><summary><b>Ken Stone CGS28 Sequential Switch</b> (1 lines)</summary><table><tr><th>Section</th><th>Type</th><th>Value / part</th><th>Qty</th><th>Notes</th></tr><tr><td>Board</td><td></td><td>See the maker&#x27;s BOM</td><td></td><td>Parts list on Ken Stone&#x27;s page and in Elby&#x27;s datasheet / build guide - https://open4umodular.github.io/synthpanel/modules/cgs28_seq_switch.html</td></tr></table></details>
+<details><summary><b>Prism Circuits Sequential Switch</b> (1 lines)</summary><table><tr><th>Section</th><th>Type</th><th>Value / part</th><th>Qty</th><th>Notes</th></tr><tr><td>Board</td><td></td><td>See the maker&#x27;s BOM</td><td></td><td>BOM linked from the product page - https://prismcircuits.net/products/serge-modular-sequential-switch</td></tr></table></details>
+<details><summary><b>Low-Gain LGE020 Sequential Switch (4:1)</b> (1 lines)</summary><table><tr><th>Section</th><th>Type</th><th>Value / part</th><th>Qty</th><th>Notes</th></tr><tr><td>Board</td><td></td><td>See the maker&#x27;s BOM</td><td></td><td>LGE020 V3 Bill of Materials - https://drive.google.com/file/d/1TN6KvSMvGIwF2-DlKiEuIDoNpcUphgWd/view</td></tr></table></details>
+</section>
+<section id="hardware"><h2>Panel hardware</h2><p>Front-panel parts for each panel in this repo, counted from the panel files. Board parts (resistors, ICs, trimmers) are in each build option's own BOM.</p>
+<h3 class="hw">CGS (Catgirl)</h3><table><tr><th>Part</th><th>Qty</th><th>Note</th></tr><tr><td>Banana jack, blue</td><td>2</td><td>4 mm</td></tr><tr><td>Banana jack, red</td><td>12</td><td>4 mm</td></tr><tr><td>LED</td><td>8</td><td></td></tr><tr><td>Mounting screw</td><td>4</td><td>panel to rails</td></tr><tr><td>Push button</td><td>1</td><td></td></tr><tr><td>Toggle switch</td><td>1</td><td>type from the board BOM</td></tr></table>
+<h3 class="hw">CGS (Catgirl), with CV</h3><table><tr><th>Part</th><th>Qty</th><th>Note</th></tr><tr><td>Banana jack, blue</td><td>10</td><td>4 mm</td></tr><tr><td>Banana jack, red</td><td>12</td><td>4 mm</td></tr><tr><td>LED</td><td>8</td><td></td></tr><tr><td>Mounting screw</td><td>4</td><td>panel to rails</td></tr><tr><td>Potentiometer + knob</td><td>8</td><td>value from the board BOM</td></tr><tr><td>Push button</td><td>1</td><td></td></tr><tr><td>Toggle switch</td><td>1</td><td>type from the board BOM</td></tr></table>
+</section>
+<footer>Panel artwork is from this repo, drawn after the original Serge panels. Schematics, BOMs and PCBs belong to their designers and sellers and are linked, not copied. Generated by Modules/_source/make_pages.py.</footer></main></body></html>

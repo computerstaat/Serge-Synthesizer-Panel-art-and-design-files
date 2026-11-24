@@ -407,7 +407,7 @@ def main():
     def matrix(link_prefix="Modules/"):
         rows = []
         for m in sorted(mods, key=lambda m: m["name"]):
-            mk = {b["maker"] for b in m["builds"]}
+            mk = {"kenstone" if b["maker"] == "elby" else b["maker"] for b in m["builds"]}  # Elby-only boards share the Ken Stone / CGS column
             cells = "".join('<td class="c hide">%s</td>' % ('<span class="y">&#10003;</span>' if k in mk else '<span class="n">&ndash;</span>') for k in order)
             mf = mfiles.get(m["slug"], [])
             mcell = "".join('<a class="tag ok" href="%sBOM/mouser/%s__%s.csv">%s</a>' % (link_prefix, m["slug"], b, e(b.upper().replace("_", " ")))

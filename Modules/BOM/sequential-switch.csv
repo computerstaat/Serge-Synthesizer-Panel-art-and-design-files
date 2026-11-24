@@ -1,0 +1,10 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (CGS (Catgirl)),Panel hardware,"Banana jack, blue",2,4 mm,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,"Banana jack, red",12,4 mm,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,LED,8,,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,Push button,1,,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,Toggle switch,1,type from the board BOM,,,
+All builds,Front panel (CGS (Catgirl)),Panel hardware,Knob,0,one per pot,,,
+Ken Stone CGS28 Sequential Switch,Board,,See the maker's BOM,,Parts list on Ken Stone's page and in Elby's datasheet / build guide - https://open4umodular.github.io/synthpanel/modules/cgs28_seq_switch.html,,,
+Prism Circuits Sequential Switch,Board,,See the maker's BOM,,BOM linked from the product page - https://prismcircuits.net/products/serge-modular-sequential-switch,,,
+Low-Gain LGE020 Sequential Switch (4:1),Board,,See the maker's BOM,,LGE020 V3 Bill of Materials - https://drive.google.com/file/d/1TN6KvSMvGIwF2-DlKiEuIDoNpcUphgWd/view,,,

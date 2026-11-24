@@ -1,0 +1,8 @@
+Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,Front panel (STS / modern),Panel hardware,"Banana jack, black",4,4 mm,,,
+All builds,Front panel (STS / modern),Panel hardware,"Banana jack, blue",4,4 mm,,,
+All builds,Front panel (STS / modern),Panel hardware,"Banana jack, red",1,4 mm,,,
+All builds,Front panel (STS / modern),Panel hardware,Potentiometer + knob,5,value from the board BOM,,,
+All builds,Front panel (STS / modern),Panel hardware,Toggle switch,2,type from the board BOM,,,
+All builds,Front panel (STS / modern),Panel hardware,Knob,5,one per pot,,,
+Elby Designs CGS414 COS-SIN Oscillator,Board,,See the maker's BOM,,In the CGS414 datasheet on the product page - https://www.elby-designs.com/contents/en-au/p1529_CGS414---Quadrature-Oscillator.html,,,

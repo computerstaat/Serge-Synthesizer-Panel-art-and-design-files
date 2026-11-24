@@ -1,4 +1,11 @@
 Build option,Section,Type,Value / part,Qty,Notes,Mouser part no.,Mouser link,Unit price
+All builds,"Front panel (STS / modern, 4 stage)",Panel hardware,"Banana jack, blue",5,4 mm,,,
+All builds,"Front panel (STS / modern, 4 stage)",Panel hardware,"Banana jack, red",14,4 mm,,,
+All builds,"Front panel (STS / modern, 4 stage)",Panel hardware,LED,4,,,,
+All builds,"Front panel (STS / modern, 4 stage)",Panel hardware,Potentiometer + knob,16,value from the board BOM,,,
+All builds,"Front panel (STS / modern, 4 stage)",Panel hardware,Push button,4,,,,
+All builds,"Front panel (STS / modern, 4 stage)",Panel hardware,Toggle switch,1,type from the board BOM,,,
+All builds,"Front panel (STS / modern, 4 stage)",Panel hardware,Knob,16,one per pot,,,
 Ken Stone CGS87 Programmer Sequencer,CGS87S board,Misc,Ferrite Bead,2,from https://open4umodular.github.io/synthpanel/modules/cgs87_prog.html,875-28L0138-70R-10,https://www.mouser.com/ProductDetail/875-28L0138-70R-10,0.45
 Ken Stone CGS87 Programmer Sequencer,CGS87S board,Resistor,330Ω,4,from https://open4umodular.github.io/synthpanel/modules/cgs87_prog.html,603-MFR-25FBF52-330R,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-330R,0.11
 Ken Stone CGS87 Programmer Sequencer,CGS87S board,Resistor,1k,4,from https://open4umodular.github.io/synthpanel/modules/cgs87_prog.html,603-MFR-25FBF52-1K,https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1K,0.1
@@ -39,3 +46,4 @@ Ken Stone CGS87 Programmer Sequencer,CGS87 board,Semiconductor,1N4148,40,from ht
 Ken Stone CGS87 Programmer Sequencer,CGS87 board,Semiconductor,BC547,8,from https://open4umodular.github.io/synthpanel/modules/cgs87_prog.html,512-BC547BTA,https://www.mouser.com/ProductDetail/512-BC547BTA,0.27
 Ken Stone CGS87 Programmer Sequencer,CGS87 board,Semiconductor,BC557,24,from https://open4umodular.github.io/synthpanel/modules/cgs87_prog.html,512-BC557BTA,https://www.mouser.com/ProductDetail/512-BC557BTA,0.28
 Ken Stone CGS87 Programmer Sequencer,CGS87 board,Misc,CGS87 PCB,1,from https://open4umodular.github.io/synthpanel/modules/cgs87_prog.html,,,
+Low-Gain LGE059 Discrete Programmable Sequencers,Board,,See the maker's BOM,,LGE059-4 Bill of Materials - https://drive.google.com/file/d/1HbLYG5aGSzmJnnB7ogZaMAh2TH9s7Vmk/view,,,
